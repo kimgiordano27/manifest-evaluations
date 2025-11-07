@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" android:installLocation="auto" package="com.PilotInstitute.AirplanePilotTrainingSimulator" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
+    <uses-feature android:name="android.hardware.vulkan.version" android:required="true"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR"/>
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM"/>
+    <queries>
+        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker"/>
+        <intent>
+            <action android:name="org.khronos.openxr.OpenXRRuntimeService"/>
+        </intent>
+        <intent>
+            <action android:name="org.khronos.openxr.OpenXRApiLayerService"/>
+        </intent>
+    </queries>
+    <uses-feature android:name="oculus.software.eye_tracking" android:required="true"/>
+    <uses-permission android:name="com.oculus.permission.EYE_TRACKING"/>
+    <permission android:name="com.PilotInstitute.AirplanePilotTrainingSimulator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.PilotInstitute.AirplanePilotTrainingSimulator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appCategory="game" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:enableOnBackInvokedCallback="false" android:extractNativeLibs="true" android:icon="@mipmap/app_icon" android:label="@string/app_name">
+        <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false"/>
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.ossplash.background" android:value="black"/>
+        <meta-data android:name="com.oculus.telemetry.project_guid" android:value="307b128a-9ac6-4393-acb1-679a550eda85"/>
+        <meta-data android:name="com.oculus.supportedDevices" android:value="quest2|questpro|eureka"/>
+        <meta-data android:name="unity.splash-mode" android:value="0"/>
+        <meta-data android:name="unity.splash-enable" android:value="true"/>
+        <meta-data android:name="unity.launch-fullscreen" android:value="true"/>
+        <meta-data android:name="unity.render-outside-safearea" android:value="true"/>
+        <meta-data android:name="notch.config" android:value="portrait|landscape"/>
+        <meta-data android:name="unity.auto-report-fully-drawn" android:value="true"/>
+        <meta-data android:name="unity.strip-engine-code" android:value="true"/>
+        <meta-data android:name="unity.auto-set-game-state" android:value="true"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerGameActivity" android:resizeableActivity="false" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="com.oculus.intent.category.VR"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vr.focusaware" android:value="true"/>
+            <meta-data android:name="notch_support" android:value="true"/>
+            <layout android:minHeight="300.0px" android:minWidth="400.0px"/>
+        </activity>
+        <provider android:authorities="com.PilotInstitute.AirplanePilotTrainingSimulator.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+    </application>
+</manifest>
