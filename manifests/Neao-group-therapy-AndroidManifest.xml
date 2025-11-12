@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" android:installLocation="auto" package="com.ForetellReality.Neao" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
+    <uses-feature android:glEsVersion="0x00030000"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-permission android:name="android.permission.MICROPHONE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.Write_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="oculus.software.handtracking" android:required="true"/>
+    <uses-permission android:name="com.oculus.permission.HAND_TRACKING"/>
+    <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API"/>
+    <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="false"/>
+    <uses-feature android:name="oculus.software.face_tracking" android:required="false"/>
+    <uses-permission android:name="com.oculus.permission.FACE_TRACKING"/>
+    <uses-feature android:name="oculus.software.eye_tracking" android:required="true"/>
+    <uses-permission android:name="com.oculus.permission.EYE_TRACKING"/>
+    <uses-permission android:name="com.oculus.permission.USE_SCENE"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.audio.low_latency" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.any" android:required="false"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND_MULTIPLE"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@mipmap/app_icon" android:label="@string/app_name" android:requestLegacyExternalStorage="true" android:usesCleartextTraffic="true">
+        <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false"/>
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.ossplash.background" android:value="passthrough-contextual"/>
+        <meta-data android:name="com.oculus.telemetry.project_guid" android:value="4d7bf6d1-f652-4150-aae0-df982348bd96"/>
+        <meta-data android:name="com.oculus.supportedDevices" android:value="quest2|questpro|quest3|quest3s"/>
+        <meta-data android:name="unity.splash-mode" android:value="0"/>
+        <meta-data android:name="unity.splash-enable" android:value="true"/>
+        <meta-data android:name="unity.launch-fullscreen" android:value="true"/>
+        <meta-data android:name="unity.render-outside-safearea" android:value="true"/>
+        <meta-data android:name="notch.config" android:value="portrait|landscape"/>
+        <meta-data android:name="unity.auto-report-fully-drawn" android:value="true"/>
+        <meta-data android:name="unity.auto-set-game-state" android:value="true"/>
+        <meta-data android:name="unity.strip-engine-code" android:value="true"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerGameActivity" android:resizeableActivity="true" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:usesCleartextTraffic="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="com.oculus.intent.category.VR"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vr.focusaware" android:value="true"/>
+            <meta-data android:name="WindowManagerPreference:FreeformWindowSize" android:value="@string/FreeformWindowSize_tablet"/>
+            <meta-data android:name="WindowManagerPreference:FreeformWindowOrientation" android:value="@string/FreeformWindowOrientation_landscape"/>
+            <meta-data android:name="notch_support" android:value="true"/>
+            <layout android:defaultHeight="1080.0px" android:defaultWidth="1920.0px" android:minHeight="300.0px" android:minWidth="400.0px"/>
+        </activity>
+        <meta-data android:name="io.sentry.auto-init" android:value="false"/>
+        <meta-data android:name="com.oculus.handtracking.frequency" android:value="LOW"/>
+        <meta-data android:name="com.oculus.always_draw_view_root" android:value="true"/>
+        <activity android:name="com.vuplex.webview.HelperActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab0" android:process=":tab0"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab1" android:process=":tab1"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab2" android:process=":tab2"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab3" android:process=":tab3"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab4" android:process=":tab4"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab5" android:process=":tab5"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab6" android:process=":tab6"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab7" android:process=":tab7"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab8" android:process=":tab8"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab9" android:process=":tab9"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab10" android:process=":tab10"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab11" android:process=":tab11"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab12" android:process=":tab12"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab13" android:process=":tab13"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab14" android:process=":tab14"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab15" android:process=":tab15"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab16" android:process=":tab16"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab17" android:process=":tab17"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab18" android:process=":tab18"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab19" android:process=":tab19"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab20" android:process=":tab20"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab21" android:process=":tab21"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab22" android:process=":tab22"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab23" android:process=":tab23"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab24" android:process=":tab24"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab25" android:process=":tab25"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab26" android:process=":tab26"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab27" android:process=":tab27"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab28" android:process=":tab28"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab29" android:process=":tab29"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab30" android:process=":tab30"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab31" android:process=":tab31"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab32" android:process=":tab32"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab33" android:process=":tab33"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab34" android:process=":tab34"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab35" android:process=":tab35"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab36" android:process=":tab36"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab37" android:process=":tab37"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab38" android:process=":tab38"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$tab39" android:process=":tab39"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.media.MediaManager" android:process=":media"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$gmplugin" android:process=":gmplugin"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$socket" android:process=":socket"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$gpu" android:process=":gpu"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$utility" android:process=":utility"/>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:name="org.mozilla.gecko.process.GeckoChildProcessServices$ipdlunittest" android:process=":ipdlunittest"/>
+        <provider android:authorities="com.ForetellReality.Neao.NativeShareContentProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.silvertau.nsrcorder.SilverTauContentProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.ForetellReality.Neao.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.ForetellReality.Neao.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
+        <provider android:authorities="com.ForetellReality.Neao.SentryPerformanceProvider" android:exported="false" android:initOrder="200" android:name="io.sentry.android.core.SentryPerformanceProvider"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+    </application>
+</manifest>

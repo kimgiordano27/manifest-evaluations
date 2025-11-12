@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:horizonos="http://schemas.horizonos/sdk" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:installLocation="auto" package="com.meta.worlds" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <horizonos:uses-horizonos-sdk horizonos:minSdkVersion="57" horizonos:targetSdkVersion="81"/>
+    <queries>
+        <package android:name="com.oculus.store"/>
+    </queries>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MICROPHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.oculus.vrshell.BugReportBroadcastReceiverPermission"/>
+    <uses-permission android:name="horizonos.permission.REPORT_EVENTS"/>
+    <uses-permission android:name="com.oculus.permission.PARFAIT_TRACE_CONTROL"/>
+    <uses-feature android:glEsVersion="0x00030000"/>
+    <uses-feature android:name="android.hardware.vulkan.level" android:required="true" android:version="0"/>
+    <uses-feature android:name="android.hardware.vulkan.version" android:required="true" android:version="0x00400003"/>
+    <uses-permission android:name="com.oculus.vrshell.permission.ACCESS_PRIVATE_IPC"/>
+    <uses-permission android:name="com.oculus.vrshell.permission.TRAVEL_PATHWAY_REQUESTS"/>
+    <uses-permission android:name="com.meta.rl.trust.service.permission.SHOW_CONSENT"/>
+    <uses-permission android:name="horizonos.permission.READ_SETTINGS"/>
+    <uses-feature android:name="oculus.software.overlay_keyboard" android:required="false"/>
+    <uses-feature android:name="com.oculus.experimental.enabled" android:required="true"/>
+    <uses-feature android:name="oculus.software.face_tracking" android:required="true"/>
+    <uses-permission android:name="com.oculus.permission.FACE_TRACKING"/>
+    <uses-feature android:name="oculus.software.eye_tracking" android:required="true"/>
+    <uses-permission android:name="com.oculus.permission.EYE_TRACKING"/>
+    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" android:required="true"/>
+    <uses-feature android:name="com.oculus.software.body_tracking"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
+    <uses-feature android:name="oculus.software.vr.app.hybrid" android:required="false"/>
+    <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="true"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.oculus.permission.MOUNT_WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.BOUNDARY_VISIBILITY"/>
+    <uses-permission android:name="com.oculus.permission.UPDATE_TELEMETRY_SESSIONS"/>
+    <uses-permission android:name="com.oculus.permission.REPORT_EVENTS_DEBUG"/>
+    <permission android:name="com.meta.worlds.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.meta.worlds.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.oculus.permission.BIND_PRESENCE_SERVICE"/>
+    <uses-permission android:name="com.oculus.permission.METADEVICECONFIG_RECEIVE_FROM_SERVICE"/>
+    <uses-permission android:name="com.oculus.permission.METADEVICECONFIG_RECEIVE_FROM_SERVICE_DEBUG"/>
+    <uses-permission android:name="com.oculus.permission.DEVICE_CONFIG_PUSH_TO_CLIENT"/>
+    <uses-permission android:name="com.oculus.permission.REPORT_EVENTS"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:label="Worlds">
+        <meta-data android:name="com.oculus.supportedDevices" android:value="all"/>
+        <meta-data android:name="com.oculus.vr.focusaware" android:value="true"/>
+        <uses-native-library android:name="libhexagon.so" android:required="false"/>
+        <uses-native-library android:name="libparfait.oculus.so" android:required="true"/>
+        <meta-data android:name="com.oculus.gpu_debuggable" android:value="true"/>
+        <meta-data android:name="com.oculus.sbcpath" android:value="files/pso_cache/pso_cache.bin"/>
+        <meta-data android:name="oculus_preferences_worlds" android:resource="@raw/preferences_schema"/>
+        <meta-data android:name="com.oculus.presence.fbpermission.GROUPING" android:value=""/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|density" android:excludeFromRecents="false" android:exported="true" android:launchMode="singleTask" android:name="com.socialvr.ClientActivity" android:resizeableActivity="false" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <meta-data android:name="android.app.lib_name" android:value="client_android"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.oculus.intent.category.VR"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:launchMode="singleInstance" android:name="com.socialvr.panelapp.UIActivity" android:resizeableActivity="false" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <layout android:defaultHeight="640.0dip" android:defaultWidth="1104.0dip"/>
+            <meta-data android:name="com.oculus.vrshell.supports_loading_state" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.loading_state_size" android:value="1104,640"/>
+            <meta-data android:name="com.oculus.vrshell.supports_free_resizing" android:value="false"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.oculus.intent.category.2D"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|density" android:exported="true" android:launchMode="singleTask" android:name="com.oculus.xrstreamingclient.MainActivity" android:process=":avalancheclient" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <meta-data android:name="android.app.lib_name" android:value="xrstreamingclient"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.oculus.intent.category.VR"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.oculus.xrstreamingclient.NetworkInterruptionActivity" android:screenOrientation="landscape" android:taskAffinity="com.oculus.xrstreamingclient.NetworkInterruptionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <meta-data android:name="com.oculus.vrshell.supports_free_resizing" android:value="false"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.oculus.intent.category.2D"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vr.focusaware" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.oculus.xrstreamingclient.NetworkUnstableActivity" android:taskAffinity="com.oculus.xrstreamingclient.NetworkUnstableActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <meta-data android:name="com.oculus.vrshell.supports_free_resizing" android:value="false"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.oculus.intent.category.2D"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vr.focusaware" android:value="true"/>
+        </activity>
+        <uses-native-library android:name="libOmxCore.so" android:required="false"/>
+        <uses-native-library android:name="libripcclient.oculus.so" android:required="true"/>
+        <service android:exported="true" android:name="com.meta.worlds.integrity.IntegrityService">
+            <intent-filter>
+                <action android:name="com.meta.worlds.integrity.BIND"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.socialvr.monetization.MonetizationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.socialvr.UNIFIED_PDP_STATUS"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="internalVersionName" android:value="53.1.0.11.105.142c72c4d14d 2025_11_05_12_27"/>
+        <meta-data android:name="com.facebook.build_id" android:value="819550396"/>
+        <meta-data android:name="com.oculus.dependency.required_os_version_name" android:value="78.0.0.0"/>
+        <provider android:authorities="com.meta.worlds.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.oculus.deviceconfig.PARAMS_MAP_PATH" android:value="assets/params_map.txt"/>
+        <receiver android:exported="true" android:name="com.oculus.deviceconfigclient.DeviceConfigClientReceiver" android:permission="com.oculus.permission.DEVICE_CONFIG_PUSH_TO_CLIENT">
+            <intent-filter>
+                <action android:name="oculus.intent.action.DC_SET_CLIENT_VALUES"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.oculus.deviceconfigclient.DeviceConfigClientDebugReceiver">
+            <intent-filter>
+                <action android:name="oculus.intent.action.DC_EXPORT_CLIENT_ACCESS_LOG"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oculus.intent.action.DC_EXPORT_CLIENT_CACHE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oculus.intent.action.DC_CLIENT_HISTORY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oculus.intent.action.DC_CLIENT_PREDICT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oculus.intent.action.DC_CLIENT_TROUBLESHOOT"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.facebook.video.heroplayer.service.HeroKeepAliveService"/>
+    </application>
+</manifest>
