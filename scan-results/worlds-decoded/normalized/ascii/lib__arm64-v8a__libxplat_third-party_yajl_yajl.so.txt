@@ -1,0 +1,141 @@
+0000020c Android
+00000218 r26b
+00000258 10909125
+000007bd __cxa_finalize
+000007cc __cxa_atexit
+000007d9 __register_atfork
+000007eb yajl_alloc
+000007f6 __stack_chk_fail
+00000807 yajl_config
+00000813 yajl_free
+0000081d yajl_parse
+00000828 yajl_complete_parse
+0000083c yajl_get_error
+0000084b yajl_free_error
+0000085b malloc
+00000862 free
+00000867 realloc
+0000086f memcpy
+00000876 __strlen_chk
+00000883 yajl_gen_alloc
+00000892 memset
+00000899 strlen
+000008a0 yajl_gen_free
+000008ae yajl_gen_integer
+000008bf __vsprintf_chk
+000008ce yajl_gen_double
+000008de strspn
+000008e5 __strcat_chk
+000008f2 yajl_gen_string
+00000902 yajl_gen_map_open
+00000914 yajl_gen_map_close
+00000927 yajl_gen_array_open
+0000093b yajl_gen_array_close
+00000950 yajl_gen_get_buf
+00000961 __errno
+00000969 strcat
+00000970 strtod
+00000977 abort
+0000097d yajl_tree_parse
+0000098d calloc
+00000994 __vsnprintf_chk
+000009a4 yajl_tree_get
+000009b2 strcmp
+000009b9 yajl_tree_free
+000009c8 libc.so
+000009d0 LIBC
+000009d5 libxplat_third-party_yajl_yajl.so
+00000c00 \u00
+00000c0c Out of memory
+00000c1a context_pop: Bottom of stack reached prematurely
+00000c4b integer overflow
+00000c5c numeric (floating point) overflow
+00000c7e unallowed token at this point in JSON text
+00000caf ok, no error
+00000cbc invalid token, internal error
+00000cdd unknown
+00000cec lexical
+00000cf4 %.20g
+00000d01 client cancelled parse via callback return value
+00000d32 parse
+00000d38 alse
+00000d3d trailing garbage
+00000d4e unknown error code
+00000d61 %lld
+00000d70 premature EOF
+00000d7e 0123456789ABCDEF
+00000d99 invalid char in json text.
+00000db4 invalid string in json text.
+00000dd1 inside a string, '\' occurs before a character which it may not.
+00000e12 malformed number, a digit is required after the decimal point.
+00000e51 malformed number, a digit is required after the exponent.
+00000e8b malformed number, a digit is required after the minus sign.
+00000ec7 invalid character inside string.
+00000ee8 invalid (non-hex) character occurs after '\u' inside string.
+00000f25 invalid bytes in UTF8 string.
+00000f43 probable comment found in input text, comments are not enabled.
+00000f83 0123456789-
+00000f91 context_add_value: Object key is not a string (%#04x)
+00000fc7 invalid object key (must be a string)
+00000fed context_add_value: Cannot add value to a value of type %#04x (not a composite type)
+00001041 object key and value must be separated by a colon (':')
+00001079 after key and value, inside map, I expect ',' or '}'
+000010ae after array element, I expect ',' or ']'
+000010da     
+000010e3                      (right here) ------^
+000020bc ?i(8
+00002165 jz8?1
+00002234 jij8iii8
+00002356 @9?q
+00002438 Kii8)
+0000247e @9?q
+000024a0 lij8J
+000024d7 3(A@
+00002a63 R	{(
+00003003 R	{(
+00003c8c 	hh8V
+00003d1d hh8)i
+00003dd8 	hh8(
+00003ee8 	hh8(
+00003f85 hh8)i
+00004071 hh8)i
+000043a8 ,ki8
+000043f4 -ki8
+00004440 Kii8
+00004494 mii8
+00004544 )ih8
+00004556 86		
+000047bd hh8(ih8
+000047dc (ih8h
+00004ab7 Ri*@
+00004b31 j xw
+00004ba0 Ki78
+00004bbf R	i7x
+00004cae _8*	
+00004e27 Thr@
+00004eb8 jyhx)	
+00004fdf 4h"@
+00005302 _8?%
+000053d8 7h(8a
+000057d1 j68#
+00005d9f *5y*
+00006369 .fini_array
+00006375 .text
+0000637b .got
+00006380 .note.android.ident
+00006394 .got.plt
+0000639d .rela.plt
+000063a7 .dynstr
+000063af .eh_frame_hdr
+000063bd .gnu.version_r
+000063cc .data.rel.ro
+000063d9 .relr.dyn
+000063e3 .gnu.version
+000063f0 .dynsym
+000063f8 .gnu.hash
+00006402 .relro_padding
+00006411 .eh_frame
+0000641b .note.gnu.build-id
+0000642e .dynamic
+00006437 .shstrtab
+00006441 .rodata

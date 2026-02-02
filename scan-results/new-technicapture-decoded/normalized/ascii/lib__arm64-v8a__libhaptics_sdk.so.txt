@@ -1,0 +1,3219 @@
+0000027c Android
+00000288 r25c
+000002c8 9519653
+00000e15 l}&~
+00000e4a 3b>f
+00001169 __cxa_finalize
+00001178 __cxa_atexit
+00001185 haptics_sdk_clip_duration
+0000119f haptics_sdk_create_player
+000011b9 haptics_sdk_error_message
+000011d3 haptics_sdk_error_message_length
+000011f4 haptics_sdk_get_null_backend_statistics
+0000121c haptics_sdk_initialize_logging
+0000123b haptics_sdk_initialize_with_callback_backend
+00001268 haptics_sdk_initialize_with_null_backend
+00001291 haptics_sdk_initialized
+000012a9 haptics_sdk_load_clip
+000012bf haptics_sdk_player_amplitude
+000012dc haptics_sdk_player_frequency_shift
+000012ff haptics_sdk_player_looping_enabled
+00001322 haptics_sdk_player_pause
+0000133b haptics_sdk_player_play
+00001353 haptics_sdk_player_priority
+0000136f haptics_sdk_player_resume
+00001389 haptics_sdk_player_set_amplitude
+000013aa haptics_sdk_player_set_clip
+000013c6 haptics_sdk_player_set_frequency_shift
+000013ed haptics_sdk_player_set_looping_enabled
+00001414 haptics_sdk_player_set_priority
+00001434 haptics_sdk_player_stop
+0000144c haptics_sdk_release_clip
+00001465 haptics_sdk_release_player
+00001480 haptics_sdk_set_override_acf
+0000149d haptics_sdk_uninitialize
+000014b6 haptics_sdk_version
+000014ca haptics_sdk_initialize_with_ovr_plugin
+000014f1 haptics_sdk_set_suspended
+0000150b haptics_sdk_suspended
+00001521 memmove
+00001529 memcpy
+00001530 strlen
+00001537 memset
+0000153e pthread_getspecific
+00001552 pthread_setspecific
+00001566 dlopen
+0000156d dlerror
+00001575 dlsym
+0000157b memcmp
+00001582 dlclose
+0000158a __android_log_write
+0000159e sched_get_priority_max
+000015b5 __errno
+000015bd sched_get_priority_min
+000015d4 pthread_setschedparam
+000015ea syscall
+000015f2 setpriority
+000015fe pthread_self
+0000160b pthread_getschedparam
+00001621 __assert2
+0000162b sinf
+00001630 close
+00001636 munmap
+0000163d open
+00001642 abort
+00001648 sched_yield
+00001654 nanosleep
+0000165e sysconf
+00001666 getcwd
+0000166d fstat
+00001673 write
+00001679 writev
+00001680 read
+00001685 stat
+0000168a strerror_r
+00001695 malloc
+0000169c memalign
+000016a5 free
+000016aa realpath
+000016b3 realloc
+000016bb calloc
+000016c2 getenv
+000016c9 getrandom
+000016d3 pthread_attr_init
+000016e5 pthread_attr_setstacksize
+000016ff pthread_create
+0000170e pthread_attr_destroy
+00001723 prctl
+00001729 pthread_join
+00001736 pthread_detach
+00001745 clock_gettime
+00001753 pthread_key_create
+00001766 pthread_key_delete
+00001779 mmap
+0000177e dl_iterate_phdr
+0000178e __sF
+00001793 fprintf
+0000179b fflush
+000017a2 pthread_rwlock_wrlock
+000017b8 pthread_rwlock_unlock
+000017ce pthread_rwlock_rdlock
+000017e4 fwrite
+000017eb libdl.so
+000017f4 LIBC
+000017f9 libm.so
+00001801 libc.so
+00001809 liblog.so
+00001813 libhaptics_sdk.so
+00021790 PoisonErrorGameEngineInfogame_enginegame_engine_versiongame_engine_sdk_versionovrplugin_versionFailed to suspend or wake up the runtime: ''1
+0002181d <<<<<<
+00021825 <<<<<<<<<,
+0002184f ?NoMemory (bytes L
+00021868 Priority
+00021878 duration
+00021898 emphasisAmpCurve
+000218b0 Sending Emphasis
+000218c7 >libc.so
+000218d0  column a stringinternal
+00021900 ThreadId@
+00021910 Box<Any>sequenceNotFoundDeadlock
+00021940 TimedOut
+00021960 setExtra(
+00021971 Thread 
+00021988 NulErrortrianglemetadatadeadlocklifetime
+000219b8 thread '
+000219c8 extern " 
+000219d8 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/waker.rsa Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rscalled `Result::unwrap()` on an `Err` valueError
+00021af6 "/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/flavors/zero.rsfailed to write whole buffer/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/io/mod.rsformatter errorcalled `Result::unwrap()` on an `Err` valueInitializing Haptics SDK from a game engine ()haptics_sdk_c_api_base::helpersbindings/c/base/src/helpers.rsHaptics SDK version  initialized1.0.0-beta.2Suspending or waking up the runtime, suspended = haptics_sdk_c_api_ovrbindings/c/ovr/src/lib.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/waker.rscalled `Result::unwrap()` on an `Err` value
+00021d98 fatal runtime error: thread result panicked on drop
+00021dd0 Uninitializing Haptics SDK
+00021df0 haptics_sdk_c_api_base::core_api__system_property_read_callback
+00021e50 assertion failed: idx < CAPACITYFailed to attach to JVM thread (invalid non-BMP unicode sequencelooking up jni method NewObjectAError detaching current thread: struct Envelopes with 2 elementshaptic_runtime::backend_callbackBackground channel disconnected.struct EmphasisFrequencySettingsxr_haptics_sdk_initialized_eventindex out of bounds: the len is core/runtime/src/backend_null.rslibrary/std/src/thread/scoped.rshaptic source not found with ID exception found, returning errorFailed to initialize telemetry: bindings/c/base/src/core_api.rshaptics_sdk_c_api_base::helpersbindings/c/base/src/helpers.rsHaptics SDK version  initialized1.0.0-beta.2
+000220e0 output_frequencyemphasis_ducking
+00022110 , emphasis amp: get_object_class
+00022140 no storage space
+00022180 assertion `left ovrp_GetVersion2PermissionDeniedF
+000221d0 IsAssignableFrom
+00022200 {invalid syntax}Attached thread entity not foundfloating point `0123456789abcdefNotNulTerminatedidentifier_start             at 
+000222a0 .debug_types.dwo
+000222c0 ) when slicing `AddrNotAvailableA panic occurredmodnarodsetybdetActuatorLocation
+00022320 field identifier
+00022340 fade_out_percentCallFloatMethodA
+00022370 Error occurred: InvalidArgumentsinvalid filenameZ
+000223b0 FindClass result, envelope amp: 
+00022410 connection reset right` failed: 	
+00022450 IncompatibleSizeNull pointer in 
+00022480 uespemosarenegyl
+000224c0 java/lang/String
+000224e0 CallShortMethodAhost unreachableMeta Quest Touchrange end index found jni methodUnicodeWordErrorstruct EnvelopesDetached thread 
+00022570 Tried to shrink to a larger capacity/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/raw_vec.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/flavors/zero.rscalled `Result::unwrap()` on an `Err` value
+0002267f Iinternal error: entered unreachable code: state is never set to invalid values/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/sync/once.rsPoisonErrorError logging message ' -> char id=dyn LongGot     INFOSomesineBothu128 ...LeftZeromut  <= nametimetrue
+00022790 null
+00022798 Char of for<kinds - (I)VcodeargsBooltextByte or 
+000227cc ) = enumdescWARNtags': 'gain--> i128Voidpair as bytevoidKind/
+0002280c boolNonelongshim'
+00022821 "/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/waker.rsfailed to write whole buffer/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/io/mod.rsformatter errorcalled `Result::unwrap()` on an `Err` valuefatal runtime error: thread result panicked on drop
+00022960 <<<<<<
+00022968 <<<<<<<<<,
+000229a1 a Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rsErrorhaptics_sdk_c_api_base::globalsbindings/c/base/src/globals.rs
+00022a6f <<<<<<
+00022a77 <<<<<<<<<,
+00022a9c "&,26
+00022ae6 a Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rsErrorAn error occurred during  initialization: ''HapticsSDKAn error occurred while creating the SDK backend: ' has already been initialized has already been uninitialized has not been initializedThe provided data was not valid UTF-8: 'An error occurred while parsing clip data: 'An error occurred while creating a clip player: 'Invalid haptic clip ID: Invalid haptic clip player ID: An error occurred while attempting to change a player's clip: 'An error occurred while attempting to play a clip: 'An error occurred while attempting to pause a clip: 'An error occurred while attempting to resume a clip: 'An error occurred while attempting to stop a clip: 'An error occurred while attempting to set the amplitude scale of a clip: 'An error occurred while attempting to set the frequency shift of a clip: 'An error occurred while attempting to enable or disable looped playback for a clip: 'An error occurred while attempting to set the priority of a clip: 'An error occurred while setting the override ACF: 'The instance could not be released: 'The backend could not be retrieved: 'The play callback pointer can not be null.OpenXR API error: 'OVRPlugin API error: 'bindings/c/base/src/indexed_storage.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/waker.rscalled `Result::unwrap()` on an `Err` value
+000230b0 : meta.xr.haptics.sdk.verbosejnihaptic_runtime::loggingHapticsSDKcore/runtime/src/logging.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/waker.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/flavors/array.rsinternal error: entered unreachable codecalled `Result::unwrap()` on an `Err` value
+0002325a /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/waker.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/context.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/flavors/zero.rsinternal error: entered unreachable codecalled `Result::unwrap()` on an `Err` value
+00023447 Can't convert tag to CString/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/android_logger-0.11.1/src/lib.rsinternal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/signature.rsfailed to write whole buffer/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/io/mod.rsformatter error/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/vec/mod.rsPrimitiveObjectArrayMethodBooleanDoubleFloatIntShortTypeSignatureret
+00023753 $6NUY_ls
+0002395d djpv
+00023962 =CIOU[agmsysawsquareduration_msshapefrequency_minfrequency_maxcontinuousstruct Acf with 2 elementsstruct EmphasisOscillatorSettings with 4 elementsstruct ContinuousOscillatorSettings with 4 elements/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/iterators/pair.rsinternal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/de.rsexpected a nonempty objectexpected a string or an objectWrongJValueTypeInvalidCtorReturnInvalidArgListMethodNotFoundsigFieldNotFoundJavaExceptionJNIEnvMethodNotFoundNullPtrNullDerefTryLockJavaVMMethodNotFoundFieldAlreadySetThrowFailedParseFailedJniCallUnexpectedParseEoiCharacterBoundaryPrimitiveObjectArrayMethodPhantomData<>&()TypeSignatureret..= (exhausted)error dropping global ref: jni::wrapper::objects::auto_local/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/objects/auto_local.rsSUCCESSSUCCESS_EVENT_UNAVAILABLESUCCESS_PENDINGFAILUREFAILURE_INVALID_PARAMETERFAILURE_NOT_INITIALIZEDFAILURE_INVALID_OPERATIONFAILURE_UNSUPPORTEDFAILURE_NOT_YET_IMPLEMENTEDFAILURE_OPERATION_FAILEDFAILURE_INSUFFICIENT_SIZEFAILURE_DATA_IS_INVALIDFAILURE_DEPRECATED_OPERATIONFAILURE_ERROR_LIMIT_REACHEDFAILURE_ERROR_INITIALIZATION_FAILEDFAILURE_SPACE_CLOUD_STORAGE_DISABLEDFAILURE_SPACE_MAPPING_INSUFFICIENTFAILURE_SPACE_LOCALIZATION_FAILEDFAILURE_SPACE_NETWORK_TIMEOUTFAILURE_SPACE_NETWORK_REQUEST_FAILEDFAILURE_UNKNOWNSUCCESS_UNKNOWN: 
+00023fc4 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/jnienv.rscalling checked jni method: FindClassjni::wrapper::jnienvlooking up jni method FindClassJNIEnv*JNIEnvjnienv method not defined, returning errorFindClasschecking for exceptioncalling unchecked jni method: ExceptionChecklooking up jni method ExceptionCheckExceptionCheckno exception foundcalling checked jni method: NewStringUTFlooking up jni method NewStringUTFNewStringUTFNewStringUTF resultcall_method obj argumentinternal error: entered unreachable code: JavaType::Method(_) should not come from parsing a method sigcalling checked jni method: GetMethodIDlooking up jni method GetMethodIDGetMethodIDGetMethodID resultcalling unchecked jni method: NewGlobalReflooking up jni method NewGlobalRefNewGlobalRefcalling unchecked jni method: DeleteLocalReflooking up jni method DeleteLocalRefDeleteLocalRefcalling unchecked jni method: GetObjectClasslooking up jni method GetObjectClassGetObjectClasscalling checked jni method: GetStaticMethodIDlooking up jni method GetStaticMethodIDGetStaticMethodIDGetStaticMethodID resultcalling checked jni method: NewObjectANewObjectANewObjectA resultcalling checked jni method: CallBooleanMethodAlooking up jni method CallBooleanMethodACallBooleanMethodAcalling checked jni method: CallByteMethodAlooking up jni method CallByteMethodACallByteMethodAcalling checked jni method: CallCharMethodAlooking up jni method CallCharMethodACallCharMethodAcalling checked jni method: CallDoubleMethodAlooking up jni method CallDoubleMethodACallDoubleMethodAcalling checked jni method: CallFloatMethodAlooking up jni method CallFloatMethodAcalling checked jni method: CallIntMethodAlooking up jni method CallIntMethodACallIntMethodAcalling checked jni method: CallLongMethodAlooking up jni method CallLongMethodACallLongMethodAcalling checked jni method: CallShortMethodAlooking up jni method CallShortMethodAcalling checked jni method: CallVoidMethodAlooking up jni method CallVoidMethodACallVoidMethodAcalling checked jni method: CallObjectMethodAlooking up jni method CallObjectMethodACallObjectMethodAcalling checked jni method: CallStaticBooleanMethodAlooking up jni method CallStaticBooleanMethodACallStaticBooleanMethodAcalling checked jni method: CallStaticByteMethodAlooking up jni method CallStaticByteMethodACallStaticByteMethodAcalling checked jni method: CallStaticCharMethodAlooking up jni method CallStaticCharMethodACallStaticCharMethodAcalling checked jni method: CallStaticDoubleMethodAlooking up jni method CallStaticDoubleMethodACallStaticDoubleMethodAcalling checked jni method: CallStaticFloatMethodAlooking up jni method CallStaticFloatMethodACallStaticFloatMethodAcalling checked jni method: CallStaticIntMethodAlooking up jni method CallStaticIntMethodACallStaticIntMethodAcalling checked jni method: CallStaticLongMethodAlooking up jni method CallStaticLongMethodACallStaticLongMethodAcalling checked jni method: CallStaticShortMethodAlooking up jni method CallStaticShortMethodACallStaticShortMethodAcalling checked jni method: CallStaticVoidMethodAlooking up jni method CallStaticVoidMethodACallStaticVoidMethodAcalling checked jni method: CallStaticObjectMethodAlooking up jni method CallStaticObjectMethodACallStaticObjectMethodA
+00024c9f <<<<<<
+00024ca7 <<<<<<<<<,
+00024cd8 can not convert float seconds to Duration: value is negativecan not convert float seconds to Duration: value is either too big or NaN/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/time.rsPriorityNotInRangeOSFfiUnknownThreadDetachedWrongVersionAlreadyCreatedOtherFromBytesWithNulErrorInteriorNulBackground thread ready to receive messageshaptic_runtime::background_workercore/runtime/src/background_worker.rsBackground thread exitingBackground worker going idle1.0.0-beta.2Initializing with simple haptics driver for  controller...core/runtime/src/engine/simple_haptics_driver.rshaptic_runtime::engine::simple_haptics_driverStarting new stream
+00024f9c  mixer events during update at s: Sending amplitude value to backend during update at overflow when adding durationsUnable to increase the priority of the haptics engine thread: haptic_runtime::hubcore/runtime/src/hub.rsUnable to decrease the priority of the haptics background thread: HapticsEngineHapticsBackgroundDisconnecting thread communication channelsWaiting for threads to exitDone stopping threads
+00025140 $*9?CIX^ms
+00025150 <<<<<<
+00025158 <<<<<<<<<,
+00025180 !+58BLV`jt~
+00025198 -036Once instance has previously been poisoned
+000251c8 internal error: entered unreachable code: state is never set to invalid values/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/sync/once.rsa Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rsErrorDlOpenDlOpenUnknownDlSymDlSymUnknownDlCloseDlCloseUnknownLoadLibraryExWsourceLoadLibraryExWUnknownGetModuleHandleExWGetModuleHandleExWUnknownGetProcAddressGetProcAddressUnknownFreeLibraryFreeLibraryUnknownCreateCStringCreateCStringWithTrailingMixing drivers with different update durations is not supported.haptic_runtime::engine::haptic_drivercore/runtime/src/engine/haptic_driver.rsInitializing callback logger failed: 
+0002548f Initialized logging with log level haptic_runtime::loggingcore/runtime/src/logging.rsInitialization of null backend with PCM completehaptic_runtime::backend_nullPlaying sample with amplitude  for s on location   samples at Hz on location PlayingAppendingleft-test-idtest-errorright-test-idlibOVRPlugin.soInitializing OVRPlugin backend...haptic_runtime::backend_ovrplugincore/runtime/src/backend_ovrplugin.rsovrp_SetControllerHapticsPcmovrp_GetControllerSampleRateHzInitialization of OVRPlugin backend complete (version: )OVRPluginStarting playback at Only  samples were consumed!RightcontrollerACF deserialization failed: the backend doesn't match the type requested in a call to get_backendthe engine->background message channel is disconnectedmissing hub, has the instance been dropped?unable to access the hub, is it already borrowed?the hub->engine message channel is disconnectedthe hub->background message channel is disconnectedfailed to spawn the haptic engine thread (failed to spawn the haptic background thread (the player has no clip loadedthe provided amplitude () is invalid, negative values aren't allowedthe provided frequency shift () is invalid, the value must be within -1..=1the provided priority () is invalid, the value must be within 0..=1024clip player not found with ID active haptic source not found with ID the provided actuator location isn't unique (unexpected source present with ID unable to get controller info: (Driver: , error: '')unable to access the actuator sample rate (error: the actuator sample rate is invalid ().
+00025aa2     Possible causes include the OpenXR session not being in XR_SESSION_STATE_FOCUSED state, or the controller not being awakedrivers are not initializedthe backend is not compatiblefailed to play PCM samples (controller query failed (unable to get OVRPlugin version (the OVRPlugin version string is invalidno controller connectedunsupported platformsimple haptics not supported by backend
+00025d05 $*6BN
+00025d0f $*6BN
+00025d26 ******
+00025d2e *********
+00025d43 v\iobjectconverted  to jvalue jni::wrapper::objects::jvalue/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/objects/jvalue.rsshortintfloatdoublea Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rscan not convert float seconds to Duration: value is negativecan not convert float seconds to Duration: value is either too big or NaN/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/time.rsErrorSynthesisObjectShortIntFloatDoublehaptic_runtime::clip_playercore/runtime/src/clip_player.rscore/runtime/src/engine/pcm_driver.rsInitializing with PCM driver for  controller...haptic_runtime::engine::pcm_driverStarting new stream mixer events during update at s:  PCM samples to backend during update at {
+00026084   metadata: {
+00026092     version: '1.0.0',
+000260a8     device: 'Meta Rainier MP (LRA)',
+000260cd     date: '18.01.2023',
+000260e5     author: 'Amir, Max',
+000260fe   },
+00026103   continuous: {
+00026113     gain: 0.8,
+00026122     emphasis_ducking: 0.8,
+0002613d     frequency_min: 160,
+00026155     frequency_max: 186,
+0002616d   },
+00026172   emphasis: {
+00026180     gain: 1,
+0002618d     fade_out_percent: 0,
+000261a6     frequency_min: {
+000261bb       output_frequency: 170,
+000261d8       duration_ms: 12,
+000261ef       shape: 'sine',
+00026204     },
+0002620b     frequency_max: {
+00026220       output_frequency: 185,
+0002623d       duration_ms: 11,
+00026254       shape: 'triangle',
+0002626d     },
+00026274   },
+0002627d   metadata: {
+0002628b     version: '2.0.0',
+000262a1     device: 'Meta Starlet PVT-PR0 (VCM)',
+000262cb     date: '19.01.2023',
+000262e3     author: 'Amir, Max',
+000262fc   },
+00026301   continuous: {
+00026311     gain: 0.8,
+00026320     emphasis_ducking: 0.5,
+0002633b     frequency_min: 55,
+00026352     frequency_max: 200,
+0002636a   },
+0002636f   emphasis: {
+0002637d     gain: 1,
+0002638a     fade_out_percent: 0,
+000263a3     frequency_min: {
+000263b8       output_frequency: 55,
+000263d4       duration_ms: 36.4,
+000263ed       shape: 'sine',
+00026402     },
+00026409     frequency_max: {
+0002641e       output_frequency: 165,
+0002643b       duration_ms: 12.1,
+00026454       shape: 'square',
+0002646b     },
+00026472   },
+00026479 Meta Quest Touch ProMeta Quest Touch PlusUnknownConnected controller ():  - PCM batch size: , sample rate: , render mode: /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/waker.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/flavors/list.rsinternal error: entered unreachable codecalled `Result::unwrap()` on an `Err` value
+00026626 <&91
+0002662b <<<<<<
+00026633 <<<<<<<<<,
+00026672 /rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/thread/mod.rsthread name may not contain interior null bytes
+000266f0 fatal runtime error: thread result panicked on drop
+00026724 StreamingEventeventhaptic_runtime::engine::clip_player_sourceGot streaming event during update s: core/runtime/src/engine/clip_player_source.rsRightcannot access a Thread Local Storage value during or after destruction/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/thread/local.rsInitialization of Callback backend complete.core/runtime/src/backend_callback.rsFailed to send telemetry: Telemetry not initializedPCM playback is not supported by the callback backend
+00026924 $*9?CIX^ms
+00026944 internal error: entered unreachable codea Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rs
+000269f0 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/iterators/pair.rsErrorDlOpenDlOpenUnknownDlSymDlSymUnknownDlCloseDlCloseUnknownLoadLibraryExWsourceLoadLibraryExWUnknownGetModuleHandleExWGetModuleHandleExWUnknownGetProcAddressGetProcAddressUnknownFreeLibraryFreeLibraryUnknownCreateCStringCreateCStringWithTrailingJObjectPoisonErrorthis should never fail/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.7.3/src/os/unix/mod.rsJNI_GetCreatedJavaVMsfrom_raw ptr argumentgetMessage()Ljava/lang/String;Null throwableFailed to load JVM symbol ()Failed to get list of JVMs (Failed to get JVM (JNI exception: JNI exception, failed to get exception message: JNI Error: 
+00026cd0 <<<<<<
+00026cd8 <<<<<<<<<,
+00026d31 internal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/channel.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.6/src/flavors/at.rs
+00026e38 cannot transmute_copy if Dst is larger than Src/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/iterators/pairs.rsArc counter overflow/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/sync.rsEngine thread ready to receive messageshaptic_runtime::enginecore/runtime/src/engine.rsEngine channel disconnected.Engine thread exitingDeactivating the engineSuspending the engine.Resuming the engine.Activating the engine
+0002708f QQ(internal error: entered unreachable codea Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rs
+00027140 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/position.rsErrorposition out of boundsinvalid type: , expected missing field ``invalid length duplicate field `unknown variant ``, there are no variants`, expected StreamingRampstarttargetStreamingEventeventAmplitudeRampFrequencyRampamplitudefrequencycom/oculus/os/UnifiedTelemetryLoggerreportEvent(Lcom/oculus/os/AnalyticsEvent;Z)Vcom/oculus/os/AnalyticsEvent<init>(Ljava/lang/String;)V(Ljava/lang/String;Ljava/lang/Object;)Lcom/oculus/os/AnalyticsEvent;java/lang/Integerandroid/app/ActivityThreadcurrentActivityThread()Landroid/app/ActivityThread;getApplication()Landroid/app/Application;getInstance(Landroid/content/Context;)Lcom/oculus/os/UnifiedTelemetryLogger;native_sdk_versionsdk_backendgame_enginegame_engine_versiongame_engine_sdk_versionovrplugin_versionplay_countstop_countpause_countresume_countloop_countset_priority_countplaybacks_with_amplitude_modulation_countplaybacks_with_frequency_modulation_countmax_concurrent_active_sourcesunique_clips_loaded_total_countxr_haptics_sdk_features_used_event<unnamed>' panicked at '': :paniclog_panics/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-panics-2.1.0/src/lib.rs
+0002765a JR/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/iterators/pair.rsinternal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/json5-0.4.1/src/de.rserror parsing hex prefix
+0002775c invalid unicode charactermissing unicode trail surrogateexpecting unicode trail surrogateunexpected unicode trail surrogate
+000277dd error parsing number: too largeerror parsing numbererror parsing integererror parsing hexEOICOMMENTWHITESPACEarraybooleanchar_escape_sequencechar_literaldecimal_integer_literaldecimal_literaldouble_quote_charescape_charescape_sequenceexponent_parthex_escape_sequencehex_integer_literalidentifieridentifier_partkeyline_continuationline_terminatorline_terminator_sequencenon_escape_charnul_escape_sequencenumbernumeric_literalobjectsingle_escape_charsingle_quote_charstringunicode_escape_sequenceunicode_lettervalue
+00027b9e E`Bs
+00027c09 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/parser_state.rsinternal error: entered unreachable codecall limit reached/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/position.rs
+00027d10 mid > len/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/stack.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/iterators/pair.rsinternal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/iterators/pairs.rsattempt to join into collection with len > usize::MAX/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/str.rs
+00027ee8 position out of bounds/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/position.rsexpected unknown parsing errorunexpected ; expected :
+00027f96  |  =  | ...
+00027fa3 , , or internal error: entered unreachable code
+00027fd8 a Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pest-2.4.0/src/position.rsinternal error: entered unreachable codeErrorposition out of boundsIndex out of bounds
+00028110 /rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/slice/sort.rsassertion failed: end >= start && end <= lenassertion failed: offset != 0 && offset <= len
+00028639 *+,-
+00028643 01234
+0002879c <=>?
+00029170 UUUUUUU
+00029179 TUUUUU+
+0002918f UUUUUUU
+000291dc UUUU
+000291e1 TUUUUUU
+000291e9 *UUUUUUUUUUUU
+0002a890 )1$N*-Q
+0002ba22  !!!!!!!!!!"!!!!!!!!!!!!!!#$%&'!(!)!!!*+,-./012!!3!!!4!!!!!!!!!!!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!6!7!8!!!!!!!!9!:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!;<=!!!!>!!?@ABCDEFG!!!H!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!J!!!!!!!
+0002c09f %&'(
+0002c27c EEEF
+0002c614 #####$%&'()
+0002c620 *########+,-./0123456789:;
+0002c63c <=>?@A
+0002c684 DEFG
+0002c690 H*IJK#LD
+0002c6a0 #######################################################################################################
+0002c708 ########################################################################################################################################################################################################################################################################################################################################M#################NO####PQ2?
+0002c86e RST0UVWXYZ[\]^_
+0002c87f `##############################################################################################################################################################################ab
+0002c9b4 #####c#defgh####ijkl
+0002ce9c  !"#$%&'()*+,-.
+0002ceb0 1234
+0002ceb6 56378
+0002cec3 <=>?@ABCD
+0002d008 DRST3UG
+0002e080 UUUUUUUUUU
+0002e08b @UUUU
+0002e0b1 8'>P=
+0002e0d8 UUUU
+0002e0e0 UUUUU
+0002e0f4 TUTUUUUUUU
+0002e0ff jU(EUU}_U
+0002e368 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-trie-0.1.5/src/lib.rs
+0002e3c9 ),ILORUX[^adgj
+0002e3d9 dlopen failed, but system did not report the errordlsym failed, but system did not report the errordlclose failed, but system did not report the errorLoadLibraryExW failedLoadLibraryExW failed, but system did not report the errorGetModuleHandleExW failedGetModuleHandleExWUnknown failed, but system did not report the errorGetProcAddress failedGetProcAddress failed, but system did not report the errorFreeLibrary failedFreeLibrary failed, but system did not report the errorrequested type cannot possibly workcould not create a C string from bytescould not create a C string from bytes with trailing null
+0002e637 GIKMOX
+0002e640 jni::wrapper::jnienv/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/jnienv.rsJNIEnv*JNIEnvjnienv method not defined, returning errorchecking for exceptioncalling unchecked jni method: ExceptionChecklooking up jni method ExceptionCheckExceptionCheckno exception foundcalling checked jni method: FindClasslooking up jni method FindClassFindClasscalling unchecked jni method: IsAssignableFromlooking up jni method IsAssignableFromcalling unchecked jni method: ExceptionOccurredlooking up jni method ExceptionOccurredExceptionOccurredcalling unchecked jni method: ExceptionClearlooking up jni method ExceptionClearExceptionClearcalling unchecked jni method: GetObjectClasslooking up jni method GetObjectClassGetObjectClasscalling unchecked jni method: GetJavaVMlooking up jni method GetJavaVMGetJavaVMfrom_raw ptr argument
+0002e9a1 ++++++
+0002e9ab FHJLNW
+0002e9b2 RFJB^
+0002e9c2 $6NUY_ls
+0002e9d0 UnexpectedParseEoiCharacterBoundarycalling unchecked JavaVM method: GetEnvjni::wrapper::java_vm::vm/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/java_vm/vm.rslooking up JavaVM method GetEnvJavaVM*JavaVMJavaVM method not defined, returning errorGetEnvfound JavaVM methodfrom_raw ptr argumentcannot access a Thread Local Storage value during or after destruction/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/thread/local.rscalling unchecked JavaVM method: AttachCurrentThreadlooking up JavaVM method AttachCurrentThreadAttachCurrentThread ().  threads attachedcalling unchecked JavaVM method: AttachCurrentThreadAsDaemonlooking up JavaVM method AttachCurrentThreadAsDaemonAttachCurrentThreadAsDaemonAttached daemon thread calling unchecked JavaVM method: DetachCurrentThreadlooking up JavaVM method DetachCurrentThreadDetachCurrentThread threads remain attachedWrongJValueTypeInvalidCtorReturnInvalidArgListMethodNotFoundsigFieldNotFoundJavaExceptionJNIEnvMethodNotFoundNullPtrNullDerefTryLockJavaVMMethodNotFoundFieldAlreadySetThrowFailedParseFailedJniCall
+0002ee68 ZBCDFIJSVL;[L;()BooleanDoubleFloatIntShortPrimitiveObjectArrayMethodTypeSignatureret
+0002ef2c fatal runtime error: thread local panicked on drop
+0002ef5f Cesu8DecodingErrorerror decoding java cesu8: jni::wrapper::strings::ffi_str/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/strings/ffi_str.rs
+0002f01b ++++++
+0002f027 $6NUY_ls
+0002f038 UnexpectedParseEoiCharacterBoundaryDropping a GlobalRef in a detached thread. Fix your code if this message appears frequently (see the GlobalRef docs).jni::wrapper::objects::global_ref/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/objects/global_ref.rserror dropping global ref: calling unchecked jni method: DeleteGlobalReflooking up jni method DeleteGlobalRefJNIEnv*JNIEnvjnienv method not defined, returning errorDeleteGlobalRefWrongJValueTypeInvalidCtorReturnInvalidArgListMethodNotFoundsigFieldNotFoundJavaExceptionJNIEnvMethodNotFoundNullPtrNullDerefTryLockJavaVMMethodNotFoundFieldAlreadySetThrowFailedParseFailedJniCall
+0002f307 "failed to write whole buffer/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/io/mod.rsformatter error
+0002f387 )7:DNX[eoy
+0002f398 Invalid JValue type cast: . Actual type: Invalid constructor return type (must be void)Invalid number or type of arguments passed to java method: Method not found:  Field not found: Java exception was thrownJNIEnv null method pointer for Null pointer deref in Mutex already lockedJavaVM null method pointer for Field already set: Throw failed with error code Parse failed for input: JNI call failedUnknownThreadDetachedWrongVersionAlreadyCreatedOther
+0002f55e PrimitiveObjectArrayMethodTypeSignatureret
+0002f58b ++++++
+0002f598 get_string_utf_chars obj argumentcalling checked jni method: GetStringUTFCharsjni::wrapper::strings::java_str/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jni-0.21.1/src/wrapper/strings/java_str.rslooking up jni method GetStringUTFCharsJNIEnv*JNIEnvjnienv method not defined, returning errorGetStringUTFCharschecking for exceptioncalling unchecked jni method: ExceptionChecklooking up jni method ExceptionCheckExceptionCheckno exception foundGetStringUTFChars resultrelease_string_utf_chars obj argumentcalling unchecked jni method: ReleaseStringUTFCharslooking up jni method ReleaseStringUTFCharsReleaseStringUTFCharserror dropping java str: /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cesu8-1.1.0/src/lib.rsassertion failed: w <= 4assertion failed: i + w <= bytes.len()assertion failed: 0xD800 <= surrogate && surrogate <= 0xDFFF
+0002fa0e /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/android_logger-0.11.1/src/lib.rsandroid_logger: log::set_logger failed: android_loggerm
+0002fab0 cannot access a Thread Local Storage value during or after destruction/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/thread/local.rsattempt to re-use consumed builder/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/env_logger-0.9.1/src/filter/mod.rsIndex out of bounds
+0002fbe8 /rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/slice/sort.rsassertion failed: end >= start && end <= lenassertion failed: offset != 0 && offset <= len,
+0002fcce /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/dfa.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/exec.rscannot access a Thread Local Storage value during or after destruction/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/thread/local.rs;
+0002fe29 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.19/src/packed/api.rscalled `Result::unwrap()` on an `Err` value/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/sync.rsLayoutError/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/literal/imp.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/pool.rs
+0002ffd3 #./Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.19/src/dfa.rsinternal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.19/src/automaton.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.19/src/nfa.rsinternal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.19/src/automaton.rs
+000301d2 dE\9
+000301d7 &19999
+000301de &1999/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/pikevm.rs
+00030251 failed to write whole buffer/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/io/mod.rsformatter errorfatal runtime error: thread local panicked on drop
+000302f8 assertion failed: i < self.capacity()/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/sparse.rsregex: thread ID allocation space exhausted/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/pool.rs
+0003040e  *2>U
+00030415  5=AX/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/backtrack.rs
+00030480 9E$.
+0003049b :DPoisonError/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/input.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/utf8.rs
+00030570 ?ACE
+0003059f +<QQ
+00030690 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.6.0/src/dfa.rsinternal error: entered unreachable code
+00030720 attempt to divide by zeroBUG:  is too big to fit into u32
+00030760 /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.19/src/packed/pattern.rs/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.19/src/packed/rabinkarp.rsRabin-Karp must be called with same patterns it was built with/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memchr-2.5.0/src/memmem/twoway.rsunicode-perl feature must be enabled/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-syntax-0.6.27/src/lib.rs()/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/once_cell-1.15.0/src/imp_std.rs
+000309d1 $}5Deadline scheduling must use deadline priority.Deadline is non-POSIX and cannot be converted.Deadline policy given without deadline priority.Deadline policy durations don't fit into a `u64`.Can't parse schedule policy from posixThe value is not in the range of [0;99]
+00030af0 OFFERRORDEBUGTRACEattempted to set a logger after the logging system was already initialized/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.17/src/lib.rskey-value support is experimental and must be enabled using the `kv_unstable` featurestruct Acfstruct ContinuousOscillatorSettingsstruct EmphasisOscillatorSettingsvariant identifier../renderer_c/src/continuous_oscillator.c
+00030c85 unknown pointer encoding
+00030c9e unsupported restore location for float register
+00030cd8 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+00030d19 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+00030d5e settings->frequency_min.output_frequency <= settings->frequency_max.output_frequency
+00030db3 unwind_phase2
+00030dc1 unsupported arm64 register
+00030ddc libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+00030e1b getSLEB128
+00030e26 getSavedRegister
+00030e3f getEncodedP
+00030e52 _Unwind_GetTextRelBase() not implemented
+00030e7b getSavedFloatRegister
+00030e9c libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+00030eee FDE has zero length
+00030f02 FDE is really a CIE
+00030f16 void haptic_renderer_continuous_oscillator_init(HapticRendererContinuousOscillator *, float, HapticRendererMode, HapticRendererContinuousOscillatorSettings *)
+00030fb5 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+00030ff7 DW_EH_PE_aligned pointer encoding not supported
+00031027 truncated sleb128 expression
+00031047 unsupported restore location for register
+0003107e during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+000310e1 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00031144 setRegister
+00031150 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0003119a _Unwind_GetTextRelBase
+000311b9 CIE start does not match
+000311d2 CIE version is not 1 or 3
+000311ec DW_EH_PE_funcrel pointer encoding not supported
+0003121c libunwind: Unsupported .eh_frame_hdr version
+00031255 _Unwind_GetDataRelBase() not implemented
+0003127e void haptic_renderer_emphasis_oscillator_init(HapticRendererEmphasisOscillator *, float, HapticRendererMode, HapticRendererEmphasisOscillatorSettings *)
+00031317 libunwind: %s - %s
+00031332 DW_OP_deref_size with bad size
+00031351 Unknown DWARF encoding for search table.
+00031382 void haptic_renderer_phasor_set_frequency(HapticRendererPhasor *, float, float)
+000313d2 self->increment >= 0.0f && self->increment <= 1.0f
+00031405 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+00031453 evaluateExpression
+0003146d libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+000314bd _Unwind_Resume() can't return
+000314db libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0003151b ../renderer_c/src/phasor.c
+00031536 DW_OP_fbreg not implemented
+0003155a _Unwind_Resume
+00031569 libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+000315b8 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+00031602 getULEB128
+0003160d malformed uleb128 expression
+0003162a DWARF opcode not implemented
+0003164f libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+000316a2 DW_EH_PE_textrel pointer encoding not supported
+000316d2 truncated uleb128 expression
+000316f3 libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+0003173b getTableEntrySize
+0003175c _Unwind_GetDataRelBase
+0003177b CIE ID is not zero
+0003178e settings->frequency_min <= settings->frequency_max
+000317c1 ../renderer_c/src/emphasis_oscillator.c
+000317e9 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00031831 Can't binary search on variable length encoded data.
+0003186e sample_rate > settings->frequency_max
+00031894 getRegister
+000318a0 DW_EH_PE_datarel is invalid with a datarelBase of 0
+000318de unknown register
+000318ef DW_OP_piece not implemented
+0003191a a Display implementation returned an error unexpectedly/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rsErrorinvalid JSON: unsupported version: ;
+000319e6 uuuuuuuuuu
+000319f1 uuuuuuu7uuuuuRuuuuuu
+00031a08 .?Pbinternal error: entered unreachable code/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.87/src/de.rsstruct HapticData with 3 elementsversionsignalseditorauthorsourceprojectdescriptionstruct Signals with 1 elementcontinuousstruct SignalContinuous with 1 elementenvelopesamplitudefrequencystruct AmplitudeBreakpoint with 3 elementsstruct Emphasis with 2 elementsstruct FrequencyBreakpoint with 2 elementsstruct Version with 3 elementsmajorminorpatchstruct VersionCheck with 1 elementa sequence
+00031c20 invalid value: , expected missing field ``invalid length duplicate field `.majorminorpatchstruct Versionversionstruct VersionCheck
+00031ca5 *8TW_m
+00031cad -	$---2
+00031cb8 versionsignalsstruct HapticDataamplitude out of range: (time: , amplitude: )amplitude breakpoints out of order: (time:  is after emphasis amplitude out of range: (time: emphasis frequency out of range: (time: , frequency: emphasis amplitude lower than envelope amplitude: (time: the amplitude envelope must contain at least two breakpointsthe amplitude envelope must have a duration greater than zerofrequency out of range: (time: frequency breakpoints out of order: (time: frequency breakpoint at  is after end of amplitude envelope at struct MetaDatacontinuousstruct Signalsenvelopesstruct SignalContinuousamplitudefrequencystruct AmplitudeBreakpointstruct Emphasisstruct FrequencyBreakpoint
+00031f74 $*06<BHNTZ`flrx/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/string.rs
+00031fd0 /rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/str/pattern.rsassertion failed: self.is_char_boundary(new_len)EOF while parsing a listEOF while parsing an objectEOF while parsing a stringEOF while parsing a valueexpected `:`expected `,` or `]`expected `,` or `}`expected identexpected valueinvalid escapeinvalid numbernumber out of rangeinvalid unicode code pointcontrol character (\u0000-\u001F) found while parsing a stringkey must be a stringlone leading surrogate in hex escapetrailing commatrailing charactersunexpected end of hex escaperecursion limit exceeded at line invalid type: null, expected invalid type: , expected /Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.87/src/error.rs
+0003231c vH7B
+0003234c W4vC
+000323b3 9Y>)F$
+000323db raB3G
+00032404 )c=H
+0003240d ]rHa
+000324c5 O8Mr
+000324cd bnMG
+0003255d [*QmU
+0003258b mr"iR
+0003259f R$N(
+000325b5 -sSO\
+000325cf T%L9
+000325d5 hGT.
+000325dd B}T}
+00032624 =@[V
+0003266c !a9X
+00032687 X5AHx
+0003269c %4xY
+000326c7 Z~$|7
+00032706 +\0I
+0003270d 2a\|
+0003271f \ysK
+00032751 |M$D
+0003277d pH_r
+000327b2 (:W"
+000327cd s\ax}?
+0003281e pc2g
+00032829 @BXV
+0003283b tC7Ddx
+00032845 EydV
+00032877 eax~Z
+000328dd ekhHD
+000328fe @iZb
+00032947 k0V(
+0003295f k*do^
+00032993 :V!2m
+000329c4 RJqn
+000329ed bzo=
+000329f2 $qE}
+00032a36 XqkY
+00032aa4 quAt
+00032ace Jugm
+00032aec ~B v
+00032af5 STv/N
+00032b1e _w&2
+00032b4f xg^Jp5|
+00032b77 yMzw
+00032b8c ;	Fzo
+00032b96 {zel#|67
+00032bfd P/};
+00032c31 [@JO
+00032c4b nQ:B
+00032c69 ]]]]]]]]]]]]
+00032c76 ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+00032ca3 ]]]]]
+00032cad ]]]]]]]
+00032d0f Y/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.87/src/read.rs
+00032f72 called `Result::unwrap()` on an `Err` valueUtf8Errorvalid_up_toerror_len/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/android_system_properties-0.1.5/src/lib.rs__system_property_find
+00033040 __system_property_get
+00033056 assertion failed: len as usize <= buffer.capacity()
+0003308d #1=@CFILORUX[i
+000330a0 byte arrayboolean ``integer `character `string unit valueOption valuenewtype structmapunit variantnewtype varianttuple variantstruct variantexplicit panic/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.147/src/de/mod.rs` or `one of , u32f32/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/parking_lot_core-0.9.4/src/parking_lot.rs
+00033220 "failed to write whole buffer/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/io/mod.rsformatter error/Users/maxweber/.cargo/registry/src/index.crates.io-6f17d22bba15001f/parking_lot_core-0.9.4/src/parking_lot.rsfatal runtime error: thread local panicked on drop
+00033336 fatal runtime error: thread local panicked on drop
+0003336c "failed to write whole buffer/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/std/src/io/mod.rsformatter error
+000338c4 q7Xa
+000338e1  4A-HZ\
+000338fb 4440
+00033a64  "$&(*,.02468:<>@BDFHJLNP
+00033a89  $(,048<@DHLPTX\`dhlptx|
+00033b46 0246
+00033bdf kkkkkk
+00033bec kkk(k
+00033bf8 /rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/collections/btree/navigate.rsIndex out of bounds/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/str/pattern.rsreentrant init/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/cell/once.rsoverflow in Duration::new/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/time.rs
+00033d80 attempt to divide by zero/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/slice/sort.rsassertion failed: end >= start && end <= lenassertion failed: offset != 0 && offset <= lenassertion failed: offset != 0 && offset <= len && len >= 2called `Result::unwrap()` on an `Err` valueinternal error: entered unreachable code/rust/deps/gimli-0.28.0/src/read/line.rs
+00033f00 attempt to calculate the remainder with a divisor of zero/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/num/wrapping.rs/rust/deps/gimli-0.28.0/src/read/dwarf.rs/rust/deps/gimli-0.28.0/src/read/index.rs.debug_abbrev.debug_addr.debug_aranges.debug_cu_index.debug_info.debug_line.debug_line_str.debug_loc.debug_loclists.debug_ranges.debug_rnglists.debug_str.debug_str_offsets.debug_tu_index.debug_types.debug_abbrev.dwo.debug_info.dwo.debug_line.dwo.debug_loc.dwo.debug_loclists.dwo.debug_rnglists.dwo.debug_str.dwo.debug_str_offsets.dwo/rust/deps/addr2line-0.21.0/src/lib.rs/rust/deps/addr2line-0.21.0/src/function.rs
+0003417a too many running threads in thread scopeAccessErroruse of std::thread::current() is not possible after the thread's local data has been destroyedlibrary/std/src/thread/mod.rsfatal runtime error: an irrecoverable error occurred while synchronizing threads
+00034279 failed to generate unique thread ID: bitspace exhaustedRUST_BACKTRACEpermission deniedconnection refusednetwork unreachableconnection abortednot connectedaddress in useaddress not availablenetwork downbroken pipeentity already existsoperation would blocknot a directoryis a directorydirectory not emptyread-only filesystem or storage mediumfilesystem loop or indirection limit (e.g. symlink loop)stale network file handleinvalid input parameterinvalid datatimed outwrite zeroseek on unseekable filefilesystem quota exceededfile too largeresource busyexecutable file busycross-device link or renametoo many linksargument list too longoperation interruptedunsupportedunexpected end of fileout of memoryother erroruncategorized errorOsmessageErrorCustomerror (os error )library/std/src/io/stdio.rscannot access a Thread Local Storage value during or after destructionlibrary/std/src/thread/local.rsfailed printing to : stderrlibrary/std/src/io/mod.rsfailed to fill whole bufferadvancing io slices beyond their lengthfailed to write whole bufferformatter errorlibrary/std/src/panic.rslibrary/std/src/path.rs.lock count overflow in reentrant mutexlibrary/std/src/sync/remutex.rsoverflow when adding duration to instantlibrary/std/src/time.rsfile name contained an unexpected NUL bytestack backtrace:
+00034788 note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+000347e0 __rust_begin_short_backtrace__rust_end_short_backtrace      [... omitted  frame ...]
+00034835 s<unknown>RUST_MIN_STACKfatal runtime error: assertion failed: thread_info.stack_guard.get().is_none() && thread_info.thread.get().is_none()
+000348c5 memory allocation of  bytes failed
+000348e8  bytes failedlibrary/std/src/alloc.rsfatal runtime error: Rust panics must be rethrown
+0003493f fatal runtime error: Rust cannot catch foreign exceptions
+00034979 cannot modify the panic hook from a panicking threadlibrary/std/src/panicking.rsBox<dyn Any><unnamed>' panicked at :
+000349ee note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+00034a3d panicked after panic::always_abort(), aborting.
+00034a6d thread panicked while processing panic. aborting.
+00034a9f thread caused non-unwinding panic. aborting.
+00034acc fatal runtime error: failed to initiate panic, error library/std/src/../../backtrace/src/symbolize/mod.rs -       :ConnectionRefusedConnectionResetHostUnreachableNetworkUnreachableConnectionAbortedNotConnectedAddrInUseNetworkDownBrokenPipeAlreadyExistsWouldBlockNotADirectoryIsADirectoryDirectoryNotEmptyReadOnlyFilesystemFilesystemLoopStaleNetworkFileHandleInvalidInputInvalidDataWriteZeroStorageFullNotSeekableFilesystemQuotaExceededFileTooLargeResourceBusyExecutableFileBusyCrossesDevicesTooManyLinksInvalidFilenameArgumentListTooLongInterruptedUnsupportedUnexpectedEofOutOfMemoryOtherUncategorizedfatal runtime error: thread local panicked on drop
+00034d58 advancing IoSlice beyond its lengthlibrary/std/src/sys/pal/unix/io.rsstrerror_r failurelibrary/std/src/sys/pal/unix/os.rslibrary/std/src/sys/pal/unix/rand.rsunexpected getrandom error: /dev/urandomfailed to open /dev/urandomfailed to read /dev/urandomlibrary/std/src/sys/pal/unix/thread.rsfailed to join thread: assertion failed: tv_nsec >= 0 && tv_nsec < NSEC_PER_SEC as i64library/std/src/sys/pal/unix/time.rstoo many active read locks on RwLocklibrary/std/src/sys/pal/unix/locks/futex_rwlock.rsassertion failed: is_unlocked(state)library/std/src/sys/pal/unix/thread_local_key.rsfatal runtime error: assertion failed: key as usize != KEY_SENTVAL
+00034fe0 library/std/src/../../backtrace/src/symbolize/gimli/stash.rslibrary/std/src/../../backtrace/src/symbolize/gimli.rslibrary/std/src/../../backtrace/src/symbolize/gimli/elf.rs
+00035291 /rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/alloc/src/collections/btree/node.rsassertion failed: edge.height == self.height - 1assertion failed: src.len() == dst.len()/rust/deps/gimli-0.28.0/src/read/abbrev.rs
+000353af tx~x
+000353b4 xxxxxxxxDDVV
+00035438 /rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/ops/function.rs/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/str/pattern.rs/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/escape.rscalled `Result::unwrap()` on an `Err` valueErrorEmptyInvalidDigitPosOverflowNegOverflowParseIntError/rust/deps/rustc-demangle-0.1.23/src/legacy.rs::C,)(><&*@./rust/deps/rustc-demangle-0.1.23/src/v0.rs`fmt::Error`s should be impossible without a `fmt::Formatter`punycode{-}0internal error: entered unreachable codeinternal error: entered unreachable code: str::from_utf8( was expected to have 1 char, but  chars were foundstri8i16i32i64isizeu8u16u32u64usizef32f64!_...{recursion limit reached}?'> , []::{closure:# const ;  + unsafe " fn( = false{ {  }: 0x.llvm./rust/deps/rustc-demangle-0.1.23/src/lib.rs{size limit reached}`fmt::Error` from `SizeLimitedFmtAdapter` was discardedSizeLimitExhausted
+000358f0 Hash table capacity overflow/rust/deps/hashbrown-0.14.3/src/raw/mod.rs6
+00035970 dest is out of bounds/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library/core/src/slice/index.rs/rust/deps/miniz_oxide-0.7.1/src/inflate/core.rs
+00036a04 /rust/deps/miniz_oxide-0.7.1/src/inflate/output_buffer.rs
+00036ad8 called `Result::unwrap()` on an `Err` valueErrorLayoutErrorlibrary/alloc/src/raw_vec.rscapacity overflowlibrary/alloc/src/ffi/c_str.rsnul byte found in provided data at position: a formatting trait implementation returned an errorlibrary/alloc/src/fmt.rslibrary/alloc/src/sync.rs) should be < len (is )removal index (is 
+00036c59 9KKVKKKKKKKKKKKKKKKKKKKK
+00036c72 KKKKZ
+00036c78 library/core/src/fmt/mod.rslibrary/core/src/num/dec2flt/decimal.rs
+00036cce $ + 3 < F(P([(g0s0
+00036cf3 I)I>QSQiQ
+00036d09 b4jPjmj
+00036d19 {+{M{p
+00037262 !$'+.158;
+000372cc vH7B
+000372fc W4vC
+000373f0 library/core/src/num/dec2flt/parse.rsassertion failed: edelta >= 0library/core/src/num/diy_float.rs
+0003748c [Am-
+0003751b kpnJ
+00037554 library/core/src/num/flt2dec/strategy/dragon.rsassertion failed: d.mant > 0assertion failed: d.minus > 0assertion failed: d.plus > 0assertion failed: buf.len() >= MAX_SIG_DIGITSassertion failed: d.mant.checked_sub(d.minus).is_some()assertion failed: d.mant.checked_add(d.plus).is_some()
+000376ca U1(\Q
+000376f8 mSx@
+000377aa b}$l
+00037819 ~)p$w
+00037869 11eU%
+00037b2b z^KD
+00037b88 library/core/src/num/flt2dec/strategy/grisu.rsassertion failed: d.mant + d.plus < (1 << 61)
+00037bf0 attempt to divide by zeroassertion failed: !buf.is_empty()assertion failed: d.mant < (1 << 61)
+00037c77 ;library/core/src/num/flt2dec/mod.rsassertion failed: buf[0] > b'0'assertion failed: parts.len() >= 4.0.assertion failed: parts.len() >= 6eEe-E--+NaNinf00e00E0assertion failed: buf.len() >= maxlenfrom_str_radix_int: must lie in the range `[2, 36]` - found library/core/src/num/mod.rs)..BorrowMutErroralready borrowed: ":[called `Option::unwrap()` on a `None` valuepanicked at :
+00037df1 library/core/src/panicking.rs but the index is panic in a function that cannot unwindpanic in a destructor during cleanup==!=matches right` failed
+00037e84   left: 
+00037e8d  right: 
+00037e96   left: :  { ,  {
+00037eaa  { .. }, .. }..
+00037eba } }((
+00037ec2 ]library/core/src/fmt/num.rs0x000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990000000000000000000000000000000000000000000000000000000000000000falserange start index  out of range for slice of length slice index starts at  but ends at attempted to index slice up to maximum usizesource slice length () does not match destination slice length (invalid utf-8 sequence of  bytes from index incomplete utf-8 byte sequence from index attempted to index str up to maximum usize
+00038230 library/core/src/str/pattern.rs
+00038250 [...]begin <= end (`byte index  is not a char boundary; it is inside ) of ` is out of bounds of `library/core/src/str/mod.rslibrary/core/src/unicode/printable.rs
+0003834a ';>NO
+0003835e 	6=>V
+00038369 67VW
+0003837e )14:EFIJNOde\
+000383a3 ;>fi
+000383b8 ./'(U
+000383cd :?EQ
+000383d9 "%>?
+000383e4  #%&(38:HJLPSUVXZ\^`cefksx}
+00038469 PI73
+00038474 &RK+
+00038537 `G	t<
+00038633 ./?\]_
+0003864f )147:;=IJ]
+0003866d )14:;EFIJ^de
+00038682 ):;EIW[\^_de
+0003869c EIde
+000386bd INOWY^_
+000386ef FGNOXZ\^~
+0003871d NOZ[
+00038729 no7=?BE
+0003879e %_ m
+0003886d library/core/src/unicode/unicode_data.rslibrary/core/src/escape.rslibrary/core/src/num/bignum.rsassertion failed: noborrowassertion failed: digits < 40assertion failed: other > 0
+0003894e y]So
+000389aa Q^3-
+000389f2 3o=q
+00038a38 -^85
+00038a99 5U]_n
+00038ac0 -;eU
+00038ac8 n6%!
+00038ae0 v,n%
+00038af8 (W^j
+00038bf3 8#Xl
+00038c7a Dk(s
+00038cab xuRCk
+00038d38 lQ?2
+00038d6c CV@@R
+00038d78 r%kf
+00038d7d 5(Hf;
+00038dc2 U1(\Q
+00038e4d ?wo"|
+00038e68 Hj`F
+00038e82 zc%C1
+00038ea3 5u|&
+00038f39 $m\,
+00038f40 mSx@
+00038ff8 L|]C5;
+0003905c {[o>Z[
+00039088 (d$5V
+000390d9 Skuz
+0003919f RVfQp
+000391de "al]
+00039292 ,)Ud
+000392a2 wsj=
+000392f0 ^p8G
+0003932f ^+ep
+0003933e Gv;?
+00039378 0U@H
+00039388 |jPZ
+000393fb <6Rj
+0003943a d4[I
+0003945b @OQ]=
+0003948a ieg!
+0003949d ih0sUr
+000394b2 NdP#
+000394c2 b}$l
+000394e8 de2?/
+0003959f =->!Q
+000395bc OInH&
+000395d1 v:k\
+000395da uZF)
+0003961a labM
+000396b0 Dw`z
+000396f9 9QX*r
+0003971b )b"=s
+00039728 _R?Z}5
+00039753 A8?,
+000397bc 'sv]U&
+00039841 ~)p$w
+0003984c +~xY6
+000398de  ~/xs
+000399a1 8>G#g$
+000399e9 Ho^+
+00039a1a 8Z~H
+00039a58 ?/"=~Fr
+00039ac1 11eU%
+00039af8 uRDZZ
+00039b1d MFUL
+00039ba3 b!q&
+00039c30 uu\T
+00039cff :R;uD
+00039d08 C5yr
+00039d6a Cb.2
+00039df3 6A_p
+00039fa2 @v:k
+0003a013 @aQY
+0003a073 E@|o
+0003a1df GQlN
+0003a29a E9NF
+0003a2d3 $_E^
+0003a349 K)C_
+0003a368 7Cxl2i5n
+0003a3cd g&yR?V
+0003a40d aciL
+0003a423 JIxX
+0003a4ca _p&&<Y.
+0003a51d g)/l
+0003a622 FiYW
+0003a62d xu37
+0003a68b 6l3o
+0003a699 A]DG
+0003a6ff ^]dB
+0003a70c Cupv
+0003a7a3 k"!"
+0003a852 =9tau
+0003a888 	`M1k
+0003a910 (+EW
+0003a931 	.|]
+0003a9c8 E='W
+0003a9fd DmeC
+0003aa51 .$*(
+0003aa7f 7jU'9
+0003aaa3 TfAX
+0003aaae z8ji
+0003aaf0 Vtube
+0003ab5e g~A> 
+0003abcb z3zr
+0003abd8 \L.Y
+0003ac4e D.$~s
+0003acae G<x\
+0003ad19 `Bk|+
+0003ae39 T%k$
+0003ae9c "t*U
+0003aecc iu+-
+0003aef1 wqBv/?
+0003af6a <g9;c
+0003afd3 E}aj
+0003b001 ~cU4
+0003b00a #d{H
+0003b04d EcT3
+0003b0c3 z^KD
+0003b1eb +*0 ,o
+0003b21f L@4aP
+0003b227 QOo!R
+0004d9d9 zPLR
+00059265 i!8h
+00059685 3@9h
+00059d54 ?@@q
+0005a243 5h~	
+0005a3f3 Th~_
+0005a54b Th~_
+0005a730 +ih8J	
+0005a7d4 +ih8J	
+0005a857 Th~_
+0005a955 i!8h
+0005accb R }D
+0005af8b 5h~	
+0005afe3 Th~_
+0005b135 jh8)	
+0005b283 Th~_
+0005b383 Th~_
+0005b663 Rh~	
+0005b8b3 *h~_
+0005be43 Rh~	
+0005bf1f *h~_
+0005c06f Rh~	
+0005c0d7 *h~_
+0005c243 5h~	
+0005c3f3 Th~_
+0005c54b Th~_
+0005c677 Th~_
+0005cbac +ih8J	
+0005cbe8 +ih8J	
+0005d84b Rh~	
+0005d947 *h~_
+0005da2b Rh~	
+0005da53 R5)+
+0005dbb7 Rh~	
+0005dc1f *h~_
+0005dd8f Rh~	
+0005df97 *h~_
+0005e10b Rh~	
+0005e19f *h~_
+0005e303 Rh~	
+0005e32b R5)+
+0005e493 Rh~	
+0005e4fb *h~_
+0005e66f Rh~	
+0005e717 *h~_
+0005e9ff Rh~	
+0005ea67 *h~_
+0005ebcb Rh~	
+0005ed17 Rh~	
+0005ed3f R5)+
+0005ed8f 9h~_
+0005eea7 Rh~	
+0005eecf R5)+
+0005f037 Rh~	
+0005f09f *h~_
+0005f20b Rh~	
+0005f24b *h~_
+0005f347 Rh~	
+0005f47b *h~_
+0005f593 Rh~	
+0005f5fb *h~_
+0005f76f Rh~	
+0005f827 Rt!)
+0005f907 *h~_
+0005f9f7 Rh~	
+0005fab7 *h~_
+0005fbb7 Rh~	
+0005fc1f *h~_
+0005fd83 Rh~	
+0005fdbf *h~_
+0005febb Rh~	
+0005ff37 *h~_
+00060087 Rh~	
+000600ef *h~_
+0006025f Rh~	
+00060287 R5)+
+00060337 *h~_
+00060403 Rh~	
+0006046b *h~_
+00060e1b Rh~	
+00061113 5h~	
+0006116b Th~_
+0006126f Th~_
+00061327 Th~_
+000616f5 jh8J	
+000619bc ?@@q
+00061c69 i!8h
+00061fbb 5h~	
+0006216b Th~_
+00062311 jh8)	
+0006245f Th~_
+0006268f Th~_
+00062b4c +ih8J	
+00062bf0 +ih8J	
+00062c68 +ih8J	
+00062ce5 i!8h
+00062ec8 	@B9
+00062f47 R }D
+00062ffd jh8I
+000632b4 +ih8J	
+000632f0 +ih8J	
+000639c0 +ih8J	
+00063a64 +ih8J	
+00063fb1 3@9h
+000640d7 Rh~	
+000641d3 Rh~	
+00064203 *h~_
+00064358 +ih8J	
+000651a1 i!8h
+00065407 Tx^@
+0006565c Lyixk	
+00065fab Rt"	
+00066177 Rt"	
+000668cb 5h~	
+00066a7b Th~_
+00066bd3 Th~_
+00066cff Th~_
+00067083 4iR@
+00067603 4iR@
+00068037 TtZA
+000688ef T*hh
+0006891b T-hlx
+00068937 T+hl8
+00068a40 ,hlx
+00068a64 (hh8
+00068f7d jb8@ 
+000690ad j(81
+000691fd j(8Z
+000695a4 ,ik8-
+000695b3 =(i+8
+000695e3 n4M?
+00069c5f 5h~	
+00069d3f Th~_
+00069e5b 5h~	
+00069e83 5i^A
+00069f3b Th~_
+0006a07f 5h~	
+0006a18f R	|_
+0006a26f Th~_
+0006a383 5h~	
+0006a3f3 <( 	
+0006a44b Th~_
+0006b193 Ri)	
+0006b8eb <i:@
+0006c41f Th~_
+0006c743 Th~_
+0006c8d7 R	|_
+0006cf1b 5h~	
+0006d053 Th~_
+0006d922 @9H 
+0006e0cb R( 	
+0006e13d y`x)	
+0006e7e5 y`x)	
+0006fb57 R( 	
+0006fb7c h"E9
+0006fbc9 y`x)	
+0007014f 6a"E9
+00070279 y`x)	
+000708c3 Th~_
+0007092f Th~_
+00070988 h"E9s
+000709a7 Th~_
+000709f0 h"E9s
+00070ad6 B9s>@
+00070af3 Th~_
+00070e87 Th~_
+0007107b 3?ADq
+000710a6 A9		
+000710f1 iv8)	
+0007127f 3_ADq
+000712ea @9h"
+000713dc +ih8J	
+00071468 +ih8J	
+000714e5 ADqA
+000716b8 +ih8J	
+00071729 ADq!
+000717bc +ih8J	
+00071937 3_ADqa
+00071a11 'A9h
+00071a57 3?ADqa
+00071b41 k@yw
+00071bf9 'A9h
+00071c3f 3?ADqa
+00071d29 k@yw
+00071e3b 3_ADqa
+00071f28 +ih8J	
+00071fb4 +ih8J	
+00072245 jh8)	
+000723de @9)%
+00072468 Lii8k	
+00072d27 TtZA
+0007354b Ri~	
+000735a4 +ih8J	
+00073674 Lii8k	
+000739a9 g@9	
+00073f12 @9jm
+00073f2e @9km
+00073f51 yjxk	
+00074904 )QBx
+00074ae6 F9)QBx
+00074afe F98A
+00074ba7 *	_x
+00074fb0 Lii8k	
+000751c5 "@9(
+000753e4 +ih8J	
+000758d4 Lii8k	
+00075cae @9k-
+0007614c IA	*
+0007639f R	 	
+00076a39 yjxk	
+00076d28 jyhx)	
+00076f9e F9(A
+000770a6 F9(A
+000771cf T	P@
+0007793a Cx5A
+00077be6 Cx8A
+000782da @9iy
+0007831a @9Jx
+00078332 @9kx
+00078355 yjxk	
+00078654 jyhx)	
+00079809 yjxk	
+00079a3c jyhx)	
+00079ec7 T	P@
+0007abce @9j'
+0007abea @9+'
+0007ac70 +ih8J	
+0007ac7e @yj.
+0007b29e @99	@
+0007b35a @9J-
+0007b457 9@}D
+0007b53b 9@}D
+0007b6d0 +ih8J	
+0007bde9 ii8J	
+0007be55 ii8J	
+0007c0aa @9zs
+0007c56a @9Jr
+0007e93a @9Vi
+0007e9d2 @90i
+0007f3f8 +yhxJ	
+0008168c +yhxJ	
+00083960 +yhxJ	
+00085c08 +ih8J	
+00085d4c mij8
+000863e8 +ih8J	
+0008648c +ih8J	
+000866cf R`.@
+00086d7f K,5w
+00086e38 +ih8J	
+00086f67 Rh~	
+00086ff7 9h~_
+0008715d (Cz`
+0008723c d(Cz`
+00087377 Ri#	
+000873d3 T@+A
+0008745f R ),
+0008746b q( 	
+00087527 R( 	
+00087847 yJ3O
+000878f8 +ih8J	
+00088137 R)=B
+00088471 ii8J	
+000884be @9uB
+00088a0a @9"A
+00089719 cA9)@
+00089815 ki8J	
+000898bd kh8)	
+00089986 @9C=
+000899b7 R)AB
+00089a17 R)EB
+00089bda (7$E
+00089c52 (7\E
+00089cd2 (7eD
+00089d1c mij8
+0008a184 +ih8J	
+0008a228 +ih8J	
+0008a399 i!8h
+0008a53f *?@Dq
+0008a561 BDq!
+0008a581 BDq 
+0008a5b1 i!8h
+0008a73b T	3@
+0008a867 T	3@
+0008abc9 rF9)
+0008ac51 3C9j=
+0008ad89 3C9j=
+0008b17b R( 	
+0008b27b RJ1B
+0008b331 3@9?
+0008b3e2 A9h	
+0008b4aa @9z6
+0008b8ca @9r5
+0008b9ad #@9`
+0008bb23 9@}D
+0008bc38 Lii8k	
+0008bfb0 Lii8k	
+0008c18e @9A3
+0008ce1b T-	@9
+0008ce45 ADq!
+0008ce8f R?CDq
+0008ceb0 ,ih8k	
+0008cef1 'A9I
+0008cf65 cA9?
+0008d00b 3_ADq`
+0008d119 ADq,D
+0008d13c $jp8c
+0008d190 ehq8
+0008d271 ADq,
+0008d290 ehp8
+0008d455 ADq,
+0008d478 ehq8
+0008d64d ADq,
+0008d670 ehq8
+0008d84d ADq,
+0008d870 ehq8
+0008da4d ADq,
+0008da70 ehq8
+0008dc49 ADq,
+0008dc6c ehq8
+0008de49 ADq,
+0008de6c ehq8
+0008df50 %jp8
+0008dfe1 ADqA
+0008e02d ADq,@
+0008e051 jo81
+0008e099 jk81
+0008e175 'A9i
+0008e17d +A9j
+0008e189 cA9J
+0008e32f 3_ADq
+0008e42f Tn	@9
+0008e459 ADq!
+0008e4b5 ADq)
+0008e4c8 mii8
+0008e512 @9?	
+0008e558 mij8
+0008e687 3_ADq 
+0008e6a7 TN	@9
+0008e72d ADq 
+0008e7a6 @9M	@9N
+0008e8e7 Tm	@9
+0008e911 ADqa
+0008eab4 ?@Dqi
+0008eae4 Mik8
+0008eb35 gA9?
+0008eb80 mij8
+0008ebff =(	@
+0008ecef Ti	@9
+0008ed19 ADq!
+0008edb9 ADq 
+0008ee2e @9n	@9o
+0008ef0c Lii8k	
+0008f002 @9I	
+0008f1d0 mij8
+0008f21c mii8
+0008f4bb q@	Az
+0008f4d0 @!	*
+0008f84e @y	}
+0008f89d ,A)	}
+0008f9ce @y	}
+0008fa21 ,A)	}
+0008fb18 mij8
+0008fc90 mij8
+0008fdf6 (7..
+0008feec +ih8J	
+0008ff4c +ih8J	
+000902ad i!8h
+00090537 K,5w
+00091301 SCx	
+0009133d sB9h2
+0009134d KD9a
+00091390 +ih8J	
+000917a9 SCx	
+0009186b R`}D
+00091909 SCx	3
+000919b5 vF9	
+00091c3a C9j=
+00091cac (PB9
+00091ce7 Rh~	
+00091d15 vF9	
+00091d40 +ih8J	
+00091df3 <h~_
+00091e53 9@}D
+000920d3 <h~_
+000921f7 Rh~	
+00092221 vF9	
+00092257 *h~_
+000923ae @9i2
+000924a6 A9i2
+000924b5 ;@9a
+00092637 5h~	
+00092717 Th~_
+00092833 5h~	
+0009285b 5i^A
+00092913 Th~_
+00092a57 5h~	
+00092b67 R	|_
+00092c47 Th~_
+00092d5b 5h~	
+00092dcb <( 	
+00092e23 Th~_
+000946c7 <(}_
+00094bbf Th~_
+00094ee3 Th~_
+000950d8 +ih8J	
+000950f7 T)U@
+00095133 T)U@
+0009514d &B-A
+0009516f T+U@
+00095177 R	-	
+000951bf R#A@
+000952e8 +ih8J	
+00095307 T+ @
+00095353 T( @
+00095363 TJa@
+0009539f T+$@
+000953eb R(@@
+00095417 *!8 
+00095477 T(T@
+000957a3 T @ 
+0009581b *B8#
+00096e1c +ih8J	
+00096ec0 +ih8J	
+00097cb4 +yhxJ	
+00097d99 [\)!
+00097def q( 	
+00097e75 [\)!
+00097ecb q( 	
+00097f47 =( 	
+00097fc7 =( 	
+00098127 =H}D
+000982af T`*A
+000982c3 T`.A
+0009839c Lii8k	
+000983b7 Rh*A
+00098412 E9`"
+000984fa E9`"
+000985d2 E9`"
+00098690 +ih8J	
+0009887f 4H[@
+000988af *(! 
+0009904e A9?o
+000994cf Rh~	
+00099853 9h~_
+00099c0f Rh~	
+0009a223 Ruy(
+0009a3f7 Rl*A
+0009a9a3 <-<@
+0009a9bd jo81
+0009a9f3 R"P@
+0009aa6b < p@
+0009acd8 +ih8J	
+0009ad40 +ih8J	
+0009b06d i!8h
+0009b21c Lii8k	
+0009b595 ADq`
+0009b5c5 BDqJ
+0009b5d5 kj8k	
+0009bdd3 <@}D
+0009be87 = }D
+0009c5f7 <@}D
+0009c6ab = }D
+0009ce13 <@}D
+0009cec7 = }D
+0009d204 mij8
+0009d600 Lii8k	
+0009dbe0 +ih8J	
+0009e0bc (@@9Ws
+0009ea0c +ih8J	
+0009eab0 +ih8J	
+0009eb48 +ih8J	
+0009f2b4 +ih8J	
+0009f523 T`B+
+0009f5f3 T`B+
+0009fc14 +ih8J	
+0009fcc8 +ih8J	
+0009fe18 +ih8J	
+0009fe54 +ih8J	
+000a024c +ih8J	
+000a0304 +ih8J	
+000a0715 {hx)	
+000a0770 jih8)	
+000a084f Thr@
+000a086b R{.@
+000a09a3 R;#	
+000a09e3 R #	
+000a0b40 mQB9J
+000a0bab R`.@
+000a0c33 Ry.@
+000a0daf =i!@
+000a0f63 R)ih
+000a0f77 T{&@
+000a0fe7 =i!@
+000a1035 #V99
+000a132f Ta&@
+000a1372 A9h&
+000a13f5 QB9)
+000a16df T@@ 
+000a177f T@@ 
+000a1a30 ?@@q
+000a1c68 +ih8J	
+000a1dbc +ih8J	
+000a1f48 +ih8J	
+000a21a9 A@q"
+000a231d i!8h
+000a2a57 Thkz
+000a2a75 ki8J	
+000a2ec1 cC9+
+000a2ee0 mih8
+000a2fe0 lij8
+000a31b3 =uj(
+000a3259 SExka
+000a3303 <tj(
+000a332d gAyh
+000a334d gAyH
+000a3404 mij8
+000a36ac IA	*j
+000a3774 IA	*j
+000a37cc IA	*j
+000a3800 IA	*
+000a3e9f < }D
+000a3f54 +yhxJ	
+000a4bd7 R@}D
+000a4f24 +ih8J	
+000a5217 RtV@
+000a5511 ik8k
+000a5667 RB	@
+000a586e @9hv
+000a588e @9kv
+000a58d1 yixJ	
+000a5b11 BDq`4
+000a5b5d i!82
+000a5bd9 BDq`6
+000a5e01 BDq@8
+000a6a5f RB	@
+000a6ae0 +ih8J	
+000a6b78 	 @9*
+000a6c13 9@}D
+000a6e37 RB	@
+000a710c ijh8?
+000a71e8 +ih8J	
+000a72a0 i"@9*
+000a7607 kb!Hz
+000a7657 TL	@9
+000a767f 3?ADq
+000a76a3 k"!HzI
+000a76c7 k"!Hz
+000a77bf Tw"@
+000a77c8 i"C9?	
+000a77e0 i"C9?	
+000a77eb Ti&C9I
+000a783f Th"@
+000a7898 Jii8_
+000a78a3 Tj&C9)
+000a78d3 ThV@
+000a78ec h"C9
+000a7914 h"C9
+000a791f Th&C9(	
+000a797e @y( 	
+000a79cb <h^@
+000a7a50 h&C9
+000a7abc h"C9
+000a7ac7 Ti&C9I
+000a7acf 4jb@
+000a7b7f R	i!8h"@
+000a7b8c h"C9i"
+000a7b9b Th&C9
+000a7c04 h&C9
+000a7c4b TjV@
+000a7c50 Jih8_
+000a7c64 j&C9_	
+000a7c8b TiV@
+000a7c90 )ih8?
+000a7ca4 h"C9
+000a7def Tw"@
+000a7df8 i"C9?	
+000a7e10 i"C9?	
+000a7e1b Ti&C9I
+000a7e6f Th"@
+000a7ea4 h&C9H
+000a7eaf 9j^@
+000a7ebb TkZ@
+000a7ecb TkV@
+000a7eeb 9h"C9
+000a7ef7 Ti&C9
+000a7eff 4jb@
+000a7f5b 4i"C9h&
+000a7f6b Tib@
+000a7ff7 R	i!8h"@
+000a8004 h"C9i"
+000a8013 Th&C9
+000a804c i"C9?
+000a80df R	i!8h.@
+000a80e8 i"C9
+000a80fb Th&C9H
+000a829b Tw"@
+000a82a4 i"C9?	
+000a82bc i"C9?	
+000a82c7 Ti&C9I
+000a831b Ti"@
+000a832c i"C9
+000a833f Tk&C9
+000a8347 4a"@
+000a83a0 i"C9
+000a83b3 Ti&C9
+000a83bb 4i"@
+000a8491 i!8h"@
+000a8498 i"C9
+000a84ab Th&C9h
+000a8525 i!8h.@
+000a852c i"C9
+000a853f Th&C9(
+000a86a7 Tw"@
+000a86b0 i"C9?	
+000a86c8 i"C9?	
+000a86d3 Ti&C9I
+000a8727 Th"@
+000a875c y&C9Y
+000a877b 9h"C9
+000a8787 Ti&C9
+000a878f 4jb@
+000a88c7 9h"C9
+000a88d3 Th&C9
+000a88db 4ib@
+000a898b R	i!8h"@
+000a8998 h"C9i"
+000a89a7 Th&C9
+000a8a47 R	i!8h.@
+000a8a54 h"C9i.
+000a8a63 Th&C9(
+000a8ac2 @y( 	
+000a8be3 Tw"@
+000a8bec i"C9?	
+000a8c04 i"C9?	
+000a8c0f Ti&C9I
+000a8c63 Th"@
+000a8c98 y&C9Y
+000a8cc7 <h^@
+000a8d0b 9h"C9
+000a8d17 Ti&C9i
+000a8d1f 4jb@
+000a8d9c )ih8?
+000a8def TkV@
+000a8e23 TjV@
+000a8e32 @y)	@9_
+000a8e53 9h"C9
+000a8e7c h"C9
+000a8e87 Th&C9h
+000a8ee6 @y( 	
+000a8f73 R	i!8h"@
+000a8f80 h"C9i"
+000a8f8f Th&C9
+000a90c7 Tw"@
+000a90d0 i"C9?	
+000a90e8 i"C9?	
+000a90f3 Ti&C9I
+000a9147 Th"@
+000a917c y&C9Y
+000a9303 9h"C9
+000a930f Ti&C9
+000a9317 4jb@
+000a9373 9h"C9
+000a937f Th&C9
+000a9387 4ib@
+000a9437 R	i!8h"@
+000a9444 h"C9i"
+000a9453 Th&C9
+000a94f3 R	i!8h.@
+000a9500 h"C9i.
+000a950f Th&C9(
+000a956e @y( 	
+000a968f Tw"@
+000a9698 i"C9?	
+000a96b0 i"C9?	
+000a96bb Ti&C9I
+000a970f Th"@
+000a9768 Jii8_m
+000a9773 Tj&C9)
+000a97a3 ThV@
+000a97bc h"C9
+000a97e4 h"C9
+000a97ef Th&C9
+000a984d K@y( 	
+000a990c h&C9
+000a9938 h&C9
+000a99a4 h"C9
+000a99af Ti&C9I
+000a99b7 4jb@
+000a9a67 R	i!8h"@
+000a9a74 h"C9i"
+000a9a83 Th&C9
+000a9ad0 h&C9
+000a9af7 TiV@
+000a9afc )ih8?u
+000a9b10 h"C9
+000a9c23 Tw"@
+000a9c2c i"C9?	
+000a9c44 i"C9?	
+000a9c4f Ti&C9I
+000a9ca3 Th"@
+000a9cd8 h&C9H
+000a9ce3 9j&K
+000a9cef TjV@
+000a9cf4 Jii8_
+000a9d0b 4i"C9h&
+000a9d1b Tib@
+000a9d5b 9h"C9
+000a9d67 Ti&C9i
+000a9d6f 4jb@
+000a9dec i"C9?
+000a9dfb Th&C9
+000a9ea3 R	i!8h"@
+000a9eb0 h"C9i"
+000a9ebf Th&C9
+000a9f97 R	i!8h.@
+000a9fa0 i"C9
+000aa0cf Tw"@
+000aa0d8 i"C9?	
+000aa0f0 i"C9?	
+000aa0fb Ti&C9I
+000aa14f Th"@
+000aa184 h&C9H
+000aa18f 9k*K
+000aa1a7 TlV@
+000aa1d3 TkV@
+000aa203 9h"C9
+000aa20f Ti&C9
+000aa217 4jb@
+000aa273 4i"C9h&
+000aa283 Tib@
+000aa2e4 i"C9?
+000aa2f3 Th&C9
+000aa39b R	i!8h"@
+000aa3a8 h"C9i"
+000aa3b7 Th&C9
+000aa48f R	i!8h.@
+000aa498 i"C9
+000aa5bf Tw"@
+000aa5c8 i"C9?	
+000aa5e0 i"C9?	
+000aa5eb Ti&C9I
+000aa63f Th"@
+000aa67c z&C9Z
+000aa6b3 <h^@
+000aa74c Jih8_)
+000aa78d 	@9_
+000aa7a5 	@9_
+000aa833 9h"C9
+000aa83f Ti&C9I
+000aa847 4jb@
+000aa8f7 R	i!8h"@
+000aa904 h"C9i"
+000aa913 Th&C9
+000aa95b 9h"C9
+000aa984 h"C9
+000aa98f Th&C9(
+000aa9ed K@y( 	
+000aab1b Tw"@
+000aab24 i"C9?	
+000aab3c i"C9?	
+000aab47 Ti&C9I
+000aab9b Th"@
+000aabbb 6h"C9
+000aabc7 Ti&C9)
+000aabcf 4jb@
+000aac38 y&C9Y
+000aac77 9h"C9
+000aac83 Th&C9
+000aac8b 4ib@
+000aad3b R	i!8h"@
+000aad48 h"C9i"
+000aad57 Th&C9
+000aadf3 R	i!8h.@
+000aae00 h"C9i.
+000aae0f Th&C9(
+000aae6e @y( 	
+000aafcb T+	@9_
+000ab059 A@qh
+000ab07d $C9(
+000ab093 *	 @
+000ab194 t&C9T
+000ab1db TjZ@
+000ab1f4 Hihx
+000ab243 TjZ@
+000ab253 TjV@
+000ab258 IiixJ
+000ab2c3 TjZ@
+000ab2dc Hihx
+000ab408 y&C9?
+000ab44b Tw"@
+000ab454 i"C9?	
+000ab46c i"C9?	
+000ab477 Ti&C9I
+000ab4cb Th"@
+000ab560 h"C9
+000ab56b Ti&C9I
+000ab573 4jb@
+000ab5ec h"C9
+000ab614 h"C9
+000ab61f Th&C9
+000ab67a @y( 	
+000ab703 R	i!8h"@
+000ab710 h"C9i"
+000ab71f Th&C9
+000ab830 v&C9V
+000ab83b 9aRK
+000ab889 htxI
+000ab8b6 @y)	@9_
+000ab92a @9?}
+000ab939 	@9?
+000ab9a1 B@qh
+000ab9bf ThV@
+000ab9ef ThV@
+000aba01 	@9_
+000aba19 	@9_
+000abae4 y&C9?
+000abb27 Tw"@
+000abb30 i"C9?	
+000abb48 i"C9?	
+000abb53 Ti&C9I
+000abba7 Th"@
+000abc00 )ih8?
+000abc4f TiV@
+000abc54 )ih8?
+000abcc4 )ih8?
+000abd13 TiV@
+000abd18 )ih8?
+000abd2c h"C9
+000abd54 h"C9
+000abd5f Th&C9
+000abdba @y( 	
+000abe08 h"C9
+000abe13 Ti&C9I
+000abe1b 4jb@
+000abecb R	i!8h"@
+000abed8 h"C9i"
+000abee7 Th&C9
+000abffb TiV@
+000ac000 )ih8?
+000ac0af <`V@
+000ac13b Th&C9I
+000ac1a8 h&C9
+000ac237 <h^@
+000ac3b8 h&C9`
+000ac3bf <i^@
+000ac478 )ih8?
+000ac483 Ti&C9
+000ac5b7 <h^@
+000ac784 h&C9
+000ac7c3 <h^@
+000ac8b4 h&C9`
+000ac8bb <i^@
+000ac9d8 h&C9
+000ac9ff TiV@
+000aca04 )ih8?
+000aca0f Ti&C9
+000acb47 <`V@
+000acbb7 Th&C9I
+000acc07 TiV@
+000acc0c )ih8?
+000acc28 h&C9
+000accac h&C9
+000acceb <h^@
+000ace64 )ih8?q
+000ace6f Ti&C9
+000aced8 Jii8_5
+000acee3 Tj&C9)
+000acf13 ThV@
+000acf57 ThV@
+000acf5d ii8(
+000acf87 TjV@
+000acf96 @y,	@9
+000acfae @y)	@9
+000ad08f <h^@
+000ad14b ThV@
+000ad151 ii8(
+000ad167 TkV@
+000ad16c kii8
+000ad193 TjV@
+000ad1a2 @y,	@9
+000ad1ba @y)	@9
+000ad1ec h&C9
+000ad31b TjZ@
+000ad334 Iiix
+000ad343 Ti&C9h^
+000ad40f <h^@
+000ad4b3 TiV@
+000ad4b8 )ih8?}
+000ad4f0 h&C9
+000ad6ec +ih8J	
+000ad7da @y)	@9_
+000ad894 )ih8?
+000ad909 ii8(
+000ad942 @y,	@9
+000ad95a @y)	@9
+000ad9c4 )ih8?
+000ada54 Jii8_5
+000ada61 &C9)
+000add2d i)8)
+000ade29 i)8)
+000ae2df <h^@
+000ae373 TiZ@
+000ae388 (ihxI
+000ae4a3 <h^@
+000ae53c Jih8_)
+000ae575 	@9_
+000ae58d 	@9_
+000ae6a3 <h^@
+000ae754 )ih8?
+000ae75f Ti&C9
+000ae93c )ih8?
+000ae964 h&C9
+000ae98b TiV@
+000ae990 )ih8?
+000ae99b Ti&C9
+000aea30 )ih8?
+000aea3b Ti&C9
+000aeb4c )ih8?
+000aeb74 h&C9
+000aebd8 h&C9
+000aec17 <h^@
+000aec73 <h^@
+000aed14 h&C9
+000aed9c h&C9
+000aeea0 )ih8?q
+000aeeab Ti&C9
+000aef4f <h^@
+000af020 (ih8
+000af084 h&C9
+000af158 )ih8?
+000af163 Ti&C9
+000af214 )ih8?
+000af21f Ti&C9
+000af2f8 h&C9`
+000af2ff <i^@
+000af3e0 h&C9`
+000af3e7 <i^@
+000af513 <h^@
+000af648 @1	*
+000af6f8 @1	*
+000af7a8 @1	*m
+000af840 @1	*C
+000af8d0 h&C9
+000af9b7 T(T@
+000af9eb T*T@
+000af9fa @y,	@9
+000afa12 @y)	@9
+000afac4 )ih8?
+000afacf Ti&C9
+000afc38 h&C9`
+000afc3f <i^@
+000afcf8 )ih8?
+000afd03 Ti&C9
+000afda4 ($C9
+000afdc7 T)T@
+000afdcc )ih8?
+000afdd7 T)$C9
+000afe5f T)T@
+000afe67 R)ih8)
+000afe84 Lii8k	
+000afefc )ih8?q
+000aff07 Ti&C9
+000affab <h^@
+000b007c (ih8
+000b00e0 h&C9
+000b020c W1	*
+000b02c0 W1	*
+000b0374 W1	*
+000b0428 W1	*
+000b04dc W1	*
+000b050d B@qh
+000b05e8 U1	*
+000b0935 iw8)	
+000b0e3e 	*?)
+000b0e52 @9?}
+000b0ef6 @9?}
+000b1155 A@q"
+000b130b T,	@9
+000b1333 3_ADq 
+000b1567 T"X@
+000b1bcb T	)@
+000b1bfa 	*?%
+000b1c0a @9?}
+000b1c61 ADq`
+000b1c8c (i!8
+000b1cd0 (i!8
+000b1cf0 (i!8
+000b1d33 R	i!8
+000b1d73 R	i!8
+000b1daf r*i!
+000b2f2f TtF@
+000b3171 A@q"
+000b32e1 i!8h
+000b3b91 i!8h
+000b42a4 mih8li(8k
+000b4598 	ia8?
+000b45e9 jh8?
+000b49f7 *_ADq
+000b4a1f *_ADq
+000b4aed ADq 
+000b4b57 TL	@9
+000b4b8d ADqa
+000b4e28 ?@@q"
+000b4e4c Hih8?
+000b4e8c Hih8*-F
+000b4ea8 Hih8?
+000b5034 +ih8J	
+000b617c +ih8J	
+000b6370 +ih8J	
+000b67c4 +ih8J	
+000b6aa8 +ih8J	
+000b6bc4 +ih8J	
+000b6d75 	@9`
+000b76f8 Lii8k	
+000b7a04 Lii8k	
+000b7b62 @9)%
+000b7cb8 Lii8k	
+000b7d84 Lii8k	
+000b83d8 ?@@q
+000b86f0 +ih8J	
+000b8cc8 Lii8k	
+000b9021 jh8)	
+000b93e0 mij8
+000b94b4 Lii8k	
+000b97ac Lii8k	
+000b9c28 +ih8J	
+000ba3f3 R)5B
+000ba4d6 @9oz
+000ba5b7 T	kh8
+000ba6eb *	A@
+000ba713 *(i!
+000ba8ab TKik8
+000ba94e @9Qy
+000bad42 @9Tx
+000baf80 ?@@q
+000bb7eb 4h&@
+000bb978 Ii+8
+000bba70 _h(8
+000bbc01 jj8L
+000bbca1 "?9{
+000bbcad "?9`
+000bbeab <*%@
+000bc5ab TtZA
+000bc77c +ih8J	
+000bcf23 T`B+
+000bcff3 T`B+
+000bd22b <*%@
+000bd4f7 TtZA
+000bdd96 @9?l
+000be0b4 	iu8?
+000be0c5 i58h
+000be3c0 *i58
+000be3ec 	iu8?
+000be4a3 T,ik8*i+8m
+000be4ef 9		@9
+000be54f 9	!@9
+000be55f 9	%@9
+000be56f 9	)@9
+000be57f 9	-@9
+000be58f 9	1@9
+000be59f 9	5@9
+000be5af 9	9@9
+000be5bf 9	=@9
+000be5cf 9	A@9
+000be5df 9	E@9
+000be5ef 9	I@9
+000be5ff 9	M@9
+000be60f 9	Q@9
+000be61f 9	U@9
+000be62f 9	Y@9
+000be63f 9	]@9
+000be64f 9	a@9
+000be65f 9	e@9
+000be66f 9	i@9
+000be67f 9	m@9
+000be68f 9	q@9
+000be69f 9	u@9
+000be6af 9	y@9
+000be6bf 9	}@9
+000be6e0 6i58i
+000bee0b T*hh
+000bee37 T-hlx
+000bee53 T+hl8
+000bef5c ,hlx
+000bef80 (hh8
+000bf29c (k|8*
+000bf2c0 0k<8
+000bf4ca @9rf
+000bfd3e @9Ud
+000c0187 ThwK9(
+000c018f 4bwD
+000c01c8 +yhxJ	
+000c0243 q )Zz
+000c024d !Izi}p
+000c0273 q`)Zz
+000c0298 +yhxJ	
+000c02d4 +yhxJ	
+000c02f8 +yhxJ	
+000c030b Thw@
+000c0423 *	|U
+000c044f **A@
+000c0463 T)=@
+000c04bf *	-K9
+000c04c7 5	Y@
+000c04e9 ij8k	
+000c0525 1K9i
+000c0543 T(=@
+000c05d2 @9(ih8
+000c05ed jw8+ik8k
+000c060a _8(ih8
+000c0628 +ik8k
+000c06e0 +ik8k
+000c08b3 *	|U
+000c08df **A@
+000c08f3 T)=@
+000c0953 *	-K9
+000c095b 5	Y@
+000c097c myjx
+000c09e3 S-}G
+000c0a0c kUL*k
+000c0a80 	-K9I
+000c0a87 5	Y@
+000c0aa8 mij8
+000c0b13 T`C+
+000c0b2c hsK9(
+000c0bf3 *	A@
+000c0c77 *(=@
+000c0d3d 1K9)
+000c0d5b T(=@
+000c0dfa _8(ih8
+000c0e13 5kky8+ik8k
+000c0e32 @9(ih8
+000c0e49 	@99
+000c0e54 +ik8k
+000c0f79 jy8+
+000c0f85 ij8J
+000c1065 #C9h
+000c1146 _8(ih8
+000c1161 ky8+ik8k
+000c117e @9(ih8
+000c1195 	@99
+000c11a0 +ik8k
+000c1305 jy8+
+000c1311 ij8J
+000c1439 1K9i
+000c1457 T(=@
+000c14da @9(ih8
+000c14f5 jy8+ik8k
+000c1512 _8(ih8
+000c1530 +ik8k
+000c15a1 #C9(
+000c15dd #C9H
+000c1601 ky89
+000c160d ij8J
+000c174f Thw@
+000c1773 Thw@
+000c1781 	@9Z1
+000c1933 R)1B
+000c199b R)1B
+000c1a07 R)1B
+000c2327 Th~_
+000c2387 Th~_
+000c2730 +ih8J	
+000c2894 +ih8J	
+000c28b5 jv8K
+000c29e4 Lih8k	
+000c2a59 ii8?
+000c2a63 TKi`8)
+000c2aeb 5h~	
+000c2b7f Th~_
+000c2caf 5h~	
+000c2d2b Th~_
+000c2e59 6E9	
+000c2eb0 +ih8J	
+000c309b Tk	@
+000c30da @9k!
+000c3163 Tk	@
+000c31a2 @9k!
+000c330d jw8@!
+000c331b T}z`
+000c36bd jw8@
+000c36cb Tzz`
+000c37e5 kj8@
+000c386d jh8@!
+000c387b T:y`
+000c38d9 jh8,il8@1
+000c38eb Tsy`
+000c394d jh8@
+000c395b T=y`
+000c39cd jh8+ik8`
+000c39df TSy`
+000c3d97 THh`8hjh8
+000c3deb T	!@
+000c3e7b T`hm8
+000c3e8f T	z`
+000c41d3 T`hn8
+000c41d9 i`8 
+000c41e7 T	z`
+000c4333 THh`8hjh8
+000c4347 Ty{h
+000c4383 T	!@
+000c449f 4+cA
+000c4727 T[{h
+000c4767 T	!@
+000c48af 4+cA
+000c4b67 T[{h
+000c4ba3 T	!@
+000c4e07 Thjt8
+000c4e5e @9J!
+000c4fb7 T`jt8
+000c4fcf T)	@
+000c500e @9)!
+000c5167 =4L@
+000c52e7 T*hh
+000c5313 T-hlx
+000c532f T+hl8
+000c5438 ,hlx
+000c545c (hh8
+000c5504 Jih8 
+000c55ac (0K9h!
+000c55b3 5(X@
+000c55d5 ii8J	
+000c5698 Jii8
+000c573f Th"@
+000c5778 nkl8
+000c5887 4HA@9
+000c5893 THE@9
+000c59af <j&@
+000c5b35 @Dq	
+000c5c00 (0K9
+000c5c07 5(X@
+000c5c29 ii8J	
+000c5d88 ?A@qi
+000c5dff Th"@
+000c5e38 nkl8
+000c5f47 4HA@9
+000c5f53 THE@9
+000c6073 <iJ@
+000c60cc ?A@qi
+000c62a3 T`	@
+000c6313 T	{{
+000c6353 T)-A
+000c636d ii8J	
+000c63d7 R( 	
+000c66ef T`	@
+000c675f T	{{
+000c679f T)-A
+000c67b9 ii8J	
+000c6823 R( 	
+000c6bdd iK9.
+000c6d72 @9HH
+000c6eec ?@@q
+000c70ac *kh8)	
+000c71b4 Lih8k	
+000c7211 PByI
+000c72c0 	iu8?
+000c72d1 i58h
+000c7604 Hk|8)
+000c7624 Lk<8
+000c78a4 *i58i
+000c78c8 	iu8?
+000c7980 ,ik8
+000c7988 *i+8k!
+000c79cb 9		@9*
+000c7a2b 9	!@9*#@9)#
+000c7a3b 9	%@9*'@9)'
+000c7a4b 9	)@9*+@9)+
+000c7a5b 9	-@9*/@9)/
+000c7a6b 9	1@9*3@9)3
+000c7a7b 9	5@9*7@9)7
+000c7a8b 9	9@9*;@9);
+000c7a9b 9	=@9*?@9)?
+000c7aab 9	A@9*C@9)C
+000c7abb 9	E@9*G@9)G
+000c7acb 9	I@9*K@9)K
+000c7adb 9	M@9*O@9)O
+000c7aeb 9	Q@9*S@9)S
+000c7afb 9	U@9*W@9)W
+000c7b0b 9	Y@9*[@9)[
+000c7b1b 9	]@9*_@9)_
+000c7b3c 7i58i
+000c7c9d j)89
+000c80a2 @9|C
+000c81a5 @Dq	
+000c81bb 2)ADQ?
+000c82e4 _A@qi
+000c83c1 ki8J	
+000c847d @Dq	
+000c8492 	ki3
+000c84bc ?A@q)7
+000c859c )ig8
+000c8760 [ii8
+000c8794 Kki8J	
+000c89e0 Zq@9W	@
+000c8a1c K}@9!
+000c8aa7 **y(
+000c8abb T	-A
+000c8acc kki8J	
+000c8c6c =ih8
+000c8cf0 =ih8
+000c8d4d i)8h
+000c8e84 8q@97	@
+000c8ec0 +}@9
+000c8f3a 	*	y 
+000c8f4f T	-A
+000c8f60 kki8J	
+000c9165 @Dq	
+000c91b1 A@qh
+000c91f1 i)8h
+000c9264 H @9)
+000c9278 +ih8J	
+000c9515 BDq 
+000c959d @Dq`
+000c974d BDq 
+000c97d9 @Dq`
+000c995c +ih8J	
+000c9980 +ih8J	
+000c9993 T(l@
+000c9a35 @Dq	
+000c9a4b 2)ADQ?
+000c9a88 _A@qi
+000c9abf T(l@
+000c9ae7 T(l@
+000c9b13 T`hi8
+000c9b1f TKi`8)
+000c9b94 H @9)
+000c9bac +ih8J	
+000c9f4f TiR@9	
+000c9f67 2)ADQ?
+000ca1eb TiR@9)
+000ca203 2)ADQ?
+000ca380 +ih8J	
+000ca3a4 +ih8J	
+000ca3b7 T(l@
+000ca49f T(l@
+000ca4c7 T(l@
+000ca4f3 T`hi8
+000ca4ff TKi`8)
+000ca629 	@9l
+000ca657 **A@QJ}
+000ca683 2)ADQ?
+000ca837 Th{`
+000ca847 T({h
+000ca85b T {)
+000ca888 K{hxJ	
+000ca8c5 C@9h
+000ca8e7 Th{`
+000ca8f7 T({h
+000ca90b T {)
+000ca939 yhxJ	
+000ca9b0 C>@7
+000caa27 Th{`
+000caa37 T({h
+000caa4b T {)
+000caa78 K{hxJ	
+000caaff Th{`
+000cab0f T({h
+000cab23 T {)
+000cab51 yhxJ	
+000cabc4 #7@7CS
+000cac37 Th{`
+000cac47 T({h
+000cac5b T {)
+000cac89 {hxJ	
+000cad17 Th{`
+000cad27 T({h
+000cad3b T {)
+000cad69 yhxJ	
+000cae43 Ti{`
+000cae53 T){i
+000cae67 T {(
+000cae95 yixJ	
+000caf24 ljj8k	
+000cafbb Th{`
+000cafcb T({h
+000cafdf T {)
+000cb00c K{hxJ	
+000cb061 B@9.
+000cb075 ij8k	
+000cb0a3 Th{`
+000cb0b3 T({h
+000cb0c7 T {)
+000cb0f5 yhxJ	
+000cb149 B@9.
+000cb15d ij8k	
+000cb1db Th{`
+000cb1eb T({h
+000cb1ff T {)
+000cb22d zhxJ	
+000cb284 ljj8k	
+000cb307 Ti{`
+000cb317 T){i
+000cb32b T {(
+000cb358 kzixJ	
+000cb3b1 jj8k	
+000cb43b Ti{`
+000cb44b T){i
+000cb45f T {(
+000cb48d zixJ	
+000cb4e4 kji8J	
+000cb56b Th{`
+000cb57b T({h
+000cb58f T {)
+000cb5bd jh8J	
+000cb614 ljj8k	
+000cb693 Th{`
+000cb6a3 T({h
+000cb6b7 T {)
+000cb6e5 jh8J	
+000cb73c ljj8k	
+000cb7bb Th{`
+000cb7cb T({h
+000cb7df T {)
+000cb80d kh8J	
+000cb934 ?i(8
+000cb9b4 k{hxJ	
+000cb9c2 	K	y
+000cba1b S(i!8
+000cba56 	K	y
+000cba8f S(i!8
+000cbac6 	K	y
+000cbb03 S(i!8
+000cbdd7 R)1B
+000cc0d1 .K9H
+000cc0f8 Lii8k	
+000cc14d 2K9)
+000cc425 ii8A1@
+000cc43b TH-@
+000cc45f TH%@
+000cc61f q`)Zz
+000cc717 R`)Jz
+000cc71d "JzJ
+000cc795 {ixJ	
+000cc7bc 	A@9?
+000cc7c7 T	E@9?
+000cc8e3 Thy`
+000cc9b7 4h"@
+000cca75 i`8i
+000cca8f T(-@
+000ccbf3 T(h`8
+000ccc0f q )Zz
+000ccc19 !Izi}p
+000ccc2b T*hc8Ky
+000ccc3f q`)Zz
+000ccc47 RD!Kz
+000cccdf T)hc8*y
+000cccf3 q@)Zz
+000cccfb R$!Jz
+000ccd13 T*h`8Ky
+000ccd27 q`)Zz
+000ccd2f RD!Kz
+000ccd3f T(hc8
+000ccf70 Ji`8j
+000ccf8b qiy*
+000cd118 mij8
+000cd13c +i`8J	
+000cd257 T`hi8?
+000cd265 i`8)
+000cd2e3 *	-K9I
+000cd310 mij8
+000cd34d 1K9	
+000cd53e (7!7
+000cd55a (7U8
+000cd5af T	P@y
+000cd837 Tl	@9M	@9
+000cd8e7 TJil
+000cd9ab R*hh8_
+000cda89 -@8_
+000cdaa1 =@8_
+000cdab9 M@8_
+000cdad1 ]@8_
+000cdae9 m@8_
+000cdb54 K-@8
+000cdb74 K=@8
+000cdb94 KM@8
+000cdbb4 K]@8
+000cdbd4 Km@8
+000cdc47 RJha8_
+000cdd60 l-@8
+000cdd88 l=@8
+000cddb0 lM@8
+000cddd8 l]@8
+000cde00 lm@8
+000cde93 Rkha8
+000cdffb THhh
+000ce20d jh8q%
+000ce285 ja8!
+000ce381 j`8i'
+000ce3ab TKki8
+000ce3f8 +ki8)
+000ce489 jh8h%
+000ce4b1 ja8#
+000ce4fd jh8?
+000ce651 jh8h'
+000ce67d jl8n
+000ce6c5 jh8Kih8?
+000ce946 (7Z3
+000cefcf 6((@
+000cf72f Tc($
+000cf73b Tf8$
+000cf79b Tc($
+000cf7a7 Tf8$
+000cf8a3 /!( 
+000cfb1b T  (
+000cfb23 T!8 
+000cfeaf -@9D
+000cff92 B-tr
+000d0050 +ih8J	
+000d00fc +ih8J	
+000d02f5 i!8h
+000d04db R@}D
+000d058f R }D
+000d089e @9}!
+000d0d8c Mii8n!
+000d0efc nij8
+000d1284 Mik8k
+000d129f TIik8*
+000d1327 TOik8
+000d150c +ij8J
+000d1527 T+ij8k
+000d154f T+ij8k
+000d158b T+ij8
+000d15b7 T+ik8k
+000d1647 T,ik8j
+000d1667 T+ij8k
+000d169f T,ik8
+000d16c3 T,ik8j
+000d16e3 T+ij8k
+000d1790 -ik8)
+000d18c2 	KjQ
+000d1998 +ih8
+000d1adf T,il8
+000d1afb T,ij8
+000d1b17 T,ij8
+000d1b33 T)ij8
+000d1b67 T,il8
+000d1b83 T,ij8
+000d1b9f T)ij8
+000d1bd3 T,il8
+000d1c2c ,ij8
+000d1c47 T)ij8
+000d1d1e 	KjQ
+000d1e30 lij8
+000d1f5b 4	)B
+000d1f6c lij8
+000d204c Mih8
+000d20f0 -ij8
+000d2144 -ij8n!
+000d2a0d i!8!
+000d2a76 _8I	
+000d2b06 _8I	
+000d2b72 _8I	
+000d2be3 *i*B
+000d2c0c :ih8i*B
+000d2c1b Tl"A
+000d2c9d il8C
+000d2e88 Lik8
+000d2ee3 T- @9
+000d2f08 Nik8
+000d2f50 ) @9
+000d2ffc Lik8
+000d3057 T- @9
+000d307c Nik8
+000d30c4 ) @9
+000d3174 Lik8
+000d31cf T- @9
+000d31f4 Nik8
+000d3240 ( @9
+000d3377 T-!@9
+000d339d ii8n!
+000d33e8 (!@9
+000d34eb T-!@9
+000d3511 ii8n!
+000d3558 (!@9
+000d365b T-!@9
+000d3681 ii8n!
+000d36d0 (!@9
+000d377c Mih8
+000d3a38 Mih8
+000d3bc9 ii8n!
+000d3d79 ii8n!
+000d3f61 ii8n!
+000d4281 ij8n!
+000d430c lih8
+000d4353 Tlih8
+000d4470 Kih8
+000d44e4 Kih8
+000d455c Kih8
+000d49d5 ij8n!
+000d4a58 lih8
+000d4a9f Tlih8
+000d4b74 Kih8
+000d4f6d ij8n!
+000d4ff0 lih8
+000d5037 Tlih8
+000d50b8 *#@9i
+000d50c0 k!@9
+000d50dc *#@9i
+000d50e4 k!@9
+000d5134 Kih8
+000d518c Kih8
+000d5265 ij8n!
+000d5368 -ij8
+000d54e0 -ij8n!
+000d58a9 ij8n!
+000d5938 lih8
+000d597f Tlih8
+000d5a30 Kih8
+000d5a65 "@9+#@9
+000d5ab0 Kih8
+000d5f15 ij8n!
+000d5fa4 lih8
+000d5feb Tlih8
+000d6075 "@9+#@9
+000d6091 "@9K#@9
+000d60dc Kih8
+000d6150 Kih8
+000d6579 ij8n!
+000d6620 lih8
+000d6667 Tlih8
+000d6748 Kih8
+000d67d4 Kih8
+000d681c Kih8
+000d6984 Kii8
+000d6b3c Mii8n!
+000d6c5c Kii8
+000d6f84 Mii8n!
+000d7369 ij8n!
+000d73f0 Lih8
+000d7437 TLih8
+000d7508 Kih8
+000d7621 ij8n!
+000d79d1 ij8n!
+000d7a60 lih8
+000d7aa7 Tlih8J#
+000d7b68 Kih8
+000d7bc8 Kih8
+000d7c44 Kih8
+000d7d8c +ij8
+000d7e31 c@9K
+000d7e54 -ij8n!
+000d7ea9 c@9H
+000d81fd ij8n!
+000d82b0 lih8
+000d82f7 Tlih8*#
+000d836e F9(\
+000d838c jih8)	
+000d83b0 Kih8
+000d8424 Kih8
+000d8468 Kih8
+000d84ac Kih8
+000d84f4 Kih8
+000d8538 Kih8
+000d8a6c +ij8
+000d8d54 -ij8n!
+000d9305 ij8n!
+000d938c Lih8
+000d93d3 TLih8
+000d9451 "@9K#@9
+000d94a4 Kih8
+000d95bd ij8n!
+000d9ee1 i!8h
+000da261 ii8*
+000da3dd ii8*
+000da64f T` "
+000da7cb T` $
+000da7d3 T%	@
+000da7e7 T` "
+000da7ef T @ 
+000da82f TiV@
+000da83f Tj^@
+000da84b /iZ@
+000da877 Tb@ 
+000da923 T  #
+000da92b Tb@ 
+000da9ec Lii8k	
+000dac64 Lii8k	
+000daf90 +ih8J	
+000db433 T jv8
+000db477 T7j`8
+000db4e3 T7ig8
+000db618 k%@9k
+000db788 _ADq
+000db7e5 #@9(
+000db830 _A@qi
+000dbcf0 	i`8
+000dbcf5 ji8*
+000dbd13 T	ii8
+000dbd31 ji8J	
+000dbdce @8?)
+000dbe12 @8?)
+000dbe3e @8_)
+000dbe6a @8?)
+000dbec8 *im8
+000dbee7 T*ij8
+000dbf07 T*ij8
+000dbf27 T(ij8
+000dbfde @8_)
+000dc056 @8_)
+000dc0b6 @8_)
+000dc124 Kkj8
+000dc1fe @8?)
+000dc2f0 *kh8
+000dc393 9(ih8h
+000dc3da @8_)
+000dc486 @8?)
+000dc528 mij8
+000dc66f R	i!8
+000dc73e @8?)
+000dc77d c@9(
+000dc80a @8_)
+000dc925 7@y		@
+000dc959 BDq 
+000dd34c Lii8k	
+000ddd2f Th~_
+000de180 ?@@q
+000de639 jh8)	
+000df4a8 ?@@q
+000df6e1 jh8)	
+000dfbfc ?@@q
+000dfccc ?@@q
+000dfde4 ?@@q
+000e0d5b Th~_
+000e12ef =*	@
+000e140f =(	@
+000e14d3 =(	@
+000e15b3 =(	@
+000e168b =(	@
+000e17b7 =*	@
+000e198f =m	@
+000e1b2b =m	@
+000e1cdb T!	@
+000e1d83 =*	@
+000e215f =+	@
+000e22b4 `M@L
+000e2337 =		@
+000e236b =kjh
+000e253e @9B0
+000e25e7 =M	@
+000e264f =l	@
+000e28d7 =*	@
+000e2c73 TIii8)&
+000e2ca3 TFi`8
+000e2ced i`8Iii8
+000e2d93 T@if8
+000e2dbb TGhe8
+000e2dfb TGi`8
+000e2e53 TL	@9
+000e2ea0 ?ADq
+000e2ef0 ?A@qh
+000e2ff5 i!8i
+000e31d8 	dJy
+000e3220 	dJy
+000e4292 @86`
+000e42e9 jh8_
+000e45c8 ,yjxk	
+000e461b T) @
+000e4681 A86k
+000e47b9 ik8H:
+000e47e8 .il8
+000e48d7 T) @
+000e493c M@86k
+000e4973 T) @
+000e49c7 T) @
+000e4c31 	@9kR
+000e5256 @8.@
+000e5262 ?6Pn
+000e527e ?6pm
+000e52c0 nyjx
+000e5308 Lk86
+000e5360 Li86
+000e560e @y)	
+000e5628 nyix
+000e5653 R	}`
+000e566e @y)	
+000e5688 nyix
+000e56b4 	in8IO
+000e56e1 ii8_
+000e5701 f86J
+000e5814 l`86
+000e58cc l[86
+000e58fd ii8_
+000e591d Y86J
+000e5d97 *)1@
+000e6615 M@x 
+000e6621 	@9@Q
+000e67ee @83P
+000e6839 xtxs
+000e6852 @83P
+000e6928 3jt8
+000e6c68 (0@y
+000e6c98 +yhxJ	
+000e6d24 +yhxJ	
+000e7268 +eJy
+000e7287 T/yl
+000e7644 +ih8J	
+000e765d  @9 
+000e76b4 +ih8J	
+000e76d5  @9(
+000e7754 +ih8J	
+000e7767 R?@@
+000e7775  @9(
+000e777b R?@@
+000e778f R?@@
+000e77a3 R?@@
+000e77bb R?@@
+000e77cb *?@@
+000e77fc )@@9,\@9-PAxsD@
+000e79a4 f0@x
+000e7ab3 T`@@
+000e7ad6 @9g	
+000e7ade @9eP@x
+000e7c9b TD @9G,@9S
+000e7ca6 @xB0
+000e7cd3 TD @9G,@9S
+000e7cde @xB0
+000e7fda O9?-
+000e82c6 N9?-
+000e845d kh8)	
+000e849c *kh8)	
+000e8777 4	}_
+000e8989 {HyI
+000e8a00 4%@x
+000e8a35 cF9L
+000e8a5e GyJ!
+000e8a6e O9iA	*
+000e8a7c NM@xi
+000e8a84 J	@9(
+000e8aaf TnA@
+000e8f4c ,kz8
+000e9280 .kz8
+000e934c  jm8
+000e9621 ij8k	
+000e964d ii8J	
+000e969d ii8J	
+000e96d1 ii8J	
+000e9b60 +ih8J	
+000e9c55 ij8+
+000e9e8c IA	*
+000e9e91 !	*	=
+000e9eb2 @9_!
+000e9eba @9,P@x
+000e9f1c + @9_1
+000e9f24 ,,@9-
+000e9f90 +0@9,<@9-
+000ea0f2 @9$P@x
+000ea113 T1~}
+000ea290 	(	)
+000ea31e @9$P@x
+000ea34b 61~}
+000ea36b T# @9$,@9%
+000ea39f 6c|}
+000ea3bf T$0@9%<@9&
+000ea413 T%@@9&L@9'
+000ea467 T&P@9'\@94PAx
+000ea4bb T'`@94l@95
+000ea50f T'p@95|@96
+000ea55b T# @9$,@9%
+000ea583 Tc|}
+000ea5bb T$0@9%<@9&
+000ea617 T%@@9&L@9'
+000ea66f T&P@9'\@94PAx
+000ea6c3 T'`@94l@95
+000ea723 T'p@95|@96
+000ea7e3 *ikk8
+000ea9cd 	@9)
+000ea9fe K9?-
+000eaa2a 86y 
+000eaa51 	@99
+000eaafb =	+@
+000eaf87 T($@
+000eb08c +ih8J	
+000eb0a6 @8k	
+000eb242 @8,4
+000eb28a @9,	
+000eb2b4 .	@9,
+000eb414 *%@9,)
+000eb484 +ih8J	
+000eb49e @8)(
+000eb4c3 T(%@x
+000eb6ed %@xn9
+000eb9f0 O{mx
+000ebac6 	K)	
+000ebd8c  	861
+000ebdf5 	861
+000ebe7d f@y(
+000ec01e @yi	
+000ec1ec 0jn8
+000ec3bc IA	*i
+000ec5d6 	*)!
+000ec648 +ih8J	
+000ec660 ) @9
+000ec6db =<h@
+000ece47 R+%A9
+000ecf91 OAyI
+000ecfb3 *I!	
+000ed01e H9_1
+000ed145 /AyL
+000ed1a4 I@@9J
+000ed1dc H@@9
+000ed2bf *O5C
+000ed2c4 N%A9J
+000ed59d ylxJ	
+000ed625 ylxJ	
+000ed6ba @y	=
+000ed71e @y	=
+000eda53 R(#	
+000edca0 oin8
+000ee05b R@!	
+000ee070 KeJy
+000ee08f TOyl
+000eef10 `M@L
+000ef2eb yi2@
+000ef304 IA	*i
+000eff31 K	9h	
+000f008d wG9_
+000f00e1 	@9)
+000f0139 wG9_
+000f0166 H9)<
+000f0339 {G9(	
+000f0341 wG9_
+000f04c1 cG9*
+000f0983 R	}	
+000f189f RY$A9
+000f1914 /in8
+000f1b10 +eJy
+000f1b2f T/yl
+000f1d00 +%A9,!C
+000f1f45 ij8)	
+000f212f q$9@z
+000f215c jih8)	
+000f2198 "	Dz
+000f21d8 jih8)	
+000f2bff TH,C
+000f2c07 RJ$A9_!
+000f2d0f R)|_
+000f2ed7 qh~	
+000f3157 T*}_
+000f3405 j48_
+000f3558 +ih8J	
+000f376c Lii8k	
+000f3980 Lii8k	
+000f3aac +ih8J	
+000f4403 5h~	
+000f450b 9h~_
+000f45c7 9h~_
+000f5000 +ih8J	
+000f51ff T(A(
+000f52bb R(A(
+000f536c kjj8
+000f53b8 kjj8
+000f55f5 kv8J	
+000f56fc jkv8)	
+000f5929 @@9I
+000f5946 @9b1
+000f5a18 jig8_
+000f5b2c Qil8
+000f5bc1 jl81
+000f5cf2 @9Y%
+000f5eb9 iw8)	
+000f5ff9 B@9iB@9
+000f6058 lB@9
+000f60df <ir@y
+000f624f R	i78
+000f6666 D9?)
+000f6cac ?sr9
+000f6d77 R(s29
+000f6f01 3@9h
+000f6fa5 `@9_
+000f7027 RiZB
+000f7049 sB9H
+000f7867 R)1B
+000f8067 7	}_
+000f81e7 7	}_
+000f91c4 +ih8J	
+000f96dc H @9J$@9I(@9
+000f9717 QJ,@9I4@9
+000f972c J,@9I4@9J
+000f9758 H,@9
+000f975f 5H0@9
+000f9767 5H4@9
+000f977b RK0@9
+000f97ab RIT@)
+000f988d j48=h
+000f9922 @9\}
+000f9ce8 (S`9
+000f9d3b T?S 9z
+000fa0ae @9y{
+000fa513 rl}	SI
+000fa590 +ih8J	
+000fa89b 7i~_
+000faa0b 2j~_
+000fab3b Ta~_
+000fab73 Rj~_
+000fabc7 4h~_
+000fad75 il8B
+000fadb4 "&@x#&@x$&@x(
+000fae15 hl8c
+000faee0 %hl8
+000faf68 Lii8k	
+000fb041 ij8)	
+000fb0ac +ih8J	
+000fb451 g@9Ko
+000fb55f R( 	
+000fbca6 @9{t
+000fc1d3 =b2I
+000fc6c7 R@!	
+000fc6dc KeJy
+000fc6fb TOyl
+000fc873 T)	@
+000fc891 ymx)	
+000fc98f T)	@
+000fc9a9 ymx)	
+000fc9d8 D9@z
+000fcc33 Tlil
+000fcc3b qm-A
+000fcfa4 jyhx)	
+000fcfb9 &@x9
+000fd168 jih8)	
+000fd23d ij8k	
+000fd26d &@xj	
+000fd347 T	&@x
+000fd48b R@#	
+000fd5ea @9*n
+000fdfb7 <hqL
+000fdfe3 <)9@
+000fe10a M9_[
+000fed1e @9]h
+000ff0bb R`#	
+000ff733 R`#	
+000ffaba @9?-
+000ffd4b RI}	
+000ffd83 RH!	
+0010003e H8LQ@
+001000f3 =(A@
+00100103 =!	A
+001001cb Q)M@
+001002c0 Xku8
+001004ba @9vb
+00100ad3 =()@
+00100de2 @9,`
+00101180 Hks8
+0010127d j38s
+00101379 C/91~
+0010138d !@qa
+00101438 Ii!8!
+001014fc (i58
+00101ca8 Ii(8
+00101dbf =	1@
+0010251e @9]Z
+00102718 Y{@y
+00102720 Hw@y
+00102807 1D)@z
+00102884 D)@z
+001028d0 Hw@y
+00102c97 TH'@9
+00102e13 5HC^
+00102eec H'@9
+00102f69 	@zu
+00103090 #jo8
+001032c4 jB@9
+00103566 @9KV
+001038ae @9yU
+00103a4f R*hh8_
+00103b2d -@8_
+00103b45 =@8_
+00103b5d M@8_
+00103b75 ]@8_
+00103b8d m@8_
+00103eb9 -B))
+00103ff2 @9?q
+0010404f Z_AIk@
+00104102 (7k]
+001041de @9-S
+00104431 eJyk
+0010453a @9VR
+0010460b <))@
+001047f7 =*5@
+001049cc 6aJy
+00104a6f yK1@
+00104a77 <-y}
+00104a9b =K5@
+00104c1b =h{6
+00104d82 @9DP
+00105512 @9_}
+0010557e @90	
+00105634 .	@9/
+0010575a @9,	@9)
+00105791 ADq@
+00105964 ?@@qB
+00105a74 +ih8J	
+00105c6f T)0@
+00105cbc (h@9
+00105cdc )`@9(
+00105e7b TL	@9
+00105f39 ADq!
+00105f81 A@qh
+00106071 j{8_@
+001060a0 )hh8?
+0010610d j{8_@
+0010613c )hh8?
+001062bb TJ	@9?
+001062e9 ADqa
+00106332 @9(E
+00106443 T,	@9
+0010646b 3_ADq
+001064ce 	k 3
+001065bb T+	@9
+001065e3 3_ADq 
+00106886 @9?}
+0010694b T,	@9
+00106973 3_ADq
+00106e0b Tn	@9
+00106f5c ?ADq
+001072a7 T,	@9
+001072cf 3_ADq 
+00107365 ik8k
+00107407 TKih8
+0010743f TNih8
+00107453 TOih8
+00107500 *ik8_
+0010751b T,ij8
+0010756b T.ij8
+0010757f T/ij8
+00107623 R)ih8+
+0010792f T+ih8
+001079bf T/in8
+001079d3 T0in8
+00107b2b T+ih8
+00107bbb T/in8
+00107bcf T0in8
+00107d27 T+ih8
+00107daf T/in8
+00107dc3 T0in8
+001081ad ik8_
+0010820f 7h*@
+00108445 ik8_
+001084a7 7h*@
+001088c5 ii8_
+00108901 ik8_
+00108a5d #@9b
+00108d5d ik8j
+00108d99 ij8_
+00109429 ik8_1
+001095f0 +ih8J	
+00109bad cA9b
+00109c95 ii8_
+00109e31 CB9j
+00109edf T+ih8
+00109efb T,ik8
+00109f68 )ih8?%
+0010a05b T/ik8
+0010a06f T0ik8
+0010a1fb T)ih8?
+0010a3e5 #@9b
+0010a494 6ih8
+0010a4db T)ik8?
+0010a667 T)ik8?
+0010a7f5 ii8)
+0010a91f T?@Dq
+0010aa15 #@9b
+0010ad19 hi8)
+0010aedc ?@Dq@
+0010b0a7 TIii8	&
+0010b0e8 Ghd8
+0010b12d i`8Iii8_
+0010b18f TIii8
+0010b1c1 hi8)
+0010b23f q@)JzB
+0010b26f T,	@9
+0010b297 3_ADq 
+0010b427 T		@9m
+0010b618 IA	*i
+0010b680 IA	*i
+0010b6fd ADq`
+0010b75b T/	@9
+0010b7ef T/	@9
+0010befb S?A@q
+0010bfbb q/k.
+0010bfc3 T,xm
+0010c011 z+xk
+0010c033 *k}	S
+0010c0ad z-xk}	S
+0010c271 jh8I
+0010c2cc ii 8
+0010c2e1 jh8i
+0010c314 +ih8J	
+0010c361 j`8 
+0010c3ad j`8 
+0010c3d1 j`8@
+0010c684 	hb8
+0010c690 	h*8
+0010c6a5 hh8H
+0010c864 jyhx)	
+0010c8e2 @8J!
+0010c917 *Ji`8
+0010c930 Ii+8
+0010ca31 	@z+
+0010ca4d 	Ozh
+0010ca7a @8J!
+0010ccb3 Ti&@
+0010ccc7 T)}	S
+0010cd5b T	%@
+0010cd73 T)}	S_
+0010cda6 @8J!
+0010cdfa @8k!
+0010ceba @8)!
+0010cee7 q.yhxO!
+0010cf63 T/ylx
+0010cfdb T)ykx
+0010d0ad }	S_
+0010d150 h&@x
+0010d17b 7L}	SJ!
+0010d1f0 ji)8
+0010d216 (*,%
+0010d273 T(%@
+0010d2aa (*-%
+0010d323 R(i 8
+0010d35e @z*i 8
+0010d4cc )ih8Hyhx
+0010d694 7?@7*%@
+0010d6ab TK}	S
+0010d704 7i+8
+0010d720 ji 8
+0010d785 &@x)!
+0010d7af 7L}	SJ!
+0010d840 Jih8hyhx
+0010d8c0 ii-8
+0010d961 &@x)!
+0010da42 @8k!
+0010daa8 mi,8
+0010daf0 ii-8
+0010dbb3 T(}	S
+0010dbc6 	*i&
+0010dbfa @7h&@
+0010dc0f T	}	S
+0010dc5c 7i+8
+0010dc80 (i 8
+0010dce4 Wyix
+0010dd3f T*}	S
+0010dd73 7)!@
+0010dda5 ii8H
+0010ddb1 yixn
+0010deaa )*k&
+0010deea @8J!
+0010df03 Tk&@
+0010df17 Tk}	S_
+0010df37 7*}	S)!
+0010dfac mi,8
+0010dfca @y)=
+0010e094 ii-8=
+0010e0e6 @9)!
+0010e10a +*m&
+0010e15a @8)!
+0010e188 li)8
+0010e612 @y)/
+0010e917 T(	@9k
+0010ecbe @9u(
+0010ed82 @9D(
+0010efd1 j58w
+0010f0eb RJ1B
+0010f152 @9P'
+0010f591 i!8i
+0010f93c iyjx()@
+0010f9b0 1rT9!pT9?
+0010fa22 @91"
+0010fa7c 	hh8
+0010fb5d !@9)1
+0010fc05 jn8#
+0010fc8c 	hh8
+0010fe0f Tmih8
+0010ffa1 A@qk
+00110667 T	x(
+001106bf T	x(
+00110a1b RKy)
+001110f7 TJx 
+00111137 T*x)
+00111237 T*ih8
+0011150f <71+
+00111703 RKy)
+001117eb K)=@
+00111d43 T*iw8
+00111d58 *i78"
+00111fd9 0@y	
+0011206b KH3x7
+0011211e @ye}@
+001122e8 9h/8
+001123e4 9h/8
+001124dc 1h 8
+00112709 0@y+
+001127a2 	Kk=
+001127b3 rk},
+0011281a 	KJA-
+001129b0 'h.8
+00112a88 /h 8
+00112c03 T*is8k
+00112c18 *i38B
+00112c7d j38s
+00112cf7 TI<@
+0011307a @8J}
+00113113 TI}`
+0011313a @9J}
+00113357 7HA+
+001133bf 7HA(
+00113634 Lii8k	
+001136a8 (ih8
+001136b0 *ij8
+001136bb 9+im8,il8
+001136df 2(ih8
+001136e7 9)ij8j
+00113760 *ij8
+00113767 9+ik8
+00113778 ,il8
+00113783 9*in8
+0011378b 9+im8(ih8
+001137e2 @yj.
+00113844 Iii8
+0011384c Kik8
+00113857 9Lin8Mim8
+0011387b 2Iii8
+00113883 9Jik8
+00113994 	hk8
+001139c5 hk8,
+00113f63 =JUB
+00114108 *il8_)
+00114144 -il8
+00114197 T+ij8
+001142f8 	 @99
+0011431c i&@9
+001144c0 h&@9t
+00114558 	$@9
+0011455d  @9	
+00114730 	@@9(
+0011477b ThF@9h
+001147f5  @98
+00114810 i&@9
+00114915  @9h
+00114c6b RJ]Hj
+001151ab RL]Hj
+0011565f RL]Hj
+0011591f 7(c@9
+00115ca8 +ih8J	
+00115e88 _@Dq`
+00115f49 ADq 
+00115f7f TN	@9
+00115fa9 ADq 
+00115ff6 @9M	@9J
+001161d4 Lii8k	
+00116414 +ih8J	
+00116661 k)8)
+00116775 #@9	
+00116c01 c@9(
+00116c55 g@9h
+00116d55 g@9h
+00116eb9 B@qh
+00116f58 W1	*
+00117057 Takx8
+001170a3 Takz8
+00117370 ?@@q
+001174ff R+hh8
+00117583 R(hj8
+00117605 l@90
+00117619 P@9	T@9j
+00117687 k3\B
+00117755 ju8	
+00117887 RHih8Iii8
+001178d7 TAkv8
+00117ea4 Z7!N[
+00117efe 9N{7!N
+0011815e @LgX nt
+00118196 zo7Z n
+001181ad X nXZ n
+001181f7 NgZ n
+00118244 #X n!
+0011824e yoDX nB
+001182c3 TJ	@
+00118398 Z7!N[
+001183f2 9N{7!N
+00118a6e  />G
+00118a7e  o;G
+00118a9e  />G
+00118ada  /<G
+00118b3a  o;G
+00118d16  />G
+00118d26  o;G
+00118d46  />G
+00118d82  /<G
+00118de2  o;G
+00118ef1 ji8)
+00119005 iq8_
+0011947f TL	@9
+001194a7 3?ADq
+001194e4 ?A@qi
+00119702 @9k	
+0011974e @Q)-
+0011978a @Q?y q
+001197e6 @9k	
+001198e3 Thzh
+00119a9f Tshg
+00119b57 T$xq
+00119b87 TGhf
+00119bff T)D@
+00119dee @y(A
+0011a0b8 k!@9a
+0011a0c9 3L9*
+0011a1a0 k!@9a
+0011a1b1 3L9*
+0011a286 @9()(
+0011a396 @8,}
+0011a3b3 7)		
+0011aa9d Ybx1>@
+0011aaa5 yqxb0
+0011abb8 jyjx
+0011abc0 ji(x
+0011abd8 Ii(8
+0011abf0 )y`xIi(x
+0011acc9 z`xb0
+0011ade4 kyhx
+0011ae04 Hi)8
+0011ae18 Hyhx
+0011ae20 Hi)x
+0011aef8 CYcxB<@
+0011af00 Bybx
+0011af50 Nykx
+0011af70 ji,8
+0011af7c Jykx
+0011af84 ji,x
+0011afdb R	}	
+0011aff8 +yhx
+0011b020 Hi)8
+0011b030 (yhx
+0011b082 **k=@
+0011b0fc CYcxB<@
+0011b104 Bybx
+0011b154 Nykx
+0011b174 ji,8
+0011b180 Jykx
+0011b188 ji,x
+0011b1ce @yh}
+0011b214 lYjxj
+0011b21b Riyix
+0011b258 +yjx
+0011b270 (Yhx
+0011b278 (i*x	
+0011b29c (i*8
+0011b2eb qJ}@
+0011b360 CYcxB<@
+0011b368 Bybx
+0011b3b8 Nykx
+0011b3d8 ji,8
+0011b3e4 Jykx
+0011b3ec ji,x
+0011b4a9 y`xb0
+0011b501 i*x?)
+0011b518 (i*8
+0011b52c (i*x
+0011b5e8 CYcxB<@
+0011b5f0 Bybx
+0011b640 Nykx
+0011b660 ji,8
+0011b66c Jykx
+0011b674 ji,x
+0011b731 y`xb0
+0011b789 i*x?)
+0011b7a0 (i*8
+0011b7b4 (i*x
+0011b8c3 TIyh
+0011b8db RHyh
+0011c1f5 f@9z
+0011c31a @9	{
+0011c42a @9		
+0011c43c *ki8
+0011c5c0 +ih8J	
+0011c6dc +ih8J	
+0011cdeb Q(O(
+0011ce59 #\8_
+0011ce99 #\8_
+0011d1bd zjxk	
+0011d1f2 @9)	
+0011d287 9	|	
+0011d60e 	*H}
+0011d677 *i}	
+0011d6df 9	|	
+0011d8af 5i"A
+0011dc38 Lii8k	
+0011dd44 Lii8k	
+0011dd90 Lii8k	
+0011df3c +ih8J	
+0011df79 %@x(
+0011e038 Lii8k	
+0011e466 @9)	
+0011e4a8 M{kx
+0011e577 QhN(
+0011e58b ThN+
+0011ea28 Lyixk	
+0011ea88 Lyixk	
+0011eacb ThN 
+0011eb03 TiN 
+0011f46a @9Y@#
+0011f628 +ih8J	
+0012a8b1 .fini_array
+0012a8bd .text
+0012a8c3 .got
+0012a8c8 .note.android.ident
+0012a8dc .got.plt
+0012a8e5 .rela.plt
+0012a8ef .bss
+0012a8f4 .dynstr
+0012a8fc .eh_frame_hdr
+0012a90a .gnu.version_r
+0012a919 .data.rel.ro
+0012a926 .rela.dyn
+0012a930 .gnu.version
+0012a93d .dynsym
+0012a945 .gnu.hash
+0012a94f .eh_frame
+0012a959 .gcc_except_table
+0012a96b .note.gnu.build-id
+0012a97e .dynamic
+0012a987 .shstrtab
+0012a991 .rodata
+0012a999 .data

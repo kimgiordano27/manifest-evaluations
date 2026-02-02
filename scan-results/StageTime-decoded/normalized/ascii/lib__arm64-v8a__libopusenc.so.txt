@@ -1,0 +1,431 @@
+00000244 Android
+00000290 7026061
+00000b51 __cxa_finalize
+00000b60 __cxa_atexit
+00000b6d __assert2
+00000b77 free
+00000b7c malloc
+00000b83 memcpy
+00000b8a memmove
+00000b92 realloc
+00000b9a memset
+00000ba1 opus_multistream_encoder_ctl
+00000bbe opus_projection_encoder_ctl
+00000bda strlen
+00000be1 fclose
+00000be8 fwrite
+00000bef ope_comments_add
+00000c00 ope_comments_add_picture
+00000c19 ope_comments_add_picture_from_memory
+00000c3e ope_comments_add_string
+00000c56 ope_comments_copy
+00000c68 ope_comments_create
+00000c7c ope_comments_destroy
+00000c91 ope_encoder_chain_current
+00000cab ope_encoder_continue_new_callbacks
+00000cce ope_encoder_continue_new_file
+00000cec ope_encoder_create_callbacks
+00000d09 ope_encoder_create_file
+00000d21 ope_encoder_create_pull
+00000d39 ope_encoder_ctl
+00000d49 ope_encoder_deferred_init_with_mapping
+00000d70 ope_encoder_destroy
+00000d84 ope_encoder_drain
+00000d96 ope_encoder_flush_header
+00000daf ope_encoder_get_page
+00000dc4 ope_encoder_write
+00000dd6 ope_encoder_write_float
+00000dee ope_get_abi_version
+00000e02 ope_get_version_string
+00000e19 ope_strerror
+00000e26 opus_get_version_string
+00000e3e opus_multistream_encode_float
+00000e5c opus_multistream_encoder_create
+00000e7c opus_multistream_encoder_destroy
+00000e9d opus_multistream_surround_encoder_create
+00000ec6 opus_projection_ambisonics_encoder_create
+00000ef0 opus_projection_encode_float
+00000f0d opus_projection_encoder_destroy
+00000f2d opus_strerror
+00000f3b rand
+00000f40 snprintf
+00000f49 strchr
+00000f50 ferror
+00000f57 fread
+00000f5d calloc
+00000f68 fopen
+00000f6e libm.so
+00000f76 LIBC
+00000f7b libc.so
+00000f83 libopus.so
+00000f8e libdl.so
+00000f97 libopusenc.so
+0000160f ?pj$5
+0000177e 8@oggp->user_buf != NULL
+00001797 Memory allocation failed.
+000017b1 call cannot be made at this point
+000017d3 src/opusenc.c
+000017e1 image/png
+000017eb image/gif
+000017f5 GIF87a
+000017fc invalid icon file (pictures of type 1 MUST be 32x32 PNGs)
+00001836 frame_size_request <= enc->frame_size_request
+00001864 %s, %s %s
+0000186e libopusenc 0.2.1
+0000187f void init_stream(OggOpusEnc *)
+000018a2 Unknown error. Bad error code or strange version mismatch.
+000018dd void encode_buffer(OggOpusEnc *)
+00001907 0.2.1
+0000190d newbuf != NULL
+0000191c int ope_encoder_drain(OggOpusEnc *)
+00001940 enc->streams
+0000194d write failed
+0000195a enc->last_stream
+0000196b success
+00001976 image/jpeg
+00001981 Success.
+0000198a Bad resampler state.
+0000199f int oggp_commit_packet(oggpacker *, oggp_int32, oggp_uint64, int)
+000019e1 unknown error
+000019ef GIF89a
+000019f6 int oggp_flush_page(oggpacker *)
+00001a17 libopusenc
+00001a22 oggp->user_buf >= &oggp->buf[oggp->buf_fill]
+00001a4f enc->buffer_end + pad_samples <= BUFFER_SAMPLES
+00001a7f METADATA_BLOCK_PICTURE
+00001a96 nbBytes > 0
+00001aa2 enc->buffer_end <= BUFFER_SAMPLES
+00001ac4 close failed
+00001ad1 !enc->streams->stream_is_init
+00001af2 Input and output buffers overlap.
+00001b14 src/ogg_packer.c
+00001b25 int ope_encoder_continue_new_callbacks(OggOpusEnc *, void *, OggOpusComments *)
+00001b76 enc->buffer_end < BUFFER_SAMPLES
+00001b97 Invalid argument.
+00001ba9 invalid picture file
+00001bbe IHDR
+00001bc3 cannot open file
+00001bd4 enc->streams == NULL
+00001be9 PLTE
+00001e2b US]CQ
+00001e3e ^(BM
+00001e4d kZ;&
+00002009 +LUUU
+00002010 OpusHead
+0000201a gUUU
+00002048 3/1///
+00002069 	UWUUUUUUUU
+00002075 	UU`U
+00002081 MV_hqz
+000020ba ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+00002157 ?"rU41X
+00002177 ?G+JK
+000021a9 jn}?
+000021b7 ?+r_9
+000021f7 ?!{{
+0000224a -y<-
+000022b7 ?n$}
+000022ca `+W.
+00002334 Mb@?
+00002372 .]V{
+000023f7 ?;NU
+00002417 ?",to
+0000244c mF7?
+000024b7 ?w$E
+0000257f ?=WB
+000025af ?bHN&n
+000025cf ?>x/
+00002614 TN|?g
+00002624 ;up?t
+0000263d #Y??
+00002644 y@Q?
+00002656 <?&Q
+00002661 Tn`z
+00002a6b r)|)
+00002aab Ti:@
+00002ae3 Tj"D
+00002b74 Ii(8
+00002b83 Th&@
+00002b98 *i(8i&@
+00002c8b T`.@
+00002e7b T	}@
+00002eb5 !	Ja
+00002f77 4i*C)I
+000030e7 Tlih8,i(8
+00003211 j(8(
+00003219 j(8H
+0000341c )!	K
+0000380f =	i{
+00003845 j)8)
+00003c6b =	m|
+00003c93 TIk)8)
+00003cc8 +ih8J	
+0000403c Lii8k	
+000041cb T+}@
+00004227 TJ}@
+000042b3 qJ}@
+0000434e 	kx2
+000044eb 5		@
+0000468b *"!@
+0000475c 	 F)
+0000483b Thj@
+00004843 4hn@
+00004856 	Kbq
+000048ac j.F)h
+00004be0 j.H)i"F)
+00004c3f Th&@
+00004c68 h&F)
+00004dfb T+}@
+00004e57 TJ}@
+00004ea3 qJ}@
+0000501e 	kx2
+000050e5 b@)!
+000052c3 Tk6@
+000052ec h&F)
+00005323 Ti&@
+0000536f )h&@
+000053db Th6@
+00005573 <"xaN!xa
+0000558a `N!ha
+00005590 AhaNAi
+00005a97 =!ha
+00005aab =cha
+00005c77 )h.@
+00005e4c +ih8J	
+00005ebc +ih8J	
+00005f86 	*I"
+00006869 ii8_
+0000688d ii8_
+000068bd ij8m
+00006930 		@y
+0000693d !@9)=
+00006995 	@y*'
+000069ed F@91
+00006aaf 4	)@9
+00006e5e @9po
+00006e8d in8/
+00006ea4 [	@9k
+00006ed6 	K_	
+00006ee7 T	Ki8
+00006f00 Kik8Jii8	u
+00006f55 ij8	u
+00006f8d h(8H
+00006fc8 +ymxJ	
+00007028 H#@9	
+000071c7 )z}@
+00007247 4`.@
+00007423 Qhy*
+00007491 \A)	
+000074a0 ))@)
+00007613 T`2@
+0000771f T@ o
+0000784f T`.@
+0000788f 4i*@
+000078bf K!j`
+000078df Q0Yn
+00007927 4q.@
+0000799b T?y.
+000079df S/y.
+000079f3 Tp.@
+00007a8b 75H6
+00007cbb 4`.@
+00007ce3 4h*@
+00007d13 Tl.@
+00007e7d ,C){
+00007f32 	K	i3
+0000801d #?)x
+000080ce 	K	i+
+000081a7 *NK-
+00008293 TKq}
+0000831e 	*.K-
+00008418 *$C)+
+000084b3 ))(@
+000084dc 6 C)*,@
+0000855e 	K	i;
+000085c3 T((@
+00008747 TKq}
+000087ce 	*.K-
+000088d0 3 C)*,@
+00008942 	K	i+
+0000900e %.Bxa
+0000901e cNsB
+00009478 33s?33s?
+00009828 Linker: LLD 11.0.5 (/buildbot/tmp/tmpJJnZSz 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+0000987f Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+0000aa31 .note.android.ident
+0000aa45 .dynsym
+0000aa4d .gnu.version
+0000aa5a .gnu.version_r
+0000aa69 .gnu.hash
+0000aa73 .hash
+0000aa79 .dynstr
+0000aa81 .rela.dyn
+0000aa8b .rela.plt
+0000aa95 .rodata
+0000aa9d .eh_frame_hdr
+0000aaab .eh_frame
+0000aab5 .text
+0000aabb .plt
+0000aac0 .data.rel.ro
+0000aacd .fini_array
+0000aad9 .dynamic
+0000aae2 .got.plt
+0000aaeb .comment
+0000aaf4 .symtab
+0000aafc .shstrtab
+0000ab06 .strtab
+0000ab0f /buildbot/tmp/crtbrand-6c78f1.o
+0000ab2f $d.0
+0000ab34 ndk_build_number
+0000ab45 ndk_version
+0000ab51 note_android_ident
+0000ab64 note_data
+0000ab6e note_end
+0000ab77 note_name
+0000ab81 crtbegin_so.c
+0000ab8f $d.1
+0000ab94 $d.2
+0000ab99 $d.3
+0000ab9e $d.4
+0000aba3 $x.0
+0000aba8 __dso_handle_const
+0000abbb __on_dlclose
+0000abc8 __on_dlclose_late
+0000abda ogg_packer.c
+0000abe7 $x.1
+0000abec crc_lookup
+0000abf7 shift_buffer
+0000ac04 opus_header.c
+0000ac12 opusenc.c
+0000ac1c $d.5
+0000ac21 $d.6
+0000ac26 encode_buffer
+0000ac34 extend_signal
+0000ac42 init_stream
+0000ac4e ope_strerror.ope_error_strings
+0000ac6d stdio_callbacks
+0000ac7d stdio_close
+0000ac89 stdio_write
+0000ac95 picture.c
+0000ac9f BASE64_TABLE
+0000acac opeint_parse_picture_specification_impl
+0000acd4 resample.c
+0000acdf kaiser10_funcdef
+0000acf0 kaiser10_table
+0000acff kaiser12_funcdef
+0000ad10 kaiser12_table
+0000ad1f kaiser6_funcdef
+0000ad2f kaiser6_table
+0000ad3d kaiser8_funcdef
+0000ad4d kaiser8_table
+0000ad5b quality_map
+0000ad67 resampler_basic_direct_double
+0000ad85 resampler_basic_direct_single
+0000ada3 resampler_basic_zero
+0000adb8 update_filter
+0000adc6 unicode_support.c
+0000add8 /buildbot/tmp/crtend_so-42a8c6.o
+0000adf9 __FRAME_END__
+0000ae07 __atexit_handler_wrapper
+0000ae20 __cxa_finalize
+0000ae2f __dso_handle
+0000ae3c __cxa_atexit
+0000ae49 __emutls_unregister_key
+0000ae61 atexit
+0000ae68 __assert2
+0000ae72 free
+0000ae77 malloc
+0000ae7e memcpy
+0000ae85 memmove
+0000ae8d oggp_chain
+0000ae98 oggp_commit_packet
+0000aeab oggp_create
+0000aeb7 oggp_destroy
+0000aec4 oggp_flush_page
+0000aed4 oggp_get_next_page
+0000aee7 oggp_get_packet_buffer
+0000aefe oggp_set_muxing_delay
+0000af14 realloc
+0000af1c memset
+0000af23 opeint_comment_add
+0000af36 opeint_comment_init
+0000af4a opeint_comment_pad
+0000af5d opeint_opus_header_get_size
+0000af79 opeint_opus_header_to_packet
+0000af96 opeint_use_projection
+0000afac opus_multistream_encoder_ctl
+0000afc9 opus_projection_encoder_ctl
+0000afe5 strlen
+0000afec fclose
+0000aff3 fwrite
+0000affa libopusenc_resampler_destroy
+0000b017 libopusenc_resampler_get_output_latency
+0000b03f libopusenc_resampler_init
+0000b059 libopusenc_resampler_process_interleaved_float
+0000b088 libopusenc_resampler_skip_zeros
+0000b0a8 ope_comments_add
+0000b0b9 ope_comments_add_picture
+0000b0d2 ope_comments_add_picture_from_memory
+0000b0f7 ope_comments_add_string
+0000b10f ope_comments_copy
+0000b121 ope_comments_create
+0000b135 ope_comments_destroy
+0000b14a ope_encoder_chain_current
+0000b164 ope_encoder_continue_new_callbacks
+0000b187 ope_encoder_continue_new_file
+0000b1a5 ope_encoder_create_callbacks
+0000b1c2 ope_encoder_create_file
+0000b1da ope_encoder_create_pull
+0000b1f2 ope_encoder_ctl
+0000b202 ope_encoder_deferred_init_with_mapping
+0000b229 ope_encoder_destroy
+0000b23d ope_encoder_drain
+0000b24f ope_encoder_flush_header
+0000b268 ope_encoder_get_page
+0000b27d ope_encoder_write
+0000b28f ope_encoder_write_float
+0000b2a7 ope_get_abi_version
+0000b2bb ope_get_version_string
+0000b2d2 ope_strerror
+0000b2df opeint_encode_float
+0000b2f3 opeint_encoder_cleanup
+0000b30a opeint_encoder_init
+0000b31e opeint_encoder_surround_init
+0000b33b opeint_fopen
+0000b348 opeint_parse_picture_specification
+0000b36b opeint_parse_picture_specification_from_memory
+0000b39a opus_get_version_string
+0000b3b2 opus_multistream_encode_float
+0000b3d0 opus_multistream_encoder_create
+0000b3f0 opus_multistream_encoder_destroy
+0000b411 opus_multistream_surround_encoder_create
+0000b43a opus_projection_ambisonics_encoder_create
+0000b464 opus_projection_encode_float
+0000b481 opus_projection_encoder_destroy
+0000b4a1 opus_strerror
+0000b4af rand
+0000b4b4 snprintf
+0000b4bd strchr
+0000b4c4 stream_create
+0000b4d2 ferror
+0000b4d9 fread
+0000b4df calloc
+0000b4e6 libopusenc_resampler_get_input_latency
+0000b50d libopusenc_resampler_get_input_stride
+0000b533 libopusenc_resampler_get_output_stride
+0000b55a libopusenc_resampler_get_quality
+0000b57b libopusenc_resampler_get_rate
+0000b599 libopusenc_resampler_get_ratio
+0000b5b8 libopusenc_resampler_init_frac
+0000b5d7 libopusenc_resampler_process_float
+0000b5fa libopusenc_resampler_process_int
+0000b61b libopusenc_resampler_process_interleaved_int
+0000b648 libopusenc_resampler_reset_mem
+0000b667 libopusenc_resampler_set_input_stride
+0000b68d libopusenc_resampler_set_output_stride
+0000b6b4 libopusenc_resampler_set_quality
+0000b6d5 libopusenc_resampler_set_rate
+0000b6f3 libopusenc_resampler_set_rate_frac
+0000b716 libopusenc_resampler_strerror
+0000b738 fopen
+0000b73e _DYNAMIC

@@ -1,0 +1,137 @@
+{
+  "apk": "VirtualSpeech-decoded",
+  "timestamp_utc": "2026-02-02T14:56:19.807568Z",
+  "decoded_path": "C:\\realDesktop\\manifest-evaluations\\decoded-apks\\VirtualSpeech-decoded",
+  "summary": {
+    "so_count": 16,
+    "files_with_term_hits": 3,
+    "total_hits": 22
+  },
+  "matches": [
+    {
+      "so_file": "lib\\arm64-v8a\\libopenxr_loader.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00023370"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00024101"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "000255bf"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0002593f"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "000262e3"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00026772"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00026eb5"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "000277eb"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00027b6a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00027ed7"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libunity.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "000e560a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00162020"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "001983cd"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000fe511"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libUnityOpenXR.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0010c9ed"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0010ca67"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "001186f0"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0011871d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00118831"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00118cd1"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00118de2"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00118dfc"
+        }
+      ]
+    }
+  ]
+}

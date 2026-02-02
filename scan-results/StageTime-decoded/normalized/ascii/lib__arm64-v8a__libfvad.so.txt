@@ -1,0 +1,208 @@
+00000244 Android
+00000290 7026061
+000004f5 __cxa_finalize
+00000504 __cxa_atexit
+00000511 memset
+00000518 __assert2
+00000522 free
+00000527 fvad_free
+00000531 fvad_new
+0000053a fvad_process
+00000547 fvad_reset
+00000552 fvad_set_mode
+00000560 fvad_set_sample_rate
+00000575 malloc
+0000057c libc.so
+00000584 LIBC
+00000589 libdl.so
+00000592 libfvad.so
+00000734 r e'^'/.C.
+00000828 rv >= 0
+00000830 int fvad_process(Fvad *, const int16_t *, size_t)
+00000862 rv == 0 || rv == -1
+00000876 (data_length) <= (240)
+0000088d void fvad_free(Fvad *)
+000008a4 int16_t WebRtcVad_CalculateFeatures(VadInstT *, const int16_t *, size_t, int16_t *)
+000008f8 void fvad_reset(Fvad *)
+00000910 vad/vad_filterbank.c
+00000925 fvad.c
+0000092c (channel) < (kNumChannels)
+00000947 inst
+0000094c vad/vad_sp.c
+00000959 rv == 0
+00000961 int fvad_set_mode(Fvad *, int)
+00000980 (data_length) > (0)
+00000994 int fvad_set_sample_rate(Fvad *, int)
+000009ba data_in
+000009c2 void LogOfEnergy(const int16_t *, size_t, int16_t, int16_t *, int16_t *)
+00000a0b int16_t WebRtcVad_FindMinimum(VadInstT *, int16_t, int)
+00000d20 p<@)q
+00000d98 p<B)q
+00000e5a 1Oc4
+00000f1f xdD@)
+00000fa3 xp<B)
+00000fb3 3mDC)n
+0000103c dD@)e
+000010c4 dDB)e
+0000114c bDD)d
+000011c4 p<F)q
+00001309 I@L=
+0000151b R+	@y
+00001573 y+	@y
+000015d4 Lii8k	
+000015ec *	@y
+0000161b y*	@yl
+00001644 *	@y
+00001673 y*	@yl
+00001694 *	@y
+000016c3 y*	@yl
+000016e4 *	@y
+00001713 y*	@yl
+0000172f yj	@yk
+000018ae @yj"
+00001908 @kxx
+0000193b yHkxx"C_x!C\x
+00001970 Hkxx
+00001993 yHkxx"
+00001a2f K(i8x
+00001a7f K(i8x
+00001b8a Ox_?
+00001bfe 1kO?
+00001c65 ytx)
+00001ce2 @Q)}
+00001d8d %MK?
+00001d92  k,<
+00001e1d BNKo
+00001e50 jAJKl
+00001e7f Th6By
+000027dd }	SjMJ
+000028af K)}	
+000028e7 R)}	
+000028fe 	K+e
+0000292c L @)i
+000029ec #y+xk
+00002a03 T#ykx
+00002b8d imxO
+00002b9b y-imx
+00002bbd i*x+i*x	
+00002bf3 RK|@
+00002c37 *K|@
+00002e8f T)		
+000031b0 Linker: LLD 11.0.5 (/buildbot/tmp/tmpJJnZSz 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+00003207 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+00003e91 .note.android.ident
+00003ea5 .dynsym
+00003ead .gnu.version
+00003eba .gnu.version_r
+00003ec9 .gnu.hash
+00003ed3 .hash
+00003ed9 .dynstr
+00003ee1 .rela.dyn
+00003eeb .rela.plt
+00003ef5 .rodata
+00003efd .eh_frame_hdr
+00003f0b .eh_frame
+00003f15 .text
+00003f1b .plt
+00003f20 .data.rel.ro
+00003f2d .fini_array
+00003f39 .dynamic
+00003f42 .got.plt
+00003f4b .comment
+00003f54 .symtab
+00003f5c .shstrtab
+00003f66 .strtab
+00003f6f /buildbot/tmp/crtbrand-6c78f1.o
+00003f8f $d.0
+00003f94 ndk_build_number
+00003fa5 ndk_version
+00003fb1 note_android_ident
+00003fc4 note_data
+00003fce note_end
+00003fd7 note_name
+00003fe1 crtbegin_so.c
+00003fef $d.1
+00003ff4 $d.2
+00003ff9 $d.3
+00003ffe $d.4
+00004003 $x.0
+00004008 __dso_handle_const
+0000401b __on_dlclose
+00004028 __on_dlclose_late
+0000403a energy.c
+00004043 division_operations.c
+00004059 get_scaling_square.c
+0000406e resample_48khz.c
+0000407f resample_by_2_internal.c
+00004098 resample_fractional.c
+000040ae spl_inl.c
+000040b8 vad_core.c
+000040c3 kGlobalThresholdAGG
+000040d7 kGlobalThresholdLBR
+000040eb kGlobalThresholdQ
+000040fd kGlobalThresholdVAG
+00004111 kLocalThresholdAGG
+00004124 kLocalThresholdLBR
+00004137 kLocalThresholdQ
+00004148 kLocalThresholdVAG
+0000415b kMaximumNoise
+00004169 kMaximumSpeech
+00004178 kMinimumDifference
+0000418b kMinimumMean
+00004198 kNoiseDataMeans
+000041a8 kNoiseDataStds
+000041b7 kNoiseDataWeights
+000041c9 kOverHangMax1LBR
+000041da kOverHangMax1VAG
+000041eb kOverHangMax2LBR
+000041fc kOverHangMax2VAG
+0000420d kSpectrumWeight
+0000421d kSpeechDataMeans
+0000422e kSpeechDataStds
+0000423e kSpeechDataWeights
+00004251 vad_filterbank.c
+00004262 LogOfEnergy
+0000426e vad_gmm.c
+00004278 vad_sp.c
+00004281 fvad.c
+00004288 process_funcs
+00004296 valid_rates
+000042a2 /buildbot/tmp/crtend_so-42a8c6.o
+000042c3 __FRAME_END__
+000042d1 __atexit_handler_wrapper
+000042ea __cxa_finalize
+000042f9 __dso_handle
+00004306 __cxa_atexit
+00004313 __emutls_unregister_key
+0000432b atexit
+00004332 WebRtcSpl_Energy
+00004343 WebRtcSpl_GetScalingSquare
+0000435e WebRtcSpl_DivW32W16
+00004372 WebRtcSpl_DownBy2IntToShort
+0000438e WebRtcSpl_DownBy2ShortToInt
+000043aa WebRtcSpl_LPBy2IntToInt
+000043c2 WebRtcSpl_Resample48khzTo32khz
+000043e1 WebRtcSpl_Resample48khzTo8khz
+000043ff WebRtcSpl_ResetResample48khzTo8khz
+00004422 kWebRtcSpl_CountLeadingZeros32_Table
+00004447 WebRtcVad_CalcVad16khz
+0000445e WebRtcVad_CalcVad32khz
+00004475 WebRtcVad_CalcVad48khz
+0000448c WebRtcVad_CalcVad8khz
+000044a2 WebRtcVad_CalculateFeatures
+000044be WebRtcVad_Downsampling
+000044d5 WebRtcVad_FindMinimum
+000044eb WebRtcVad_GaussianProbability
+00004509 WebRtcVad_InitCore
+0000451c WebRtcVad_set_mode_core
+00004534 memset
+0000453b __assert2
+00004545 free
+0000454a fvad_free
+00004554 fvad_new
+0000455d fvad_process
+0000456a fvad_reset
+00004575 fvad_set_mode
+00004583 fvad_set_sample_rate
+00004598 malloc
+0000459f _DYNAMIC

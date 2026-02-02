@@ -1,0 +1,118 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+000002e5 sOuA
+000008c0 cI>|
+000008c5 __cxa_finalize
+000008d4 __cxa_atexit
+000008e1 __register_atfork
+000008f3 _ZN8facebook3jsi21addNativeTracingHooksERNS0_7RuntimeE
+0000092a __strlen_chk
+00000937 _ZTVNSt6__ndk110__function6__funcIPFN8facebook3jsi5ValueERNS3_7RuntimeERKS4_PS7_mENS_9allocatorISB_EESA_EE
+000009a2 __stack_chk_fail
+000009b3 _ZN8facebook3jsi5ValueD1Ev
+000009ce _ZN8facebook3jsi5ValueD2Ev
+000009e9 _ZNK8facebook3jsi5Value8asNumberEv
+00000a0c fbsystrace_is_tracing
+00000a22 fbsystrace_begin_section
+00000a3b fbsystrace_begin_section_with_args
+00000a5e fbsystrace_end_section
+00000a75 fbsystrace_end_section_with_args
+00000a96 fbsystrace_begin_async_section
+00000ab5 fbsystrace_begin_async_section_with_args
+00000ade fbsystrace_end_async_section
+00000afb fbsystrace_end_async_section_with_args
+00000b22 fbsystrace_begin_async_flow
+00000b3e fbsystrace_begin_async_flow_with_args
+00000b64 fbsystrace_end_async_flow
+00000b7e fbsystrace_end_async_flow_with_args
+00000ba2 fbsystrace_counter
+00000bb5 _ZNKR8facebook3jsi5Value8asObjectERNS0_7RuntimeE
+00000be6 memcpy
+00000bed memset
+00000bf4 strcmp
+00000bfb _ZTINSt6__ndk110__function6__funcIPFN8facebook3jsi5ValueERNS3_7RuntimeERKS4_PS7_mENS_9allocatorISB_EESA_EE
+00000c66 _ZTINSt6__ndk110__function6__baseIFN8facebook3jsi5ValueERNS3_7RuntimeERKS4_PS7_mEEE
+00000cba __wrap__ZTISt12length_error
+00000cd6 __wrap___cxa_begin_catch
+00000cef __wrap__ZTVN10__cxxabiv120__si_class_type_infoE
+00000d1f __wrap__ZTVN10__cxxabiv117__class_type_infoE
+00000d4c __wrap___cxa_allocate_exception
+00000d6c __wrap__ZdlPv
+00000d7a __wrap__ZNSt20bad_array_new_lengthD1Ev
+00000da1 __wrap__ZTVSt12length_error
+00000dbd __wrap___gxx_personality_v0
+00000dd9 __wrap__Unwind_Resume
+00000def __wrap___cxa_throw
+00000e02 __wrap___cxa_free_exception
+00000e1e __wrap__Znwm
+00000e2b __wrap__ZSt9terminatev
+00000e42 __wrap__ZNSt11logic_errorC2EPKc
+00000e62 __wrap__ZNSt12length_errorD1Ev
+00000e81 __wrap__ZNSt20bad_array_new_lengthC1Ev
+00000ea8 __wrap__ZTISt20bad_array_new_length
+00000ecc __wrap__ZTVN10__cxxabiv120__function_type_infoE
+00000efc __wrap__ZTVN10__cxxabiv119__pointer_type_infoE
+00000f2b __wrap__ZNSt13runtime_errorD1Ev
+00000f4b __wrap__ZNSt13runtime_errorC1EPKc
+00000f6d __wrap__ZTISt13runtime_error
+00000f8a libc.so
+00000f92 LIBC
+00000f97 libfbsystrace.so
+00000fa8 libxplat_jsi_jsi.so
+00000fbc libc++_shared.so
+00000fcd libxplat_ReactNative_react_jsi_JSITracing.so
+00001000 APS2
+000016b8 nativeTraceBeginAsyncFlow
+000016d2 nativeTraceEndAsyncFlow
+000016ea vector
+000016f1 nativeTraceCounter
+00001704 nativeTraceBeginSection
+0000171c nativeTraceEndSection
+00001732 nativeTraceBeginAsyncSection
+0000174f nativeTraceEndAsyncSection
+0000176a nativeTraceIsTracing
+0000177f nativeTraceEndSection: requires 1 mandatory argument.
+000017b5 nativeTraceIsTracing: requires 1 mandatory argument.
+000017ea nativeTraceBeginAsyncFlow: requires 3 mandatory arguments.
+00001825 nativeTraceEndAsyncFlow: requires 3 mandatory arguments.
+0000185e nativeTraceBeginAsyncSection: requires 3 mandatory arguments.
+0000189c nativeTraceEndAsyncSection: requires 3 mandatory arguments.
+000018d8 nativeTraceBeginSection: requires 2 mandatory arguments.
+00001911 nativeTraceCounter: requires 3 arguments.
+0000193b natieTraceBeginAsyncFlow: Only one optional argument expected.
+0000197a nativeTraceEndAsyncFlow: Only one optional argument expected.
+000019b8 nativeTraceBeginSection: Only one optional argument expected.
+000019f6 nativeTraceEndSection: Only one optional argument expected.
+00001a32 nativeTraceBeginAsyncSection: Only one optional argument expected.
+00001a75 nativeTraceEndAsyncSection: Only one optional argument expected.
+00001ab6 NSt6__ndk110__function6__funcIPFN8facebook3jsi5ValueERNS3_7RuntimeERKS4_PS7_mENS_9allocatorISB_EESA_EE
+00001b1d NSt6__ndk110__function6__baseIFN8facebook3jsi5ValueERNS3_7RuntimeERKS4_PS7_mEEE
+00001b6d PFN8facebook3jsi5ValueERNS0_7RuntimeERKS1_PS4_mE
+00001b9e FN8facebook3jsi5ValueERNS0_7RuntimeERKS1_PS4_mE
+00001fd5 zPLR
+000041e5 #A9z
+00004341 #A9z
+000051e1 .fini_array
+000051ed .text
+000051f3 .got
+000051f8 .note.android.ident
+0000520c .got.plt
+00005215 .rela.plt
+0000521f .dynstr
+00005227 .eh_frame_hdr
+00005235 .gnu.version_r
+00005244 .data.rel.ro
+00005251 .relr.dyn
+0000525b .rela.dyn
+00005265 .gnu.version
+00005272 .dynsym
+0000527a .gnu.hash
+00005284 .relro_padding
+00005293 .eh_frame
+0000529d .gcc_except_table
+000052af .note.gnu.build-id
+000052c2 .dynamic
+000052cb .shstrtab
+000052d5 .rodata
+000052dd .data

@@ -1,0 +1,362 @@
+{
+  "apk": "Spirit-Sling-Tabletop-decoded",
+  "timestamp_utc": "2026-02-02T16:50:01.484539+00:00",
+  "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\Spirit-Sling-Tabletop-decoded\\normalized\\ascii",
+  "summary": {
+    "txt_files_scanned": 50,
+    "files_with_hits": 6,
+    "total_term_hits": 22
+  },
+  "matches": [
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libil2cpp.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "00daf628 GetEyeTrackedFoveatedRenderingEnabled",
+            "00db1aca GetEyeTrackedFoveatedRenderingSupported",
+            "00db1af2 SetEyeTrackedFoveatedRenderingEnabled",
+            "00db8ad3 ovrp_SetFoveationEyeTracked",
+            "00dc4f7c UnityEngine.Rendering.CommandBuffer::ConfigureFoveatedRendering(System.IntPtr)",
+            "00ddefde ovrp_GetFoveationEyeTracked",
+            "00de43b5 UnityEngine.SystemInfo::GetFoveatedRenderingCaps()",
+            "00debaa3 UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode(UnityEngine.Rendering.FoveatedRenderingMode)",
+            "00ded095 ovrp_GetFoveationEyeTrackedSupported"
+          ]
+        },
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "00daede5 ovrAvatar2Behavior_DestroyGazeTargets",
+            "00dcd742 ovrAvatar2Behavior_GetGazePos",
+            "00dd99f3 ovrAvatar2Behavior_CreateGazeTargets",
+            "00dd9ea8 ovrp_GetEyeGazesState",
+            "00ddbcb8 ovrAvatar2Behavior_UpdateGazeTargetPositions"
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "00daf628 GetEyeTrackedFoveatedRenderingEnabled",
+            "00db1aca GetEyeTrackedFoveatedRenderingSupported",
+            "00db1af2 SetEyeTrackedFoveatedRenderingEnabled",
+            "00db8ad3 ovrp_SetFoveationEyeTracked",
+            "00ddefde ovrp_GetFoveationEyeTracked",
+            "00ded095 ovrp_GetFoveationEyeTrackedSupported"
+          ]
+        },
+        {
+          "term": "eyeTrackingSupported",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "00dd9e8b ovrp_GetEyeTrackingSupported"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeGazesState",
+          "category": "raw_state_data_collection",
+          "category_confidence": "high",
+          "examples": [
+            "00dd9ea8 ovrp_GetEyeGazesState"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeTrackingEnabled",
+          "category": "raw_state_data_collection",
+          "category_confidence": "medium",
+          "examples": [
+            "00daf2b5 ovrp_GetEyeTrackingEnabled"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libOculusXRPlugin.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "00003a1f GetEyeTrackedFoveatedRenderingEnabled",
+            "00003a45 GetEyeTrackedFoveatedRenderingSupported",
+            "00003b23 SetEyeTrackedFoveatedRenderingEnabled",
+            "00034e4e ovrp_GetLayerTextureFoveation",
+            "00034f6d ovrp_GetFoveationEyeTrackedSupported",
+            "00034f92 ovrp_GetFoveationEyeTracked",
+            "00034fae ovrp_SetFoveationEyeTracked",
+            "00034fca ovrp_GetFoveationEyeTrackedCenter",
+            "000352da Fixed Foveated Rendering",
+            "000352f3 Eye Tracked Foveated Rendering",
+            "000353eb \tFoveated Rendering Method: %s",
+            "00035711 Error querying Eye Tracked Foveated Rendering support: %s",
+            "0003574c Error querying Eye Tracked Foveated Rendering enabled: %s",
+            "00035787 Error setting Eye Tracked Foveated Rendering enabled: %s",
+            "000358fb Manifest setting for Eye Tracked Foveated Rendering is deprecated. Remove the meta-data entry for com.unity.xr.oculus.EyeTrackedFoveation and enable the feature inside the Oculus XR Plugin instead.",
+            "00035c70 com.unity.xr.oculus.EyeTrackedFoveation",
+            "0003670f Error querying foveation center: %s. Disabling Eye tracked foveated rendering and using fixed foveated rendering instead.",
+            "0003678a Error querying foveation center: %s. Using 0,0 as a fallback.",
+            "000367c9 Error querying foveation center: %s.",
+            "00047fa0 GetFoveationMethodString",
+            "00048764 GetEyeTrackedFoveatedRenderingEnabled",
+            "00048862 SetEyeTrackedFoveatedRenderingEnabled",
+            "00048d94 GetEyeTrackedFoveatedRenderingSupported",
+            "00049f57 GetEyeTrackedFoveatedRenderingInManifest",
+            "0004a154 s_ManifestSettings_EyeTrackedFoveation"
+          ]
+        },
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "0017e281 kUnityXRFoveatedRenderingFlagsGazeAllowed",
+            "0017e8c5 platformSupportsGazeTrackedFoveatedRendering",
+            "0017e8f2 foveatedRenderingGazeAllowed"
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "00003a1f GetEyeTrackedFoveatedRenderingEnabled",
+            "00003a45 GetEyeTrackedFoveatedRenderingSupported",
+            "00003b23 SetEyeTrackedFoveatedRenderingEnabled",
+            "00034f6d ovrp_GetFoveationEyeTrackedSupported",
+            "00034f92 ovrp_GetFoveationEyeTracked",
+            "00034fae ovrp_SetFoveationEyeTracked",
+            "00034fca ovrp_GetFoveationEyeTrackedCenter",
+            "000358fb Manifest setting for Eye Tracked Foveated Rendering is deprecated. Remove the meta-data entry for com.unity.xr.oculus.EyeTrackedFoveation and enable the feature inside the Oculus XR Plugin instead.",
+            "00035c70 com.unity.xr.oculus.EyeTrackedFoveation",
+            "00048764 GetEyeTrackedFoveatedRenderingEnabled",
+            "00048862 SetEyeTrackedFoveatedRenderingEnabled",
+            "00048d94 GetEyeTrackedFoveatedRenderingSupported",
+            "00049f57 GetEyeTrackedFoveatedRenderingInManifest",
+            "0004a154 s_ManifestSettings_EyeTrackedFoveation",
+            "0004f2a3 OculusDisplayProvider::ShouldUseEyeTrackedFoveatedRendering",
+            "0016829b ovrp_GetFoveationEyeTrackedSupported",
+            "001682c0 ovrp_GetFoveationEyeTracked",
+            "001682dc ovrp_SetFoveationEyeTracked",
+            "001682f8 ovrp_GetFoveationEyeTrackedCenter",
+            "0017891b GetEyeTrackedFoveatedRenderingSupported",
+            "00178943 GetEyeTrackedFoveatedRenderingEnabled",
+            "00178969 SetEyeTrackedFoveatedRenderingEnabled",
+            "00178b57 eyeTrackedFoveatedRenderingSupported",
+            "00178b7c eyeTrackedFoveatedRenderingEnabled",
+            "0017d595 _ZL38s_ManifestSettings_EyeTrackedFoveation"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovravatar2.so.txt",
+      "hits": [
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "000061be ovrAvatar2Behavior_CreateEntityGazeTargets",
+            "000061e9 ovrAvatar2Behavior_DestroyEntityGazeTargets",
+            "00006215 ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
+            "00006248 ovrAvatar2Behavior_CreateGazeTargets",
+            "0000626d ovrAvatar2Behavior_DestroyGazeTargets",
+            "00006293 ovrAvatar2Behavior_UpdateGazeTargetPositions",
+            "000062c0 ovrAvatar2Behavior_GetGazePos",
+            "00031625 Gaze target with id %d doesn't exist",
+            "00033b4a gazeFixup_R_lookRight",
+            "00033b79 gazeFixup_L_lookRight",
+            "00033e46 gazeFixup_R_lookLeft",
+            "00033e73 gazeFixup_L_lookLeft",
+            "000350c6 Gaze target with id %d already exists",
+            "0003573f getGazeWeights",
+            "0003574e Get Gaze Weights",
+            "00035810 ovrAvatar2Behavior_DestroyEntityGazeTargets",
+            "0003583c ovrAvatar2Behavior_CreateEntityGazeTargets",
+            "00035867 ovrAvatar2Behavior_DestroyGazeTargets",
+            "0003588d ovrAvatar2Behavior_CreateGazeTargets",
+            "000361cc ovrAvatar2Behavior_GetGazePos",
+            "00036367 ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
+            "0003639a ovrAvatar2Behavior_UpdateGazeTargetPositions",
+            "0003ba63 mixer_gazeFixerLayer",
+            "0003ba9a mixer_gazeRetargetingLayer",
+            "0003bb00 Mixer|Mix Gaze Fixer Layer"
+          ]
+        },
+        {
+          "term": "saccade",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "0004e2aa OnSaccade",
+            "000856f8 N6avatar15gaze_controller6events11SaccadeInfoE"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libOVRPlugin.so.txt",
+      "hits": [
+        {
+          "term": "eye tracking",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "0008f0a0 OpenXR eye tracking system properties:",
+            "0008f0c7   eye tracking supported %d"
+          ]
+        },
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "0002667d ovrp_GetLayerTextureFoveation",
+            "000268c0 ovrp_UpdateFoveation",
+            "000275ba ovrp_GetFoveationEyeTrackedSupported",
+            "000275df ovrp_GetFoveationEyeTracked",
+            "000275fb ovrp_SetFoveationEyeTracked",
+            "00027617 ovrp_GetFoveationEyeTrackedCenter",
+            "000845f7 GetFoveationEyeTrackedCenter() failed: %s",
+            "00084ee6 GetFoveationEyeTracked() failed: null pointer",
+            "00086ac6 XR_FB_foveation_configuration",
+            "00086c8b XR_FB_foveation",
+            "0008711c XR_FB_foveation_vulkan",
+            "0008dce8 XR_META_foveation_eye_tracked",
+            "0008e1bd CreateFoveationProfile() failed: eye tracked foveation not supported: XR_META_foveation_eye_tracked extension %d, system property %d",
+            "0008e7bd CreateFoveationProfile() failed: required extensions not enabled: XR_FB_foveation %d",
+            "0008ea50 UpdateMotionVectorFoveationProfile() failed: required extensions not enabled: XR_FB_foveation %d, XR_FB_swapchain_update_state %d",
+            "0008ead2 UpdateFoveationProfile() failed: required extensions not enabled: XR_FB_foveation %d, XR_FB_swapchain_update_state %d",
+            "0008ef55 OpenXR eye tracked foveation system properties:",
+            "0008ef85   eye tracked foveation supported %d",
+            "0008f4ee GetFoveationEyeTrackedCenter() failed: eye tracked foveation not in use: XR_META_foveation_eye_tracked extension %d, supported %d, enabled %d",
+            "0008fb9f     ... foveationImage = %p, width = %d, height = %d",
+            "0008fbd4     ... motionVectorFoveationImage = %p, width = %d, height = %d",
+            "00091898 XR_VIEW_CONFIGURATION_TYPE_PRIMARY_STEREO_WITH_FOVEATED_INSET",
+            "00093a5d xrDestroyFoveationProfileFB",
+            "00093a79 xrCreateFoveationProfileFB",
+            "000944e1 xrGetFoveationEyeTrackedStateMETA"
+          ]
+        },
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "000286dc ovrp_GetEyeGazesState",
+            "00092574 ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
+            "0009354c xrGetEyeGazesFB",
+            "0009e208 xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
+            "000a55f1 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
+            "000a57f5 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "000275ba ovrp_GetFoveationEyeTrackedSupported",
+            "000275df ovrp_GetFoveationEyeTracked",
+            "000275fb ovrp_SetFoveationEyeTracked",
+            "00027617 ovrp_GetFoveationEyeTrackedCenter",
+            "000845f7 GetFoveationEyeTrackedCenter() failed: %s",
+            "00084ee6 GetFoveationEyeTracked() failed: null pointer",
+            "0008f4ee GetFoveationEyeTrackedCenter() failed: eye tracked foveation not in use: XR_META_foveation_eye_tracked extension %d, supported %d, enabled %d",
+            "000944e1 xrGetFoveationEyeTrackedStateMETA",
+            "000a1308 xrGetFoveationEyeTrackedStateMETA(m_xrSession, &state)"
+          ]
+        },
+        {
+          "term": "eyeTrackingSupported",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "000286bf ovrp_GetEyeTrackingSupported",
+            "0008f33d ovrInputDebug: m_isEyeTrackingSupported %d"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeGazesState",
+          "category": "raw_state_data_collection",
+          "category_confidence": "high",
+          "examples": [
+            "000286dc ovrp_GetEyeGazesState"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeTrackingEnabled",
+          "category": "raw_state_data_collection",
+          "category_confidence": "medium",
+          "examples": [
+            "000286a4 ovrp_GetEyeTrackingEnabled"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovrplugintracking.so.txt",
+      "hits": [
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "000016f1 ovrp_GetEyeGazesState",
+            "000019ee ovrpGetEyeGazesState failed: %d"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeGazesState",
+          "category": "raw_state_data_collection",
+          "category_confidence": "high",
+          "examples": [
+            "000016f1 ovrp_GetEyeGazesState"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeTrackingEnabled",
+          "category": "raw_state_data_collection",
+          "category_confidence": "medium",
+          "examples": [
+            "00001948 ovrp_GetEyeTrackingEnabled"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libunity.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "000e3c73 SetFoveatedRenderingMode",
+            "000e6336 Missing Vulkan framebuffer attachment foveation image?",
+            "000f37bf UnityEngine.Rendering.CommandBuffer::ConfigureFoveatedRendering",
+            "001093df Internal-CreateFoveatedShadingRateTextureArray.compute",
+            "0010969e ConfigureFoveatedRendering",
+            "00112519 UnityEngine.SystemInfo::GetFoveatedRenderingCaps",
+            "00113229 Foveation Image",
+            "001290d9 FoveatedRenderingManager - Can not load Foveation image generator ComputeShader, ",
+            "0012912b CreateFoveatedShadingRateTextureCS",
+            "00132c95 UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode",
+            "00135c38 IVRDeviceCallback_GetFoveationImage",
+            "0013e219 CreateFoveatedShadingRateTexture",
+            "001487f2 Internal-CreateFoveatedShadingRateTextureNoArray.compute"
+          ]
+        }
+      ]
+    }
+  ]
+}

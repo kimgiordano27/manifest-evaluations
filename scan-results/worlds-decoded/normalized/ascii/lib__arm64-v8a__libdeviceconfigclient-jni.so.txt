@@ -1,0 +1,153 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+00000759 __cxa_finalize
+00000768 __cxa_atexit
+00000775 __register_atfork
+00000787 __android_log_assert
+0000079c __stack_chk_fail
+000007ad _ZNSt6__ndk15mutexD1Ev
+000007c4 _ZNK18DeviceConfigClient10GetBooleanEPKc
+000007ed _ZNSt6__ndk119piecewise_constructE
+00000810 _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIlP8_jobjectEENS_22__unordered_map_hasherIlS4_NS_4hashIlEENS_8equal_toIlEELb1EEENS_21__unordered_map_equalIlS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIlJRKNS_21piecewise_construct_tENS_5tupleIJRKlEEENSK_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
+0000096f _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIlP8_jobjectEENS_22__unordered_map_hasherIlS4_NS_4hashIlEENS_8equal_toIlEELb1EEENS_21__unordered_map_equalIlS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE4findIlEENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+00000a6d _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIlP8_jobjectEENS_22__unordered_map_hasherIlS4_NS_4hashIlEENS_8equal_toIlEELb1EEENS_21__unordered_map_equalIlS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE8__rehashILb1EEEvm
+00000b40 _ZNSt6__ndk112__next_primeEm
+00000b5d _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIlP8_jobjectEENS_22__unordered_map_hasherIlS4_NS_4hashIlEENS_8equal_toIlEELb1EEENS_21__unordered_map_equalIlS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE11__do_rehashILb1EEEvm
+00000c34 _ZN18DeviceConfigClientC1EP7_JNIEnvRKP8_jobjectS3_
+00000c67 _ZN18DeviceConfigClientD1Ev
+00000c83 memset
+00000c8a vsnprintf
+00000c94 strlen
+00000c9b memmove
+00000ca3 __wrap__ZTISt12length_error
+00000cbf __wrap___cxa_begin_catch
+00000cd8 __wrap___cxa_allocate_exception
+00000cf8 __wrap___cxa_guard_release
+00000d13 __wrap__ZdlPv
+00000d21 __wrap___cxa_guard_abort
+00000d3a __wrap__ZNSt20bad_array_new_lengthD1Ev
+00000d61 __wrap__ZTVSt12length_error
+00000d7d __wrap___gxx_personality_v0
+00000d99 __wrap__Unwind_Resume
+00000daf __wrap___cxa_throw
+00000dc2 __wrap___cxa_free_exception
+00000dde __wrap__Znwm
+00000deb __wrap__ZSt9terminatev
+00000e02 __wrap__ZNSt11logic_errorC2EPKc
+00000e22 __wrap__ZNSt12length_errorD1Ev
+00000e41 __wrap__ZNSt20bad_array_new_lengthC1Ev
+00000e68 __wrap___cxa_guard_acquire
+00000e83 __wrap__ZTISt20bad_array_new_length
+00000ea7 libc.so
+00000eaf LIBC
+00000eb4 liblog.so
+00000ebe libc++_shared.so
+00000ecf libdeviceconfigclient-jni.so
+00000ef0 APS2
+00001694 com/oculus/deviceconfigclient/MDCGetPolicy
+000016bf withTimeout
+000016cb GetDeviceConfigClient
+000016e1 com/oculus/deviceconfigclient/DeviceConfigClient
+00001712 nativeOnSuccess
+00001722 LoadMDCGetPolicyClass
+00001738 LoadIntegerClass
+00001749 LoadCallbackClass
+0000175b loadClass
+00001765 DeviceConfig_JniUtils
+0000177b Get methods
+00001787 DeviceConfigCallback failed to register native methods
+000017be JVM exception occurred: %s
+000017d9 DeviceConfigCallbackJNI.java::onSuccess sent a null nativePtr
+00001817 DeviceConfigCallbackJNI.java::onFailure sent a null nativePtr
+00001855 java/lang/Integer
+00001867 com/oculus/deviceconfigclient/DeviceConfigHolder
+00001898 java/lang/ClassLoader
+000018ae getLatestBoolean
+000018bf getProcessConsistentBoolean
+000018db getDeviceConsistentBoolean
+000018f6 getBoolean
+00001901 GetBoolean
+0000190c getServerBoolean
+0000191d getDeviceBoolean
+0000192e com/oculus/deviceconfigclient/NativeDeviceConfigCallback
+00001967 removeCallback
+00001976 getLatestLong
+00001984 getProcessConsistentLong
+0000199d getDeviceConsistentLong
+000019b5 getLong
+000019bd getServerLong
+000019cb getDeviceLong
+000019d9 basic_string
+000019e6 getLatestString
+000019f6 getProcessConsistentString
+00001a11 getDeviceConsistentString
+00001a2b getString
+00001a35 getServerString
+00001a45 getDeviceString
+00001a55 nativeOnFailure
+00001a65 getLatestDouble
+00001a75 getProcessConsistentDouble
+00001a90 getDeviceConsistentDouble
+00001aaa getDouble
+00001ab4 getServerDouble
+00001ac4 getDeviceDouble
+00001ad4 com/oculus/deviceconfigclient/MDCGetPolicy$Mode
+00001b04 getInstance
+00001b10 subscribe
+00001b1a isParamValid
+00001b27 GetMethodID(%s, %s) failed
+00001b42 GetStaticMethodID(%s, %s) failed
+00001b63 FindClass( %s ) failed
+00001b7a (Ljava/lang/String;I)Z
+00001b91 (Lcom/oculus/deviceconfigclient/DeviceConfigCallback;)Z
+00001bc9 (Ljava/lang/String;)Z
+00001be3 (J)V
+00001be8 (I)V
+00001bed (Lcom/oculus/deviceconfigclient/DeviceConfigCallback;)V
+00001c25 (JLjava/lang/String;)V
+00001c3c FAIL
+00001c41 (Ljava/lang/String;)J
+00001c57 (Ljava/lang/String;)D
+00001c6d <init>
+00001c74 (Lcom/oculus/deviceconfigclient/MDCGetPolicy$Mode;Ljava/lang/Integer;)Lcom/oculus/deviceconfigclient/MDCGetPolicy;
+00001ce7 (Landroid/content/Context;)Lcom/oculus/deviceconfigclient/DeviceConfigClient;
+00001d35 (Ljava/lang/String;)Ljava/lang/Class;
+00001d5b (Ljava/lang/String;)Ljava/lang/String;
+00001d82 (Ljava/lang/String;Lcom/oculus/deviceconfigclient/MDCGetPolicy;)Lcom/oculus/deviceconfigclient/MDCFuture;
+00001dec (Ljava/lang/String;)Lcom/oculus/deviceconfigclient/MDCFuture;
+00001e2a Failed to get DeviceConfigHolder class.
+00001e52 JavaStringtoString(%p)
+00001e69 MDCGetPolicy class not found!
+00001e87 DeviceConfigClient class not found!
+00001eab Integer class not found!
+00001ec4 DeviceConfigCallback class not found!
+00001eea MDCGetPolicy$Mode class not found!
+000022ed zPLR
+000030ff 6(YB
+00003949 80.	
+00003a49 80.	
+00004491 .fini_array
+0000449d .text
+000044a3 .got
+000044a8 .note.android.ident
+000044bc .got.plt
+000044c5 .rela.plt
+000044cf .bss
+000044d4 .dynstr
+000044dc .eh_frame_hdr
+000044ea .gnu.version_r
+000044f9 .data.rel.ro
+00004506 .relr.dyn
+00004510 .rela.dyn
+0000451a .gnu.version
+00004527 .dynsym
+0000452f .gnu.hash
+00004539 .relro_padding
+00004548 .eh_frame
+00004552 .gcc_except_table
+00004564 .note.gnu.build-id
+00004577 .dynamic
+00004580 .shstrtab
+0000458a .rodata
+00004592 .data

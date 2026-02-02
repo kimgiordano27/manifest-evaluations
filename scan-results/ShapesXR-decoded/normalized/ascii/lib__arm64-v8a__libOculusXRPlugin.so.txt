@@ -1,0 +1,1482 @@
+000038b9 __cxa_finalize
+000038c8 __cxa_atexit
+000038d5 GetIsSupportedDevice
+000038ea LoadOVRPlugin
+000038f8 UnityPluginLoad
+00003908 UnityPluginUnload
+0000391a UnloadOVRPlugin
+0000392a XRSDKPreInit
+00003937 _ZdlPv
+0000393e _Znwm
+00003944 pthread_create
+00003953 pthread_mutex_lock
+00003966 pthread_mutex_unlock
+0000397b pthread_once
+00003988 GetAppHasInputFocus
+0000399c GetAppShouldQuit
+000039ad GetBoundaryConfigured
+000039c3 GetBoundaryDimensions
+000039d9 GetBoundaryVisible
+000039ec GetDisplayAvailableFrequencies
+00003a0b GetDisplayFrequency
+00003a1f GetEyeTrackedFoveatedRenderingEnabled
+00003a45 GetEyeTrackedFoveatedRenderingSupported
+00003a6d GetOVRPVersion
+00003a7c GetShouldRestartSession
+00003a94 GetSystemHeadsetType
+00003aa9 GetTiledMultiResLevel
+00003abf GetTiledMultiResSupported
+00003ad9 SetBoundaryVisible
+00003aec SetCPULevel
+00003af8 SetDeveloperModeStrict
+00003b0f SetDisplayFrequency
+00003b23 SetEyeTrackedFoveatedRenderingEnabled
+00003b49 SetGPULevel
+00003b55 SetTiledMultiResDynamic
+00003b6d SetTiledMultiResLevel
+00003b83 SetUserDefinedSettings
+00003b9a _ZNSt6vectorIPKcSaIS1_EE17_M_default_appendEm
+00003bc8 _ZNSt6vectorIjSaIjEE17_M_default_appendEm
+00003bf2 __stack_chk_fail
+00003c03 dladdr
+00003c0a dlclose
+00003c12 dlopen
+00003c19 dlsym
+00003c1f memcmp
+00003c26 memmove
+00003c2e memset
+00003c35 strcpy
+00003c3c strlen
+00003c43 GetOvrJava
+00003c4e JNI_OnLoad
+00003c59 JNI_OnUnload
+00003c66 Java_com_unity_oculus_OculusUnity_surfaceCreated
+00003c97 ANativeWindow_fromSurface
+00003cb1 ANativeWindow_release
+00003cc7 EnableAppMetrics
+00003cd8 EnablePerfMetrics
+00003cea GetEnvironmentDepthFrameDesc
+00003d07 GetEnvironmentDepthHandRemovalSupported
+00003d2f GetEnvironmentDepthSupported
+00003d4c GetEnvironmentDepthTextureId
+00003d69 SetAppSpacePosition
+00003d7d SetAppSpaceRotation
+00003d91 SetColorOffset
+00003da0 SetColorScale
+00003dae SetDepthSubmission
+00003dc1 SetEnvironmentDepthHandRemoval
+00003de0 SetEnvironmentDepthRendering
+00003dfd SetSpaceWarp
+00003e0a SetupEnvironmentDepth
+00003e20 ShutdownEnvironmentDepth
+00003e39 _ZNSt4listIfSaIfEE4sortEv
+00003e53 _ZNSt5dequeISt4pairIiiESaIS1_EE17_M_reallocate_mapEmb
+00003e89 _ZNSt6vectorIPvSaIS0_EE17_M_default_appendEm
+00003eb6 _ZdaPv
+00003ebd _Znam
+00003ec3 atan
+00003ec8 memcpy
+00003ecf tanf
+00003ed4 GetCurrentFrameIndex
+00003ee9 _ZNSt10_HashtableIjSt4pairIKjbESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE13_M_rehash_auxEmSt17integral_constantIbLb1EE
+00003fe4 _ZNSt10_HashtableIjSt4pairIKjbESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE9_M_insertIRKS2_NS4_10_AllocNodeISaINS4_10_Hash_nodeIS2_Lb0EEEEEEEES0_INS4_14_Node_iteratorIS2_Lb0ELb0EEEbEOT_RKT0_St17integral_constantIbLb1EE
+00004141 _ZNSt16allocator_traitsISaIhEE9_S_selectIKS0_vEET_RS4_z
+00004179 _ZNSt6vectorIhSaIhEE17_M_default_appendEm
+000041a3 _ZNSt8__detail9_Map_baseIjSt4pairIKjbESaIS3_ENS_10_Select1stESt8equal_toIjESt4hashIjENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb0ELb0ELb1EEELb1EEixEOj
+00004274 _ZNSt8__detail9_Map_baseIjSt4pairIKjbESaIS3_ENS_10_Select1stESt8equal_toIjESt4hashIjENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb0ELb0ELb1EEELb1EEixERS2_
+00004347 isnan
+0000434d libandroid.so
+0000435b liblog.so
+00004365 free
+0000436a malloc
+00004371 _ZSt15get_new_handlerv
+00004388 __cxa_allocate_exception
+000043a1 _ZTVSt9bad_alloc
+000043b2 _ZNSt9bad_allocD1Ev
+000043c6 _ZTISt9bad_alloc
+000043d7 __cxa_throw
+000043e3 _Unwind_Resume
+000043f2 __cxa_call_unexpected
+00004408 __gxx_personality_v0
+0000441d pthread_cond_destroy
+00004432 pthread_cond_wait
+00004444 pthread_cond_signal
+00004458 _ZTVSt13bad_exception
+0000446e _ZNSt13bad_exceptionD1Ev
+00004487 _ZTISt13bad_exception
+0000449d _ZTVSt8bad_cast
+000044ad _ZNSt8bad_castD1Ev
+000044c0 _ZTISt8bad_cast
+000044d0 _ZTVSt10bad_typeid
+000044e3 _ZNSt10bad_typeidD1Ev
+000044f9 _ZTISt10bad_typeid
+0000450c __cxa_free_exception
+00004521 _ZNSt9exceptionD2Ev
+00004535 _ZTVN10__cxxabiv120__si_class_type_infoE
+0000455e _ZTISt9exception
+0000456f __cxa_guard_acquire
+00004583 __cxa_guard_release
+00004597 _ZNSt15__exception_ptr13exception_ptrC1Ev
+000045c1 _ZNSt15__exception_ptr13exception_ptrD1Ev
+000045eb _ZTVN10__cxxabiv117__class_type_infoE
+00004611 __cxa_pure_virtual
+00004624 __floatsitf
+00004630 __extendsftf2
+0000463e __multf3
+00004647 __trunctfdf2
+00004654 __floatunditf
+00004662 __divtf3
+0000466b __getf2
+00004673 _ZTIv
+00004679 __cxa_begin_catch
+0000468b __cxa_end_catch
+0000469b strerror
+000046a4 _ZNKSt9bad_alloc4whatEv
+000046bc _ZNSt9bad_allocD2Ev
+000046d0 _ZNSt9bad_allocD0Ev
+000046e4 _ZTSSt9bad_alloc
+000046f5 _ZNKSt8bad_cast4whatEv
+0000470c _ZNSt8bad_castD2Ev
+0000471f _ZNSt8bad_castD0Ev
+00004732 _ZTSSt8bad_cast
+00004742 _ZNKSt10bad_typeid4whatEv
+0000475c _ZNSt10bad_typeidD2Ev
+00004772 _ZNSt10bad_typeidD0Ev
+00004788 _ZTSSt10bad_typeid
+0000479b _ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+000047d5 _ZNK10__cxxabiv117__class_type_info20__do_find_public_srcElPKvPKS0_S2_
+0000481c _ZN10__cxxabiv117__class_type_infoD2Ev
+00004843 _ZN10__cxxabiv117__class_type_infoD1Ev
+0000486a _ZN10__cxxabiv117__class_type_infoD0Ev
+00004891 _ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+000048e2 strcmp
+000048e9 _ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+0000492c _ZNK10__cxxabiv117__class_type_info12__do_dyncastElNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+00004997 _ZTSN10__cxxabiv117__class_type_infoE
+000049bd _ZTIN10__cxxabiv117__class_type_infoE
+000049e3 _ZSt9terminatev
+000049f3 __cxa_allocate_dependent_exception
+00004a16 __cxa_free_dependent_exception
+00004a35 __cxa_get_exception_ptr
+00004a4d __cxa_get_globals
+00004a5f __cxa_get_globals_fast
+00004a76 _Unwind_DeleteException
+00004a8e _ZSt18uncaught_exceptionv
+00004aa8 _ZNSt9exceptionD1Ev
+00004abc _ZNSt13bad_exceptionD2Ev
+00004ad5 _ZNKSt9exception4whatEv
+00004aed _ZNKSt13bad_exception4whatEv
+00004b0a _ZNSt9exceptionD0Ev
+00004b1e _ZNSt13bad_exceptionD0Ev
+00004b37 _ZN10__cxxabiv115__forced_unwindD2Ev
+00004b5c _ZN10__cxxabiv115__forced_unwindD1Ev
+00004b81 _ZN10__cxxabiv115__forced_unwindD0Ev
+00004ba6 _ZN10__cxxabiv119__foreign_exceptionD2Ev
+00004bcf _ZN10__cxxabiv119__foreign_exceptionD1Ev
+00004bf8 _ZN10__cxxabiv119__foreign_exceptionD0Ev
+00004c21 _ZTSSt9exception
+00004c32 _ZTSSt13bad_exception
+00004c48 _ZTSN10__cxxabiv115__forced_unwindE
+00004c6c _ZTIN10__cxxabiv115__forced_unwindE
+00004c90 _ZTSN10__cxxabiv119__foreign_exceptionE
+00004cb8 _ZTIN10__cxxabiv119__foreign_exceptionE
+00004ce0 _ZTVSt9exception
+00004cf1 _ZTVN10__cxxabiv115__forced_unwindE
+00004d15 _ZTVN10__cxxabiv119__foreign_exceptionE
+00004d3d pthread_key_delete
+00004d50 pthread_key_create
+00004d63 pthread_setspecific
+00004d77 pthread_getspecific
+00004d8b _Unwind_GetDataRelBase
+00004da2 _Unwind_GetRegionStart
+00004db9 _Unwind_GetTextRelBase
+00004dd0 _Unwind_SetGR
+00004dde _Unwind_SetIP
+00004dec _Unwind_GetLanguageSpecificData
+00004e0c _Unwind_GetIPInfo
+00004e1e _ZSt10unexpectedv
+00004e30 _ZN10__cxxabiv112__unexpectedEPFvvE
+00004e54 __cxa_rethrow
+00004e62 _ZN10__cxxabiv111__terminateEPFvvE
+00004e85 _ZNSt15__exception_ptr13exception_ptr18_M_safe_bool_dummyEv
+00004ec1 _ZNSt15__exception_ptr13exception_ptrC2Ev
+00004eeb _ZNSt15__exception_ptr13exception_ptrC2EMS0_FvvE
+00004f1c _ZNSt15__exception_ptr13exception_ptrC1EMS0_FvvE
+00004f4d _ZNSt15__exception_ptr13exception_ptr9_M_addrefEv
+00004f7f _ZNSt15__exception_ptr13exception_ptrC2EPv
+00004faa _ZNSt15__exception_ptr13exception_ptrC1EPv
+00004fd5 _ZNSt15__exception_ptr13exception_ptrC2ERKS0_
+00005003 _ZNSt15__exception_ptr13exception_ptrC1ERKS0_
+00005031 _ZNSt15__exception_ptr13exception_ptr10_M_releaseEv
+00005065 _ZNSt15__exception_ptr13exception_ptrD2Ev
+0000508f _ZNKSt15__exception_ptr13exception_ptr6_M_getEv
+000050bf _ZNSt15__exception_ptr13exception_ptr4swapERS0_
+000050ef _ZNSt15__exception_ptr13exception_ptraSERKS0_
+0000511d _ZNKSt15__exception_ptr13exception_ptrntEv
+00005148 _ZNKSt15__exception_ptr13exception_ptrcvMS0_FvvEEv
+0000517b _ZNKSt15__exception_ptr13exception_ptr20__cxa_exception_typeEv
+000051ba _ZNSt15__exception_ptreqERKNS_13exception_ptrES2_
+000051ec _ZNSt15__exception_ptrneERKNS_13exception_ptrES2_
+0000521e _ZSt17current_exceptionv
+00005237 _ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE
+00005273 _ZSt14get_unexpectedv
+00005289 _ZSt13get_terminatev
+0000529e _Unwind_RaiseException
+000052b5 _ZSt13set_terminatePFvvE
+000052ce _ZN10__cxxabiv119__terminate_handlerE
+000052f4 _ZSt14set_unexpectedPFvvE
+0000530e _ZN10__cxxabiv120__unexpected_handlerE
+00005335 _Unwind_Resume_or_Rethrow
+0000534f _ZN10__cxxabiv123__fundamental_type_infoD2Ev
+0000537c _ZTVN10__cxxabiv123__fundamental_type_infoE
+000053a8 _ZN10__cxxabiv123__fundamental_type_infoD1Ev
+000053d5 _ZN10__cxxabiv123__fundamental_type_infoD0Ev
+00005402 _ZTSN10__cxxabiv123__fundamental_type_infoE
+0000542e _ZTIN10__cxxabiv123__fundamental_type_infoE
+0000545a _ZTSv
+00005460 _ZTSPv
+00005467 _ZTSPKv
+0000546f _ZTSb
+00005475 _ZTSPb
+0000547c _ZTSPKb
+00005484 _ZTSw
+0000548a _ZTSPw
+00005491 _ZTSPKw
+00005499 _ZTSDs
+000054a0 _ZTSPDs
+000054a8 _ZTSPKDs
+000054b1 _ZTSDi
+000054b8 _ZTSPDi
+000054c0 _ZTSPKDi
+000054c9 _ZTSc
+000054cf _ZTSPc
+000054d6 _ZTSPKc
+000054de _ZTSa
+000054e4 _ZTSPa
+000054eb _ZTSPKa
+000054f3 _ZTSh
+000054f9 _ZTSPh
+00005500 _ZTSPKh
+00005508 _ZTSs
+0000550e _ZTSPs
+00005515 _ZTSPKs
+0000551d _ZTSt
+00005523 _ZTSPt
+0000552a _ZTSPKt
+00005532 _ZTSi
+00005538 _ZTSPi
+0000553f _ZTSPKi
+00005547 _ZTSj
+0000554d _ZTSPj
+00005554 _ZTSPKj
+0000555c _ZTSl
+00005562 _ZTSPl
+00005569 _ZTSPKl
+00005571 _ZTSm
+00005577 _ZTSPm
+0000557e _ZTSPKm
+00005586 _ZTSx
+0000558c _ZTSPx
+00005593 _ZTSPKx
+0000559b _ZTSy
+000055a1 _ZTSPy
+000055a8 _ZTSPKy
+000055b0 _ZTSn
+000055b6 _ZTSPn
+000055bd _ZTSPKn
+000055c5 _ZTSo
+000055cb _ZTSPo
+000055d2 _ZTSPKo
+000055da _ZTSf
+000055e0 _ZTSPf
+000055e7 _ZTSPKf
+000055ef _ZTSd
+000055f5 _ZTSPd
+000055fc _ZTSPKd
+00005604 _ZTSe
+0000560a _ZTSPe
+00005611 _ZTSPKe
+00005619 _ZTSDf
+00005620 _ZTSPDf
+00005628 _ZTSPKDf
+00005631 _ZTSDd
+00005638 _ZTSPDd
+00005640 _ZTSPKDd
+00005649 _ZTSDe
+00005650 _ZTSPDe
+00005658 _ZTSPKDe
+00005661 _ZTSDn
+00005668 _ZTSPDn
+00005670 _ZTSPKDn
+00005679 _ZTIPKDn
+00005682 _ZTVN10__cxxabiv119__pointer_type_infoE
+000056aa _ZTIDn
+000056b1 _ZTIPDn
+000056b9 _ZTIPKDe
+000056c2 _ZTIDe
+000056c9 _ZTIPDe
+000056d1 _ZTIPKDd
+000056da _ZTIDd
+000056e1 _ZTIPDd
+000056e9 _ZTIPKDf
+000056f2 _ZTIDf
+000056f9 _ZTIPDf
+00005701 _ZTIPKe
+00005709 _ZTIe
+0000570f _ZTIPe
+00005716 _ZTIPKd
+0000571e _ZTId
+00005724 _ZTIPd
+0000572b _ZTIPKf
+00005733 _ZTIf
+00005739 _ZTIPf
+00005740 _ZTIPKo
+00005748 _ZTIo
+0000574e _ZTIPo
+00005755 _ZTIPKn
+0000575d _ZTIn
+00005763 _ZTIPn
+0000576a _ZTIPKy
+00005772 _ZTIy
+00005778 _ZTIPy
+0000577f _ZTIPKx
+00005787 _ZTIx
+0000578d _ZTIPx
+00005794 _ZTIPKm
+0000579c _ZTIm
+000057a2 _ZTIPm
+000057a9 _ZTIPKl
+000057b1 _ZTIl
+000057b7 _ZTIPl
+000057be _ZTIPKj
+000057c6 _ZTIj
+000057cc _ZTIPj
+000057d3 _ZTIPKi
+000057db _ZTIi
+000057e1 _ZTIPi
+000057e8 _ZTIPKt
+000057f0 _ZTIt
+000057f6 _ZTIPt
+000057fd _ZTIPKs
+00005805 _ZTIs
+0000580b _ZTIPs
+00005812 _ZTIPKh
+0000581a _ZTIh
+00005820 _ZTIPh
+00005827 _ZTIPKa
+0000582f _ZTIa
+00005835 _ZTIPa
+0000583c _ZTIPKc
+00005844 _ZTIc
+0000584a _ZTIPc
+00005851 _ZTIPKDi
+0000585a _ZTIDi
+00005861 _ZTIPDi
+00005869 _ZTIPKDs
+00005872 _ZTIDs
+00005879 _ZTIPDs
+00005881 _ZTIPKw
+00005889 _ZTIw
+0000588f _ZTIPw
+00005896 _ZTIPKb
+0000589e _ZTIb
+000058a4 _ZTIPb
+000058ab _ZTIPKv
+000058b3 _ZTIPv
+000058ba __google_potentially_blocking_region_begin
+000058e5 __google_potentially_blocking_region_end
+0000590e syscall
+00005916 _ZTVN9__gnu_cxx20recursive_init_errorE
+0000593d _ZN9__gnu_cxx20recursive_init_errorD1Ev
+00005965 _ZTIN9__gnu_cxx20recursive_init_errorE
+0000598c __cxa_guard_abort
+0000599e _ZN9__gnu_cxx20recursive_init_errorD2Ev
+000059c6 _ZN9__gnu_cxx20recursive_init_errorD0Ev
+000059ee _ZTSN9__gnu_cxx20recursive_init_errorE
+00005a15 _ZSt15set_new_handlerPFvvE
+00005a30 _ZSt7nothrow
+00005a3d _ZNK10__cxxabiv119__pointer_type_info14__is_pointer_pEv
+00005a75 _ZN10__cxxabiv119__pointer_type_infoD2Ev
+00005a9e _ZN10__cxxabiv117__pbase_type_infoD2Ev
+00005ac5 _ZN10__cxxabiv119__pointer_type_infoD1Ev
+00005aee _ZN10__cxxabiv119__pointer_type_infoD0Ev
+00005b17 _ZNK10__cxxabiv119__pointer_type_info15__pointer_catchEPKNS_17__pbase_type_infoEPPvj
+00005b6c _ZTSN10__cxxabiv119__pointer_type_infoE
+00005b94 _ZTIN10__cxxabiv119__pointer_type_infoE
+00005bbc _ZTIN10__cxxabiv117__pbase_type_infoE
+00005be2 _ZNK10__cxxabiv117__pbase_type_info10__do_catchEPKSt9type_infoPPvj
+00005c25 __cxa_deleted_virtual
+00005c3b _ZN10__cxxabiv120__si_class_type_infoD2Ev
+00005c65 _ZN10__cxxabiv120__si_class_type_infoD1Ev
+00005c8f _ZN10__cxxabiv120__si_class_type_infoD0Ev
+00005cb9 _ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+00005d39 _ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcElPKvPKNS_17__class_type_infoES2_
+00005d97 _ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+00005dff _ZTSN10__cxxabiv120__si_class_type_infoE
+00005e28 _ZTIN10__cxxabiv120__si_class_type_infoE
+00005e51 _ZN9__gnu_cxx27__verbose_terminate_handlerEv
+00005e7e _ZTVN10__cxxabiv117__pbase_type_infoE
+00005ea4 _ZN10__cxxabiv117__pbase_type_infoD1Ev
+00005ecb _ZN10__cxxabiv117__pbase_type_infoD0Ev
+00005ef2 _ZTSN10__cxxabiv117__pbase_type_infoE
+00005f18 __cxa_current_exception_type
+00005f35 __sF
+00005f3a __cxa_demangle
+00005f49 fwrite
+00005f50 fputs
+00005f56 fputc
+00005f5c realloc
+00005f64 sprintf
+00005f6c strncmp
+00005f74 __gcclibcxx_demangle_callback
+00005f92 libstdc++.so
+00005f9f libm.so
+00005fa7 __sfp_handle_exceptions
+00005fbf __gttf2
+00005fc7 _Unwind_GetGR
+00005fd5 _Unwind_GetCFA
+00005fe4 _Unwind_GetIP
+00005ff2 _Unwind_FindEnclosingFunction
+00006010 _Unwind_Find_FDE
+00006021 __frame_state_for
+00006033 _Unwind_ForcedUnwind
+00006048 _Unwind_Backtrace
+0000605a __register_frame_info_bases
+00006076 __register_frame_info
+0000608c __register_frame
+0000609d __register_frame_info_table_bases
+000060bf __register_frame_info_table
+000060db __register_frame_table
+000060f2 __deregister_frame_info_bases
+00006110 __deregister_frame_info
+00006128 __deregister_frame
+0000613b dl_iterate_phdr
+0000614b libdl.so
+00006154 libc.so
+0000615c _edata
+00006163 __bss_start
+0000616f __bss_start__
+0000617d __bss_end__
+00006189 __end__
+00006191 OculusXRPlugin.so
+000061a3 LIBC
+0000baa4 hBT9H
+0000c23d #@9h
+0000c405 #@9h
+0000d031 #%91
+0000d328 n"@yo&@yp*@yq2@y
+0000d3a8 i2@y
+0000d3cc iB@y
+0000d3e8 iF@y
+0000f0af 2h.@ykN@y
+0000ff7a C9ur
+000110d3 R! )
+0001167f 25 	
+000117c5 =@yH
+0001189d M@yI
+00011943 4a2	
+00011f17 2 8 
+0001237d 1@y)
+000128eb T	}@
+00012957 T"9*
+00013177 T7}@
+000132fa ?)J!
+00013359 zhx	{(
+0001350f 4i"B
+00013759 M@y(
+000137af 4h&B
+00013b1c h"@9
+00013f21 "@9v
+00014025 q@9h
+0001421b RHy)
+0001454f *Hy)
+00014717 TI		
+00015155 bA9(
+000151f3 =		@
+00015212 C9`~
+00015295 fA9h
+00015365 fA9H
+000154d9 M@yh
+000154ef 2(#	
+0001561e B9`*
+00015752 S-e:@
+0001576e !^!8#
+00015b81 qZ9(	
+00015e15 +I)`"
+00015e29 'H)`
+000170ab 9hBD9h
+0001721f 2)}*
+00017333 q!(2
+0001734e !~P*0
+000173a7 qB( 
+000173bb -@8 
+00018407 T@ #
+00018496 @-"%O
+000184cb T  #
+0001854b T@ #
+0001a203 *)1	
+0001a43f Sl}	SmQ
+0001b12f qHM@
+0001b20d R@9h
+0001b447 TX|@
+0001b534 	U@9
+0001b53b 4	a@
+0001bbeb 6H#@
+0001bd2b K)}`
+0001bdcb *+!A
+0001d833 2s"	
+0001dba1 #@9H
+0001dc2f 5i"@
+0001dd13 5i"@
+0001e20e A-P@!
+0001f388 `"@9_
+0001f53f *B|@
+0001f8bf Tb"?
+0001f8d7 TB,@
+0001fbc6 @9`h!8
+0001fc74 ?h58
+0001fe7f T@ht8
+000200bd h68b
+0002015a @9 h68
+00020164 `hs8`h78
+00020a6b T"@@
+00020b87 Rs D
+000210b8  H`8a
+00021399 Ja8c
+0002187c AHa8b
+00022fc5 Hd8e
+00023053 Td|@
+0002315f 4`R@
+000231af 4`R@
+0002330a @9_|
+00023407 Td|@
+0002342b R(i$
+0002345f Tb|@
+0002355d J`8a
+00023608 tj!8t"
+00023644 tj!8t"
+000237b9 J`8a
+000239f9 "@9?|
+00023a1b T`*@
+00023abb TcR@
+00023b44 uj 8
+00023b94 uj 8
+00023cf2 @9_|
+00023d96 @9?P
+00023e3b Tb|@
+00023eda @9?|
+00023efa @9_|
+0002404d Jz8a
+000240f6 @9?|
+00024257 T@|@
+0002427b R#h 
+000242f8  X`xa
+00024421 [`xa
+0002454a @9?|
+0002472e @9?|
+000247ea @9?|
+000249b7 TA|@
+00024b21 Xaxa
+00024ba1 Xaxa
+00024c09 Xaxa
+00024c8d Xaxa
+00024cd7 Reh"
+00024dc6 @9?|
+00025072 @9?|
+0002553a @9?|
+000256c3 TA|@
+000256e7 Rdh!
+0002579f T [`xa
+000257c8  X`xa
+00025a0e @9?|
+00025c18 AXaxb
+00025e78  X`xa
+0002601b Qb*@
+00026037 TA|@
+0002609f T`Z@
+0002610f R h#
+00026167 R h#
+000261bf R h#
+00026217 R h#
+00026283 R h#
+00026303 R h#
+0002635b R h#
+00026436 @9?|
+000264b3 T |@
+00026652 @9?|
+000267e3 Rdh!
+00026977 Rbh!
+000269ad Xaxa
+00026bd9 Xaxa
+00026c55 Xaxa
+00026d2e @9?|
+00026e6d Xaxa
+00026f62 @9?|
+00027347 TbR@
+000274d7 Rdh 
+0002753b R@h!
+000277f7 TA|@
+0002781b Rdh!
+00027928 AXaxb
+00027953 T@|@
+00027977 Rdh 
+000279a3 Rb*@
+000279bb TD|@
+00027a3c AHa8b
+00027a4f Rb*@
+00027a67 TD|@
+00027b40  H`8a
+00027ff7 R@h!
+00028288  H`8a
+000282c8 @X`xb
+000282fe @9?|
+000285aa @9?|
+000286b3 Ta|@
+000286d3 TXh!
+00028762 @9?0
+0002878a @9?|
+0002888b 4aR@
+000288da @9?0
+00028922 @9?$
+0002898e @9?|
+000289d6 @9?P
+000289ef 4`*@
+00028a27 R@h!
+00028b48  H`8a
+00028bcc  H`8a
+00028d9a @9?|
+00028faa @9?H
+00028fe3 5`R@
+0002907e @9?|
+00029097 T |@
+000290bb Rah 
+000291a6 @9?0
+00029342 @9?|
+000293f2 @9?P
+00029417 TA|@
+0002943b Rdh!
+00029464  H`8a
+000295a6 @9?0
+00029632 @9?|
+00029740  X`xa
+00029796 @9?|
+00029922 @9?0
+000299ae @9?|
+000299de @9?0
+00029a6a @9?|
+00029a9a @9?0
+00029b26 @9?|
+00029bde @9?P
+00029c2b RCh 
+00029de2 @9?P
+00029e2b RCh!
+00029ea6 @9?P
+00029ef3 RCh!
+00029ff2 @9?P
+0002a03b RCh!
+0002a0ae @9?P
+0002a0f7 RCh!
+0002a195 Xaxa
+0002a1ed Xaxa
+0002a41d Xaxa
+0002a536 @9?|
+0002a5c9 Xaxa
+0002a625 Ha8a
+0002a786 @9?|
+0002abd1 Xaxa
+0002aefd Xaxa
+0002af55 Xaxa
+0002b22a @9?|
+0002b379 Xaxa
+0002b652 @9?|
+0002b6f1 Xaxa
+0002b732 @9?|
+0002b7f0 !X`xb
+0002b854 uj 8
+0002b8c7 Rbj!8b"
+0002b8e4 vj 8v"
+0002ba14 uj 8
+0002ba81 I16c
+0002bc24 wj 8
+0002bc90 wj 8
+0002bd00 wj 8
+0002bd6c wj 8
+0002bdd8 wj 8
+0002be44 wj 8
+0002beb4 wj 8
+0002bff8 uj 8
+0002c144 `"D9
+0002c167 Rbj!8
+0002c180 `"D9
+0002c1a3 R`j!8`"
+0002c1d7 R`j!8`"
+0002c1f4 uj#8?
+0002c210 uj!8
+0002c22c tj 8t"
+0002c2bf Rbj!8
+0002c2ef R`j!8`"
+0002c325 "@9?
+0002c338 tj!8t"
+0002c388 uj 8
+0002c3f8 wj 8
+0002c464 wj 8
+0002c4d4 wj 8
+0002c564 wj 8
+0002c5d4 wj 8
+0002c644 vj 8
+0002c6b0 wj 8
+0002c71c wj 8
+0002c7d8 xj!8
+0002c7f4 wj 8w"
+0002c833 R`j!8`"
+0002c850 vj#8?
+0002c86c wj!8
+0002c888 wj#8?
+0002c8a8 vj!8
+0002c8d3 R`j!8`"
+0002c8f7 Rbj!8
+0002c93c wj 8
+0002c9f4 uj 8
+0002ca64 wj 8
+0002cad0 wj 8
+0002cb50 wj 8
+0002cbc7 Raj68
+0002cc43 Rbj!8
+0002cc73 R`j!8`"
+0002ccc7 R`j!8`"
+0002cceb R`j#8`"
+0002cd08 tj!8
+0002cd24 tj$8
+0002cd40 uj#8?
+0002cd5c uj!8
+0002cd78 tj 8t"
+0002cea4 wj 8
+0002cf24 wj 8
+0002d20f R`j!8`"
+0002d257 R`j!8`"
+0002d2c8 uj 8
+0002d450 uj 8
+0002d4ab R`j!8`"
+0002d4df Rbj!8b"
+0002d500 uj 8a
+0002d550 uj 8
+0002d5db R`j!8`"
+0002d623 R`j!8`"
+0002d640 wj#8
+0002d65c wj$8?
+0002d67c vj!8
+0002d720 uj 8
+0002d777 R`j#8`"
+0002d794 tj!8
+0002d7b0 tj$8
+0002d7cc uj#8?
+0002d7e8 uj!8
+0002d804 tj 8t"
+0002d84f R`j!8`"
+0002d86c uj#8?
+0002d888 uj!8
+0002d8a4 vj#8?
+0002d8c0 vj!8
+0002d8e0 uj 8a
+0002d928 uj 8
+0002d9b3 R`j!8`"
+0002d9cf R`j!8`"
+0002da33 R`j!8`"
+0002da5b R`j!8`"
+0002da78 vj#8
+0002da94 wj$8?
+0002dab0 wj!8
+0002dacc vj 8v"
+0002db4f T`NA
+0002dc8f R`j!8`"
+0002dcbc `"D9
+0002dcdf R`j!8`"
+0002dcfc `"D9
+0002dd1f R`j!8`"
+0002dd43 R`j!8`"
+0002dd9f T`6A
+0002de80 tj!8t"
+0002e44d Hv8a
+0002ed47 R`j!8`"
+0002ed6b R`j!8`"
+0002f138 tj!8
+0002f1f0  X`xa
+0002f228 vj 8
+0002f2a4 uj 8
+0002f310 uj 8
+0002f36f R`j!8`"
+0002f38c tj#8?
+0002f3a8 tj!8
+0002f3c4 uj#8?
+0002f3e0 uj!8
+0002f43b Rbj 8b"
+0002f457 R`j!8`"
+0002f48b Rbj 8b"
+0002f4a7 Rbj!8b"
+0002f4c4 tj 8t"
+0002f4f7 Rbj!8
+0002f52b R`j!8`"
+0002f570 uj 8
+0002f5e0 uj 8
+0002f628 `"D9
+0002f64b R`j!8`"
+0002f67b Rtj#8t"
+0002f694 tj!8
+0002f6b0 uj 8u"
+0002f6e3 R`j!8`"
+0002fd8b Rbj 8?
+0002fda7 Rbj!8b"
+0002fddb Raj 8a"
+0002fe1b R`j$8`"
+0002fe3c vj!8
+0002fe6b Rbj!8b"
+0002ff0b Raj 8a"
+00030043 TAHa8c
+00030097 Rbj!8b"
+000300cb Raj 8
+00030100 `"D9
+00030123 Rbj 8?
+00030160 `"D9
+00030187 Rbj!8
+000301c3 Rbj 8?
+00030304 uj 8
+00030354 uj 8
+000303cf Rbj!8
+000303ff R`j!8`"
+000304cd "@9?|
+000305f9 j`8@
+000306b9 j!8`
+00030cc1 Yixm
+00031625 Yixl
+00031af3 R%|@
+00031fe5 Ha8a
+000321a8 c<S9
+00032200 chb8
+0003220c @`M9`
+00032257 5`~@
+00032284 B`M9B
+0003229c c`M9
+000322ad jb8_ 
+000322dc Bht8
+00032374 c`M9c
+000324fb T`2C
+00032547 Ta[axc
+00032b15 *@9?
+00032b2d "@9?
+00032b3a @9? 
+00032b79 "@9_
+00032cb8  H`8a
+00032cea Y9Bx
+0003319d J`8a
+0003321d Jz8d
+00033454  H`8a
+0003348d ja8? 
+00033507 9`z4
+00033f43 Ta~}
+0003409c  H`8a
+000341e1 Ha8a
+00034334 b"@9
+00034360 `&@9
+0003438c b"@9_
+000343ba @9?H
+000345a7 4C(@
+000346b1 0@y	
+00034ac5 B@y 
+00034f58 `B@y
+000350fb 7`B@y
+00035287 y DG
+00035350  @@y
+00035367 y@DG
+00035618 `B@y
+00035780 3Hj1
+00035796 ^N^EZP
+000357a0 OVRP version %s
+000357b1 OculusXRPlugin: registering subsystems
+000357d9 XRPreInitProvider registered
+000358b4 libOVRPlugin.so
+000358c4 Failed to load libOVRPlugin.so
+000358e4 ovrp_PreInitialize3
+000358f8 ovrp_GetInitialized
+0003590c ovrp_Initialize5
+0003591d ovrp_Initialize6
+0003592e ovrp_Initialize7
+0003593f ovrp_Shutdown2
+0003594e ovrp_GetVersion2
+0003595f ovrp_SetSystemCpuLevel2
+00035977 ovrp_SetSystemGpuLevel2
+0003598f ovrp_GetSystemHeadsetType2
+000359aa ovrp_GetAudioOutId2
+000359be ovrp_GetAudioInId2
+000359d1 ovrp_WaitToBeginFrame
+000359e7 ovrp_BeginFrame4
+000359f8 ovrp_GetAppShouldQuit2
+00035a0f ovrp_Update3
+00035a1c ovrp_EndFrame4
+00035a2b ovrp_GetNodePoseState3
+00035a42 ovrp_GetControllerState4
+00035a5b ovrp_GetControllerState5
+00035a74 ovrp_GetNodePresent2
+00035a89 ovrp_GetNodePositionTracked2
+00035aa6 ovrp_GetNodeOrientationTracked2
+00035ac6 ovrp_GetNodeOrientationValid
+00035ae3 ovrp_GetNodePositionValid
+00035afd ovrp_RecenterTrackingOrigin2
+00035b1a ovrp_GetAppHasVrFocus2
+00035b31 ovrp_GetAppHasInputFocus
+00035b4a ovrp_GetAppShouldRecenter2
+00035b65 ovrp_GetLocalTrackingSpaceRecenterCount
+00035b8d ovrp_GetUserPresent2
+00035ba2 ovrp_GetSystemProductName2
+00035bbd ovrp_CalculateEyeViewportRect
+00035bdb ovrp_GetAppCpuStartToGpuEndTime2
+00035bfc ovrp_GetSystemDisplayFrequency2
+00035c1c ovrp_GetSystemDisplayAvailableFrequencies
+00035c46 ovrp_SetSystemDisplayFrequency
+00035c65 ovrp_GetSystemBatteryLevel2
+00035c81 ovrp_GetSystemBatteryTemperature2
+00035ca3 ovrp_GetSystemPowerSavingMode2
+00035cc2 ovrp_GetAdaptiveGpuPerformanceScale2
+00035ce7 ovrp_GetSystemGpuLevel2
+00035cff ovrp_GetSystemCpuLevel2
+00035d17 ovrp_IsPerfMetricsSupported
+00035d33 ovrp_GetPerfMetricsFloat
+00035d4c ovrp_GetPerfMetricsInt
+00035d63 ovrp_GetAppPerfStats2
+00035d79 ovrp_SetTrackingOriginType2
+00035d95 ovrp_SetControllerHaptics2
+00035db0 ovrp_SetControllerVibration2
+00035dcd ovrp_GetControllerHapticsDesc2
+00035dec ovrp_GetControllerHapticsState2
+00035e0c ovrp_GetTrackingOriginType2
+00035e28 ovrp_GetBoundaryConfigured2
+00035e44 ovrp_GetBoundaryGeometry3
+00035e5e ovrp_GetBoundaryDimensions2
+00035e7a ovrp_GetBoundaryVisible2
+00035e93 ovrp_SetBoundaryVisible2
+00035eac ovrp_GetDisplayAdapterId2
+00035ec6 ovrp_GetInstanceExtensionsVk
+00035ee3 ovrp_GetDeviceExtensionsVk
+00035efe ovrp_GetNodeFrustum2
+00035f13 ovrp_CalculateLayerDesc
+00035f2b ovrp_SetupLayer
+00035f3b ovrp_CalculateEyeLayerDesc2
+00035f57 ovrp_CalculateEyeLayerDesc3
+00035f73 ovrp_CalculateEyePreviewRect
+00035f90 ovrp_DestroyLayer
+00035fa2 ovrp_GetUserIPD2
+00035fb3 ovrp_GetSystemMultiViewSupported2
+00035fd5 ovrp_GetViewportStencil
+00035fed ovrp_SetupDistortionWindow3
+00036009 ovrp_GetLayerTextureStageCount
+00036028 ovrp_GetLayerTexture2
+0003603e ovrp_GetLayerTextureFoveation
+0003605c ovrp_GetLayerTextureSpaceWarp
+0003607a ovrp_DestroyDistortionWindow2
+00036098 ovrp_SetupDisplayObjects2
+000360b2 ovrp_SetDeveloperModeStrict
+000360ce ovrp_GetPredictedDisplayTime
+000360eb ovrp_GetTiledMultiResSupported
+0003610a ovrp_SetTiledMultiResLevel
+00036125 ovrp_GetTiledMultiResLevel
+00036140 ovrp_SetTiledMultiResDynamic
+0003615d ovrp_GetFoveationEyeTrackedSupported
+00036182 ovrp_GetFoveationEyeTracked
+0003619e ovrp_SetFoveationEyeTracked
+000361ba ovrp_GetFoveationEyeTrackedCenter
+000361dc ovrp_GetEnvironmentDepthSupported
+000361fe ovrp_GetEnvironmentDepthHandRemovalSupported
+0003622b ovrp_InitializeEnvironmentDepth
+0003624b ovrp_DestroyEnvironmentDepth
+00036268 ovrp_GetEnvironmentDepthTextureDesc
+0003628c ovrp_GetEnvironmentDepthTextureStageCount
+000362b6 ovrp_GetEnvironmentDepthTexture
+000362d6 ovrp_SetEnvironmentDepthHandRemoval
+000362fa ovrp_StartEnvironmentDepth
+00036315 ovrp_StopEnvironmentDepth
+0003632f ovrp_GetEnvironmentDepthFrameDesc
+00036351 OculusXRPlugin: Failed to load ovrplugin library
+00036383 OculusXRPlugin: Failed to load symbol %s
+000363ad OculusXRPlugin: Failed to initialize OVRPlugin
+000363dd Success
+000363e5 General Failure
+000363f5 Invalid Parameter
+00036407 Not Initialized
+00036417 Invalid Operation
+00036429 Unsupported
+00036435 Not Yet Implemented
+00036449 Operation Failed
+0003645a Insufficient Size
+0003646c Data Is Invalid
+0003647c Unknown Error
+0003648a Multi Pass
+00036495 Single Pass Instanced
+000364ab Multiview
+000364b5 unknown
+000364bd Linear
+000364c4 Gamma
+000364ca Fixed Foveated Rendering
+000364e3 Eye Tracked Foveated Rendering
+00036502 Fixed Foveated Rendering (New API for URP)
+0003652d Eye Tracked Foveated Rendering (New API for URP)
+0003655e Oculus settings : 
+00036571 	Shared Depth Buffer: %s
+0003658a 	Dash Support: %s
+0003659c 	Requested Stereo Rendering Mode %s
+000365c0 	Color Space: %s
+000365d1 	Low Overhead Mode: %s
+000365e8 	Optimize Buffer Discards: %s
+00036606 	Symmetric Projection: %s
+00036620 	Subsampled Layout: %s
+00036637 	Foveated Rendering Method: %s
+00036656 	Late Latching: %s
+00036669 	Late Latching Debug: %s
+00036682 	Enable TrackingOrigin Stage Mode: %s
+000366a8 	Depth Testing: %s
+000366c3 Error setting CPU level: %s
+000366e0 Error setting GPU level: %s
+000366fd Error determining if we should quit: %s
+00036726 Error getting application input focus value: %s
+00036757 Error getting boundary configured value: %s
+00036784 Error getting boundary dimensions: %s
+000367ab Error getting boundary visibility: %s
+000367d2 Error setting boundary visibility: %s
+000367f9 Error SetDeveloperModeStrict is not supported in the active OVRPlugin library version, please update to 1.52.0+.
+0003686b Error setting developer mode strict: %s
+00036894 Error setting display refresh rate: %s
+000368bc Error getting display refresh rate: %s
+000368e4 Error querying FFR support: %s
+00036904 Error setting FFR level: %s
+00036921 Error getting FFR level: %s
+0003693e Error setting dynamic FFR: %s
+0003695d Error querying Eye Tracked Foveated Rendering support: %s
+00036998 Error querying Eye Tracked Foveated Rendering enabled: %s
+000369d3 Error setting Eye Tracked Foveated Rendering enabled: %s
+00036a0d OculusRuntime.WaitToBeginFrame
+00036a2c ERROR: Attempting to initialize Oculus VR Plugin with Vulkan but no Vulkan instance was found.
+00036a8c OVRPlugin failed to initialize.
+00036aad No audio output device available.
+00036ad0 No audio input device available.
+00036af2 Error: GetLocalTrackingSpaceRecenterCount failed at OculusSystem::Initialize() : %s
+00036b47 Manifest setting for Eye Tracked Foveated Rendering is deprecated. Remove the meta-data entry for com.unity.xr.oculus.EyeTrackedFoveation and enable the feature inside the Oculus XR Plugin instead.
+00036c0d Oculus project settings conflict with manifest settings.  Overriding project settings with manifest settings.
+00036c7b Error: GetLocalTrackingSpaceRecenterCount failed inside GetAppBoundaryUpdate() : %s
+00036cd0 No available audio output device detected.
+00036cfc Audio output source changed.
+00036d1a No available audio input device detected.
+00036d45 Audio input source changed.
+00036d62 ovrPlugin: %s
+00036d71 vector::_M_default_append
+00036d8b com/unity3d/player/UnityPlayer
+00036daa currentActivity
+00036dba Landroid/app/Activity;
+00036dd1 com/unity/oculus/OculusUnity
+00036dee loadLibrary
+00036dfa (Ljava/lang/String;)V
+00036e10 OVRPlugin
+00036e1a <init>
+00036e25 pauseOculus
+00036e31 resumeOculus
+00036e3e destroyOculus
+00036e4c initOculus
+00036e57 getLowOverheadMode
+00036e6e getLateLatching
+00036e7e getLateLatchingDebug
+00036e93 getManifestSetting
+00036ea6 (Ljava/lang/String;)Z
+00036ebc com.unity.xr.oculus.EyeTrackedFoveation
+00036ee4 getIsOnOculusHardware
+00036f01 .eB5
+00036f1a (?ff&?
+00036f54 MbP?
+00036f6c SetEnvironmentDepthHandRemoval entry point not found. Make sure OVRPlugin is up to date.
+00036fc6 GetEnvironmentDepthSupported entry point not found. Make sure OVRPlugin is up to date.
+0003701e GetEnvironmentDepthHandRemovalSupported entry point not found. Make sure OVRPlugin is up to date.
+00037081 Framebuffer
+0003708d Separate
+00037096 Double Wide
+000370a2 Texture Array
+000370b0 Unknown
+000370b8 Unable to CalculateLayerDesc for dummy layer
+000370e6 Unable to SetupLayer for dummy layer
+0003710c The requested texture layout %s unsupported with the Oculus XR Plugin
+00037153 Subsampled Layout is not supported on Quest 1
+00037182 Failed to calculate eye layer desc
+000371a6 Failed to setup eye layer
+000371c1 libEGL.so
+000371cb EGL was not loaded. Attempting to load now.
+000371f8 EGL could not be loaded. Quitting 
+0003721c EGL successfully loaded.
+00037236 eglGetCurrentDisplay
+0003724b eglGetCurrentContext
+00037260 Symmetric Projection is only supported on Quest devices with Vulkan and Multiview.
+000372b4 This device does not support Multiview falling back to Multi Pass
+000372f7 SinglePassInstanced is unsupported on Android falling back to Multi Pass rendering
+0003734b Requested render method is unsupported falling back to Multi Pass
+0003738e Unity will render to eye texture(s) of format: %s
+000373c1 The Oculus eye layer has texture(s) of format: %s
+000373f4 Failed to get line loop data for calculating visible rectangle.
+00037435 Line loop data has no vertices or indices.
+00037461 Failed to get line loop data geometry
+00037488 More than 4 points
+0003749b Failed to get occlusion mesh
+000374b9 Occlusion mesh has no vertices or indices.
+000374e5 Failed to get occlusion mesh geometry
+0003750c Unable to set occlusion mesh.
+0003752b No frames have been queue'd for submission.
+00037558 Unable to submit Oculus frame
+00037577 Rendering directly to eye textures.
+0003759c CreateEyeTextureStages failed.
+000375bc Rendering to intermediate textures.
+000375e1 Failed to create layer
+000375f9 Failed to get layer textures
+00037617 Failed to get spaceWarp layer texture entry point. Make sure you have the latest Oculus Integrations package.
+00037686 Result of a call to ovrp_GetLayerTextureSpaceWarp is %d
+000376be Failed to get spaceWarp layer textures
+000376e6 Oculus Context Setup for GLES: %x %x %x %d
+00037712 Oculus Context Setup for Vulkan: %x
+00037737 Failed oculus context setup. Renderer is unsupported
+0003776d Failed Oculus context setup: %d
+0003778e Initialize environment depth entry point not found. Make sure OVRPlugin is up to date.
+000377e6 Failed to setup environment depth system.
+00037811 Environment depth does not work with multi pass.
+00037843 Failed to obtain texture stage count for environment depth swapchains.
+0003788b Failed to get environment depth texture description.
+000378c1 Failed to get environment depth texture for stage %d
+000378f7 DepthAPI: Creating Environment Depth Texture with Color %d
+00037932 DepthAPI: Creating Environment Depth Texture with Depth %d
+0003796d Error querying foveation center: %s. Disabling Eye tracked foveated rendering and using fixed foveated rendering instead.
+000379e8 Error querying foveation center: %s. Using 0,0 as a fallback.
+00037a27 Error querying foveation center: %s.
+00037a4d Failed to query texture desc %i
+00037a6e Failed to create eye textures.
+00037a8e Failed to create environment depth textures.
+00037abc Failed to start Environment Depth Provider. Error Code: %d
+00037af7 Failed to start environment depth rendering due to resources being unavaiable. Did you call SetupEnvironmentDepth?
+00037b6b Failed to stop Environment Depth Provider. Error Code: %d
+00037ba5 Failed to stop envionmental depth rendering due to resources being unavaiable. Did you call SetupEnvironmentDepth?
+00037c19 No frames have been queue'd for rendering.
+00037c45 Failed to WaitToBeginFrame on display.
+00037c6d Failed to Update on display.
+00037c8b The requested texture layout %s unsupported on the Oculus XR Plugin
+00037cd0 Failed to BeginFrame on display.
+00037cf2 Destroying distortion window
+00037d10 Failed to WaitToBeginFrame on gfx thread stop
+00037d3f Failed to BeginFrame on gfx thread stop
+00037d68 Oculus XR Plugin could not query mirror view blit desc as the eye textures have not been created yet.
+00037dcf Oculus XR Plugin Failed to initialize OVR plugin.
+00037e02 Android view surface created!
+00037e21 Oculus XR Plugin Window  %x
+00037e3e Oculus XR Plugin Display Start
+00037e5e GPUAppLastFrameTime
+00037e72 GPUCompositorLastFrameTime
+00037e8d droppedFrameCount
+00037e9f displayRefreshRate
+00037eb2 motionToPhoton
+00037ec1 Depth Submission is only supported on Vulkan with Multiview.
+00037eff XR ETFR Supported:%d
+00037f15 Oculus XR Plugin Display Stop
+00037f34 Oculus XR Plugin Display Shutdown
+00037f57 batteryTemperature
+00037f6a batteryLevel
+00037f77 powerSavingMode
+00037f87 adaptivePerformanceScale
+00037fa0 cpuLevel
+00037fa9 gpuLevel
+00037fb2 appstats.appqueueahead
+00037fc9 appstats.cpuelapsedtime
+00037fe1 appstats.compositordroppedframes
+00038002 appstats.compositorlatency
+0003801d appstats.compositorcputime
+00038038 appstats.compositorcpustartgpuendelapsedtime
+00038065 appstats.compositorgpuendtovsyncelapsedtime
+00038091 perfmetrics.appcputime
+000380a8 perfmetrics.appgputime
+000380bf perfmetrics.compositorcputime
+000380dd perfmetrics.compositorgputime
+000380fb perfmetrics.gpuutil
+0003810f perfmetrics.cpuutilavg
+00038126 perfmetrics.cpuutilworst
+0003813f perfmetrics.cpuclockfreq
+00038158 perfmetrics.gpuclockfreq
+00038171 Unable to retrieve XR Display Interface.
+0003819b oculus display
+000381aa Unable to register display lifecyle provider: [%i]
+000381de OculusXRPlugin
+00038290 Oculus Touch Controller - Left
+000382af Oculus Touch Controller - Right
+000382cf Oculus Remote
+000382dd Oculus Tracked Remote - Left
+000382fa Oculus Tracked Remote - Right
+00038318 Tracking Reference 0
+0003832d Tracking Reference 1
+00038342 Tracking Reference 2
+00038357 Tracking Reference 3
+0003836c Could not fill input device definition.
+00038395 User Presence
+000383a3 UserPresence
+000383b0 Device
+000383b7 LeftEye
+000383bf RightEye
+000383c8 CenterEye
+000383d2 Joystick
+000383db Primary2DAxis
+000383eb PrimaryButton
+000383fb SecondaryButton
+0003840b X - Touch
+00038415 PrimaryTouch
+00038422 Y - Touch
+0003842c SecondaryTouch
+0003843b Start
+00038441 MenuButton
+00038450 A - Touch
+0003845a B - Touch
+00038464 Oculus Home
+00038470 Trigger
+00038478 Grip
+0003847d Index - Button
+0003848c TriggerButton
+0003849a Grip - Button
+000384a8 GripButton
+000384b3 Index - Touch
+000384c1 IndexTouch
+000384cc Thumb - Touch
+000384da ThumbTouch
+000384e5 Thumbstick - Click
+000384f8 Primary2DAxisClick
+0003850b Thumbstick - Touch
+0003851e Primary2DAxisTouch
+00038531 ThumbRest - Touch
+00038543 Thumbrest
+0003854d Touchpad
+00038556 DPad
+0003855b Back
+00038560 Touchpad - Click
+00038571 Touchpad - Touch
+00038582 Remote Controller
+00038594 TrackingReferenceIsTracked
+000385af TrackingReferenceTrackingState
+000385ce Device - Position
+000385e0 DevicePosition
+000385ef Device - Rotation
+00038601 DeviceRotation
+00038610 Controller type not defined.
+0003862e Controller we are trying to update is not connected.
+00038664 Remote not connected.
+0003867b Remote controller we are trying to update is not connected.
+000386b8 Device does not have haptic capabilities.
+000386e3 Device does not have haptic impulse capabilities.
+00038716 Failed to start controller vibration.
+0003873d Haptic buffer size is invalid. It must be between 0 and %d
+00038779 Failed to stop controller vibration.
+0003879f Failed to refresh controller vibration.
+000387c8 Failed to set haptics buffer state for controller.
+000387fc Oculus Plugin failed to resolve tracking node presence.
+00038835 AngularVelocity
+00038845 AngularAcceleration
+00038859 Failed to Update on input tick before render.
+00038888 There is 1 frame already queued up for rendering. The previous frame must have failed to begin rendering!
+000388f3 Failed to WaitToBeginFrame on input tick dynamic.
+00038926 Failed to Update on input tick dynamic.
+0003894f Oculus Input lifecycle provider registered.
+0003897c Unable to retrieve XR Input Interface.
+000389a4 oculus input
+000389b1 Unable to register input lifecyle provider: [%i]
+000389e3 XR input Oculus failed to initialize OVR plugin.
+00038a15 vector::reserve
+00038a80 St17bad_function_call
+00038aa0 bad_function_call
+00039228 !}#@
+00039268 CLcx
+00039460 not enough space for format expansion (Please submit full bug report at http://gcc.gnu.org/bugs.html):
+000394c7     
+000394d0 %s: __pos (which is %zu) > this->size() (which is %zu)
+00039508 basic_string::basic_string
+00039528 basic_string::_S_create
+00039540 basic_string::_S_construct null not valid
+00039570 basic_string::append
+00039588 basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+000395d0 basic_string::copy
+000395e8 basic_string::substr
+00039600 basic_string::compare
+00039618 basic_string::erase
+00039630 basic_string::_M_replace_aux
+00039650 basic_string::assign
+00039668 basic_string::insert
+00039680 basic_string::resize
+00039698 basic_string::replace
+000396b0 St14error_category
+000396d0 St12system_error
+000396f0 *N12_GLOBAL__N_121system_error_categoryE
+00039720 generic
+00039728 system
+00039730 *N12_GLOBAL__N_122generic_error_categoryE
+00039760 St9bad_alloc
+00039770 std::bad_alloc
+00039780 St8bad_cast
+00039790 std::bad_cast
+000397a0 St10bad_typeid
+000397b0 std::bad_typeid
+000397c0 N10__cxxabiv117__class_type_infoE
+000397f0 N9__gnu_cxx24__concurrence_lock_errorE
+00039820 N9__gnu_cxx26__concurrence_unlock_errorE
+00039850 __gnu_cxx::__concurrence_lock_error
+00039878 __gnu_cxx::__concurrence_unlock_error
+000398a0 St9exception
+000398b0 St13bad_exception
+000398d0 N10__cxxabiv115__forced_unwindE
+000398f0 N10__cxxabiv119__foreign_exceptionE
+00039920 std::exception
+00039930 std::bad_exception
+00039970 N10__cxxabiv123__fundamental_type_infoE
+00039a50 PKDs
+00039a80 PKDi
+00039db0 PKDf
+00039de0 PKDd
+00039e10 PKDe
+00039e40 PKDn
+00039e50 N9__gnu_cxx20recursive_init_errorE
+00039e90 N10__cxxabiv119__pointer_type_infoE
+00039ec0 pure virtual method called
+00039ee0 deleted virtual method called
+00039f00 N10__cxxabiv120__si_class_type_infoE
+00039f30 St9type_info
+00039f40 -+xX0123456789abcdef0123456789ABCDEF
+00039f68 -+xX0123456789abcdefABCDEF
+00039f88 -0123456789
+00039fa8 AKST
+0003a000 St11logic_error
+0003a010 St12length_error
+0003a030 St12out_of_range
+0003a050 St13runtime_error
+0003a070 N10__cxxabiv117__pbase_type_infoE
+0003a0a0 terminate called recursively
+0003a0c0 terminate called after throwing an instance of '
+0003a100 terminate called without an active exception
+0003a130   what():  
+0003a5b0 +CCC++
+0003a5c0 _GLOBAL_
+0003a5d0 (anonymous namespace)
+0003a610 auto
+0003a620 string literal
+0003a638 {default arg#
+0003a650 JArray
+0003a660 vtable for 
+0003a670 VTT for 
+0003a680 construction vtable for 
+0003a6a0 typeinfo for 
+0003a6b0 typeinfo name for 
+0003a6c8 typeinfo fn for 
+0003a6e0 non-virtual thunk to 
+0003a6f8 virtual thunk to 
+0003a710 covariant return thunk to 
+0003a730 java Class for 
+0003a740 guard variable for 
+0003a758 TLS init function for 
+0003a770 TLS wrapper function for 
+0003a790 reference temporary #
+0003a7a8 hidden alias for 
+0003a7c0 transaction clone for 
+0003a7d8 non-transaction clone for 
+0003a7f8 operator
+0003a808 operator 
+0003a838 new 
+0003a858 false
+0003a860 true
+0003a868 java resource 
+0003a878 decltype (
+0003a890 global constructors keyed to 
+0003a8b0 global destructors keyed to 
+0003a8d0 {lambda(
+0003a8e0 {unnamed type#
+0003a8f0  [clone 
+0003a908  restrict
+0003a918  volatile
+0003a928 complex 
+0003a938 imaginary 
+0003a948  __vector(
+0003a958 std::allocator
+0003a968 allocator
+0003a978 std::basic_string
+0003a990 basic_string
+0003a9a0 std::string
+0003a9b0 std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+0003a9f8 std::istream
+0003aa08 std::basic_istream<char, std::char_traits<char> >
+0003aa40 basic_istream
+0003aa50 std::ostream
+0003aa60 std::basic_ostream<char, std::char_traits<char> >
+0003aa98 basic_ostream
+0003aaa8 std::iostream
+0003aab8 std::basic_iostream<char, std::char_traits<char> >
+0003aaf0 basic_iostream
+0003ab48 alignof 
+0003ab68 const_cast
+0003abb8 delete[] 
+0003abd0 dynamic_cast
+0003abf8 delete 
+0003ac98 operator"" 
+0003ad18 new[]
+0003ae00 reinterpret_cast
+0003ae40 static_cast
+0003ae50 sizeof 
+0003ae68 throw
+0003ae78 throw 
+0003ae80 signed char
+0003ae90 bool
+0003ae98 boolean
+0003aea0 char
+0003aea8 byte
+0003aeb0 double
+0003aeb8 long double
+0003aec8 float
+0003aed0 __float128
+0003aee0 unsigned char
+0003aef8 unsigned int
+0003af08 unsigned
+0003af18 long
+0003af20 unsigned long
+0003af30 __int128
+0003af40 unsigned __int128
+0003af58 short
+0003af60 unsigned short
+0003af70 void
+0003af78 wchar_t
+0003af80 long long
+0003af90 unsigned long long
+0003afa8 decimal32
+0003afb8 decimal64
+0003afc8 decimal128
+0003afd8 half
+0003afe0 char16_t
+0003aff0 char32_t
+0003b000 decltype(nullptr)
+0003e3d1 zPLR
+00041d98 Android
+00041da4 r16b
+00041de4 4479499
+000444d8 GCC: (GNU) 4.9.x 20150123 (prerelease)
+000444ff Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+0004453d .init_array
+00044549 .fini_array
+00044555 .text
+0004455b .got
+00044560 .comment
+00044569 .note.android.ident
+0004457d .got.plt
+00044586 .rela.plt
+00044590 .bss
+00044595 .dynstr
+0004459d .eh_frame_hdr
+000445ab .gnu.version_r
+000445ba .data.rel.ro
+000445c7 .rela.dyn
+000445d1 .gnu.version
+000445de .dynsym
+000445e6 .hash
+000445ec .eh_frame
+000445f6 .gcc_except_table
+00044608 .note.gnu.build-id
+0004461b .dynamic
+00044624 .shstrtab
+0004462e .rodata
+00044636 .data

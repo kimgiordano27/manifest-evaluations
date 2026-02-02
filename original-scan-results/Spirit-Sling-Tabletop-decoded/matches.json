@@ -1,0 +1,522 @@
+{
+  "apk": "Spirit-Sling-Tabletop-decoded",
+  "timestamp_utc": "2026-02-02T14:56:04.558200Z",
+  "decoded_path": "C:\\realDesktop\\manifest-evaluations\\decoded-apks\\Spirit-Sling-Tabletop-decoded",
+  "summary": {
+    "so_count": 50,
+    "files_with_term_hits": 6,
+    "total_hits": 96
+  },
+  "matches": [
+    {
+      "so_file": "lib\\arm64-v8a\\libil2cpp.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "012f15d1"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libOculusXRPlugin.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "000359e7"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00035a1c"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0003671e"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0003674a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0003676d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00036799"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000367d8"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0016ee97"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00175dc8"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00178b3a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017e04f"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017e230"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017e247"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017e8f2"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libopenxr_loader.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00008742"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "000087a4"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00009f10"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000a534"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000a55a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000af1c"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000b1df"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000b9d1"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000ba0a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000ba40"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libovravatar2.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0003220b"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00032232"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0003225a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0003227c"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00036fc8"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00037081"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00039147"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00039c14"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0003a99d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0003d8ed"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00070b67"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008071e"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008b2da"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008b47c"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008bef3"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008bf0f"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008bf45"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008bf7a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008bfb8"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008c0cc"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008c1d2"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008c29b"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008c5dd"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008c6c6"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008c889"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008c980"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008cab7"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008caca"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008cbbf"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008cbd2"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008cce8"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008ce0b"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008cf27"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008d02b"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008d402"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008d529"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008d649"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008d751"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008d87b"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008d984"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008db90"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008dc9d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008e061"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008e16e"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008e294"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008e3a1"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008e8fb"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0008ea08"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0009029d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0009039a"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libOVRPlugin.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "eye tracking",
+          "offset_hex": "0008f0a7"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "eye tracking",
+          "offset_hex": "0008f0c9"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00086acc"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00086c91"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00087122"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008dcf0"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008e1ea"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008e20b"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008e805"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008eaa4"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008eb1a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008ef68"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008ef93"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008f521"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008f53f"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0008fba7"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000a14a4"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000a1845"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libunity.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0010518d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0013ef55"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000e635c"
+        }
+      ]
+    }
+  ]
+}

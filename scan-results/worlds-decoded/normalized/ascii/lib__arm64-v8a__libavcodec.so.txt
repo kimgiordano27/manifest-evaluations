@@ -1,0 +1,4496 @@
+00002e69 __cxa_finalize
+00002e78 __cxa_atexit
+00002e85 av_get_cpu_flags
+00002e96 avpriv_ac3_channel_layout_tab
+00002eb4 avpriv_ac3_parse_header
+00002ecc av_mallocz
+00002ed7 av_ac3_parse_header
+00002eeb av_freep
+00002ef4 av_log
+00002efb powf
+00002f00 avpriv_float_dsp_alloc
+00002f17 av_lfg_init
+00002f23 memcpy
+00002f2a abort
+00002f30 memset
+00002f37 av_downmix_info_update_side_data
+00002f58 av_get_channel_layout_nb_channels
+00002f7a av_get_channel_layout_channel_index
+00002f9e avpriv_request_sample
+00002fb4 av_crc_get_table
+00002fc5 av_crc
+00002fcc av_malloc_array
+00002fdc av_lfg_init_from_data
+00002ff2 av_default_item_name
+00003007 lrintf
+0000300e av_adts_header_parse
+00003023 av_codec_iterate
+00003034 pthread_once
+00003041 avcodec_register
+00003052 av_codec_next
+00003060 avcodec_register_all
+00003075 avcodec_find_encoder
+0000308a av_codec_is_encoder
+0000309e avcodec_find_decoder
+000030b3 av_codec_is_decoder
+000030c7 avcodec_find_encoder_by_name
+000030e4 strcmp
+000030eb avcodec_find_decoder_by_name
+00003108 avcodec_dct_get_class
+0000311e avcodec_dct_alloc
+00003130 av_opt_set_defaults
+00003144 avcodec_dct_init
+00003155 avcodec_alloc_context3
+0000316c avcodec_free_context
+00003181 av_fft_init
+0000318d av_fft_permute
+0000319c av_fft_calc
+000031a8 av_fft_end
+000031b3 av_free
+000031bb av_mdct_init
+000031c8 av_malloc
+000031d2 av_imdct_calc
+000031e0 av_imdct_half
+000031ee av_mdct_calc
+000031fb av_mdct_end
+00003207 av_rdft_init
+00003214 av_rdft_calc
+00003221 av_rdft_end
+0000322d av_dct_init
+00003239 av_dct_calc
+00003245 av_dct_end
+00003250 av_init_packet
+0000325f av_new_packet
+0000326d av_buffer_realloc
+0000327f av_shrink_packet
+00003290 av_grow_packet
+0000329f av_buffer_alloc
+000032af av_packet_from_data
+000032c3 av_buffer_default_free
+000032da av_buffer_create
+000032eb av_packet_free_side_data
+00003304 av_free_packet
+00003313 av_buffer_unref
+00003323 av_packet_add_side_data
+0000333b av_realloc
+00003346 av_packet_new_side_data
+0000335e av_packet_get_side_data
+00003376 av_packet_side_data_name
+0000338f av_packet_split_side_data
+000033a9 av_packet_pack_dictionary
+000033c3 strlen
+000033ca av_dict_get
+000033d6 av_packet_unpack_dictionary
+000033f2 av_dict_set
+000033fe av_packet_shrink_side_data
+00003419 av_packet_copy_props
+0000342e av_packet_unref
+0000343e av_packet_alloc
+0000344e av_packet_free
+0000345d av_copy_packet_side_data
+00003476 av_dup_packet
+00003484 av_packet_merge_side_data
+0000349e av_copy_packet
+000034ad av_buffer_ref
+000034bb av_packet_ref
+000034c9 av_packet_clone
+000034d9 av_packet_move_ref
+000034ec av_packet_make_refcounted
+00003506 av_packet_make_writable
+0000351e av_buffer_is_writable
+00003534 av_packet_rescale_ts
+00003549 av_rescale_q
+00003556 avpicture_fill
+00003565 av_image_fill_arrays
+0000357a avpicture_layout
+0000358b av_image_copy_to_buffer
+000035a3 avpicture_get_size
+000035b6 av_image_get_buffer_size
+000035cf avpicture_alloc
+000035df av_image_alloc
+000035ee avpicture_free
+000035fd av_picture_copy
+0000360d av_image_copy
+0000361b av_realloc_f
+00003628 avpriv_align_put_bits
+0000363e avpriv_put_string
+00003650 avpriv_copy_bits
+00003661 av_bitstream_filter_next
+0000367a av_bsf_iterate
+00003689 av_register_bitstream_filter
+000036a6 av_bitstream_filter_init
+000036bf av_bsf_get_by_name
+000036d2 av_bitstream_filter_close
+000036ec av_bsf_free
+000036f8 av_bitstream_filter_filter
+00003713 av_bsf_send_packet
+00003726 av_bsf_receive_packet
+0000373c strstr
+00003743 av_bsf_alloc
+00003750 avcodec_parameters_from_context
+00003770 av_opt_next
+0000377c av_opt_set_from_string
+00003793 av_bsf_init
+0000379f av_bsf_next
+000037ab av_bprint_init
+000037ba av_bprintf
+000037c5 av_bprint_finalize
+000037d8 av_opt_free
+000037e4 avcodec_parameters_free
+000037fc av_bsf_get_class
+0000380d avcodec_parameters_alloc
+00003826 avcodec_descriptor_get
+0000383d avcodec_parameters_copy
+00003855 av_bsf_list_alloc
+00003867 av_bsf_list_free
+00003878 av_bsf_list_append
+0000388b av_dynarray_add_nofree
+000038a2 av_bsf_list_append2
+000038b6 av_opt_set_dict2
+000038c7 av_bsf_list_finalize
+000038dc av_bsf_get_null_filter
+000038f3 av_bsf_list_parse_str
+00003909 av_strdup
+00003913 av_strtok
+0000391d av_dict_parse_string
+00003932 av_dict_free
+0000393f bsearch
+00003947 avcodec_descriptor_next
+0000395f avcodec_descriptor_get_by_name
+0000397e avcodec_get_type
+0000398f av_d3d11va_alloc_context
+000039ac strncmp
+000039b4 av_bprint_clear
+000039c4 strchr
+000039cb strtol
+000039d2 av_mul_q
+000039db av_frame_unref
+000039ea av_samples_copy
+000039fa av_frame_new_side_data
+00003a11 avcodec_decode_subtitle2
+00003a2a avsubtitle_free
+00003a3a avcodec_default_get_format
+00003a55 av_pix_fmt_desc_get
+00003a69 avcodec_get_hw_config
+00003a7f avcodec_get_hw_frames_parameters
+00003aa0 av_hwframe_ctx_alloc
+00003ab5 av_hwframe_ctx_init
+00003ac9 av_hwdevice_get_type_name
+00003ae3 av_get_pix_fmt_name
+00003af7 avcodec_default_get_buffer2
+00003b13 av_hwframe_get_buffer
+00003b29 av_sample_fmt_is_planar
+00003b41 av_buffer_pool_uninit
+00003b57 av_samples_get_buffer_size
+00003b72 av_buffer_pool_init
+00003b86 av_buffer_pool_get
+00003b99 avcodec_align_dimensions2
+00003bb3 av_image_fill_linesizes
+00003bcb av_image_fill_pointers
+00003be2 av_buffer_allocz
+00003bf3 avpriv_set_systematic_pal2
+00003c0e av_mallocz_array
+00003c1f av_image_check_sar
+00003c32 av_image_check_size2
+00003c47 av_pix_fmt_count_planes
+00003c5f av_frame_is_writable
+00003c74 av_frame_alloc
+00003c83 av_frame_move_ref
+00003c95 av_frame_copy
+00003ca3 av_frame_free
+00003cb1 av_get_token
+00003cbe av_realloc_array
+00003ccf avcodec_send_packet
+00003ce3 avcodec_is_open
+00003cf3 avcodec_receive_frame
+00003d09 av_frame_apply_cropping
+00003d21 avcodec_flush_buffers
+00003d37 av_frame_copy_props
+00003d4b avcodec_decode_video2
+00003d61 avcodec_decode_audio4
+00003d77 av_dirac_parse_sequence_header
+00003d96 av_dv_frame_profile
+00003daa av_dv_codec_profile
+00003dbe av_dv_codec_profile2
+00003dd3 av_fast_padded_malloc
+00003de9 avcodec_encode_audio2
+00003dff av_frame_get_side_data
+00003e16 av_frame_get_buffer
+00003e2a av_samples_set_silence
+00003e41 avcodec_encode_video2
+00003e57 avcodec_encode_subtitle
+00003e6f avcodec_send_frame
+00003e82 avcodec_receive_packet
+00003e9d lrint
+00003ea3 av_fast_malloc
+00003eb2 av_samples_fill_arrays
+00003ec9 av_get_bytes_per_sample
+00003ee1 memcmp
+00003ee8 avpriv_report_missing_feature
+00003f06 avcodec_get_chroma_sub_sample
+00003f24 avcodec_get_pix_fmt_loss
+00003f3d av_get_pix_fmt_loss
+00003f51 avcodec_find_best_pix_fmt_of_2
+00003f70 av_find_best_pix_fmt_of_2
+00003f8a avcodec_find_best_pix_fmt2
+00003fa5 avcodec_find_best_pix_fmt_of_list
+00003fc7 av_picture_crop
+00003fd7 av_image_fill_max_pixsteps
+00003ff2 av_picture_pad
+00004001 av_jni_set_java_vm
+00004014 av_jni_get_java_vm
+00004027 av_mediacodec_alloc_context
+00004043 av_mediacodec_default_init
+0000405e av_mediacodec_default_free
+00004079 av_mediacodec_release_buffer
+00004096 av_div_q
+0000409f avpriv_mpa_freq_tab
+000040b3 avpriv_mpa_bitrate_tab
+000040ca cbrt
+000040cf frexp
+000040d5 exp2
+000040da avpriv_mpegaudio_decode_header
+000040f9 memmove
+00004101 av_opt_set_defaults2
+00004116 avcodec_default_execute
+0000412e avcodec_default_execute2
+00004147 av_opt_set
+00004152 avcodec_get_context_defaults3
+00004170 avcodec_close
+0000417e avcodec_copy_context
+00004193 av_opt_copy
+0000419f avcodec_get_class
+000041b1 avcodec_get_frame_class
+000041c9 avcodec_get_subtitle_rect_class
+000041e9 av_parser_next
+000041f8 av_parser_iterate
+0000420a av_register_codec_parser
+00004223 av_parser_init
+00004232 av_parser_parse2
+00004243 av_parser_change
+00004254 av_parser_close
+00004264 av_fast_realloc
+00004274 avpriv_find_start_code
+0000428b pthread_mutex_lock
+0000429e pthread_cond_broadcast
+000042b5 pthread_mutex_unlock
+000042ca pthread_cond_wait
+000042dc pthread_cond_signal
+000042f0 av_reallocp_array
+00004302 pthread_mutex_destroy
+00004318 pthread_cond_destroy
+0000432d pthread_join
+0000433a pthread_mutex_init
+0000434d pthread_cond_init
+0000435f pthread_create
+0000436e av_cpu_count
+0000437b avpriv_slicethread_execute
+00004396 avpriv_slicethread_free
+000043ae avpriv_slicethread_create
+000043c8 av_qsv_alloc_context
+000043dd avpriv_get_raw_pix_fmt_tags
+000043f9 avcodec_pix_fmt_to_codec_tag
+00004416 avpriv_pix_fmt_bps_mov
+0000442d avpriv_pix_fmt_bps_avi
+00004444 av_fast_padded_mallocz
+0000445b avcodec_align_dimensions
+00004474 avcodec_enum_to_chroma_pos
+0000448f avcodec_chroma_pos_to_enum
+000044aa avcodec_fill_audio_frame
+000044c3 avpriv_find_pix_fmt
+000044d7 av_codec_get_pkt_timebase
+000044f1 av_codec_set_pkt_timebase
+0000450b av_codec_get_codec_descriptor
+00004529 av_codec_set_codec_descriptor
+00004547 av_codec_get_lowres
+0000455b av_codec_set_lowres
+0000456f av_codec_get_seek_preroll
+00004589 av_codec_set_seek_preroll
+000045a3 av_codec_get_chroma_intra_matrix
+000045c4 av_codec_set_chroma_intra_matrix
+000045e5 av_codec_get_codec_properties
+00004603 av_codec_get_max_lowres
+0000461b avpriv_codec_get_cap_skip_frame_fill_param
+00004646 avcodec_get_name
+00004657 av_get_codec_tag_string
+0000466f snprintf
+00004678 av_get_profile_name
+0000468c avcodec_profile_name
+000046a1 avcodec_version
+000046b1 avcodec_configuration
+000046c7 avcodec_license
+000046d7 av_get_exact_bits_per_sample
+000046f4 av_get_pcm_codec
+00004705 av_get_bits_per_sample
+0000471c avcodec_string
+0000472b av_get_media_type_string
+00004744 av_log_get_level
+00004755 av_gcd
+0000475c av_strlcat
+00004767 av_get_channel_layout_string
+00004784 av_get_sample_fmt_name
+0000479b av_color_space_name
+000047af av_color_primaries_name
+000047c7 av_color_transfer_name
+000047de av_strlcatf
+000047ea av_fourcc_make_string
+00004800 av_color_range_name
+00004814 av_chroma_location_name
+0000482c av_reduce
+00004836 av_get_colorspace_name
+0000484d av_get_audio_frame_duration
+00004869 av_get_audio_frame_duration2
+00004886 av_xiphlacing
+00004894 av_hwaccel_next
+000048a4 av_register_hwaccel
+000048b8 av_lockmgr_register
+000048cc avpriv_toupper4
+000048dc av_frame_ref
+000048e9 avcodec_open2
+000048f7 av_dict_copy
+00004904 av_opt_set_dict
+00004914 av_match_list
+00004922 av_get_planar_sample_fmt
+0000493b avpriv_bprint_to_extradata
+00004956 av_cpb_properties_alloc
+0000496e avcodec_parameters_to_context
+0000498c av_get_bits_per_pixel
+000049a2 av_codec_ffversion
+000049b5 av_vorbis_parse_frame_flags
+000049d1 av_vorbis_parse_frame
+000049e7 av_vorbis_parse_reset
+000049fd av_vorbis_parse_free
+00004a12 av_vorbis_parse_init
+00004a27 avpriv_split_xiph_headers
+00004a41 atan
+00004a46 ldexp
+00004a4c libavutil.so
+00004a59 libm.so
+00004a61 libc.so
+00004a69 libavcodec.so
+00004a77 LIBAVCODEC_58
+00004a85 LIBC
+00004a8a LIBAVUTIL_56
+00014caf R"MG
+00015295 Hv8a
+000152e7 R!\F
+000154eb xcj!x
+0001581e  xa6@
+00015b92  xa6@
+00016032  xa6@
+000160f3 RB`2
+000162e8 AHa8b
+000163f8 Ehc8$
+00016450 AHa8b
+00016465 h!8!
+00016491 h!8!
+000164b1 h!8!
+000164e1 h!8!
+000165cf T`v@
+00016773 RB`2
+000167a7 Tc(a
+000167eb T`xb
+00016857 T`za
+000168e7 R	@`
+000169f0 `k9x
+00016a15 k9x9
+00016c3b m	@`
+00016dff *Ax x
+00016f2f *Jid8J
+00016f36 !8$ydx
+00017093 RB`2
+000170bd x xch`8
+00017273 5J)j
+00017cbf RB`2
+00017d7b R!HF
+00017f72 D9B|
+000182c3 4`k@
+00018305 hy89
+00018323 Ta7@
+000183c3 RcG@
+000183d7 TbC@
+00018770 Tx@Lvx@L
+0001879a =n1x@L@
+000187f3 LTx@Lvx@L
+0001882f O1x@L
+00018b9c ^q@L
+00018bcd y@L`
+00018c4a !NB 
+00018c92 !Npx
+00018f4a 5.jhm
+00018f52 4.fL@
+0001948b nq#`
+00019524 rbqN
+00019573 nq#`Ork`Oec@Ofk@O
+000195fd c@OgBq
+0001960c rbqN
+00019634 `|@LX
+0001967f nq#`
+0001969a pO1+@O2c@OP
+000196a6 PO%+`Os
+000196bb N&#`OG
+000196c2 POq+`Ork@Oe#`Ofc@Os
+00019729 kYNR+[NSk[N
+000197b5 +`Os
+000197dd c@Os
+000198bc `|@LX
+00019907 nq#`
+00019922 pO1+@O2c@OP
+0001992e PO%+`Os
+00019943 N&#`OG
+0001994a POq+`Ork@Oe#`Ofc@Os
+000199b1 kYNR+[NSk[N
+00019a3d +`Os
+00019a65 c@Os
+00019b5d +!.8+!n7
+00019b73 M9+!.Y+!n8
+00019b8b MZ+!.z+!n9
+00019bb8 `|@L
+00019c07 nq#`
+00019c22 pO1+@O2c@OP
+00019c2e PO%+`Os
+00019c43 N&#`OG
+00019c4a POq+`Ork@Oe#`Ofc@Os
+00019cb1 kYNR+[NSk[N
+00019d3d +`Os
+00019d65 c@Os
+00019e82 %ngx
+00019eb6 %nax
+00019edf T!x@L
+00019ee5 x@L$
+00019f13 k'|@
+00019f43 K`y&x
+00019fcb xh=F
+0001a001 x-x_
+0001a017 T'|@
+0001a021 x-x_
+0001a384 0icx
+0001a390  i#x
+0001a3bb k j#xc
+0001a441 ia8?
+0001a477 xeia8
+0001a49f Tbia8
+0001a6d2 -q!(
+0001a7df TD|C
+0001a858 E@@9"
+0001a86e fx&L
+0001aaad ie8"
+0001aabb 6b|C
+0001aaf0 B @9"
+0001ad5a A9eJ
+0001ad97 T`n@
+0001ade6 A9dZ
+0001af3d 7A9A
+0001afdb 4Z7@
+0001b0a5 ks8?
+0001b0b9 Ha8a
+0001b38f Tc|@
+0001b434 `h"8B
+0001b49f Tah`8
+0001b537 RB`2
+0001b72e @9$G
+0001b8c7 4 |C
+0001bab9 jc8b 
+0001bb06 86!8
+0001bb36 86 |C
+0001bc0f *Gxg
+0001bdac Bha8B
+0001c191 hb8B 
+0001c323 4b|C
+0001c34f Tb|C
+0001c35d hb8B 
+0001c391 hb8B 
+0001c3c5 hb8B 
+0001c3f9 hb8B 
+0001c42d hb8A 
+0001c48a 86`|C
+0001c537 4`|C
+0001c593 4`|C
+0001c5b6 ?6`|C
+0001c5f3 T0 (
+0001c617 4`|C
+0001c72f Rbk%8
+0001c767 Rbk*8
+0001c79f Rbk*8
+0001c7d7 Rbk*8
+0001c80f Rbk*8
+0001c847 Rbk*8
+0001c87f Rak#8
+0001ca23 4!K@
+0001ca2b Q$/@
+0001cb8b T |@
+0001cb9d h`8 
+0001cd2c Iid8d
+0001cd37 kn|C
+0001cd80 Iib8
+0001cdbd Xgx$K
+0001cddf ScXdx#W
+0001ce1c bkd8_
+0001ce2b kbk$8
+0001ce33 Tc|@
+0001ce3c dkc8
+0001ce4b kdk#8
+0001ce53 TB|@
+0001ce5c dkb8
+0001ce6b kdk"8
+0001ce73 Tc|@
+0001ce7c dkc8
+0001ce8b kdk#8
+0001ce93 TB|@
+0001ce9c dkb8
+0001ceab kdk"8
+0001ceb3 Tc|@
+0001cebc dkc8
+0001cecb kdk#8
+0001ced3 TB|@
+0001ced8 ckb8
+0001cee4 ak"8
+0001cf29 hb8c
+0001cf47 Sd|C
+0001cf90 cYcx
+0001cfab Rckd8
+0001cfb8 ck$8
+0001cff7 ScYcx
+0001d013 Rckd8
+0001d020 ck$8
+0001d05f ScYcx
+0001d07b Rckd8
+0001d088 ck$8
+0001d0c7 ScYcx
+0001d0e3 Rckd8
+0001d0f0 ck$8
+0001d12f ScYcx
+0001d14b Rckd8
+0001d158 ck$8
+0001d1ab 4J}@
+0001d1b3 Rdkj8
+0001d1c0 dk*8
+0001d1cf T`|C
+0001d1ff S@X`x
+0001d21b R`kd8
+0001d228 `k$8
+0001d267 4 gH
+0001d31d ha8B
+0001d32c AL86
+0001d33b SD|C
+0001d34f k!4@
+0001d384 bkj8_
+0001d393 kbk*8k 
+0001d3d8 bke8_
+0001d3e7 kbk%8
+0001d3ef TB}C
+0001d42c bkg8_
+0001d43b kbk'8
+0001d477 TJ}@
+0001d480 bkj8_
+0001d48f kbk*8k
+0001d4cb Tk}@
+0001d4d8 bkk8_
+0001d4e7 kbk+8
+0001d523 TJ}@
+0001d52c bkj8_
+0001d53b kbk*8
+0001d577 Tk}@
+0001d580 bkk8_
+0001d58f kbk+8k
+0001d68b kaia8B
+0001d69e 86D|C
+0001d6b7 kaid
+0001d7c3 kaia
+0001d907 Q%|C
+0001d9e3 kAha8
+0001d9f6 8778
+0001dbd3 4 /@
+0001dc0f kbhb8B 
+0001dc43 qaha8
+0001dc73 qaha8
+0001dc9c aha8
+0001de7f kd?H
+0001decf kAha8
+0001e01f 4-K@
+0001e0c7 4(/@
+0001e167 4!,@
+0001e1cb K!#@
+0001e21b 4)/@
+0001e22f R&}@
+0001e23b Q(] 
+0001e252 	K``
+0001e2c3 T'}@
+0001e7d7 k!ia8
+0001eb78  w?7
+0001edc9 Xaxa
+0001ee07 k"hb8
+0001ee18 "#?7
+0001ef2f 4a|C
+0001ef3d ha8! 
+0001ef71 hf8! 
+0001ef9b Ta|C
+0001efa5 ha8! 
+0001efd9 he8! 
+0001f003 Te|C
+0001f037 T%|C
+0001f0d0 Aha8
+0001f1b0 "{87
+0001f22b TG|C
+0001f25f TG|C
+0001f293 TG|C
+0001f2c7 TG|C
+0001f5c9 ks8I
+0001f76b RB :
+0001f78b RB`9
+0001fc95 hj8_
+0001fdfb RB`2
+0001fe3e a8v>
+00020133 RB <
+000202e1 jb8B 
+000204df RB 7
+00020669  @9d
+00020b57 RB@5
+00020d9f TC|@
+00020dbd XdxB
+00020dc5 X$xa
+00020dd2 @ygU
+00020dda @yGU
+00020de6 @yDU
+00020ded $@yg|
+00020e2d  @yB
+00020e45 (@yC
+00020e51 ,@yc
+00020e5d D@yjU
+00020ed5 L@y)
+00020eed X@yc
+00020ef5 \@yc
+00020f05 `@yF
+00020f25 h@yc
+00020f2d p@yc
+00020f3a @ymU
+00020f41 t@yk
+00020f61 x@yh
+00020f85 |@yF	
+00021012 @ymU
+0002102a @yDm
+0002105e @y!|
+00021066 @yf	
+000210f2 AymU
+00021146 Ayf	
+0002119d  Ay%
+000211bc D$@yH(@y
+000211c8 J0@y
+000211cf KG,@y
+000211d8 F4@y
+00021207 RE8@y
+00021223 KB<@y`|
+0002127c ( @y
+00021293 K&(@y"$@y
+000212a0 '0@y
+000212a8 %,@y
+000212af K$4@y
+000212c3 S#8@y
+000212eb S <@yB
+0002138b Tf@ 
+00021635 X#xc
+00021801 hm8BP
+0002181f T,}@
+0002184e "*)}
+000218f3 *)	@y
+00021b03 *)	@
+00021c1b TC@ 
+00021c57 TCi%
+00022407 *b"@
+0002254f RB`2
+00022727 R"h5
+000228b0  H`8a
+00022a6b T_@!
+00022adb Tc|@
+00022c0f RB`2
+00023463 RB`2
+00023b9f RH|}
+00023ba8 Akh8e
+00023bea @yc<
+00023c98 Ak(8
+00023cb8 Dkd8
+00023d3b Sd=H
+00023d59 he8ha
+00023dbf Q h+xB
+00023e5c ehi8hhh8dhd8chl8
+00024167 q5{vx
+00024447 RB`2
+00024473 RB`2
+0002449f RB`2
+000245b7 Tcjh8`
+0002461c ~h~8lhl8rhr8hhh8Cb
+000248f3 qC|}
+0002490b Tdjc8`
+00024963 Sq|X
+0002497d hc8#b
+00024a2c cj(8
+00024c00 dj#8D
+00024ca7 RB`2
+00024ceb RB`2
+00024d77 RB`2
+00024f8b 7`"@
+000257df T@hs
+00025fa8 #xdxc
+00026403 T#|@
+0002659b T@|@
+00026677 R#|@
+00026697 *"`@
+000266ab *" @
+000266bb *"\@
+0002671f R*l@
+00026727 r90@
+00026737 R1P@
+0002675f S<x@
+00026787 r0,@
+000267af R'd@
+000267cf R*8@
+000267e7 S%D@
+000267f7 K$t@
+00026807 r/$@
+0002681f S%X@
+0002684b S/H@
+00026867 K#h@
+00026f43 *W|7
+00026f73 S!|8
+00026fcf re~0
+0002766f rp}*
+000276e7 r1~2
+000284f6 V?&y
+00028a4b T`&@
+00028e37 5 w@
+00028e47 5 w@
+00028e8f 5 O@
+00028ea7 T oC
+00028eb3 T!o@
+00029033 4 S@
+00029067 T S@
+000291a7 4 S@
+0002934b 4 S@
+0002935b T wC
+00029383 K#|`
+00029613 RB`2
+0002969f RB`2
+000296cb RB`2
+0002998f T!4@Q!
+00029a13 RB@&
+00029eab RB@(
+0002a02b RB@,
+0002a0db RB@-
+0002a0f3 RB`3
+0002a2d7 RB`2
+0002a363 T`v@
+0002a407 T`jA
+0002a5cb Tbv@
+0002a5fb RB`2
+0002a743 Tar@
+0002a7bf RB 6
+0002a7e7 RB@7
+0002a80f RB`4
+0002a907 RB@5
+0002a92b RB`2
+0002aab3 5 w@
+0002ab27 T wA
+0002ab3b T {A
+0002ac27 RB`8
+0002acc7 *uRA
+0002accf 5`v@
+0002ad3f RB :
+0002ad57 RB@<
+0002ae3f Kcv@
+0002ae4b Kbz@
+0002ae8e  7bv@
+0002aec7 RB`9
+0002aff3 RB`2
+0002b093 T t@
+0002b16b k t@
+0002b21b RB`2
+0002b59c ?|@j
+0002b6ab 4aN@
+0002b843 4a @
+0002b973 4B|@
+0002ba1b 7Y#@
+0002bb0f RB`2
+0002bcdf RB`2
+0002be3f 4`*@
+0002bf57 T`"@
+0002c183 RB`2
+0002c1ee H6`:A
+0002c20a (6`v@
+0002c42b RB`2
+0002c457 RB`2
+0002c973 y))/
+0002cc97 yJ),
+0002cd17 y`9(
+0002cee3 =(9/
+0002cfc7 y )-
+0002d0f7 \a8%
+0002d2ce  *!|
+0002d2d7 S`8!
+0002d2e4 !k{8 
+0002d2fa  *!|
+0002d303 S@)/
+0002d308 !k;8
+0002d310 Ak{8 
+0002d326  *!|
+0002d334 Ak;8
+0002d33d j{8 
+0002d352  *!|
+0002d35b S )+
+0002d369 j{8 
+0002d37e  *!|
+0002d387 S`9)
+0002d395 k{8 
+0002d3aa  *!|
+0002d3c0 aj{8 
+0002d3d6  *!|
+0002d3e8 aj;8v
+0002d3f5 j{8 
+0002d40a  *!|
+0002d415 j;8{
+0002d527 \a8%
+0002d6ee  *!|
+0002d716  *!|
+0002d728 aj:8
+0002d73e  *!|
+0002d74c aj58
+0002d762  *!|
+0002d76b S )+
+0002d770 aj68
+0002d786  *!|
+0002d78f S`9)
+0002d794 aj88
+0002d7aa  *!|
+0002d7bc aj 8
+0002d7d2  *!|
+0002d7e0 aj;8
+0002d7f6  *!|
+0002d8d9 h0xF
+0002d939 h+x+
+0002d9e5 h0xW~
+0002dc8f Sm|~
+0002dd29 h-xP
+0002de3d h1xB|
+0002e16f k%X$
+0002e177 TB|~
+0002e19b k%X$
+0002e1a3 TB|~
+0002f1a7 y!4F
+0002f1c7 yk|	
+0002f2af yk|	
+0002f387 yk|	
+0002f8c3 yk|	
+0002f9ab yk|	
+0002fc27 yk|	
+0002fd07 yk|	
+00030147 y+|	
+000301b2 	KB|
+000309e7 yk|	
+00030ac7 yk|	
+00030b9f yk|	
+00030f0f y+|	
+00030f7a 	KB|
+00031277 y+|	
+000312e2 	KB|
+0003140b yk|	
+000314eb yk|	
+00031943 y+|	
+000319ae 	KB|
+00032553 yk|	
+0003262f yk|	
+00032707 yk|	
+00033052  yk}
+0003307e (y!|
+00033086  ys"
+000332ca <y)}
+000332d6 8y!|
+000332ee <yc|
+000333aa <yJ}
+000333e6 0ys"
+0003353e 	K!|
+00033aba ,yR~
+00033aca ,y1~
+00033ae2  yJ}
+00033aea (y)}
+00033b16  ys"
+00033c0f y+|	
+00033d5a <y)}
+00033d66 8y!|
+00033d7e <yc|
+00033e3a 0yk}
+00033e56 4yB|
+00033e76 0ys"
+00033fce 	K!|
+00034213 yk|	
+000342eb yL|	
+000346d2 	K!|
+00034973 yk|	
+00034a4b yk|	
+00034e32 	K!|
+0003519a 	K!|
+000355fb Ta"@
+00035b4a 	K!|
+00035d4b Tv"@
+000360db TxB@
+00036117 yej@
+000361c3 yff@
+00037a57 Ta"@
+00037ddf TwB@
+000382ce 	K-h&
+00038359 xfxTP
+00038367 rR>z
+00038377 k8hr
+00038653 KDi-
+00038693 K$i-
+000386ab KCi,
+000386d3 K"i+
+0003876f k%X$
+00038777 TB|}
+0003879b k%X$
+000387a3 TB|}
+00038837 QB8!
+00038ee7 k%X$
+00038eef TB|}
+00038f13 k%X$
+00038f1b TB|}
+000455d1 DCk!!
+000456f9 if8$
+00045757 T`|C
+000458ef T`|C
+00045bc7 RB`$
+00045d53 ZU@U*
+00045deb RB`&
+00045ee3 *a~C
+00045feb RB@,
+000462cb RB`*
+00046557 T`_@
+000466bb RB@1
+00046703 RB@2
+000467a3 k@h`8
+000467b4  x87
+000467df kAh`8
+0004683f KCha
+00046890 Aha8@
+0004689c !887c
+000468cb 5`S@
+00046903 4`S@
+0004696f TaK@
+000469c7 5aS@
+00046c8b SAho
+00046cdf kAha
+00046dcf Tjo@
+00046e1f TdS@
+00046e83 T&|@
+00046ebf kk,"
+0004706b SAhn
+000470bf Tfk@
+000470eb ruS@
+0004716b SAhm
+00047297 QJha
+0004732b QAha
+000473f9 Xxxf
+00047413 RB@-
+00047463 kAha
+0004766f RB 7
+00047717 RB 6
+000477d3 RB`5
+0004785b RB .
+000478b7 T#x`
+0004791c Fh x!
+000479f3 T'xf
+00047a1b Th|@
+00047a33 S&E&
+00047a57 qFhh
+00047a9c cXfxf
+00047f78  Ycxj
+000482e9 h'x,
+00048335 x"xB
+0004837d x"xB
+000483c9 x"xB
+0004840f T#x`
+00048527 T)xf
+0004854f Th|@
+000485b3 *"xh
+000485f1 Ylxo
+000486b3 *_}`
+000486df *# @
+00048720 cXfxf
+000487fb *_}`
+00048827 *&$@
+000488a3 *_}`
+00048977 *_}`
+00048a6b *_}`
+00048b6f *_}`
+00048ceb *_}`
+00049047 R1~`
+000491f7 T%xc
+00049323 SN|~
+000493eb TB|~
+0004943b QH|~
+00049463 T'xd
+000494a7 T#xd
+000494d7 T$hc
+000499b6 !*B|
+000499e6 !*B|
+00049ab4 dja8@ 
+00049ad3 S`j!8d
+00049ada @9@$
+00049afe @9@(
+00049b22 @9@,
+00049b48 eha8D@
+00049b67 Sdh!8
+00049b6e @9CD
+00049b82 #*c|
+00049b92 @9CH
+00049ba6 #*c|
+00049bb6 @9CL
+00049bca #*c|
+00049bdd ha8C`
+00049c06 @9@d
+00049c1e  *!|
+00049c2e @9@h
+00049c46  *!|
+00049c56 @9@l
+00049c6e  *!|
+00049caf y!|@
+00049d3b S`j!8@$
+00049db1 h!8@D
+00049e27 Sdh!8@d
+00049e3e  *!|
+00049e5e  *!|
+00049e7e  *!|
+00049f0c cja8@ 
+00049f26  *c|
+00049f2f Scj!8
+00049f36 @9@$
+00049f4e  *!|
+00049f8f y!|@
+00049fde  *c|
+00049fe7 Scj!8@$
+00049ffe  *!|
+0004a03d $@9 
+0004a044 `(@9@
+0004a067 RB`2
+0004a1a0 y*@9w&@9
+0004a23c `"@9`
+0004a403 Q`@@
+0004a4d9  @9`
+0004a617 k#xt
+0004a7c9 #B95
+0004ae17 xc|	
+0004b0e7 xc|	
+0004b992 	K"*
+0004be0a 	KkI
+0004cb2b xGiaxEx
+0004cb49 j'xEx
+0004cb8b Te~@
+0004cc6f Tc|@
+0004cca4 "x#x
+0004cd33 Qk}@
+0004cdc1 k1xQk
+0004d01c qj9x
+0004d061 j`xa
+0004d088 cj:x
+0004d243 Tg~@
+0004d33b Tc|@
+0004d447 KC{a
+0004d471 yaxc| 
+0004d4ab KB|#
+0004d4eb Krza
+0004d6e3 Ta~@
+0004d7c7 Tc|@
+0004d7ff k"x#
+0004d8c4 Oy`xDxe
+0004d8cd y`x!@!
+0004dc93 Q@||
+0004dd23 TE|@
+0004defb RB`2
+0004dfcf T`|}
+0004e043 R"D@
+0004e073 4#|}
+0004e093 T%|}
+0004e1e7 RB`2
+0004e2db Q@||
+0004e77b R'$@
+0004e7bb R!|-
+0004e962 @9CcD
+0004e9a3 RCcD
+0004e9b7 R`|C
+0004e9e4  i%8
+0004ea47 R`|C
+0004eac2 D9HC
+0004eb2b 4 hk8
+0004eb47 TMcD
+0004ec0b TMcD
+0004f3e7 Kfxa
+0004f483 TE|@
+0004f6ca 	k@i`
+0004f856 	k@i`
+0004f8f0 !i`8
+0004f8f7 4CcD
+0004f96b 4AcD
+0004f987 k i`
+0004f9ab 4AcD
+0004f9c7 k i`
+0004fa96 	KB 
+0004faf3 *$xI
+0004fafb *#|I
+0004fb68 %P@9
+0004fb90 $T@9
+0004fc28 $T@9
+000500df ke+B
+000501b3 kAhf
+00050213 Ta'@
+0005022b kDhd
+00050257 kChc8c 
+000502a7 4a|C
+000502b7 kAha8! 
+00050453 kChc8c 
+000504c7 5bcD
+000504db Ke+B
+000504eb k`CD
+0005065f Tb;B
+000507b5 xcx 
+000507bd x`xc|
+000507e3 kDhd
+00050813 kChc8!
+0005083d F@9`
+000509b3 T`|C
+00050b49 ha8G@@9
+00050bd3 RDid
+00050bfd 1,9m
+00050c35 1,9+
+00050c6c d1,9k
+00050ca4 d1,9
+00050cd1 1,9l
+00050cdb Tm}C
+00050d41 2,9l
+00050d6d 2@9'
+00050db4 `k`8
+00050de7 Qc|@
+00050e0b Tk}@
+00050e9c mic8
+00050eef TdGD
+00050eff RsgD
+00050f40 Aha8q
+00050fdb TdcD
+00051044 aB 6*|
+00051067 kfhf8
+000510b8 bhg8
+000511a3 5`;B
+000511e7 KkkD
+0005132b KB|~
+00051397 *bgD
+000513cf KykD
+000515a2 	K)u
+000517b3 TacD
+0005180f KbkD
+0005189f T	|C
+000518b8 ihi8
+0005196c `hg8B
+000519f0 fhf8	
+00051a77 k`hd8
+00051b5b kjhj
+00051b7b Rahg
+00051bcb kghg
+00051ccf TJ}@
+00051d55 V@9!
+00051d8c kha8
+00051db0 +0,9
+00051dc0 dhd8J
+00051dc8 $1,9!|@
+00051dd7 qlhl8)
+00051de0 l1,9d
+00051de8 bhb8B1,9aha8!1,9
+00051e08 ahd8
+00051e33 Ta#@
+00051eb8 &kt8K
+00051ef8 &kt8
+00051f07 4c~@
+00052053 k`kD
+000520a7 QlcD
+000520c7 T`#@
+000520cf 6`'@
+0005214f Rs28
+000521db T`#@
+00052207 K!|#
+0005224f 4`#@
+0005227f Q#7,
+000522a3 **|C
+000522db 4b~@
+0005237c _0,9?0,9
+00052385 2,9o
+00052417 Q 3,
+000525b0 #h`8`
+00052601 0x9_
+0005260b Ta	 
+0005261f 4 ya
+00052673 RMya
+0005268b KB|,
+000528e1  Ak`"
+00052adf 7b~@
+00052cdb RB  
+00052e13 RB@"
+00052ea7 *`|C
+00052ebb k@h`
+00053065 hg8 
+000530af SCi'8
+00053159 hv8@
+00053172 axa|C
+0005340b k@h`
+000534f3 RB 7
+0005351b RB`2
+00053559 <@q@
+00053630 "ybx
+00053637 R!$I
+00053ed7 S	.@
+00053edf Ss~:
+00054017 K-~-
+0005403f KK!@
+00054097 Ra~+
+000540cb *Kq@
+000540d3 Rc|8
+0005421a 	Khs@
+0005424f KB|$
+000542ab re} 
+000542c3 SKA@
+000543af k@-@
+00054a5b 5F<@
+000550cb ?D)_?
+000551ff 5sF@
+000552b3 RB`2
+000557f3 RB`2
+00056047 4`V@
+000560c3 5a>A
+00056197 RB`2
+000561db 7 P@
+000561ef 4`.@
+00056347 Tb"@
+00056583 RB`2
+0005663a `6bN@
+0005664b TaR@
+00056833 k/|A
+00056be3 TA{A
+00056e3b TA|@
+00057013 RB`2
+000574eb RB`2
+0005755b R!|@
+000575bf 5A_@
+0005769b 4`~@
+000577c3 RB`2
+00057b37 R!|@
+00057baf TazA
+00057c3b RB`2
+00057c87 RB@@
+00057f5b RB` 
+00057fe6 x7`b
+00058293 R`*@
+000585af 5tF@
+0005862b T`*@
+000587b3 RB`2
+00058dcf rji;8
+00058e10 ji<8
+00058e33 Kji78
+00058e4a &*!|
+00058e56 	Kai:8)}
+00058e7b Kdi88
+00058e92 (*c|
+00058e9f Kci98
+00058ebf Sei68k
+000591cc Kir8
+000591e6 )*k}
+000591ef SKi28)
+000591fa @9iQ
+0005920e )*k}
+00059220 Kiu8iQ
+00059236 )*k}
+0005923f SKi58	
+00059248 Kin8iQ
+0005925e )*k}
+00059267 SKi.8
+0005926f KGit8
+0005928f SGi48c
+00059297 K@io8
+000592b7 S@i/8!
+000592bf K@is8
+000592df S@i38
+000592e7 K@im8
+00059307 SDi-8J
+0005995d i:xJ}
+0005996e **J}
+0005999d i0xJ}
+000599ae **J}
+000599bd y0xc|
+000599ce #*c|
+000599fd i9xc|
+00059a0e #*c|
+00059d4e **J}
+00059d72 **J}
+00059d96 **J}
+00059da1 i.xj
+00059dba **J}
+00059dc5 y.xc
+00059dcd ivxCM
+00059dde #*c|
+00059df1 iqxeL
+00059e15 iuxdL
+00059e39 iaxgL
+0005a08b yT|	
+0005a4ad i9xJ}
+0005a4be **J}
+0005a4ed i/xJ}
+0005a4fe **J}
+0005a50d y/xc|
+0005a51e #*c|
+0005a54d i8xc|
+0005a55e #*c|
+0005a8b2 **J}
+0005a8d6 **J}
+0005a8fa **J}
+0005a905 i.xj
+0005a91e **J}
+0005a929 y.xc
+0005a931 iuxCE
+0005a942 #*c|
+0005a955 ipxeD
+0005a979 itxdD
+0005a99d iaxgD
+0005af23 SN @
+0005afe5 i:xJ}
+0005aff6 **J}
+0005b025 i0xJ}
+0005b036 **J}
+0005b045 y0xc|
+0005b056 #*c|
+0005b085 i9xc|
+0005b096 #*c|
+0005b123 RO$@yyT
+0005b12b RQ(@yXT
+0005b134 F @y
+0005b144 G0@yo
+0005b14b KR4@y
+0005b153 KC,@y
+0005b183 KC8@yG
+0005b198 R<@y
+0005b1bf RK@@y
+0005b1d3 yE`@yH
+0005b1e0 HD@yk
+0005b1eb yEh@yCd@yF
+0005b1f7 yFH@yu
+0005b20c JP@y
+0005b213 KCl@yEp@yG<
+0005b21f yGL@yFT@y|
+0005b23c IX@yCt@y
+0005b24b KEx@yp
+0005b254 J\@y
+0005b264 C|@y%
+0005b276 @yM,
+0005b296 	KHd
+0005b2a6 @yFt
+0005b2e6 @yEx
+0005b2f2 @y[h
+0005b346 @yNX
+0005b686 "*c|
+0005b6aa %*B|
+0005b73d h!8B|
+0005b752 "*c|
+0005b77a %*B|
+0005b8e1 hh8cD
+0005b905 hk8eD
+0005b91a %*c|
+0005bce2 	KUL
+0005becf yh~	
+0005c015 h!8B
+0005c01d hz8bR
+0005c032 "*s~
+0005c045 hk8FP
+0005c05a &*B|
+0005c06d h|8EP
+0005c082 %*B|
+0005c095 hp8HP
+0005c32b r)A@
+0005c351 ha8dD
+0005c36d h!82
+0005c378 &ka8
+0005c397 S6k!8
+0005c39f Kdha8
+0005c3b2 **J}
+0005c3bb Sjh!8
+0005c41e #*c|
+0005c439 hi8CE
+0005c44a #*c|
+0005c461 ha8cD
+0005c472 #*c|
+0005c485 ha8cD
+0005c496 #*c|
+0005c502 #*c|
+0005c51d hi8CE
+0005c52e #*c|
+0005c545 ha8cD
+0005c556 #*c|
+0005c569 ha8cD
+0005c57a #*c|
+0005c5ae @9B|
+0005c5d3 rc@@
+0005c5ea %*B|
+0005c625 h(8c
+0005c631 ha8BD
+0005c659 ha8BD
+0005c6b4 #hbx
+0005c6b9 hbxc|
+0005c6c1 h"xB
+0005c8aa @y#`
+0005c94f 4uT	
+0005cab3 RB`2
+0005cb8f RB`2
+0005cdb5 (@9%
+0005cea5 Hd8e
+0005d16b *br@
+0005d1d3 7a2@
+0005d2e2  6A#@9
+0005d313 KB'@9X+@9
+0005d343 T@+@
+0005d360 ax x
+0005d383 TA#@9
+0005d3ff RB`2
+0005d453 Qy~@
+0005da89 @@q#
+0005db99 D@Q?D
+0005dbb0 AHa8b
+0005dcf0  X`xa
+0005dd3f Tyf@
+0005dd87 4`N@
+0005dd8d )H7 1P7`
+0005dda8  X`xa
+0005de7f TcfC
+0005df57 5`~A
+0005df6f TazA
+0005e097 Tc~@
+0005e0ab T`z@
+0005e227 TcfA
+0005e42b TazA
+0005e719 N@q 
+0005e9a3 TsV@Q
+0005e9b7 T!|}
+0005e9fc @X`xb
+0005eaa7 r | 
+0005ead7 r | 
+0005eeeb *Ut@
+0005f079 N@q 
+0005f303 TsV@Q
+0005f317 T!|}
+0005f35c @X`xb
+0005f407 r | 
+0005f437 r | 
+0005f9d7 RB`2
+0005fa4f Rab@
+0005fb9b Tc~@
+0005fbaf 4`v@
+0005fbb7 4`z@
+0005fbf7 7c~@
+0005fc07 5xv@
+0005fc0f 5`z@
+0005fc6b RB +
+0005fe4f 7`v@
+0005fe6f 7`v@
+0005fe7b Taz@
+0005fe87 Tbv@
+0005fec7 4bz@
+00060074 # A9`
+00060093 5aN@
+00060163 RB@.
+00060171  A9`
+00060193 T`j@
+0006024b T`nC
+00060257 Tbn@
+000602bf RB`2
+000602df 4`j@
+0006032f RB`-
+000603f3 RB@/
+000604fb 7! @
+0006052f RB`2
+0006058f 4df@
+000606b7 RB 5
+000606d3 T`z@
+0006071f RB@4
+00060757 RB`6
+000608c3 7 L@
+000608f7 7`N@
+00060aa3 RB`2
+00061185 h58 
+000611b7 9"|"
+000612db Kk|@
+00061327 k.}F
+00061347 Kf|@
+0006137b +(}F
+00061422 !*-}F
+0006148f S)}F
+00061599 hj8G
+0006161f T%x*
+000616e2 @y$@
+000616f8 'hgx
+0006172c 'hgx
+000617cc &hfx(hhx
+000618c7 4u[cxXkbx
+000619f3 4C$A
+00061b53 5`v@9
+00061b5b 6`r@9
+00061b77 q`r@9
+00061bd0 $h`8
+00061bd5 j38s
+00061c11 h`8?
+00061c2b K |C
+00061e19 ha8! 
+000621c0 vhs8
+000621d7 Rd|C
+00062270  h`8
+00062280 Dh`8"
+0006239f K@X`
+000624a3 Td@ 
+00062506 @9  
+000625e3 Rd@ 
+0006267c +HE9
+000626cb Qd|C
+00062736 @9c<
+0006285f 7WY'x
+0006288b 6_Y'x
+00062907 k0Y2
+00062942 @yj>}
+0006294d YsxD>}
+0006297e @yc|
+000629be $*c|
+00062b6e **c|
+00062b80 $HE9
+00062f29 hi8e
+00062f4e D9@|B
+00063047 RB` 
+000630ff kaha
+0006312b kaha
+00063157 kaha
+00063183 kaha
+000631af kaha
+000631db kaha
+0006332b T@|C
+0006335b 4b|C
+00063385 j!8!
+0006339b *`|C
+000635c1 h"8?
+0006379a ByAia
+00063893 = 	 
+00063a2b RB )
+00063a43 5`|C
+00063ab7 Ta|C
+00063acd ha8j
+00063b3f 4b|C
+00063c2b k"|C
+00063d7f K	@b
+00063d8b 4 |C
+00063db5 {"xB
+00063e09 [kx!
+00063e2d J*8J
+00063e81 [kx!
+00063f4a E9Ah
+00063f73 R*|C
+00063faf Skh3xFa
+00064047 T#|C
+000640cc `B@9@
+00064157 SeB@9!
+00064160 Ai$8
+0006419f R@if8
+000641eb ycB@9
+00064257 6#|C
+0006428b TcJP9C
+000642ab 6#|C
+000642df TcJP9
+00064303 6#|C
+00064337 TcJP9
+0006435a '6#|C
+0006438f TcJP9
+000643b2 /6#|C
+000643e7 TcJP9
+0006440a 76#|C
+0006443f TcJP9
+00064467 4#|C
+0006449b T`JP9
+000645c7 k@i`
+0006461b kaia
+00064653 kcic
+0006468f kcic
+00064aa9 C@9!
+00064b35 C@9`M
+00064b97 R`|C
+00064bd1 i!x`
+00064cc3 R&|C
+00064d04 aha8@
+00064d27 kaha
+00064d5b kaha8
+00064d7f kaha
+00064dff k@i`
+00064e67 *aha
+00064e91 h%8B
+00064f03 RB`;
+000650f7 RB@$
+0006516b k`h`
+00065199 BF9a	
+000651dd hb8!
+000651f1 h#8C
+000652bb RB@<
+000652e3 kaha8
+00065323 RB@'
+00065423 RB`/
+000654cf RB .
+000655bb RB 4
+00065603 @33*@
+000658ab Se|}
+000658c0 !he8
+00065af0 Ghd8
+00065afd hb8@
+00065b8c Dh`8
+00065ba9 h 8c
+00065bfb 4Qhax?
+00065c3c aha8
+00065c4d *HyiL
+00065ce3 *-h`8G
+00065d77 * |@
+00065d99 h#8B
+00065e40 Jh`8
+00065e4f S3(@
+00065ed3 4@[c
+00065f8d jg8`
+00065f95 F@9`
+0006600d JP9!
+00066058 ch`8
+00066111 h`8!h`8
+0006627b *zw~
+00066301 hw8?
+000665ab RB`2
+00066629 hj8?
+000666c4 *h`8G
+0006675b * |@
+0006677d h#8B
+00066820 Jh`8
+0006682f S3(@
+00066971 jg8`
+00066979 F@9`
+000669f1 JP9!
+00066b7d *Hy!|
+00066b84 @h`8
+00066c41 F@9i
+00066cdb *C|@
+00066ce3 Q |@
+00066d05 h#8B
+00066d78 Jh`8
+00066d8b S8(@
+00066e4f kA[b
+000670cb k Y`
+00067107 k@[j
+0006713b T |C
+0006721b k!Yg
+00067243 k!Yg
+00067325 F@9`
+00067391 JP9!
+00067593 RB@>
+00067647 RB`=
+00067713 T8  
+00067857 TE|@
+00067968    !!!"""######$$$$$$%%%%%%&&&&&&''''''(((((())))))))))))************++++++++++++,,,,,,,,,,,,------------------------........................////////////////////////000000000000000000000000111111111111111111111111
+00067a5e "%(+.17=CIOUamy
+00067be9 bJ@_`4@
+00067bf2  @,G
+00067c1d ;5?f
+00067c70 bap %d is invalid in plain AC-3
+00067c98 Assertion %s failed at %s:%d
+00067cb8 band_struct_size >= start_subband + n_subbands
+00067ce8 libavcodec/ac3dec.c
+00067d00 E-AC-3 support not compiled in
+00067d20 frame sync error
+00067d38 invalid bitstream id
+00067d50 invalid sample rate
+00067d68 invalid frame size
+00067d80 unsupported substream %d: skipping frame
+00067db0 invalid frame type
+00067dc8 incomplete frame
+00067de0 frame CRC mismatch
+00067df8 Ignoring dependent frame without independent frame.
+00067e30 unable to determine channel mode
+00067e58 invalid spectral extension range (%d >= %d)
+00067e88 invalid spectral extension copy start bin (%d >= %d)
+00067ec0 coupling not allowed in mono or dual-mono
+00067ef0 Enhanced coupling
+00067f08 invalid coupling range (%d >= %d)
+00067f30 new coupling strategy must be present in block 0
+00067f68 new coupling coordinates must be present in block 0
+00067fa0 Warning: new rematrixing strategy not present in block 0
+00067fe0 bandwidth code = %d > 60
+00068000 expacc %d is out-of-range
+00068020 exponent %d is out-of-range
+00068040 new bit allocation info must be present in block 0
+00068078 new snr offsets must be present in block 0
+000680a8 new coupling leak info must be present in block 0
+000680e0 delta bit allocation strategy reserved
+00068108 error in bit allocation
+00068128 error decoding the audio block
+00068148 Ignoring non-compatible dependent frame.
+00068178 Too many channels (%d) coded
+00068198 ch>=8 || frame->extended_data[ch] == frame->data[ch]
+000681d0 error setting downmix coeffs
+000681f8 ATSC A/52A (AC-3)
+00068210 AC3 decoder
+00068220 cons_noisegen
+00068230 enable consistent noise generation
+00068258 drc_scale
+00068268 percentage of dynamic range compression to apply
+000682a0 heavy_compr
+000682b0 enable heavy dynamic range compression
+000682d8 target_level
+000682e8 target level in -dBFS (0 not applied)
+00068310 dmix_mode
+00068320 Preferred Stereo Downmix Mode
+00068340 ltrt_cmixlev
+00068350 Lt/Rt Center Mix Level
+00068368 ltrt_surmixlev
+00068378 Lt/Rt Surround Mix Level
+00068398 loro_cmixlev
+000683a8 Lo/Ro Center Mix Level
+000683c0 loro_surmixlev
+000683d0 Lo/Ro Surround Mix Level
+00068550 ?Sg{
+0006857b 				
+000686d0 @?>=<;:98765443210//.-,,+*))('&&%$$##"!!  
+00068735 					
+00068889 %2&U'{(
+00068895 ,2-g.
+000688ad :/<w=
+000688bb C)EpF
+000688cb N?OzP
+000688d5 TMU{V
+000688e1 [/\H]]^n_{`
+000688f3 d{emf[gCh'i
+0006892d x	yny
+00068939 z({u{
+00068949 |.}a}
+00068955 ~6~Y~z~
+00068bf0 AVDCT
+00068c00 DCT algorithm
+00068c10 auto
+00068c18 autoselect a good one
+00068c30 fastint
+00068c38 fast integer (experimental / for debugging)
+00068c70 accurate integer
+00068c90 experimental / for debugging
+00068cb0 altivec
+00068cb8 faan
+00068cc0 floating point AAN DCT (experimental / for debugging)
+00068cf8 idct
+00068d00 select IDCT implementation
+00068d20 simple
+00068d28 simplemmx
+00068d40 simplearm
+00068d50 simplearmv5te
+00068d60 simplearmv6
+00068d70 simpleneon
+00068d80 xvid
+00068d88 xvidmmx
+00068d90 faani
+00068d98 floating point AAN IDCT (experimental / for debugging)
+00068dd0 simpleauto
+00068de0 bits_per_sample
+00068dff $-*'0
+00068e07 3(unsigned)pkt->size <= 2147483647 - 64
+00068e30 libavcodec/avpacket.c
+00068e48 Palette
+00068e50 New Extradata
+00068e60 Param Change
+00068e70 H263 MB Info
+00068e80 Replay Gain
+00068e90 Display Matrix
+00068ea0 Stereo 3D
+00068eb0 Audio Service Type
+00068ec8 Skip Samples
+00068ed8 JP Dual Mono
+00068ee8 Strings Metadata
+00068f00 Subtitle Position
+00068f18 Matroska BlockAdditional
+00068f38 WebVTT ID
+00068f48 WebVTT Settings
+00068f58 Metadata Update
+00068f68 MPEGTS Stream ID
+00068f80 Mastering display metadata
+00068fa0 Content light level metadata
+00068fc0 Spherical Mapping
+00068fd8 A53 Closed Captions
+00068ff0 size<=2147483647 - 5 && p - pkt->data >= size
+00069020 p-pkt->data == pkt->size
+00069070 incorrect codes
+00069088 Internal error, put_bits buffer too small
+000690b8 length <= put_bits_left(pb)
+000690d8 libavcodec/bitstream.c
+000690f0 s->buf_ptr < s->buf_end
+00069108 libavcodec/put_bits.h
+00069120 n <= s->buf_end - s->buf_ptr
+00069140 nb_codes + 1 <= (sizeof(localbuf) / sizeof((localbuf)[0]))
+00069180 symbols_size <= 2 || !symbols
+000691a0 Too long VLC (%d) in init_vlc
+000691c0 Invalid code %x for %d in init_vlc
+000691e8 needed %d had %d
+00069200 ret >= 0
+00069220 private_spspps_buf
+00069248 null
+00069250 bsf_list(
+00069260 unknown
+00069268 Codec '%s' (%d) is not supported by the bitstream filter '%s'. Supported codecs are: 
+000692c0 %s (%d) 
+000692d0 A non-NULL packet sent after an EOF.
+00069300 bsf_list
+00069310 AVBSFContext
+00069320 mpeg1video
+00069330 MPEG-1 video
+00069340 mpeg2video
+00069350 MPEG-2 video
+00069360 h261
+00069368 H.261
+00069370 h263
+00069378 H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2
+000693b8 rv10
+000693c0 RealVideo 1.0
+000693d0 rv20
+000693d8 RealVideo 2.0
+000693e8 mjpeg
+000693f0 Motion JPEG
+00069400 mjpegb
+00069408 Apple MJPEG-B
+00069418 ljpeg
+00069420 Lossless JPEG
+00069430 sp5x
+00069438 Sunplus JPEG (SP5X)
+00069450 jpegls
+00069458 JPEG-LS
+00069460 mpeg4
+00069468 MPEG-4 part 2
+00069478 rawvideo
+00069488 raw video
+00069498 msmpeg4v1
+000694a8 MPEG-4 part 2 Microsoft variant version 1
+000694d8 msmpeg4v2
+000694e8 MPEG-4 part 2 Microsoft variant version 2
+00069518 msmpeg4v3
+00069528 MPEG-4 part 2 Microsoft variant version 3
+00069558 wmv1
+00069560 Windows Media Video 7
+00069578 wmv2
+00069580 Windows Media Video 8
+00069598 h263p
+000695a0 H.263+ / H.263-1998 / H.263 version 2
+000695c8 h263i
+000695d0 Intel H.263
+000695e0 flv1
+000695e8 FLV / Sorenson Spark / Sorenson H.263 (Flash Video)
+00069620 svq1
+00069628 Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1
+00069660 svq3
+00069668 Sorenson Vector Quantizer 3 / Sorenson Video 3 / SVQ3
+000696a0 dvvideo
+000696a8 DV (Digital Video)
+000696c0 huffyuv
+000696c8 HuffYUV
+000696d0 cyuv
+000696d8 Creative YUV (CYUV)
+000696f0 h264
+000696f8 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+00069728 indeo3
+00069730 Intel Indeo 3
+00069748 On2 VP3
+00069750 theora
+00069758 Theora
+00069760 asv1
+00069768 ASUS V1
+00069770 asv2
+00069778 ASUS V2
+00069780 ffv1
+00069788 FFmpeg video codec #1
+000697a8 4X Movie
+000697b8 vcr1
+000697c0 ATI VCR1
+000697d0 cljr
+000697d8 Cirrus Logic AccuPak
+000697f0 mdec
+000697f8 Sony PlayStation MDEC (Motion DECoder)
+00069828 id RoQ video
+00069838 interplayvideo
+00069848 Interplay MVE video
+00069860 xan_wc3
+00069868 Wing Commander III / Xan
+00069888 xan_wc4
+00069890 Wing Commander IV / Xxan
+000698b0 rpza
+000698b8 QuickTime video (RPZA)
+000698d0 cinepak
+000698d8 Cinepak
+000698e0 ws_vqa
+000698e8 Westwood Studios VQA (Vector Quantized Animation) video
+00069920 msrle
+00069928 Microsoft RLE
+00069938 msvideo1
+00069948 Microsoft Video 1
+00069960 idcin
+00069968 id Quake II CIN video
+00069980 8bps
+00069988 QuickTime 8BPS video
+000699a8 QuickTime Graphics (SMC)
+000699c8 flic
+000699d0 Autodesk Animator Flic video
+000699f0 truemotion1
+00069a00 Duck TrueMotion 1.0
+00069a18 vmdvideo
+00069a28 Sierra VMD video
+00069a40 mszh
+00069a48 LCL (LossLess Codec Library) MSZH
+00069a70 zlib
+00069a78 LCL (LossLess Codec Library) ZLIB
+00069aa0 qtrle
+00069aa8 QuickTime Animation (RLE) video
+00069ac8 tscc
+00069ad0 TechSmith Screen Capture Codec
+00069af0 ulti
+00069af8 IBM UltiMotion
+00069b08 qdraw
+00069b10 Apple QuickDraw
+00069b20 vixl
+00069b28 Miro VideoXL
+00069b38 qpeg
+00069b40 Q-team QPEG
+00069b58 PNG (Portable Network Graphics) image
+00069b88 PPM (Portable PixelMap) image
+00069bb0 PBM (Portable BitMap) image
+00069bd8 PGM (Portable GrayMap) image
+00069bf8 pgmyuv
+00069c00 PGMYUV (Portable GrayMap YUV) image
+00069c30 PAM (Portable AnyMap) image
+00069c50 ffvhuff
+00069c58 Huffyuv FFmpeg variant
+00069c70 rv30
+00069c78 RealVideo 3.0
+00069c88 rv40
+00069c90 RealVideo 4.0
+00069ca8 SMPTE VC-1
+00069cb8 wmv3
+00069cc0 Windows Media Video 9
+00069cd8 loco
+00069ce0 LOCO
+00069ce8 wnv1
+00069cf0 Winnov WNV1
+00069d00 aasc
+00069d08 Autodesk RLE
+00069d18 indeo2
+00069d20 Intel Indeo 2
+00069d30 fraps
+00069d38 Fraps
+00069d40 truemotion2
+00069d50 Duck TrueMotion 2.0
+00069d70 BMP (Windows and OS/2 bitmap)
+00069d90 cscd
+00069d98 CamStudio
+00069da8 mmvideo
+00069db0 American Laser Games MM Video
+00069dd0 zmbv
+00069dd8 Zip Motion Blocks Video
+00069df8 AVS (Audio Video Standard) video
+00069e20 smackvideo
+00069e30 Smacker video
+00069e48 NuppelVideo/RTJPEG
+00069e60 kmvc
+00069e68 Karl Morton's video codec
+00069e88 flashsv
+00069e90 Flash Screen Video v1
+00069ea8 cavs
+00069eb0 Chinese AVS (Audio Video Standard) (AVS1-P2, JiZhun profile)
+00069ef0 jpeg2000
+00069f00 JPEG 2000
+00069f10 vmnc
+00069f18 VMware Screen Codec / VMware Video
+00069f48 On2 VP5
+00069f58 On2 VP6
+00069f60 vp6f
+00069f68 On2 VP6 (Flash version)
+00069f80 Truevision Targa image
+00069f98 dsicinvideo
+00069fa8 Delphine Software International CIN video
+00069fd8 tiertexseqvideo
+00069fe8 Tiertex Limited SEQ video
+0006a008 tiff
+0006a010 TIFF image
+0006a028 GIF (Graphics Interchange Format)
+0006a058 Feeble Files/ScummVM DXA
+0006a078 dnxhd
+0006a080 VC3/DNxHD
+0006a098 Nintendo Gamecube THP video
+0006a0c0 SGI image
+0006a0d8 Interplay C93
+0006a0e8 bethsoftvid
+0006a0f8 Bethesda VID video
+0006a118 V.Flash PTX image
+0006a138 Renderware TXD (TeXture Dictionary) image
+0006a168 vp6a
+0006a170 On2 VP6 (Flash version, with alpha channel)
+0006a1a8 AMV Video
+0006a1c0 Beam Software VB
+0006a1d8 PC Paintbrush PCX image
+0006a1f0 sunrast
+0006a1f8 Sun Rasterfile image
+0006a210 indeo4
+0006a218 Intel Indeo Video Interactive 4
+0006a238 indeo5
+0006a240 Intel Indeo Video Interactive 5
+0006a260 mimic
+0006a268 Mimic
+0006a278 RL2 video
+0006a288 escape124
+0006a298 Escape 124
+0006a2a8 dirac
+0006a2b0 Dirac
+0006a2c0 Brute Force & Ignorance
+0006a2e0 Electronic Arts CMV video
+0006a300 motionpixels
+0006a310 Motion Pixels video
+0006a330 Electronic Arts TGV video
+0006a358 Electronic Arts TGQ video
+0006a380 Electronic Arts TQI video
+0006a3a0 aura
+0006a3a8 Auravision AURA
+0006a3b8 aura2
+0006a3c0 Auravision Aura 2
+0006a3d8 v210x
+0006a3e0 Uncompressed 4:2:2 10-bit
+0006a408 8088flex TMV
+0006a418 v210
+0006a428 DPX (Digital Picture Exchange) image
+0006a458 Electronic Arts Madcow Video
+0006a478 frwu
+0006a480 Forward Uncompressed
+0006a498 flashsv2
+0006a4a8 Flash Screen Video v2
+0006a4c0 cdgraphics
+0006a4d0 CD Graphics video
+0006a4e8 r210
+0006a4f0 Uncompressed RGB 10-bit
+0006a510 Deluxe Paint Animation
+0006a528 binkvideo
+0006a538 Bink video
+0006a548 iff_ilbm
+0006a558 IFF ACBM/ANIM/DEEP/ILBM/PBM/RGB8/RGBN
+0006a580 kgv1
+0006a588 Kega Game Video
+0006a5a0 Psygnosis YOP Video
+0006a5c0 On2 VP8
+0006a5c8 pictor
+0006a5d0 Pictor/PC Paint
+0006a5e0 ansi
+0006a5e8 ASCII/ANSI art
+0006a5f8 a64_multi
+0006a608 Multicolor charset for Commodore 64
+0006a630 a64_multi5
+0006a640 Multicolor charset for Commodore 64, extended with 5th color (colram)
+0006a688 r10k
+0006a690 AJA Kona 10-bit RGB Codec
+0006a6b0 mxpeg
+0006a6b8 Mobotix MxPEG video
+0006a6d0 lagarith
+0006a6e0 Lagarith lossless
+0006a6f8 prores
+0006a700 Apple ProRes (iCodec Pro)
+0006a728 Bitmap Brothers JV video
+0006a750 Chronomaster DFA
+0006a768 wmv3image
+0006a778 Windows Media Video 9 Image
+0006a798 vc1image
+0006a7a8 Windows Media Video 9 Image v2
+0006a7c8 utvideo
+0006a7d0 Ut Video
+0006a7e0 bmv_video
+0006a7f0 Discworld II BMV video
+0006a808 vble
+0006a810 VBLE Lossless Codec
+0006a828 dxtory
+0006a830 Dxtory
+0006a838 v410
+0006a840 Uncompressed 4:4:4 10-bit
+0006a868 XWD (X Window Dump) image
+0006a888 cdxl
+0006a890 Commodore CDXL video
+0006a8b0 XBM (X BitMap) image
+0006a8c8 zerocodec
+0006a8d8 ZeroCodec Lossless Video
+0006a8f8 mss1
+0006a900 MS Screen 1
+0006a910 msa1
+0006a918 MS ATC Screen
+0006a928 tscc2
+0006a930 TechSmith Screen Codec 2
+0006a950 mts2
+0006a958 MS Expression Encoder Screen
+0006a978 cllc
+0006a980 Canopus Lossless Codec
+0006a998 mss2
+0006a9a0 MS Windows Media Video V9 Screen
+0006a9d0 Google VP9
+0006a9e8 Apple Intermediate Codec
+0006aa08 escape130
+0006aa18 Escape 130
+0006aa30 Go2Meeting
+0006aa40 webp
+0006aa48 WebP
+0006aa50 hnm4video
+0006aa60 HNM 4 video
+0006aa70 hevc
+0006aa78 H.265 / HEVC (High Efficiency Video Coding)
+0006aab0 Mirillis FIC
+0006aac0 alias_pix
+0006aad0 Alias/Wavefront PIX image
+0006aaf0 brender_pix
+0006ab00 BRender PIX image
+0006ab18 paf_video
+0006ab28 Amazing Studio Packed Animation File Video
+0006ab60 OpenEXR image
+0006ab78 On2 VP7
+0006ab80 sanm
+0006ab88 LucasArts SANM/SMUSH video
+0006aba8 sgirle
+0006abb0 SGI RLE 8-bit
+0006abc0 mvc1
+0006abc8 Silicon Graphics Motion Video Compressor 1
+0006abf8 mvc2
+0006ac00 Silicon Graphics Motion Video Compressor 2
+0006ac38 Canopus HQX
+0006ac48 tdsc
+0006ac50 TDSC
+0006ac58 hq_hqa
+0006ac60 Canopus HQ/HQA
+0006ac78 Vidvox Hap
+0006ac90 DirectDraw Surface image decoder
+0006acc0 Resolume DXV
+0006acd0 screenpresso
+0006ace0 Screenpresso
+0006acf0 rscc
+0006acf8 innoHeim/Rsupport Screen Capture Codec
+0006ad20 y41p
+0006ad28 Uncompressed YUV 4:1:1 12-bit
+0006ad48 avrp
+0006ad50 Avid 1:1 10-bit RGB Packer
+0006ad70 012v
+0006ad78 avui
+0006ad80 Avid Meridien Uncompressed
+0006ada0 ayuv
+0006ada8 Uncompressed packed MS 4:4:4:4
+0006adc8 targa_y216
+0006add8 Pinnacle TARGA CineWave YUV16
+0006adf8 v308
+0006ae00 Uncompressed packed 4:4:4
+0006ae20 v408
+0006ae28 Uncompressed packed QT 4:4:4:4
+0006ae48 yuv4
+0006ae50 Uncompressed packed 4:2:0
+0006ae70 avrn
+0006ae78 Avid AVI Codec
+0006ae88 cpia
+0006ae90 CPiA video format
+0006aea8 xface
+0006aeb0 X-face image
+0006aec0 snow
+0006aec8 Snow
+0006aed0 smvjpeg
+0006aed8 Sigmatel Motion Video
+0006aef0 apng
+0006aef8 APNG (Animated Portable Network Graphics) image
+0006af28 daala
+0006af30 Daala
+0006af38 cfhd
+0006af40 Cineform HD
+0006af50 truemotion2rt
+0006af60 Duck TrueMotion 2.0 Real Time
+0006af80 m101
+0006af88 Matrox Uncompressed SD
+0006afa0 magicyuv
+0006afb0 MagicYUV video
+0006afc0 sheervideo
+0006afd0 BitJazz SheerVideo
+0006aff0 YUY2 Lossless Codec
+0006b010 Photoshop PSD file
+0006b028 pixlet
+0006b030 Apple Pixlet
+0006b040 speedhq
+0006b048 NewTek SpeedHQ
+0006b058 fmvc
+0006b060 FM Screen Capture Codec
+0006b078 scpr
+0006b080 ScreenPressor
+0006b090 clearvideo
+0006b0a0 Iterated Systems ClearVideo
+0006b0c8 XPM (X PixMap) image
+0006b0e8 Alliance for Open Media AV1
+0006b108 bitpacked
+0006b118 Bitpacked
+0006b128 mscc
+0006b130 Mandsoft Screen Capture Codec
+0006b150 srgc
+0006b158 Screen Recorder Gold Codec
+0006b180 Scalable Vector Graphics
+0006b1a8 Gremlin Digital Video
+0006b1c0 fits
+0006b1c8 FITS (Flexible Image Transport System)
+0006b1f0 pcm_s16le
+0006b200 PCM signed 16-bit little-endian
+0006b220 pcm_s16be
+0006b230 PCM signed 16-bit big-endian
+0006b250 pcm_u16le
+0006b260 PCM unsigned 16-bit little-endian
+0006b288 pcm_u16be
+0006b298 PCM unsigned 16-bit big-endian
+0006b2b8 pcm_s8
+0006b2c0 PCM signed 8-bit
+0006b2d8 pcm_u8
+0006b2e0 PCM unsigned 8-bit
+0006b2f8 pcm_mulaw
+0006b308 PCM mu-law / G.711 mu-law
+0006b328 pcm_alaw
+0006b338 PCM A-law / G.711 A-law
+0006b350 pcm_s32le
+0006b360 PCM signed 32-bit little-endian
+0006b380 pcm_s32be
+0006b390 PCM signed 32-bit big-endian
+0006b3b0 pcm_u32le
+0006b3c0 PCM unsigned 32-bit little-endian
+0006b3e8 pcm_u32be
+0006b3f8 PCM unsigned 32-bit big-endian
+0006b418 pcm_s24le
+0006b428 PCM signed 24-bit little-endian
+0006b448 pcm_s24be
+0006b458 PCM signed 24-bit big-endian
+0006b478 pcm_u24le
+0006b488 PCM unsigned 24-bit little-endian
+0006b4b0 pcm_u24be
+0006b4c0 PCM unsigned 24-bit big-endian
+0006b4e0 pcm_s24daud
+0006b4f0 PCM D-Cinema audio signed 24-bit
+0006b518 pcm_zork
+0006b528 PCM Zork
+0006b538 pcm_s16le_planar
+0006b550 PCM signed 16-bit little-endian planar
+0006b578 pcm_dvd
+0006b580 PCM signed 20|24-bit big-endian
+0006b5a0 pcm_f32be
+0006b5b0 PCM 32-bit floating point big-endian
+0006b5d8 pcm_f32le
+0006b5e8 PCM 32-bit floating point little-endian
+0006b610 pcm_f64be
+0006b620 PCM 64-bit floating point big-endian
+0006b648 pcm_f64le
+0006b658 PCM 64-bit floating point little-endian
+0006b680 pcm_bluray
+0006b690 PCM signed 16|20|24-bit big-endian for Blu-ray media
+0006b6c8 pcm_lxf
+0006b6d0 PCM signed 20-bit little-endian planar
+0006b6f8 s302m
+0006b700 SMPTE 302M
+0006b710 pcm_s8_planar
+0006b720 PCM signed 8-bit planar
+0006b738 pcm_s24le_planar
+0006b750 PCM signed 24-bit little-endian planar
+0006b778 pcm_s32le_planar
+0006b790 PCM signed 32-bit little-endian planar
+0006b7b8 pcm_s16be_planar
+0006b7d0 PCM signed 16-bit big-endian planar
+0006b7f8 pcm_s64le
+0006b808 PCM signed 64-bit little-endian
+0006b828 pcm_s64be
+0006b838 PCM signed 64-bit big-endian
+0006b858 pcm_f16le
+0006b868 PCM 16.8 floating point little-endian
+0006b890 pcm_f24le
+0006b8a0 PCM 24.0 floating point little-endian
+0006b8c8 adpcm_ima_qt
+0006b8d8 ADPCM IMA QuickTime
+0006b8f0 adpcm_ima_wav
+0006b900 ADPCM IMA WAV
+0006b910 adpcm_ima_dk3
+0006b920 ADPCM IMA Duck DK3
+0006b938 adpcm_ima_dk4
+0006b948 ADPCM IMA Duck DK4
+0006b960 adpcm_ima_ws
+0006b970 ADPCM IMA Westwood
+0006b988 adpcm_ima_smjpeg
+0006b9a0 ADPCM IMA Loki SDL MJPEG
+0006b9c0 adpcm_ms
+0006b9d0 ADPCM Microsoft
+0006b9e0 adpcm_4xm
+0006b9f0 ADPCM 4X Movie
+0006ba00 adpcm_xa
+0006ba10 ADPCM CDROM XA
+0006ba20 adpcm_adx
+0006ba30 SEGA CRI ADX ADPCM
+0006ba48 adpcm_ea
+0006ba58 ADPCM Electronic Arts
+0006ba70 adpcm_g726
+0006ba80 G.726 ADPCM
+0006ba90 adpcm_ct
+0006baa0 ADPCM Creative Technology
+0006bac0 adpcm_swf
+0006bad0 ADPCM Shockwave Flash
+0006bae8 adpcm_yamaha
+0006baf8 ADPCM Yamaha
+0006bb08 adpcm_sbpro_4
+0006bb18 ADPCM Sound Blaster Pro 4-bit
+0006bb38 adpcm_sbpro_3
+0006bb48 ADPCM Sound Blaster Pro 2.6-bit
+0006bb68 adpcm_sbpro_2
+0006bb78 ADPCM Sound Blaster Pro 2-bit
+0006bb98 adpcm_thp
+0006bba8 ADPCM Nintendo THP
+0006bbc0 adpcm_ima_amv
+0006bbd0 ADPCM IMA AMV
+0006bbe0 adpcm_ea_r1
+0006bbf0 ADPCM Electronic Arts R1
+0006bc10 adpcm_ea_r3
+0006bc20 ADPCM Electronic Arts R3
+0006bc40 adpcm_ea_r2
+0006bc50 ADPCM Electronic Arts R2
+0006bc70 adpcm_ima_ea_sead
+0006bc88 ADPCM IMA Electronic Arts SEAD
+0006bca8 adpcm_ima_ea_eacs
+0006bcc0 ADPCM IMA Electronic Arts EACS
+0006bce0 adpcm_ea_xas
+0006bcf0 ADPCM Electronic Arts XAS
+0006bd10 adpcm_ea_maxis_xa
+0006bd28 ADPCM Electronic Arts Maxis CDROM XA
+0006bd50 adpcm_ima_iss
+0006bd60 ADPCM IMA Funcom ISS
+0006bd78 adpcm_g722
+0006bd88 G.722 ADPCM
+0006bd98 adpcm_ima_apc
+0006bda8 ADPCM IMA CRYO APC
+0006bdc0 adpcm_vima
+0006bdd0 LucasArts VIMA audio
+0006bde8 adpcm_afc
+0006bdf8 ADPCM Nintendo Gamecube AFC
+0006be18 adpcm_ima_oki
+0006be28 ADPCM IMA Dialogic OKI
+0006be40 adpcm_dtk
+0006be50 ADPCM Nintendo Gamecube DTK
+0006be70 adpcm_ima_rad
+0006be80 ADPCM IMA Radical
+0006be98 adpcm_g726le
+0006bea8 G.726 ADPCM little-endian
+0006bec8 adpcm_thp_le
+0006bed8 ADPCM Nintendo THP (Little-Endian)
+0006bf00 adpcm_psx
+0006bf10 ADPCM Playstation
+0006bf28 adpcm_aica
+0006bf38 ADPCM Yamaha AICA
+0006bf50 adpcm_ima_dat4
+0006bf60 ADPCM IMA Eurocom DAT4
+0006bf78 adpcm_mtaf
+0006bf88 ADPCM MTAF
+0006bf98 amr_nb
+0006bfa0 AMR-NB (Adaptive Multi-Rate NarrowBand)
+0006bfc8 amr_wb
+0006bfd0 AMR-WB (Adaptive Multi-Rate WideBand)
+0006bff8 ra_144
+0006c000 RealAudio 1.0 (14.4K)
+0006c018 ra_288
+0006c020 RealAudio 2.0 (28.8K)
+0006c038 roq_dpcm
+0006c048 DPCM id RoQ
+0006c058 interplay_dpcm
+0006c068 DPCM Interplay
+0006c078 xan_dpcm
+0006c088 DPCM Xan
+0006c098 sol_dpcm
+0006c0a8 DPCM Sol
+0006c0b8 sdx2_dpcm
+0006c0c8 DPCM Squareroot-Delta-Exact
+0006c0e8 gremlin_dpcm
+0006c0f8 DPCM Gremlin
+0006c110 MP2 (MPEG audio layer 2)
+0006c138 MP3 (MPEG audio layer 3)
+0006c160 AAC (Advanced Audio Coding)
+0006c188 DCA (DTS Coherent Acoustics)
+0006c1a8 vorbis
+0006c1b0 Vorbis
+0006c1b8 dvaudio
+0006c1c0 DV audio
+0006c1d0 wmav1
+0006c1d8 Windows Media Audio 1
+0006c1f0 wmav2
+0006c1f8 Windows Media Audio 2
+0006c210 mace3
+0006c218 MACE (Macintosh Audio Compression/Expansion) 3:1
+0006c250 mace6
+0006c258 MACE (Macintosh Audio Compression/Expansion) 6:1
+0006c290 vmdaudio
+0006c2a0 Sierra VMD audio
+0006c2b8 flac
+0006c2c0 FLAC (Free Lossless Audio Codec)
+0006c2e8 mp3adu
+0006c2f0 ADU (Application Data Unit) MP3 (MPEG audio layer 3)
+0006c328 mp3on4
+0006c330 MP3onMP4
+0006c340 shorten
+0006c348 Shorten
+0006c350 alac
+0006c358 ALAC (Apple Lossless Audio Codec)
+0006c380 westwood_snd1
+0006c390 Westwood Audio (SND1)
+0006c3b8 qdm2
+0006c3c0 QDesign Music Codec 2
+0006c3d8 cook
+0006c3e0 Cook / Cooker / Gecko (RealAudio G2)
+0006c408 truespeech
+0006c418 DSP Group TrueSpeech
+0006c438 TTA (True Audio)
+0006c450 smackaudio
+0006c460 Smacker audio
+0006c470 qcelp
+0006c478 QCELP / PureVoice
+0006c490 wavpack
+0006c498 WavPack
+0006c4a0 dsicinaudio
+0006c4b0 Delphine Software International CIN audio
+0006c4e8 IMC (Intel Music Coder)
+0006c500 musepack7
+0006c510 Musepack SV7
+0006c528 MLP (Meridian Lossless Packing)
+0006c548 gsm_ms
+0006c550 GSM Microsoft variant
+0006c568 atrac3
+0006c570 ATRAC3 (Adaptive TRansform Acoustic Coding 3)
+0006c5a8 Monkey's Audio
+0006c5b8 nellymoser
+0006c5c8 Nellymoser Asao
+0006c5d8 musepack8
+0006c5e8 Musepack SV8
+0006c5f8 speex
+0006c600 Speex
+0006c608 wmavoice
+0006c618 Windows Media Audio Voice
+0006c638 wmapro
+0006c640 Windows Media Audio 9 Professional
+0006c668 wmalossless
+0006c678 Windows Media Audio Lossless
+0006c698 atrac3p
+0006c6a0 ATRAC3+ (Adaptive TRansform Acoustic Coding 3+)
+0006c6d0 eac3
+0006c6d8 ATSC A/52B (AC-3, E-AC-3)
+0006c6f8 sipr
+0006c700 RealAudio SIPR / ACELP.NET
+0006c728 MP1 (MPEG audio layer 1)
+0006c748 twinvq
+0006c750 VQF TwinVQ
+0006c760 truehd
+0006c768 TrueHD
+0006c770 mp4als
+0006c778 MPEG-4 Audio Lossless Coding (ALS)
+0006c7a0 atrac1
+0006c7a8 ATRAC1 (Adaptive TRansform Acoustic Coding)
+0006c7d8 binkaudio_rdft
+0006c7e8 Bink Audio (RDFT)
+0006c800 binkaudio_dct
+0006c810 Bink Audio (DCT)
+0006c828 aac_latm
+0006c838 AAC LATM (Advanced Audio Coding LATM syntax)
+0006c868 qdmc
+0006c870 QDesign Music
+0006c880 celt
+0006c888 Constrained Energy Lapped Transform (CELT)
+0006c8b8 g723_1
+0006c8c0 G.723.1
+0006c8c8 g729
+0006c8d0 G.729
+0006c8d8 8svx_exp
+0006c8e8 8SVX exponential
+0006c900 8svx_fib
+0006c910 8SVX fibonacci
+0006c920 bmv_audio
+0006c930 Discworld II BMV audio
+0006c948 ralf
+0006c950 RealAudio Lossless
+0006c970 IAC (Indeo Audio Coder)
+0006c988 ilbc
+0006c990 iLBC (Internet Low Bitrate Codec)
+0006c9b8 opus
+0006c9c0 Opus (Opus Interactive Audio Codec)
+0006c9e8 comfortnoise
+0006c9f8 RFC 3389 Comfort Noise
+0006ca18 TAK (Tom's lossless Audio Kompressor)
+0006ca40 metasound
+0006ca50 Voxware MetaSound
+0006ca68 paf_audio
+0006ca78 Amazing Studio Packed Animation File Audio
+0006cab0 On2 Audio for Video Codec
+0006cad0 dss_sp
+0006cad8 Digital Speech Standard - Standard Play mode (DSS SP)
+0006cb10 codec2
+0006cb18 codec2 (very low bitrate speech codec)
+0006cb40 wavesynth
+0006cb50 Wave synthesis pseudo-codec
+0006cb70 sonic
+0006cb78 Sonic
+0006cb80 sonicls
+0006cb88 Sonic lossless
+0006cb98 evrc
+0006cba0 EVRC (Enhanced Variable Rate Codec)
+0006cbd0 SMV (Selectable Mode Vocoder)
+0006cbf0 dsd_lsbf
+0006cc00 DSD (Direct Stream Digital), least significant bit first
+0006cc40 dsd_msbf
+0006cc50 DSD (Direct Stream Digital), most significant bit first
+0006cc88 dsd_lsbf_planar
+0006cc98 DSD (Direct Stream Digital), least significant bit first, planar
+0006cce0 dsd_msbf_planar
+0006ccf0 DSD (Direct Stream Digital), most significant bit first, planar
+0006cd38 4GV (Fourth Generation Vocoder)
+0006cd58 interplayacm
+0006cd68 Interplay ACM
+0006cd78 xma1
+0006cd80 Xbox Media Audio 1
+0006cd98 xma2
+0006cda0 Xbox Media Audio 2
+0006cdc0 DST (Direct Stream Transfer)
+0006cde0 atrac3al
+0006cdf0 ATRAC3 AL (Adaptive TRansform Acoustic Coding 3 Advanced Lossless)
+0006ce38 atrac3pal
+0006ce48 ATRAC3+ AL (Adaptive TRansform Acoustic Coding 3+ Advanced Lossless)
+0006ce90 dolby_e
+0006ce98 Dolby E
+0006cea0 aptx
+0006cea8 aptX (Audio Processing Technology for Bluetooth)
+0006cee0 aptx_hd
+0006cee8 aptX HD (Audio Processing Technology for Bluetooth)
+0006cf28 SBC (low-complexity subband codec)
+0006cf50 dvd_subtitle
+0006cf60 DVD subtitles
+0006cf70 dvb_subtitle
+0006cf80 DVB subtitles
+0006cf90 raw UTF-8 text
+0006cfa0 xsub
+0006cfa8 XSUB
+0006cfb8 SSA (SubStation Alpha) subtitle
+0006cfd8 mov_text
+0006cfe8 MOV text
+0006cff8 hdmv_pgs_subtitle
+0006d010 HDMV Presentation Graphic Stream subtitles
+0006d040 dvb_teletext
+0006d050 DVB teletext
+0006d068 SubRip subtitle with embedded timing
+0006d090 microdvd
+0006d0a0 MicroDVD subtitle
+0006d0b8 eia_608
+0006d0c0 EIA-608 closed captions
+0006d0d8 jacosub
+0006d0e0 JACOsub subtitle
+0006d0f8 sami
+0006d100 SAMI subtitle
+0006d110 realtext
+0006d120 RealText subtitle
+0006d140 Spruce subtitle format
+0006d158 subviewer1
+0006d168 SubViewer v1 subtitle
+0006d180 subviewer
+0006d190 SubViewer subtitle
+0006d1a8 subrip
+0006d1b0 SubRip subtitle
+0006d1c0 webvtt
+0006d1c8 WebVTT subtitle
+0006d1d8 mpl2
+0006d1e0 MPL2 subtitle
+0006d1f0 vplayer
+0006d1f8 VPlayer subtitle
+0006d218 PJS (Phoenix Japanimation Society) subtitle
+0006d250 ASS (Advanced SSA) subtitle
+0006d270 hdmv_text_subtitle
+0006d288 HDMV Text subtitle
+0006d2a8 TrueType font
+0006d2b8 scte_35
+0006d2c0 SCTE 35 Message Queue
+0006d2d8 bintext
+0006d2e0 Binary text
+0006d2f0 xbin
+0006d2f8 eXtended BINary text
+0006d318 iCEDraw text
+0006d330 OpenType font
+0006d348 SMPTE 336M Key-Length-Value (KLV) metadata
+0006d378 dvd_nav_packet
+0006d388 DVD Nav packet
+0006d398 timed_id3
+0006d3a8 timed ID3 metadata
+0006d3c0 bin_data
+0006d3d0 binary data
+0006d3e0 wrapped_avframe
+0006d3f0 AVFrame to AVPacket passthrough
+0006d410 application/octet-stream
+0006d430 application/vnd.ms-opentype
+0006d450 application/x-truetype-font
+0006d470 application/x-font
+0006d488 image/svg+xml
+0006d498 image/x-xpixmap
+0006d4a8 image/png
+0006d4b8 image/webp
+0006d4c8 image/x-xbitmap
+0006d4d8 image/x-xwindowdump
+0006d4f0 image/x-pcx
+0006d500 image/gif
+0006d510 image/tiff
+0006d520 image/x-targa
+0006d530 image/x-tga
+0006d540 image/jp2
+0006d550 image/x-ms-bmp
+0006d560 image/x-portable-pixmap
+0006d578 image/jpeg
+0006d5c8 Dialogue: 
+0006d5d8 Dialogue: %ld,
+0006d5e8 9:59:59.99,
+0006d5f8 %d:%02d:%02d.%02d,
+0006d618 Error pre-processing a packet before decoding
+0006d648 This decoder does not support parameter changes, but PARAM_CHANGE side data was sent to it.
+0006d6a8 Invalid channel count
+0006d6c0 Invalid sample rate
+0006d6d8 PARAM_CHANGE side data too small.
+0006d700 Error applying parameter changes.
+0006d728 !frame->buf[0]
+0006d738 libavcodec/decode.c
+0006d750 skip %d / discard %d samples due to side data
+0006d780 skip whole frame, skip left: %d
+0006d7a8 Could not update timestamps for skipped samples.
+0006d7e0 skip %d/%d samples
+0006d7f8 Could not update timestamps for discarded samples.
+0006d830 discard %d/%d samples
+0006d848 Multiple frames in a packet.
+0006d868 Too many errors when draining, this is a bug. Stop draining and force EOF.
+0006d8b8 frame->buf[0]
+0006d8c8 (frame->private_ref && frame->private_ref->size == sizeof(FrameDecodeData)) || !(avctx->codec->capabilities & (1 << 1))
+0006d940 invalid packet: NULL data, size != 0
+0006d968 Invalid media type for subtitles
+0006d990 requesting subtitles recoding without iconv
+0006d9c0 Invalid UTF-8 in decoded subtitles text; maybe missing -sub_charenc option
+0006da10 A hardware frames or device context is required for hardware accelerated decoding.
+0006da68 Device type %s expected for hardware decoding, but got %s.
+0006daa8 n >= 1
+0006dab0 Invalid format returned by get_format() callback.
+0006dae8 Format %s chosen by get_format().
+0006db10 Invalid return from get_format(): %s not in possible list.
+0006db50 Invalid setup for format %s: does not match the format of the provided frames context.
+0006dba8 Invalid setup for format %s: does not match the type of the provided device context.
+0006dc00 Invalid setup for format %s: missing configuration.
+0006dc38 Format %s requires hwaccel initialisation.
+0006dc68 Ignoring experimental hwaccel: %s
+0006dc90 Failed setup for format %s: hwaccel initialisation returned error.
+0006dcd8 Format %s not usable, retrying get_format() without it.
+0006dd18 pic->data[*]!=NULL in avcodec_default_get_buffer
+0006dd50 Unable to get pixel format descriptor for format %s
+0006dd88 default_get_buffer called on pic %p
+0006ddb0 frame->nb_extended_buf == 0
+0006ddd0 default_get_buffer called on frame %p
+0006ddf8 ignoring invalid SAR: %u/%u
+0006de18 Inconsistent channel configuration.
+0006de40 Too many channels: %d.
+0006de58 video_get_buffer: image parameters invalid
+0006de88 pic->data[*]!=NULL in get_buffer_internal
+0006deb8 frame->data[i]
+0006dec8 Buffer returned by get_buffer2() did not zero unused plane pointers
+0006df10 get_buffer() failed
+0006df28 avctx->codec_type == AVMEDIA_TYPE_VIDEO
+0006df50 Picture changed from size:%dx%d fmt:%s to size:%dx%d fmt:%s in reget buffer()
+0006dfa0 reget_buffer() failed
+0006dfb8 A non-existing bitstream filter %s requested by a decoder. This is a bug, please report it.
+0006e018 Invalid cropping information set by a decoder: %zu/%zu/%zu/%zu (frame size %dx%d). This is a bug, please report it
+0006e090 avci->compat_decode_consumed == 0
+0006e0b8 Got unexpected packet after EOF
+0006e0e0 Got unexpected packet size after a partial decode
+0006e118 The deprecated avcodec_decode_* API cannot return all the frames for this decoder. Some frames will be dropped. Update your code to the new decoding API to fix this.
+0006e1c0 Invalid negative user packet size %d
+0006e1e8 Invalid minimum required packet size %ld (max allowed is %d)
+0006e228 !avpkt->data || avpkt->data != avctx->internal->byte_buffer
+0006e268 libavcodec/encode.c
+0006e280 User packet is too small (%d < %ld)
+0006e2a8 Failed to allocate packet of size %ld
+0006e2d0 This encoder requires using the avcodec_send_frame() API.
+0006e310 Encoding to a planar sample format, with more than %d channels, but extended_data is not set.
+0006e370 extended_data is not set.
+0006e390 more samples than frame size (avcodec_encode_audio2)
+0006e3c8 nb_samples (%d) != frame_size (%d) (avcodec_encode_audio2)
+0006e408 avctx->codec->encode2
+0006e420 Provided packet is too small, needs to be %d
+0006e450 AVFrame.format is not set
+0006e470 AVFrame.width or height is not set
+0006e498 ret <= 0
+0006e4a8 !avctx->internal->buffer_pkt->data || avctx->internal->buffer_pkt->buf
+0006e4f0 start_display_time must be 0.
+0006e54b ?u='@
+0006e562 C?g`y?
+0006e5b6 j?g`y?
+0006e5f2 g@u='@
+0006e60b @r1RA
+0006e616 1>u='>
+0006e642 1>?~
+0006e64e C=u='>
+0006e65e D>u='>Qf
+0006e696 1>u='>
+0006eaf5 _{~f
+0006eb35 0;~*
+0006eb49 "&~s
+0006ebf2 b}tz]}MeX}PKS}
+0006ec15 I4}+
+0006ecad /`|P=Z|
+0006ecc1 BB|`8<|
+0006ed3b {EL~{
+0006ed46 q{'bj{C
+0006ed52 ]{6MV{
+0006ede5 OXzG
+0006edf9 $3zZ
+0006edfe +zo%$z
+0006ee5d gryTujy
+0006ee75 rByac:y
+0006ee81 7*yK
+0006eee6 Yx;cQx
+0006eeee Hx)3@x+
+0006eefa .xIH&xe
+0006ef59 .Zwx
+0006ef6e ,w-_#w
+0006efc2 hv@u^vy
+0006efca Tv#KKv=
+0006efd9 i.v1
+0006f03e 7ull-u
+0006f092 _tF$Ut?
+0006f0e7 sI"usqFjs&f_sh
+0006f15a >rQ23r
+0006f19d _{qh
+0006f1a6 dqtkXq
+0006f1f9 xkpUr_pqgSp9XGp
+0006f259 3Fo}
+0006f25e 9o,S-o
+0006f299 Q}n*
+0006f2a5 -WnfnJn
+0006f2b6 $n0G
+0006f2e9 :|me3om
+0006f2f1 'bmX
+0006f345 mLl]
+0006f34e 1l`)$l!
+0006f359 <	l!
+0006f386 skkSfk
+0006f41a oiejaiB$Si
+0006f42a 6i~9(i 
+0006f45b h$"{hK
+0006f4ba )g +
+0006f4f1 <Wfg"Hf"
+0006f532 cemfTe_	Eek
+0006f571 Yld`
+0006f576 \d"'Md
+0006f582 -d8>
+0006f5b9 fQcP
+0006f602 1brz!b~U
+0006f679 TG`%
+0006f6b2 ^_eHM_k
+0006f72e O]7R>]
+0006f79a y[mYh[
+0006f7e1 G;Z{r)Z
+0006f843 XbiyX
+0006f849 >gXl
+0006f88a BW.W0W
+0006f98d K|Rn
+0006f9d2 3Q{] Q@
+0006fa02 IP)56P
+0006fa35 OJO 
+0006fa99 [YM"TEMKI1Mz;
+0006fac3 L-b|L
+0006fac9 9hLN
+0006fad6 +Lnz
+0006faf7 K@ouK
+0006fafd  aKM
+0006fb39 +/J?
+0006fb5b IscvI3
+0006fb65 4MI6
+0006fbef F(huFNk`F
+0006fbf9 kKFxi6F}d!F
+0006fc56 eD~PPD!
+0006fc81 B{C[
+0006fc8d %;C5
+0006fc92 %CPZ
+0006fcb1 AzBS
+0006fcb6 dBEHOB
+0006fce5 5bA/
+0006fd76 R>i#<>
+0006fdd6 @<Ba*<01
+0006fe5a _9CzI9
+0006fe85 Lh8w
+0006feb6 X7{KB7
+0006fede u6;._6
+0006ff07 5]?{5
+0006ff0d hd5W
+0006ff91 Tn2?:W2
+0006ffc2 X1veA1
+0006fff6 *095
+0007001a X/.HA/
+0007004a ?.Z|(.b
+00070071 :U-(
+00070079 5&-F
+000700c5 +f+X
+000700eb *@gy*
+000700f9 ?2*{
+00070117 )F9t)@q\)
+00070197 &p3x&,:`&l?H&3C0&
+000701c5 ,p%_#X%
+000701ef $Xwg$\^O$
+000701f9 C7$3(
+00070219 >v#&
+00070252 #"2k
+00070275 oI!e*1!
+00070656 Q	xn8	
+00070818 invalid sync code
+00070830 invalid channel mode: %d
+00070850 invalid sample size code (%d)
+00070870 broken stream, invalid padding
+00070890 reserved blocksize code: 0
+000708b0 illegal sample rate code %d
+000708d0 header crc mismatch
+000708e8 sample/frame number invalid; utf8 fscked
+00070918 extradata NULL or too small.
+00070938 extradata contains %d bytes too many.
+00070960 extradata too small.
+00070978 invalid max blocksize: %d
+00070998 invalid bps: %d
+00070a58 s->flac_stream_info.max_blocksize
+00070a80 libavcodec/flacdec.c
+00070a98 illegal residual coding method %d
+00070ac0 invalid rice order: %i blocksize %i
+00070ae8 invalid predictor order: %i > %i
+00070b10 invalid residual
+00070b29 FLAC
+00070b30 skipping flac header packet 1
+00070b50 skipping vorbis comment
+00070b70 invalid frame header
+00070b88 bps not found in STREAMINFO or frame header
+00070bb8 switching bps mid-stream is not supported
+00070be8 blocksize %d > %d
+00070c00 sample rate not found in STREAMINFO or frame header
+00070c38   Max Blocksize: %d
+00070c50   Max Framesize: %d
+00070c68   Samplerate: %d
+00070c80   Channels: %d
+00070c90   Bits: %d
+00070ca0 invalid subframe padding
+00070cc0 Invalid number of wasted bits > available bits (%d) - left=%d
+00070d00 Decorrelated bit depth > 32
+00070d20 illegal pred order %d
+00070d38 invalid coeff precision
+00070d58 qlevel %d not supported, maybe buggy stream
+00070d88 invalid coding type
+00070da0 CRC error at PTS %ld
+00070db8 overread: %d
+00070dc8 underread: %d orig size: %d
+00070de8 invalid header
+00070df8 decode_frame() failed
+00070e10 FLAC decoder
+00070e20 use_buggy_lpc
+00070e30 emulate old buggy lavc behavior
+00070ed2 333'
+00070ee0 Internal error, IDCT permutation not set
+00070f10 desc
+00070f18 libavcodec/imgconvert.c
+00070f30 n <= 1024
+00070f40 libavcodec/kbdwin.c
+00071083 !(0)"
+00071090 #*1892+$
+0007109d %,3:;4-&
+000710a6 '.5<=6/7>?
+000714d0  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+000719b4  $(+.0368:<>@BDFHJLMOPRTUWXZ[\^_`bcdfghiklmnoprstuvwxyz{|}~
+00071abc VUUU
+00071ac3 @4333
+00071b1b 	_B{	J
+00071eb8 max_length > 0
+00071ec8 libavcodec/mjpegenc_huffman.c
+00071ee8 nval <= max_nval
+00072408 "*26L
+0007241e "(.66
+00072433 &.8DTf
+00072448  &.4<D:6
+0007245e  &.4@FL$
+00072474  &.4<D:6
+0007248a  &.4<D:6
+000724a0  &.4<D:6
+000724b2  (08@LZ
+00072524 				
+000726c7 				
+000726d7 				
+000726f6 				
+00072705 				
+00072714 				
+00072721 								
+00072731 						
+00072741 				
+00072ce6 				
+00072cf6 				
+00072d05 				
+00072d13 				
+00072d23 				
+00072d32 				
+00072fb6 				
+000732db 				
+000736f0 offset == (sizeof(huff_vlc_tables) / sizeof((huff_vlc_tables)[0]))
+00073738 libavcodec/mpegaudiodec_template.c
+00073760 big_values too big
+00073778 invalid block type
+00073790 switch point in 8khz
+000737a8 overread, skip %d enddists: %d %d
+000737d0 bits_left=%d
+000737e0 discarding ID3 tag
+000737f8 Header missing
+00073808 incorrect frame size - multiple frames in buffer?
+00073840 invalid old backstep %d
+00073860 invalid new backstep %d
+00073880 s->frame
+00073890 Error while decoding MPEG audio frame.
+00073cc8 NULL
+00073cd0 libavcodec/options.c
+00073ce8 Tried to copy AVCodecContext %p into already-initialized %p
+00073d28 dest->subtitle_header_size == src->subtitle_header_size
+00073d60 AVSubtitleRect
+00073d70 forced
+00073d78 AVFrame
+00073d80 best_effort_timestamp
+00073d98 pkt_pos
+00073da0 pkt_size
+00073db0 sample_aspect_ratio
+00073dc8 width
+00073dd0 height
+00073dd8 sample_rate
+00073de8 AVCodecContext
+00073e00 set bitrate (in bits/s)
+00073e28 Set video bitrate tolerance (in bits/s). In 1-pass mode, bitrate tolerance specifies how far ratecontrol is willing to deviate from the target average bitrate value. This is not related to minimum/maximum bitrate. Lowering tolerance too much has an adverse effect on quality.
+00073f40 unaligned
+00073f50 allow decoders to produce unaligned output
+00073f88 use four motion vectors per macroblock (MPEG-4)
+00073fb8 qpel
+00073fc0 use 1/4-pel motion compensation
+00073fe0 loop
+00073fe8 use loop filter
+00073ff8 qscale
+00074000 use fixed qscale
+00074018 pass1
+00074020 use internal 2-pass ratecontrol in first  pass mode
+00074058 pass2
+00074060 use internal 2-pass ratecontrol in second pass mode
+00074098 gray
+000740a0 only decode/encode grayscale
+000740c0 psnr
+000740c8 error[?] variables will be set during encoding
+000740f8 truncated
+00074108 Input bitstream might be randomly truncated
+00074138 ildct
+00074140 use interlaced DCT
+00074158 low_delay
+00074168 force low delay
+00074178 global_header
+00074188 place global headers in extradata instead of every keyframe
+000741c8 bitexact
+000741d8 use only bitexact functions (except (I)DCT)
+00074208 H.263 advanced intra coding / MPEG-4 AC prediction
+00074240 ilme
+00074248 interlaced motion estimation
+00074268 cgop
+00074270 closed GOP
+00074280 output_corrupt
+00074290 Output even potentially corrupted frames
+000742c0 fast
+000742c8 allow non-spec-compliant speedup tricks
+000742f0 flags2
+000742f8 noout
+00074300 skip bitstream encoding
+00074318 ignorecrop
+00074328 ignore cropping information from sps
+00074350 local_header
+00074360 place global headers at every keyframe instead of in extradata
+000743a0 Frame data might be split into multiple chunks
+000743d0 showall
+000743d8 Show all frames before the first keyframe
+00074408 export_mvs
+00074418 export motion vectors through frame side data
+00074448 skip_manual
+00074458 do not skip samples and export skip information as frame side data
+000744a0 ass_ro_flush_noop
+000744b8 do not reset ASS ReadOrder field on flush
+000744e8 time_base
+000744f8 set the group of picture (GOP) size
+00074528 set audio sampling rate (in Hz)
+00074550 set number of audio channels
+00074570 cutoff
+00074578 set cutoff bandwidth
+00074590 frame_size
+000745a0 frame_number
+000745b0 delay
+000745b8 qcomp
+000745c0 video quantizer scale compression (VBR). Constant of ratecontrol equation. Recommended range for default rc_eq: 0.0-1.0
+00074638 qblur
+00074640 video quantizer scale blur (VBR)
+00074668 qmin
+00074670 minimum video quantizer scale (VBR)
+00074698 qmax
+000746a0 maximum video quantizer scale (VBR)
+000746c8 qdiff
+000746d0 maximum difference between the quantizer scales (VBR)
+00074710 set maximum number of B-frames between non-B-frames
+00074748 b_qfactor
+00074758 QP factor between P- and B-frames
+00074780 b_strategy
+00074790 strategy to choose between I/P/B-frames
+000747b8 RTP payload size in bytes
+000747d8 mv_bits
+000747e0 header_bits
+000747f0 i_tex_bits
+00074800 p_tex_bits
+00074810 i_count
+00074818 p_count
+00074820 skip_count
+00074830 misc_bits
+00074840 frame_bits
+00074850 codec_tag
+00074868 work around not autodetected encoder bugs
+00074898 autodetect
+000748a8 xvid_ilace
+000748b8 Xvid interlacing bug (autodetected if FOURCC == XVIX)
+000748f0 ump4
+000748f8 (autodetected if FOURCC == UMP4)
+00074920 no_padding
+00074930 padding bug (autodetected)
+00074950 qpel_chroma
+00074960 std_qpel
+00074970 old standard qpel (autodetected per FOURCC/version)
+000749a8 qpel_chroma2
+000749b8 direct_blocksize
+000749d0 direct-qpel-blocksize bug (autodetected per FOURCC/version)
+00074a10 edge
+00074a18 edge padding bug (autodetected per FOURCC/version)
+00074a50 hpel_chroma
+00074a60 dc_clip
+00074a70 work around various bugs in Microsoft's broken decoders
+00074aa8 trunc
+00074ab0 truncated frames
+00074ac8 iedge
+00074ad0 strict
+00074ad8 how strictly to follow the standards
+00074b00 very
+00074b08 strictly conform to a older more strict version of the spec or reference software
+00074b60 strictly conform to all the things in the spec no matter what the consequences
+00074bb0 normal
+00074bb8 unofficial
+00074bc8 allow unofficial extensions
+00074be8 experimental
+00074bf8 allow non-standardized experimental things
+00074c28 b_qoffset
+00074c38 QP offset between P- and B-frames
+00074c60 err_detect
+00074c70 set error detection flags
+00074c90 crccheck
+00074ca0 verify embedded CRCs
+00074cb8 bitstream
+00074cc8 detect bitstream specification deviations
+00074cf8 buffer
+00074d00 detect improper bitstream length
+00074d28 explode
+00074d30 abort decoding on minor error detection
+00074d58 ignore_err
+00074d68 ignore errors
+00074d78 careful
+00074d80 consider things that violate the spec, are fast to check and have not been seen in the wild as errors
+00074de8 compliant
+00074df8 consider all spec non compliancies as errors
+00074e28 aggressive
+00074e38 consider things that a sane encoder should not do as an error
+00074e78 has_b_frames
+00074e88 block_align
+00074e98 mpeg_quant
+00074ea8 use MPEG quantizers instead of H.263
+00074ed0 rc_override_count
+00074ee8 maxrate
+00074ef0 maximum bitrate (in bits/s). Used for VBV together with bufsize.
+00074f38 minrate
+00074f40 minimum bitrate (in bits/s). Most useful in setting up a CBR encode. It is of little use otherwise.
+00074fa8 bufsize
+00074fb0 set ratecontrol buffer size (in bits)
+00074fd8 i_qfactor
+00074fe8 QP factor between P- and I-frames
+00075010 i_qoffset
+00075020 QP offset between P- and I-frames
+00075048 fast integer
+00075058 floating point AAN DCT
+00075070 lumi_mask
+00075080 compresses bright areas stronger than medium ones
+000750b8 tcplx_mask
+000750c8 temporal complexity masking
+000750e8 scplx_mask
+000750f8 spatial complexity masking
+00075118 p_mask
+00075120 inter masking
+00075130 dark_mask
+00075140 compresses dark areas stronger than medium ones
+00075170 deprecated, for compatibility only
+00075198 floating point AAN IDCT
+000751b0 slice_count
+000751c0 set error concealment strategy
+000751e0 guess_mvs
+000751f0 iterative motion vector (MV) search (slow)
+00075220 deblock
+00075228 use strong deblock filter for damaged MBs
+00075258 favor_inter
+00075268 favor predicting from the previous frame
+00075298 bits_per_coded_sample
+000752b0 pred
+000752b8 prediction method
+000752d0 left
+000752d8 plane
+000752e0 median
+000752e8 aspect
+000752f0 sample aspect ratio
+00075310 debug
+00075318 print specific debug info
+00075338 pict
+00075340 picture info
+00075358 rate control
+00075368 mb_type
+00075370 macroblock (MB) type
+00075390 per-block quantization parameter (QP)
+000753b8 dct_coeff
+000753c8 green_metadata
+000753d8 skip
+000753e0 startcode
+000753f0 error recognition
+00075408 mmco
+00075410 memory management control operations (H.264)
+00075440 bugs
+00075448 buffers
+00075450 picture buffer allocations
+00075470 thread_ops
+00075480 threading operations
+00075498 nomc
+000754a0 skip motion compensation
+000754c8 full-pel ME compare function
+000754e8 cmp_func
+000754f8 subcmp
+00075500 sub-pel ME compare function
+00075520 mbcmp
+00075528 macroblock compare function
+00075548 ildctcmp
+00075558 interlaced DCT compare function
+00075578 dia_size
+00075588 diamond type & size for motion estimation
+000755b8 last_pred
+000755c8 amount of motion predictors from the previous frame
+00075600 preme
+00075608 pre motion estimation
+00075620 precmp
+00075628 pre motion estimation compare function
+00075658 sum of absolute differences, fast
+00075688 sum of squared errors
+000756a0 satd
+000756a8 sum of absolute Hadamard transformed differences
+000756e0 sum of absolute DCT transformed differences
+00075710 sum of squared quantization errors (avoid, low quality)
+00075750 number of bits needed for the block
+00075780 rate distortion optimal, slow
+000757a0 zero
+000757a8 vsad
+000757b0 sum of absolute vertical differences
+000757d8 vsse
+000757e0 sum of squared vertical differences
+00075808 nsse
+00075810 noise preserving sum of squared differences
+00075840 dctmax
+00075848 chroma
+00075850 msad
+00075858 sum of absolute differences, median predicted
+00075888 pre_dia_size
+00075898 diamond type & size for motion estimation pre-pass
+000758d0 subq
+000758d8 sub-pel motion estimation quality
+00075900 me_range
+00075910 limit motion vectors range (1023 for DivX player)
+00075948 global_quality
+00075960 variable length coder / Huffman coder
+00075988 arithmetic coder
+000759a8 raw (no encoding)
+000759c8 run-length coder
+000759e0 context
+000759e8 context model
+000759f8 slice_flags
+00075a10 macroblock decision algorithm (high quality mode)
+00075a48 use mbcmp
+00075a58 bits
+00075a60 use fewest bits
+00075a70 use best rate distortion
+00075a90 sc_threshold
+00075aa0 scene change threshold
+00075ac0 noise reduction
+00075ad0 rc_init_occupancy
+00075ae8 number of bits which should be loaded into the rc buffer before decoding starts
+00075b38 threads
+00075b40 set the number of threads
+00075b60 autodetect a suitable number of threads to use
+00075b98 intra_dc_precision
+00075bb0 nssew
+00075bb8 nsse weight
+00075bc8 skip_top
+00075bd8 number of macroblock rows at the top which are skipped
+00075c10 skip_bottom
+00075c20 number of macroblock rows at the bottom which are skipped
+00075c60 profile
+00075c68 aac_main
+00075c78 aac_low
+00075c80 aac_ssr
+00075c88 aac_ltp
+00075c90 aac_he
+00075c98 aac_he_v2
+00075ca8 aac_ld
+00075cb0 aac_eld
+00075cb8 mpeg2_aac_low
+00075cc8 mpeg2_aac_he
+00075cd8 dts_es
+00075ce0 dts_96_24
+00075cf0 dts_hd_hra
+00075d00 dts_hd_ma
+00075d10 mpeg4_sp
+00075d20 mpeg4_core
+00075d30 mpeg4_main
+00075d40 mpeg4_asp
+00075d50 main10
+00075d58 msbc
+00075d60 level
+00075d68 lowres
+00075d70 decode at 1= 1/2, 2=1/4, 3=1/8 resolutions
+00075da0 skip_threshold
+00075db0 frame skip threshold
+00075dc8 skip_factor
+00075dd8 frame skip factor
+00075df0 skip_exp
+00075e00 frame skip exponent
+00075e18 skipcmp
+00075e20 frame skip compare function
+00075e40 mblmin
+00075e48 minimum macroblock Lagrange factor (VBR)
+00075e78 mblmax
+00075e80 maximum macroblock Lagrange factor (VBR)
+00075eb0 mepc
+00075eb8 motion estimation bitrate penalty compensation (1.0 = 256)
+00075ef8 skip_loop_filter
+00075f10 skip loop filtering process for the selected frames
+00075f48 avdiscard
+00075f58 skip_idct
+00075f68 skip IDCT/dequantization for the selected frames
+00075fa0 skip_frame
+00075fb0 skip decoding for the selected frames
+00075fd8 none
+00075fe0 discard no frame
+00075ff8 default
+00076000 discard useless frames
+00076018 noref
+00076020 discard all non-reference frames
+00076048 bidir
+00076050 discard all bidirectional frames
+00076078 nokey
+00076080 discard all frames except keyframes
+000760a8 nointra
+000760b0 discard all frames except I frames
+000760e0 discard all frames
+000760f8 bidir_refine
+00076108 refine the two motion vectors used in bidirectional macroblocks
+00076148 brd_scale
+00076158 downscale frames for dynamic B-frame decision
+00076188 keyint_min
+00076198 minimum interval between IDR-frames
+000761c0 refs
+000761c8 reference frames to consider for motion compensation
+00076200 chromaoffset
+00076210 chroma QP offset from luma
+00076230 trellis
+00076238 rate-distortion optimal quantization
+00076260 mv0_threshold
+00076270 b_sensitivity
+00076280 adjust sensitivity of b_frame_strategy 1
+000762b0 compression_level
+000762c8 min_prediction_order
+000762e0 max_prediction_order
+000762f8 timecode_frame_start
+00076310 GOP timecode frame start number, in non-drop-frame format
+00076350 bits_per_raw_sample
+00076368 request_channel_layout
+00076380 rc_max_vbv_use
+00076390 rc_min_vbv_use
+000763a0 ticks_per_frame
+000763b0 color_primaries
+000763c0 color primaries
+000763d0 color_primaries_type
+000763e8 bt709
+000763f0 BT.709
+000763f8 Unspecified
+00076408 bt470m
+00076410 BT.470 M
+00076420 bt470bg
+00076428 BT.470 BG
+00076438 smpte170m
+00076448 SMPTE 170 M
+00076458 smpte240m
+00076468 SMPTE 240 M
+00076478 film
+00076480 Film
+00076488 bt2020
+00076490 BT.2020
+00076498 smpte428
+000764a8 SMPTE 428-1
+000764b8 smpte428_1
+000764c8 smpte431
+000764d8 SMPTE 431-2
+000764e8 smpte432
+000764f8 SMPTE 422-1
+00076508 jedec-p22
+00076518 JEDEC P22
+00076528 unspecified
+00076538 color_trc
+00076548 color transfer characteristics
+00076568 color_trc_type
+00076578 gamma22
+00076580 gamma28
+00076588 linear
+00076590 Linear
+00076598 log100
+000765a8 log316
+000765b0 Log square root
+000765c0 iec61966-2-4
+000765d0 IEC 61966-2-4
+000765e0 bt1361e
+000765e8 BT.1361
+000765f0 iec61966-2-1
+00076600 IEC 61966-2-1
+00076610 bt2020-10
+00076620 BT.2020 - 10 bit
+00076638 bt2020-12
+00076648 BT.2020 - 12 bit
+00076660 smpte2084
+00076670 SMPTE 2084
+00076680 arib-std-b67
+00076690 ARIB STD-B67
+000766a8 log_sqrt
+000766b8 iec61966_2_4
+000766c8 bt1361
+000766d0 iec61966_2_1
+000766e0 bt2020_10bit
+000766f0 bt2020_12bit
+00076700 colorspace
+00076710 color space
+00076720 colorspace_type
+00076750 ycgco
+00076758 YCGCO
+00076760 bt2020nc
+00076770 BT.2020 NCL
+00076780 bt2020c
+00076788 BT.2020 CL
+00076798 smpte2085
+000767a8 SMPTE 2085
+000767b8 ycocg
+000767c0 bt2020_ncl
+000767d0 bt2020_cl
+000767e0 color_range
+000767f0 color range
+00076800 color_range_type
+00076820 MPEG (219*2^(n-8))
+00076840 JPEG (2^n-1)
+00076850 mpeg
+00076858 jpeg
+00076860 chroma_sample_location
+00076878 chroma sample location
+00076890 chroma_sample_location_type
+000768b0 Left
+000768b8 center
+000768c0 Center
+000768c8 topleft
+000768d0 Top-left
+000768f0 bottomleft
+00076900 Bottom-left
+00076910 bottom
+00076918 Bottom
+00076920 log_level_offset
+00076938 set the log level offset
+00076958 slices
+00076960 set the number of slices, used in parallelized encoding
+00076998 thread_type
+000769a8 select multithreading type
+000769c8 slice
+000769d0 frame
+000769d8 audio_service_type
+000769f0 audio service type
+00076a08 Main Audio Service
+00076a28 Effects
+00076a38 Visually Impaired
+00076a58 Hearing Impaired
+00076a78 Dialogue
+00076a90 Commentary
+00076aa8 Emergency
+00076ac0 Voice Over
+00076ad8 Karaoke
+00076ae0 request_sample_fmt
+00076af8 sample format audio decoders should prefer
+00076b28 pkt_timebase
+00076b38 sub_charenc
+00076b48 set input text subtitles character encoding
+00076b78 sub_charenc_mode
+00076b90 set input text subtitles character encoding mode
+00076bc8 do_nothing
+00076bd8 pre_decoder
+00076be8 ignore
+00076bf0 sub_text_format
+00076c00 set decoded text subtitle format
+00076c28 ass_with_timings
+00076c40 refcounted_frames
+00076c58 side_data_only_packets
+00076c70 apply_cropping
+00076c80 skip_alpha
+00076c90 Skip processing alpha
+00076ca8 field_order
+00076cb8 Field order
+00076cc8 progressive
+00076cf0 dump_separator
+00076d00 set information dump field separator
+00076d28 codec_whitelist
+00076d38 List of decoders that are allowed to be used
+00076d68 pixel_format
+00076d78 set pixel format
+00076d90 video_size
+00076da0 set video size
+00076db0 max_pixels
+00076dc0 Maximum number of pixels
+00076de0 hwaccel_flags
+00076df0 ignore_level
+00076e00 ignore level even if the codec level used is unknown or higher than the maximum supported level reported by the hardware driver
+00076e80 allow_high_depth
+00076e98 allow to output YUV pixel formats with a different chroma sampling than 4:2:0 and/or other than 8 bits per component
+00076f10 allow_profile_mismatch
+00076f28 attempt to decode anyway if HW accelerated decoder's supported profiles do not exactly match the stream
+00076f90 extra_hw_frames
+00076fa0 Number of extra hardware frames to allocate for the user
+00076fe0 index > -0x20000000
+00076ff8 libavcodec/parser.c
+00077010 Failed to reallocate parser buffer to %d
+00077040 next >= 0 || pc->buffer
+00077058 mSBC
+00077060 Main
+00077068 High
+00077070 Professional
+00077080 Profile 0
+00077090 Profile 1
+000770a0 Profile 2
+000770b0 Profile 3
+000770c0 Simple
+000770c8 Complex
+000770d0 Advanced
+000770e0 Simple Profile
+000770f0 Simple Scalable Profile
+00077108 Core Profile
+00077118 Main Profile
+00077128 N-bit Profile
+00077138 Scalable Texture Profile
+00077158 Simple Face Animation Profile
+00077178 Basic Animated Texture Profile
+00077198 Hybrid Profile
+000771a8 Advanced Real Time Simple Profile
+000771d0 Code Scalable Profile
+000771e8 Advanced Coding Profile
+00077200 Advanced Core Profile
+00077218 Advanced Scalable Texture Profile
+00077240 Simple Studio Profile
+00077258 Advanced Simple Profile
+00077270 4:2:2
+00077278 Spatially Scalable
+00077290 SNR Scalable
+000772a0 Reserved
+000772b0 JPEG 2000 codestream restriction 0
+000772d8 JPEG 2000 codestream restriction 1
+00077300 JPEG 2000 no codestream restrictions
+00077328 JPEG 2000 digital cinema 2K
+00077348 JPEG 2000 digital cinema 4K
+00077368 Main 10
+00077370 Main Still Picture
+00077388 Rext
+00077390 Baseline
+000773a0 Constrained Baseline
+000773b8 Extended
+000773c8 High 10
+000773d0 High 10 Intra
+000773e0 High 4:2:2
+000773f0 High 4:2:2 Intra
+00077408 High 4:4:4
+00077418 High 4:4:4 Predictive
+00077430 High 4:4:4 Intra
+00077448 CAVLC 4:4:4
+00077458 Multiview High
+00077468 Stereo High
+00077478 DNXHD
+00077480 DNXHR LB
+00077490 DNXHR SQ
+000774a0 DNXHR HQ
+000774b0 DNXHR HQX
+000774c0 DNXHR 444
+000774d8 DTS-ES
+000774e0 DTS 96/24
+000774f0 DTS-HD HRA
+00077500 DTS-HD MA
+00077510 DTS Express
+00077528 HE-AAC
+00077530 HE-AACv2
+00077560 Application has requested %d threads. Using a thread count greater than %d is not recommended.
+000775c0 fctx->async_lock
+000775d8 libavcodec/pthread_frame.c
+000775f8 p->avctx->codec_type == AVMEDIA_TYPE_VIDEO || p->avctx->codec_type == AVMEDIA_TYPE_AUDIO
+00077658 av_packet_ref() failed in submit_packet()
+00077688 %p finished %d field %d
+000776a8 thread awaiting %d field %d from %p
+000776d0 Multiple ff_thread_finish_setup() calls
+00077700 !p->hwaccel_serializing
+00077718 A frame threaded decoder did not free the frame on failure. This is a bug, please report it.
+00077778 Final thread update failed
+00077798 get_format() cannot be called after ff_thread_finish_setup()
+000777d8 get_buffer() cannot be called after ff_thread_finish_setup()
+00077818 thread_get_buffer() failed
+00077838 thread_release_buffer called on pic %p
+00077860 p->thread_count == avctx->thread_count
+00077888 libavcodec/pthread_slice.c
+00077944 I420
+0007794c IYUV
+00077954 yv12
+0007795c YV12
+00077964 YUV9
+0007796c YVU9
+00077974 Y41B
+0007797c Y42B
+00077984 P422
+0007798c YV16
+00077994 I420
+0007799c IYUV
+000779a4 YV12
+000779ac Y42B
+000779b4 P422
+000779bc Y800
+000779c4 Y8  
+000779cc YUY2
+000779d4 Y422
+000779dc V422
+000779e4 VYUY
+000779ec YUNV
+000779f4 YUYVn
+000779fc YVYU
+00077a04 UYVY
+00077a0c HDYC
+00077a14 UYNV
+00077a1c UYNY
+00077a24 uyv1
+00077a2c 2Vu1
+00077a34 AVRn
+00077a3c AV1x
+00077a44 AVup
+00077a4c VDTZ
+00077a54 auv2
+00077a5c cyuv
+00077a64 Y411
+00077a6c GREY
+00077a74 NV12
+00077a7c NV21'
+00077aa5 BGR*
+00077aad RGB$
+00077ab5 BGR(
+00077abd RGB6
+00077ad5 BGR9
+00077add RGBk
+00077ae4 RBA@m
+00077aec BRA@j
+00077af4 @RBAl
+00077afc @BRA
+00077b04 RGBAy
+00077b14 BGRA{
+00077b24 ABGRz
+00077b34 ARGBx
+00077b54 411P
+00077b5c 422P
+00077b64 422P
+00077b6c 440P 
+00077b74 440P
+00077b7c 444P
+00077b84 444P	
+00077b8c B1W0
+00077b94 B0W1
+00077bbc B4BY
+00077bc4 R4BY#
+00077bcc RGB0"
+00077bd4 0RGB<
+00077bdc BGR0;
+00077be4 0BGR
+00077e64 XYZ$f
+00077e6c $ZYX
+00077ed4 R420
+00077edc R411
+00077ee4 2vuy
+00077eec 2Vuy
+00077ef4 AVUI
+00077efc bxyv
+00077f04 yuv2
+00077f0c yuvs
+00077f14 DVOO'
+00077f1c L555%
+00077f24 L565$
+00077f2c B565
+00077f34 24BG
+00077f3c bxbg
+00077f44 BGRA
+00077f4c RGBA
+00077f54 bxrg
+00077f5c ABGR
+00077f64 b16g"
+00077f6c b48rj
+00077f74 b64a
+00077f7c I410
+00077f84 I411
+00077f8c I422
+00077f94 I440
+00077f9c I444
+00077fa4 J420
+00077fac J422 
+00077fb4 J440
+00077fbc J444Q
+00077fc4 YUVA!
+00077fcc I40AP
+00077fd4 I42A
+00077fdc RGB2'
+00077fe4 RV15%
+00077fec RV16
+00077ff4 RV24{
+00077ffc RV32
+00078004 AV32>
+0007800c I09L=
+00078014 I09BH
+0007801c I29LG
+00078024 I29BD
+0007802c I49LC
+00078034 I49B@
+0007803c I0AL?
+00078044 I0ABB
+0007804c I2ALA
+00078054 I2ABF
+0007805c I4ALE
+00078064 I4AB}
+0007806c I0CL|
+00078074 I0CB
+0007807c I2CL
+00078084 I2CB
+0007808c I4CL
+00078094 I4CB/
+0007809c I0FL0
+000780a4 I0FB3
+000780ac I4FL4
+000780b4 I4FB%
+000780c4 YV24
+000782f0 FFmpeg version n4.0.4-2-g82e1fb864b
+00078478 val || !min_size
+00078490 ./libavutil/mem_internal.h
+000784b0 ignoring invalid SAR: %d/%d
+000784d0 desc->flags & (1 << 4)
+000784e8 libavcodec/utils.c
+00078500 unknown_codec
+00078510 Codec 0x%x is not in the full list.
+00078540 [%d]
+00078548 --libdir=android-libs/arm64-v8a --arch=aarch64 --cpu=armv8-a --cross-prefix=/usr/local/Caskroom/android-ndk/android-ndk-r15c/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android- --sysroot=/usr/local/Caskroom/android-ndk/android-ndk-r15c/platforms/android-21/arch-arm64/ --extra-ldexeflags=-pie --target-os=android --disable-static --enable-shared --disable-doc --disable-programs --disable-everything --disable-avdevice --disable-avformat --disable-swscale --disable-postproc --disable-avfilter --disable-symver --disable-swresample --enable-avresample --enable-decoder=ac3 --enable-decoder=vorbis --enable-decoder=flac --enable-decoder=mp3
+000787f0 libavcodec license: LGPL version 2.1 or later
+00078820 top first
+00078830 bottom first
+00078840 top coded first (swapped)
+00078860 bottom coded first (swapped)
+00078880 %s: %s
+00078888  (%s)
+00078890 , %d reference frame%s
+000788a8  (%s / 0x%04X)
+000788b8 %d bpc, 
+000788c8 %s, 
+000788d0 %s/%s/%s, 
+000788e8 %dx%d
+000788f0  (%dx%d)
+00078900  [SAR %d:%d DAR %d:%d]
+00078918 , %d/%d
+00078920 , q=%d-%d
+00078930 , Closed Captions
+00078948 , lossless
+00078958 %d Hz, 
+00078960 , %s
+00078968  (%d bit)
+00078978 , delay %d
+00078988 , padding %d
+00078998 , %dx%d
+000789a0 , pass 1
+000789b0 , pass 2
+000789c0 , %ld kb/s
+000789d0 , max. %ld kb/s
+000789e0 !dst->progress
+000789f0 encoder
+000789f8 decoder
+00078a00 No codec provided to avcodec_open2()
+00078a28 This AVCodecContext was allocated for %s, but %s passed to avcodec_open2()
+00078a78 Codec (%s) not on whitelist '%s'
+00078aa0 Ignoring invalid width/height values
+00078ac8 Codec type or id mismatches
+00078ae8 The %s '%s' is experimental but experimental codecs are not enabled, add '-strict %d' if you want to use it.
+00078b58 Alternatively use the non experimental %s '%s'.
+00078b90 The maximum value for lowres supported by the decoder is %d
+00078bd0 The encoder timebase is not set.
+00078bf8 Specified sample format %s is invalid or not supported
+00078c30 Specified pixel format %s is invalid or not supported
+00078c68 Specified sample rate %d is not supported
+00078c98 Channel layout not specified
+00078cb8 Channel layout '%s' with %d channels does not match number of specified channels %d
+00078d10 Specified number of channels %d is not supported
+00078d48 Specified bit depth %d not possible with the specified pixel formats depth %d
+00078d98 dimensions not set
+00078db0 Bitrate %ld is extremely low, maybe you mean %ldk
+00078de8 ticks_per_frame %d too large for the timebase %d/%d.
+00078e20 Mismatching AVCodecContext.pix_fmt and AVHWFramesContext.format
+00078e68 Mismatching AVCodecContext.sw_pix_fmt (%s) and AVHWFramesContext.sw_format (%s)
+00078ec0 gray decoding requested but not enabled at configuration time
+00078f00 Channel layout '%s' with %d channels does not match specified number of channels %d: ignoring specified channel layout
+00078f78 Character encoding is only supported with subtitles codecs
+00078fb8 Codec '%s' is bitmap-based, subtitles character encoding will be ignored
+00079008 Character encoding subtitles conversion needs a libavcodec built with iconv support for this codec
+00079070 *(const AVClass **)avctx->priv_data == codec->priv_class
+000790b0 Specified channel layout '%s' is not supported
+000790e0 p <= end
+000790f0 Duplicate value found in floor 1 X coordinates
+0007913e 14P;=4p
+0007914e d4Ums4
+00079192 &57{15
+0007919a =5^LI5;aV5
+000791e9 u&62G16t
+000791f6 I6e"V6
+00079241 E&7=
+000792ae c8nPr8
+000792e3 9FV	9
+000792fd `H9SfU9
+00079305 Dc9h	r9
+0007933d .	:0
+0007934d w0:|
+000793a5 C0;g
+000793f9 R%<T
+00079456 /=mJ;=@vG=
+00079465 :b="
+0007946a p=*K
+000794b5 ;G>M.T>7
+00079521 ?x3b
+0007958a *9?/79
+0007959d Xp9^
+000795f5 O-:|
+000795fe ::%JA:
+00079609 6O:t[V:-
+0007961a l:*$t:
+000796ce .;S 2;Bl5;
+000796de <;g~?;;
+000796f6 P;0sT;V
+00079711 }j;REn;
+00079861 /$<$
+00079866 %<RX'<i
+00079872 *<T#,<(
+00079892 7<p?9<
+0007989e <<~I><T
+000798ad dC<H
+000798ba H<gNJ<
+000798cd VQ<g
+000798da V<E}X<
+000798e1 KZ<	
+000798f2 a<jpc<DJe<
+00079912 p<{tr<
+0007991d Hv<_5x<"$z<
+00079b19 l	=q#
+00079b99 *!=;
+00079bca *=;V+=
+00079bde .=&T/=
+00079bf2 2=x]3=
+00079c06 6=*r7=xD8=:
+00079c25 ;==O
+00079c52 F=|[G=e6H=
+00079c6e L=VaM=h?N=
+00079c8a R=E}S=}^T=(@U=E"V=
+00079cae Z=ex[=
+00079cb5 ]\=[C]=
+00079ce9 *h=3
+00079d15 ar=6Rs=
+00079d1d Ct=Y4u=
+00079d25 &v=C
+0007a136 	>Y\	>
+0007a23d _ >L
+0007a26e $>b(%>8
+0007a27a %>*E&>E
+0007a291 !(>!
+0007a29a (>~@)>O
+0007a2a6 *>3`*>H
+0007a2ae *>r +>
+0007a2ba +>yA,>
+0007a2c6 ->Ic->
+0007a2dd H/>D
+0007a2e9 k0>n
+0007a2fa 1>1T2>
+0007a306 3>+z3>U
+0007a31d e5>o
+0007a33d |8>;
+0007a34e :>)n:>
+0007a359 5;>~
+0007a362 ;>xa<>
+0007a379 V>>f
+0007a38a ?>ZN@>K
+0007a396 A>o}A>
+0007a3a1 GB>B
+0007a3aa C>9xC>
+0007a3b5 CD>G
+0007a3c6 E>*AF>W
+0007a3d5 sG>[
+0007a3dd @H>o
+0007a402 K>IFL>
+0007a411 |M>L
+0007a432 P>"$Q>x
+0007a43e Q>_]R>
+0007a449 .S>Q
+0007a46e V>[IW>
+0007a48a Y>|-Z>
+0007a49e [>r@\>
+0007a4b2 ]>MU^>
+0007a4c9 l`>7
+0007a4ce `>wBa>
+0007a4ea c>I3d> 
+0007a4fe e>;Of>q
+0007a51a h><Fi>
+0007a54d cn>9
+0007a566 p>7dq>K
+0007a56e q>q@r>
+0007a582 s>=ht>
+0007a58a t>sEu>(
+0007a5ae x>P,y>
+0007a5c5 Y{>P
+0007af56 	?D<	?B\	?@|	?<
+0007b242  ?8# ?
+0007b249 A ?2` ?
+0007b251 ~ ? 
+0007b266 !?A5!?
+0007b271 r!?d
+0007b289 ("?YF"?
+0007b2aa #?K8#?{V#?
+0007b2ca $?v)$?
+0007b30a %?e	&?H'&?(E&?
+0007b335 3'?pQ'?.o'?
+0007b352 (?[!(?
+0007b35d \(?Cz(?
+0007b379 +)?<I)?
+0007b381 f)??
+0007b39d 4*?YR*?
+0007b3c1 =+?RZ+?
+0007b3e5 C,?!a,?B~,?_
+0007b426 .?g1.?KN.?+k.?
+0007b451 Q/?\n/?
+0007b475 S0?Mp0?
+0007b49d p1?i
+0007b4bd T2?Zp2?
+0007b4dd 63?BR3?ln3?
+0007b501 34?%O4?)k4?)
+0007b52d f5?f
+0007b546 6?!)6?
+0007b551 `6?D|6?
+0007b571 =7?4Y7?
+0007b579 t7?C
+0007b595 58?mP8?
+0007b59d k8?,
+0007b5b9 *9?9F9?ra9?
+0007b602 ;?x-;?^H;??c;?
+0007b62d 9<?TT<?
+0007b64e =?])=?
+0007b655 C=?o^=?
+0007b65d x=?n
+0007b679 1>?TL>?
+0007b6a9 m??!
+0007b6be ??{	@?
+0007b6c5 #@?}=@?vW@?jq@?Z
+0007b6ed &A?Z@A?!ZA?
+0007b715 'B?AAB?
+0007b71d ZB?ftB?
+0007b73d &C?/@C?
+0007b749 rC?E
+0007b769 =D?KVD?toD?
+0007b7bd IF?lbF?({F?
+0007b7e1 'G?G@G?
+0007b7e9 XG?ZqG?
+0007b80d 4H?'MH?yeH?
+0007b832 I?B'I?c?I?
+0007b861 /J?hGJ?H_J?"wJ?
+0007b88a K?15K?
+0007b891 LK?~dK?
+0007b8ae K?]	L?
+0007b8b5  L?G8L?
+0007b8c1 gL?|~L?
+0007b8ed gM?>~M?]
+0007b915 MN?vdN?]{N?>
+0007b93d 1O?}HO?+_O?
+0007b949 uO?w
+0007b966 P?O*P?
+0007b96d @P?5WP?
+0007b991 	Q?& Q?]6Q?
+0007b9c2 R?C)R?5?R?"UR?	kR?
+0007b9f2 S?%/S?
+0007b9f9 DS?yZS?
+0007ba25 1T?.GT?
+0007ba31 qT?C
+0007ba52 U?%1U?GFU?c[U?ypU?
+0007ba82 V?<-V?
+0007bab9 :W?,OW?
+0007bac1 cW?:xW?
+0007baed DX?_XX?
+0007bb51 7Z?fKZ?
+0007bb5d rZ?O
+0007bb7e [?b"[?
+0007bb85 5[?+I[?
+0007bb91 o[?,
+0007bbea ]?"&]?
+0007bbf5 K]?d^]?
+0007bc25 *^?Q=^?
+0007bc2d O^?$b^?
+0007bc5d +_?$=_?=O_?Pa_?]s_?e
+0007bc95 &`?b8`?(J`?
+0007bca5 m`?T
+0007bcd1 /a?}@a?
+0007bcd9 Qa?Mca?
+0007bd09 !b?<2b?TCb?eTb?qeb?wvb?w
+0007bd46 c?+0c?
+0007bd51 Qc?Sbc?
+0007bd85 (d?>9d?
+0007bd91 Yd?Hjd?
+0007bdc2 e?V,e?[<e?[Le?T\e?Gle?5|e?
+0007be09 9f?&If?
+0007be11 Xf?Uhf?
+0007be19 wf?l
+0007be42 g?|!g?
+0007be4d @g?@Og?v^g?
+0007be99 ]h?Nlh?
+0007bedd Ui?Udi?
+0007bf5e k?[%k?
+0007bf69 @k?DNk?
+0007bf71 [k?mik?
+0007bfad %l?C2l?y?l?
+0007bfc5 tl?0
+0007bffa m?r)m?<6m?
+0007c009 Om?w\m?*im?
+0007c04d %n?[1n?
+0007c059 In?EVn?
+0007c069 zn?-
+0007c0a5 /o?};o?UGo?)So?
+0007c0bd vo??
+0007c0f6 p?X$p?
+0007c0fd /p?(;p?
+0007c109 Qp?8]p?
+0007c159 0q?m;q?QFq?/Qq?
+0007c171 qq?r|q?6
+0007c1b2 r?+&r?
+0007c1bd ;r?gEr?
+0007c1c9 Zr?sdr?
+0007c1d5 yr?O
+0007c225 Bs?^Ls?5Vs?
+0007c239 ss?^}s?
+0007c27e t?8 t?
+0007c289 3t?]<t?
+0007c295 Ot?TXt?
+0007c2a5 tt?W}t?
+0007c2fd :u?SCu?
+0007c30d ]u?Qfu?
+0007c319 wu?\
+0007c366 v?V!v?
+0007c371 1v?":v?\Bv?
+0007c389 cv?9kv?Vsv?p{v?
+0007c3e6 w?@!w?
+0007c3f1 0w?H8w?
+0007c3fd Gw?'Ow?
+0007c405 Vw?O^w?
+0007c40d ew?emw?
+0007c415 tw?i|w?
+0007c47d 2x?'9x?-@x?.Gx?,Nx?$Ux?
+0007c495 \x?	cx?
+0007c4a9 ~x?v
+0007c50d $y?B+y?
+0007c519 8y?t>y?
+0007c521 Dy?*Ky?
+0007c531 ^y?edy?
+0007c53d py?&wy?]}y?
+0007c5b9 *z?q0z?+6z?
+0007c5c9 Az??Gz?
+0007c5d5 Rz?0Xz?
+0007c5dd ]z?gcz?
+0007c5f1 yz?-
+0007c6a1 ^{?kc{?Gh{?
+0007c6b9 {{?[
+0007c74a |?{#|?
+0007c755 ,|?H0|?
+0007c765 <|?*A|?ZE|?
+0007c781 Z|?4^|?Mb|?bf|?tj|?
+0007c859 &}?r)}?
+0007c861 ,}?K0}?
+0007c86d 7}?z:}?
+0007c875 =}?6A}?
+0007c881 G}?8K}?
+0007c88d Q}?!U}?hX}?
+0007c89d ^}?.b}?je}?
+0007c8b1 o}?=r}?ju}?
+0007c982 ~?,	~?
+0007c9a6 ~?t ~?
+0007c9c5 2~?|4~?
+0007c9cd 6~?e9~?
+0007c9d5 ;~?D>~?
+0007c9e9 G~?HJ~?
+0007c9f5 O~?`Q~?
+0007ca01 V~?cX~?
+0007ca0d ]~?Q_~?
+0007ca19 c~?)f~?lh~?
+0007ca29 l~?(o~?bq~?
+0007ca3d x~?3z~?b|~?
+0007d58a *:	*7:
+0007d59d Op:/
+0007d5f5 <-;S
+0007d6c9 U+<I
+0007d6d9 j8<Q
+0007d6de ;<,"?<
+0007d70d 7f<8
+0007d726 }<`{
+0007d869 6&=C
+0007d87a ,=` .=
+0007d882 /=cW1=
+0007d891 76=C
+0007d89d (;=A
+0007d8a2 <=8|>=
+0007d8b2 C=/:E=3
+0007d8ce O=1LQ=
+0007d8e1 YX=Z!Z=
+0007d8f5 Ra=X#c=
+0007d906 h=Nxj=
+0007d90d Rl={-n=
+0007d92d _{=7I}=
+0007dbad 0 >+
+0007dbb9 c">] #>&
+0007dbd6 '>XQ(>
+0007dbe9 P+>?
+0007dbf6 ->fU.>z
+0007dc09 _1>E#2>
+0007dc2a 7>[K8>
+0007dc3d g;>q/<>
+0007dc4e >>YR?>
+0007dc61 zB>sEC>
+0007dc72 E>>tF>
+0007dc89 vJ>,DK>
+0007dcb9 4T>y
+0007dcc9 ~W>AQX>
+0007dcd1 $Y>~
+0007dd01 &c>d
+0007dd2a k>gwl>
+0007dd71 !{>,
+0007e23a 	?CL	?>
+0007e3c2 !?sD!?5
+0007e3d2 !?47"?
+0007e3d9 s"?K
+0007e3e2 "?2)#?
+0007e416 %?86&?
+0007e429 $'?O`'?
+0007e44a (?y:)?
+0007e451 u)?x
+0007e45a )?>&*?
+0007e471 K+?4
+0007e47e +?i5,?
+0007e492 -?@X-?=
+0007e4a9 y.?J
+0007e4b2 .?|&/?
+0007e4b9 _/?p
+0007e4c6 0?fE0?
+0007e4fd '3?W`3?
+0007e50d 	4?"A4?*y4?!
+0007e525 X5?Q
+0007e535 66?ln6?
+0007e546 7?mK7?
+0007e556 7?R'8?
+0007e571 o9?l
+0007e581 H:?2~:?5
+0007e5a2 ;?@,<?
+0007e5ca >?'?>?
+0007e5d1 s>?n
+0007e5e5 z??I
+0007e5f2 @?zJ@?c~@?8
+0007e606 A?>MA?
+0007e61d NB?,
+0007e649 |D?E
+0007e659 DE?nvE?D
+0007e66a F?H=F?
+0007e671 nF?7
+0007e695 (H?QYH?
+0007e6aa I?rKI?
+0007e6be J?v;J?6kJ?
+0007e6d2 J?Z)K?
+0007e6fe L?&-M?
+0007e72a N?l&O?
+0007e731 SO?&
+0007e745 5P?kbP?4
+0007e75a Q?wAQ?
+0007e772 R?,JR?
+0007e786 R?L$S?
+0007e7a9 |T?:
+0007e7d5 LV?$vV?
+0007e805 9X?~bX?
+0007e825 {Y?Z
+0007e86a \?x9\?
+0007e886 ]?JB]?
+0007e8a5 F^?Vk^?
+0007e8bd !_?1F_?Xj_?f
+0007e8da `?FA`?
+0007e8e1 d`?+
+0007e8fd Za?Z}a?
+0007e939 Yc?S{c?
+0007e951  d?nAd? bd?
+0007e96e e?R$e?\De?Nde?)
+0007e991 "f?WAf?
+0007e9b2 g?e8g?
+0007e9b9 Vg?;ug?
+0007e9d5 )h?EGh?
+0007e9dd dh?t
+0007ea01 ki?@
+0007ea3e k?0,k?vGk?
+0007ea69 8l??Sl?
+0007ea86 l?a	m?
+0007eab9 7n?!Pn?
+0007eae1 )o?jAo?
+0007eb15 Wp?.np?
+0007eb41 Kq?raq?
+0007eb71 Jr?I_r?
+0007eb79 sr?p
+0007eba1 =s?JQs?
+0007eba9 ds?}xs?
+0007ebd5 7t?^Jt?
+0007ec06 u?t$u?
+0007ec11 Gu?;Yu?
+0007ec1d |u?Q
+0007ec42 v?{%v?
+0007ec49 6v?xFv?
+0007ec51 Vv?(gv?dwv?
+0007ec85 %w?u4w?
+0007ec95 bw?(qw?'
+0007ecc6 x?o x?
+0007ecdd fx?Mtx?
+0007ed15 !y?w.y?C;y?
+0007ed25 Ty?Bay?
+0007ed2d my?Bzy?
+0007ed71 9z?iDz?
+0007ed7d Zz?3fz?Vqz?j|z?o
+0007edc6 {?x%{?
+0007edd1 9{?|C{?`M{?5W{?
+0007ede5 j{?\t{?
+0007ee32 |?V!|?
+0007ee39 )|?h2|?
+0007ee41 :|?CC|?
+0007ee4d S|?'\|?Xd|?|l|?
+0007eec1 .}?f5}?*<}?
+0007eed1 I}?0P}?
+0007eed9 V}?N]}?
+0007eee1 c}?>j}?
+0007eeed w}?P}}?
+0007ef79 :~?{?~?ND~?
+0007ef8d R~?:W~?
+0007ef95 [~?v`~?
+0007efa5 n~?~r~?
+0007efad v~?K{~?
+0007f59d +p;X
+0007f5ed H <~
+0007f5f9 t3<A
+0007f61d hs<:
+0007f6d6 3=/	7=7T:=
+0007f6ee G=#8K=
+0007f6f6 N=I,R=(
+0007f6fe U=7=Y=s
+0007f709 j`=g
+0007f722 v=`kz=
+0007f825 0	>}
+0007f87e (>20*>
+0007f889 2->e
+0007f88e .>@;0>~
+0007f89e 4>{\6>6
+0007f8a6 7>Lu9>
+0007f8c2 B>bvD>
+0007f8ce G>uAI>
+0007f8d9 yL>#
+0007f8e2 O>JXQ>B
+0007f906 ^>|6`>z
+0007f91e h>,Vj>6
+0007f92d uo>3-q>
+0007f93a t>ZZv>K
+0007fbab ?D,	?:
+0007fc67 ?w2 ?Z
+0007fc9d T&?n
+0007fca5 B'?z
+0007fcaa '?/0(?
+0007fcbe *?l~*?
+0007fcd6 ,?;;-?6
+0007fce1 ".?t
+0007fced |/?}
+0007fcf5 b0?E
+0007fcfa 0?HF1?
+0007fd16 3?(]4?
+0007fd21 <5?$
+0007fd3d B8?/
+0007fd4e 9?)c:?0
+0007fd59 :;?]
+0007fd62 <?]|<?
+0007fd6a <?,Q=?!
+0007fd75 $>?#
+0007fd81 _??^
+0007fd86 ??~0@?P
+0007fd9a A?u4B?
+0007fda6 C?@fC?
+0007fdb1 0D?)
+0007fdba D?{]E?'
+0007fde2 H?S3I?
+0007fdee I?YSJ?
+0007fdfa K?MpK?
+0007fe05 ,L?+
+0007fe0e L?YDM?
+0007fe35 xP?8
+0007fe3a P?B+Q?
+0007fe46 Q?=4R?
+0007fe5e S?{<T?
+0007fe82 V?S0W?y
+0007fe95 vX?e
+0007fea1 gY?5
+0007feaa Z?;UZ?
+0007feb6 Z?{?[?
+0007fec2 [?a&\?
+0007fec9 r\?s
+0007feee _?HX_?d
+0007fefa _?~/`?{v`?
+0007ff0a a?3Ia?
+0007ff2d jc?*
+0007ff39 1d?ord?r
+0007ff46 d?Z4e??te?
+0007ff5d pf?'
+0007ff66 f? )g?
+0007ff7d Vh?1
+0007ff8a i?E@i?
+0007ff91 yi?*
+0007ffb1 9k?4pk?5
+0007ffd6 m?`Im?,|m?
+00080016 p?6Lp?uyp?]
+00080042 r?c+r?
+00080049 Tr?.~r?
+0008005e s?qGs?
+00080076 t?P.t?
+00080081 xt?w
+00080091 	u?L-u?{Pu?\su?
+000800b2 v?@>v?
+000800b9 _v?z
+000800fd _x?.{x?
+0008011d 4y?UNy?
+00080125 gy?x
+00080149 >z?`Uz?
+00080179 >{?MR{?
+00080181 e{?+y{?D
+000801aa |?(.|?
+000801b5 O|?A`|?
+000801ea }?G$}?
+00080205 s}?s
+00080242 ~?K)~?@3~?
+00080251 F~?3P~?
+00080265 t~?x}~?
+00080553 ;A}0;
+0008058e 6<C@D<
+00080595 9R<4
+000805f6 +=G&2=
+000805fe 8=aR?=
+00080615 :b= 
+000806de 4>-"7>X<:>
+0008070d bZ>?
+00080716 a>2id>I
+00080721 0k>l
+00080726 n>\	r>
+000808c3 ?no ?
+000808c9 b!?~U"?dG#?
+000808d9 (%?W
+000808fa ,?@u-?
+00080901 \.??C/?
+00080909 (0?N
+0008091e 4?zt5?
+00080952 ??qd@?t3A?7
+0008099d +N?&
+000809be S??gT?g
+000809ca U?VaV?
+000809d6 W?>NX?
+000809ea Z?2f[?!
+00080a01 X^?i
+00080a06 ^?b|_?
+00080a12 `?P&a?L
+00080a22 b?FIc?G
+00080a32 d?XTe?d
+00080a3d Pf?	
+00080a4a g?k8h?
+00080a52 h?R#i?
+00080a82 m?0+n?D
+00080a8e n?@Mo?*
+00080aa6 q?Clq?
+00080ab5 ir?j
+00080ac1 [s?	
+00080aca s?	At?#
+00080ae9 -v?Hov?
+00080afd iw?T
+00080b46 z?k {?pH{?
+00080b65 %|?qG|?lh|?
+00080b89 8}?|S}?sm}?
+00080bae ~?B$~?,8~?xK~?+^~?Fp~?
+00080d5e h<.q
+00080d8a (=ef5=
+00080d9d ?m=)T|=
+00080df9 q,>"
+00080e09 BE>\
+00080e16 X>p`_>(
+00080f05 W)?h.+?'
+00080f16 0?3b2?
+00080f35 Y>?x
+00080f3e A?|3C?]
+00080f49 VF?w
+00080f51 cI?6
+00080f56 J?h[L?
+00080f5e M?#=O?
+00080f6a R?KeS?
+00080f76 V?rYW?
+00080f89 L\?qz]?]
+00080fc6 k?f`l?
+00080fd6 n?a|o?v5p?
+00080fe6 q?5@r?
+00080ffd >u?8
+00081005 Nv?Z
+0008100a v?ZKw?
+00081026 y?O3z?
+00081042 |?	X|?X
+00081052 }?:F}?)z}?>
+00081066 ~?K.~?
+00081139 f#<?dY<
+0008118d x/>t
+00081192 ;>"tH>
+00081199 oU>k
+0008119e b>SQp>
+000811a5 0~>n*
+000811ef ?Al	?Yi
+0008120e $?tk(?>
+0008121a /?+D3?m
+00081225 -:?0
+00081251 |Z?<
+0008126a g?!]i?
+00081276 l?g\n?
+000812b1 6|?G
+000812b6 |?)+}?
+000812c5 A~?Y
+0008132b ;Jq=<
+00081337 <*S"=JvW=
+00081353 >dp)>A
+0008135e \>/8w>
+00081399 C*?1
+0008139e 1?~y8?
+000813a5 +??\
+000813b1 WQ?h
+000813d2 q?>ft?
+000813da v?hmx?
+00081422 x:LF
+0008142e ;=VI
+00081486 |?Kg~?
+00081570 Invalid packet
+00081580 Invalid mode in packet
+00081598 Extradata corrupt.
+000815b0 Id header is too short
+000815c8 Wrong packet type in Id header
+000815e8 Invalid packet signature in Id header
+00081610 Invalid framing bit in Id header
+00081638 Setup header is too short
+00081658 Wrong packet type in Setup header
+00081680 Invalid packet signature in Setup header
+000816b0 Out of memory
+000816c0 Invalid Setup header
+000816d8 %d modes (either a false positive or a sample from an unknown encoder)
+00081720 Unsupported mode count: %d
+00081740 Vorbis parser
+00081750 Index value %d out of range (0 - %d) for %s at %s:%i
+00081790 floor0 dec: booknumber too high!
+000817b8  Vorbis id header packet corrupt (no vorbis signature). 
+000817f8 Invalid number of channels
+00081818 Invalid samplerate
+00081830  Vorbis id header packet corrupt (illegal blocksize). 
+00081868  Vorbis id header packet corrupt (framing flag not set). 
+000818a8  Vorbis setup header packet corrupt (no vorbis signature). 
+000818e8  %u. Codebook setup data corrupt.
+00081910  %u. Codebook's dimension is invalid (%d).
+00081940  %u. Codebook has too many entries (%u).
+00081970  More codelengths than codes in codebook. 
+000819a0 Bug in codevector vector building code. 
+000819d0 Codebook lookup type not supported. 
+000819f8  Invalid code lengths while generating vlcs. 
+00081a28  Error generating vlc tables. 
+00081a48  Vorbis setup header packet corrupt (codebooks). 
+00081a80 Vorbis time domain transform data nonzero. 
+00081ab0  Vorbis setup header packet corrupt (time domain transforms). 
+00081af0 floor_setup->data.t1.class_masterbook[j]
+00081b20 libavcodec/vorbisdec.c
+00081b38 A rangebits value of 0 is not compliant with the Vorbis I specification.
+00081b88 Floor value is too large for blocksize: %u (%u)
+00081bc0 Floor 0 order is 0.
+00081bd8 Floor 0 rate is 0.
+00081bf0 Floor 0 bark map size is 0.
+00081c10 book_idx
+00081c20 Invalid floor type!
+00081c38 partition out of bounds: type, begin, end, size, blocksize: %u, %u, %u, %u, %u
+00081c88 res_setup->classbook
+00081ca0 res_setup->books[j][k]
+00081cb8 Other mappings than type 0 are not compliant with the Vorbis I specification. 
+00081d08 Square polar channel mapping with less than two channels is not compliant with the Vorbis I specification.
+00081d78 mapping_setup->magnitude[j]
+00081d98 mapping_setup->angle[j]
+00081db0 %u. mapping setup data invalid.
+00081dd8 mapping_setup->submap_floor[j]
+00081df8 mapping_setup->submap_residue[j]
+00081e20 mode_setup->mapping
+00081e38  Vorbis setup header packet corrupt (framing flag). 
+00081e70  Vorbis setup header packet corrupt (floors). 
+00081ea0  Vorbis setup header packet corrupt (residues). 
+00081ed8  Vorbis setup header packet corrupt (mappings). 
+00081f10  Vorbis setup header packet corrupt (modes). 
+00081f40 Id header corrupt.
+00081f58 Ignoring comment header
+00081f78 Setup header corrupt.
+00081f90 Data packet before valid headers
+00081fb8 Not a Vorbis I audio packet.
+00081fd8 mode_number
+00081fe8 Invalid codebook in vorbis_floor_decode.
+00082018 Too many channels in vorbis_floor_decode.
+00082048 Insufficient output buffer
+00082068 Invalid vlc code decoding %d channel.
+00082090 vr->classifications > 1
+000820a8  Invalid residue type while residue decode?! 
+000820d8 Extradata missing.
+000820f0 First header is not the id header.
+00082118 Third header is not the setup header.
+00090669 .init_array
+00090675 .fini_array
+00090681 .text
+00090687 .got
+0009068c .rela.plt
+00090696 .bss
+0009069b .dynstr
+000906a3 .gnu.version_r
+000906b2 .data.rel.ro
+000906bf .rela.dyn
+000906c9 .gnu.version
+000906d6 .dynsym
+000906de .hash
+000906e4 .gnu.version_d
+000906f3 .dynamic
+000906fc .shstrtab
+00090706 .rodata
+0009070e .data

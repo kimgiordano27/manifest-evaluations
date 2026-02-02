@@ -1,0 +1,247 @@
+{
+  "apk": "SkillsVR-empowered-reality-decoded",
+  "timestamp_utc": "2026-02-02T14:56:02.949307Z",
+  "decoded_path": "C:\\realDesktop\\manifest-evaluations\\decoded-apks\\SkillsVR-empowered-reality-decoded",
+  "summary": {
+    "so_count": 26,
+    "files_with_term_hits": 5,
+    "total_hits": 42
+  },
+  "matches": [
+    {
+      "so_file": "lib\\arm64-v8a\\libil2cpp.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "037634d4"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libOculusXRPlugin.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00034ab4"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00034ae9"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0003486e"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000349e9"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000354ea"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00035516"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00035539"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00035565"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000355a4"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0016f558"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017652f"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00179260"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017e585"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017e766"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0017e77d"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libopenxr_loader.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0000f3d2"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0001213a"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "00012a58"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libOVRPlugin.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "eye tracking",
+          "offset_hex": "000773c7"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "eye tracking",
+          "offset_hex": "000773e9"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00072e70"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00072f13"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0007316c"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00076985"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00076df8"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00076e19"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0007706b"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00077209"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00077339"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00077364"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000774f2"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00077510"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000775ff"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00082b5d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00082da9"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00082dfa"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libunity.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "01418331"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0142f66d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "01432110"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "01469988"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "014798b1"
+        }
+      ]
+    }
+  ]
+}

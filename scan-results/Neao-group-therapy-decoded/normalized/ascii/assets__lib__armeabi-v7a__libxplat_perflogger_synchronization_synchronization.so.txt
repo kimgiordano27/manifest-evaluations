@@ -1,0 +1,182 @@
+000000f6 td #
+00000180 Android
+0000018c r26b
+000001cc 10909125
+0000050d __cxa_finalize
+0000051c __cxa_atexit
+00000529 __register_atfork
+0000053b _ZN8facebook10perflogger8internal11SharedMutexC2Ev
+0000056e pthread_rwlock_init
+00000582 _ZN8facebook10perflogger8internal11SharedMutexD2Ev
+000005b5 pthread_rwlock_destroy
+000005cc _ZN8facebook10perflogger8internal11SharedMutex4lockEv
+00000602 pthread_rwlock_wrlock
+00000618 _ZN8facebook10perflogger8internal11SharedMutex6unlockEv
+00000650 pthread_rwlock_unlock
+00000666 _ZN8facebook10perflogger8internal11SharedMutex11lock_sharedEv
+000006a4 pthread_rwlock_rdlock
+000006ba _ZN8facebook10perflogger8internal11SharedMutex13unlock_sharedEv
+000006fa _ZN8facebook10perflogger8internal11SharedMutexC1Ev
+0000072d _ZN8facebook10perflogger8internal11SharedMutexD1Ev
+00000760 __tls_get_addr
+0000076f fwrite
+00000776 vfprintf
+0000077f fputc
+00000785 vasprintf
+0000078f android_set_abort_message
+000007a9 openlog
+000007b1 syslog
+000007b8 closelog
+000007c1 abort
+000007c7 stderr
+000007ce __stack_chk_fail
+000007df __stack_chk_guard
+000007f1 free
+000007f6 strcmp
+000007fd fprintf
+00000805 fflush
+0000080c libc.so
+00000814 LIBC
+00000819 LIBC_Q
+00000820 libxplat_perflogger_synchronization_synchronization.so
+00000858 APS2
+00000bac uncaught
+00000bb5 _Unwind_VRS_Set
+00000bc5 unsupported register class
+00000be0 terminating due to %s exception of type %s
+00000c0b terminating due to %s exception of type %s: %s
+00000c3a terminating due to %s foreign exception
+00000c62 terminate_handler unexpectedly threw an exception
+00000c94 _Unwind_VRS_Get_Internal
+00000cad libc++abi
+00000cb7 terminating
+00000cc3 terminate_handler unexpectedly returned
+00000ceb libc++abi: 
+00000cf7 libunwind: %s - %s
+00000d0b St9exception
+00000d18 N10__cxxabiv116__shim_type_infoE
+00000d39 N10__cxxabiv117__class_type_infoE
+00000d5b N10__cxxabiv120__si_class_type_infoE
+00000d80 St9type_info
+00000e2e NB@h
+00000e46 CqH@
+00000e50 @	pGp
+00000ea3 9A``jp
+00000ece NCbh
+00000ee6 CrQ@
+00000f44 	HxD
+00000fa8 $HxD
+00000fc8 L2Q@B
+00000fd2 +2P@
+00001007 H)F"FxD
+00001015 HyDxD	h
+00001025 HyDxD	h
+0000106f "4h;a#F
+0000107e 0h)F
+00001133 !BF#F
+000011c4 BF#F
+000011e0  F)F
+0000120e  F)F
+0000121a 	JzD
+0000135a PF)F
+00001363 FPF)F
+0000136d FPF)F
+00001444 L2Q@B
+0000144e +2P@
+000014b0 L2Q@B
+000014ba +2P@
+000014e9 (XFO
+00001520 2C?+
+00001562 L2Q@B
+0000156c +2P@
+000015bd IyD	h	h
+00001624 	h	h
+00001677 IyD	h	h
+000016bb eeee
+0000170f @ +8
+00001773 `pF]
+0000178f IyD	h	h
+000017a7 F&F5h]
+000017ae `YJF
+000017c9 IyD	h	h
+00001830 Ihph
+00001847 %xDzD
+000018a8 	IyD	h	h
+000018ec 8hQhP
+00001943  0FBF
+000019f2 FiPF
+00001a2d IyD	h	h
+00001aba 1F*F#F]
+00001aed h*FCF
+00001b01 @`G1F*FCF]
+00001b18 oFHhO
+00001b9c uhAh(F
+00001bb2 Ahuh
+00001bc2  hAh
+00001bd3 hJFCF
+00001be6 `hHE;
+00001bf8  iHE
+00001bfe `iHE
+00001c0b   b)
+00001c8a AhHF
+00001c9a AhHF
+00001ca0 Ahmh
+00001cb0  hAh
+00001d2e Ah`h
+00001d34 Ah`h
+00001d43 hJFCF
+00001d49 hLi1F
+00001d60 1FJFCF
+00001d8e Ih@h
+00001d94 Ih@h
+00001da9 `1F*FCF]
+00001ddc (F1F
+00001e17 q(F"F
+00001e35 J	KyD
+00001e3b hzD{D h
+00001e80 2h F)F
+00001eaa 2h F
+00001edd J	KyD
+00001ee3 hzD{D h
+00001f15 $yD	h	h
+00001f69 $yD	h	h
+00001fe2 0h)F
+00002024  h)F2F
+00002040 JjiF
+00002059 !Bk F
+0000205f G(hh
+00002077 D Fo
+000020bf FBi0F
+000020c8 0h)F
+000020f9 FBi F
+00002102  h1F*FCF
+00002133 hJj!F
+0000215d D`G@
+00002169 D`G@
+00002175 D`G@
+0000250d aeabi
+00002518 C2.09
+00002545 .fini_array
+00002551 .ARM.exidx
+0000255c .text
+00002562 .got
+00002567 .note.android.ident
+0000257b .got.plt
+00002584 .rel.plt
+0000258d .tbss
+00002593 .ARM.attributes
+000025a3 .dynstr
+000025ab .gnu.version_r
+000025ba .data.rel.ro
+000025c7 .relr.dyn
+000025d1 .rel.dyn
+000025da .gnu.version
+000025e7 .dynsym
+000025ef .gnu.hash
+000025f9 .relro_padding
+00002608 .note.gnu.build-id
+0000261b .dynamic
+00002624 .ARM.extab
+0000262f .shstrtab
+00002639 .rodata
+00002641 .data

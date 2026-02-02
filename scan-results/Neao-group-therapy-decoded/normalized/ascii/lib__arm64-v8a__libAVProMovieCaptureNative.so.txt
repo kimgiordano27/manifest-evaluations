@@ -1,0 +1,3527 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+00001af0 6>c0
+00001b89 __cxa_finalize
+00001b98 __cxa_atexit
+00001ba5 __register_atfork
+00001bb7 JNI_OnLoad
+00001bc2 __stack_chk_fail
+00001bd3 Java_com_renderheads_AVPro_MovieCapture_Manager_nativeInit
+00001c0e __android_log_print
+00001c22 memcpy
+00001c29 AVPMC_Init
+00001c34 AVPMC_Deinit
+00001c41 AVPMC_IsTrialVersion
+00001c56 AVPMC_GetPluginVersion
+00001c6d AVPMC_SetMicrophoneRecordingHint
+00001c8e AVPMC_CreateRecorderVideo
+00001ca8 AVPMC_CreateRecorderImages
+00001cc3 memmove
+00001ccb AVPMC_CreateRecorderPipe
+00001ce4 AVPMC_FreeRecorder
+00001cf7 AVPMC_Start
+00001d03 AVPMC_Pause
+00001d0f AVPMC_Stop
+00001d1a AVPMC_IsFileWritingComplete
+00001d36 AVPMC_IsNewFrameDue
+00001d4a AVPMC_SetRenderBuffer
+00001d60 AVPMC_SetTexturePointer
+00001d78 AVPMC_SetColourBuffer
+00001d8e AVPMC_SetEncodedFrameLimit
+00001da9 AVPMC_EncodeFrame
+00001dbb AVPMC_EncodeAudio
+00001dcd AVPMC_EncodeFrameWithAudio
+00001de8 AVPMC_GetNumDroppedFrames
+00001e02 AVPMC_GetNumDroppedEncoderFrames
+00001e23 AVPMC_GetNumEncodedFrames
+00001e3d AVPMC_GetEncodedSeconds
+00001e55 AVPMC_GetFileSize
+00001e67 AVPMC_GetFreeSpaceInBytesForPath
+00001e88 statvfs
+00001e90 __errno
+00001e98 strerror
+00001ea1 AVPMC_AddAmbisonicSourceInstance
+00001ec2 AVPMC_RemoveAmbisonicSourceInstance
+00001ee6 AVPMC_GetVideoCodecCount
+00001eff AVPMC_GetAudioCodecCount
+00001f18 AVPMC_GetVideoCodecName
+00001f30 AVPMC_GetAudioCodecName
+00001f48 AVPMC_GetVideoCodecMediaApi
+00001f64 AVPMC_GetAudioCodecMediaApi
+00001f80 AVPMC_IsConfigureVideoCodecSupported
+00001fa5 AVPMC_IsConfigureAudioCodecSupported
+00001fca AVPMC_ConfigureVideoCodec
+00001fe4 AVPMC_ConfigureAudioCodec
+00001ffe AVPMC_GetAudioInputDeviceCount
+0000201d AVPMC_GetAudioInputDeviceName
+0000203b AVPMC_GetAudioInputDeviceMediaApi
+0000205d AVPMC_GetContainerFileExtensions
+0000207e UnityPluginLoad
+0000208e UnityPluginUnload
+000020a0 AVPMC_GetRenderEventFunc
+000020b9 AVPMC_GetFreeResourcesEventFunc
+000020d9 AVPMC_GetSetupEventFunc
+000020f1 strlen
+000020f8 abort
+000020fe memcmp
+00002105 memset
+0000210c __system_property_get
+00002122 atoi
+00002127 rand
+0000212c AMediaCodec_createCodecByName
+0000214a AMediaCodec_createEncoderByType
+0000216a sinf
+0000216f fopen
+00002175 fclose
+0000217c malloc
+00002183 free
+00002188 realloc
+00002190 fwrite
+00002197 dlerror
+0000219f dlopen
+000021a6 dlsym
+000021ac dlclose
+000021b4 pthread_create
+000021c3 __vsnprintf_chk
+000021d3 remove
+000021da pthread_setspecific
+000021ee inflateInit2_
+000021fc inflate
+00002204 inflateEnd
+0000220f crc32
+00002215 sscanf
+0000221c strcmp
+00002223 eglGetDisplay
+00002231 eglGetError
+0000223d eglGetCurrentDisplay
+00002252 eglQueryString
+00002261 strdup
+00002268 strtok
+0000226f eglGetCurrentContext
+00002284 eglQueryContext
+00002294 eglChooseConfig
+000022a4 eglCreateContext
+000022b5 eglMakeCurrent
+000022c4 eglDestroyContext
+000022d6 eglGetProcAddress
+000022e8 memchr
+000022ef AMediaCodec_delete
+00002302 AMediaMuxer_delete
+00002315 close
+0000231b AMediaFormat_new
+0000232c AMEDIAFORMAT_KEY_MIME
+00002342 AMediaFormat_setString
+00002359 AMEDIAFORMAT_KEY_WIDTH
+00002370 AMediaFormat_setInt32
+00002386 AMEDIAFORMAT_KEY_HEIGHT
+0000239e AMEDIAFORMAT_KEY_FRAME_RATE
+000023ba AMediaFormat_setFloat
+000023d0 AMEDIAFORMAT_KEY_BIT_RATE
+000023ea AMEDIAFORMAT_KEY_COLOR_FORMAT
+00002408 AMEDIAFORMAT_KEY_I_FRAME_INTERVAL
+0000242a AMEDIAFORMAT_KEY_STRIDE
+00002442 AMediaCodec_configure
+00002458 AMediaMuxer_setOrientationHint
+00002477 AMediaCodec_start
+00002489 AMediaFormat_delete
+0000249d AMediaCodec_getInputBuffer
+000024b8 AMediaCodec_queueInputBuffer
+000024d5 AMEDIAFORMAT_KEY_CHANNEL_COUNT
+000024f4 AMEDIAFORMAT_KEY_SAMPLE_RATE
+00002511 AMEDIAFORMAT_KEY_MAX_INPUT_SIZE
+00002531 AMEDIAFORMAT_KEY_AAC_PROFILE
+0000254e open
+00002553 AMediaMuxer_new
+00002563 AMediaCodec_getOutputFormat
+0000257f AMediaMuxer_addTrack
+00002594 AMediaMuxer_start
+000025a6 AMediaCodec_getOutputBuffer
+000025c2 AMediaMuxer_writeSampleData
+000025de AMediaCodec_releaseOutputBuffer
+000025fe AMediaMuxer_stop
+0000260f strncmp
+00002617 fseeko
+0000261e ftello
+00002625 fflush
+0000262c fread
+00002632 fseek
+00002638 vsnprintf
+00002642 calloc
+00002649 AMediaCodec_dequeueInputBuffer
+00002668 AMediaCodec_dequeueOutputBuffer
+00002688 gettid
+0000268f usleep
+00002696 clock_nanosleep
+000026a6 clock_gettime
+000026b4 cosh
+000026b9 SL_IID_ANDROIDCONFIGURATION
+000026d5 SL_IID_RECORD
+000026e3 SL_IID_PLAY
+000026ef SL_IID_ANDROIDSIMPLEBUFFERQUEUE
+0000270f SL_IID_ENGINE
+0000271d SL_IID_BUFFERQUEUE
+00002730 pthread_cond_signal
+00002744 pthread_cond_broadcast
+0000275b pthread_cond_wait
+0000276d pthread_cond_timedwait
+00002784 pthread_getspecific
+00002798 pthread_cond_destroy
+000027ad pthread_mutex_lock
+000027c0 pthread_mutex_unlock
+000027d5 pthread_mutex_trylock
+000027eb pthread_mutex_destroy
+00002801 wcslen
+00002808 strtol
+0000280f strtoll
+00002817 strtof
+0000281e strtod
+00002825 snprintf
+0000282e strerror_r
+00002839 pthread_join
+00002846 pthread_detach
+00002855 sysconf
+0000285d pthread_key_create
+00002870 newlocale
+0000287a uselocale
+00002884 vsscanf
+0000288c isxdigit_l
+00002897 isdigit_l
+000028a1 strftime_l
+000028ac mbsrtowcs
+000028b6 vasprintf
+000028c0 freelocale
+000028cb iswlower_l
+000028d6 islower_l
+000028e0 isupper_l
+000028ea wcsnrtombs
+000028f5 wcrtomb
+000028fd mbsnrtowcs
+00002908 mbrtowc
+00002910 mbtowc
+00002917 __ctype_get_mb_cur_max
+0000292e mbrlen
+00002935 strtoll_l
+0000293f strtoull_l
+0000294a strtold_l
+00002954 stat
+00002959 syscall
+00002961 __sF
+00002966 vfprintf
+0000296f fputc
+00002975 android_set_abort_message
+0000298f openlog
+00002997 syslog
+0000299e closelog
+000029a7 __assert2
+000029b1 fprintf
+000029b9 posix_memalign
+000029c8 pthread_once
+000029d5 pthread_key_delete
+000029e8 getauxval
+000029f2 pthread_rwlock_wrlock
+00002a08 pthread_rwlock_unlock
+00002a1e dl_iterate_phdr
+00002a2e pthread_rwlock_rdlock
+00002a44 getpid
+00002a4b libm.so
+00002a53 LIBC
+00002a58 libdl.so
+00002a61 libc.so
+00002a69 liblog.so
+00002a73 libmediandk.so
+00002a82 libEGL.so
+00002a8c libGLESv3.so
+00002a99 libandroid.so
+00002aa7 libz.so
+00002aaf libOpenSLES.so
+00002abe libAVProMovieCaptureNative.so
+0001ad87 	< p
+00020270 CheckPermission
+00020283  (JavaInterface.cpp:234) JavaInterface::GetFormatAdjustmentForEncode - no cached method id
+000202de _Changed
+000202ed  (UnityPlugin.cpp:111) OpenGLES2 is not supported
+0002031f OPUS
+00020327  (ImageRecorder.cpp:186) ImageRecorder::writeJpg_stbi - failed to open file for writing, error: %d
+0002038a AMEDIA_DRM_DEVICE_REVOKED
+000203a4 AMEDIA_DRM_TAMPER_DETECTED
+000203bf ANDROID_BITMAP_FORMAT_RGB_565
+000203e1  (VideoCaptureFactoryOpenGLES.cpp:100) VideoCaptureFactoryOpenGLES::setup - Android 9 and Adreno 308 detected, forcing GLSL ES version to 3.00
+00020473  (VideoCaptureFactoryOpenGLES.cpp:242) VideoCaptureFactoryOpenGLES::setup - Failed to choose config, error: %d - %s
+000204e7 UVInterleaved
+000204f8  (VideoCaptureOutputOpenGLESPixelBuffer.cpp:451) VideoCaptureOutputOpenGLESPixelBuffer::setup - framebuffer is not complete, status: %s
+00020583  (VideoCaptureOutputOpenGLESPixelBuffer.cpp:472) VideoCaptureOutputOpenGLESPixelBuffer::setup - framebuffer is not complete, status: %s
+0002060b GL_CCW
+00020612 GL_FASTEST
+0002061d GL_RGB
+00020624 GL_TEXTURE2
+00020630 GL_RENDERBUFFER_WIDTH
+00020646 GL_RENDERBUFFER_HEIGHT
+0002065d GL_RENDERBUFFER_INTERNAL_FORMAT
+0002067d GL_RENDERBUFFER_BLUE_SIZE
+00020697 glBindFramebufferANGLE
+000206ae glBindRenderbuffer
+000206c1 glClearColorAPPLE
+000206d3 glCreateShaderAPPLE
+000206e7 glGetErrorOES
+000206f5 glGetIntegervANGLE
+00020708 glGetShaderiv
+00020716 glGetShaderivOES
+00020727 glRenderbufferStorageAPPLE
+00020742 glTexStorage2D
+00020751 glTexStorage2DAPPLE
+00020765 glUniform1i
+00020771 glUniformMatrix4fvAPPLE
+00020789 EGL_BAD_NATIVE_WINDOW
+0002079f parseProgramShader - missing name
+000207c1 UV_sRGB
+000207c9 vkFreeMemory
+000207d6 vkGetImageSubresourceLayout
+000207f8  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkResetCommandBuffer'
+00020854  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdPipelineBarrier'
+000208b0  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateDescriptorSetLayout'
+00020913  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyImageView'
+0002096a  (VideoRecorder.cpp:1139) VideoRecorder::createAudioCapture - failed to create an AudioBufferQueue instance
+000209d6 AMediaCodec_getInputFormat
+000209f1 AAudioStreamBuilder_setBufferCapacityInFrames
+00020a1f AAudioStreamBuilder_setFormat
+00020a3d AAudioStream_getAllowedCapturePolicy
+00020a62 QuirksManager::%s() using mono internally for low latency on O
+00020aa1 %s() called with NULL configuration
+00020ac5 SetConfiguration(PERFORMANCE_MODE, SL %u) returned %s
+00020afb SL_RESULT_BUFFER_INSUFFICIENT
+00020b19 Wednesday
+00020b23 %s failed to acquire mutex
+00020b3e std::exception
+00020b4d Parser.ForwardTemplateRefs.empty()
+00020b70 const_cast
+00020b7b operator~
+00020b85 operator<<=
+00020b91 operator new
+00020ba1 Index <= size() && "dropBack() can't expand!"
+00020bcf FromPosition <= Names.size()
+00020bef CIE version is not 1 or 3
+00020c09 SHA256
+00020c10 (IIDID)Lcom/renderheads/AVPro/MovieCapture/VideoFormat;
+00020c48 Edition
+00020c57  (PluginAudioInputDevice.cpp:94) PluginAudioInputDevice::StartRecording - failed to start stream, error: %s
+00020cc6  (ImageRecorder.cpp:360) ImageRecorder::lateBindFunctions - failed to bind %s, error: %s
+00020d25  (VideoCaptureFactoryOpenGLES.cpp:85) VideoCaptureFactoryOpenGLES::setShadingLanguageVersion - GLSL minor version of %d is unrecognised, using: %d
+00020db8 GL_CURRENT_VERTEX_ATTRIB
+00020dd1 GL_TEXTURE_2D
+00020ddf GL_POLYGON_OFFSET_FILL
+00020df6 GL_SAMPLE_COVERAGE
+00020e09 GL_DEPTH_RANGE
+00020e18 GL_STENCIL_BACK_REF
+00020e2c GL_SAMPLES
+00020e37 GL_MAX_VERTEX_UNIFORM_VECTORS
+00020e55 GL_LESS
+00020e5d GL_LOW_INT
+00020e68 GL_FRAMEBUFFER_UNSUPPORTED
+00020e83 glActiveTexture
+00020e93 glClearANGLE
+00020ea0 glClearBufferfv
+00020eb0 glDeleteFramebuffersANGLE
+00020eca glDeleteFramebuffersAPPLE
+00020ee4 glDeleteShaderOES
+00020ef6 glFramebufferTexture2DOES
+00020f10 glGenVertexArraysANGLE
+00020f27 glIsEnabledAPPLE
+00020f38 glRenderbufferStorageANGLE
+00020f53 glTexParameterfvANGLE
+00020f69 glTexParameteriOES
+00020f7c glUniform1fOES
+00020f8b glUniformMatrix3x2fvANGLE
+00020fa5 EGL_SUCCESS
+00020fb1 VideoCaptureOpenGLESShaders::addProgram - shader type is not valid
+00020ff4 vertex
+00020ffb parseProgramShader - missing type
+0002101d vkCmdEndRenderPass
+00021030 vkCreateSampler
+00021040 vkDestroyDescriptorPool
+00021058 vkDestroyFramebuffer
+00021073  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdDraw'
+000210c4  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetImageMemoryRequirements'
+00021125  (VideoRecorder.cpp:1501) VideoRecorder::muxerThread - failed to release audio output buffer, error: %d - %s
+00021192 color-standard
+000211a5 AudioCodecDequeueInputBufferThread
+000211c8 AAudioStream_getSampleRate
+000211e3 AAudioStream_getSessionId
+000211fd SL_RESULT_PRECONDITIONS_VIOLATED
+0002121e SL_RESULT_RESOURCE_LOST
+00021236 SL_RESULT_FEATURE_UNSUPPORTED
+00021254 %H:%M:%S
+0002125d posix_stat
+00021268 ___Z
+0002126d Ua9enable_ifI
+0002127b non-virtual thunk to 
+00021294 operator delete[]
+000212a6 operator delete
+000212b6 operator<=>
+000212c2 unsigned int
+000212cf void *(anonymous namespace)::fallback_malloc(size_t)
+00021304 truncated uleb128 expression
+00021321 FDE has zero length
+00021335 findClass
+0002133f (I[B[B)Ljavax/crypto/Cipher;
+0002135c CreateVideoFormat
+00021375  (PluginState.cpp:78) Deregistered handle %d
+000213a9  (PluginState.cpp:223) PluginState::TryAddVideoCodec(VideoCodec::%s) - max supported width of %d is too low, dropping codec
+00021425 video/hevc
+00021437  (PluginAudioInputDevice.cpp:45) PluginAudioInputDevice::PrepareRecording -   sample rate: %d
+00021495 The media object is not in the right state for the required operation.
+000214dc The required image buffer could not be locked to read.
+00021513 ANDROID_BITMAP_RESULT_UNKNOWN
+00021534  (UnpackBuffer.cpp:312) UnpackBuffer::decryptLibrary - failed to finalise cryptor, error: %d
+00021594  (VideoCaptureFactoryOpenGLES.cpp:283) VideoCaptureFactoryOpenGLES::setup - Failed to choose config, error: %s
+00021606  (VideoCaptureOutputOpenGLESPixelBuffer.cpp:421) VideoCaptureOutputOpenGLESPixelBuffer::setup - framebuffer is not complete, status: %s
+0002168e GL_MAX_TEXTURE_IMAGE_UNITS
+000216a9 GL_SHADER_TYPE
+000216b8 GL_ACTIVE_UNIFORMS
+000216cb GL_REPLACE
+000216d6 GL_INCR_WRAP
+000216e3 GL_LINEAR_MIPMAP_NEAREST
+000216fc GL_TEXTURE5
+00021708 GL_INT_VEC3
+00021714 glBindTexture
+00021722 glBufferSubDataANGLE
+00021737 glCompileShaderANGLE
+0002174c glDeleteVertexArraysANGLE
+00021766 glDetachShaderOES
+00021778 glDisable
+00021782 glDrawArraysANGLE
+00021794 glFlushANGLE
+000217a1 glGenVertexArraysOES
+000217b6 glGenTexturesAPPLE
+000217c9 glGetUniformLocationANGLE
+000217e3 glReadPixels
+000217f0 glUniformMatrix3fv
+00021803 EGL_NOT_INITIALIZED
+00021817 EGL_BAD_MATCH
+0002182b  (VideoCaptureShaderLibraryParser.cpp:51) getAttribute - node has no attribute "%s"
+00021882 map::at:  key not found
+0002189a vkDestroySampler
+000218b1  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBeginCommandBuffer'
+0002190d  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateFence'
+00021962  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyDescriptorPool'
+000219c1  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyImage'
+00021a14  (VideoRecorder.cpp:187) VideoRecorderAPI28::onCodecError - codec failed with error: %d - %s, code: %d, detail: %s
+00021a87 aaudio.mmap_exclusive_policy
+00021aa4 AAudioStream_getBufferCapacityInFrames
+00021acb AAudioStream_getInputPreset
+00021aeb ro.build.changelist
+00021aff updateServiceFrameCounter
+00021b19 Realize player object result:%s
+00021b39 EngineOpenSLES - slCreateEngine() result:%s
+00021b69 __cxa_guard_acquire
+00021b7d typeinfo for 
+00021b8b auto
+00021b90 operator&
+00021b9a operator++
+00021ba5 char
+00021baa T &(anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::Node *, 8> *, 4>::back() [T = (anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::Node *, 8> *, N = 4]
+00021cda void (anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::ForwardTemplateReference *, 4>::dropBack(size_t) [T = (anonymous namespace)::itanium_demangle::ForwardTemplateReference *, N = 4]
+00021dc2 void (anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::Node *, 32>::dropBack(size_t) [T = (anonymous namespace)::itanium_demangle::Node *, N = 32]
+00021e87 DW_EH_PE_textrel pointer encoding not supported
+00021eb7 Can't binary search on variable length encoded data.
+00021eef _Plane1RowStride
+00021f02 basic_string
+00021f12  (PluginAudioInputDevice.cpp:61) PluginAudioInputDevice::UnprepareRecording - failed to stop stream, error: %s
+00021f87  (ImageRecorder.cpp:266) ImageRecorder::writePng_ABitmap - failed to write png, error: %d - %s
+00021fe6 AMEDIA_ERROR_IO
+00021ff6 ANDROID_BITMAP_RESULT_JNI_EXCEPTION
+0002201a ANDROID_BITMAP_FORMAT_NONE
+00022035 Invalid
+0002203d GL_FRONT_AND_BACK
+0002204f GL_DEPTH_WRITEMASK
+00022062 GL_STENCIL_CLEAR_VALUE
+00022079 GL_STENCIL_VALUE_MASK
+0002208f GL_LUMINANCE_ALPHA
+000220a2 GL_TEXTURE_MIN_FILTER
+000220b8 GL_TEXTURE7
+000220c4 glBlitFramebufferAPPLE
+000220db glBufferSubData
+000220eb glDeleteBuffers
+000220fb glDeleteBuffersOES
+0002210e glDeleteTexturesOES
+00022122 glDisableOES
+0002212f glFramebufferRenderbufferANGLE
+0002214e glGenRenderbuffersAPPLE
+00022166 glGetAttribLocationANGLE
+0002217f glTexParameteri
+0002218f glUniformMatrix2fv
+000221a2 glUniformMatrix4fv
+000221b5 glUniformMatrix4fvANGLE
+000221cd (VideoCaptureOpenGLESShaders.cpp:98) failed to create shader module for shader: 
+0002221e  has no source cdata
+00022233 Y_Video
+0002223b vkFlushMappedMemoryRanges
+0002225b  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateFramebuffer'
+000222b6  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyFramebuffer'
+0002230f  (VideoRecorder.cpp:1351) VideoRecorder::muxerThread - failed to close the file, error: %d - %s
+00022372  (VideoRecorder.cpp:1531) VideoRecorder::muxerThread - failed to write to video track, error: %d - %s
+000223d8 profile
+000223e3 AAudioStream_getFormat
+000223fa AAudioStream_setBufferSizeInFrames
+0002241d ErrorUnavailable
+0002242e createAudioPlayer() result:%s
+0002244c Failed to clear buffer queue. OpenSLES error: %d
+0002247d terminating
+00022489 invocation function for block in 
+000224ab operator new[]
+000224ba operator|=
+000224c5 reinterpret_cast
+000224d6 Res.startsWith("operator") && "operator name does not start with 'operator'"
+0002252c evaluateExpression
+00022543 CIE ID is not zero
+00022556 (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;ILjava/nio/ByteBuffer;)I
+0002259a FinaliseCryptor
+000225aa _SliceHeight
+000225b7 UNKNOWN
+000225bf The requested media operation completed successfully.
+000225f5 The called media function failed with an unknown error.
+0002262d The input media data is corrupt or incomplete.
+0002265f  (UnpackBuffer.cpp:526) UnpackBuffer::decompressBuffer - failed to inflate, status: %d
+000226bd  (VideoCaptureFactoryOpenGLES.cpp:317) VideoCaptureFactoryOpenGLES::setup - glVendor: %s
+00022716 GL_BLEND_DST_ALPHA
+00022729 GL_ALIASED_POINT_SIZE_RANGE
+00022745 GL_ALPHA_BITS
+00022753 GL_ACTIVE_UNIFORM_MAX_LENGTH
+00022770 GL_SHADING_LANGUAGE_VERSION
+0002278c GL_SAMPLER_CUBE
+0002279c GL_VERTEX_ATTRIB_ARRAY_SIZE
+000227b8 GL_SHADER_SOURCE_LENGTH
+000227d0 GL_HIGH_INT
+000227dc GL_RENDERBUFFER_GREEN_SIZE
+000227f7 GL_STENCIL_ATTACHMENT
+0002280d glActiveTextureOES
+00022820 glBufferSubDataOES
+00022833 glDeleteShader
+00022842 glFlushOES
+0002284d glGetProgramInfoLogAPPLE
+00022866 glGetTexParameterivOES
+0002287d glGetUniformLocation
+00022892 glUniform1f
+0002289e glUniformMatrix3x2fv
+000228b3 glUseProgramAPPLE
+000228c5 EGL_BAD_NATIVE_PIXMAP
+000228db gles3
+000228e1 shader specialisation constant id must be >= 0
+00022910 RGBA_sRGB
+0002291a vkAllocateDescriptorSets
+00022933 vkDestroySemaphore
+00022946 vkEnumerateDeviceExtensionProperties
+0002296e  (VideoRecorderAPI28.cpp:247) VideoRecorderAPI28::createVideoCodecPostConfigure - failed to set callbacks for codec, error: %d - %s
+000229f2 %s() could not find AAudio_getMMapPolicy
+00022a1b AAudioStreamBuilder_setDataCallback
+00022a3f AAudioStream_getFramesRead
+00022a5a AAudioStream_requestPause
+00022a74 AAudioStream_getUsage
+00022a8d Unspecified
+00022a99 Unrecognized audio API
+00022ab0 AudioStreamOpenSLES::open() numeric overflow because mFramesPerBurst = %d
+00022afa SpatializationBehavior [AudioStreamBuilder::setSpatializationBehavior()] is not supported on OpenSLES streams.
+00022b69 SL_RESULT_CONTROL_LOST
+00022b82 operator,
+00022b8c operator->
+00022b9a Parser->TemplateParams.size() >= OldNumTemplateParamLists
+00022bd7 unsupported arm64 register
+00022bfa _Rotate90
+00022c07  (PluginAudioInputDevice.cpp:187) PluginAudioInputDevice::onErrorAfterClose - %s
+00022c58 AMEDIA_DRM_LICENSE_EXPIRED
+00022c73 An Error occurred when the Media object is carrying IO operation.
+00022cb8  (UnpackBuffer.cpp:507) UnpackBuffer::decompressBuffer - failed to init z stream, status: %d
+00022d15 OpenGL ES GLSL ES %d.%d
+00022d34  (VideoCaptureFactoryOpenGLES.cpp:192) VideoCaptureFactoryOpenGLES::setup - eglExtensions:
+00022d8f GL_ONE_MINUS_CONSTANT_ALPHA
+00022dab GL_STENCIL_FAIL
+00022dbb GL_SAMPLE_BUFFERS
+00022dcd GL_NUM_COMPRESSED_TEXTURE_FORMATS
+00022def GL_UNSIGNED_SHORT_4_4_4_4
+00022e09 GL_RENDERER
+00022e15 GL_SHADER_COMPILER
+00022e28 glClearBufferfvAPPLE
+00022e3d glEnableVertexAttribArray
+00022e57 glFramebufferTexture2D
+00022e6e glGenerateMipmapOES
+00022e82 glGetShaderInfoLog
+00022e95 glRenderbufferStorage
+00022eab glUniformMatrix2fvANGLE
+00022ec3 glUnmapBuffer
+00022ed1 EGL_CONTEXT_LOST
+00022ee2 fragment
+00022eeb RGB_sRGB
+00022ef4 vkBeginCommandBuffer
+00022f09 vkCmdBeginRenderPass
+00022f1e vkCmdBindPipeline
+00022f30 vkCmdDraw
+00022f3a vkCmdSetViewport
+00022f4b vkCreateDescriptorPool
+00022f68  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBindVertexBuffers'
+00022fc6  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdCopyBufferToImage'
+00023024  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyPipeline'
+0002307e  (VideoRecorder.cpp:648) VideoRecorder::createVideoCodec   - MIME type:        %s
+000230d3  (VideoRecorder.cpp:1442) VideoRecorder::muxerThread - failed to release video output buffer, error: %d - %s
+00023140 VideoCodecDequeueInputBufferThread
+00023163 AAudioStreamBuilder_setAttributionTag
+00023189 IEC61937
+00023192 QuirksManager::%s() conversion not needed for IEC61937
+000231c9 configurePerformanceMode
+000231e2 SL_RESULT_MEMORY_FAILURE
+000231fb char *__cxxabiv1::__cxa_demangle(const char *, char *, size_t *, int *)
+00023246 operator>
+00023250 > typename 
+0002325c !empty()
+0002326c _Unwind_Resume
+00023283 getClassLoader
+00023292 (Ljava/lang/String;Ljava/lang/String;)[I
+000232bb GetApplicationDataDir
+000232d1 expected <
+000232dc audio/mp4a-latm
+000232ef  (PluginAudioInputDevice.cpp:175) PluginAudioInputDevice::onError - %s
+00023336 This indicates required resource was not able to be allocated.
+00023375 The AImage object has used up the allowed maximum image buffers.
+000233b6 RGBA
+000233bb GL_DST_COLOR
+000233c8 GL_BLEND_EQUATION_ALPHA
+000233e0 GL_STENCIL_BITS
+000233f0 GL_FLOAT_MAT3
+000233fe GL_VERTEX_ATTRIB_ARRAY_STRIDE
+0002341c GL_VERTEX_ATTRIB_ARRAY_POINTER
+0002343b GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL
+00023463 GL_RENDERBUFFER_BINDING
+0002347b glBlitFramebufferOES
+00023490 glClearOES
+0002349b glClientWaitSyncOES
+000234af glColorMaskOES
+000234be glDeleteSync
+000234cb glGenerateMipmap
+000234dc glGetErrorAPPLE
+000234ec glGetFramebufferAttachmentParameterivAPPLE
+00023517 glPixelStoreiANGLE
+0002352a glUseProgramANGLE
+0002353c (VideoCaptureShaderLibraryParser.cpp:178) shader missing attribute 'name'
+00023586  spirv is missing cdata
+0002359e UV_sRGB_Video
+000235ac VUInterleaved_Video
+000235c0 vkCmdBlitImage
+000235cf vkDestroyPipeline
+000235e7  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBlitImage'
+0002363d  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyDescriptorSetLayout'
+000236a1  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkEndCommandBuffer'
+000236fc  (VideoRecorder.cpp:649) VideoRecorder::createVideoCodec   - Width:            %u
+00023751  (VideoRecorder.cpp:1057) VideoRecorder::createAudioCodec - failed to create audio codec
+000237ad  (VideoRecorder.cpp:1149) VideoRecorder::createAudioCapture - failed to get audio input device at index: %d
+0002381f  (VideoRecorder.cpp:1158) VideoRecorder::createAudioCapture - failed to prepare audio input device for recording
+00023890 complexity
+0002389b color-transfer
+000238aa AAudioStreamBuilder_setDirection
+000238cb AAudioStreamBuilder_setSharingMode
+000238ee AAudioStream_getChannelCount
+0002390b ErrorUnimplemented
+0002391e ro.soc.model
+0002392b AudioOutputStreamOpenSLES(): %s() returned %s
+00023959 AudioStreamOpenSLES::open() bytesPerCallback < 0 = %d, bad format?
+0002399c unspecified system_category error
+000239c5 guard variable for 
+000239dc __uuidof
+000239e5 decimal32
+000239ef  complex
+000239f8 actions & (_UA_SEARCH_PHASE | _UA_HANDLER_FRAME | _UA_FORCE_UNWIND)
+00023a47 ()Ljava/lang/ClassLoader;
+00023a61  build 
+00023a6c  (PluginAudioInputDevice.cpp:110) PluginAudioInputDevice::StopRecording - failed to stop stream, error: %s
+00023ada  (ImageRecorder.cpp:817) ImageRecorder::writeYCbCrSemiPlanar - failed to write image to: %s
+00023b3a AMEDIA_ERROR_UNSUPPORTED
+00023b53 AMEDIA_DRM_SHORT_BUFFER
+00023b6b AMEDIA_IMGREADER_MAX_IMAGES_ACQUIRED
+00023b93  (UnpackBuffer.cpp:75) UnpackBuffer::unpack - invalid magic
+00023bd6  (VideoCaptureFactoryOpenGLES.cpp:187) VideoCaptureFactoryOpenGLES::setup - eglVersion: %s
+00023c38  (VideoCaptureFactoryOpenGLES.cpp:315) VideoCaptureFactoryOpenGLES::setup - glVersion: %s
+00023c92 xfrm
+00023c97 GL_TRIANGLE_FAN
+00023ca7 GL_SRC_COLOR
+00023cb4 GL_SRC_ALPHA
+00023cc1 GL_GENERATE_MIPMAP_HINT
+00023cd9 GL_ATTACHED_SHADERS
+00023ced GL_INVERT
+00023cf7 GL_TEXTURE8
+00023d03 GL_TEXTURE9
+00023d0f GL_SAMPLER_2D
+00023d1d GL_VERTEX_ATTRIB_ARRAY_ENABLED
+00023d3c GL_RGBA4
+00023d45 glBindVertexArray
+00023d57 glBlendFuncSeparateANGLE
+00023d70 glDeleteFramebuffers
+00023d85 glDetachShaderANGLE
+00023d99 glDisableAPPLE
+00023da8 glFenceSyncAPPLE
+00023db9 glGenVertexArraysAPPLE
+00023dd0 glGenerateMipmapANGLE
+00023de6 glGetShaderInfoLogOES
+00023dfc glGetString
+00023e08 glGetTexParameterivAPPLE
+00023e21 glTexParameteriANGLE
+00023e36 glUniformMatrix3x2fvOES
+00023e4e type
+00023e59  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateBuffer'
+00023eaf  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateImage'
+00023f04  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyCommandPool'
+00023f60  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkQueueSubmit'
+00023fb5  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkUnmapMemory'
+0002400a  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkUpdateDescriptorSets'
+00024065  (VideoRecorder.cpp:1244) VideoRecorder::audioCaptureThread - failed to queue input buffer, error: %d - %s
+000240d0 %s() create a FilterAudioStream for data conversion.
+00024105 AAudio_getMMapPolicy
+0002411a AudioStreamAAudio.open: AAudioStream_Open() returned positive error = %d
+00024163 AAudioStreamBuilder_setSessionId
+00024184 libandroid.so
+00024192 %s() flowgraph converts channels: %d to %d, format: %d to %d, rate: %d to %d, cbsize: %d to %d, qual = %d
+000241fc %s() Unsupported source format = %d
+00024220 SourceI16Caller
+00024230 ErrorInvalidState
+00024246 ro.arch
+0002424e open
+00024253 setRecordState_l
+00024264 SL_RESULT_CONTENT_CORRUPTED
+00024280 thread-local wrapper routine for 
+000242a5 operator-
+000242af operator!=
+000242ba  at offset 
+000242c6 sizeof...
+000242d0 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00024318 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+00024362 Unknown DWARF encoding for search table.
+00024392 unknown register
+000243a3 UpdateCryptor
+000243b1 _UVOrder
+000243ba locale not supported
+000243d2  (ImageRecorder.cpp:322) ImageRecorder::writeJpg_ABitmap - failed to open file for writing, error: %d
+00024438 AMEDIA_ERROR_INVALID_OPERATION
+00024457 ANDROID_BITMAP_RESULT_BAD_PARAMETER
+0002447b GL_ELEMENT_ARRAY_BUFFER
+00024493 GL_DYNAMIC_DRAW
+000244a3 GL_VIEWPORT
+000244af GL_UNPACK_ALIGNMENT
+000244c3 GL_BLUE_BITS
+000244d0 GL_DEPTH_BITS
+000244de GL_TEXTURE_CUBE_MAP_POSITIVE_Y
+000244fd GL_NUM_SHADER_BINARY_FORMATS
+0002451a GL_RENDERBUFFER_STENCIL_SIZE
+00024537 GL_COLOR_ATTACHMENT0
+0002454c glBindBufferAPPLE
+0002455e glBlendFuncSeparate
+00024572 glCheckFramebufferStatusAPPLE
+00024590 glClientWaitSyncAPPLE
+000245a6 glCompileShaderOES
+000245b9 glCreateShader
+000245c8 glDrawArraysAPPLE
+000245da glEnableAPPLE
+000245e8 glFenceSyncOES
+000245f7 glTexParameteriAPPLE
+0002460c EGL_BAD_ALLOC
+0002461a #version 300 es
+0002462d  (VideoCaptureNull.cpp:114) VideoCaptureFactoryNull::newVideoCapture - failed to create video capture component due to unsupported graphics API
+000246c0  (VideoCaptureShaderLibraryParser.cpp:427) VideoCaptureShaders::parseLibrary - failed to parse library, error: %s
+00024732 shader specialisation constant type must bool, int or float
+00024771  (VideoCaptureVulkan.cpp:430) Failed to bind vulkan API, rendering with vulkan will be unavailable.
+000247d5 vkGetPhysicalDeviceMemoryProperties
+000247fc  (VideoRecorder.cpp:262) VideoRecorder::validateVideoConfiguration - Failed to get format adjustment for encode
+0002486c videoformatcache.dat
+00024881 %s() could not find AAudioStream_isMMapUsed
+000248ad AAudioStream_release
+000248c2 AAudioStream_isPrivacySensitive
+000248e2 APerformanceHint_reportActualWorkDuration
+0002490c %s() Unsupported sink format = %d
+0002492e FlowGraph
+00024938 SourceI32Caller
+00024948 isConversionNeeded
+0002495b AudioInputStreamOpenSLES::%s(%u) returned error %s
+0002498e %s() Android's OpenSL ES implementation only supports I16 and Float. Format: %d
+000249e1 typeinfo name for 
+000249f4 operator=
+000249fe operator<=
+00024a09 operator+
+00024a13 short
+00024a19 yptn
+00024a1e virtual StringView (anonymous namespace)::itanium_demangle::SpecialSubstitution::getBaseName() const
+00024a83 pixel vector[
+00024a91 results.reason == _URC_HANDLER_FOUND
+00024ab6 libunwind: %s - %s
+00024aca getRegister
+00024ad6 truncated sleb128 expression
+00024afe _Bitrate
+00024b09 true
+00024b0e Debug
+00024b14 FLAC
+00024b1c  (PluginAudioInputDevice.cpp:68) PluginAudioInputDevice::UnprepareRecording - failed to close stream, error: %s
+00024b8c ANDROID_BITMAP_FORMAT_A_8
+00024bad  (VideoCaptureFactoryOpenGLES.cpp:321) VideoCaptureFactoryOpenGLES::setup - glShadingLanguageVersion: %s
+00024c16 GL_UNSIGNED_SHORT
+00024c28 GL_DEPTH_COMPONENT
+00024c3b GL_DELETE_STATUS
+00024c4c GL_BOOL_VEC4
+00024c59 GL_FLOAT_MAT2
+00024c67 GL_IMPLEMENTATION_COLOR_READ_TYPE
+00024c89 glBindBuffer
+00024c96 glBindBufferANGLE
+00024ca8 glBindFramebufferOES
+00024cbd glBindVertexArrayAPPLE
+00024cd4 glDeleteProgramANGLE
+00024ce9 glGenerateMipmapAPPLE
+00024cff glGetAttribLocation
+00024d13 glTexImage2DAPPLE
+00024d25 glUniformMatrix3x2fvAPPLE
+00024d3f glUseProgram
+00024d4c glUseProgramOES
+00024d5c  has no source
+00024d6b (VideoCaptureShaderLibraryParser.cpp:225) shader "
+00024d9e name
+00024da6  (VideoCaptureFactoryVulkan.cpp:431) VideoCaptureFactoryVulkan::setupPipelines - failed to load shaders
+00024e0e vkCreateFence
+00024e1c vkGetImageMemoryRequirements
+00024e3f  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdPushConstants'
+00024e96  (VideoRecorder.cpp:1094) VideoRecorder::createAudioCodec - failed to configure codec, error: %d - %s
+00024eff  (VideoRecorder.cpp:1489) VideoRecorder::muxerThread - failed to write to audio track, error: %d - %s
+00024f68  (VideoRecorder.cpp:456) GetHEVCProfile - No profiles are available
+00024fac loadSymbols
+00024fb8 ErrorInvalidHandle
+00024fcb QuirksManager::%s() Requested stream configuration would result in silence on this device. Switching off MMAP.
+0002503a ChannelCountConverter
+00025050 AudioStreamBuffered::%s(): writeBuffer is NULL
+0002507f AudioStreamOpenSLES::open() chans=%d, rate=%d
+000250ad SharingMode [AudioStreamBuilder::setSharingMode()] is not supported on OpenSLES streams.
+00025106 condition_variable::wait: mutex not locked
+00025131 VTT for 
+0002513d nullptr
+00025145 <char, std::char_traits<char>
+00025163 string literal
+00025172 struct
+00025179 DW_EH_PE_funcrel pointer encoding not supported
+000251a9 DW_OP_deref_size with bad size
+000251d4 ([B)[B
+000251e1  (PluginInterface.cpp:274) Unrecognised image format '%d', defaulting to png
+00025231  (PluginState.cpp:82) Failed to deregister handle %d
+00025266 AMEDIA_DRM_RESOURCE_BUSY
+00025283  (VideoCaptureOpenGLES.cpp:428) VideoCaptureOpenGLES::setupContext - Failed to create egl context
+000252e5 GL_BLEND_DST_RGB
+000252f6 GL_BACK
+000252fe GL_DITHER
+00025308 GL_ALIASED_LINE_WIDTH_RANGE
+00025324 GL_COLOR_CLEAR_VALUE
+00025339 GL_TEXTURE_BINDING_2D
+0002534f GL_TEXTURE20
+0002535c GL_IMPLEMENTATION_COLOR_READ_FORMAT
+00025380 GL_MEDIUM_FLOAT
+00025390 GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT
+000253bd glBindFramebufferAPPLE
+000253d4 glCreateProgramOES
+000253e7 glDrawBuffers
+000253f5 glEGLImageTargetTexture2DOES
+00025412 glFenceSync
+0002541e glFlushAPPLE
+0002542b glGenTexturesOES
+0002543c glGenTexturesANGLE
+0002544f glPixelStorei
+0002545d glUniform2fvANGLE
+0002546f glVertexAttribPointerOES
+00025488 (VideoCaptureShaderLibraryParser.cpp:208) shader "
+000254c2  (VideoRecorder.cpp:652) VideoRecorder::createVideoCodec   - Bitrate:          %u
+0002551b  (VideoRecorder.cpp:655) VideoRecorder::createVideoCodec   - Slice height:     %u
+00025574  (VideoRecorder.cpp:773) VideoRecorder::createVideoCodec - plane 0 row stride: %u
+000255c9  (VideoRecorder.cpp:1112) VideoRecorder::createAudioCodec - failed to start codec, error: %d - %s
+0002562e  (VideoRecorder.cpp:1269) VideoRecorder::createMuxer - failed to create file with path: %s, error: %d
+00025697  (VideoRecorder.cpp:1278) VideoRecorder::createMuxer - failed to create muxer
+000256e5 YUV8_420_BiPlanar
+000256fa  (VideoRecorderAPI28.cpp:183) VideoRecorderAPI28::bindMediaCodecFunctions - failed to bind %s, error: %s
+00025763 WARNING ADPF not supported, %d
+00025783 AAudioStream_getHardwareChannelCount
+000257a8 SourceFloatCaller
+000257ba SourceI16
+000257c4 AudioStreamBuffered::%s(): both buffers are not NULL
+000257f9 OutputMixerOpenSL() - Realize() mOutputMixObject result:%s
+00025837 covariant return thunk to 
+00025852 basic_ostream
+00025860 char16_t
+0002586b _Unwind_Reason_Code __cxxabiv1::__gxx_personality_v0(int, _Unwind_Action, uint64_t, _Unwind_Exception *, _Unwind_Context *)
+000258e7 _Unwind_Resume() can't return
+00025905 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0002594c libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+000259a7  (UnityPlugin.cpp:147) Unable to get unity vulkan interface, creating null capture factory
+00025a09  (PluginState.cpp:262) PluginState::TryAddVideoCodec - %s codec is unavailable
+00025a58 AMEDIA_ERROR_INVALID_OBJECT
+00025a7b  (VideoCaptureFactoryOpenGLES.cpp:329) VideoCaptureFactoryOpenGLES::setup   - %s
+00025acc GL_FUNC_SUBTRACT
+00025add GL_STATIC_DRAW
+00025aec GL_COLOR_WRITEMASK
+00025aff GL_FLOAT
+00025b08 GL_LEQUAL
+00025b12 GL_FLOAT_VEC4
+00025b20 GL_SHADER_BINARY_FORMATS
+00025b39 GL_MEDIUM_INT
+00025b47 GL_SRGB8_ALPHA8
+00025b57 glBindRenderbufferAPPLE
+00025b6f glBufferDataAPPLE
+00025b81 glDeleteProgramOES
+00025b94 glFramebufferRenderbuffer
+00025bae glGetUniformLocationAPPLE
+00025bc8 glLinkProgram
+00025bd6 glReadBufferOES
+00025be6 glReadBufferAPPLE
+00025bf8 glTexStorage2DOES
+00025c0a glUniform1fAPPLE
+00025c1b glViewportANGLE
+00025c2b EGL_BAD_ACCESS
+00025c3d  (VideoCaptureShaderLibraryParser.cpp:242) parseShader - failed to add shader "%s", error: %s
+00025c9b parseProgram - program missing attribute 'name'
+00025cd1  (VideoCaptureVulkan.cpp:219) VideoCaptureVulkan::capture - capture failed, no command buffer
+00025d2f VUInterleaved
+00025d3d vkBindBufferMemory
+00025d50 vkCmdSetScissor
+00025d60 vkCreateImage
+00025d6e vkDestroyBuffer
+00025d7e vkUnmapMemory
+00025d92  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBindPipeline'
+00025deb  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyFence'
+00025e3e  (VideoCaptureVulkanPixelBuffer.cpp:889) VideoCaptureVulkanPixelBuffer::lock - wait for fences failed with error: %d
+00025eb9  (VideoRecorder.cpp:1027) VideoRecorder::copyPlaneToInputBuffer - input buffer size is smaller than the source, the plane will not be copied
+00025f49  (VideoRecorder.cpp:1550) VideoRecorder::muxerThread - failed to delete the muxer, error: %d - %s
+00025fae  (VideoRecorder.cpp:1762) VideoRecorder::capture - failed to setup the video capture
+00026009  (VideoRecorder.cpp:304) GetAVCProfile - preferred profiles unavailable, will select best available
+00026070  (VideoRecorderAPI28.cpp:199) VideoRecorderAPI28::bindMediaCodecFunctions - failed to open library, error: %s
+000260de %s() %s -------- %s --------
+000260fb AAudioStreamBuilder_setSamplesPerFrame
+00026122 ErrorNoFreeHandles
+00026135 ErrorOutOfRange
+00026145 SourceFloat
+00026151 Failed to flush the stream. Error %s
+00026176 AudioStreamBuffered::%s(): TIMEOUT
+00026199 SL_RESULT_RESOURCE_ERROR
+000261b2 SL_RESULT_CONTENT_NOT_FOUND
+000261ce condition_variable::timed wait: mutex not locked
+000261ff %I:%M:%S %p
+0002620b filesystem error: %s ["%s"]
+00026227 unexpected
+00026232 libc++abi
+0002623c operator?
+00026249 allocator
+00026253 basic_iostream
+00026262 NodeArray (anonymous namespace)::itanium_demangle::AbstractManglingParser<(anonymous namespace)::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, (anonymous namespace)::DefaultAllocator>::popTrailingNodeArray(size_t) [Derived = (anonymous namespace)::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, Alloc = (anonymous namespace)::DefaultAllocator]
+000263f3 decltype(auto)
+00026405 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+00026446 DW_OP_piece not implemented
+00026469 (Ljava/lang/String;)Z
+0002647f ()Ljava/lang/String;
+00026494 _Height
+0002649c Build
+000264a2 AMEDIA_IMGREADER_ERROR_BASE
+000264be ANDROID_BITMAP_FORMAT_UNKNOWN
+000264df  (UnpackBuffer.cpp:438) UnpackBuffer::validateGzipHeader - only deflate algorithm is supported
+0002653e 1.2.8
+00026544 GL_ONE_MINUS_SRC_COLOR
+0002655b GL_DST_ALPHA
+00026568 GL_ONE_MINUS_DST_COLOR
+0002657f GL_FUNC_REVERSE_SUBTRACT
+00026598 GL_BLEND_SRC_ALPHA
+000265ab GL_STENCIL_BACK_PASS_DEPTH_PASS
+000265cb GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS
+000265ed GL_EQUAL
+000265f6 GL_TEXTURE3
+00026602 GL_RENDERBUFFER_ALPHA_SIZE
+0002661d glColorMaskANGLE
+0002662e glCreateProgramAPPLE
+00026643 glDeleteFramebuffersOES
+0002665b glDeleteProgramAPPLE
+00026670 glGetFramebufferAttachmentParameteriv
+00026696 glGetProgramInfoLog
+000266aa glRenderbufferStorageOES
+000266c3 glTexParameterfvOES
+000266d7 VideoCaptureOpenGLESShaders::addProgram - failed to add program
+00026717 no shaders in library
+00026730  (VideoCaptureShaderLibraryParser.cpp:259) parseShaders - failed to parse shader, error: %s
+0002678c vkCmdBindVertexBuffers
+000267a3 vkCreateCommandPool
+000267ba  (VideoRecorder.cpp:1560) VideoRecorder::muxerThread - failed to close the file, error: %d - %s
+0002681a color-range
+00026826 AAudioStream_isMMapUsed
+0002683e fireDataCallback
+0002684f AAudioLoader::open() could not find libaaudio.so
+00026880 AAudioStreamBuilder_setDeviceId
+000268a0 AAudioStreamBuilder_setContentType
+000268c3 AAudioStream_getFramesPerBurst
+000268e2 AAudioStream_getSharingMode
+000268fe ErrorTimeout
+0002690b isMMapSafe
+00026916 SL_RESULT_PARAMETER_INVALID
+00026932 SL_RESULT_CONTENT_UNSUPPORTED
+00026950 std::bad_alloc
+0002695f out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h
+00026999 operator.
+000269a3 __int128
+000269ac Last != First && "Popping empty vector!"
+000269d5 decimal64
+000269df reinterpret_cast<size_t>(p + 1) % RequiredAlignment == 0
+00026a18 unwind_phase2
+00026a31 unexpected end of data
+00026a48 Default Microphone
+00026a62  (VideoCapture.cpp:50) Creating Vulkan video capture factory instance
+00026aa8 GL_CONSTANT_COLOR
+00026aba GL_ALPHA
+00026ac3 GL_NOTEQUAL
+00026acf GL_TEXTURE_CUBE_MAP_POSITIVE_Z
+00026aee GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME
+00026b14 GL_DEPTH_ATTACHMENT
+00026b28 GL_FRAMEBUFFER_BINDING
+00026b3f glGenFramebuffersOES
+00026b54 glHintAPPLE
+00026b60 glShaderSourceANGLE
+00026b74 glUniformMatrix3fvAPPLE
+00026b8c UV_Video
+00026b95 vkCmdCopyBuffer
+00026ba5 vkMapMemory
+00026bb7  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyBuffer'
+00026c0f  (VideoRecorder.cpp:775) VideoRecorder::createVideoCodec - slice height:       %u
+00026c65 aaudio.mmap_policy
+00026c78 Oboe callback returned unexpected value = %d
+00026ca5 AAudioStreamBuilder_setInputPreset
+00026cc8 AAudioStreamBuilder_setChannelMask
+00026ceb AAudioStreamBuilder_setIsContentSpatialized
+00026d17 AAudioStream_getFramesWritten
+00026d35 ErrorInvalidRate
+00026d46 QuirksManager::%s() avoid setFramesPerCallback(n>0)
+00026d7a GetInterface RECORD result:%s
+00026d98 %s() returned %d
+00026da9 OutputMixerOpenSL() - createOutputMix() result:%s
+00026ddb ios_base::clear
+00026deb filesystem error: %s ["%s"] ["%s"]
+00026e0e terminating due to %s exception of type %s
+00026e39 _block_invoke
+00026e47 virtual thunk to 
+00026e59 operator co_await
+00026e6e Last != First && "Calling back() on empty vector!"
+00026ea1 getULEB128
+00026eb7 (Ljavax/crypto/Cipher;Ljava/nio/ByteBuffer;)I
+00026ee9  (UnityPlugin.cpp:50) UnityPluginLoad - %s
+00026f14 -debug
+00026f22  (PluginState.cpp:187) PluginState::TryAddVideoCodec - %s codec is unavailable
+00026f78  (ImageRecorder.cpp:521) VideoRecorderAPI28::setupCapture - failed to setup the video capture
+00026fda AMEDIA_IMGREADER_CANNOT_UNLOCK_IMAGE
+00027002  (UnpackBuffer.cpp:194) VideoCaptureShaders::loadShaders - failed to decompress shader library
+00027064  (UnpackBuffer.cpp:298) UnpackBuffer::decryptLibrary - failed to update cryptor, error: %d
+000270c5  (UnpackBuffer.cpp:321) UnpackBuffer::decryptLibrary - failed to release cryptor, error: %d
+00027124  (UnpackBuffer.cpp:476) UnpackBuffer::validateGzipHeader - bufLen too small
+00027177  (VideoCaptureFactoryOpenGLES.cpp:190) VideoCaptureFactoryOpenGLES::setup - eglVendor: %s
+000271d5  (VideoCaptureOpenGLES.cpp:429) Please contact unitysupport@renderheads.com providing details of your device and Android version, Unity version and the output from logcat up to this point.
+00027292 tex0xfrm
+0002729b GL_TRIANGLE_STRIP
+000272ad GL_CULL_FACE_MODE
+000272bf GL_STENCIL_BACK_FUNC
+000272d4 GL_PACK_ALIGNMENT
+000272e6 GL_UNSIGNED_BYTE
+000272f7 GL_LUMINANCE
+00027304 GL_FRAGMENT_SHADER
+00027317 GL_NEVER
+00027320 GL_TEXTURE
+0002732b GL_TEXTURE10
+00027338 GL_TEXTURE26
+00027345 GL_INT_VEC2
+00027351 GL_FRAMEBUFFER
+00027360 GL_RENDERBUFFER
+00027370 GL_STENCIL_INDEX8
+00027382 GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT
+000273a7 glAttachShaderOES
+000273b9 glBlendFuncSeparateAPPLE
+000273d2 glCheckFramebufferStatusANGLE
+000273f0 glClearBufferfvOES
+00027403 glCreateProgram
+00027413 glDeleteSyncAPPLE
+00027425 glGetProgramInfoLogOES
+0002743c glGetProgramivAPPLE
+00027450 glGetStringOES
+0002745f glShaderSource
+0002746e glReadPixelsANGLE
+00027480 glTexParameterfvAPPLE
+00027496 EGL_BAD_SURFACE
+000274a6 no programs in library
+000274c3  (VideoCaptureFactoryVulkan.cpp:487) VideoCaptureFactoryVulkan::setupPipeline - pipeline '%s' already setup, skipping
+0002753f  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBeginRenderPass'
+0002759b  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateSemaphore'
+000275f5  (VideoRecorder.cpp:1162) VideoRecorder::createAudioCapture - this is usually down to permission not being granted for capturing audio, information about how to do this is available here: https://docs.unity3d.com/Manual/android-RequestingPermissions.html
+000276fb  (VideoRecorder.cpp:1262) VideoRecorder::createMuxer - creating file at: %s
+0002774a  (VideoRecorder.cpp:313) GetAVCProfile - No profiles are available
+0002778d level
+00027793 slice-height
+000277a0 YVU8_420
+000277b4  (VideoRecorderAPI28.cpp:229) VideoRecorderAPI28::createVideoCodecPostConfigure - codec name is: %s
+00027818 AudioStreamAAudio.open() may have failed due to lack of audio recording permission.
+0002786c AAudioStream_getSamplesPerFrame
+0002788c AAudioStream_getState
+000278a2 AAudioStream_requestStop
+000278bb ErrorDisconnected
+000278cd androidRecordingPreset
+000278e4 GetConfiguration(SL_ANDROID_KEY_PERFORMANCE_MODE) returned %d
+00027922 mutex lock failed
+00027934 generic
+0002793e ____Z
+00027944 typename 
+0002794e (anonymous namespace)::itanium_demangle::AbstractManglingParser<(anonymous namespace)::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, (anonymous namespace)::DefaultAllocator>::ScopedTemplateParamList::~ScopedTemplateParamList() [Derived = (anonymous namespace)::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, Alloc = (anonymous namespace)::DefaultAllocator]
+00027aec out/llvm-project/libcxxabi/src/demangle/StringView.h
+00027b21 basic_istream
+00027b2f  volatile
+00027b39 long double
+00027b45 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+00027b86 getSLEB128
+00027b94 vector
+00027b9b -profile
+00027ba4 Version
+00027baf  (PluginState.cpp:38) PluginState::Deinit - %zu recorders have not been deregistered
+00027c04 audio/opus
+00027c16  (PluginAudioInputDevice.cpp:46) PluginAudioInputDevice::PrepareRecording -   channel count: %d
+00027c7c  (ImageRecorder.cpp:726) ImageRecorder::processHardwareBuffer - unrecognised plane count %d, not writing any images
+00027cf0 Media stream ends while processing the requested operation.
+00027d32  (VideoCaptureFactoryOpenGLES.cpp:67) VideoCaptureFactoryOpenGLES::setShadingLanguageVersion - failed to get GLSL version, using: %d
+00027db7 GL_BLEND_SRC_RGB
+00027dc8 GL_FRONT
+00027dd1 GL_FRONT_FACE
+00027ddf GL_SHORT
+00027de8 GL_MAX_VERTEX_ATTRIBS
+00027dfe GL_GEQUAL
+00027e08 GL_KEEP
+00027e10 GL_LINEAR
+00027e1a GL_MAX_CUBE_MAP_TEXTURE_SIZE
+00027e37 GL_TEXTURE0
+00027e43 GL_TEXTURE1
+00027e4f GL_TEXTURE31
+00027e5c GL_FLOAT_VEC2
+00027e6a GL_COMPILE_STATUS
+00027e7c GL_RGB5_A1
+00027e87 GL_SRGB8
+00027e90 glBindAttribLocationANGLE
+00027eaa glBindAttribLocationAPPLE
+00027ec4 glBufferDataOES
+00027ed4 glClear
+00027edc glCompileShader
+00027eec glDeleteRenderbuffersOES
+00027f05 glEGLImageTargetTexture2DOESAPPLE
+00027f27 glFlush
+00027f2f glFramebufferRenderbufferOES
+00027f4c glGetAttribLocationOES
+00027f63 glGetErrorANGLE
+00027f73 glGetProgramiv
+00027f82 glMapBufferRangeAPPLE
+00027f98 glVertexAttribPointer
+00027fb1  (VideoCaptureOpenGLESShaders.cpp:96) VideoCaptureOpenGLES::compileShader - failed to compile shader '%s', info:
+00028026 UVInterleaved_sRGB
+0002803f  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdSetScissor'
+00028096  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateGraphicsPipelines'
+000280f7  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyRenderPass'
+00028152  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetBufferMemoryRequirements'
+000281b1 pcm-encoding
+000281c2 %s() invalid config %d
+000281d9 OUTPUT
+000281e0 AAudioStreamBuilder_setPrivacySensitive
+00028208 AAudioStream_requestStart
+00028222 AAudioStream_getSpatializationBehavior
+00028249 MonoToMultiConverter
+0002825e GetInterface PLAY result:%s
+0002827a thread::detach failed
+00028290 %m/%d/%y
+00028299 operator/=
+000282a4 operator 
+000282ae operator"" 
+000282ba out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+000282ed actions & _UA_SEARCH_PHASE
+00028308 setRegister
+00028322 com/renderheads/AVPro/MovieCapture/Manager
+0002834d (Ljava/lang/String;)Ljava/lang/String;
+00028374 KeyDerivationPBKDF
+00028387 H264
+00028390 AMEDIA_OK
+0002839a AMEDIACODEC_ERROR_RECLAIMED
+000283b6 GL_FUNC_ADD
+000283c2 GL_ARRAY_BUFFER
+000283d2 GL_STENCIL_TEST
+000283e2 GL_LINE_WIDTH
+000283f0 GL_STENCIL_BACK_FAIL
+00028405 GL_NICEST
+0002840f GL_VERTEX_SHADER
+00028420 GL_EXTENSIONS
+0002842e GL_TEXTURE_CUBE_MAP
+00028442 GL_TEXTURE_CUBE_MAP_NEGATIVE_X
+00028461 GL_TEXTURE30
+0002846e GL_RGB565
+00028478 glBindTextureANGLE
+0002848b glDeleteShaderANGLE
+0002849f glDrawArraysOES
+000284af glDrawBuffersAPPLE
+000284c2 glEnable
+000284cb glEnableANGLE
+000284d9 glEnableVertexAttribArrayAPPLE
+000284f8 glFramebufferTexture2DAPPLE
+00028514 glGetProgramivOES
+00028526 glGetTexParameteriv
+0002853a glPixelStoreiAPPLE
+0002854d glShaderSourceOES
+0002855f glUniformMatrix4fvOES
+00028575 glUnmapBufferANGLE
+00028588 vkBindImageMemory
+0002859a vkDestroyRenderPass
+000285b4  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateDescriptorPool'
+0002860f  (VideoRecorder.cpp:676) VideoRecorder::createVideoCodec - failed to configure codec, error: %d - %s
+00028674 Full
+00028679 AMediaCodec_getName
+0002868d AMediaCodec_releaseName
+000286a5 AAudio_setMMapPolicy
+000286ba ~AAudioLoader
+000286c8 AAudio_createStreamBuilder
+000286e3 AAudioStream_getPerformanceMode
+00028703 AAudioStream_getContentType
+0002871f bad any cast
+0002872f thread::join failed
+00028743 Pure virtual function called!
+00028761 reference temporary for 
+00028784 operator^
+0002878e operator<<
+00028799 operator->*
+000287a5 unsigned char
+000287b3 unsigned __int128
+000287cb unsigned 
+000287d5 union
+000287db during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+0002883e libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+00028880 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+000288ce unsupported restore location for float register
+000288fe (Ljava/lang/String;Ljava/lang/String;Lcom/renderheads/AVPro/MovieCapture/VideoFormat;Z)Z
+0002895a  (PluginInterface.cpp:520) AVPMC_GetFreeSpaceInBytesForPath - failed to get stats for path: %s, error: %d, %s
+000289c8  version 
+000289d9  (PluginAudioInputDevice.cpp:43) PluginAudioInputDevice::PrepareRecording - opened input stream with:
+00028a3f The media data or buffer could not be unlocked.
+00028a72  (UnpackBuffer.cpp:268) UnpackBuffer::decryptLibrary - failed to create cryptor instance, error: %d
+00028add  (VideoCaptureFactoryOpenGLES.cpp:319) VideoCaptureFactoryOpenGLES::setup - glRenderer: %s
+00028b3b  (VideoCaptureOpenGLES.cpp:462) VideoCaptureOpenGLES::setupContext - failed to destroy context, error: %d - %s
+00028baa GL_DEPTH_TEST
+00028bb8 GL_SAMPLE_ALPHA_TO_COVERAGE
+00028bd4 GL_DEPTH_CLEAR_VALUE
+00028be9 GL_MAX_TEXTURE_SIZE
+00028bfd GL_TEXTURE_CUBE_MAP_NEGATIVE_Y
+00028c1c GL_TEXTURE6
+00028c28 GL_TEXTURE21
+00028c35 glBindAttribLocationOES
+00028c4d glCheckFramebufferStatus
+00028c66 glClearColor
+00028c73 glColorMask
+00028c7f glColorMaskAPPLE
+00028c90 glDeleteVertexArraysOES
+00028ca8 glDetachShaderAPPLE
+00028cbc glDrawArrays
+00028cc9 glTexImage2D
+00028cd6 glVertexAttribPointerAPPLE
+00028cf1 glViewportOES
+00028d02  (VideoCaptureOpenGLESShaders.cpp:173) VideoCaptureFactoryOpenGLES::linkProgram - failed to link program, info:
+00028d79  (VideoCaptureShaderLibraryParser.cpp:415) VideoCaptureShaders::parseLibrary - failed to get root node
+00028de0 (VideoCaptureShaderLibraryParser.cpp:221) shader "
+00028e13 vkWaitForFences
+00028e29  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateShaderModule'
+00028e86  (VideoRecorder.cpp:657) VideoRecorder::createVideoCodec   - Profile:          %x
+00028ed8 Creating AAudio stream on 8.0 because it was specified. This is error prone.
+00028f25 APerformanceHint_closeSession
+00028f45 string_view::substr
+00028f59 Index < size() && "Invalid access!"
+00028f7d noexcept 
+00028f87 operator*
+00028f91 signed char
+00028f9d void (anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::Node *, 8> *, 4>::pop_back() [T = (anonymous namespace)::itanium_demangle::PODSmallVector<(anonymous namespace)::itanium_demangle::Node *, 8> *, N = 4]
+000290d3 char8_t
+000290db  imaginary
+000290e9 CurrentPosition
+000290f9 objc_object
+00029105 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+00029145 getTableEntrySize
+0002915e _Width
+00029165 Name
+0002916a expected ' or "
+0002917a HEVC
+00029186  (PluginAudioInputDevice.cpp:44) PluginAudioInputDevice::PrepareRecording -   api: %s
+000291dc AMEDIA_ERROR_WOULD_BLOCK
+000291f5 AMEDIA_DRM_NOT_PROVISIONED
+00029210 AMEDIA_DRM_NEED_KEY
+00029224 The required operation or media formats are not supported.
+0002925f GL_UNSIGNED_SHORT_5_6_5
+00029277 GL_DECR_WRAP
+00029284 GL_TEXTURE16
+00029291 GL_TEXTURE28
+0002929e GL_BOOL_VEC3
+000292ab GL_LOW_FLOAT
+000292b8 glAttachShader
+000292c7 glAttachShaderANGLE
+000292db glBindBufferOES
+000292eb glCheckFramebufferStatusOES
+00029307 glEnableOES
+00029313 glGenRenderbuffersANGLE
+0002932b glGetFramebufferAttachmentParameterivANGLE
+00029356 glGetShaderivAPPLE
+00029369 vkCreatePipelineLayout
+00029380 vkCreateShaderModule
+0002939b  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBindBufferMemory'
+000293f5  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdEndRenderPass'
+0002944f  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateRenderPass'
+000294aa  (VideoRecorder.cpp:650) VideoRecorder::createVideoCodec   - Height:           %u
+000294ff  (VideoRecorder.cpp:1050) VideoRecorder::createAudioCodec - no plugin codec for index: %d
+00029560  (VideoRecorder.cpp:1078) VideoRecorder::createAudioCodec - Media format:
+000295aa RGBA8
+000295b0 AudioCodecDequeueOutputBufferThread
+000295d4 AMediaCodec_setAsyncNotifyCallback
+000295f7 AAudioStreamBuilder_openStream
+00029616 AAudioStreamBuilder_setFramesPerDataCallback
+00029643 AAudioStream_getChannelMask
+0002965f AAudio
+00029666 AudioInputStreamOpenSLES::%s() mRecordInterface is null
+0002969e unspecified iostream_category error
+000296c2 terminate_handler unexpectedly threw an exception
+000296f4 bad_array_new_length
+00029709 (anonymous namespace)
+0002971f operator&=
+0002972a operator>>=
+00029736 operator%
+00029743 SV.startsWith("basic_")
+0002975b  restrict
+00029765 char32_t
+00029775 java/lang/ClassLoader
+0002978b com/renderheads/AVPro/MovieCapture/VideoFormat
+000297ba _Plane0RowStride
+000297ce  (PluginInfo.cpp:112) PluginInfo::parse - failed to parse plist, error: %s
+00029819 Profile
+00029821 ro.build.version.sdk
+00029836 AMEDIA_ERROR_MALFORMED
+00029850  (UnpackBuffer.cpp:182) VideoCaptureShaders::loadShaders - not a valid gzip archive
+000298ab  (VideoCaptureFactoryOpenGLES.cpp:199) VideoCaptureFactoryOpenGLES::setup   - %s
+000298ff  (VideoCaptureOpenGLES.cpp:173) VideoCaptureOpenGLES::grabFramebuffer - framebuffer is not complete
+00029963 GL_UNSIGNED_SHORT_5_5_5_1
+0002997d GL_VENDOR
+00029987 GL_VERSION
+00029992 GL_TEXTURE11
+0002999f GL_TEXTURE13
+000299ac glActiveTextureANGLE
+000299c1 glBindTextureOES
+000299d2 glClearColorOES
+000299e2 glDeleteTexturesANGLE
+000299f8 glEnableVertexAttribArrayANGLE
+00029a17 glFinishOES
+00029a23 glGenRenderbuffersOES
+00029a39 glGetStringANGLE
+00029a4a glLinkProgramANGLE
+00029a5d glMapBufferRangeANGLE
+00029a73 EGL_BAD_CONTEXT
+00029a83 Y_sRGB
+00029a8a vkCreateDescriptorSetLayout
+00029aac  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetPhysicalDeviceMemoryProperties'
+00029b18  (VideoRecorder.cpp:53) IVideoRecorder::newVideoRecorder - android api level is %d
+00029b72  (VideoRecorder.cpp:1079) VideoRecorder::createAudioCodec   - MIME type:        %s
+00029bcc  (VideoRecorder.cpp:1080) VideoRecorder::createAudioCodec   - Channels:         %u
+00029c1f YUV8_420
+00029c28 r+be
+00029c2d Failed to setBufferSizeInFrames(%d). Error was %s
+00029c5f AAudioStreamBuilder_setChannelCount
+00029c83 QuirksManager::%s() forcing internal format to I16 for low latency
+00029cc6 %s(): GetPosition() returned %s
+00029ce6 androidPlaybackStreamType
+00029d00 SL_RESULT_IO_ERROR
+00029d13 system
+00029d1a __cxa_guard_acquire detected recursive initialization
+00029d53 operator!
+00029d5d operator||
+00029d6b template<
+00029d75 char (anonymous namespace)::itanium_demangle::StringView::back() const
+00029dbc , std::allocator<char>
+00029dd3  [enable_if:
+00029de3 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00029e42  (PluginInterface.cpp:72) AVPMC_CreateRecorderVideo - %s
+00029e7b 0.0.0
+00029e84  (PluginAudioInputDevice.cpp:39) PluginAudioInputDevice::PrepareRecording - failed to open stream, error: %s
+00029ef5 AMEDIA_DRM_VERIFY_FAILED
+00029f0e This indicates the resource manager reclaimed the media resource used by the codec. With this error, the codec must be released, as it has moved to terminal state.
+00029fb2 An invalid (or already closed) object is used in the function call.
+00029ff6 The required operation would have to be blocked (on I/O or others), but blocking is not enabled.
+0002a05e  (VideoCapture.cpp:45) Creating OpenGLES video capture factory instance
+0002a0a6 u_sampler0
+0002a0b1 GL_CW
+0002a0b7 GL_TEXTURE29
+0002a0c4 glActiveTextureAPPLE
+0002a0d9 glCompileShaderAPPLE
+0002a0ee glDeleteRenderbuffersANGLE
+0002a109 glFinishAPPLE
+0002a117 glGenBuffers
+0002a124 glGenBuffersOES
+0002a134 glGenFramebuffers
+0002a146 glGetError
+0002a151 glGetShaderInfoLogANGLE
+0002a169 glGetTexParameterivANGLE
+0002a182 glIsEnabled
+0002a18e glShaderSourceAPPLE
+0002a1a2 glUniform1iAPPLE
+0002a1b3 glUniform2fvOES
+0002a1c3 VideoCaptureOpenGLESShaders::addProgram - failed to find shader
+0002a203 (VideoCaptureShaderLibraryParser.cpp:182) shader missing attribute 'type')
+0002a24e vkCmdPushConstants
+0002a261 vkDestroyFence
+0002a270 vkDestroyShaderModule
+0002a286 vkGetPhysicalDeviceQueueFamilyProperties
+0002a2b5  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkFreeMemory'
+0002a309  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkMapMemory'
+0002a35d  (VideoRecorder.cpp:647) VideoRecorder::createVideoCodec - Media format:
+0002a3a6 Limited
+0002a3ae VideoCodecDequeueOutputBufferThread
+0002a3d2 %s() could not find AAudio_setMMapPolicy
+0002a3fb AAudioStreamBuilder_setSampleRate
+0002a41d AAudioStream_getTimestamp
+0002a437 AAudioStream_getBufferSizeInFrames
+0002a45a ErrorNoMemory
+0002a468 Float
+0002a46e ro.product.manufacturer
+0002a486 RegisterCallback result:%s
+0002a4a1 Unknown error %d
+0002a4b2 __cxa_guard_release
+0002a4c6 construction vtable for 
+0002a4df typeid 
+0002a4f0 std::nullptr_t
+0002a4ff enum
+0002a508 GetEncoderCodecNameFromType
+0002a524 GetVideoCodecCapabilities
+0002a53e _IFrameInterval
+0002a54e expected =
+0002a560  (PluginAudioInputDevice.cpp:47) PluginAudioInputDevice::PrepareRecording -   format: %s
+0002a5b9 AMEDIA_DRM_ERROR_BASE
+0002a5d2  (UnpackBuffer.cpp:519) UnpackBuffer::decompressBuffer - failed to inflate, status: %d
+0002a62c  (VideoCaptureFactoryOpenGLES.cpp:270) VideoCaptureFactoryOpenGLES::setup - Failed to choose config, error: %s
+0002a6a2  (VideoCaptureFactoryOpenGLES.cpp:323) VideoCaptureFactoryOpenGLES::setup - glExtensions:
+0002a6ff  (VideoCaptureOutputOpenGLESPixelBuffer.cpp:367) VideoCaptureOutputOpenGLESPixelBuffer::setup - framebuffer is not complete, status: %s
+0002a787 GL_ONE_MINUS_CONSTANT_COLOR
+0002a7a3 GL_STREAM_DRAW
+0002a7b2 GL_CULL_FACE
+0002a7bf GL_STENCIL_BACK_PASS_DEPTH_FAIL
+0002a7df GL_STENCIL_BACK_VALUE_MASK
+0002a7fa GL_STENCIL_BACK_WRITEMASK
+0002a814 GL_INT
+0002a81b GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS
+0002a83f GL_BOOL_VEC2
+0002a84c GL_DEPTH_COMPONENT16
+0002a861 glBindRenderbufferANGLE
+0002a879 glClearColorANGLE
+0002a88b glCreateShaderANGLE
+0002a89f glDeleteTexturesAPPLE
+0002a8b5 glGenRenderbuffers
+0002a8c8 glPixelStoreiOES
+0002a8d9 glUniform2fvAPPLE
+0002a8eb EGL_BAD_DISPLAY
+0002a8fb parseProgram - failed to parse shaders
+0002a922 UVInterleaved_sRGB_Video
+0002a93b VUInterleaved_sRGB_Video
+0002a95a  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdCopyBuffer'
+0002a9b1  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdSetViewport'
+0002aa09  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkResetFences'
+0002aa5b  (VideoRecorder.cpp:1542) VideoRecorder::muxerThread - failed to stop the muxer, error: %d - %s
+0002aac1 w+be
+0002aac6 AAudioStreamBuilder_setUsage
+0002aae3 AAudioLoader could not find %s
+0002ab02 configure
+0002ab0c ErrorIllegalArgument
+0002ab21 SinkI32
+0002ab29 SourceI32
+0002ab33 Device ID [AudioStreamBuilder::setDeviceId()] is not supported on OpenSLES streams.
+0002ab87 : no conversion
+0002ab9a 0123456789
+0002aba5 failed to determine attributes for the specified path
+0002abdb %s failed to release mutex
+0002abf6 uncaught
+0002abff operator&&
+0002ac0a operator
+0002ac13 operator/
+0002ac21 unsigned long
+0002ac2f noexcept
+0002ac38 out/llvm-project/libcxxabi/src/demangle/Utility.h
+0002ac6a out/llvm-project/libcxxabi/src/cxa_personality.cpp
+0002ac9d DW_EH_PE_datarel is invalid with a datarelBase of 0
+0002acdd (Ljava/lang/String;)Ljava/lang/Class;
+0002ad0a  (PluginState.cpp:254) PluginState::TryAddAudioCodec(AudioCodec::%s)
+0002ad52  (PluginAudioInputDevice.cpp:182) PluginAudioInputDevice::onErrorBeforeClose - %s
+0002ada7  (ImageRecorder.cpp:737) ImageRecorder::processHardwareBuffer worker %u - failed to write image to: %s
+0002ae0e The media/buffer needs to be locked to perform the required operation.
+0002ae55 ANDROID_BITMAP_FORMAT_RGBA_8888
+0002ae78  (UnpackBuffer.cpp:167) VideoCaptureShaders::loadShaders - hash check failed
+0002aec7 GL_STENCIL_FUNC
+0002aed7 GL_SAMPLE_COVERAGE_VALUE
+0002aef0 GL_REPEAT
+0002aefa GL_FLOAT_VEC3
+0002af08 GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING
+0002af2e GL_HIGH_FLOAT
+0002af3c glBindRenderbufferOES
+0002af52 glBindVertexArrayANGLE
+0002af69 glBlitFramebuffer
+0002af7b glClientWaitSyncANGLE
+0002af91 glCreateShaderOES
+0002afa3 glEGLImageTargetTexture2DOESOES
+0002afc3 glFinishANGLE
+0002afd1 glReadBufferANGLE
+0002afe6  (VideoCaptureShaderLibraryParser.cpp:406) VideoCaptureShaders::parseLibrary - failed to parse library, error: %s
+0002b058 (VideoCaptureShaderLibraryParser.cpp:185) shader type is unsupported
+0002b09d vkCmdBindDescriptorSets
+0002b0b5 vkDestroyImage
+0002b0ca  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBindImageMemory'
+0002b123  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyPipelineLayout'
+0002b182  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroySemaphore'
+0002b1dd  (VideoRecorder.cpp:656) VideoRecorder::createVideoCodec   - Colour range:     %s
+0002b235  (VideoRecorder.cpp:884) VideoRecorder::videoCaptureThread - failed to lock buffer for processing, error: %d
+0002b2a2 PCMEncoding16Bit
+0002b2b3 %s() Unsupported source caller format = %d
+0002b2de ErrorNull
+0002b2e8 ErrorInvalidFormat
+0002b2fb QuirksManager::%s() using stereo internally to avoid broken mono
+0002b33c QuirksManager::%s() MMAP not actually supported on this chip. Switching off MMAP.
+0002b38e %s() GetInterface(SL_IID_ANDROIDCONFIGURATION) failed with %s
+0002b3cc AllowedCapturePolicy [AudioStreamBuilder::setAllowedCapturePolicy()] is not supported on OpenSLES streams.
+0002b437 clock_gettime(CLOCK_REALTIME) failed
+0002b45c condition_variable timed_wait failed
+0002b481 money_get error
+0002b491 decltype
+0002b49a basic_
+0002b4a1 unsigned long long
+0002b4ba libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+0002b4f9 getEncodedP
+0002b50c FDE is really a CIE
+0002b520 (Ljavax/crypto/Cipher;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+0002b563 AVPro Movie Capture
+0002b57e  (PluginState.cpp:67) PluginState::RegisterRecorder - Registered handle %d
+0002b5c9 libjnigraphics.so
+0002b5de  (ImageRecorder.cpp:233) ImageRecorder::writePng_ABitmap - unsupported format: %d - %s
+0002b635 AMEDIA_ERROR_INVALID_PARAMETER
+0002b654 ANDROID_BITMAP_FORMAT_RGBA_F16
+0002b676  (VideoCaptureFactoryOpenGLES.cpp:379) VideoCaptureFactoryOpenGLES::setupShaderPrograms - failed to load shaders
+0002b6e7 GL_LINES
+0002b6f0 GL_LINE_LOOP
+0002b6fd GL_CONSTANT_ALPHA
+0002b70f GL_MAX_VIEWPORT_DIMS
+0002b724 GL_GREEN_BITS
+0002b732 GL_SAMPLE_COVERAGE_INVERT
+0002b74c GL_FIXED
+0002b755 GL_ACTIVE_ATTRIBUTES
+0002b76a GL_NEAREST_MIPMAP_LINEAR
+0002b783 GL_TEXTURE15
+0002b790 GL_TEXTURE23
+0002b79d GL_MIRRORED_REPEAT
+0002b7b0 GL_BOOL
+0002b7b8 GL_VERTEX_ATTRIB_ARRAY_TYPE
+0002b7d4 GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS
+0002b7f9 glBindFramebuffer
+0002b80b glDeleteBuffersAPPLE
+0002b820 glDeleteTextures
+0002b831 glDeleteVertexArrays
+0002b846 glDisableANGLE
+0002b855 glGetAttribLocationAPPLE
+0002b86e glGetFramebufferAttachmentParameterivOES
+0002b897 glGetIntegervOES
+0002b8a8 glGetUniformLocationOES
+0002b8c0 glUniform1iANGLE
+0002b8d1 glUniform2fv
+0002b8de glViewport
+0002b8e9 vkCreateBuffer
+0002b8f8 vkDestroyPipelineLayout
+0002b916  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkAllocateDescriptorSets'
+0002b976  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkEnumerateDeviceExtensionProperties'
+0002b9e2  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetPhysicalDeviceQueueFamilyProperties'
+0002ba4f  (VideoRecorder.cpp:580) VideoRecorder::createVideoCodec - failed to validate video configuration
+0002bab4  (VideoRecorder.cpp:909) VideoRecorder::videoCaptureThread - failed to queue input buffer, error: %d - %s
+0002bb1e a+be
+0002bb23 %s() multiple error callbacks called!
+0002bb49 AAudioStream_getHardwareFormat
+0002bb68 APerformanceHint_getManager
+0002bb84 SampleRateConverter
+0002bb98 SessionId [AudioStreamBuilder::setSessionId()] is not supported on OpenSLES streams.
+0002bbed filesystem error: %s
+0002bc02 out/llvm-project/libcxxabi/src/cxa_demangle.cpp
+0002bc36 initializer for module 
+0002bc51 operator==
+0002bc5c operator*=
+0002bc67 operator+=
+0002bc72 objcproto
+0002bc8b  (PluginInterface.cpp:212) AVPMC_CreateRecorderVideo: newRecorderHandle = %d
+0002bcd8 false
+0002bce3  (ImageRecorder.cpp:874) ImageRecorder::writeYCbCrSemiPlanar - failed to write image to: %s
+0002bd3f AndroidBitmap_compress
+0002bd59  (ImageRecorder.cpp:141) ImageRecorder::writePng_stbi - failed to open file for writing, error: %d
+0002bdbc AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE
+0002bde1 AMEDIA_IMGREADER_IMAGE_NOT_LOCKED
+0002be09  (VideoCaptureFactoryOpenGLES.cpp:91) VideoCaptureFactoryOpenGLES::setShadingLanguageVersion - GLSL major version of %d is unsupported
+0002be90 OUTPUT_ORDERED_VU
+0002bea2 GL_SUBPIXEL_BITS
+0002beb3 GL_POLYGON_OFFSET_UNITS
+0002becb GL_MAX_FRAGMENT_UNIFORM_VECTORS
+0002beeb GL_TEXTURE17
+0002bef8 GL_VERTEX_ATTRIB_ARRAY_NORMALIZED
+0002bf1a GL_RENDERBUFFER_RED_SIZE
+0002bf33 glAttachShaderAPPLE
+0002bf47 glClientWaitSync
+0002bf58 glCreateProgramANGLE
+0002bf6d glHint
+0002bf74 glMapBufferRangeOES
+0002bf88 glViewportAPPLE
+0002bf98 EGL_BAD_PARAMETER
+0002bfaa Y_sRGB_Video
+0002bfb7 vkCreateRenderPass
+0002bfd1  (VideoRecorder.cpp:65) IVideoRecorder::newVideoRecorder - creating video recorder for API 26
+0002c035  (VideoRecorder.cpp:1613) VideoRecorder::Initialise - authorisation to record audio from the device has not been granted, no audio will be captured
+0002c0c9 YVU8_420_BiPlanar
+0002c0db AAudioStream_read
+0002c0ed AAudio_convertResultToText
+0002c108 ErrorWouldBlock
+0002c118 ro.hardware.chipname
+0002c12d SourceI24
+0002c137 createAudioRecorder() result:%s
+0002c157 AudioStreamBuffered::%s(): readBuffer is NULL
+0002c185 AudioStreamBuffered::%s(): timeoutNanoseconds is negative
+0002c1bf EngineOpenSLES - GetInterface() engine result:%s
+0002c1f0 slCreateEngine
+0002c1ff SL_RESULT_INTERNAL_ERROR
+0002c218 alignof 
+0002c221 operator>=
+0002c22c operator[]
+0002c237 operator>>
+0002c249 actions & _UA_CLEANUP_PHASE
+0002c265 uintptr_t __cxxabiv1::readEncodedPointer(const uint8_t **, uint8_t, uintptr_t)
+0002c2b4 DW_OP_fbreg not implemented
+0002c2d9  (ImageRecorder.cpp:512) VideoRecorderAPI28::setupCapture - failed to setup the video capture, status is %d
+0002c348  (ImageRecorder.cpp:250) ImageRecorder::writePng_ABitmap - failed to open file for writing, error: %d
+0002c3ae thread constructor failed
+0002c3c8 AMEDIA_ERROR_UNKNOWN
+0002c3dd At least one of the invalid parameters is used.
+0002c40d GL_BLEND_EQUATION_RGB
+0002c423 GL_STENCIL_PASS_DEPTH_FAIL
+0002c43e GL_ALWAYS
+0002c448 GL_INCR
+0002c450 GL_NEAREST
+0002c45b GL_TEXTURE27
+0002c468 GL_INT_VEC4
+0002c474 glClearBufferfvANGLE
+0002c489 glDeleteProgram
+0002c499 glDeleteRenderbuffersAPPLE
+0002c4b4 glEnableVertexAttribArrayOES
+0002c4d1 glGenBuffersANGLE
+0002c4e3 glGetStringAPPLE
+0002c4f4 glHintOES
+0002c4fe glIsEnabledOES
+0002c50d glReadBuffer
+0002c51a glReadPixelsOES
+0002c52a glTexImage2DANGLE
+0002c53c glUniformMatrix3fvOES
+0002c555  (VideoCaptureShaderLibraryParser.cpp:367) parsePrograms - failed to parse program, error: %s
+0002c5b3 VUInterleaved_sRGB
+0002c5c6 vkCreateSemaphore
+0002c5df  (VideoRecorder.cpp:866) VideoRecorder::videoCaptureThread - got input buffer of size: %zu
+0002c641  (VideoRecorder.cpp:1081) VideoRecorder::createAudioCodec   - Sample rate:      %u
+0002c698 libmediandk.so
+0002c6a7 OboeAudio
+0002c6b1 internalErrorCallback
+0002c6c7 %s() stream already closed or closing
+0002c6ed AAudioStream_close
+0002c700 AAudioStream_isContentSpatialized
+0002c722 SourceI24Caller
+0002c732 MultiToMonoConverter
+0002c747 SinkI16
+0002c74f SinkI24
+0002c757 requestPause
+0002c764 Unknown SL error
+0002c775 iostream
+0002c780 terminating due to %s foreign exception
+0002c7a8 %LaL
+0002c7ad double
+0002c7b4 (base != 0) && "DW_EH_PE_datarel is invalid with a base of 0"
+0002c7f2 unsupported restore location for register
+0002c823 expected element name
+0002c839 GL_ONE_MINUS_DST_ALPHA
+0002c850 GL_ARRAY_BUFFER_BINDING
+0002c868 GL_BUFFER_SIZE
+0002c877 GL_BUFFER_USAGE
+0002c887 GL_DEPTH_FUNC
+0002c895 GL_RED_BITS
+0002c8a1 GL_LINEAR_MIPMAP_LINEAR
+0002c8b9 GL_TEXTURE_WRAP_S
+0002c8cb GL_TEXTURE18
+0002c8d8 GL_TEXTURE19
+0002c8e5 GL_TEXTURE25
+0002c8f2 GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE
+0002c918 glBlendFuncSeparateOES
+0002c92f glBufferData
+0002c93c glBufferDataANGLE
+0002c94e glFramebufferTexture2DANGLE
+0002c96a glGetProgramivANGLE
+0002c97e glTexParameterfv
+0002c98f vkCmdCopyBufferToImage
+0002c9a6 vkDestroyImageView
+0002c9b9 (VideoCaptureVulkanShaders.cpp:222) failed to create shader module for shader: 
+0002ca0c  (VideoRecorder.cpp:70) IVideoRecorder::newVideoRecorder - API level %d is not supported
+0002ca6c  (VideoRecorder.cpp:651) VideoRecorder::createVideoCodec   - Frame rate:       %f
+0002cac1  (VideoRecorder.cpp:1736) VideoRecorder::setupCapture - failed to setup the video capture, status is %d
+0002cb29 INPUT
+0002cb2f %s() dlclose(%s) not called, OK
+0002cb4f AAudioStream_getDeviceId
+0002cb68 PrivacySensitiveMode [AudioStreamBuilder::setPrivacySensitiveMode()] is not supported on OpenSLES streams.
+0002cbd3 libOpenSLES.so
+0002cbe2 SL_RESULT_SUCCESS
+0002cbf4 SL_RESULT_OPERATION_ABORTED
+0002cc10 unspecified generic_category error
+0002cc33 %.0Lf
+0002cc39 __cxa_guard_abort
+0002cc4b std::bad_cast
+0002cc59 thread-local initialization routine for 
+0002cc82 throw
+0002cc88 operator()
+0002cc93 dynamic_cast
+0002cca0 unsigned short
+0002ccaf this
+0002ccb7 T &(anonymous namespace)::itanium_demangle::PODSmallVector<const (anonymous namespace)::itanium_demangle::Node *, 8>::operator[](size_t) [T = const (anonymous namespace)::itanium_demangle::Node *, N = 8]
+0002cd83 reinterpret_cast<size_t>(ptr) % RequiredAlignment == 0
+0002cdba exynos9810
+0002cdc5 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+0002ce07 DW_EH_PE_aligned pointer encoding not supported
+0002ce37 malformed uleb128 expression
+0002ce5f  (JavaInterface.cpp:242) JavaInterface::GetFormatAdjustmentForEncode - failed to create strings for name and mime
+0002ced1 _UVInterleaved
+0002cee0 AMEDIACODEC_ERROR_INSUFFICIENT_RESOURCE
+0002cf0b  (VideoCaptureFactoryOpenGLES.cpp:179) VideoCaptureFactoryOpenGLES::setup - failed to get display, error: %s
+0002cf78 EGL_KHR_no_config_context
+0002cf92 VIDEO_RANGE
+0002cf9e GL_POINTS
+0002cfa8 GL_ELEMENT_ARRAY_BUFFER_BINDING
+0002cfc8 GL_SCISSOR_BOX
+0002cfd7 GL_ACTIVE_ATTRIBUTE_MAX_LENGTH
+0002cff6 GL_CURRENT_PROGRAM
+0002d009 GL_GREATER
+0002d014 GL_DECR
+0002d01c GL_TEXTURE_MAG_FILTER
+0002d032 GL_TEXTURE14
+0002d03f GL_INFO_LOG_LENGTH
+0002d052 glDrawBuffersOES
+0002d063 glDrawBuffersANGLE
+0002d076 glEGLImageTargetTexture2DOESANGLE
+0002d098 glMapBufferRange
+0002d0a9 glReadPixelsAPPLE
+0002d0bb glTexStorage2DANGLE
+0002d0cf glUniformMatrix2fvAPPLE
+0002d0ea  (VideoCaptureOpenGLESShaders.cpp:186) VideoCaptureOpenGLESShaders::parseFailed
+0002d13a vkAllocateMemory
+0002d14b vkCmdPipelineBarrier
+0002d160 vkDestroyDescriptorSetLayout
+0002d17d vkEndCommandBuffer
+0002d196  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkAllocateMemory'
+0002d1ee  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateSampler'
+0002d245  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroySampler'
+0002d29e  (VideoRecorder.cpp:60) IVideoRecorder::newVideoRecorder - creating video recorder for API 28
+0002d303  (VideoRecorder.cpp:1083) VideoRecorder::createAudioCodec   - Max input size:   %u
+0002d35d  (VideoRecorder.cpp:1084) VideoRecorder::createAudioCodec   - PCM encoding:     %s
+0002d3b3  (VideoRecorder.cpp:1427) VideoRecorder::muxerThread - failed to write to video track, error: %d - %s
+0002d41c  (VideoRecorderAPI28.cpp:286) VideoRecorderAPI28::createAudioCodecPostConfigure - failed to set callbacks for codec, error: %d - %s
+0002d4a0 Skipping release() on Android R
+0002d4c0 AAudioStreamBuilder_setAllowedCapturePolicy
+0002d4ec AAudioStream_getXRunCount
+0002d506 Unrecognized result
+0002d51a Unrecognized format
+0002d52e linkOpenSLES() could not find libOpenSLES.so
+0002d55b __thread_specific_ptr construction failed
+0002d589 template parameter object for 
+0002d5a8 operator.*
+0002d5b3 operator%=
+0002d5be 'block-literal'
+0002d5d4 long long
+0002d5de getSavedFloatRegister
+0002d5fa expected attribute name
+0002d619  (PluginState.cpp:177) PluginState::TryAddVideoCodec(VideoCodec::%s)
+0002d65e video/x-vnd.on2.vp8
+0002d672 audio/flac
+0002d67d AMEDIA_IMGREADER_CANNOT_LOCK_IMAGE
+0002d6a0 ANDROID_BITMAP_RESULT_ALLOCATION_FAILED
+0002d6c8 Adreno (TM) 308
+0002d6db  (VideoCaptureOpenGLES.cpp:454) VideoCaptureOpenGLES::setupContext - failed to make current, error: %d - %s
+0002d747 GL_LINE_STRIP
+0002d755 GL_ONE_MINUS_SRC_ALPHA
+0002d76c GL_BLEND
+0002d775 GL_SCISSOR_TEST
+0002d785 GL_STENCIL_PASS_DEPTH_PASS
+0002d7a0 GL_STENCIL_REF
+0002d7af GL_RGBA
+0002d7b7 GL_NEAREST_MIPMAP_NEAREST
+0002d7d1 GL_TEXTURE_WRAP_T
+0002d7e3 GL_RENDERBUFFER_DEPTH_SIZE
+0002d7fe GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE
+0002d82e GL_RGBA8
+0002d837 glBindTextureAPPLE
+0002d84a glClearAPPLE
+0002d857 glFramebufferRenderbufferAPPLE
+0002d876 glGetIntegerv
+0002d884 glIsEnabledANGLE
+0002d895 glLinkProgramOES
+0002d8a6 glLinkProgramAPPLE
+0002d8b9 glUniform1fANGLE
+0002d8ca vkCreateImageView
+0002d8dc vkUpdateDescriptorSets
+0002d8f9  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateImageView'
+0002d952  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkFlushMappedMemoryRanges'
+0002d9b0  (VideoRecorder.cpp:559) VideoRecorder::createVideoCodec - no plugin codec for index: %d
+0002da10  (VideoRecorder.cpp:658) VideoRecorder::createVideoCodec   - Level:            %x
+0002da69  (VideoRecorder.cpp:776) VideoRecorder::createVideoCodec - pixel format:       %s
+0002dabf AAudioStreamBuilder_setSpatializationBehavior
+0002daed AAudioStream_waitForStateChange
+0002db0d QuirksManager::%s() float was requested but not supported on pre-L devices and some devices like Vivo devices may have issues on L devices, creating an underlying I16 stream and using format conversion to provide a float stream
+0002dbf1 Realize recorder object result:%s
+0002dc13 %s() not supported until N_MR1
+0002dc32 processBufferCallback
+0002dc48 get buffer queue interface:%p result:%s
+0002dc70 SL_RESULT_UNKNOWN_ERROR
+0002dc8b _GLOBAL__N
+0002dc99 operator^=
+0002dca7 void
+0002dcac float
+0002dcb2 half
+0002dcc5  (JavaInterface.cpp:256) JavaInterface::GetFormatAdjustmentForEncode - failed to create VideoFormat instance
+0002dd32 video/x-vnd.on2.vp9
+0002dd4c  (ImageRecorder.cpp:375) ImageRecorder::lateBindFunctions - failed to open library, error: %s
+0002ddaa AMEDIA_ERROR_END_OF_STREAM
+0002ddc5 ANDROID_BITMAP_FORMAT_RGBA_4444
+0002dde8  (VideoCaptureOutputOpenGLESPixelBuffer.cpp:395) VideoCaptureOutputOpenGLESPixelBuffer::setup - framebuffer is not complete, status: %s
+0002de70 GL_UNSIGNED_INT
+0002de80 GL_LINK_STATUS
+0002de8f GL_TEXTURE24
+0002de9c GL_CLAMP_TO_EDGE
+0002dead glBindVertexArrayOES
+0002dec2 glDeleteRenderbuffers
+0002ded8 glDeleteSyncANGLE
+0002deea glFenceSyncANGLE
+0002defb glFinish
+0002df04 glGenBuffersAPPLE
+0002df16 glGenVertexArrays
+0002df28 glGetShaderivANGLE
+0002df3b glGetShaderInfoLogAPPLE
+0002df53 glTexImage2DOES
+0002df63 glUnmapBufferAPPLE
+0002df76 glVertexAttribPointerANGLE
+0002df91 UVInterleaved_Video
+0002dfa5 vkAllocateCommandBuffers
+0002dfbe vkCreateFramebuffer
+0002dfd8  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkAllocateCommandBuffers'
+0002e038  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBindDescriptorSets'
+0002e097  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreatePipelineLayout'
+0002e0f2  (VideoRecorder.cpp:723) VideoRecorder::createVideoCodec - failed to start codec, error: %d - %s
+0002e15a  (VideoRecorder.cpp:774) VideoRecorder::createVideoCodec - plane 1 row stride: %u
+0002e1af  (VideoRecorder.cpp:1343) VideoRecorder::muxerThread - failed to start muxer, error: %d - %s
+0002e20f  (VideoRecorder.cpp:1745) VideoRecorder::setupCapture - failed to setup the video capture
+0002e26f  (VideoRecorder.cpp:449) GetHEVCProfile - preferred profiles unavailable, will select best available
+0002e2da  (AudioBufferQueue.cpp:53) VideoRecorderAPI28::AddAudioSamples - audio buffer exhausted, dropping samples
+0002e344 openStream
+0002e34f AAudioStream_write
+0002e362 AAudioStream_getHardwareSampleRate
+0002e385 ErrorNoService
+0002e394 ro.soc.manufacturer
+0002e3a8 SinkFloat
+0002e3b2 SL_RESULT_PERMISSION_DENIED
+0002e3ce : out of range
+0002e3df terminate_handler unexpectedly returned
+0002e40d static_cast
+0002e419 sizeof 
+0002e42f __float128
+0002e43a void __cxxabiv1::scan_eh_tab(scan_results &, _Unwind_Action, bool, _Unwind_Exception *, _Unwind_Context *)
+0002e4a5 unknown pointer encoding
+0002e4be DWARF opcode not implemented
+0002e4db getSavedRegister
+0002e4f7 _FrameRate
+0002e502 expected >
+0002e511 GL_TRIANGLES
+0002e51e GL_BYTE
+0002e526 GL_MAX_VARYING_VECTORS
+0002e53d GL_VALIDATE_STATUS
+0002e550 GL_TEXTURE_BINDING_CUBE_MAP
+0002e56c GL_TEXTURE_CUBE_MAP_POSITIVE_X
+0002e58b GL_TEXTURE4
+0002e597 GL_FLOAT_MAT4
+0002e5a5 GL_MAX_RENDERBUFFER_SIZE
+0002e5be glBlitFramebufferANGLE
+0002e5d5 glBufferSubDataAPPLE
+0002e5ea glDeleteShaderAPPLE
+0002e5fe glDeleteSyncOES
+0002e60e glDeleteVertexArraysAPPLE
+0002e628 glGenFramebuffersAPPLE
+0002e63f glGenTextures
+0002e64d glGetIntegervAPPLE
+0002e660 glUniformMatrix3fvANGLE
+0002e678 glUnmapBufferOES
+0002e689 EGL_BAD_ATTRIBUTE
+0002e69b EGL_BAD_CURRENT_SURFACE
+0002e6b3 vkQueueSubmit
+0002e6c1 vkResetFences
+0002e6d5  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateCommandPool'
+0002e72a AAudioStreamBuilder_setPerformanceMode
+0002e751 AAudioStreamBuilder_setPackageName
+0002e774 AAudioStreamBuilder_delete
+0002e78f AAudioStreamBuilder_setErrorCallback
+0002e7b4 AAudioStream_requestFlush
+0002e7d2 transfer
+0002e7db PerformanceMode [AudioStreamBuilder::setPerformanceMode()] is not supported on OpenSLES streams running on pre-Android N-MR1 versions.
+0002e862 clock_gettime(CLOCK_MONOTONIC) failed
+0002e888 condition_variable wait failed
+0002e8a9 terminating due to %s exception of type %s: %s
+0002e8d8 vtable for 
+0002e8e4 sizeof... 
+0002e8ef operator<
+0002e8f9 operator-=
+0002e904 StringView (anonymous namespace)::itanium_demangle::AbstractManglingParser<(anonymous namespace)::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, (anonymous namespace)::DefaultAllocator>::OperatorInfo::getSymbol() const [Derived = (anonymous namespace)::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, Alloc = (anonymous namespace)::DefaultAllocator]
+0002ea99 bool
+0002eaa2 decimal128
+0002eab6 actions & (_UA_SEARCH_PHASE | _UA_FORCE_UNWIND)
+0002eae6 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+0002eb2b libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0002eb67 AVProMovieCapture
+0002eb79 GetFormatAdjustmentForEncode
+0002eb96 GetAudioInputDeviceCount
+0002ebaf CreateCryptor
+0002ebc3  (PluginInterface.cpp:319) AVPMC_CreateRecorderPipe - pipe recorders are not supported
+0002ec1a video/avc
+0002ec24 android.permission.RECORD_AUDIO
+0002ec47  (ImageRecorder.cpp:305) ImageRecorder::writePng_ABitmap - unsupported format: %d - %s
+0002eca1  (ImageRecorder.cpp:338) ImageRecorder::writeJpg_ABitmap - failed to write jpg, error: %d - %s
+0002ed00 AMEDIA_DRM_SESSION_NOT_OPENED
+0002ed1e There are no more image buffers to read/write image data.
+0002ed5c GL_SRC_ALPHA_SATURATE
+0002ed72 GL_BLEND_COLOR
+0002ed81 GL_STENCIL_WRITEMASK
+0002ed96 GL_POLYGON_OFFSET_FACTOR
+0002edaf GL_COMPRESSED_TEXTURE_FORMATS
+0002edcd GL_DONT_CARE
+0002edda GL_TEXTURE_CUBE_MAP_NEGATIVE_Z
+0002edf9 GL_TEXTURE12
+0002ee06 GL_TEXTURE22
+0002ee13 GL_ACTIVE_TEXTURE
+0002ee25 GL_FRAMEBUFFER_COMPLETE
+0002ee3d GL_SRGB
+0002ee45 glBindAttribLocation
+0002ee5a glDeleteBuffersANGLE
+0002ee6f glDetachShader
+0002ee7e glGenFramebuffersANGLE
+0002ee95 glGetProgramInfoLogANGLE
+0002eeae glHintANGLE
+0002eeba glUniform1iOES
+0002eec9 glUniformMatrix2fvOES
+0002eedf EGL_BAD_CONFIG
+0002eeee vkResetCommandBuffer
+0002ef03 vkCreateGraphicsPipelines
+0002ef1d vkDestroyCommandPool
+0002ef32 vkGetBufferMemoryRequirements
+0002ef56  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyShaderModule'
+0002efb3  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetImageSubresourceLayout'
+0002f016  (VideoCaptureVulkanAPI.cpp:41) Failed to bind Vulkan function 'vkWaitForFences'
+0002f067 vulkan
+0002f075  (VideoRecorder.cpp:653) VideoRecorder::createVideoCodec   - I-Frame interval: %f
+0002f0ce  (VideoRecorder.cpp:654) VideoRecorder::createVideoCodec   - Stride:           %u
+0002f123  (VideoRecorder.cpp:663) VideoRecorder::createVideoCodec - failed to create video codec
+0002f182  (VideoRecorder.cpp:1082) VideoRecorder::createAudioCodec   - Bitrate:          %u
+0002f1d5 Unknown
+0002f1dd %s() could not find libaaudio.so
+0002f1fe AudioStream::%s() called with data callback disabled!
+0002f234 libaaudio.so
+0002f241 APerformanceHint_createSession
+0002f260 ErrorInternal
+0002f26e ErrorClosed
+0002f27a OpenSLES
+0002f283 AudioInputStreamOpenSLES::%s() is intentionally not implemented for input streams
+0002f2d5 requestFlush
+0002f2e2 AudioOutputStreamOpenSLES::%s() mPlayInterface is null
+0002f319 setPlayState_l
+0002f328 AudioStreamBuffered::%s(): numFrames is negative
+0002f359 ContentType [AudioStreamBuilder::setContentType()] is not supported on OpenSLES streams.
+0002f3b2 androidPerformanceMode
+0002f3c9 EngineOpenSLES - Realize() engine result:%s
+0002f3f5 %a %b %d %H:%M:%S %Y
+0002f40a September
+0002f414 %s failed to broadcast
+0002f42b libc++abi: 
+0002f437 operator--
+0002f442 operator|
+0002f44c wchar_t
+0002f454 long
+0002f459 char (anonymous namespace)::itanium_demangle::OutputBuffer::back() const
+0002f4a2 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+0002f4e4 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+0002f532 CIE start does not match
+0002f604 IHDR
+0002f66d Dz?!
+0002f708  $(,048<
+0002f941 RRR/RR)RRRRRRRRR[
+0002f969  N8rapidxml11parse_errorE
+0002f98c NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0002f9d4 NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0002fa19 NSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0002fda0 22PluginAudioInputDevice
+0002fdb9 N4oboe23AudioStreamDataCallbackE
+0002fdda N4oboe24AudioStreamErrorCallbackE
+0002fdfc N4oboe18AudioStreamBuilderE
+0002fe18 N4oboe15AudioStreamBaseE
+0002ff10 YUV13ImageRecorder
+0002ff23 14IImageRecorder
+0002ff34 9IRecorder
+0002ff3f 27IVideoCaptureOutputDelegate
+00030009  n;^
+000300c9 Qkkbal
+000301d7 i]Wb
+00030317 9a&g
+00030320 MGiI
+00030325 wn>Jj
+00030367 #.zf
+00030375 +o*7
+000303d6 $3br
+000303e2 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+000304a1 	#3R
+000304b5 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+0003184b  '-46
+00031852 !&.37<
+00031859 "%/28;=#$019:>?
+0003186e JFIF
+0003188f NSt6__ndk120__shared_ptr_pointerIP14IImageRecorderNS_10shared_ptrI9IRecorderE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+00031918 NSt6__ndk110shared_ptrI9IRecorderE27__shared_ptr_default_deleteIS1_14IImageRecorderEE
+0003196f >ADGJ
+00031975 &),/258;>
+0003197f 369<?BEH
+00031990 "%(+.
+000319cc NSt6__ndk120__shared_ptr_emplaceI23VideoCaptureFactoryNullNS_9allocatorIS1_EEEE
+00031a1c NSt6__ndk120__shared_ptr_emplaceI27VideoCaptureFactoryOpenGLESNS_9allocatorIS1_EEEE
+00031ab4 N19VideoCaptureShaders7ProgramE
+00031ad4 N27VideoCaptureOpenGLESShaders7ProgramE
+00031afc 27VideoCaptureFactoryOpenGLES
+00031b1a 20IVideoCaptureFactory
+00031b31 30IVideoCaptureOpenGLESResources
+00031b52 NSt6__ndk120__shared_ptr_emplaceI20VideoCaptureOpenGLESNS_9allocatorIS1_EEEE
+00031b9f NSt6__ndk120__shared_ptr_emplaceI27VideoCaptureOpenGLESShadersNS_9allocatorIS1_EEEE
+00031bf3 20VideoCaptureOpenGLES
+00031c0a 13IVideoCapture
+00031c1a 33VideoCaptureOutputDelegateWrapper
+00031c74 37VideoCaptureOutputOpenGLESPixelBuffer
+00031c9c 27IVideoCaptureOutputOpenGLES
+00031cba 19IVideoCaptureOutput
+00031cd0 NSt6__ndk120__shared_ptr_emplaceI31VideoCaptureOpenGLESPixelBufferNS_9allocatorIS1_EEEE
+00031d3d JFF""
+00031d43 31VideoCaptureOpenGLESPixelBuffer
+00031d65 15IHardwareBuffer
+00032c18 N19VideoCaptureShaders6ShaderE
+00032c37 N27VideoCaptureOpenGLESShaders6ShaderE
+00032c5e 27VideoCaptureOpenGLESShaders
+00032c7c 19VideoCaptureShaders
+00032c92 40IVideoCaptureShaderLibraryParserDelegate
+00032cbd 23VideoCaptureFactoryNull
+00032cd7 St8__nestedISt13runtime_errorE
+00032d28 18VideoCaptureVulkan
+00032d3d NSt6__ndk120__shared_ptr_emplaceI25VideoCaptureFactoryVulkanNS_9allocatorIS1_EEEE
+00032dc6 35VideoCaptureOutputVulkanPixelBuffer
+00032dec 25IVideoCaptureOutputVulkan
+00032e28 NSt6__ndk120__shared_ptr_emplaceI29VideoCaptureVulkanPixelBufferNS_9allocatorIS1_EEEE
+00032ee0 25VideoCaptureFactoryVulkan
+00032efc 28IVideoCaptureVulkanResources
+00032f1b NSt6__ndk120__shared_ptr_emplaceI18VideoCaptureVulkanNS_9allocatorIS1_EEEE
+00032f66 NSt6__ndk120__shared_ptr_emplaceI25VideoCaptureVulkanShadersNS_9allocatorIS1_EEEE
+00032fd8 29VideoCaptureVulkanPixelBuffer
+00033020 25VideoCaptureVulkanShaders
+0003303c N25VideoCaptureVulkanShaders6ShaderE
+00033061 NSt6__ndk120__shared_ptr_emplaceI29VideoCaptureVulkanUnityBridgeI20IUnityGraphicsVulkanENS_9allocatorIS3_EEEE
+000330cf 29VideoCaptureVulkanUnityBridgeI20IUnityGraphicsVulkanE
+00033107 30IVideoCaptureVulkanUnityBridge
+00033128 25IVideoCaptureVulkanBridge
+00033144 19IVideoCaptureBridge
+0003315a NSt6__ndk120__shared_ptr_emplaceI29VideoCaptureVulkanUnityBridgeI22IUnityGraphicsVulkanV2ENS_9allocatorIS3_EEEE
+000331ca 29VideoCaptureVulkanUnityBridgeI22IUnityGraphicsVulkanV2E
+00033204 13VideoRecorder
+00033214 14IVideoRecorder
+00033507 /NSt6__ndk120__shared_ptr_pointerIP14IVideoRecorderNS_10shared_ptrI9IRecorderE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+00033591 NSt6__ndk110shared_ptrI9IRecorderE27__shared_ptr_default_deleteIS1_14IVideoRecorderEE
+000335e7 19VideoCaptureWrapperINSt6__ndk110shared_ptrEE
+00033616 NSt6__ndk120__shared_ptr_pointerIP13IVideoCaptureNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+00033697 NSt6__ndk110shared_ptrI13IVideoCaptureE27__shared_ptr_default_deleteIS1_S1_EE
+000336e5 NSt6__ndk120__shared_ptr_emplaceI16AudioBufferQueueNS_9allocatorIS1_EEEE
+0003377d 0NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE
+000337b1 NSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEE
+000337e3 NSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE
+00033816 NSt6__ndk120__shared_ptr_pointerIP16VideoFormatCacheNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+0003389a NSt6__ndk110shared_ptrI16VideoFormatCacheE27__shared_ptr_default_deleteIS1_S1_EE
+000338eb 16AudioBufferQueue
+000338fe 13IAudioCapture
+0003390e 18VideoRecorderAPI26
+00033923 NSt6__ndk117bad_function_callE
+00033942 NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_0NS_9allocatorIS5_EEFviEEE
+000339bf NSt6__ndk110__function6__baseIFviEEE
+000339e4 ZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_0
+00033a2a NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_1NS_9allocatorIS5_EEFbvEEE
+00033aa7 NSt6__ndk110__function6__baseIFbvEEE
+00033acc ZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_1
+00033b12 NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_2NS_9allocatorIS5_EEFviP21AMediaCodecBufferInfoEEE
+00033ba7 NSt6__ndk110__function6__baseIFviP21AMediaCodecBufferInfoEEE
+00033be4 ZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_2
+00033c2a NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_3NS_9allocatorIS5_EEFvP12AMediaFormatEEE
+00033cb5 NSt6__ndk110__function6__baseIFvP12AMediaFormatEEE
+00033ce8 ZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_3
+00033d2e NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_4NS_9allocatorIS5_EEFvS4_14media_status_tiPKcEEE
+00033dc1 NSt6__ndk110__function6__baseIFvP11AMediaCodec14media_status_tiPKcEEE
+00033e07 ZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_4
+00033e4d NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_5NS_9allocatorIS5_EEFbvEEE
+00033eca ZN18VideoRecorderAPI2625createVideoCodecPostStartEP11AMediaCodecE3$_5
+00033f10 NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_0NS_9allocatorIS5_EEFviEEE
+00033f8d ZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_0
+00033fd3 NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_1NS_9allocatorIS5_EEFbvEEE
+00034050 ZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_1
+00034096 NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_2NS_9allocatorIS5_EEFviP21AMediaCodecBufferInfoEEE
+0003412b ZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_2
+00034171 NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_3NS_9allocatorIS5_EEFvP12AMediaFormatEEE
+000341fc ZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_3
+00034242 NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_4NS_9allocatorIS5_EEFvS4_14media_status_tiPKcEEE
+000342d5 ZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_4
+0003431b NSt6__ndk110__function6__funcIZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_5NS_9allocatorIS5_EEFbvEEE
+00034398 ZN18VideoRecorderAPI2625createAudioCodecPostStartEP11AMediaCodecE3$_5
+000343de 18VideoRecorderAPI28
+000343f3 N4oboe13QuirksManagerE
+0003440a NSt6__ndk120__shared_ptr_pointerIPN4oboe11AudioStreamENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+00034490 NSt6__ndk110shared_ptrIN4oboe11AudioStreamEE27__shared_ptr_default_deleteIS2_S2_EE
+000344e3 N4oboe17AudioStreamAAudioE
+000344fe N4oboe11AudioStreamE
+00034513 N4oboe17FilterAudioStreamE
+0003452e N4oboe19AudioStreamCallbackE
+00034557 N4oboe23DataConversionFlowGraphE
+00034578 19FixedBlockProcessor
+0003458e N4oboe9flowgraph15FlowGraphSourceE
+000345b1 N4oboe9flowgraph18FlowGraphPortFloatE
+000345d7 N4oboe9flowgraph13FlowGraphPortE
+000345f8 N4oboe17AudioSourceCallerE
+00034613 17FixedBlockAdapter
+00034627 16FixedBlockReader
+0003463a 16FixedBlockWriter
+0003464d N4oboe17SourceFloatCallerE
+00034668 N4oboe15SourceI16CallerE
+00034681 N4oboe15SourceI24CallerE
+0003469a N4oboe15SourceI32CallerE
+000346c0 "%(+.14
+000346e8 N4oboe13QuirksManager12DeviceQuirksE
+0003470d 25SamsungExynosDeviceQuirks
+00034729 20QualcommDeviceQuirks
+00034740 N4oboe9flowgraph24FlowGraphPortFloatOutputE
+0003476c N4oboe9flowgraph23FlowGraphPortFloatInputE
+00034797 N4oboe9flowgraph13FlowGraphNodeE
+000347b8 N4oboe9flowgraph21ChannelCountConverterE
+000347e1 N4oboe9flowgraph20MonoToMultiConverterE
+00034809 N4oboe9flowgraph20MultiToMonoConverterE
+00034831 N4oboe9flowgraph19SampleRateConverterE
+00034858 N4oboe9flowgraph15FlowGraphFilterE
+0003487b N4oboe9flowgraph9SinkFloatE
+00034897 N4oboe9flowgraph13FlowGraphSinkE
+000348b8 N4oboe9flowgraph7SinkI16E
+000348d2 N4oboe9flowgraph7SinkI24E
+000348ec N4oboe9flowgraph7SinkI32E
+00034906 N4oboe9flowgraph11SourceFloatE
+00034925 N4oboe9flowgraph23FlowGraphSourceBufferedE
+00034950 N4oboe9flowgraph9SourceI16E
+0003496c N4oboe9flowgraph9SourceI24E
+00034988 N4oboe9flowgraph9SourceI32E
+000349a4 N4oboe9resampler21MultiChannelResamplerE
+00034a9c N4oboe9resampler15LinearResamplerE
+00034abf N4oboe9resampler18PolyphaseResamplerE
+00034ae5 N4oboe9resampler22PolyphaseResamplerMonoE
+00034b0f N4oboe9resampler24PolyphaseResamplerStereoE
+00034b3b N4oboe9resampler13SincResamplerE
+00034b5c N4oboe9resampler19SincResamplerStereoE
+00034ba0 N4oboe24AudioInputStreamOpenSLESE
+00034be8 N4oboe14FifoControllerE
+00034c00 N4oboe18FifoControllerBaseE
+00034c1c N4oboe25AudioOutputStreamOpenSLESE
+00034c78 N4oboe19AudioStreamBufferedE
+00034c95 N4oboe19AudioStreamOpenSLESE
+00034cb2 16MonotonicCounter
+00034d18 St12bad_any_cast
+00034d29 St16nested_exception
+00034d3e NSt6__ndk114__shared_countE
+00034d5a NSt6__ndk119__shared_weak_countE
+00034d7b NSt6__ndk112system_errorE
+00034d95 NSt6__ndk114error_categoryE
+00034db1 NSt6__ndk112__do_messageE
+00034dcb NSt6__ndk124__generic_error_categoryE
+00034df1 NSt6__ndk123__system_error_categoryE
+00034e16 NSt6__ndk18ios_baseE
+00034e2b NSt6__ndk18ios_base7failureE
+00034e48 NSt6__ndk119__iostream_categoryE
+00034e69 NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+00034e96 NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+00034eca NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+00034efc NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+00034f2e NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+000350ca 0123456789abcdefABCDEFxX+-pPiInN
+000350eb %I:%M:%S %p
+00035c5c NSt6__ndk16locale5facetE
+00035c75 NSt6__ndk15ctypeIwEE
+00035c8a NSt6__ndk110ctype_baseE
+00035ca2 NSt6__ndk17codecvtIcc9mbstate_tEE
+00035cc4 NSt6__ndk112codecvt_baseE
+00035cde NSt6__ndk17codecvtIDsc9mbstate_tEE
+00035d01 NSt6__ndk17codecvtIDsDu9mbstate_tEE
+00035d25 NSt6__ndk17codecvtIDic9mbstate_tEE
+00035d48 NSt6__ndk17codecvtIDiDu9mbstate_tEE
+00035d6c NSt6__ndk116__narrow_to_utf8ILm16EEE
+00035d91 NSt6__ndk17codecvtIwc9mbstate_tEE
+00035db3 NSt6__ndk16locale5__impE
+00035dcc NSt6__ndk17collateIcEE
+00035de3 NSt6__ndk17collateIwEE
+00035dfa NSt6__ndk15ctypeIcEE
+00035e0f NSt6__ndk18numpunctIcEE
+00035e27 NSt6__ndk18numpunctIwEE
+00035e3f NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00035e86 NSt6__ndk19__num_getIcEE
+00035e9f NSt6__ndk114__num_get_baseE
+00035ebb NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00035f02 NSt6__ndk19__num_getIwEE
+00035f1b NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00035f62 NSt6__ndk19__num_putIcEE
+00035f7b NSt6__ndk114__num_put_baseE
+00035f97 NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00035fde NSt6__ndk19__num_putIwEE
+00035ff7 NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0003603f NSt6__ndk19time_baseE
+00036055 NSt6__ndk120__time_get_c_storageIcEE
+0003607a NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+000360c2 NSt6__ndk120__time_get_c_storageIwEE
+000360e7 NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0003612f NSt6__ndk110__time_putE
+00036147 NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0003618f NSt6__ndk110moneypunctIcLb0EEE
+000361ae NSt6__ndk110money_baseE
+000361c6 NSt6__ndk110moneypunctIcLb1EEE
+000361e5 NSt6__ndk110moneypunctIwLb0EEE
+00036204 NSt6__ndk110moneypunctIwLb1EEE
+00036223 NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0003626c NSt6__ndk111__money_getIcEE
+00036288 NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+000362d1 NSt6__ndk111__money_getIwEE
+000362ed NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00036336 NSt6__ndk111__money_putIcEE
+00036352 NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0003639b NSt6__ndk111__money_putIwEE
+000363b7 NSt6__ndk18messagesIcEE
+000363cf NSt6__ndk113messages_baseE
+000363ea NSt6__ndk18messagesIwEE
+00036405 $NSt6__ndk14__fs10filesystem16filesystem_errorE
+00036435 NSt6__ndk120__shared_ptr_emplaceINS_4__fs10filesystem16filesystem_error8_StorageENS_9allocatorIS4_EEEE
+000364a8 St9exception
+000364b5 St20bad_array_new_length
+000364ce St9bad_alloc
+000364db St11logic_error
+000364eb St16invalid_argument
+00036500 St12length_error
+00036511 St12out_of_range
+00036522 St13runtime_error
+00036534 St9type_info
+00036541 St8bad_cast
+0003654d N10__cxxabiv116__shim_type_infoE
+0003656e N10__cxxabiv117__class_type_infoE
+00036590 N10__cxxabiv123__fundamental_type_infoE
+000365be N10__cxxabiv120__si_class_type_infoE
+000365e3 N10__cxxabiv121__vmi_class_type_infoE
+00036733 iiii
+00036738 iiiiiiiii2XJ
+000367ed %N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+0003681e N12_GLOBAL__N_116itanium_demangle4NodeE
+00036846 N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+00036880 N12_GLOBAL__N_116itanium_demangle8NameTypeE
+000368ac N12_GLOBAL__N_116itanium_demangle10ModuleNameE
+000368db N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+00036918 N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+00036947 N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+00036976 N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+000369a6 N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+000369dd N12_GLOBAL__N_116itanium_demangle10MemberExprE
+00036a0c N12_GLOBAL__N_116itanium_demangle7NewExprE
+00036a37 N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+00036a66 N12_GLOBAL__N_116itanium_demangle8CallExprE
+00036a92 N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+00036ac5 N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+00036af9 N12_GLOBAL__N_116itanium_demangle8CastExprE
+00036b25 N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+00036b57 N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+00036b8a N12_GLOBAL__N_116itanium_demangle8BoolExprE
+00036bb6 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+00036bee N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+00036c26 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+00036c5e N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+00036c90 N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+00036cc4 N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+00036d03 N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+00036d3d N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+00036d7a N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+00036db8 N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+00036df2 N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+00036e26 N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+00036e55 N12_GLOBAL__N_116itanium_demangle11EnumLiteralE
+00036e85 N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+00036eb7 N12_GLOBAL__N_116itanium_demangle8FoldExprE
+00036ee3 N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+00036f1e N12_GLOBAL__N_116itanium_demangle10BracedExprE
+00036f4d N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+00036f81 N12_GLOBAL__N_116itanium_demangle12InitListExprE
+00036fb2 N12_GLOBAL__N_116itanium_demangle29PointerToMemberConversionExprE
+00036ff4 N12_GLOBAL__N_116itanium_demangle13SubobjectExprE
+00037026 N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+0003705e N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+00037090 N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+000370bd N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+000370ef N12_GLOBAL__N_116itanium_demangle8DtorNameE
+0003711b N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+00037156 N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+0003718a N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+000371c2 N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+000371fa N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+0003723a N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+00037269 N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+000372a3 N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+000372d4 N12_GLOBAL__N_116itanium_demangle12ModuleEntityE
+00037305 N12_GLOBAL__N_116itanium_demangle10NestedNameE
+00037334 N12_GLOBAL__N_116itanium_demangle9LocalNameE
+00037361 N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+00037393 N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+000373c4 N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+000373fd N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+00037436 N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+00037467 N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+0003749c N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+000374c9 N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+000374fa N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+00037533 N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+00037564 N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+00037596 N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+000375cc N12_GLOBAL__N_116itanium_demangle8QualTypeE
+000375f8 N12_GLOBAL__N_116itanium_demangle12BinaryFPTypeE
+00037629 N12_GLOBAL__N_116itanium_demangle10BitIntTypeE
+00037658 N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+0003768c N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+000376bb N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+000376e8 N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+00037720 N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+0003775b N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+0003778b N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+000377bd N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+0003782d aaaaD"(
+00037a2c /	>MZ
+0004eb5d zPLR
+000571ed "@9H
+00057c45 z@9	
+00057c71 z@9	
+00057c9d z@9	
+00058d1b *h*@
+00059688 H,@x
+000598dc H,@x
+0005a00c H,@x
+0005a0e5 #@9h
+0005a5e8 kz)x`
+0005a604 kIi8
+0005a694 kz)x`
+0005a6b0 kIi8
+0005a739 @@9	D
+0005a774 kz*x`
+0005a77d @@9J
+0005a790 kIj8
+0005a7fc 	`@9
+0005a8e0 +ih8J	
+0005b08b 6`"@
+0005b094 hb@9h
+0005b4b1 c@9h
+0005b541 c@9h
+0005b5dd c@9h
+0005b70d c@9(
+0005b833 T		@9?
+0005b8fb T*	@9_
+0005b9da @y)	@9_
+0005ba43 TK	@9
+0005bafc ?k78
+0005bb2a @y)	@9_
+0005bbbc ?k78
+0005bc34 ?k78
+0005bc65 ii8J	
+0005bcdd 	@y?
+0005bec0 ?k78
+0005bf24 ?k78
+0005bfa0 ?k78
+0005c141 #A9H
+0005cac7 6`6@
+0005d19f ThB@
+0005d457 6`6@
+0005d574 kbA9h
+0005d587 6`6@
+0005d5ef 6`*@
+0005d62f 6`*@
+0005d85b Tj.@
+0005dd10 ?k78
+0005e052  6i*D
+0005e067 *k*@
+0005e16d 	@9J
+0005e198 jij8
+0005e1ef T		@9?
+0005e216 @9?Q
+0005e22e @9?m
+0005e29c 		@9?
+0005e2d3 T		@9?
+0005e2e8 		@9?=
+0005e302 @9?Q
+0005e30e @9?e
+0005e31a @9?A
+0005e32f T	!@9
+0005e33c Iii8
+0005e3cb KJ	@
+0005e427 K	@@
+0005e46c +ih8
+0005e474 Kik8
+0005e4aa @8*ij8
+0005e5b6 _8?u
+0005e5c2 @9?u
+0005e5df KJ	@
+0005e62b K)	@
+0005e6ee @9?m
+0005e736 @9_m
+0005e837 KJ	@
+0005e893 K)	@
+0005e8ee @8Lkj8
+0005e920 Kkk8
+0005e99e @8Hkh8
+0005eaba @8	ki8
+0005eb16 @8)ki8
+0005eb26 @8	ki8
+0005ec53 KJ	@
+0005ecaf K	@@
+0005f050 (a@9(
+0005f057 5(	@
+0005f1e4 +ih8J	
+0005f234 h"@9h
+0005f2a8 +ih8J	
+0005f348 +ih8J	
+0005f3f0 +ih8J	
+0005f40c ( @9
+0005f428 ( @9
+0005f64b R)yG
+0005f8e7 T	!@
+0005f96f T*!@
+0005fc97 T)!@
+0005fddb Th"@
+0005fefb TL!@
+0005ff07 T*!@
+0005ff2b T	!@
+0005ff9b TL!@
+0005ffa7 T*!@
+0005ffcb T	!@
+00060068 +ih8J	
+0006018d i{8)	
+00060265 k78H
+00060281 i{8)	
+000603ef Tl!@
+000603fb TK!@
+0006041f T*!@
+0006051d c@9h
+000605d9 c@9h
+000607c1 k78t
+00060889 c@9h
+00060c38 La@9_
+00060c78 -`@9@
+00060cb1 a@9L
+00060d38 Ka@9
+00060d48 la@9L
+00060d5f THa@9
+00060dbc ja@9
+00060dcc La@9
+00060ddb 9Ha@9
+00060e14 ia@9
+00060e68 ia@9
+00060ec9 a@9	
+00060f21 a@9	
+000611dd `B9	
+00061213 6`J@
+00061387 9(1@
+0006143d PA9H
+000616dc hB@9
+0006177c hB@9h
+00061818 h"@9
+0006196f 6`"@
+000619f1 `@9	
+00061c0b Qk!@Q
+00061c4b T-{i
+00061c69 in8pjn8
+00061d71 	@9)A
+00061d82 	J)EI
+00061def T/yk
+00061e11 ip8?
+00061e9d j(8Z
+00061f59 j(8Z
+00061fed j(8Z
+00062089 j(8Z
+00062113 PJyixiii8
+00062144 jyix)
+00062195 j(8Z
+0006220d j)8Z
+00062291 Ysx)Is8(
+000622d1 j(8Z
+0006234f Ts}@
+00062371 js8(
+000623d5 j(8Z
+00062465 j(8Z
+000624f9 j(8Z
+0006259d j(8Z
+0006260b Thks
+00062637 r	})
+00063472 	JQC
+000634cf 9,[l
+000634e1 !KJl
+000634f9 !KJl~
+00063519 !KJm
+00063529 !KJm
+00063539 !KJm
+00063551 !KJm
+0006355b R-[m
+00063561 !KJm
+00063571 !KJm
+0006357d !KJm
+0006359b 9*[j
+000635a3 9I!iJ*}
+000635f7 J*[j
+000635fc H!HJA
+00063633 9*[j
+00063638 I!IJ*
+00063647 S*[j
+00063653 SI!iJ*
+00063759 jl81
+0006379c Mih8
+000637e0 Lii8
+00063844 Lii8
+000638a0 -ih8J
+000638a8 .ik8/
+00063904 lin8k
+0006390c Min8J
+00063914 /in8)
+0006394b k/hn8"
+000639ac Lii8
+00063a00 Lii8
+00063be3 Ns*!
+00063e5a  .@h-
+0006422b q#jj8B
+000646bd in<ejn<
+00064882 &N j
+00064911 CJ)C
+00064a75 in<ejn<
+00064ecb 6`"@
+00064ed4 hb@9
+00065173 6`"@
+000653ab niRF
+000653b6 A9Al
+00065ba1 #A9h
+00065e21 #A9(
+0006608b R`b@
+00066d25 C@9h
+00066f93 *+}@
+000670df r`hj
+000671fa _8d	@9e
+0006725a _8c('
+0006727b ^'*'
+000672ba @9c(0
+000672de @9Oy"
+000672e6 @9k!
+0006740a (*?#
+0006760b T+}@
+00067b1d #@9h
+00067d5d #@9h
+00068178 +ih8J	
+000681b0 +ih8J	
+000681e4 +ih8J	
+00068388 +ih8J	
+000683d4 +ih8J	
+000685c2 @9	'@9e
+000685e1 /@9(
+000685e7 J	+@9
+00068633 5h&@
+000686da 	J5!
+00068805 j78v
+00068a82 @9	(
+00069a09 k;8n
+0006a239 C@9h
+0006a4b7 R)|@
+0006a61b R)|@
+0006aed3 Ra"@
+0006b9e7 R)!A
+0006bb13 R)!A
+0006bb2b q 9Az
+0006bf6b 4a"@
+0006c00b Tc:@
+0006c037 TcV@
+0006c16f 4a"@
+0006c20f Tc:@
+0006c23b Ta>@
+0006c303 4a"@
+0006c37f R	!A
+0006c57f S)}@
+0006c65c Iyzx
+0006dea7 TuZ@
+0006e97b Thr@
+0006ea17 Thn@
+0006ea31 kh8)	
+0006ec50 +yhxJ	
+0006ecb4 +yhxJ	
+0006ecf4 +yhxJ	
+0006ed34 +yhxJ	
+0006ed74 +yhxJ	
+0006edb8 +yhxJ	
+0006edf8 +yhxJ	
+0006ee48 +yhxJ	
+0006eea4 +yhxJ	
+0006eee4 +ih8J	
+0006ef28 +yhxJ	
+0006ef5c +yhxJ	
+0006efb4 +yhxJ	
+0006efd8 +yhxJ	
+0006f040 +yhxJ	
+0006f064 +yhxJ	
+0006f088 +yhxJ	
+00072039 	@y?
+00072601 c@9	
+00072641 	@y?
+000739cb Ri"A
+00073b5d C@9h
+00073dc7 ThZ@
+00073e5f ThN@
+00073e91 C@9h
+000748af TuZ@
+00074ef3 T*	@9_
+00074f7b T		@9?
+00074fe3 T		@9?
+000752eb T		@9?
+00075333 T	!@9?
+0007533f T	%@9?
+0007534b T	)@9?
+000753c3 T*	@9_
+000754bf T*	@9_
+000755af T		@9?
+000755f7 T	!@9?
+00075603 T	%@9?
+0007560f T	)@9?
+0007561b T	-@9?
+00075627 T	1@9?
+00075737 T		@9?
+00075845 CD9h
+0007585d #E9h
+000758b7 T		@9?
+00075c1c 	a@9
+00075cc5 	@9?
+00075d6d #F9h
+00075dd3 T		@9?
+00075f41 a@9H
+00076015 #F9h
+000761f9 #F9H
+00076235 CD9h
+0007624d #E9h
+0007639b T		@9?
+000763e3 T	!@9?
+000763ef T	%@9?
+000763fb T	)@9?
+00076431 #E9h
+00076473 T		@9?
+000764e7 T		@9?
+00076595 #F9h
+0007665f T		@9?
+00076d19 j48)
+00076e35 #@9h
+00076eff T		@9?
+00076f95 #@9h
+00076ff3 T		@9?
+00077065 #@9h
+00077871 `@9h
+000779c7 TuR@
+00077c4b <(Yh
+00077c53 )h.@
+00077dfb 6`.@
+00077e0f 5`.@
+0007801b *`.@
+000781a7 T`.@
+0007872b T	4@
+0007881e @9irC9
+00078872 @9irC9
+00078a37 T/!@
+00078c03 Rj6@
+00079448 +ih8J	
+00079c81 ADq`
+0007a137 =h"@
+0007a243 5h"@
+0007a36b =h"@
+0007a7e0 +ih8J	
+0007aa4d C@9h
+0007aaa1 iy8)	
+0007aae1 C@9h
+0007abd5 C@9h
+0007acfb oa	@
+0007adb1 iy8)	
+0007b06d AHq@
+0007b0e9 ADq@
+0007bb47 R*O@
+0007bd7f Q`R@
+0007d74b 5w|@
+0007d937 qIyi
+0007d9a8 Ii{8
+0007de08 (%A)7}
+0007de17 Sh2@
+0007de5d ]A)h
+0007de74 (%A)7}
+0007de83 Sh2@
+0007dec9 !@-(%A)
+0007dedf Sh2@
+0007df15 ]A) y
+0007df61 ]A)h
+0007e4ed W5)(
+0007e66b 5h"@
+0007e923 T!#@
+0007ed75 	@y?
+0007ef41 cA9h
+0007efa9 cA9h
+0007f530 hB@9
+0007f638 hB@9h
+000806f9 c@9h
+000809ef =hfA
+00080f2d B@9h
+0008123c hB@9
+000812d3 6hB@9jF
+000813b0 h&E)
+00081486 @yh&
+00081492 @y`2
+0008156b 5h&E)`2@
+000815df r X 
+00081673 6hf@
+000817bd !@9?
+0008195d !@9?
+00081c73 q	)	
+00081c7c i2V9
+00081d4b ThzE
+00081d60 i*E)a2@
+00081d8b SI}	
+00081df8 i*E)a2@
+00081e8f RcnE
+00081fe4 h2V9bBI
+0008239f 7`V@
+000824eb R`V@
+00082def R`~A
+00082f87 6`~A
+00083094 hB@9!H
+000830dc hB@9i
+000831dc h"V9h
+000832c4 h"V9
+000833b3 T`V@
+0008348c h"V9H
+000838b7 6h"V9H
+000838bf 4iB@
+000838df Th"V9H
+0008396c h"V9h
+000843d5 $V9(
+00084b0f TuZ@
+0008546f TuZ@
+00085ee1 C@9h
+00086797 R( 	
+00086a13 r	}	
+00086ff7 4`"@
+0008700b 4`6@
+000870e3 4`"@
+00087113 4`2@
+0008713f T`2@
+00087197 4`"@
+000871ab 4`6@
+000872d7 q`>@
+0008743f Rc>@
+00087467 T`>@
+000874d7 T`B@
+00087513 *`>@
+000876d7 T`"@
+00087787 Th"@
+000878ad pB9H
+00088ec8 +ih8J	
+0008986f TiV@
+00089a7c +yhxJ	
+0008abb4 +ih8J	
+0008ac73 4`>@
+0008af61 C@9h
+0008b12f r"E@
+0008b345  O)	8@
+0008e007 6`J@
+0008ec37 4hr@
+0008ec43 Th^@
+0008ec4b 5hb@
+0008ed76 B9kF@
+0008edb0 jbB9kR@
+0008ee17 Tiz@
+0008ef17 Th^@
+0008f9c9 C@9h
+0008fa39  @9h
+0008faf1 C@9h
+0008fdd1 C@9h
+0008ff0d C@9h
+0008ffd9 C@9h
+00090095 C@9h
+00090149 C@9h
+00090221 C@9h
+00090325 C@9h
+000904e9 C@9h
+00092189 as9+
+00092193 qHuF
+0009259f 6H|`
+00092cd8 :`K)T
+00092d88 +ih8J	
+00092dcc +ih8J	
+0009321c +ih8J	
+0009389b *)m@
+000938b3 5`.@
+0009394f *)m@
+00093fcb *`.@
+00093fef TjJ@
+00093ff7 qn&@
+000943af *`.@
+000943d3 TjJ@
+000943db qk&@
+000943e3 T,E)
+0009446f N1V(Og
+00094489 T(OcT(O
+0009455b NRV0O1V0O
+00094571 V(OsV0O
+0009490b *`.@
+0009492f TjJ@
+00094937 qn&@
+000949a7 KAE@
+00094cd4 +ih8J	
+000950cf 7(`@
+000950db T(<@
+00095451 c@9h
+000959e5 !@9?
+00095a11 !@9_
+00095ac1  @9	(@9
+00095b03 7(`@
+00095b0f T(<@
+00095b1b T(l@
+00095b43 R	 @9
+00095b55 $@9$	@z
+00095b5e Hz(l@
+00095cdb 4uZA
+00095e53 4uZA
+00096fb6 1O@HaN!Ha
+00096fc0 aHaN
+00096fdb K E@
+00096fe5 !@1k
+00097183 T*E)
+00097216 )O!d
+00097226 )Ocd
+00097582 	K)}
+000978f7 Tk}	
+000979fb NRV0O1V0O
+00097a11 V(OsV0O
+00097aff N1V(Og
+00097b19 T(OcT(O
+00097cff KAE@
+00097eb5 #@)i
+000980a9 	@ql
+00098197 T(}@
+00098357 *W!@
+00098417 T`9`
+00098457 T A 
+00098a0f KAE@
+00098a1b qB8!
+00098d37 T	q}
+00098e5f /	 @
+00098fab - i*
+00098fbb /	 @
+00099263 *@}-
+000992bf T!F@
+000993e3 T	q}
+000995df - i*
+000996af *@}-
+0009970b T!F@
+0009982f T	q}
+00099b9b T`Z@
+0009a60f q)A3
+0009a9bb T`Z@
+0009aa8f 5`f@
+0009b444 tR	)
+0009b523 ThFA
+0009bc8f 4h>@
+0009bc97 4hj@
+0009bc9f 4hf@
+0009bf57 Thb@
+0009bf8c hVG)
+0009bfbb TvZA
+0009c0f7 Thb@
+0009c1e3 Thb@
+0009c367 Thr@
+0009d01c ( @9
+0009d06c ( @9h
+0009d4d5 #@9h
+0009f4c1 #@9h
+0009f5c1 c@9h
+0009f709 c@9h
+0009fa8f TuZ@
+000a03ed $@9h
+000a0905 #@9h
+000a0f44 h @9
+000a1101 #@9H
+000a1970 ?i(8
+000a1f14 ?i(8
+000a24b8 ?i(8
+000a2a5c ?i(8
+000a3000 ?i(8
+000a35a4 ?i(8
+000a3b24 ?i(8
+000a40b0 ?i(8
+000a463c ?i(8
+000a4bc3 8_k)8
+000a4c1b 8_k(8
+000a4c38 ?i(8
+000a4c4e Y8(/@
+000a4c9c ?i(8
+000a4eec *a@9_
+000a4f2c *e@9_
+000a4f68 M-@8
+000a4f78 M=@8
+000a4f88 MM@8
+000a4f98 M]@8
+000a4fa8 Mm@8
+000a4fb8 M}@8
+000a5068 M-A8
+000a5078 M=A8
+000a5088 MMA8
+000a5098 M]A8
+000a50a8 MmA8
+000a50b8 M}A8
+000a510f T?A!
+000a513c Iii8
+000a518c Iii8
+000a5284 h @9
+000a5441 #@9H
+000a5cb8 ?i(8
+000a6258 ?i(8
+000a67f8 ?i(8
+000a6d98 ?i(8
+000a7338 ?i(8
+000a78d8 ?i(8
+000a7e50 ?i(8
+000a83d4 ?i(8
+000a8958 ?i(8
+000a8edb 8_k)8
+000a8f33 8_k(8
+000a8f50 ?i(8
+000a8f66 U8(S@
+000a8fb4 ?i(8
+000a948b T?A!
+000a94b0 Iii8
+000a9500 Iii8
+000a99bc kil8`
+000aa434 H @9h
+000aa666 X6J	
+000aa8b6 X6J	
+000abbb0 H @9h
+000abd19 #@9,
+000abde2 X6J	
+000ac032 X6J	
+000ad38d #@9k
+000ad3b9 #@9h
+000ad6e8 )ih8?
+000adc24 )ih8?
+000ae11c )ih8?
+000ae65c )ih8?
+000aea6f *)%@
+000aeaab *)%@
+000af370 +yhxJ	
+000b0257 *(5@
+000b0293 *(5@
+000b0bb0 +yhxJ	
+000b1fb1 CW8i
+000b20b0 lil8
+000b24d8 jih8)	
+000b28f8 Hb87	
+000b2c71 il8ojl8
+000b2e3d cB9*
+000b2f92 	ka-
+000b30d2 @9h#87	
+000b32bc )is8
+000b3364 )is8
+000b34f9 cB9h
+000b3571 #C9h
+000b3635 #C9(
+000b3675 #C9(
+000b4158 lil8
+000b4594 jih8)	
+000b49b0 kIj8
+000b4b54 kIj8
+000b4c61 cB9*
+000b4f35 cB9*
+000b55b5 cB9h
+000b562d #C9h
+000b56f5 #C9(
+000b5735 #C9(
+000b5c75 c@9J
+000b5d11 c@9h
+000b640d CC9(
+000b644d CC9H
+000b68cc Jkh8)	
+000b7365 CH9(
+000b73c5 CH9(
+000b7849 ih8)	
+000b7a27 NKu}
+000bb197 T	yi
+000bb1d3 T	yi
+000bb723 nPE@
+000bb737 nRMA
+000bb74a TNX6
+000bb86c hb@9H
+000bc9b7 T+}F
+000bca33 T+}K
+000bca3f T+}J
+000bca57 TK-@xl
+000bca7a 	*m%@
+000bcb08 ?9@q#
+000bcb1f T+}L
+000bcf51 	@9`
+000bd037 TJ	n
+000bd3db T		@9?
+000bd587 TK	n
+000bd7d3 TJ	n
+000bdaec 	`@9
+000bdb60 	`@9
+000bdc0f =(	@
+000bdcbb =(	@
+000be040 haT9
+000be0d8 H!U9
+000be198 HAV9
+000be21c HaW9h	
+000be24a W9H	
+000be274 H!X9(	
+000be2cc HAV9
+000be344 HaW9
+000be394 H!X9(
+000be5f0 )AY9
+000be7bc )aZ9
+000be9c0 hA\9
+000bea8c ha]9
+000bec10 hac9
+000beca4 h!d9
+000bed84 HAe9
+000bee60 haf9
+000beefc H!g9
+000bef9c HAh9
+000bf020 Hai9(
+000bf078 H!j9
+000bf0fc HAk9
+000bf1a8 HAh9
+000bf220 Hai9(
+000bf270 H!j9h
+000bf2e8 HAk9
+000bf4c8 )al9
+000bf5f8 )!m9
+000bf723 =(An9
+000bf8ac )ao9
+000bf9dc )!p9
+000bfafc hAq9
+000bfbc8 har9
+000bfc50 h!s9
+000bfd1c hAt9
+000c0070 IaQ9i
+000c0c44 hBD9
+000c0db1 !X9h
+000c0dc9 aW9(
+000c0ded AV9H
+000c0e11 !U9h
+000c0e29 aT9(	
+000c0e4d AS9H
+000c0e89 aW9(
+000c0f49 aT9(
+000c0fbd a]9h
+000c101d aZ9h
+000c1036 Y9(	
+000c11ca k9(	
+000c1211 ai9h
+000c1271 af9h
+000c12d1 ac9h
+000c153e t9(	
+000c1585 ar9h
+000c15e5 ao9h
+000c1645 al9h
+000c219b R @ 
+000c22c7 R @`
+000c275d ij8J
+000c28a4 ?i(8
+000c2915 #@9h
+000c2df3 TKia8
+000c3206 @Q*}
+000c3220 Iii8
+000c377e @9vV
+000c3791 c@9h
+000c3859 c@9(
+000c38e9  A9(
+000c38f7 7hb@9
+000c391f 6`"@
+000c3928 hb@9
+000c3986 @9`b
+000c39ee @9`b
+000c3b11 #@9wZ
+000c4aa4  	Az
+000c4b8b T(<@
+000c4c0b T(<@
+000c4cc7 Th>@
+000c4d70 h:A9
+000c4ddc h:A9(
+000c4eab ThF@
+000c4f57 7i>@
+000c4f97 Th:A9h
+000c4fc3 Th6@
+000c5024 h:A9
+000c502b 5h6A9H
+000c5033 4h2A9(
+000c503b 4h2@
+000c5049 B@98
+000c505d B@9h
+000c50b7 Th:A9h
+000c50bf 5h>@
+000c50cb Th2@
+000c511b Th:A9H
+000c5123 5h>@
+000c5193 Th2@
+000c524b ThF@
+000c5284 h6A9
+000c528b 4h2A9i
+000c5387 Th2@
+000c546e G)t:
+000c5487 Th2@
+000c54c7 Th6@
+000c5597 Th>@
+000c55b7 Tz2A9|6A9	
+000c5610 h2A9i6A9
+000c5654 h2A9i6A9
+000c566b Tj:A9Z
+000c567f 4h2@
+000c56ef ThJ@
+000c581f Th>@
+000c5843 ThJ@
+000c5923 Th>@
+000c5947 ThJ@
+000c5d0a ^x6]?
+000c5d9e @9?}
+000c5f19 h(8t
+000c62cc myjx
+000c635b TkNA
+000c63e2 @9?%
+000c65f2 @9?}
+000c68a7 Th&@
+000c68b6 @9?}
+000c6d2e @9?}
+000c6f3f 4i"L9Ic
+000c6f82 	j@W
+000c7631 ik8k
+000c7a80 h"L9
+000c7a87 4h&@
+000c7abe @9?}
+000c7b16 @9?}
+000c7c32 @9?}
+000c7e4e @9?}
+000c7f7b 5h&S
+000c8066 @9_=
+000c8086 @9_I
+000c810c ,kj8k	
+000c81be _x5]
+000c829c h @9
+000c83d6 @9?}
+000c868e @9?i
+000c8c47 Th&@
+000c9732 ^x*Y?
+000c977a @9_]
+000c9796 @9?A
+000c9a33 =)	@
+000c9acf r	h(
+000ca116 @9?%
+000ca133 6`NA
+000ca1df ThNA
+000ca3b6 _xxe
+000ca47f xiNA
+000ca796 @9?Q
+000ca7b6 @9?1
+000ca86c j&L9h
+000ca8c6 ^x4}?
+000ca8eb 8hnA
+000ca8fb TwjA
+000ca994 j&L9h
+000ca99f 5jNA
+000ca9b7 TKyi
+000ca9cf TTyt
+000cab32 @9?Q
+000cac99 il8)	
+000cad72 @9?}
+000cad97 T4yh
+000cae53 Th&S
+000cb000 h"@9
+000cb052 @x*!
+000cb0aa @9?%
+000cb12e _x6U
+000cb3f2 _x3]
+000cb5c1 $@9	
+000cbb3d y|x)	
+000cbbb2 ^x9Y?
+000cc158 t"L9
+000cc2e7 6h&@
+000cc376 ]x9Y>
+000cc3ef 7h&@
+000ccef3 x+1?
+000cd048 Lyixk	
+000cd2cd "@9	
+000cd2ed &@9	
+000cd6e1 "@9	
+000cd701 &@9	
+000cd721 *@9	
+000cd741 .@9	
+000cd761 2@9	
+000cd781 6@9	
+000cd7a1 :@9	
+000cd7c1 >@9	
+000cd7e1 B@9	
+000cd801 F@9	
+000cd821 J@9	
+000cd841 N@9	
+000cd861 R@9	
+000cd881 V@9	
+000cd8a1 Z@9	
+000cd8c1 ^@9	
+000cd8e1 b@9	
+000cd901 f@9	
+000cd921 j@9	
+000cd941 n@9	
+000cd961 r@9	
+000cd981 v@9	
+000cd9a1 z@9	
+000cd9c1 ~@9	
+000cdb91 "@9	
+000cdbb1 &@9	
+000cdbd1 *@9	
+000cdbf1 .@9	
+000cdc11 2@9	
+000cdc31 6@9	
+000cdc51 :@9	
+000cdc71 >@9	
+000cdc91 B@9	
+000cdcb1 F@9	
+000cdf36 @9?Y
+000cdf52 @9?-
+000cdfb6 @9?Y
+000cdfd2 @9?-
+000ce0da @9?}
+000ce196 @9?}
+000ce236 @9J1
+000ce44b *9)?
+000ce4d7 q 	B
+000ce4fe @9?a
+000ce58f 84U?
+000ce62b 84U?
+000ce6c7 R4U?
+000ce776 @x	 
+000ce8c7 83Q?
+000ceae6 _x8e
+000ceb26 @9_}
+000ceceb *3)=
+000cf457 xh&@
+000cf6c6 _x4U
+000cf6e3 xh&@
+000cf9bf R	h(8h
+000cfa54 	h(8h
+000cfb61 h(8V
+000d0173 R	h(xh
+000d0233 R	h(x
+000d0387 Th"@
+000d03e0 	h58
+000d0430 	h(8h
+000d05bb Th"@
+000d0614 	h58
+000d0658 	`@9(
+000d06a7 R	h(xh
+000d0715 f@9(
+000d0767 R	h(xh
+000d0979 h(xh
+000d09c3 Th"@
+000d0a1c 	h58
+000d0b5d h(8h
+000d0c51 h(xh
+000d0c9b Th"@
+000d0cf4 	h58
+000d0f1f R	h(8h
+000d0f8c 	h(8j
+000d13fb 84M?
+000d14c2 @x	 
+000d172e @9?}
+000d18c6 @9?}
+000d19e2 @9_Q
+000d1c32 @9?}
+000d1c8a ]x5Q>
+000d1c97 86]?
+000d21a8 	,@9
+000d22ce @9P1
+000d249a @901
+000d2539 -@9m1
+000d2581 9@911
+000d2599 =@9h1
+000d2722 @901
+000d2849 A@9/
+000d2909 a@9/
+000d2941 m@9m1
+000d2989 y@911
+000d29a1 }@9h1
+000d2b18 	h(xh
+000d2ba3 R	h(xh
+000d301f 84U?
+000d3257 R	h(8h
+000d3731 $@9	
+000d37af R	h(8h
+000d3961 h(xh
+000d3c9c 	h(8
+000d3d7f R	h(8h
+000d3e09 h(xh
+000d3e99 h68h
+000d3f75 h(xh
+000d3fbf Th"@
+000d4018 	h58
+000d409f R	h(x
+000d40ac 	 @9
+000d42d3 R	h(8
+000d446f R	h(xh
+000d4673 R	h(8
+000d472f R	h(8
+000d47c7 R	h(8
+000d4883 R	h(8
+000d49d1 h(8(
+000d4aa0 6\C)
+000d4b51 h(xh
+000d5261 h(xh
+000d52f8 	h58
+000d5431 h(8h
+000d5688 	h(xh
+000d5817 R	h(8
+000d5827 R	h(8
+000d58bf R	h(8h
+000d61a4 	h(xh
+000d62db T(	@9
+000d62ef Tv&L9
+000d62f8 w"L9
+000d6663 R	h(8h
+000d68cc 	h(xh
+000d69cf xi"@
+000d69de @9_	
+000d6b8c Lii8k	
+000d6d24 +ih8J	
+000d702b R	h(8h
+000d71c7 R	h(8h
+000d730d h(xh
+000d7357 Th"@
+000d73b0 	h58
+000d7507 R	h(8h
+000d7770 	h(xh
+000d7aa4 	h(xh
+000d7b45 $@9	
+000d7dbb R	h(8h
+000d7e45 h(xh
+000d7ed5 h68h
+000d8205 h(xh
+000d829c 	h58
+000d8315 $@9	
+000d8387 R	h(8h
+000d855b Th"@
+000d85ac 	h68
+000d85c8 	h68
+000d890f R	h(xh
+000d89cb R	h(8h
+000d8b27 5i*A
+000d8f4a ]x4]>
+000d9036 @9?U
+000d90f6 @9?Y
+000d9116 @9?-
+000d92aa ^x6Q?
+000d93c2 ^x4a?
+000d98d2 @9_}
+000d99b6 @9?}
+000da1bd h(xh
+000da207 Th"@
+000da260 	h58
+000da30b R	h(8h
+000da497 Th"@
+000da4f4 	h68
+000da887 R	h(8h
+000da943 R	h(8h
+000daa0b R	h(8h
+000daafd $@9	
+000dae20 	`@9(
+000db23b R	h(8h
+000db39f R	h(8h
+000db4d2 _8?u
+000db513 R	h(8h
+000db567 R	h(8h
+000db5fb R	h(8h
+000db71d $@9	
+000db772 @x	%
+000db857 R	h(8
+000db936 @x	%
+000db9cf R	h(8h
+000dbb59 $@9	
+000dbbb4 	!@9?
+000dbc67 R	h(8h
+000dbc7e @x	%
+000dbd17 R	h(8h
+000dbd6f R	h(8
+000dbee0 	!@9?
+000dbf12 @x	%
+000dbfb3 R	h(8h
+000dc011 $@9	
+000dc117 R	h(8
+000dc12a @x	%
+000dc1c7 R	h(8
+000dc2d2 @x	%
+000dc36f R	h(8
+000dc943 Th:@
+000dce5a @y,	
+000dd0f7 <i*?
+000dd6e8 -ih8
+000dd754 (%@xk
+000ddbcb R	A?9
+000ddc79 B@9p
+000ddfd2 X7-@
+000de219 B@9p
+000de249 B@9p
+000de279 B@9p
+000de2a9 B@9p
+000de2d9 B@9p
+000de309 B@9p
+000de339 B@9p
+000deb81 f@9z
+000dec92 @9	{
+000ded9e @9		
+000dedb0 *ki8
+000def44 +ih8J	
+000df064 +ih8J	
+000df74b 4h~@
+000df817 Q(O(
+000dfc2d zjxk	
+000dfc62 @9)	
+000dfcf7 9	|	
+000e007e 	*H}
+000e00e7 *i}	
+000e014f 9	|	
+000e069c Lii8k	
+000e07a8 Lii8k	
+000e07f4 Lii8k	
+000e09a0 +ih8J	
+000e09dd %@x(
+000e0a9c +ih8J	
+000e0eda @9)	
+000e0f1c M{kx
+000e0feb QhN(
+000e0fff ThN+
+000e149c Lyixk	
+000e14fc Lyixk	
+000e153f ThN 
+000e1577 TiN 
+000e1b97 T+	@
+000e1bcf RJ!B
+000e206c +ih8J	
+000e8a50 qu	 
+000ebaaf &aU?
+000ebac1 <fMC
+000ebac6 q 0}
+000ebb66 Ro\E\N
+000ebb7a /k$g
+000ebb92 G{^W
+000ebc66 3e@ 
+000ebc77 P6'2l
+000ebca0 <'o|M
+000ebcbd )	&4-
+000ebcd7 Hcl0=$
+000ebd3a D^N	
+000ebe3b ov57
+000ebe99 CzHs
+000ebecc su D[
+000ebf21 Sa#4
+000ebf27 4H<0'e
+000ebf3e R@kQQ,
+000ebf93 j<hDP
+000ec042 G)j5
+000ec04f [oNq/E
+000ec162 KmRl
+000ec16a @"K-#
+000ec1d6 3nP]
+000ec24f n`|RJ#Q
+000ec2a3 K$nk
+000ec2a8 ?e:K
+000ec306 M/w:aU{*
+000ec30f z/S2
+000ec366 )x&/A
+000ec38a L"pE
+000ec3c2 koW"
+000ec3fa 6Y=`
+000ec437 *(|/
+000ec43c h`PCZ
+000ec44c *x{%
+000ec46e jZ1q
+000ec4a3 0vnli
+000ec4fc o %m
+000ec508 ?AsXK.o
+000ec53d D#:Qk
+000ec592 0C?~y
+000ec5ab `NYuXh
+000ec5bb Nkah
+000ec5f9 mU%x
+000ec6d7 i]	c
+000ec6df  loW
+000ec73e ~0r0
+000ec776 `2E@xx
+000ec78b $ylz
+000ec81d qjna
+000ec8ae G!*L>;
+000ec93a QMr"$v
+000ec95f *g	L
+000ec98f Q_|%k
+000ec9c0 A5t%
+000eca18 v I8J0
+000eca58 TI0/
+000ecb99 eLH{
+000ecbaa |zxpsO
+000ecbbf i*!7@
+000ecc09 3%Q#1
+000ecc1e Yx>^x
+000ecc9b |d<@
+000eccdb D=oPZ
+000ecd93 gFCM$8
+000ecde5 O>1l!
+000ece88 >Hy[
+000ecea0 EpPj-i5JGpyu@:vHL8(hPgY3k{hn;03XQ:._SV'qD}^|(X}WHsz[q&g4|zcCkOh
+000ecf41 RZ0m$
+000ecfe4 uL'N
+000ed05e |i%#
+000ed088 CSAPJxPO{42,8PL$JzUo?nZ'H?cl_WG\3g3V>nQ;uC\2C`pVabdeVe0dJKtx)zj
+000ed204 OboeVersion1.8.0
+000ed270 Linker: LLD 17.0.2
+000ed284 Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+000ed33d .init_array
+000ed349 .fini_array
+000ed355 .text
+000ed35b .got
+000ed360 .comment
+000ed369 .note.android.ident
+000ed37d .got.plt
+000ed386 .rela.plt
+000ed390 .bss
+000ed395 .dynstr
+000ed39d .eh_frame_hdr
+000ed3ab .gnu.version_r
+000ed3ba .data.rel.ro
+000ed3c7 .rela.dyn
+000ed3d1 .gnu.version
+000ed3de .dynsym
+000ed3e6 .gnu.hash
+000ed3f0 .eh_frame
+000ed3fa .gcc_except_table
+000ed40c .note.gnu.build-id
+000ed41f .dynamic
+000ed428 .shstrtab
+000ed432 .rodata
+000ed43a .data

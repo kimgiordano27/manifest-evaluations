@@ -1,0 +1,1749 @@
+0000020c Android
+00000218 r18b
+00000258 5063045
+000002b0 4lC(
+000015f9 __cxa_finalize
+00001608 LIBC
+0000160d libc.so
+00001615 libopenxr_loader.so
+00001629 __register_atfork
+0000163b __cxa_atexit
+00001648 fputc
+0000164e closelog
+00001657 android_set_abort_message
+00001671 vfprintf
+0000167a syslog
+00001681 openlog
+00001689 _ZTCNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_ostreamIcS2_EE
+000016f1 _ZTINSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000173a _ZTINSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001787 _ZTSNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000017d0 _ZTSNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000181d _ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001866 _ZTVNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000018b3 dlopen
+000018ba libdl.so
+000018c3 dlsym
+000018c9 memcmp
+000018d0 memcpy
+000018d7 memmove
+000018df memset
+000018e6 strlen
+000018ed __errno
+000018f5 __stack_chk_fail
+00001906 closedir
+0000190f memchr
+00001916 opendir
+0000191e readdir
+00001926 strerror
+0000192f strncpy
+00001937 strcmp
+0000193e xrCreateInstance
+0000194f xrDestroyInstance
+00001961 xrEnumerateApiLayerProperties
+0000197f xrEnumerateInstanceExtensionProperties
+000019a6 xrGetInstanceProcAddr
+000019bc __system_property_get
+000019d2 _ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE
+00001a39 _ZTINSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001a85 _ZTSNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001ad1 _ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001b1d __android_log_vprint
+00001b32 __android_log_write
+00001b46 free
+00001b4b malloc
+00001b52 vsnprintf
+00001b5c pthread_once
+00001b69 xrAcquireSwapchainImage
+00001b81 xrApplyHapticFeedback
+00001b97 xrAttachSessionActionSets
+00001bb1 xrBeginFrame
+00001bbe xrBeginSession
+00001bcd xrCreateAction
+00001bdc xrCreateActionSet
+00001bee xrCreateActionSpace
+00001c02 xrCreateReferenceSpace
+00001c19 xrCreateSession
+00001c29 xrCreateSwapchain
+00001c3b xrDestroyAction
+00001c4b xrDestroyActionSet
+00001c5e xrDestroySession
+00001c6f xrDestroySpace
+00001c7e xrDestroySwapchain
+00001c91 xrEndFrame
+00001c9c xrEndSession
+00001ca9 xrEnumerateBoundSourcesForAction
+00001cca xrEnumerateEnvironmentBlendModes
+00001ceb xrEnumerateReferenceSpaces
+00001d06 xrEnumerateSwapchainFormats
+00001d22 xrEnumerateSwapchainImages
+00001d3d xrEnumerateViewConfigurationViews
+00001d5f xrEnumerateViewConfigurations
+00001d7d xrGetActionStateBoolean
+00001d95 xrGetActionStateFloat
+00001dab xrGetActionStatePose
+00001dc0 xrGetActionStateVector2f
+00001dd9 xrGetCurrentInteractionProfile
+00001df8 xrGetInputSourceLocalizedName
+00001e16 xrGetInstanceProperties
+00001e2e xrGetReferenceSpaceBoundsRect
+00001e4c xrGetSystem
+00001e58 xrGetSystemProperties
+00001e6e xrGetViewConfigurationProperties
+00001e8f xrLocateSpace
+00001e9d xrLocateViews
+00001eab xrPathToString
+00001eba xrPollEvent
+00001ec6 xrReleaseSwapchainImage
+00001ede xrRequestExitSession
+00001ef3 xrResultToString
+00001f04 xrStopHapticFeedback
+00001f19 xrStringToPath
+00001f28 xrStructureTypeToString
+00001f40 xrSuggestInteractionProfileBindings
+00001f64 xrSyncActions
+00001f72 xrWaitFrame
+00001f7e xrWaitSwapchainImage
+00001f93 _edata
+00001f9a _end
+00001f9f __bss_start
+00001fab calloc
+00001fb2 posix_memalign
+00001fc1 abort
+00001fc7 pthread_create
+00001fd6 dl_iterate_phdr
+00001fe6 realloc
+00001fee wmemcpy
+00001ff6 __sF
+00001ffb pthread_mutex_lock
+0000200e fflush
+00002015 fwrite
+0000201c getc
+00002021 ungetc
+00002028 sched_yield
+00002034 pthread_mutex_unlock
+00002049 pthread_mutex_trylock
+0000205f wmemset
+00002067 wctob
+0000206d pthread_equal
+0000207b pthread_cond_wait
+0000208d pthread_cond_broadcast
+000020a4 pthread_mutexattr_init
+000020bb pthread_mutexattr_destroy
+000020d5 pthread_mutex_init
+000020e8 pthread_mutex_destroy
+000020fe pthread_self
+0000210b pthread_mutexattr_settype
+00002125 read
+0000212a open
+0000212f close
+00002135 freelocale
+00002140 btowc
+00002146 __ctype_get_mb_cur_max
+0000215d sscanf
+00002164 snprintf
+0000216d setlocale
+00002177 newlocale
+00002181 strftime
+0000218a strcoll
+00002192 strtoll_l
+0000219c strtold_l
+000021a6 strtof
+000021ad strtod
+000021b4 tolower
+000021bc strxfrm
+000021c4 strtoull_l
+000021cf towlower
+000021d8 toupper
+000021e0 uselocale
+000021ea towupper
+000021f3 wcscoll
+000021fb wcrtomb
+00002203 vsscanf
+0000220b vasprintf
+00002215 wcsxfrm
+0000221d wcsnrtombs
+00002228 isupper
+00002230 islower
+00002238 iswblank
+00002241 iswalpha
+0000224a iswdigit
+00002253 iswcntrl
+0000225c iswprint
+00002265 iswlower
+0000226e iswspace
+00002277 iswpunct
+00002280 iswxdigit
+0000228a iswupper
+00002293 mbrlen
+0000229a localeconv
+000022a5 isxdigit
+000022ae mbtowc
+000022b5 mbsrtowcs
+000022bf mbsnrtowcs
+000022ca mbrtowc
+000022d2 strtoll
+000022da strtold
+000022e2 strtol
+000022e9 wcslen
+000022f0 swprintf
+000022f9 strtoull
+00002302 strtoul
+0000230a wcstold
+00002312 wcstol
+00002319 wcstof
+00002320 wcstod
+00002327 wmemchr
+0000232f wcstoull
+00002338 wcstoul
+00002340 wcstoll
+00002348 wmemmove
+00002351 wmemcmp
+00002359 pthread_join
+00002366 pthread_detach
+00002375 nanosleep
+0000237f sysconf
+00002387 pthread_key_create
+0000239a strerror_r
+000023a5 pthread_getspecific
+000023b9 pthread_cond_timedwait
+000023d0 pthread_cond_signal
+000023e4 pthread_cond_destroy
+000023f9 pthread_setspecific
+0000240d liblog.so
+0000e69f 7h"D9
+0000e6af 7hbC9(
+0000e6c7 7hBB9
+0000e6df 7h"A9
+0000e6ef 7hb@9h
+0000e730 h"D9
+0000e750 hbC9(
+0000e757 6`v@
+0000e767 6`j@
+0000e777 6`^@
+0000e780 hBB9h
+0000e787 6`R@
+0000e797 6`F@
+0000e7a7 6`:@
+0000e7b0 h"A9
+0000e7b7 6`.@
+0000e7c7 6`"@
+0000e7d0 hb@9(
+0000e80f 7h"D9
+0000e81f 7hbC9(
+0000e837 7hBB9
+0000e84f 7h"A9
+0000e85f 7hb@9h
+0000e8a0 h"D9
+0000e8c0 hbC9(
+0000e8c7 6`v@
+0000e8d7 6`j@
+0000e8e7 6`^@
+0000e8f0 hBB9h
+0000e8f7 6`R@
+0000e907 6`F@
+0000e917 6`:@
+0000e920 h"A9
+0000e927 6`.@
+0000e937 6`"@
+0000e940 hb@9(
+0000e9f0 hb@9h
+0000ea3c hb@9h
+0000f984 	aA9
+0000fb2b 2!P0
+0000fccb 2!d1
+0000fe8f 2!P5
+00010075 #F9)
+000100b2 S8("
+000100c9 #C9h
+000100f9 #F9)
+00010214 ?k88
+00010465 #C9h
+00010495 #F9)
+00010972 E9(*
+000109ce E9H'
+00010dad #F9)
+0001136f 6`.@
+000113db 5 E@
+000115a3 5 E@
+0001167e 	*kz
+00011747 5 E@
+00011c7d k98`
+00011dcd j58h
+00011f69 c@9H
+00012051 c@9(
+0001214d ji8_
+00012237 T`6@
+000123ef 7hbA9H
+00012415 B@9H
+0001248b 6`F@
+00012494 hbA9
+0001249b 6`6@
+000124ab 6`*@
+000125c5 "A9)
+000126b7 6`.@
+00012728 h"A9)
+0001273b 6`.@
+0001279b 6`*@
+000127eb 6`*@
+0001333f Tt^@
+000134e9 j48h
+00013ccf 5 E@
+00013ee8 ?k78
+00013fd6 (6/n
+0001407f 5 E@
+00014461 k78h.@
+000144a3 Tu"@
+00014a0b 6`*@
+00014a39 B@9H
+00014c2a 	k(1
+00014f04 ?k78
+00014fc7 6`F@
+0001502d B@9H
+000150a3 6`*@
+000155d9 C@9h
+00015614 _k88
+00015641 C@9h
+000156d1 C@9H
+00015716 A9(	
+00015775 C@9h
+000158f2 I8`r
+0001591a I8`r
+00015f41 k78_
+00015fdc _k78
+000165b8 _k98
+00016693 =?k88
+00016752 R8h&
+000169ae @9+hi8_
+00016bd4 ?k:8
+00016c05 CC9h
+000171ad CC9(
+0001724d CC9h
+00017511 k48tb@
+00017553 Ttb@
+0001798d k48tb@
+000179cf Ttb@
+00017b60 JE@9
+00017b65 ji8_
+00017c18 JE@9
+00017c1d ji8_
+00017cb7 2J|@
+000180e2 @9)hi8
+00018231 BB9h
+00018410 ?k78
+0001841f 2iW	
+000184af TuZ@
+00018c71 CA9h
+00018cc5 CA9h
+00018dc5 CA9H
+0001923d CB9h
+00019341 CB9h
+00019423 =A	@
+00019835 CB9h
+00019a11 CB9yC
+00019c65 CB9H
+00019fdd CB9(
+0001a1b5 CB9h
+0001a647 =!	@
+0001a6f1 #B9)
+0001a76b <!	@
+0001aca3 =A	@
+0001ad4b =!	@
+0001ba09 #B9)
+0001bc71 CA9(
+0001bd84 )a@9	
+0001bfd0 )qB9
+0001c1fd CA9h
+0001c339 CA9h
+0001c6b1 CA9h
+0001cbb5 CA9(
+0001ce49 CA9(
+0001cfb3 =A	@
+0001d031 CA9h
+0001d061 CA9h
+0001d2b6 \8(	
+0001d427 =A	@
+0001db01 CA9h
+0001db31 CA9h
+0001e349 CA9h
+0001e491 CA9(
+0001ea65 CA9H
+0001ec81 CA9h
+0001edd9 CA9h
+0001f1e1 CA9h
+0001f42b =A	@
+0001f9bf =A	@
+0001fe39 C@9h
+0001fe65 CA9(
+0001fea5 CA9(
+0001fff9 CA9H
+000200e1 C@9h
+0002039f =(	@
+0002182f 7(	@
+00021b5f =(	@
+00021d14 *ij8
+00021d1f 9*ik8
+00021d2b 9*ik8
+00021d37 9*ik8
+00021d43 9*ik8
+00021d4f 9*ik8
+00021d5b 9*ik8
+00021d67 9*ik8
+00021d73 9*ik8
+00021d7f 9*ik8
+00021d8b 9*ik8
+00021d97 9*ik8
+00021da3 9*ik8
+00021daf 9*ik8
+00021dbf 9*ik8
+00021dc7 9(ih8
+00021ead #D9)
+00022221 #D9)
+000223e7 5 E@
+00022648 _k98h&B
+000226c0 _k98h&B
+000226dd c@9h
+00022957 x	ii8j
+00022963 9	ij8j.H
+0002296f 9	ij8j>L
+0002297b 9	ij8jNP
+00022987 9	ij8j^T
+00022993 9	ij8jnX
+0002299f 9	ij8j~\
+000229ab 9	ij8j
+000229b7 9	ij8j
+000229c3 9	ij8j
+000229cf 9	ij8j
+000229db 9	ij8j
+000229e7 9	ij8j
+000229f3 9	ij8j
+000229ff 9	ij8
+00022af9 cB9	
+00022c89 cB9	
+00022d7d ji8_
+0002329b Tt"@
+000236d1 C@9(
+000236f1 C@9h
+000238a7 T		@
+0002476f T		@
+00024a77 SI}	
+00024cf3 7		@
+00024d61 j68h
+00025093 TtV@
+000258f3 TtV@
+00025be3 2)a1
+00025c67 2J!3
+00025e9c hb@9
+00025f21 #@9h
+00025f80 hb@9
+00026035 #@9h
+00026163 5 E@
+000262d9 b@9A
+00026330 lA@9l
+0002634d b@9J
+000266f1 #@9h
+00026937 6`6@
+00026a1f 6`6@
+00026a88 	 A9J
+00026b00 	 A9J
+00026b17 6`6@
+00026b8d bA9J
+00026c0c ibA9J
+00026c1f 6`6@
+00026d50 iii8
+00026d5b 9iij8
+00026d67 9iij8
+00026d73 9iij8
+00026d7f 9iij8
+00026d8b 9iij8
+00026d97 9iij8
+00026da3 9iij8
+00026daf 9iij8
+00026dbb 9iij8
+00026dc7 9iij8
+00026dd3 9iij8
+00026ddf 9iij8
+00026deb 9iij8
+00026dfb 9iij8
+00026e03 9hih8
+00026e21 #@9h
+00026fcb TK	@
+00027089 c@9h
+000270b1 c@9h
+00027131 j58h
+00027410 *C@9+
+0002785c ?k78
+0002806f T	A@9
+00028307 TL	@
+0002836b 7h&@
+000283d3 TN	@
+000283fc KA@9k
+0002880b 7		@
+00028895 j48tb@
+000288df Ttb@
+0002902b TtV@
+000293a7 =!	@
+000295fb =BmD
+00029cda 	2)A
+0002a256 B9(0
+0002a2c6 A9(,
+0002a2e6 A9(+
+0002a38e B9h&
+0002a456 B9( 
+0002a732 B9H	
+0002b34d c@9h
+0002b40f T`^@
+0002b501 c@9h
+0002c059 ji8_
+0002d509 j68h
+0002d659 j78h
+0002f52f T`RB
+0002f5a7 T`RB
+0002f9a3 RNym
+0003053b 5 E@
+00030797 =a	@
+0003113f 4`^@
+00031187 T k58
+000311ad s@9`^
+00031207 Th*@
+00031217 T`"@
+00031242 _8a"@
+000314bb 4`^@
+00031503 T k58
+00031583 Th*@
+00031593 T`"@
+000315be _8a"@
+00031849 bA9h
+00031b71 bA9h
+00031f54 h @9
+000320a5 #@9H
+0003240e @9_	
+00032959 cA9m
+00032b19 cA9h
+00032e29 cA9m
+00032fe9 cA9h
+000332f9 cA9m
+000334b9 cA9h
+000337c9 cA9m
+00033989 cA9h
+00033c99 cA9m
+00033e59 cA9h
+00034169 cA9m
+00034329 cA9h
+000344ad cA9h
+00034711 cA9h
+00034961 cA9h
+00034bc5 cA9h
+00034e15 cA9h
+00035079 cA9h
+00035471 #A9h
+00035595 #A9H
+000355b9 #A9h
+00035639 a@9_
+000358db *jij8+
+00035927 *jij8+
+00035a9c h @9
+00035bed #@9H
+00035fee @9_	
+000364d5 cA9m
+00036695 cA9h
+000369bd cA9m
+00036b7d cA9h
+00036ea5 cA9m
+00037065 cA9h
+0003738d cA9m
+0003754d cA9h
+00037875 cA9m
+00037a35 cA9h
+00037d5d cA9m
+00037f1d cA9h
+000380b9 cA9h
+00038355 cA9h
+00038581 cA9h
+0003881d cA9h
+00038a49 cA9h
+00038ce5 cA9h
+000390f5 CA9h
+000391dd CA9H
+00039201 CA9h
+00039523 *jij8+
+0003956f *jij8+
+000397f8 m	@9
+00039878 m!@9
+0003988c m%@9
+000398a0 m)@9
+000398b4 m-@9
+000398c8 m1@9
+000398dc m5@9
+000398f0 m9@9
+00039904 m=@9
+00039918 mA@9
+0003992c mE@9
+00039940 mI@9
+00039954 mM@9
+00039968 mQ@9
+0003997c mU@9
+00039990 mY@9
+000399a4 m]@9
+000399b8 ma@9
+000399cc me@9
+000399e0 mi@9
+000399f4 mm@9
+00039a08 mq@9
+00039a1c mu@9
+00039a30 my@9
+00039a44 m}@9
+00039a7c kil8
+0003a3c4 H @9h
+0003a60f T)}	S)
+0003aae8 )ih8	
+0003ad07 T)}	S)
+0003afbb T)}	S)
+0003b277 T)}	S)
+0003b57b RI%IJ	
+0003bb6f R!|)
+0003bc9c )ih8	
+0003bfbb RI%IJ	
+0003c5d0 H @9h
+0003c823 T)}	S)
+0003cc14 )ih8	
+0003cf97 T)}	S)
+0003d24f T)}	S)
+0003d50f T)}	S)
+0003d817 RI%IJ	
+0003dd23 R!|)
+0003de7c )ih8	
+0003e19b RI%IJ	
+0003e937 *)%@
+0003e964 	ii8)
+0003eb69 ii8h
+0003f6a1 b@9I
+0003f725 b@9	
+0003f8cd ii8h
+0004008f *(5@
+00040dc9 b@9I
+00040e4d b@9	
+00041f6c "hb8
+000426a1 in8n
+00042eed cC9*
+00042ff5 cC9*
+000432b9 cC9h
+00043301 #D9h
+00043401 cC9h
+00043449 #D9h
+00043c24 "hb8
+00044369 Ij8_
+0004481c (+H6
+00044869 cC9*
+000448ee 	kA7
+00044d55 cC9*
+00045005 cC9h
+0004504d #D9h
+0004513d cC9h
+00045185 #D9h
+00045abd cB9H
+00045fc4 (ih8
+0004600d oB)?
+00046581 CB9h
+00046665 CB9h
+000466bd CB9h
+00046ad1 CB9H
+00046e48 hj|8
+00047066 ;*_	
+0004736f TmE@
+0004762d CB9h
+00047711 CB9h
+00047769 CB9h
+00048647 oZC"
+00048a57 oZC#
+00048e67 oZC$
+00049fbb T+yl
+00049ff7 T	yi
+0004a037 T	yi
+0004a40c hb@9H
+0004a450 hb@9H
+0004a88c C4!NC
+0004b4ff TK-@xl
+0004b5b8 ?9@qc
+0004bb25 	@9_
+0004bc13 TJ	n
+0004be67 T		@9?
+0004bf15 	@9_
+0004c1f5 	@9_
+0004c335 `@9)
+0004c375 `@9)
+0004c3bd `@9)
+0004c3fd `@9)
+0004e633 Ti		
+0004f800 ?i(8
+0004f9c4 ?i(8
+0004fc23 =!	@
+0004fc9f =!	@
+0004ff95 #@9h
+0004fffd #@9h
+00050015 #@9h
+00050353 Ti2@
+00050c0a ?77}@
+00050f19 jj8J
+000510ff ThB]
+000514e0 (%@x+
+00051697 yh*(
+000519fb T(<@
+00051a6f T(<@
+00051b1b Th>@
+00051bb8 h:A9
+00051c93 q 	Az@	Az`
+00051dfb 7i>@
+00051e0b 2h:A9
+00051e83 ThF@
+00051ef4 h:A9h
+00051efb 5h6A9
+00051f03 4h2A9(
+00051f0b 4h2@
+00051f19 B@9h
+00051f57 Th6@
+00051f87 2h:A9(
+00051f8f 5h>@
+00051fe3 2h:A9H
+00051feb 5h>@
+00051ff7 Th2@
+00052063 Th2@
+0005215f ThF@
+00052198 h6A9
+0005219f 4h2A9
+000521c3 Ti2@
+000521ef Th6@
+000522b6 G)t:
+000522cf Th2@
+000522fb Th6@
+0005237f 4z2A9j6A9
+000523e8 h:A9
+000523ef 5h2A9
+000523f7 4h2@
+00052410 h6A9h
+00052419 C@9h
+000524c7 Th>@
+00052517 ThJ@
+000525e7 Th>@
+00052637 ThJ@
+000526c7 Th>@
+00052717 ThJ@
+00052dd6 @9?i
+00052ef6 @9_}
+00052f0b T*	@9_
+00052f4e @9_}
+00052f63 T*!@9_
+00052f6f T*%@9_
+00052f7b T*)@9_
+00052f87 T*-@9_
+00052f93 T*1@9_
+000530a5 h(8u
+0005344f 9hRA
+00053493 Tl&A
+000534b7 T/yo
+000534cb Ti"@
+0005352f T*	@9
+0005358f T*!@9
+0005359f T*%@9
+000535af T*)@9
+000535bf T*-@9
+000535cf T*1@9
+000535df Tj.A
+000536b6 @9?I
+00053852 @9?}
+00053df3 4trI
+00053fc7 TurI
+0005411b TyrI
+000542f5 jh8_
+00054319 jj8_-
+00054331 jj8_
+000543c3 T*	@9J
+00054721 &@9, 
+0005476c hBK9HW
+00054773 4h&@
+00054faf TtrI
+00055284 hBK9(
+0005528b 4h&@
+00055487 T(	@9
+00055b5f TtrI
+00055cca @9?1
+00055d3e @9_Y
+00055d5e @9_-
+00055e8f 9trI
+00055f0f TH	@9
+00055ff3 Th&S
+0005604e @9_=
+00056072 @9_I
+000560c3 TurI
+0005619e @9_1
+000561ba @9_5
+0005629b 9h&S
+0005640f Th&S
+0005655f 9h&S
+0005680b 9trI
+000568de @9_}
+00056afb =vrI
+00056d0a @9?i
+00057327 r	h(
+000575a7 R`r	
+000576bb Th&S
+000577af TTyh
+00057837 6j"A
+000578c3 Th&A
+00057b17 TzrI
+00057b88 J)@9_
+00057bb4 J-@9_
+00057bdc )%@9?
+00057bf7 9h&A
+00057c07 Tx"A
+00057e9c hJK9I
+00057eab 4trI
+00057f7b T.	@9)
+00057f94 hFK9
+00057f9b 4urI
+00058003 9hRA
+00058013 TtNA
+00058187 TurI
+00058260 	!@9?
+0005830a @9_%
+0005851e @9_	
+00058587 T.	@9)
+000585df TyrI
+00058629 .@9U
+00058643 9i"@
+000586aa @9_U
+0005875f TuZA
+00058867 TxJK9		
+000588d6 @9?}
+000588df TurI
+000589ff TtrI
+00058ba7 TvrI
+0005900b R	h(xh
+000592f7 T(	@9
+0005948b Tk:A
+000594b2 @9?}
+00059d2f TuBK9(	
+00059d62 @9_}
+00059d6b Tj.A
+0005b17f Tj.A
+0005b25f TvrI
+0005b55e @9)Q
+0005b6ab 4wrI
+0005b74f TurI
+0005b889 >@9}
+0005b895 B@9z
+0005b8a1 F@9w
+0005b8cb TurI
+0005b941 jx8O
+0005b973 TurI
+0005ba7b TurI
+0005bc0b TurI
+0005bcf2 @9?Y
+0005bd0e @9?-
+0005be66 @9?Y
+0005be82 @9?-
+0005bf1b TvrI
+0005c0b2 @9_9
+0005c0d6 @9_M
+0005c172 @9_Y
+0005c1be @9_=
+0005c29a @9_M
+0005c312 @9_%
+0005c35e @9_1
+0005c3f2 @9_I
+0005c43e @9_1
+0005c48e @9_5
+0005c6c5 	@9_9
+0005ca4f 4trI
+0005caf3 4trI
+0005cd56 @9?a
+0005d133 R	h(8h
+0005d1df R	h(8h
+0005d25f R	h(8h
+0005d3a9 0@9(
+0005d92a @9)	
+0005d9b3 np(aN
+0005d9cf nc(!
+0005d9d5 *!NP*a
+0005d9e3 OP(aN
+0005d9fd *!Nc
+0005da0a !NaT
+0005db3f R	h(8h
+0005dbc3 R	h(8h
+0005dc9b R	h(xh
+0005dd9b R	h(8
+0005de47 2	h(8
+0005de9f 2	h(8
+0005df4b 2	h(8h
+0005df8f r	h(
+0005e043 2	h(8
+0005e093 R	h(8
+0005e13b r	h(
+0005e197 2	h(8
+0005e243 2	h(8
+0005e2f7 R	h(8
+0005e397 R	h(8
+0005e3e3 /6\C) 
+0005e4a5 h(xh
+0005e603 R	h(8h
+0005e64f R	h(8h
+0005e6d3 R	h(xh
+0005e77f R	h(xh
+0005e803 R	h(8i
+0005e88f R	h(8h
+0005e97b R	h(8h
+0005e9ff R	h(8h
+0005eaef 2	h(8h
+0005eb4f R	h(xh
+0005ebaf R	h(8h
+0005ec67 R	h(8h
+0005ecd1 h(xh
+0005ed85 h68h
+0005ee0b R	h(8h
+0005ee8f R	h(xh
+0005eef9 h(xh
+0005efad h68h
+0005efe8 	`@9(
+0005f043 R	h(xh
+0005f633 TvrI
+0005f757 R	h(xh
+0005f9fe @9?=
+0005fa1b TtrI
+0005faa3 TtrI
+0005fb23 TtrI
+0005fd6a @9?I
+0005fd87 TtrI
+0005fe9f TtrI
+0005ffb7 TtrI
+00060428 wFK9
+00060430 vBK9h
+0006046f 9urI
+00060e63 2	h(8h
+00061073 R	h(xh
+0006123b R	h(8h
+000612bf R	h(xh
+00061343 R	h(8h
+000613d7 R	h(8
+00061457 R	h(8
+0006148b R	h(8
+000615e7 R	h(8
+000616fb R	h(8
+00061863 R	h(8
+000618c5 h(xh
+000619fb R	h(8h
+00061a7f R	h(8h
+00061c47 R	h(x
+00061c9b 2	h(8
+00061ce7 R	h(8
+00061e93 R	h(8
+00062157 R	h(8h
+00062303 R	h(8h
+0006241f R	h(8h
+000628cb 2	h(8h
+00062a7f R	h(8h
+00062baf R	h(8h
+00062cf3 R	h(xh
+00062d5d h(xh
+00062e11 h68h
+00062e9f R	h(8
+00062f01 h(xh
+0006306b R	h(xh
+000635ff 2	h(8h
+00063669 h(xh
+00063729 h68h
+00063775 h68h
+00063b11 h(xh
+00063c2d $@9h
+00063c8b 2	h(8h
+00063d43 R	h(8h
+00063dad h(xh
+00063e61 h68h
+0006402f R	h(x
+00064173 R	h(xh
+0006421f R	h(8h
+000642aa @9_Y
+000642ca @9_-
+00064313 TtrI
+000643aa @9_=
+000643e7 TurI
+00064477 Tj.A
+000646aa @9?e
+0006472e @9?I
+00064746 @9?=
+00064976 @9?U
+000649ea @9?Y
+00064a33 4vrI
+00064aff TN	@9J
+00064e87 TwrI
+00064ff3 R	h(8h
+000650e9 h(xh
+0006522f 2	h(8h
+000652a7 R	h(8h
+00065311 h(xh
+000653c5 h68h
+0006558f R	h(x
+0006562b 2	h(8
+0006571f 2	h(8h
+000657cb 2	h(8h
+00065877 2	h(8h
+00065dd6 _8?u
+00065e27 2	h(8h
+00065e73 R	h(8h
+00065f67 R	h(8h
+00065ff1 (@9H
+00066185 (@9H
+0006620b R	h(8h
+0006630b 2	h(8
+000663c8 (!@9
+000663d3 T(%A
+000664ab 2	h(8h
+000664c1 (@9H
+00066547 R	h(8h
+000666d0 (!@9
+000666db T(%A
+00066729 (@9H
+000667af R	h(8
+0006688f 2	h(8h
+000668a5 (@9H
+00066933 R	h(x
+00066983 R	h(8
+000669bd (@9H
+00066a43 R	h(8h
+00066b23 2	h(8h
+00066b39 (@9H
+00066c23 R	h(x
+00066c5d (@9H
+00066ce3 R	h(8h
+00066e65 Ha8a
+00066f0f RA@8
+00066f14 @@89 
+00067080 chb8
+0006708c @`M9`
+000670d7 5`~@
+00067104 B`M9B
+0006711c c`M9
+0006712d jb8_ 
+0006715c Bht8
+000671f4 c`M9c
+0006737b T`2C
+000673c7 Ta[axc
+00067995 *@9?
+000679ad "@9?
+000679ba @9? 
+000679f9 "@9_
+00067b38  H`8a
+00067b6a Y9Bx
+0006801d J`8a
+0006809d Jz8d
+000682d4  H`8a
+0006830d ja8? 
+00068387 9`z4
+00068445 Bx9 
+00068dc3 Ta~}
+00068f1c  H`8a
+00069061 Ha8a
+000691b4 b"@9
+000691e0 `&@9
+0006920c b"@9_
+0006923a @9?H
+00069427 4C(@
+0006944b Ti<G
+00069531 0@y	
+00069945 B@y 
+00069dd8 `B@y
+00069f7b 7`B@y
+0006a1d0  @@y
+0006a498 `B@y
+0006a8e8 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
+0006a932 ApiLayerInterface::GetApiLayerProperties - failed searching for API layer manifest files
+0006a98b ApiLayerInterface::GetApiLayerProperties
+0006a9b4 VUID-xrEnumerateApiLayerProperties-properties-parameter: non-zero capacity but null array
+0006aa0e VUID-xrEnumerateApiLayerProperties-propertyCapacityInput-parameter: insufficient space in array
+0006aa6e ApiLayerInterface::GetInstanceExtensionProperties - failed searching for API layer files
+0006aac7 ApiLayerInterface::LoadApiLayers - failed searching for API layer files
+0006ab0f xrCreateInstance
+0006ab20 VUID-XrInstanceCreateInfo-enabledApiLayerNames-parameter: enabledApiLayerCount is non-0 but array is NULL
+0006ab8a VUID-xrCreateInstance-info-parameter: something wrong with XrInstanceCreateInfo contents
+0006abe3 ApiLayerInterface::LoadApiLayers skipping layer 
+0006ac14 , failed to load with message "
+0006ac36 xrNegotiateLoaderApiLayerInterface
+0006ac59  because negotiation function 
+0006ac78  was not found
+0006ac87 , negotiation did not return a valid getInstanceProcAddr
+0006acc0  due to failed negotiation with error 
+0006ace7 ApiLayerInterface::LoadApiLayers succeeded loading layer 
+0006ad21  using interface version 
+0006ad3b  and OpenXR API version 
+0006ad56 ApiLayerInterface::LoadApiLayers - failed to find layer 
+0006ad8f ApiLayerInterface being destroyed for layer 
+0006adbc OpenXR-Loader
+0006adca basic_string
+0006add7 allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+0006ae1b vector
+0006ae22 xrEnumerateApiLayerProperties
+0006ae40 xrEnumerateInstanceExtensionProperties
+0006ae67 layer library missing enumeration functions
+0006ae93 DiscoverLayers
+0006aea2 Invalid java objects
+0006aeb7 getApplicationContext
+0006aecd ()Landroid/content/Context;
+0006aee9 getApplicationInfo
+0006aefc ()Landroid/content/pm/ApplicationInfo;
+0006af23 Failed to discover layers.
+0006af3e nativeLibraryDir
+0006af4f Ljava/lang/String;
+0006af62 getBytes
+0006af6b (Ljava/lang/String;)[B
+0006af82 UTF-8
+0006af8b Failed to open layer directory 
+0006afaf FindLayerLibraries
+0006afc2 searching for layers in 
+0006afdb libXrApiLayer
+0006afef Skipping duplicate layer 
+0006b009  in 
+0006b00e Zip not supported
+0006b020 xrInitializeLoaderKHR
+0006b036 Invalid initializeInfo.
+0006b04e Invalid platform specific data provided.
+0006b077 Entering loader trampoline
+0006b092 xrInitializeLoaderOCULUS must be called first.
+0006b0c1 Failed ApiLayerInterface::GetApiLayerProperties
+0006b0f1 Failed to find default runtime with RuntimeInterface::LoadRuntime()
+0006b135 Failed querying extension properties
+0006b15a VUID-xrEnumerateInstanceExtensionProperties-propertyCountOutput-parameter
+0006b1a4 insufficient space in array
+0006b1c0 VUID-XrExtensionProperties-type-type
+0006b1e5 unknown type in properties
+0006b200 VUID-xrEnumerateInstanceExtensionProperties-properties-parameter
+0006b241 invalid properties
+0006b254 Completed loader trampoline
+0006b270 VUID-xrCreateInstance-info-parameter
+0006b295 must be non-NULL
+0006b2a6 xrCreateInstance called with invalid API version 
+0006b2d8 .  Max supported version is 
+0006b2f5 VUID-xrCreateInstance-instance-parameter
+0006b31e Loader does not support simultaneous XrInstances
+0006b34f Found XrInstanceCreateInfoAndroidKHR in 'next' chain.
+0006b385 XR_KHR_android_create_instance must be non-NULL for this platform.
+0006b3c8 XR_KHR_android_create_instance parameters must be non-NULL.
+0006b404 Failed loading runtime information
+0006b427 Failed loading layer information
+0006b448 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
+0006b482 xrCreateInstance failed
+0006b49a xrDestroyInstance
+0006b4ac Instance handle is XR_NULL_HANDLE.
+0006b4cf Unknown error occurred calling down chain
+0006b4f9 Entering loader terminator
+0006b514 something wrong with XrInstanceCreateInfo contents
+0006b547 Completed loader terminator
+0006b563 xrGetInstanceProcAddr
+0006b579 xrSetDebugUtilsObjectNameEXT
+0006b596 xrCreateDebugUtilsMessengerEXT
+0006b5b5 xrDestroyDebugUtilsMessengerEXT
+0006b5d5 xrSubmitDebugUtilsMessageEXT
+0006b5f2 xrCreateApiLayerInstance
+0006b60b Messenger handle is XR_NULL_HANDLE.
+0006b62f xrSessionBeginDebugUtilsLabelRegionEXT
+0006b656 Session handle is XR_NULL_HANDLE.
+0006b678 VUID-xrSessionBeginDebugUtilsLabelRegionEXT-labelInfo-parameter
+0006b6b8 labelInfo must be non-NULL
+0006b6d3 xrSessionEndDebugUtilsLabelRegionEXT
+0006b6f8 xrSessionInsertDebugUtilsLabelEXT
+0006b71a VUID-xrSessionInsertDebugUtilsLabelEXT-labelInfo-parameter
+0006b755 VUID-xrCreateDebugUtilsMessengerEXT-messenger-parameter
+0006b78d invalid messenger pointer
+0006b7a7 VUID-xrGetInstanceProcAddr-function-parameter
+0006b7d5 Invalid Function pointer
+0006b7ee Invalid Name pointer
+0006b803 XR_NULL_HANDLE for instance but query for 
+0006b82e  requires a valid instance
+0006b849 VUID-xrGetInstanceProcAddr-instance-parameter
+0006b877 XR_EXT_debug_utils
+0006b88a VUID-XrInstanceCreateInfo-type-type
+0006b8ae expected XR_TYPE_INSTANCE_CREATE_INFO.
+0006b8d5 VUID-XrInstanceCreateInfo-createFlags-zerobitmask
+0006b907 flags must be 0.
+0006b918 VUID-XrInstanceCreateInfo-applicationInfo-parameter
+0006b94c info->applicationInfo is not valid.
+0006b970 VUID-XrInstanceCreateInfo-enabledExtensionNames-parameter
+0006b9aa enabledExtensionCount is non-0 but array is NULL
+0006b9db VUID-XrApplicationInfo-applicationName-parameter
+0006ba0c application name missing NULL terminator.
+0006ba36 VUID-XrApplicationInfo-engineName-parameter
+0006ba62 engine name missing NULL terminator.
+0006ba87 VUID-XrApplicationInfo-engineName-parameter: application name can not be empty.
+0006bad7 Active XrInstance handle already exists
+0006baff No active XrInstance handle.
+0006bb1c Entering LoaderInstance::CreateInstance
+0006bb44 LoaderInstance::CreateInstance, no support found for requested extension: 
+0006bb8f LoaderInstance::CreateInstance chained CreateInstance call failed
+0006bbd1 LoaderInstance::CreateInstance succeeded with 
+0006bc00  layers enabled and runtime interface - created instance = 
+0006bc3c Destroying LoaderInstance = 
+0006bc59 0123456789abcdef
+0006bc6a debug.xr.loader_debug
+0006bc80 none
+0006bc85 error
+0006bc8b warn
+0006bc90 info
+0006bc99 verbose
+0006bca1 Verbose [
+0006bcab Info [
+0006bcb2 Warning [
+0006bcbc Error [
+0006bcc4 GENERAL
+0006bccc SPEC
+0006bcd1 PERF
+0006bcd6 UNKNOWN
+0006bce2 ] : 
+0006bce7     Object[
+0006bcf3 ] = 
+0006bcf8     SessionLabel[
+0006bd0a OpenXR Loader
+0006bd20 Failed to load runtime
+0006bd37 xrNegotiateLoaderRuntimeInterface
+0006bd59 Could not get xrNegotiateLoaderRuntimeInterface
+0006bd89 RuntimeInterface::LoadRuntime: 
+0006bda9 negotiation succeeded but returned NULL getInstanceProcAddr
+0006bde5 negotiation succeeded but returned invalid interface version
+0006be22 OpenXR version returned not compatible with this loader
+0006be5a negotiation failed with error 
+0006be79 RuntimeInterface::LoadRuntime succeeded loading runtime:
+0006beb2 RuntimeInterface::UnloadRuntime - Unloading RuntimeInterface
+0006beef RuntimeInterface being destroyed.
+0006bf11 com.oculus.systemdriver
+0006bf29 com.oculus.systemdriver.DriverLoader
+0006bf4e loadXrRuntime
+0006bf60 createPackageContext
+0006bf75 (Ljava/lang/String;I)Landroid/content/Context;
+0006bfa4 java/lang/Class
+0006bfb4 forName
+0006bfbc (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+0006bffa getClassLoader
+0006c009 ()Ljava/lang/ClassLoader;
+0006c023 getProcAddr
+0006c02f (Ljava/lang/String;)J
+0006c045 xrGetInstanceProperties
+0006c05d xrPollEvent
+0006c069 xrResultToString
+0006c07a xrStructureTypeToString
+0006c092 xrGetSystem
+0006c09e xrGetSystemProperties
+0006c0b4 xrEnumerateEnvironmentBlendModes
+0006c0d5 xrCreateSession
+0006c0e5 xrDestroySession
+0006c0f6 xrEnumerateReferenceSpaces
+0006c111 xrCreateReferenceSpace
+0006c128 xrGetReferenceSpaceBoundsRect
+0006c146 xrCreateActionSpace
+0006c15a xrLocateSpace
+0006c168 xrDestroySpace
+0006c177 xrEnumerateViewConfigurations
+0006c195 xrGetViewConfigurationProperties
+0006c1b6 xrEnumerateViewConfigurationViews
+0006c1d8 xrEnumerateSwapchainFormats
+0006c1f4 xrCreateSwapchain
+0006c206 xrDestroySwapchain
+0006c219 xrEnumerateSwapchainImages
+0006c234 xrAcquireSwapchainImage
+0006c24c xrWaitSwapchainImage
+0006c261 xrReleaseSwapchainImage
+0006c279 xrBeginSession
+0006c288 xrEndSession
+0006c295 xrRequestExitSession
+0006c2aa xrWaitFrame
+0006c2b6 xrBeginFrame
+0006c2c3 xrEndFrame
+0006c2ce xrLocateViews
+0006c2dc xrStringToPath
+0006c2eb xrPathToString
+0006c2fa xrCreateActionSet
+0006c30c xrDestroyActionSet
+0006c31f xrCreateAction
+0006c32e xrDestroyAction
+0006c33e xrSuggestInteractionProfileBindings
+0006c362 xrAttachSessionActionSets
+0006c37c xrGetCurrentInteractionProfile
+0006c39b xrGetActionStateBoolean
+0006c3b3 xrGetActionStateFloat
+0006c3c9 xrGetActionStateVector2f
+0006c3e2 xrGetActionStatePose
+0006c3f7 xrSyncActions
+0006c405 xrEnumerateBoundSourcesForAction
+0006c426 xrGetInputSourceLocalizedName
+0006c444 xrApplyHapticFeedback
+0006c45a xrStopHapticFeedback
+0006c46f xrSetAndroidApplicationThreadKHR
+0006c490 xrCreateSwapchainAndroidSurfaceKHR
+0006c4b3 xrGetOpenGLESGraphicsRequirementsKHR
+0006c4d8 xrGetVulkanInstanceExtensionsKHR
+0006c4f9 xrGetVulkanDeviceExtensionsKHR
+0006c518 xrGetVulkanGraphicsDeviceKHR
+0006c535 xrGetVulkanGraphicsRequirementsKHR
+0006c558 xrGetVisibilityMaskKHR
+0006c56f xrCreateVulkanInstanceKHR
+0006c589 xrCreateVulkanDeviceKHR
+0006c5a1 xrGetVulkanGraphicsDevice2KHR
+0006c5bf xrGetVulkanGraphicsRequirements2KHR
+0006c5e3 xrPerfSettingsSetPerformanceLevelEXT
+0006c608 xrThermalGetTemperatureTrendEXT
+0006c628 xrCreateSpatialAnchorMSFT
+0006c642 xrCreateSpatialAnchorSpaceMSFT
+0006c661 xrDestroySpatialAnchorMSFT
+0006c67c xrSetInputDeviceActiveEXT
+0006c696 xrSetInputDeviceStateBoolEXT
+0006c6b3 xrSetInputDeviceStateFloatEXT
+0006c6d1 xrSetInputDeviceStateVector2fEXT
+0006c6f2 xrSetInputDeviceLocationEXT
+0006c70e xrCreateSpatialGraphNodeSpaceMSFT
+0006c730 xrCreateHandTrackerEXT
+0006c747 xrDestroyHandTrackerEXT
+0006c75f xrLocateHandJointsEXT
+0006c775 xrCreateHandMeshSpaceMSFT
+0006c78f xrUpdateHandMeshMSFT
+0006c7a4 xrGetControllerModelKeyMSFT
+0006c7c0 xrLoadControllerModelMSFT
+0006c7da xrGetControllerModelPropertiesMSFT
+0006c7fd xrGetControllerModelStateMSFT
+0006c81b xrEnumerateDisplayRefreshRatesFB
+0006c83c xrGetDisplayRefreshRateFB
+0006c856 xrRequestDisplayRefreshRateFB
+0006c874 JavaBase::InitJni() called with null JNIEnv!
+0006c8a1 JavaBase::InitJni() called twice with a different JNIEnv!
+0006c8db GetMethodID("%s", "%s") failed to locate Method!
+0006c90c GetStaticMethodID("%s", "%s") failed to locate Method!
+0006c943 FindClass("%s") failed to locate Class!
+0006c96b ScopedFrame: Uncaught exception
+0006c98b ObjectRef did clean itself up properly!
+0006c9b3 NativeJava
+0006c9be __next_prime overflow
+0006c9d4 iostream
+0006c9dd unspecified iostream_category error
+0006ca01 ios_base::clear
+0006ca11 unsupported locale for standard input
+0006ca3e money_get error
+0006ca4e 0123456789
+0006ca59 %.0Lf
+0006ca63 locale constructed with null
+0006ca80 collate_byname<char>::collate_byname failed to construct for 
+0006cabe collate_byname<wchar_t>::collate_byname(size_t refs) failed to construct for 
+0006cb0c ctype_byname<char>::ctype_byname failed to construct for 
+0006cb46 ctype_byname<wchar_t>::ctype_byname failed to construct for 
+0006cb83 codecvt_byname<wchar_t, char, mbstate_t>::codecvt_byname failed to construct for 
+0006cbd5 false
+0006cbdb numpunct_byname<char>::numpunct_byname failed to construct for 
+0006cc1b numpunct_byname<wchar_t>::numpunct_byname failed to construct for 
+0006cc5e %a %b %d %H:%M:%S %Y
+0006cc73 %I:%M:%S %p
+0006cc7f time_get_byname failed to construct for 
+0006cca8 locale not supported
+0006ccc9 time_put_byname failed to construct for 
+0006ccf2 moneypunct_byname failed to construct for 
+0006cd20 Sunday
+0006cd27 Monday
+0006cd2e Tuesday
+0006cd36 Wednesday
+0006cd40 Thursday
+0006cd49 Friday
+0006cd50 Saturday
+0006cd75 January
+0006cd7d February
+0006cd86 March
+0006cd8c April
+0006cd96 June
+0006cd9b July
+0006cda0 August
+0006cda7 September
+0006cdb1 October
+0006cdb9 November
+0006cdc2 December
+0006cdfd mutex lock failed
+0006ce0f recursive_mutex constructor failed
+0006ce32 recursive_mutex lock failed
+0006ce4e recursive_timed_mutex lock limit reached
+0006ce77 stoul
+0006ce7d stoll
+0006ce83 stoull
+0006ce8a stold
+0006ce9e %lld
+0006cea3 %llu
+0006ceab : no conversion
+0006cebb : out of range
+0006ceca string_view::substr
+0006cede generic
+0006cee6 unspecified generic_category error
+0006cf09 system
+0006cf10 unspecified system_category error
+0006cf36 Unknown error %d
+0006cf47 cannot allocate __cxa_eh_globals
+0006cf68 std::__libcpp_tls_set failure in __cxa_get_globals()
+0006cf9d execute once failure in __cxa_get_globals_fast()
+0006cfce cannot create thread specific key for __cxa_get_globals()
+0006d008 cannot zero out thread value for __cxa_get_globals()
+0006d03d __cxa_guard_acquire failed to acquire mutex
+0006d069 __cxa_guard_acquire condition variable wait failed
+0006d09c __cxa_guard_acquire failed to release mutex
+0006d0c8 __cxa_guard_release failed to acquire mutex
+0006d0f4 __cxa_guard_release failed to release mutex
+0006d120 __cxa_guard_release failed to broadcast condition variable
+0006d15b __cxa_guard_abort failed to acquire mutex
+0006d185 __cxa_guard_abort failed to release mutex
+0006d1af __cxa_guard_abort failed to broadcast condition variable
+0006d1e8 unexpected_handler unexpectedly returned
+0006d211 terminate_handler unexpectedly returned
+0006d239 terminate_handler unexpectedly threw an exception
+0006d26b std::exception
+0006d27a std::bad_exception
+0006d28d std::bad_alloc
+0006d29c bad_array_new_length
+0006d2b1 bad_array_length
+0006d2c2 std::bad_cast
+0006d2d0 std::bad_typeid
+0006d2e0 libc++abi
+0006d2ea terminating with %s exception of type %s: %s
+0006d317 terminating with %s exception of type %s
+0006d340 terminating with %s foreign exception
+0006d366 terminating
+0006d372 uncaught
+0006d37b unexpected
+0006d386 invocation function for block in 
+0006d3a8 vtable for 
+0006d3b4 VTT for 
+0006d3bd typeinfo for 
+0006d3cb typeinfo name for 
+0006d3de covariant return thunk to 
+0006d3f9 thread-local wrapper routine for 
+0006d41b thread-local initialization routine for 
+0006d444 virtual thunk to 
+0006d456 non-virtual thunk to 
+0006d46c guard variable for 
+0006d480 reference temporary for 
+0006d499 construction vtable for 
+0006d4b6 auto
+0006d4bb decltype(
+0006d4cf alignof (
+0006d4d9 const_cast
+0006d4e8 dynamic_cast
+0006d524 noexcept (
+0006d546 reinterpret_cast
+0006d563 static_cast
+0006d56f sizeof (
+0006d578 sizeof... (
+0006d584 typeid (
+0006d58d throw
+0006d593 wchar_t
+0006d59b char
+0006d5a0 signed char
+0006d5ac unsigned char
+0006d5ba short
+0006d5c0 unsigned short
+0006d5dd __int128
+0006d5e6 unsigned __int128
+0006d5f8 true
+0006d601 %LaL
+0006d60a delete
+0006d615 (anonymous namespace)
+0006d62b operator&&
+0006d636 operator&
+0006d640 operator&=
+0006d64b operator=
+0006d655 operator()
+0006d660 operator,
+0006d66a operator~
+0006d674 operator delete[]
+0006d686 operator*
+0006d690 operator delete
+0006d6a0 operator/
+0006d6aa operator/=
+0006d6b5 operator^
+0006d6bf operator^=
+0006d6ca operator==
+0006d6d5 operator>=
+0006d6e0 operator>
+0006d6ea operator[]
+0006d6f5 operator<=
+0006d700 operator<<
+0006d70b operator<<=
+0006d717 operator<
+0006d721 operator-
+0006d72b operator-=
+0006d736 operator*=
+0006d741 operator--
+0006d74c operator new[]
+0006d75b operator!=
+0006d766 operator!
+0006d770 operator new
+0006d77d operator||
+0006d788 operator|
+0006d792 operator|=
+0006d79d operator->*
+0006d7a9 operator+
+0006d7b3 operator+=
+0006d7be operator++
+0006d7c9 operator->
+0006d7d4 operator?
+0006d7de operator%
+0006d7e8 operator%=
+0006d7f3 operator>>
+0006d7fe operator>>=
+0006d80a operator<=>
+0006d816 operator 
+0006d820 operator"" 
+0006d830  ... 
+0006d836 ::operator 
+0006d846 ) ? (
+0006d84c ) : (
+0006d852 sizeof...(
+0006d85d throw 
+0006d864 std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+0006d8ab std::basic_istream<char, std::char_traits<char> >
+0006d8dd std::basic_ostream<char, std::char_traits<char> >
+0006d90f std::basic_iostream<char, std::char_traits<char> >
+0006d942 allocator
+0006d94c basic_istream
+0006d95a basic_ostream
+0006d968 basic_iostream
+0006d977 [abi:
+0006d97d 'lambda
+0006d985 string literal
+0006d994 std::allocator
+0006d9a3 std::basic_string
+0006d9b5 std::string
+0006d9c1 std::istream
+0006d9ce std::ostream
+0006d9db std::iostream
+0006d9e9 string
+0006d9f0 istream
+0006d9f8 ostream
+0006da00 std::
+0006da06  [enable_if:
+0006da13  const
+0006da1a  volatile
+0006da24  restrict
+0006da32 void
+0006da37 bool
+0006da40 unsigned int
+0006da4d long
+0006da52 unsigned long
+0006da60 long long
+0006da6a unsigned long long
+0006da7d float
+0006da83 double
+0006da8a long double
+0006da96 __float128
+0006daa1 decimal64
+0006daab decimal128
+0006dab6 decimal32
+0006dac0 decimal16
+0006daca char32_t
+0006dad3 char16_t
+0006dadc decltype(auto)
+0006daeb std::nullptr_t
+0006dafa  complex
+0006db03  imaginary
+0006db0e noexcept
+0006db17 noexcept(
+0006db21 throw(
+0006db28 pixel vector[
+0006db3a struct
+0006db41 union
+0006db47 enum
+0006db50 objc_object
+0006db60 17ApiLayerInterface
+0006db80 NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+0006dbc0 NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+0006dbf0 NSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0006dc40 NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0006dc90 NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+0006dcd8 XR_EXT_debug_utils
+0006dd60 14LoaderInstance
+0006dda0 17LoaderLogRecorder
+0006ddc0 N12_GLOBAL__N_124OstreamLoaderLogRecorderE
+0006ddf0 N12_GLOBAL__N_121DebugUtilsLogRecorderE
+0006de20 N12_GLOBAL__N_125DebuggerLoaderLogRecorderE
+0006de50 NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+0006de90 NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+0006ded0 NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0006df20 16RuntimeInterface
+0006e0c0 NSt6__ndk18ios_base7failureE
+0006e0e0 NSt6__ndk18ios_baseE
+0006e100 NSt6__ndk19basic_iosIwNS_11char_traitsIwEEEE
+0006e130 NSt6__ndk115basic_streambufIwNS_11char_traitsIwEEEE
+0006e170 NSt6__ndk113basic_istreamIwNS_11char_traitsIwEEEE
+0006e1b0 NSt6__ndk113basic_ostreamIwNS_11char_traitsIwEEEE
+0006e1f0 NSt6__ndk119__iostream_categoryE
+0006e220 NSt6__ndk110__stdinbufIcEE
+0006e240 NSt6__ndk110__stdinbufIwEE
+0006e260 NSt6__ndk111__stdoutbufIcEE
+0006e280 NSt6__ndk111__stdoutbufIwEE
+0006e594 0123456789abcdefABCDEFxX+-pPiInN
+0006e5b5 %I:%M:%S %p%
+0006f2e0 NSt6__ndk16locale5facetE
+0006f300 NSt6__ndk15ctypeIwEE
+0006f320 NSt6__ndk110ctype_baseE
+0006f340 NSt6__ndk17codecvtIcc9mbstate_tEE
+0006f370 NSt6__ndk112codecvt_baseE
+0006f390 NSt6__ndk17codecvtIDsc9mbstate_tEE
+0006f3c0 NSt6__ndk17codecvtIDic9mbstate_tEE
+0006f3f0 NSt6__ndk17codecvtIwc9mbstate_tEE
+0006f420 NSt6__ndk16locale5__impE
+0006f440 NSt6__ndk17collateIcEE
+0006f460 NSt6__ndk17collateIwEE
+0006f480 NSt6__ndk15ctypeIcEE
+0006f4a0 NSt6__ndk18numpunctIcEE
+0006f4c0 NSt6__ndk18numpunctIwEE
+0006f4e0 NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0006f530 NSt6__ndk19__num_getIcEE
+0006f550 NSt6__ndk114__num_get_baseE
+0006f570 NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0006f5c0 NSt6__ndk19__num_getIwEE
+0006f5e0 NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0006f630 NSt6__ndk19__num_putIcEE
+0006f650 NSt6__ndk114__num_put_baseE
+0006f670 NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0006f6c0 NSt6__ndk19__num_putIwEE
+0006f6e0 NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0006f730 NSt6__ndk19time_baseE
+0006f750 NSt6__ndk120__time_get_c_storageIcEE
+0006f780 NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0006f7d0 NSt6__ndk120__time_get_c_storageIwEE
+0006f800 NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0006f850 NSt6__ndk110__time_putE
+0006f870 NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0006f8c0 NSt6__ndk110moneypunctIcLb0EEE
+0006f8e0 NSt6__ndk110money_baseE
+0006f900 NSt6__ndk110moneypunctIcLb1EEE
+0006f920 NSt6__ndk110moneypunctIwLb0EEE
+0006f940 NSt6__ndk110moneypunctIwLb1EEE
+0006f960 NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0006f9b0 NSt6__ndk111__money_getIcEE
+0006f9d0 NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0006fa20 NSt6__ndk111__money_getIwEE
+0006fa40 NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0006fa90 NSt6__ndk111__money_putIcEE
+0006fab0 NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0006fb00 NSt6__ndk111__money_putIwEE
+0006fb20 NSt6__ndk18messagesIcEE
+0006fb40 NSt6__ndk113messages_baseE
+0006fb60 NSt6__ndk18messagesIwEE
+0006fb80 NSt6__ndk114__shared_countE
+0006fba0 NSt6__ndk112system_errorE
+0006fbc0 NSt6__ndk114error_categoryE
+0006fbe0 NSt6__ndk112__do_messageE
+0006fc00 NSt6__ndk124__generic_error_categoryE
+0006fc30 NSt6__ndk123__system_error_categoryE
+0006fcf0 N10__cxxabiv116__shim_type_infoE
+0006fd20 N10__cxxabiv117__class_type_infoE
+0006fd50 N10__cxxabiv120__si_class_type_infoE
+0006fd80 N10__cxxabiv121__vmi_class_type_infoE
+0006fda8 St9exception
+0006fdc0 St13bad_exception
+0006fdd4 St9bad_alloc
+0006fde4 St11logic_error
+0006fe00 St12length_error
+0006fe20 St12out_of_range
+0006fe40 St13runtime_error
+0006fe60 St14overflow_error
+0006fe74 St9type_info
+0006fe84 St8bad_cast
+00070de0 N12_GLOBAL__N_111SpecialNameE
+00070e00 N12_GLOBAL__N_14NodeE
+00070e20 N12_GLOBAL__N_121CtorVtableSpecialNameE
+00070e50 N12_GLOBAL__N_18NameTypeE
+00070e70 N12_GLOBAL__N_124ForwardTemplateReferenceE
+00070ea0 N12_GLOBAL__N_110NestedNameE
+00070ec0 N12_GLOBAL__N_111IntegerExprE
+00070ee0 N12_GLOBAL__N_14ExprE
+00070f00 N12_GLOBAL__N_18BoolExprE
+00070f20 N12_GLOBAL__N_19FloatExprIfEE
+00070f40 N12_GLOBAL__N_19FloatExprIdEE
+00070f60 N12_GLOBAL__N_19FloatExprIeEE
+00070f80 N12_GLOBAL__N_115IntegerCastExprE
+00070fb0 N12_GLOBAL__N_113FunctionParamE
+00070fd0 N12_GLOBAL__N_18FoldExprE
+00070ff0 N12_GLOBAL__N_122ParameterPackExpansionE
+00071020 N12_GLOBAL__N_110BinaryExprE
+00071040 N12_GLOBAL__N_110PrefixExprE
+00071060 N12_GLOBAL__N_18CastExprE
+00071080 N12_GLOBAL__N_18CallExprE
+000710a0 N12_GLOBAL__N_114ConversionExprE
+000710d0 N12_GLOBAL__N_110DeleteExprE
+000710f0 N12_GLOBAL__N_113QualifiedNameE
+00071110 N12_GLOBAL__N_18DtorNameE
+00071130 N12_GLOBAL__N_122ConversionOperatorTypeE
+00071160 N12_GLOBAL__N_115LiteralOperatorE
+00071190 N12_GLOBAL__N_119GlobalQualifiedNameE
+000711c0 N12_GLOBAL__N_110MemberExprE
+000711e0 N12_GLOBAL__N_118ArraySubscriptExprE
+00071210 N12_GLOBAL__N_110BracedExprE
+00071230 N12_GLOBAL__N_115BracedRangeExprE
+00071260 N12_GLOBAL__N_112InitListExprE
+00071280 N12_GLOBAL__N_111PostfixExprE
+000712a0 N12_GLOBAL__N_17NewExprE
+000712c0 N12_GLOBAL__N_113EnclosingExprE
+000712e0 N12_GLOBAL__N_115ConditionalExprE
+00071310 N12_GLOBAL__N_119SizeofParamPackExprE
+00071340 N12_GLOBAL__N_113NodeArrayNodeE
+00071360 N12_GLOBAL__N_19ThrowExprE
+00071380 N12_GLOBAL__N_127ExpandedSpecialSubstitutionE
+000713b0 N12_GLOBAL__N_112CtorDtorNameE
+000713d0 N12_GLOBAL__N_110AbiTagAttrE
+000713f0 N12_GLOBAL__N_115UnnamedTypeNameE
+00071420 N12_GLOBAL__N_115ClosureTypeNameE
+00071450 N12_GLOBAL__N_121StructuredBindingNameE
+00071480 N12_GLOBAL__N_19LocalNameE
+000714a0 N12_GLOBAL__N_119SpecialSubstitutionE
+000714d0 N12_GLOBAL__N_113ParameterPackE
+000714f0 N12_GLOBAL__N_112TemplateArgsE
+00071510 N12_GLOBAL__N_120NameWithTemplateArgsE
+00071540 N12_GLOBAL__N_116StdQualifiedNameE
+00071570 N12_GLOBAL__N_120TemplateArgumentPackE
+000715a0 N12_GLOBAL__N_112EnableIfAttrE
+000715c0 N12_GLOBAL__N_116FunctionEncodingE
+000715f0 N12_GLOBAL__N_19DotSuffixE
+00071610 N12_GLOBAL__N_112NoexceptSpecE
+00071630 N12_GLOBAL__N_120DynamicExceptionSpecE
+00071660 N12_GLOBAL__N_112FunctionTypeE
+00071680 N12_GLOBAL__N_113ObjCProtoNameE
+000716a0 N12_GLOBAL__N_117VendorExtQualTypeE
+000716d0 N12_GLOBAL__N_18QualTypeE
+000716f0 N12_GLOBAL__N_110VectorTypeE
+00071710 N12_GLOBAL__N_19ArrayTypeE
+00071730 N12_GLOBAL__N_119PointerToMemberTypeE
+00071760 N12_GLOBAL__N_122ElaboratedTypeSpefTypeE
+00071790 N12_GLOBAL__N_111PointerTypeE
+000717b0 N12_GLOBAL__N_119LValueReferenceTypeE
+000717e0 N12_GLOBAL__N_119RValueReferenceTypeE
+00071810 N12_GLOBAL__N_120PostfixQualifiedTypeE
+0007f441 zPLR
+00090341 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+00090448 GCC: (GNU) 4.9.x 20150123 (prerelease)
+00090480 gold 1.12
+0009048c ovr-version:oculus-mobile-openxr-package:255199724:23.0.0.71.517
+000904ce .init_array
+000904da .fini_array
+000904e6 .text
+000904ec .got
+000904f1 .comment
+000904fa .note.android.ident
+0009050e .got.plt
+00090517 .rela.plt
+00090521 .bss
+00090526 .dynstr
+0009052e .eh_frame_hdr
+0009053c .gnu.version_r
+0009054b .data.rel.ro
+00090558 .rela.dyn
+00090562 .gnu.version
+0009056f .oculus-version
+0009057f .note.gnu.gold-version
+00090596 .dynsym
+0009059e .hash
+000905a4 .eh_frame
+000905ae .gcc_except_table
+000905c0 .note.gnu.build-id
+000905d3 .gnu.version_d
+000905e2 .dynamic
+000905eb .shstrtab
+000905f5 .rodata
+000905fd .data

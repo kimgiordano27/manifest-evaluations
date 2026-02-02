@@ -1,0 +1,1272 @@
+0000027c Android
+000002c8 7026061
+00001bc3  X B`
+00001ca5 n"OzD"6%
+00001d03 NZ1]g
+00001d0d ny;[
+00001d53 "n<X.
+000024d9 __cxa_finalize
+000024e8 __cxa_atexit
+000024f5 _Unwind_Resume
+00002504 _ZNKSt6__ndk120__vector_base_commonILb1EE20__throw_length_errorEv
+00002546 _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv
+00002589 _ZNSt11logic_errorC2EPKc
+000025a2 _ZNSt12length_errorD1Ev
+000025ba _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+00002608 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00002657 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc
+000026a6 _ZNSt6__ndk115__thread_structC1Ev
+000026c8 _ZNSt6__ndk115__thread_structD1Ev
+000026ea _ZNSt6__ndk118condition_variable10notify_allEv
+00002719 _ZNSt6__ndk118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE
+000027c4 _ZNSt6__ndk118condition_variableD1Ev
+000027e9 _ZNSt6__ndk119__thread_local_dataEv
+0000280d _ZNSt6__ndk120__throw_system_errorEiPKc
+00002835 _ZNSt6__ndk15mutex4lockEv
+0000284f _ZNSt6__ndk15mutex6unlockEv
+0000286b _ZNSt6__ndk15mutexD1Ev
+00002882 _ZNSt6__ndk16chrono12steady_clock3nowEv
+000028aa _ZNSt6__ndk16chrono12system_clock3nowEv
+000028d2 _ZNSt6__ndk16thread4joinEv
+000028ed _ZNSt6__ndk16threadD1Ev
+00002905 _ZNSt6__ndk19to_stringEi
+0000291e _ZNSt6__ndk19to_stringEj
+00002937 _ZNSt6__ndk19to_stringEm
+00002950 _ZSt9terminatev
+00002960 _ZTISt12length_error
+00002975 _ZTISt9exception
+00002986 _ZTVSt12length_error
+0000299b _ZdaPv
+000029a2 _ZdlPv
+000029a9 _Znam
+000029af _Znwm
+000029b5 __cxa_allocate_exception
+000029ce __cxa_begin_catch
+000029e0 __cxa_end_catch
+000029f0 __cxa_free_exception
+00002a05 __cxa_throw
+00002a11 __gxx_personality_v0
+00002a26 fvad_free
+00002a30 fvad_new
+00002a39 fvad_process
+00002a46 fvad_set_mode
+00002a54 fvad_set_sample_rate
+00002a69 memcpy
+00002a70 memmove
+00002a78 memset
+00002a7f pthread_create
+00002a8e pthread_setspecific
+00002aa2 strlen
+00002aa9 _ZNKSt6__ndk16locale9use_facetERNS0_2idE
+00002ad2 _ZNKSt6__ndk18ios_base6getlocEv
+00002af2 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+00002b40 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+00002b79 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+00002bb4 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+00002bf5 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+00002c33 _ZNSt6__ndk115recursive_mutex4lockEv
+00002c58 _ZNSt6__ndk115recursive_mutex6unlockEv
+00002c7f _ZNSt6__ndk115recursive_mutexC1Ev
+00002ca1 _ZNSt6__ndk115recursive_mutexD1Ev
+00002cc3 _ZNSt6__ndk14cerrE
+00002cd6 _ZNSt6__ndk15ctypeIcE2idE
+00002cf0 _ZNSt6__ndk16localeD1Ev
+00002d08 _ZNSt6__ndk18ios_base33__set_badbit_and_consider_rethrowEv
+00002d43 _ZNSt6__ndk18ios_base5clearEj
+00002d61 _ZTISt13runtime_error
+00002d77 __android_log_print
+00002d8b tox_add_audio
+00002d99 tox_add_audio_float
+00002dad tox_add_audio_nonrealtime
+00002dc7 tox_add_audio_nonrealtime_float
+00002de7 tox_add_audio_nonrealtime_short
+00002e07 tox_add_audio_short
+00002e1b tox_add_session_data
+00002e30 tox_add_structured_player_data
+00002e4f tox_add_structured_session_data
+00002e6f tox_create_instance
+00002e83 tox_destroy_instance
+00002e98 tox_error_name
+00002ea7 tox_get_internal_player_uuid
+00002ec4 tox_get_internal_session_uuid
+00002ee2 tox_get_version
+00002ef2 tox_global_cleanup
+00002f05 tox_global_init
+00002f15 tox_join_session
+00002f26 tox_leave_session
+00002f38 tox_set_global_muted
+00002f4d tox_set_log_error_callback
+00002f68 tox_set_log_info_callback
+00002f82 tox_set_player_alias
+00002f97 tox_set_player_muted
+00002fac tox_set_players_muted_at_join
+00002fca tox_set_proximity_chat_can_hear_player
+00002ff1 tox_set_proximity_chat_player_can_hear
+00003018 tox_set_session_alias
+0000302e tox_set_session_name
+00003043 tox_set_single_tenant_prefix
+00003060 tox_target_dev_infra
+00003075 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmmc
+000030c3 _ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+00003121 snprintf
+0000312a strncpy
+00003132 _ZNSt13runtime_errorC1EPKc
+0000314d _ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+000031aa _ZNSt13runtime_errorD1Ev
+000031c3 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+00003210 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+0000325f _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+000032aa _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev
+000032e1 _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev
+00003318 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev
+0000334f _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev
+00003386 _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev
+000033be _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev
+000033f6 _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev
+0000342e _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE4syncEv
+0000346a _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE
+000034b3 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5uflowEv
+000034f0 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl
+00003530 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl
+00003570 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl
+000035b1 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv
+000035f2 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+0000362b _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev
+00003664 _ZNSt6__ndk18ios_base4initEPv
+00003682 _ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev
+000036b4 _ZNSt6__ndk19to_stringEl
+000036cd _ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE
+00003734 _ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_14basic_iostreamIcS2_EE
+0000379c _ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE16_NS_13basic_ostreamIcS2_EE
+00003804 _ZTINSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+0000383a _ZTINSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+00003870 _ZTINSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+000038a7 _ZTINSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+000038df _ZTINSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003928 _ZTINSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003974 _ZTISt9bad_alloc
+00003985 _ZTSNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000039ce _ZTSNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003a1a _ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003a66 _ZTVN10__cxxabiv120__si_class_type_infoE
+00003a8f _ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003ad8 _ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003b24 _ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev
+00003b62 _ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev
+00003ba0 _ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev
+00003bdf _ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev
+00003c1e _ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev
+00003c5d _ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev
+00003c9c _ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev
+00003cdc _ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev
+00003d1c curl_easy_cleanup
+00003d2e curl_easy_getinfo
+00003d40 curl_easy_init
+00003d4f curl_easy_perform
+00003d61 curl_easy_setopt
+00003d72 curl_easy_strerror
+00003d85 curl_global_cleanup
+00003d99 curl_global_init
+00003daa curl_slist_append
+00003dbc curl_slist_free_all
+00003dd0 BIO_free
+00003dd9 BIO_new_mem_buf
+00003de9 OPENSSL_sk_num
+00003df8 OPENSSL_sk_pop_free
+00003e0c OPENSSL_sk_value
+00003e1d PEM_X509_INFO_read_bio
+00003e34 SSL_CTX_get_cert_store
+00003e4b X509_INFO_free
+00003e5a X509_STORE_add_cert
+00003e6e X509_STORE_add_crl
+00003e81 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm
+00003ed4 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+00003f1f _ZNSt6__ndk113random_deviceC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003f7a _ZNSt6__ndk113random_deviceD1Ev
+00003f9a _ZNSt6__ndk113random_deviceclEv
+00003fba _ZNSt6__ndk14stofERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPm
+0000400b _ZNSt9bad_allocC1Ev
+0000401f _ZNSt9bad_allocD1Ev
+00004033 _ZTISt12out_of_range
+00004048 _ZTISt16invalid_argument
+00004061 __assert2
+0000406b free
+00004070 malloc
+00004077 memcmp
+0000407e ope_comments_add
+0000408f ope_comments_create
+000040a3 ope_comments_destroy
+000040b8 ope_encoder_create_callbacks
+000040d5 ope_encoder_ctl
+000040e5 ope_encoder_destroy
+000040f9 ope_encoder_drain
+0000410b ope_encoder_write_float
+00004123 _ZNSt6__ndk19to_stringEf
+0000413c __cxa_guard_acquire
+00004150 __cxa_guard_release
+00004164 sincos
+0000416b sincosf
+00004173 expf
+00004178 log10f
+0000417f logf
+00004184 _Unwind_GetGR
+00004192 _Unwind_GetCFA
+000041a1 _Unwind_SetGR
+000041af _Unwind_GetIP
+000041bd _Unwind_GetIPInfo
+000041cf _Unwind_SetIP
+000041dd _Unwind_GetLanguageSpecificData
+000041fd _Unwind_GetRegionStart
+00004214 _Unwind_FindEnclosingFunction
+00004232 _Unwind_GetDataRelBase
+00004249 _Unwind_GetTextRelBase
+00004260 __frame_state_for
+00004272 _Unwind_RaiseException
+00004289 _Unwind_ForcedUnwind
+0000429e abort
+000042a4 _Unwind_Find_FDE
+000042b5 _Unwind_Resume_or_Rethrow
+000042cf _Unwind_DeleteException
+000042e7 _Unwind_Backtrace
+000042f9 pthread_once
+00004306 __register_frame_info_bases
+00004322 __register_frame_info
+00004338 __register_frame
+00004349 __register_frame_info_table_bases
+0000436b __register_frame_info_table
+00004387 __register_frame_table
+0000439e __deregister_frame_info_bases
+000043bc __deregister_frame_info
+000043d4 __deregister_frame
+000043e7 dl_iterate_phdr
+000043f7 pthread_mutex_unlock
+0000440c pthread_mutex_lock
+0000441f libm.so
+00004427 LIBC
+0000442c libdl.so
+00004435 libc.so
+0000443d libcurl.so
+00004448 libopusenc.so
+00004456 libfvad.so
+00004461 liblog.so
+0000446b libc++_shared.so
+0000447c libtox.so
+00008b60 VAD processing failed with code 
+00008b81 tox_set_session_name
+00008b96 TOX_BAD_ACCOUNT_UUID
+00008bab Submitting session alias
+00008bc4 {"global_muted": 
+00008bd6 WRITEDATA
+00008be0 Failed to create Opus comments encoder
+00008c07 Error in parsing conditioning data
+00008c2a Failed to upload triaging stats
+00008c4a void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, SrcXprType = Eigen::Map<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0, Eigen::Stride<0, 0>>, T1 = float, T2 = float]
+00008d64 Eigen::DenseCoeffsBase<type-parameter-0-0, 1>::Scalar &Eigen::DenseCoeffsBase<Eigen::Matrix<float, 1, -1, 1, 1, -1>, 1>::operator[](Eigen::Index) [Derived = Eigen::Matrix<float, 1, -1, 1, 1, -1>, Level = 1]
+00008e33 void Eigen::DenseBase<Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>>::resize(Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>]
+00008f04 TOX_UNKNOWN_ERROR
+00008f16 sessionalias
+00008f23 {"players_muted": {
+00008f37 triage_mode
+00008f43 "clips_backlog_uploaded": 
+00008f5e "msec_backlog_uploaded": 
+00008f78 audio/opus
+00008f83 accountuuid
+00008f8f void Eigen::PlainObjectBase<Eigen::Matrix<float, -1, 1, 0, -1, 1>>::resize(Eigen::Index, Eigen::Index) [Derived = Eigen::Matrix<float, -1, 1, 0, -1, 1>]
+00009028 rows >= 0 && (RowsAtCompileTime == Dynamic || RowsAtCompileTime == rows) && cols >= 0 && (ColsAtCompileTime == Dynamic || ColsAtCompileTime == cols)
+000090bd lhs.cols() == rhs.rows() && "invalid matrix product" && "if you wanted a coeff-wise or a dot product use the respective explicit functions"
+00009149 Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>>::CwiseBinaryOp(const Eigen::CwiseBinaryOp::Lhs &, const Eigen::CwiseBinaryOp::Rhs &, const BinaryOp &) [BinaryOp = Eigen::internal::scalar_product_op<float, float>, Lhs = const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, Rhs = const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>]
+000093b3 typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>>, const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>>>::redux(const Func &) const [Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>>, const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>>, BinaryOp = Eigen::internal::scalar_sum_op<float, float>]
+0000969c Eigen::internal::blas_data_mapper<float, long, 0, 0, 1>::blas_data_mapper(Scalar *, Index, Index) [Scalar = float, Index = long, StorageOrder = 0, AlignmentType = 0, Incr = 1]
+0000974c Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, 1, false>::Block(XprType &, Eigen::Index, Eigen::Index, Eigen::Index, Eigen::Index) [XprType = const Eigen::Matrix<float, -1, 1, 0, -1, 1>, BlockRows = -1, BlockCols = 1, InnerPanel = false]
+00009849 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, SrcXprType = Eigen::CwiseUnaryOp<Eigen::internal::scalar_abs2_op<std::__ndk1::complex<float>>, const Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>, T1 = float, T2 = float]
+000099a8 Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_real_op<std::__ndk1::complex<float>>, const Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>, -1, 1, false>::Block(XprType &, Eigen::Index, Eigen::Index, Eigen::Index, Eigen::Index) [XprType = const Eigen::CwiseUnaryOp<Eigen::internal::scalar_real_op<std::__ndk1::complex<float>>, const Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>, BlockRows = -1, BlockCols = 1, InnerPanel = false]
+00009b83 TOX_BAD_PLAYER_ALIAS
+00009b98 Failed to initialize curl
+00009bb2 OPE_BAD_ARG: Invalid argument.
+00009bd1 Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0>::Product(const Eigen::Product::Lhs &, const Eigen::Product::Rhs &) [Lhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Rhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Option = 0]
+00009ce3 typename ScalarBinaryOpTraits<typename internal::traits<Derived>::Scalar, typename internal::traits<OtherDerived>::Scalar>::ReturnType Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>::dot(const MatrixBase<OtherDerived> &) const [Derived = Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, OtherDerived = Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, -1, 1, true>]
+00009ec4 void Eigen::MapBase<Eigen::Map<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 4, Eigen::Stride<0, 0>>, 0>::checkSanity(typename internal::enable_if<(internal::traits<T>::Alignment > 0), void *>::type) const [Derived = Eigen::Map<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 4, Eigen::Stride<0, 0>>, Level = 0, T = Eigen::Map<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 4, Eigen::Stride<0, 0>>]
+0000a03b tox_global_init
+0000a04b TOX_BAD_API_KEY
+0000a05b TOX_NO_SESSION_SET
+0000a06e TOX_ALREADY_IN_SESSION
+0000a085 TOX_BAD_SESSION_DATA_TYPE
+0000a09f /JoinSession
+0000a0ac application/json; charset=UTF-8
+0000a0cc {"player_can_hear_list": 
+0000a0e6 {"can_hear_player_list": 
+0000a100 "clips_stats_uploaded": 
+0000a119 "msec_backlogged": 
+0000a12d Uploading audio
+0000a13f Failed to create Opus Encoder
+0000a15d size() == other.size()
+0000a174 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_max_op<float, float, 0>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, const Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0>, const Eigen::Replicate<Eigen::Transpose<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, -1, 1>>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, -1, -1, 0, -1, -1>>>, T1 = float, T2 = float]
+0000a40b void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, -1, -1, 0, -1, -1>>, T1 = float, T2 = float]
+0000a542 Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Array<float, -1, -1, 0, -1, -1>>::CwiseNullaryOp(Eigen::Index, Eigen::Index, const NullaryOp &) [NullaryOp = Eigen::internal::scalar_constant_op<float>, MatrixType = const Eigen::Array<float, -1, -1, 0, -1, -1>]
+0000a665 Runtime error in 
+0000a677 TOX_BAD_CONFIG
+0000a686 proximitychat
+0000a694 POSTFIELDSIZE
+0000a6a2  - with option name: 
+0000a6b8 OPE_INVALID_ICON: Invalid icon format.
+0000a6df aLhs.rows() == aRhs.rows() && aLhs.cols() == aRhs.cols()
+0000a718 Eigen::MapBase<Eigen::Map<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0, Eigen::Stride<0, 0>>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Map<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0, Eigen::Stride<0, 0>>, Level = 0]
+0000a83f Eigen::DenseCoeffsBase<type-parameter-0-0, 1>::Scalar &Eigen::DenseCoeffsBase<Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>, 1>::operator[](Eigen::Index) [Derived = Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>, Level = 1]
+0000a93a Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, 1>::Product(const Eigen::Product::Lhs &, const Eigen::Product::Rhs &) [Lhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Rhs = Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, Option = 1]
+0000aa7c Skipped buffer uploads due to small clip size
+0000aaaa [libtox] Unknown failure during send task
+0000aad4 android64
+0000aade  - HTTP response code: 
+0000aaf6 OPE_UNIMPLEMENTED: Feature not implemented.
+0000ab22 Failed to set Opus encoder signal type
+0000ab49 Num layers: 
+0000ab56 (i>=0) && ( ((BlockRows==1) && (BlockCols==XprType::ColsAtCompileTime) && i<xpr.rows()) ||((BlockRows==XprType::RowsAtCompileTime) && (BlockCols==1) && i<xpr.cols()))
+0000abfd Eigen::MapBase<Eigen::Block<Eigen::Transpose<Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, -1, 1, true>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Transpose<Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, -1, 1, true>, Level = 0]
+0000ad62 typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>>>::redux(const Func &) const [Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>>, BinaryOp = Eigen::internal::scalar_sum_op<float, float>]
+0000b031 Eigen::MapBase<Eigen::Map<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0, Eigen::InnerStride<2>>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index) [Derived = Eigen::Map<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0, Eigen::InnerStride<2>>, Level = 0]
+0000b13e tox_add_structured_session_data
+0000b15e tox_set_log_info_callback
+0000b178 Content-Type
+0000b185 {"players_muted_at_join": 
+0000b1a0 light
+0000b1a6 none
+0000b1ab platform
+0000b1b4 Upload buffer queue has too many items, not adding new buffer
+0000b1f2 This is often caused by a network problem connecting to ToxMod servers
+0000b239 please check your network connection to ensure connectivity/stability
+0000b27f Error occurred in 
+0000b292 tox_set_global_muted
+0000b2a7 Submitting session data
+0000b2bf false
+0000b2c5 FAILONERROR
+0000b2d1 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, SrcXprType = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, -1, 1, 0, -1, 1>>, T1 = float, T2 = float]
+0000b404 Eigen::Block<Eigen::Matrix<float, 1, -1, 1, 1, -1>, -1, -1, false>::Block(XprType &, Eigen::Index, Eigen::Index, Eigen::Index, Eigen::Index) [XprType = Eigen::Matrix<float, 1, -1, 1, 1, -1>, BlockRows = -1, BlockCols = -1, InnerPanel = false]
+0000b4f7 Eigen::MapBase<Eigen::Block<Eigen::Matrix<float, 1, -1, 1, 1, -1>, -1, -1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Matrix<float, 1, -1, 1, 1, -1>, -1, -1, false>, Level = 0]
+0000b600 Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>::Block(XprType &, Eigen::Index, Eigen::Index, Eigen::Index, Eigen::Index) [XprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, BlockRows = -1, BlockCols = -1, InnerPanel = false]
+0000b6f7 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, SrcXprType = Eigen::CwiseNullaryOp<Eigen::internal::linspaced_op<float>, Eigen::Matrix<float, -1, 1, 0, -1, 1>>, T1 = float, T2 = float]
+0000b824  not supported by VAD - using 
+0000b843 allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+0000b88b [libtox] %s
+0000b897 %02x
+0000b89c playeralias
+0000b8a8 Accept
+0000b8af Retrieving conditioning information
+0000b8d3 /SubmitAudio
+0000b8e0 Not uploading empty POST request
+0000b905 Eigen::MapBase<Eigen::Map<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0, Eigen::Stride<0, 0>>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index) [Derived = Eigen::Map<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0, Eigen::Stride<0, 0>>, Level = 0]
+0000ba1a ./dependencies/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+0000ba57 ((!PanelMode) && stride==0 && offset==0) || (PanelMode && stride>=depth && offset<=stride)
+0000bab2 Trimmed candidate upload to num elements: 
+0000badd Circular buffer tail has fallen too far behind head, some samples will be missed.Skipping to catch up
+0000bb43 text/html
+0000bb4d text/html; charset=UTF-8
+0000bb66 metadatatype
+0000bb73 TOX_BAD_AUDIO
+0000bb81 TOX_SAMPLES_SKIPPED
+0000bb95 languagepreference
+0000bba8 /UpdateMuting
+0000bbb6 Unknown ToxMod triage setting, value: 
+0000bbdd HTTP Request Failed
+0000bbf1 /dev/urandom
+0000bbfe ( ((internal::UIntPtr(m_data) % internal::traits<Derived>::Alignment) == 0) || (cols() * rows() * minInnerStride * sizeof(Scalar)) < internal::traits<Derived>::Alignment ) && "data is not aligned"
+0000bcc3 Eigen::MapBase<Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>, Level = 0]
+0000bdd0 Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Array<float, -1, -1, 0, -1, -1>>::CwiseNullaryOp(Eigen::Index, Eigen::Index, const NullaryOp &) [NullaryOp = Eigen::internal::scalar_constant_op<float>, MatrixType = Eigen::Array<float, -1, -1, 0, -1, -1>]
+0000bee7 TOX_BAD_SESSION_NAME
+0000befc TOX_UPLOAD_METADATA_FAILED
+0000bf17 application/json
+0000bf28 version
+0000bf30 HEADERS
+0000bf38 POSTFIELDS
+0000bf43 OPE_INTERNAL_ERROR: Internal error.
+0000bf67 ./dependencies/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+0000bfa6 typename ScalarBinaryOpTraits<typename internal::traits<Derived>::Scalar, typename internal::traits<OtherDerived>::Scalar>::ReturnType Eigen::MatrixBase<Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>>::dot(const MatrixBase<OtherDerived> &) const [Derived = Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>, OtherDerived = Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>]
+0000c1a8 row >= 0 && row < rows() && col >= 0 && col < cols()
+0000c1dd Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>>::CwiseBinaryOp(const Eigen::CwiseBinaryOp::Lhs &, const Eigen::CwiseBinaryOp::Rhs &, const BinaryOp &) [BinaryOp = Eigen::internal::scalar_product_op<float, float>, Lhs = const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, Rhs = const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>]
+0000c47b stats_should_upload
+0000c495 Skipping buffer upload due to triage
+0000c4ba Error downloading model weights
+0000c4da ./dependencies/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+0000c519 void Eigen::DenseBase<Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>::resize(Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>]
+0000c5e8 TOX_BAD_PLAYER_LIST
+0000c5fc tox_set_single_tenant_prefix
+0000c619 a57f3e65-30f1-4a74-98e3-f470fcb964cb
+0000c63e "msec_context_uploaded": 
+0000c658 context_should_upload
+0000c66e Failed to add Opus Title comment
+0000c68f Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, -1, -1, 0, -1, -1>>::CwiseNullaryOp(Eigen::Index, Eigen::Index, const NullaryOp &) [NullaryOp = Eigen::internal::scalar_constant_op<float>, MatrixType = Eigen::Matrix<float, -1, -1, 0, -1, -1>]
+0000c7a8 Eigen::MapBase<Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, Level = 0]
+0000c8bd Eigen::MapBase<Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, -1, 1, true>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, -1, 1, true>, Level = 0]
+0000ca14 void Eigen::PlainObjectBase<Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>::resize(Eigen::Index) [Derived = Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>]
+0000cacb Eigen::Block<Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, 1, false>::Block(XprType &, Eigen::Index, Eigen::Index, Eigen::Index, Eigen::Index) [XprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, BlockRows = -1, BlockCols = 1, InnerPanel = false]
+0000cbbc Eigen::CwiseBinaryOp<Eigen::internal::scalar_max_op<float, float, 0>, const Eigen::Matrix<float, -1, -1, 0, -1, -1>, const Eigen::Matrix<float, -1, -1, 0, -1, -1>>::CwiseBinaryOp(const Eigen::CwiseBinaryOp::Lhs &, const Eigen::CwiseBinaryOp::Rhs &, const BinaryOp &) [BinaryOp = Eigen::internal::scalar_max_op<float, float, 0>, Lhs = const Eigen::Matrix<float, -1, -1, 0, -1, -1>, Rhs = const Eigen::Matrix<float, -1, -1, 0, -1, -1>]
+0000cd6e tox_add_structured_player_data
+0000cd8d tox_set_proximity_chat_player_can_hear
+0000cdb4 [libtox] Unknown failure while attempting to print error
+0000cded sessiondata
+0000cdf9 Submitting join session
+0000ce13 OPE_INVALID_PICTURE: Invalid picture format.
+0000ce40 ./dependencies/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+0000ce7d Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 1, -1, 1, 1, -1>>::CwiseNullaryOp(Eigen::Index, Eigen::Index, const NullaryOp &) [NullaryOp = Eigen::internal::scalar_constant_op<float>, MatrixType = const Eigen::Matrix<float, 1, -1, 1, 1, -1>]
+0000cf9e void Eigen::internal::gemm_pack_lhs<float, long, Eigen::internal::const_blas_data_mapper<float, long, 0>, 12, 4, __attribute__((neon_vector_type(4))) float, 0, false, false>::operator()(Scalar *, const DataMapper &, Index, Index, Index, Index) [Scalar = float, Index = long, DataMapper = Eigen::internal::const_blas_data_mapper<float, long, 0>, Pack1 = 12, Pack2 = 4, Packet = __attribute__((neon_vector_type(4))) float, StorageOrder = 0, Conjugate = false, PanelMode = false]
+0000d17b rows == this->rows() && cols == this->cols() && "DenseBase::resize() does not actually allow to resize."
+0000d1e4 thread constructor failed
+0000d1fe tox_set_players_muted_at_join
+0000d21c [libtox] Error while attempting to print error: 
+0000d24d true
+0000d259 "msec_content_uploaded": 
+0000d273 Error running HTTP Request - 
+0000d291 OPE_CLOSE_FAIL: Error closing a resource.
+0000d2bb Failed to set Opus encoder VBR
+0000d2da ./dependencies/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+0000d318 void Eigen::PlainObjectBase<Eigen::Matrix<float, 1, -1, 1, 1, -1>>::resize(Eigen::Index) [Derived = Eigen::Matrix<float, 1, -1, 1, 1, -1>]
+0000d3a3 Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, 0>::Product(const Eigen::Product::Lhs &, const Eigen::Product::Rhs &) [Lhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Rhs = Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, Option = 0]
+0000d4e5 Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::ArrayWrapper<const Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_real_op<std::__ndk1::complex<float>>, const Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>, -1, 1, false>>, const Eigen::ArrayWrapper<Eigen::Matrix<float, -1, 1, 0, -1, 1>>>::CwiseBinaryOp(const Eigen::CwiseBinaryOp::Lhs &, const Eigen::CwiseBinaryOp::Rhs &, const BinaryOp &) [BinaryOp = Eigen::internal::scalar_product_op<float, float>, Lhs = const Eigen::ArrayWrapper<const Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_real_op<std::__ndk1::complex<float>>, const Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>, -1, 1, false>>, Rhs = const Eigen::ArrayWrapper<Eigen::Matrix<float, -1, 1, 0, -1, 1>>]
+0000d813 [libtox] Unknown failure during log task
+0000d83c TOX_BAD_INSTANCE
+0000d84d mandatory
+0000d857 https://
+0000d860 POST
+0000d865 Failed to add Opus Artist comment
+0000d887 Failed to download model weights for triage - defaulting to TOX_NONE
+0000d8cc (dataPtr == 0) || ( rows >= 0 && (RowsAtCompileTime == Dynamic || RowsAtCompileTime == rows) && cols >= 0 && (ColsAtCompileTime == Dynamic || ColsAtCompileTime == cols))
+0000d976 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_quotient_op<float, float>, const Eigen::PartialReduxExpr<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::internal::member_sum<float, float>, 0>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 1, -1, 1, 1, -1>>>, T1 = float, T2 = float]
+0000db7c typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>>>::redux(const Func &) const [Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>>, BinaryOp = Eigen::internal::scalar_sum_op<float, float>]
+0000de19 tox_join_session
+0000de2a tox_add_session_data
+0000de3f tox_set_player_muted
+0000de54 /GetModelParameters
+0000de68 heavy
+0000de6e /SubmitTriagingStats
+0000de83 "msec_total": 
+0000de92 /SubmitMetadata
+0000dea2 TIMEOUT
+0000deaa OPE_ALLOC_FAIL: Memory allocation failed.
+0000ded4 Error downloading session context conditioning
+0000df03 ./dependencies/include/eigen3/Eigen/src/Core/MapBase.h
+0000df3a ./dependencies/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+0000df79 Triage result: 
+0000df89 incr==1
+0000df91 Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>::Block(XprType &, Eigen::Index) [XprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, BlockRows = 1, BlockCols = -1, InnerPanel = false]
+0000e05c void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Transpose<Eigen::Matrix<float, -1, 1, 0, -1, 1>>, SrcXprType = Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, T1 = float, T2 = float]
+0000e17c void Eigen::PlainObjectBase<Eigen::Matrix<float, -1, 1, 0, -1, 1>>::resize(Eigen::Index) [Derived = Eigen::Matrix<float, -1, 1, 0, -1, 1>]
+0000e20a TOX_BAD_SESSION_DATA
+0000e21f TOX_BAD_PLAYER_DATA
+0000e233 Submitting player data
+0000e24a Uploading triage stats
+0000e261 "clips_uploaded": 
+0000e274 backlog
+0000e27c WRITEFUNCTION
+0000e28a OPE_TOO_LATE: Attempted operation too late.
+0000e2b6 Eigen::MapBase<Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, Level = 0]
+0000e3cd Eigen::MapBase<Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, Level = 0]
+0000e4d6 startRow >= 0 && blockRows >= 0 && startRow <= xpr.rows() - blockRows && startCol >= 0 && blockCols >= 0 && startCol <= xpr.cols() - blockCols
+0000e565 index >= 0 && index < size()
+0000e582 Eigen::MapBase<Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>, Level = 0]
+0000e6c9 Eigen::MapBase<Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>, Level = 0]
+0000e7e2 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::ArrayWrapper<Eigen::Matrix<float, -1, -1, 0, -1, -1>>, const Eigen::Replicate<Eigen::ArrayWrapper<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, 1, -1>>, T1 = float, T2 = float]
+0000e99a Eigen::DenseCoeffsBase<type-parameter-0-0, 1>::Scalar &Eigen::DenseCoeffsBase<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1>::operator()(Eigen::Index, Eigen::Index) [Derived = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Level = 1]
+0000ea7b Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, -1, 1, 0, -1, 1>>::CwiseNullaryOp(Eigen::Index, Eigen::Index, const NullaryOp &) [NullaryOp = Eigen::internal::scalar_constant_op<float>, MatrixType = Eigen::Matrix<float, -1, 1, 0, -1, 1>]
+0000eb90 tox_leave_session
+0000eba2 TOX_BAD_SAMPLE_RATE
+0000ebb6 tox_set_log_error_callback
+0000ebd1 "msec_uploaded": 
+0000ebe3 HTTP Request Succeeded
+0000ebfa Tox Log
+0000ec02 Unknown error code: 
+0000ec17 Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>::Block(XprType &, Eigen::Index) [XprType = const Eigen::Matrix<float, -1, -1, 0, -1, -1>, BlockRows = -1, BlockCols = 1, InnerPanel = true]
+0000ecec Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1>::Product(const Eigen::Product::Lhs &, const Eigen::Product::Rhs &) [Lhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Rhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Option = 1]
+0000edfe Unknown failure occurred in 
+0000ee1b TOX_BAD_SESSION_ALIAS
+0000ee31 [libtox] Unknown failure while attempting to print
+0000ee64 model_type
+0000ee6f /GetConditioningInfo
+0000ee84 Modulate.ai
+0000ee90 Failed to upload clip for toxicity triage
+0000eeba static void Eigen::internal::generic_product_impl<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::DenseShape, Eigen::DenseShape, 8>::scaleAndAddTo(Dest &, const Lhs &, const Rhs &, const Eigen::internal::generic_product_impl<type-parameter-0-0, type-parameter-0-1, Eigen::DenseShape, Eigen::DenseShape, 8>::Scalar &) [Lhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Rhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, LhsShape = Eigen::DenseShape, RhsShape = Eigen::DenseShape, ProductType = 8, Dest = Eigen::Matrix<float, -1, -1, 0, -1, -1>]
+0000f0fc typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>, -1, 1, true>>>::redux(const Func &) const [Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>, -1, 1, true>>, BinaryOp = Eigen::internal::scalar_sum_op<float, float>]
+0000f417 typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>>, const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>>>::redux(const Func &) const [Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>>, const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>>, BinaryOp = Eigen::internal::scalar_sum_op<float, float>]
+0000f732 Eigen::MapBase<Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, -1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, -1, false>, Level = 0]
+0000f847 Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::ArrayWrapper<Eigen::Matrix<float, -1, -1, 0, -1, -1>>, const Eigen::Replicate<Eigen::ArrayWrapper<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, 1, -1>>::CwiseBinaryOp(const Eigen::CwiseBinaryOp::Lhs &, const Eigen::CwiseBinaryOp::Rhs &, const BinaryOp &) [BinaryOp = Eigen::internal::scalar_product_op<float, float>, LhsType = const Eigen::ArrayWrapper<Eigen::Matrix<float, -1, -1, 0, -1, -1>>, RhsType = const Eigen::Replicate<Eigen::ArrayWrapper<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, 1, -1>]
+0000fa91 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float, float>, const Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, -1, false>, const Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, -1, false>>, T1 = float, T2 = float]
+0000fc45 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Array<float, -1, -1, 0, -1, -1>>, const Eigen::CwiseUnaryOp<Eigen::internal::scalar_log10_op<float>, const Eigen::ArrayWrapper<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_max_op<float, float, 0>, const Eigen::Matrix<float, -1, -1, 0, -1, -1>, const Eigen::Matrix<float, -1, -1, 0, -1, -1>>>>>, T1 = float, T2 = float]
+0000fed9 TOX_PROXIMITY_CHAT_DISABLED
+0000fef5 1.8.3
+0000fefb /UpdateProximityChat
+0000ff10 vecSize >= 0
+0000ff1d void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>, SrcXprType = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<std::__ndk1::complex<float>>, Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>, T1 = std::__ndk1::complex<float>, T2 = std::__ndk1::complex<float>]
+000100be Eigen::MapBase<Eigen::Map<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 4, Eigen::Stride<0, 0>>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index) [Derived = Eigen::Map<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 4, Eigen::Stride<0, 0>>, Level = 0]
+000101c7 Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, -1, false>::Block(XprType &, Eigen::Index, Eigen::Index, Eigen::Index, Eigen::Index) [XprType = const Eigen::Matrix<float, -1, 1, 0, -1, 1>, BlockRows = -1, BlockCols = -1, InnerPanel = false]
+000102c6 typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::Matrix<float, -1, -1, 0, -1, -1>>::redux(const Func &) const [Derived = Eigen::Matrix<float, -1, -1, 0, -1, -1>, BinaryOp = Eigen::internal::scalar_max_op<float, float, 0>]
+000103b6 . Possible memory corruption
+000103d3 tox_set_session_alias
+000103e9 [libtox] Error while attempting to print: 
+00010414 platforminfo
+00010421 Submitting leave session
+0001043a -processing-api.modulate.ai/
+00010457 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1>, T1 = float, T2 = float]
+00010587 void Eigen::internal::gemm_pack_rhs<float, long, Eigen::internal::const_blas_data_mapper<float, long, 1>, 4, 1, false, false>::operator()(Scalar *, const DataMapper &, Index, Index, Index, Index) [Scalar = float, Index = long, DataMapper = Eigen::internal::const_blas_data_mapper<float, long, 1>, nr = 4, StorageOrder = 1, Conjugate = false, PanelMode = false]
+000106f0 void Eigen::PlainObjectBase<Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>::resize(Eigen::Index, Eigen::Index) [Derived = Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>]
+000107b5 [libtox] Error during log task: 
+000107d6 TOX_NO_ERROR
+000107e7 "clips_content_uploaded": 
+00010802 msec_delayed
+0001080f Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, const Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0>, const Eigen::Replicate<Eigen::Transpose<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, -1, 1>>::CwiseBinaryOp(const Eigen::CwiseBinaryOp::Lhs &, const Eigen::CwiseBinaryOp::Rhs &, const BinaryOp &) [BinaryOp = Eigen::internal::scalar_sum_op<float, float>, LhsType = const Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0>, RhsType = const Eigen::Replicate<Eigen::Transpose<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, -1, 1>]
+00010a99 ./dependencies/include/eigen3/Eigen/src/Core/Redux.h
+00010ace ./dependencies/include/eigen3/Eigen/src/Core/Block.h
+00010b03 dst.rows()==a_lhs.rows() && dst.cols()==a_rhs.cols()
+00010b38 typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, -1, 1, true>>>::redux(const Func &) const [Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_conj_product_op<float, float>, const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>, const Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, -1, 1, true>>, BinaryOp = Eigen::internal::scalar_sum_op<float, float>]
+00010e21 ((SizeAtCompileTime == Dynamic && (MaxSizeAtCompileTime==Dynamic || size<=MaxSizeAtCompileTime)) || SizeAtCompileTime == size) && size>=0
+00010eab Eigen::MapBase<Eigen::Block<Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, 1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, 1, false>, Level = 0]
+00010fb2 Eigen::DenseCoeffsBase<type-parameter-0-0, 0>::CoeffReturnType Eigen::DenseCoeffsBase<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0>::operator()(Eigen::Index) const [Derived = Eigen::Matrix<float, -1, 1, 0, -1, 1>, Level = 0]
+0001108f Triaging candidate upload with num elements: 
+000110bd TOX_BAD_TENANT_PREFIX
+000110d3 sessionuuid
+000110df TITLE
+000110e5 Reallocating MFCC buffers for sample rate 
+00011112 ./dependencies/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+0001115e Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, -1, false>::Block(XprType &, Eigen::Index, Eigen::Index, Eigen::Index, Eigen::Index) [XprType = const Eigen::Matrix<float, -1, -1, 0, -1, -1>, BlockRows = -1, BlockCols = -1, InnerPanel = false]
+00011261 Eigen::CwiseNullaryOp<Eigen::internal::linspaced_op<float>, Eigen::Matrix<float, -1, 1, 0, -1, 1>>::CwiseNullaryOp(Eigen::Index, Eigen::Index, const NullaryOp &) [NullaryOp = Eigen::internal::linspaced_op<float>, MatrixType = Eigen::Matrix<float, -1, 1, 0, -1, 1>]
+0001136a Eigen::DenseCoeffsBase<type-parameter-0-0, 1>::Scalar &Eigen::DenseCoeffsBase<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 1>::operator()(Eigen::Index) [Derived = Eigen::Matrix<float, -1, 1, 0, -1, 1>, Level = 1]
+00011439 TOX_BAD_PLAYER_NAME
+0001144d Opus encoder creation failed with: 
+00011471 ./dependencies/include/eigen3/Eigen/src/Core/Dot.h
+000114a4 Eigen::MapBase<Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, 1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, 1, false>, Level = 0]
+000115b7 Silence clipping invalid reverse iterator
+000115e1 TOX_BAD_PLAYER_DATA_TYPE
+000115fa UNSPECIFIED ERROR
+0001160c Retrieving model_parameters
+0001162b typename ScalarBinaryOpTraits<typename internal::traits<Derived>::Scalar, typename internal::traits<OtherDerived>::Scalar>::ReturnType Eigen::MatrixBase<Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>>::dot(const MatrixBase<OtherDerived> &) const [Derived = Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, OtherDerived = Eigen::Block<const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>, -1, 1, true>]
+00011825 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, -1, -1, 0, -1, 1>>, const Eigen::CwiseUnaryOp<Eigen::internal::scalar_inverse_op<float>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float, float>, const Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, -1, false>, const Eigen::Block<const Eigen::Matrix<float, -1, 1, 0, -1, 1>, -1, -1, false>>>>, T1 = float, T2 = float]
+00011ae4 Sample rate 
+00011af1 Skipped empty buffer uploads
+00011b0e [libtox] Error during send task: 
+00011b30 tox_create_instance
+00011b45 "clips_context_uploaded": 
+00011b60 "clips_backlogged": 
+00011b75 apikey
+00011b7c (!(RowsAtCompileTime!=Dynamic) || (rows==RowsAtCompileTime)) && (!(ColsAtCompileTime!=Dynamic) || (cols==ColsAtCompileTime)) && (!(RowsAtCompileTime==Dynamic && MaxRowsAtCompileTime!=Dynamic) || (rows<=MaxRowsAtCompileTime)) && (!(ColsAtCompileTime==Dynamic && MaxColsAtCompileTime!=Dynamic) || (cols<=MaxColsAtCompileTime)) && rows>=0 && cols>=0 && "Invalid sizes when resizing a matrix or array."
+00011d0b this->rows()>0 && this->cols()>0 && "you are using an empty matrix"
+00011d4f void Eigen::internal::gemm_pack_rhs<float, long, Eigen::internal::const_blas_data_mapper<float, long, 0>, 4, 0, false, false>::operator()(Scalar *, const DataMapper &, Index, Index, Index, Index) [Scalar = float, Index = long, DataMapper = Eigen::internal::const_blas_data_mapper<float, long, 0>, nr = 4, StorageOrder = 0, Conjugate = false, PanelMode = false]
+00011eb8 Eigen::DenseCoeffsBase<type-parameter-0-0, 0>::CoeffReturnType Eigen::DenseCoeffsBase<Eigen::Matrix<float, -1, 1, 0, -1, 1>, 0>::operator[](Eigen::Index) const [Derived = Eigen::Matrix<float, -1, 1, 0, -1, 1>, Level = 0]
+00011f95 tox_global_cleanup
+00011fa8 tox_add_audio_nonrealtime_template
+00011fcb content_should_upload
+00011fe1 OPE_WRITE_FAIL: Error writing data.
+00012005 Failed to set Opus encoder bitrate
+0001202a void Eigen::PlainObjectBase<Eigen::Matrix<float, -1, -1, 0, -1, -1>>::resize(Eigen::Index, Eigen::Index) [Derived = Eigen::Matrix<float, -1, -1, 0, -1, -1>]
+000120c7 typename internal::traits<Derived>::Scalar Eigen::DenseBase<Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>>::redux(const Func &) const [Derived = Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, -1, 1, true>, BinaryOp = Eigen::internal::scalar_sum_op<float, float>]
+000121f6 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, 1>, T1 = float, T2 = float]
+0001233e Silence clipping invalid iterator
+00012360 tox_set_player_alias
+00012375 tox_set_proximity_chat_can_hear_player
+0001239c Cannot get model parameters with no On-Device Triage
+000123d1 "msec_stats_uploaded": 
+000123e9 unique_lock::unlock: not locked
+00012409 Conditioning response data: 
+00012426 Error in interpreting conditioning data
+0001244e Using cached conditioning info
+0001246d dst.rows() == dstRows && dst.cols() == dstCols
+0001249c Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, 1, -1, 1, 1, -1>>::CwiseNullaryOp(Eigen::Index, Eigen::Index, const NullaryOp &) [NullaryOp = Eigen::internal::scalar_constant_op<float>, MatrixType = Eigen::Matrix<float, 1, -1, 1, 1, -1>]
+000125b1 static void Eigen::internal::generic_product_impl<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, Eigen::DenseShape, Eigen::DenseShape, 8>::scaleAndAddTo(Dest &, const Lhs &, const Rhs &, const Eigen::internal::generic_product_impl<type-parameter-0-0, type-parameter-0-1, Eigen::DenseShape, Eigen::DenseShape, 8>::Scalar &) [Lhs = Eigen::Matrix<float, -1, -1, 0, -1, -1>, Rhs = Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, LhsShape = Eigen::DenseShape, RhsShape = Eigen::DenseShape, ProductType = 8, Dest = Eigen::Matrix<float, -1, -1, 0, -1, -1>]
+00012823 typename ScalarBinaryOpTraits<typename internal::traits<Derived>::Scalar, typename internal::traits<OtherDerived>::Scalar>::ReturnType Eigen::MatrixBase<Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>>::dot(const MatrixBase<OtherDerived> &) const [Derived = Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>, OtherDerived = Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>]
+00012a3e TOX_NOT_IN_SESSION
+00012a51 sessiontype
+00012a5d "clips_total": 
+00012a6d Threshold: 
+00012a79 void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, -1, 0, -1, -1>, SrcXprType = Eigen::Map<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0, Eigen::Stride<0, 0>>, T1 = float, T2 = float]
+00012b97 ./dependencies/include/eigen3/Eigen/src/Core/Product.h
+00012bce Eigen::MapBase<Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 1, -1, true>, Level = 0]
+00012d27 ./dependencies/include/eigen3/Eigen/src/Core/DenseBase.h
+00012d60 Eigen::MapBase<Eigen::Block<const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>, -1, 1, true>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<const Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>, -1, 1, true>, Level = 0]
+00012ee9 Submitting player alias
+00012f01 /LeaveSession
+00012f0f duration
+00012f18 playeruuid
+00012f23 Error appending curl header with key 
+00012f49 Error setting curl option: 
+00012f65 ARTIST
+00012f6c OPE_CANNOT_OPEN: Unable to open file.
+00012f92 Layers:
+00012f9a Eigen::Block<const Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>::Block(XprType &, Eigen::Index) [XprType = const Eigen::Matrix<float, -1, -1, 0, -1, -1>, BlockRows = 1, BlockCols = -1, InnerPanel = false]
+00013071 Eigen::MapBase<Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, 0>::MapBase(Eigen::MapBase<type-parameter-0-0, 0>::PointerType, Eigen::Index, Eigen::Index) [Derived = Eigen::Block<Eigen::Matrix<float, -1, -1, 0, -1, -1>, 1, -1, false>, Level = 0]
+0001317c ./dependencies/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+000131cc Eigen::DenseCoeffsBase<type-parameter-0-0, 0>::CoeffReturnType Eigen::DenseCoeffsBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, const Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0>, const Eigen::Replicate<Eigen::Transpose<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, -1, 1>>, 0>::operator()(Eigen::Index, Eigen::Index) const [Derived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, const Eigen::Product<Eigen::Matrix<float, -1, -1, 0, -1, -1>, Eigen::Matrix<float, -1, -1, 0, -1, -1>, 0>, const Eigen::Replicate<Eigen::Transpose<const Eigen::Matrix<float, -1, 1, 0, -1, 1>>, -1, 1>>, Level = 0]
+00013483 Eigen::Block<const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, -1, 1, false>::Block(XprType &, Eigen::Index) [XprType = const Eigen::Transpose<const Eigen::Matrix<float, -1, -1, 0, -1, -1>>, BlockRows = -1, BlockCols = 1, InnerPanel = false]
+0001358a void Eigen::internal::resize_if_allowed(DstXprType &, const SrcXprType &, const internal::assign_op<T1, T2> &) [DstXprType = Eigen::Matrix<float, -1, 1, 0, -1, 1>, SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::ArrayWrapper<const Eigen::Block<const Eigen::CwiseUnaryOp<Eigen::internal::scalar_real_op<std::__ndk1::complex<float>>, const Eigen::Matrix<std::__ndk1::complex<float>, -1, 1, 0, -1, 1>>, -1, 1, false>>, const Eigen::ArrayWrapper<Eigen::Matrix<float, -1, 1, 0, -1, 1>>>, T1 = float, T2 = float]
+000137e0 NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00013828 NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0001386d -----BEGIN CERTIFICATE-----
+00013889 MIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF
+000138ca ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
+0001390b b24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL
+0001394c MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
+0001398d b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
+000139ce ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
+00013a0f 9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
+00013a50 IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
+00013a91 VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
+00013ad2 93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
+00013b13 jgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC
+00013b54 AYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA
+00013b95 A4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI
+00013bd6 U5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs
+00013c17 N+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv
+00013c58 o/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU
+00013c99 5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy
+00013cda rqXRfboQnoZsG4q5WTP468SQvvG5
+00013cf7 -----END CERTIFICATE-----
+000158d1 zPLR
+00018d71 c@9h
+00018dcd c@9H
+00018dfd c@9h
+00018e75 c@9h
+00018f03 =		@
+00018f67 Th.@
+00019377 =!	@
+00019945 c@9h
+0001a0c1 #@9h
+0001a119 #@9(
+0001a3fd #@9h
+0001a455 #@9(
+0001a5fb 7h"A9
+0001a60b 7hb@9H
+0001a637 6`F@
+0001a647 6`:@
+0001a650 h"A9
+0001a657 6`.@
+0001a667 6`"@
+0001a670 hb@9
+0001acb3 TvV@
+0001af33 TvV@
+0001b5f1 #@9h
+0001b691 #@9(
+0001b6b9 #@9h
+0001b731 #@9h
+0001bcb9 #@9h
+0001bd59 #@9(
+0001bd81 #@9h
+0001bdf9 #@9h
+0001bfcc HCF9VC
+0001c089 k78HcG9Vc
+0001c4e5 #@9h
+0001c545 #@9(
+0001c565 #@9(
+0001c58d #@9h
+0001c605 #@9h
+0001c995 #@9h
+0001ca35 #@9(
+0001ca5d #@9h
+0001cad5 #@9h
+0001d4a9 #@9h
+0001d569 #@9(
+0001d589 #@9(
+0001d5b1 #@9h
+0001d629 #@9h
+0001d999 #@9H
+0001da8d #@9h
+0001db4d #@9(
+0001db6d #@9(
+0001db95 #@9h
+0001dc0d #@9h
+0001df71 #@9h
+0001e051 #@9(
+0001e079 #@9h
+0001e0f1 #@9h
+0001e355 #@9h
+0001e48d #@9h
+0001e52d #@9(
+0001e555 #@9h
+0001e5cd #@9h
+0001eb28 	AF9
+0001ef11 #@9h
+0001eff1 #@9(
+0001f019 #@9h
+0001f091 #@9h
+0001f7b1 c@9h
+000201bd #@9h
+0002029d #@9(
+000202c5 #@9h
+0002033d #@9h
+000207a9 #@9h
+00020889 #@9(
+000208b1 #@9h
+00020929 #@9h
+000211a1 xn|C
+00022f9f Tt"@
+00023544 ?k78h
+00023706 	K!@
+00023a19 $@)Jp
+00023ae5  @)	(A)%4@)
+00023b34 ,DA)F
+00023bdc /LC)c
+00023c30 "@D)
+000242da 6*z8
+000243d6 1*64
+00024446 /*sW
+0002446a .*8r
+00024819 #@9h
+000249ed #@9h
+00024c77 =(	@
+00024d91 #@9h
+000251c4 	!@9
+00025531 #@9h
+0002555d #@9h
+00025575 #@9h
+00026177 =(	@
+00026254 	!@9
+00026561 c@9h
+0002669d j48h
+00026791 c@9h
+00026965 c@9H
+00026a8d c@9h
+00026bc9 j48h
+00026cbd c@9h
+00026e91 c@9H
+00027a2e A9(c
+00027ad2 A9(c
+00028025 #@9h
+000282fd j38"
+00028345 #@9h
+0002838d #@9h
+000283df =!	@
+00028455 #@9h
+000289d1 #@9h
+00028a79 #@9h
+00028b12 A9hA
+00028b21 #@9h
+00028bba A9H=
+00028bc9 #@9h
+00028c62 A9(9
+00028c6a @9h9
+00028c71 #@9h
+00028d12 @9H5
+00028d19 #@9h
+00028dba @9(1
+00028dc1 #@9h
+00028e69 #@9h
+00028f11 #@9h
+00028fb9 #@9h
+00029052 A9h 
+00029061 #@9h
+00029109 #@9h
+000291b1 #@9h
+00029311 #@9(
+00029335 #@9H
+00029359 #@9h
+00029431 #@9(
+00029455 #@9H
+00029479 #@9h
+00029675 #@9H
+000296a9 #@9(
+0002993d #@9h
+00029985 #@9h
+00029b71 #@9h
+00029cf1 #@9h
+00029d75 #@9h
+00029dfd #@9h
+00029e81 #@9h
+00029f09 #@9h
+0002a461 c@9h
+0002a6c4 Hc@9J'B
+0002ac9d j58"
+0002ad91 j58"
+0002ae95 j58"
+0002af99 j58"
+0002b0c5 j58"
+0002b271 CA9H
+0002b319 CA9(
+0002b4f1 j68"
+0002b6cd c@9(
+0002b767 6`6@
+0002bb4b <_}?
+0002bb63 TtZ@
+0002bddb <_}?
+0002bdf3 TtZ@
+0002c0cb <_}?
+0002c0e3 TtZ@
+0002c3bb <_}?
+0002c3d3 TtZ@
+0002c64b <_}?
+0002c663 TtZ@
+0002c8db <_}?
+0002c8f3 TtZ@
+0002cb6b <_}?
+0002cb83 TtZ@
+0002cd4d  A9h
+0002cde1 bA9h
+0002ce73 6`6@
+0002cf01  A9h
+0002cf07 6`6@
+0002cf9c hbA9h
+0002cfa3 6`6@
+0002cff6 A9)I@
+0002d00b 6`*@
+0002d036 A9)I@
+0002d04b 6`*@
+0002d5d7 <_}?
+0002d5ef TtZ@
+0002d8c7 <_}?
+0002d8df TtZ@
+0002dbb3 <_}?
+0002dbcb TuZ@
+0002e0a7 <_}?
+0002e0bf TtZ@
+0002e397 <_}?
+0002e3af TtZ@
+0002e687 <_}?
+0002e69f TtZ@
+0002e977 <_}?
+0002e98f TtZ@
+0002ec67 <_}?
+0002ec7f TtZ@
+0002ef57 <_}?
+0002ef6f TtZ@
+0002f247 <_}?
+0002f25f TtZ@
+0002f554 ?k88
+0002f563 Ri[	
+0002f5b7 <_}?
+0002f5cf Tt^@
+0002f7ac ?k88
+0002f7bb Ri[	
+0002f80f <_}?
+0002f827 Tt^@
+0002fa04 ?k88
+0002fa13 Ri[	
+0002fa67 <_}?
+0002fa7f Tt^@
+0002fc5c ?k88
+0002fc6b Ri[	
+0002fcbf <_}?
+0002fcd7 Tt^@
+0002feb4 ?k88
+0002fec3 Ri[	
+0002ff17 <_}?
+0002ff2f Tt^@
+00030237 Qhz)
+0003024e 'ydP
+000303ab Ti"B
+00030477 Rhjh8h
+000304af Ti"B
+00030878 +ih8J	
+00030a09 C@9h
+00030db7 ohj*
+000310cd C@9h
+000310ff Rl"@
+0003111b T.yk
+0003113f TNh@
+00031235 C@9h
+000312c3 Tj"@
+0003157d #B9h
+0003173c (`C9
+0003176f 4h*T
+00031793 4h:T
+00031dcb Rl"@
+00031de7 T.yk
+00031e13 TNh@
+00031eef Tj"@
+00033033 TvV@
+000332b3 TvV@
+000339ff T`ky
+00033b83 6`"@
+00033baf 6`.@
+00033bdb 6`:@
+00033c07 6`F@
+00033c33 6`R@
+00033ed5 C@9h
+00034029 C@9h
+0003408d C@9h
+000340dd C@9h
+00034275 #A9(
+000345e1 #A9(
+00034619 #A9h
+00034707 T		@
+00034871 #@9H
+000349d9 #@9(
+0003603f Tj2@
+00036616 0NuAA
+0003661e 2NsQ
+00036626 1NqIB
+0003662e 'NuA
+0003663e &NqI
+0003667b Tk4@
+0003671f Tn<@
+000367c2 &NgA
+000367eb Tn<@
+00036877 Tn<@
+000368ff Tm8@
+0003695b Tm8@
+000369a7 Tm8@
+00036d96 3N3j
+00037357 6*!@
+00037d23 TJ,@
+00038382 4N5Y
+000387de &NB 
+00038a6b =rL@
+00038a97 OqLA
+00038ac3 OrLB
+00038aeb OqHC
+00038b1b OrLD
+00038b43 OqLE
+00038b6b OrLF
+00038b8f OqHG
+000393e3 =CC_
+0003966d Wi-!
+00039681 Sj-"
+00039689 Wk-P
+00039699 Ol-C
+000396d9 Wp-#
+000396e1 Sq-A
+000396f5 Wr-B
+000396fd Ss-p
+00039711 Wt-c
+00039719 Su-!
+0003972d Wv-"
+00039984 	@@9
+00039d2c 	@@9)
+0003b75b Tl!@
+0003b81b TK!@
+0003b8b5 @@9(
+0003b8bb 4`:@
+0003bbb4 (a@9
+0003bbbb 5(	@
+0003bebf Tl!@
+0003bf7f TK!@
+0003c29b q	(!
+0003c46b qh}	
+0003c508 +ih8J	
+0003c847 Tj~@
+0003c91b T  !
+0003c983 n` #
+0003ca4f n@ "
+0003cab3 n"l"
+0003cc57 *i~@
+0003ceb7 Q!@b
+0003d396 @-!("
+0003d4f6 ?-B8$
+0003d618  	@-
+0003d6bf -P( 
+0003d863 q	}@
+0003d8fc +ih8J	
+0003e1af Tj2@
+0003edef TJ,@
+0003f0e3 r		 
+0004003e #N.<
+00040397 j"9"
+00040a95 Ha8a
+00040c58 c<]9
+00040cb0 chb8
+00040cbc @`M9`
+00040d07 5`~@
+00040d34 B`M9B
+00040d4c c`M9
+00040d5d jb8_ 
+00040d8c Bht8\
+00040e24 c`M9c
+00040fab T`2C
+00040ff7 Ta[axc
+000415c5 *@9?
+000415dd "@9?
+000415ea @9? 
+00041629 "@9_
+00041768  H`8a
+0004179a Y9Bx
+00041c4d J`8a
+00041ccd Jz8d
+00041f04  H`8a
+00041f3d ja8? 
+00041fb7 9`z4
+000429f3 Ta~}
+00042b4c  H`8a
+00042c91 Ha8a
+00042de4 b"@9
+00042e10 `&@9
+00042e3c b"@9_
+00042e6a @9?H
+00043057 4C(@
+00043161 0@y	
+00043575 B@y 
+00043a08 `B@y
+00043bab 7`B@y
+00043d37 y p@
+00043e00  @@y
+00043e17 y@p@
+000440c8 `B@y
+00045608 Linker: LLD 11.0.5 (/buildbot/tmp/tmpJJnZSz 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+0004565e GCC: (GNU) 4.9.x 20150123 (prerelease)
+00045686 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+00046ec9 .init_array
+00046ed5 .fini_array
+00046ee1 .text
+00046ee7 .got
+00046eec .comment
+00046ef5 .note.android.ident
+00046f09 .got.plt
+00046f12 .rela.plt
+00046f1c .bss
+00046f21 .dynstr
+00046f29 .eh_frame_hdr
+00046f37 .gnu.version_r
+00046f46 .data.rel.ro
+00046f53 .rela.dyn
+00046f5d .gnu.version
+00046f6a .dynsym
+00046f72 .gnu.hash
+00046f7c .eh_frame
+00046f86 .gcc_except_table
+00046f98 .dynamic
+00046fa1 .shstrtab
+00046fab .strtab
+00046fb3 .symtab
+00046fbb .rodata
+00046fc3 .data
+00046fca strncpy
+00046fd2 memcpy
+00046fd9 ope_comments_destroy
+00046fee ope_encoder_destroy
+00047002 tox_set_single_tenant_prefix
+0004701f _Unwind_Resume_or_Rethrow
+00047039 __cxa_throw
+00047045 fvad_new
+0004704e _ZSt9terminatev
+0004705e _ZdlPv
+00047065 _ZdaPv
+0004706c _ZNSt6__ndk18ios_base4initEPv
+0004708a _ZNSt6__ndk18ios_base33__set_badbit_and_consider_rethrowEv
+000470c5 _ZNSt6__ndk16chrono12steady_clock3nowEv
+000470ed _ZNSt6__ndk16chrono12system_clock3nowEv
+00047115 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5uflowEv
+00047152 _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv
+00047195 _ZNKSt6__ndk120__vector_base_commonILb1EE20__throw_length_errorEv
+000471d7 _ZNSt6__ndk16thread4joinEv
+000471f2 _ZNSt6__ndk118condition_variable10notify_allEv
+00047221 _ZNSt6__ndk113random_deviceclEv
+00047241 _ZNSt6__ndk115recursive_mutex6unlockEv
+00047268 _ZNSt6__ndk15mutex6unlockEv
+00047284 _ZNSt6__ndk115recursive_mutex4lockEv
+000472a9 _ZNSt6__ndk15mutex4lockEv
+000472c3 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+000472fe _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv
+0004733f _ZNKSt6__ndk18ios_base6getlocEv
+0004735f _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE4syncEv
+0004739b _ZNSt6__ndk119__thread_local_dataEv
+000473bf _ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev
+000473f1 _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev
+00047429 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev
+00047462 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+0004749b _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+000474d9 _ZNSt6__ndk115recursive_mutexD1Ev
+000474fb _ZNSt6__ndk15mutexD1Ev
+00047512 _ZNSt6__ndk115__thread_structD1Ev
+00047534 _ZNSt12length_errorD1Ev
+0004754c _ZNSt13runtime_errorD1Ev
+00047565 _ZNSt6__ndk118condition_variableD1Ev
+0004758a _ZNSt6__ndk16localeD1Ev
+000475a2 _ZNSt6__ndk113random_deviceD1Ev
+000475c2 _ZNSt6__ndk16threadD1Ev
+000475da _ZNSt9bad_allocD1Ev
+000475ee _ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev
+0004762c _ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev
+0004766c _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED1Ev
+000476a4 _ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev
+000476e3 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED1Ev
+0004771a _ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev
+00047759 _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED1Ev
+00047790 _ZNSt6__ndk115recursive_mutexC1Ev
+000477b2 _ZNSt6__ndk115__thread_structC1Ev
+000477d4 _ZNSt9bad_allocC1Ev
+000477e8 _ZThn16_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev
+00047826 _ZTv0_n24_NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev
+00047866 _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED0Ev
+0004789e _ZTv0_n24_NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev
+000478dd _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED0Ev
+00047914 _ZTv0_n24_NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev
+00047953 _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED0Ev
+0004798a tox_add_audio_short
+0004799e tox_add_audio_nonrealtime_short
+000479be abort
+000479c4 X509_STORE_add_cert
+000479d8 _Unwind_GetRegionStart
+000479ef curl_easy_setopt
+00047a00 __android_log_print
+00047a14 _ZTISt16invalid_argument
+00047a2d __cxa_atexit
+00047a3a curl_easy_init
+00047a49 tox_global_init
+00047a59 curl_global_init
+00047a6a memset
+00047a71 tox_add_audio_float
+00047a85 ope_encoder_write_float
+00047a9d tox_add_audio_nonrealtime_float
+00047abd fvad_process
+00047aca sincos
+00047ad1 ope_encoder_create_callbacks
+00047aee __deregister_frame_info_bases
+00047b0c __register_frame_info_bases
+00047b28 __register_frame_info_table_bases
+00047b4a tox_set_player_alias
+00047b5f tox_set_session_alias
+00047b75 curl_easy_strerror
+00047b88 _ZTVSt12length_error
+00047b9d _ZTISt12length_error
+00047bb2 _ZTISt13runtime_error
+00047bc8 __frame_state_for
+00047bda tox_set_proximity_chat_can_hear_player
+00047c01 dl_iterate_phdr
+00047c11 tox_set_proximity_chat_player_can_hear
+00047c38 curl_easy_cleanup
+00047c4a tox_global_cleanup
+00047c5d curl_global_cleanup
+00047c71 tox.cpp
+00047c79 manual_cert.cpp
+00047c89 web_functions.cpp
+00047c9b Utils.cpp
+00047ca5 nnet_triage_models.cpp
+00047cbc tox_logger.cpp
+00047ccb MelSpectrogram.cpp
+00047cde triage_module.cpp
+00047cf0 MFCC.cpp
+00047cf9 uuidv3.cpp
+00047d04 memcmp
+00047d0b tox_add_audio
+00047d19 PEM_X509_INFO_read_bio
+00047d30 curl_easy_getinfo
+00047d42 __deregister_frame_info
+00047d5a __register_frame_info
+00047d70 _Unwind_GetIPInfo
+00047d82 /buildbot/tmp/crtend_so-42a8c6.o
+00047da3 /buildbot/tmp/crtbrand-6c78f1.o
+00047dc3 __cxa_allocate_exception
+00047ddc __cxa_free_exception
+00047df1 _ZTISt9exception
+00047e02 _Unwind_DeleteException
+00047e1a _Unwind_RaiseException
+00047e31 _Unwind_FindEnclosingFunction
+00047e4f tox_join_session
+00047e60 tox_leave_session
+00047e72 tox_get_version
+00047e82 tox_set_players_muted_at_join
+00047ea0 ope_encoder_drain
+00047eb2 strlen
+00047eb9 _Znwm
+00047ebf OPENSSL_sk_num
+00047ece curl_easy_perform
+00047ee0 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm
+00047f33 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00047f82 _Znam
+00047f88 _ZNSt6__ndk14stofERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPm
+00047fd9 _ZNSt6__ndk19to_stringEm
+00047ff2 ope_encoder_ctl
+00048002 X509_STORE_add_crl
+00048015 curl_slist_free_all
+00048029 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl
+00048069 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl
+000480a9 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl
+000480ea _ZNSt6__ndk19to_stringEl
+00048103 pthread_mutex_unlock
+00048118 pthread_mutex_lock
+0004812b tox_set_log_error_callback
+00048146 tox_set_log_info_callback
+00048160 _ZNSt6__ndk18ios_base5clearEj
+0004817e _ZNSt6__ndk19to_stringEj
+00048197 _ZNSt6__ndk19to_stringEi
+000481b0 __cxa_begin_catch
+000481c2 __cxa_end_catch
+000481d2 BIO_new_mem_buf
+000481e2 snprintf
+000481eb sincosf
+000481f3 expf
+000481f8 logf
+000481fd _ZNSt6__ndk19to_stringEf
+00048216 log10f
+0004821d __cxa_finalize
+0004822c memmove
+00048234 OPENSSL_sk_value
+00048245 fvad_set_sample_rate
+0004825a ope_comments_create
+0004826e pthread_create
+0004827d __cxa_guard_release
+00048291 _Unwind_GetTextRelBase
+000482a8 _Unwind_GetDataRelBase
+000482bf SSL_CTX_get_cert_store
+000482d6 __cxa_guard_acquire
+000482ea _Unwind_Resume
+000482f9 tox_add_audio_nonrealtime
+00048313 __deregister_frame
+00048326 __register_frame
+00048337 tox_error_name
+00048346 tox_set_session_name
+0004835b __register_frame_info_table
+00048377 __register_frame_table
+0004838e _ZTISt12out_of_range
+000483a3 OPENSSL_sk_pop_free
+000483b7 fvad_free
+000483c1 BIO_free
+000483ca X509_INFO_free
+000483d9 fvad_set_mode
+000483e7 pthread_once
+000483f4 tox_destroy_instance
+00048409 tox_create_instance
+0004841d _Unwind_Backtrace
+0004842f _Unwind_ForcedUnwind
+00048444 curl_slist_append
+00048456 tox_get_internal_player_uuid
+00048473 tox_get_internal_session_uuid
+00048491 tox_set_player_muted
+000484a6 tox_set_global_muted
+000484bb ope_comments_add
+000484cc malloc
+000484d3 _ZTISt9bad_alloc
+000484e4 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmmc
+00048532 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+0004857f pthread_setspecific
+00048593 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc
+000485e2 _ZNSt6__ndk120__throw_system_errorEiPKc
+0004860a _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+00048658 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+000486a6 _ZNSt11logic_errorC2EPKc
+000486bf _ZNSt13runtime_errorC1EPKc
+000486da _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+00048713 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+00048762 unwind-dw2-fde-dip.c
+00048777 crtbegin_so.c
+00048785 unwind-dw2.c
+00048792 tox_add_structured_player_data
+000487b1 tox_add_structured_session_data
+000487d1 tox_add_session_data
+000487e6 _Unwind_GetLanguageSpecificData
+00048806 tox_target_dev_infra
+0004881b _ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+00048879 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+000488c4 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+0004890f _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+00048950 _Unwind_SetGR
+0004895e _Unwind_GetGR
+0004896c _Unwind_SetIP
+0004897a _Unwind_GetIP
+00048988 _ZNSt6__ndk14cerrE
+0004899b _ZTVN10__cxxabiv120__si_class_type_infoE
+000489c4 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE
+00048a0d _ZNKSt6__ndk16locale9use_facetERNS0_2idE
+00048a36 _ZNSt6__ndk15ctypeIcE2idE
+00048a50 _ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_14basic_iostreamIcS2_EE
+00048ab8 _ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE16_NS_13basic_ostreamIcS2_EE
+00048b20 _ZTCNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE0_NS_13basic_istreamIcS2_EE
+00048b87 _ZTINSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+00048bbe _ZTINSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+00048bf4 _ZTINSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+00048c2a _ZTINSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+00048c62 _ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048cae _ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048cfa _ZTSNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048d46 _ZTINSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048d92 _ZNSt6__ndk113random_deviceC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048ded _ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048e36 _ZTSNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048e7f _ZTINSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00048ec8 _ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00048f25 _ZNSt6__ndk118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE
+00048fd0 _Unwind_Find_FDE
+00048fe1 _Unwind_GetCFA
+00048ff0 __assert2
+00048ffa __gxx_personality_v0

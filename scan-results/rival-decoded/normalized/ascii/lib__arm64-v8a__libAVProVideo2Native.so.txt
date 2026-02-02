@@ -1,0 +1,2454 @@
+00000244 Android
+00000250 r28-beta2
+00000290 12674087
+000002e2 Y0qXLQ
+00001754 fH.RG
+0000177e NRJQ
+000017e0 N'&(
+000017fd __cxa_finalize
+0000180c __cxa_atexit
+00001819 __register_atfork
+0000182b __stack_chk_fail
+0000183c JNI_OnLoad
+00001847 Java_com_renderheads_AVPro_Video_Manager_nativeInit
+0000187b Java_com_renderheads_AVPro_Video_Manager_nativeDestroy
+000018b2 __android_log_print
+000018c6 Java_com_renderheads_AVPro_Video_Manager_CreateSurface
+000018fd ANativeWindow_toSurface
+00001915 Java_com_renderheads_AVPro_Video_Manager_DestroySurface
+0000194d _GetCurrentAudioTrackNumChannels
+0000196e _GrabAudioNative
+0000197f memcpy
+00001986 _IsPlaying
+00001991 _IsPaused
+0000199b _GetWidth
+000019a5 _GetHeight
+000019b0 _GetDuration
+000019bd _GetLastErrorCode
+000019cf _GetVideoDisplayRate
+000019e4 _CanPlay
+000019ed AVPPluginMakePlayer
+00001a01 AVPPlayerRelease
+00001a12 AVPPlayerGetState
+00001a24 AVPPlayerGetSupportedFeatures
+00001a42 AVPPlayerSetFlags
+00001a54 AVPPlayerOpenURL
+00001a65 AVPPlayerClose
+00001a74 AVPPlayerGetAudio
+00001a86 AVPPlayerSetKeyServerAuthToken
+00001aa5 AVPPlayerSetDecryptionKey
+00001abf AVPPlayerSetTrack
+00001ad1 AVPPlayerGetBufferedTimeRanges
+00001af0 AVPPlayerGetSeekableTimeRanges
+00001b0f AVPPlayerGetTexture
+00001b23 AVPPlayerGetText
+00001b34 AVPPlayerSetPlayerSettings
+00001b4f AVPPlayerSetRate
+00001b60 AVPPlayerSetVolume
+00001b73 AVPPlayerGetAssetInfo
+00001b89 malloc
+00001b90 AVPPlayerGetVideoTrackInfo
+00001bab AVPPlayerGetAudioTrackInfo
+00001bc6 AVPPlayerGetTextTrackInfo
+00001be0 AVPPlayerGetVariantInfo
+00001bf8 AVPPlayerSelectVariant
+00001c0f AVPPlayerCacheMediaForURL
+00001c29 AVPPlayerCancelDownloadOfMediaForURL
+00001c4e AVPPlayerPauseDownloadOfMediaForURL
+00001c72 AVPPlayerResumeDownloadOfMediaForURL
+00001c97 AVPPlayerRemoveCachedMediaForURL
+00001cb8 AVPPlayerGetCachedMediaStatusForURL
+00001cdc AVPPlayerSeek
+00001cea AVPPlayerSetAudioHeadRotation
+00001d08 AVPPlayerSetPositionTrackingEnabled
+00001d2c AVPPlayerSetAudioFocusEnabled
+00001d4a AVPPlayerSetAudioFocusProperties
+00001d6b AVPPlayerSetAudioFocusRotation
+00001d8a AVPPlayerResetAudioFocus
+00001da3 AVPPlayerUpdate
+00001db3 JNIAttachCurrentThread
+00001dca JNIDetachCurrentThread
+00001de1 Java_com_renderheads_AVPro_Video_Manager_AudioCaptureBuffer_1Initialise
+00001e29 Java_com_renderheads_AVPro_Video_Manager_AudioCaptureBuffer_1Destroy
+00001e6e Java_com_renderheads_AVPro_Video_Manager_AudioCaptureBuffer_1OfferBytes
+00001eb6 Java_com_renderheads_AVPro_Video_Manager_AudioCaptureBuffer_1Poll
+00001ef8 Java_com_renderheads_AVPro_Video_Manager_AudioCaptureBuffer_1GetSpaceUsed
+00001f42 Java_com_renderheads_AVPro_Video_Manager_AudioCaptureBuffer_1Reset
+00001f85 memset
+00001f8c AVPPluginGetVersionStringPointer
+00001fad UnityPluginLoad
+00001fbd UnityPluginUnload
+00001fcf AVPPluginGetRenderEventFunction
+00001fef __system_property_get
+00002005 atoi
+0000200a strdup
+00002011 strtok
+00002018 strlen
+0000201f memmove
+00002027 free
+0000202c strcmp
+00002033 eglGetCurrentDisplay
+00002048 eglGetDisplay
+00002056 eglQueryString
+00002065 sscanf
+0000206c memcmp
+00002073 eglGetCurrentContext
+00002088 eglQueryContext
+00002098 eglGetError
+000020a4 eglChooseConfig
+000020b4 eglCreateContext
+000020c5 AImageReader_newWithUsage
+000020df AImageReader_getWindow
+000020f6 AImageReader_delete
+0000210a eglCreateWindowSurface
+00002121 eglMakeCurrent
+00002130 eglDestroySurface
+00002142 eglGetCurrentSurface
+00002157 eglGetProcAddress
+00002169 memchr
+00002170 log2
+00002175 AImage_delete
+00002183 AImageReader_setImageListener
+000021a1 AImageReader_acquireLatestImage
+000021c1 AImage_getTimestamp
+000021d5 AImage_getHardwareBuffer
+000021ee AImage_getCropRect
+00002201 AHardwareBuffer_describe
+0000221a vsnprintf
+00002224 eglDestroyImageKHR
+00002237 eglGetNativeClientBufferANDROID
+00002257 eglCreateImageKHR
+00002269 abort
+0000226f inflateInit2_
+0000227d inflate
+00002285 inflateEnd
+00002290 crc32
+00002296 strncmp
+0000229e pthread_create
+000022ad pthread_setspecific
+000022c1 pthread_mutex_lock
+000022d4 pthread_cond_wait
+000022e6 pthread_mutex_unlock
+000022fb pthread_cond_broadcast
+00002312 clock_gettime
+00002320 __errno
+00002328 wcslen
+0000232f wmemchr
+00002337 strtol
+0000233e strtoll
+00002346 strtof
+0000234d strtod
+00002354 snprintf
+0000235d strerror_r
+00002368 pthread_cond_destroy
+0000237d pthread_cond_signal
+00002391 pthread_cond_timedwait
+000023a8 pthread_getspecific
+000023bc pthread_mutex_destroy
+000023d2 pthread_mutexattr_init
+000023e9 pthread_mutexattr_settype
+00002403 pthread_mutex_init
+00002416 pthread_mutexattr_destroy
+00002430 pthread_join
+0000243d pthread_key_create
+00002450 realloc
+00002458 fwrite
+0000245f fflush
+00002466 newlocale
+00002470 uselocale
+0000247a vsscanf
+00002482 strftime_l
+0000248d mbsrtowcs
+00002497 vasprintf
+000024a1 freelocale
+000024ac iswlower_l
+000024b7 wcsnrtombs
+000024c2 wcrtomb
+000024ca mbsnrtowcs
+000024d5 mbrtowc
+000024dd mbtowc
+000024e4 __ctype_get_mb_cur_max
+000024fb mbrlen
+00002502 strtoll_l
+0000250c strtoull_l
+00002517 strtold_l
+00002521 syscall
+00002529 __sF
+0000252e vfprintf
+00002537 fputc
+0000253d android_set_abort_message
+00002557 openlog
+0000255f syslog
+00002566 closelog
+0000256f posix_memalign
+0000257e pthread_once
+0000258b pthread_key_delete
+0000259e getauxval
+000025a8 fprintf
+000025b0 pthread_rwlock_wrlock
+000025c6 pthread_rwlock_unlock
+000025dc dl_iterate_phdr
+000025ec pthread_rwlock_rdlock
+00002602 libm.so
+0000260a LIBC
+0000260f libdl.so
+00002618 libc.so
+00002620 libandroid.so
+0000262e libEGL.so
+00002638 libmediandk.so
+00002647 liblog.so
+00002651 libz.so
+00002659 libAVProVideo2Native.so
+00017668  $(,048<
+00017780 (I)D
+00017785 (I[B[B)Ljavax/crypto/Cipher;
+000177a2 Player_Update
+000177b0 glAttachShaderOES
+000177c2 glBindRenderbuffer
+000177d5 glBindAttribLocation
+000177ea glBindVertexArrayOES
+000177ff glBlendFuncSeparateAPPLE
+00017818 glBufferDataANGLE
+0001782a glBufferSubDataOES
+0001783d glColorMaskOES
+0001784c glDrawArraysAPPLE
+0001785e glFramebufferTexture2DANGLE
+0001787a glGenBuffersOES
+0001788a glGenRenderbuffersANGLE
+000178a2 glGetIntegervAPPLE
+000178b5 glLinkProgramOES
+000178c6 glPixelStoreiAPPLE
+000178d9 glUniform1iANGLE
+000178f0  (OpenGLESPlayerRenderBuffer.cpp:284) OpenGLESPlayerRenderBuffer::createRenderBuffer - unknown frame buffer status of: 0x%04x
+00017971  (OpenGLESShaders.cpp:182) VideoCaptureFactoryOpenGLES::linkProgram - failed to link program, info:
+000179d9 false
+000179df (ShaderLibraryParser.cpp:185) shader type is unsupported
+00017a18 vkFlushMappedMemoryRanges
+00017a38  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateBuffer'
+00017a82  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateImage'
+00017acb  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyFence'
+00017b12  (VulkanAPI.cpp:482) vk::CreateDeviceHook - failed to enumerate available device properties, error: %s
+00017b79 VK_EXT_extended_dynamic_state
+00017b97 RGBA8
+00017ba0  (VulkanPlayerSurface.cpp:269) VulkanPlayerSurface::updateRenderingRenderBuffers - wait for fences failed with error: %d - %s
+00017c1e unspecified system_category error
+00017c40 0123456789
+00017c4b locale not supported
+00017c60 Pure virtual function called!
+00017c7e VTT for 
+00017c87 operator+=
+00017c92 wchar_t
+00017c9a unsigned short
+00017ca9 unsigned long long
+00017cbc  decltype(auto)
+00017cd0 ([B)[B
+00017cd7 (ILjava/lang/String;Ljava/lang/String;II)Z
+00017d02 Player_ResetAudioFocus
+00017d1c  (OpenGLESPlayerRenderer.cpp:502) OpenGLESPlayerRenderer::setupEglContext - Failed to create egl context
+00017d85 glBindBufferAPPLE
+00017d97 glDeleteFramebuffersOES
+00017daf glDeleteVertexArraysANGLE
+00017dc9 glGetIntegerv
+00017dd7 glGetProgramiv
+00017de6 glMapBufferRangeOES
+00017dfa glTexImage2D
+00017e07 glVertexAttribPointerANGLE
+00017e22 AMEDIA_IMGREADER_CANNOT_UNLOCK_IMAGE
+00017e47 Edition
+00017e4f expected ' or "
+00017e5f vkCreateSemaphore
+00017e77  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateSamplerYcbcrConversion'
+00017ecb vkEnumerateDeviceExtensionProperties
+00017ef3  (VulkanAPI.cpp:458) vk::CreateDeviceHook - failed to create device, error: %s
+00017f42 VK_KHR_bind_memory2
+00017f56 Invalid
+00017f5e September
+00017f68 %s failed to release mutex
+00017f83 %s:%d: %s
+00017f8d long
+00017f92 __float128
+00017f9d decltype(auto)
+00017fac  imaginary
+00017fb7 libunwind: %s - %s
+00017fcb DW_EH_PE_funcrel pointer encoding not supported
+00018003 (Ljava/lang/String;)Ljava/lang/Class;
+00018029 Player_ResumeDownloadOfMediaToCache
+0001804d Player_SetVideoVariant
+00018064 AVPPlayerAudioCaptureBuffer: capacity = %d
+00018098  (OpenGLESPlayerRenderer.cpp:333) OpenGLESPlayerRenderer::setupEglContext - eglExtensions:
+000180f3 glBufferData
+00018100 glClientWaitSyncANGLE
+00018116 glDeleteBuffersAPPLE
+0001812b glDeleteFramebuffersAPPLE
+00018145 glDeleteSyncOES
+00018155 glEGLImageTargetTexture2DOESANGLE
+00018177 glFenceSync
+00018183 glGenVertexArraysOES
+00018198 glGenerateMipmapANGLE
+000181ae glGenTexturesAPPLE
+000181c1 glRenderbufferStorageOES
+000181da glTexStorage2DANGLE
+000181ee Build
+000181f4 vkCmdCopyBufferToImage
+0001820b vkUpdateDescriptorSets
+00018228  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBindVertexBuffers'
+0001827a  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyPipeline'
+000182c1 AVProVideo::Player%u::PipelineLayout
+000182e6 auto
+000182eb typename 
+000182f5 getSavedFloatRegister
+0001830f findClass
+00018319 _GetHeight
+00018324 _IsPlaying
+0001832f _IsPaused
+00018339 (I)[B
+00018345  (OpenGLESPlayerRenderer.cpp:257) OpenGLESPlayerRenderer::setShadingLanguageVersion - failed to get GLSL version, using: %d
+000183c1 glBindAttribLocationOES
+000183d9 glCreateProgramANGLE
+000183ee glDeleteTexturesAPPLE
+00018404 glGenBuffers
+00018411 glGenFramebuffersOES
+00018426 glGetFramebufferAttachmentParameteriv
+0001844c glUniform1fAPPLE
+0001845d glUniformMatrix2fvOES
+00018473 glUniformMatrix4fvOES
+00018489 glVertexAttribPointerAPPLE
+000184a4 EGL_BAD_ALLOC
+000184b2 AMEDIA_DRM_SESSION_NOT_OPENED
+000184d0 expected element name
+000184e6 fragment
+000184f2  (UnpackBuffer.cpp:323) UnpackBuffer::decryptLibrary - failed to finalise cryptor, error: %d
+0001854f vkDestroyRenderPass
+00018563 vkDestroyShaderModule
+0001857f  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetPhysicalDeviceFormatProperties'
+000185d8 NVIDIA Tegra X1
+000185ec  (VulkanAPI.cpp:702) InterceptUnityVulkanInitialisation - Intercepting Vulkan API initialisation from Unity
+00018658 AVProVideo::Player%u::DescriptorPool
+0001867d condition_variable::timed wait: mutex not locked
+000186b1 operator=
+000186bb operator,
+000186c5 operator>=
+000186d0 __int128
+000186d9 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+00018720 (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;ILjava/nio/ByteBuffer;)I
+00018764 Player_GetAssetInfo
+0001877f  (OpenGLESPlayerRenderer.cpp:461) OpenGLESPlayerRenderer::setupEglContext - shareContext version: %d.%d
+000187ea  (OpenGLESPlayerRenderer.cpp:527) OpenGLESPlayerRenderer::setupEglContext - Failed to get native window from image reader, error: %d
+0001886f glBindBufferOES
+0001887f glBindTextureANGLE
+00018892 glBindVertexArrayANGLE
+000188a9 glColorMaskAPPLE
+000188ba glDeleteFramebuffers
+000188cf glDeleteProgram
+000188df glDeleteProgramAPPLE
+000188f4 glDetachShaderAPPLE
+00018908 glFramebufferTexture2DAPPLE
+00018924 glGetShaderInfoLogAPPLE
+0001893c glUnmapBuffer
+0001894a glUseProgramAPPLE
+0001895c EGL_BAD_CONFIG
+0001896b The required operation or media formats are not supported.
+000189a9  (ShaderLibraryParser.cpp:415) VideoCaptureShaders::parseLibrary - failed to get root node
+00018a04 no shaders in library
+00018a1a (ShaderLibraryParser.cpp:208) shader "
+00018a41 vkAllocateDescriptorSets
+00018a5a vkGetPhysicalDeviceMemoryProperties
+00018a85  (VulkanAPI.cpp:118) vk::CreateInstanceHook - vulkan version: %u.%u.%u
+00018ad3  (VulkanAPI.cpp:333) vk::CreateDeviceHook - physicalDevice: %p
+00018b12 AVProVideo::Player%u::RenderBuffer%i::DstImageMemory
+00018b47 VK_ERROR_LAYER_NOT_PRESENT
+00018b62 VK_ERROR_FRAGMENTATION
+00018b79 __thread_specific_ptr construction failed
+00018ba3 std::bad_cast
+00018bb1 operator.*
+00018bbc sizeof 
+00018bc4  [enable_if:
+00018bd1 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+00018c37 CIE version is not 1 or 3
+00018c51 _GetLastErrorCode
+00018c63 (I)F
+00018c68 (IDDDD)V
+00018c71 OpenGL ES GLSL ES %d.%d
+00018c8c  (OpenGLESPlayerRenderer.cpp:388) OpenGLESPlayerRenderer::setupEglContext - Failed to choose config, error: %d - %s
+00018d00 RGBA
+00018d05 glBindFramebufferAPPLE
+00018d1c glBlendFuncSeparateANGLE
+00018d35 glDetachShaderOES
+00018d47 glEGLImageTargetTexture2DOES
+00018d64 glFlushAPPLE
+00018d71 glGenFramebuffers
+00018d83 glGenRenderbuffersAPPLE
+00018d9b glShaderSource
+00018daa glUseProgramOES
+00018dba The media object is not in the right state for the required operation.
+00018e04  (UnpackBuffer.cpp:205) VideoCaptureShaders::loadShaders - failed to decompress shader library
+00018e69  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBeginRenderPass'
+00018eb9  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateSampler'
+00018f04  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroySampler'
+00018f50  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyShaderModule'
+00018f9b VK_KHR_image_format_list
+00018fb4 AVProVideo::RenderPass::%s
+00018fcf thread constructor failed
+00018fe9 AVProVideo::Player%u::RenderBuffer%i::Framebuffer
+0001901b VK_EVENT_SET
+00019028 VK_ERROR_INITIALIZATION_FAILED
+00019047 clock_gettime(CLOCK_MONOTONIC) failed
+0001906d bad_array_new_length
+00019082 out/llvm-project/libcxxabi/src/private_typeinfo.cpp
+000190b6 operator&
+000190c0 operator<<
+000190cb operator|
+000190d5 operator>>
+000190e0 yptnk
+000190e6 ::friend 
+000190f0 char8_t
+000190f8 std::nullptr_t
+00019107 _Unwind_Resume() can't return
+00019125 libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+00019167 Can't binary search on variable length encoded data.
+000191a4 (ILjava/lang/String;)[D
+000191bc glBindRenderbufferAPPLE
+000191d4 glCompileShaderANGLE
+000191e9 glFramebufferRenderbufferOES
+00019206 glGetErrorAPPLE
+00019216 glShaderSourceAPPLE
+0001922a glRenderbufferStorageANGLE
+00019245 glTexParameterfvOES
+00019259 glUniformMatrix3x2fvOES
+00019271 glUniformMatrix3x2fvAPPLE
+0001928b glVertexAttribPointerOES
+000192a4 AMEDIA_ERROR_UNSUPPORTED
+000192bd AMEDIA_ERROR_WOULD_BLOCK
+000192d6 #version 300 es
+000192e6 (ShaderLibraryParser.cpp:178) shader missing attribute 'name'
+00019324 vkBindImageMemory2
+00019337 vkDestroyFence
+00019346 vkDestroyPipelineLayout
+00019364  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdPipelineBarrier'
+000193b4  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateDescriptorSetLayout'
+0001940b  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyImage'
+0001944f VK_KHR_get_memory_requirements2
+00019475  (VulkanAPI.cpp:204) vk::CreateInstanceHook - desired extension '%s' is not available
+000194ce  (VulkanAPI.cpp:527) vk::CreateDeviceHook - required extension '%s' is not available
+00019523 AVProVideo::Player%u::RenderBuffer%i::Fence
+0001954f vulkan
+00019556 VK_ERROR_FORMAT_NOT_SUPPORTED
+00019574 unspecified generic_category error
+00019597 thread::join failed
+000195ae %s failed to acquire mutex
+000195c9 operator==
+000195d4 operator++
+000195df static_cast
+000195eb bool
+000195f0 ro.arch
+000195f8 getULEB128
+00019609 Player_GetTextTrackInfo
+00019621 (ILjava/lang/String;)V
+00019638 Player_SetPositionTrackingEnabled
+0001965a glColorMask
+00019666 glCreateShader
+00019675 glDeleteVertexArraysAPPLE
+0001968f glEnableVertexAttribArrayAPPLE
+000196ae glFramebufferTexture2D
+000196c5 glGenBuffersAPPLE
+000196d7 glGetFramebufferAttachmentParameterivAPPLE
+00019702 glGetProgramInfoLogAPPLE
+0001971b glGetUniformLocationOES
+00019733 glIsEnabledAPPLE
+00019744 glIsFramebufferANGLE
+00019759 glReadBuffer
+00019766 glUniformMatrix2fvANGLE
+00019781  (AHardwareBufferPlayerSurface.cpp:90) AHardwareBufferPlayerSurface::AHardwareBufferPlayerSurface - failed to set image listener, error: %d - %s
+00019812 AMEDIA_ERROR_END_OF_STREAM
+0001982d AMEDIA_IMGREADER_ERROR_BASE
+00019849 AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE
+0001986e An invalid (or already closed) object is used in the function call.
+000198b9  (OpenGLESPlayerRenderBuffer.cpp:149) OpenGLESPlayerRenderBuffer::render - failed to get shader program
+00019921 OpenGLESShaders::addProgram - shader type is not valid
+00019958 expected <
+00019966  (ShaderLibraryParser.cpp:427) VideoCaptureShaders::parseLibrary - failed to parse library, error: %s
+000199cc parseProgramShader - missing type
+000199f4  (UnpackBuffer.cpp:332) UnpackBuffer::decryptLibrary - failed to release cryptor, error: %d
+00019a50 vkAllocateMemory
+00019a61 vkBeginCommandBuffer
+00019a7c  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBindDescriptorSets'
+00019acf  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateFence'
+00019b12 vkEnumerateInstanceExtensionProperties
+00019b39 VK_ERROR_NATIVE_WINDOW_IN_USE_KHR
+00019b5b VK_THREAD_IDLE_KHR
+00019b6e VK_OPERATION_DEFERRED_KHR
+00019b88 : no conversion
+00019b98 recursive_mutex lock failed
+00019bb4 ios_base::clear
+00019bc7 long double
+00019bd3  complex
+00019bdc unsigned 
+00019be6 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+00019c30 FDE has zero length
+00019c44 Player_SetFlags
+00019c54 (II)[Ljava/lang/Object;
+00019c70  (OpenGLESPlayerRenderer.cpp:503) Please contact unitysupport@renderheads.com providing details of your device and Android version, Unity version and the output from logcat up to this point.
+00019d2f glDeleteSyncAPPLE
+00019d41 glEGLImageTargetTexture2DOESAPPLE
+00019d63 glGetProgramInfoLogANGLE
+00019d7c glShaderSourceOES
+00019d8e glUniform1fOES
+00019d9d glUniform2fvANGLE
+00019daf glUseProgramANGLE
+00019dc4  (OpenGLESPlayer.cpp:359) OpenGLESPlayer::update - glClientWaitSync wait failed
+00019e17  (AHardwareBufferPlayerSurface.cpp:75) AHardwareBufferPlayerSurface::AHardwareBufferPlayerSurface - failed to get native window, error: %d - %s
+00019ea7 AMEDIACODEC_ERROR_INSUFFICIENT_RESOURCE
+00019ecf AMEDIA_DRM_VERIFY_FAILED
+00019ee8 At least one of the invalid parameters is used.
+00019f18 unexpected end of data
+00019f2f vkCreateBuffer
+00019f3e vkDestroyDescriptorPool
+00019f56 vkDestroyImage
+00019f65 vkGetBufferMemoryRequirements
+00019f83 vkQueueSubmit
+00019f97  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBindPipeline'
+00019fe4  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateShaderModule'
+0001a034  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetImageMemoryRequirements'
+0001a08c  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetImageSubresourceLayout'
+0001a0e3  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkMapMemory'
+0001a124 vkCreateInstance
+0001a138  (VulkanAPI.cpp:100) vk::CreateInstanceHook - failed to get address for vkCreateInstance
+0001a191 recursive_mutex constructor failed
+0001a1b4 terminate_handler unexpectedly returned
+0001a1dc catching a class without an object?
+0001a200 non-virtual thunk to 
+0001a216 Invalid access!
+0001a226 operator&&
+0001a231 dynamic_cast
+0001a23e Popping empty vector!
+0001a254 noexcept
+0001a25d truncated uleb128 expression
+0001a27a libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0001a2c3 _GetVideoDisplayRate
+0001a2d8 (I)Z
+0001a2dd Player_SetRate
+0001a2ec Player_SetAudioFocusRotation
+0001a30f  (OpenGLESPlayerRenderer.cpp:281) OpenGLESPlayerRenderer::setShadingLanguageVersion - GLSL major version of %d is unsupported
+0001a38d glActiveTextureAPPLE
+0001a3a2 glBlendFuncSeparateOES
+0001a3b9 glDeleteShaderANGLE
+0001a3cd glDeleteVertexArrays
+0001a3e2 glFlush
+0001a3ea glMapBufferRange
+0001a3fb glUniform1f
+0001a407 glUniform2fvAPPLE
+0001a419 glVertexAttribPointer
+0001a436  (OpenGLESPlayer.cpp:89) OpenGLESPlayer::setup - Android emulator detected, OES is not supported
+0001a49a  (AHardwareBufferPlayerSurface.cpp:148) AHardwareBufferPlayerSurface::update - failed to acquire image, error: %d %s - %s
+0001a514 AMEDIA_IMGREADER_IMAGE_NOT_LOCKED
+0001a536 0.0.0
+0001a53f  (UnpackBuffer.cpp:449) UnpackBuffer::validateGzipHeader - only deflate algorithm is supported
+0001a5a4  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBindImageMemory'
+0001a5f1  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdCopyBuffer'
+0001a63c  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetImageMemoryRequirements2'
+0001a692  (VulkanAPI.cpp:133) vk::CreateInstanceHook - failed to enumerate extensions, error: %s
+0001a6ea AVProVideo::Player%u::CommandPool
+0001a70c VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT
+0001a742 VK_ERROR_NOT_PERMITTED_EXT
+0001a75d __cxa_guard_release
+0001a771 uncaught
+0001a77a typeinfo name for 
+0001a78d operator co_await
+0001a79f reinterpret_cast
+0001a7b5 exynos9810
+0001a7c0 unsupported arm64 register
+0001a7db unsupported restore location for register
+0001a805 getTableEntrySize
+0001a817 (Ljavax/crypto/Cipher;Ljava/nio/ByteBuffer;)I
+0001a845 (I)[D
+0001a84b Player_SetPlayerSettings
+0001a864 Player_CancelDownloadOfMediaToCache
+0001a88f  (OpenGLESPlayerRenderer.cpp:86) VideoCaptureFactoryOpenGLES::setup - glVendor: %s
+0001a8e2 glAttachShader
+0001a8f1 glBindVertexArray
+0001a903 glCompileShaderOES
+0001a916 glCreateProgram
+0001a926 glDisable
+0001a930 glDrawBuffersOES
+0001a941 glGetErrorANGLE
+0001a951 glGetStringAPPLE
+0001a962 AMEDIA_DRM_NEED_KEY
+0001a976 The media/buffer needs to be locked to perform the required operation.
+0001a9c3  (OpenGLESPlayerRenderBuffer.cpp:264) OpenGLESPlayerRenderBuffer::createRenderBuffer - framebuffer is undefined
+0001aa33  spirv is missing cdata
+0001aa4e  (ShaderLibraryParser.cpp:367) parsePrograms - failed to parse program, error: %s
+0001aaa0 vkCmdCopyBuffer
+0001aab0 vkCreateFence
+0001aabe vkDestroySemaphore
+0001aad1 vkGetImageMemoryRequirements2
+0001aaf5  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateCommandPool'
+0001ab44  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreatePipelineLayout'
+0001ab96  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetDeviceQueue'
+0001abe2  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkResetFences'
+0001ac25 vkCreateDevice
+0001ac34 VK_ERROR_SURFACE_LOST_KHR
+0001ac4e std::bad_alloc
+0001ac5d operator&=
+0001ac68 operator[]
+0001ac73 operator<
+0001ac7d operator new[]
+0001ac8c operator|=
+0001ac9b decimal128
+0001aca6 union
+0001acac truncated sleb128 expression
+0001acc9 DW_OP_piece not implemented
+0001acef AVProVideo
+0001acfa MakePlayer
+0001ad05 (IF)V
+0001ad0b (ILjava/lang/String;Ljava/lang/String;DII)V
+0001ad37 Player_PauseDownloadOfMediaToCache
+0001ad5e  (UnityPlugin.cpp:211) UnityPluginLoad - %s
+0001ad8a glCreateProgramAPPLE
+0001ad9f glDeleteTexturesANGLE
+0001adb5 glDrawArraysOES
+0001adc5 glFenceSyncAPPLE
+0001add6 glFinishAPPLE
+0001ade4 glFlushOES
+0001adef glFlushANGLE
+0001adfc glGetErrorOES
+0001ae0a glLinkProgramAPPLE
+0001ae1d glRenderbufferStorage
+0001ae33  build 
+0001ae3b Version
+0001ae43 AVPro Video
+0001ae4f no programs in library
+0001ae66 vkCmdBindVertexBuffers
+0001ae7d vkCmdPipelineBarrier
+0001ae92 vkDestroySamplerYcbcrConversion
+0001aeb2 vkWaitForFences
+0001aec8  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdDraw'
+0001af0d  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateImageView'
+0001af5a  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateSemaphore'
+0001afa7  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetAndroidHardwareBufferPropertiesANDROID'
+0001b00e  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetPhysicalDeviceProperties'
+0001b067  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkUpdateDescriptorSets'
+0001b0b6  (VulkanAPI.cpp:268) vk::CreateInstanceHook - failed to get address for vkGetPhysicalDeviceFeatures2KHR
+0001b121  (VulkanAPI.cpp:382) vk::CreateDeviceHook - samplerYcbcrConversion feature is unavailable, failing device creation
+0001b194 AVProVideo::Player%u::SamplerYCbCrConversion
+0001b1c1 bad any cast
+0001b1d3 terminating due to %s exception of type %s
+0001b201 operator delete[]
+0001b213 sizeof...
+0001b21d out/llvm-project/libcxxabi/src/demangle/Utility.h
+0001b24f evaluateExpression
+0001b265 FinaliseCryptor
+0001b275 Player_RemoveMediaFromCache
+0001b298  (OpenGLESPlayerRenderer.cpp:101) VideoCaptureFactoryOpenGLES::setup   - %s
+0001b2e4 glClearColorAPPLE
+0001b2f6 glDeleteFramebuffersANGLE
+0001b310 glDrawBuffersANGLE
+0001b323 glEnableANGLE
+0001b331 glGenRenderbuffers
+0001b344 glGetProgramivOES
+0001b356 glIsEnabled
+0001b362 glTexImage2DAPPLE
+0001b374 glUniformMatrix3x2fvANGLE
+0001b391  (AHardwareBufferPlayerSurface.cpp:162) AHardwareBufferPlayerSurface::update - failed to get hardware buffer from image, error: %d %s - %s
+0001b41c AMEDIA_ERROR_MALFORMED
+0001b433 This indicates the resource manager reclaimed the media resource used by the codec. With this error, the codec must be released, as it has moved to terminal state.
+0001b4d7 The input media data is corrupt or incomplete.
+0001b506 (OpenGLESShaders.cpp:113) failed to create shader module for shader: 
+0001b54c expected =
+0001b557 vkCreateGraphicsPipelines
+0001b571 vkDestroyBuffer
+0001b587  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateGraphicsPipelines'
+0001b5dc  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyCommandPool'
+0001b62c  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyPipelineLayout'
+0001b67f  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkQueueSubmit'
+0001b6c2 VK_KHR_dedicated_allocation
+0001b6de sizeof... 
+0001b6e9 const_cast
+0001b6f4 operator~
+0001b6fe operator>>=
+0001b70a short
+0001b710 unsigned __int128
+0001b722 unwind_phase2
+0001b730 malformed uleb128 expression
+0001b74d unsupported restore location for float register
+0001b784 (IZIIIIZIIIIIDDZZ)I
+0001b798 Player_SetAudioFocusProperties
+0001b7bd  (OpenGLESPlayerRenderer.cpp:275) OpenGLESPlayerRenderer::setShadingLanguageVersion - GLSL minor version of %d is unrecognised, using: %d
+0001b84a  (OpenGLESPlayerRenderer.cpp:312) OpenGLESPlayerRenderer::setup - failed to get display, error: %s
+0001b8ad glBindTexture
+0001b8bb glDeleteBuffers
+0001b8cb glDrawArrays
+0001b8d8 glFenceSyncOES
+0001b8e7 glGenTextures
+0001b8f5 glUniformMatrix2fv
+0001b908 EGL_ERROR_UNKNOWN
+0001b91a Name
+0001b91f vkDestroyCommandPool
+0001b934 vkDestroyFramebuffer
+0001b949 vkGetPhysicalDeviceImageFormatProperties2
+0001b979  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyBuffer'
+0001b9c4  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroySamplerYcbcrConversion'
+0001ba1f  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetPhysicalDeviceMemoryProperties'
+0001ba78 VK_EXT_debug_report
+0001ba8c VK_SUBOPTIMAL_KHR
+0001ba9e VK_THREAD_DONE_KHR
+0001bab6 decltype
+0001babf operator.
+0001bac9 operator-
+0001bad3 operator name does not start with 'operator'
+0001bb00 double
+0001bb07 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+0001bb48 DW_EH_PE_aligned pointer encoding not supported
+0001bb78 getSavedRegister
+0001bb8d _GetCurrentAudioTrackNumChannels
+0001bbae Player_CloseVideo
+0001bbc0 glClearAPPLE
+0001bbcd glClearColor
+0001bbda glClearColorOES
+0001bbea glClientWaitSyncAPPLE
+0001bc00 glCreateShaderAPPLE
+0001bc14 glDeleteSync
+0001bc21 glEnableOES
+0001bc2d glGenBuffersANGLE
+0001bc3f glReadPixelsANGLE
+0001bc51 glTexParameteri
+0001bc61 glTexParameteriAPPLE
+0001bc76 AMEDIA_OK
+0001bc80 AMEDIA_ERROR_INVALID_PARAMETER
+0001bc9f The called media function failed with an unknown error.
+0001bcd7 Media stream ends while processing the requested operation.
+0001bd19  (OpenGLESPlayerRenderBuffer.cpp:276) OpenGLESPlayerRenderBuffer::createRenderBuffer - framebuffer is unsupported
+0001bd8b true
+0001bd93  (PluginInfo.cpp:108) PluginInfo::parse - failed to parse plist, error: %s
+0001bdde (ShaderLibraryParser.cpp:225) shader "
+0001be05  has no source cdata
+0001be20  (ShaderLibraryParser.cpp:51) getAttribute - node has no attribute "%s"
+0001be6b  (UnpackBuffer.cpp:309) UnpackBuffer::decryptLibrary - failed to update cryptor, error: %d
+0001bec6 vkGetImageSubresourceLayout
+0001bee2 vkUnmapMemory
+0001bef6  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyDescriptorPool'
+0001bf46  (VulkanAPI.cpp:167) vk::CreateInstanceHook - required extension '%s' is not available
+0001bfa3  (VulkanAPI.cpp:576) vk::CreateDeviceHook - desired extension '%s' is not available
+0001bff7 VK_TIMEOUT
+0001c002 VK_ERROR_MEMORY_MAP_FAILED
+0001c01d VK_ERROR_VALIDATION_FAILED_EXT
+0001c040 initializer for module 
+0001c058 (anonymous namespace)
+0001c06e operator<=>
+0001c07e getRegister
+0001c092 FDE is really a CIE
+0001c0a6 CreateCryptor
+0001c0b4 Player_SetDecryptionKey
+0001c0cc Player_GetCurrentVideoTrackSingleVariantInfo
+0001c0f9 Player_GetSupportedFeatures
+0001c11c  (OpenGLESPlayerRenderer.cpp:88) VideoCaptureFactoryOpenGLES::setup - glRenderer: %s
+0001c174  (OpenGLESPlayerRenderer.cpp:536) OpenGLESPlayerRenderer::setupEglContext - Failed to get surface from native window, error: %d - %s
+0001c1f9 glBindTextureAPPLE
+0001c20c glBlendFuncSeparate
+0001c220 glBufferDataAPPLE
+0001c232 glClientWaitSync
+0001c243 glDeleteVertexArraysOES
+0001c25b glDrawBuffers
+0001c269 glFramebufferRenderbuffer
+0001c283 glFramebufferRenderbufferANGLE
+0001c2a2 glFramebufferTexture2DOES
+0001c2bc GL_EXT_sRGB_write_control
+0001c2d6 The AImage object has used up the allowed maximum image buffers.
+0001c317 The media data or buffer could not be unlocked.
+0001c347 tex0xfrm
+0001c350 vkCmdBeginRenderPass
+0001c365 vkCmdSetViewport
+0001c37c  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBindImageMemory2'
+0001c3c4 vkGetPhysicalDeviceFeatures2KHR
+0001c3e4 VK_KHR_sampler_ycbcr_conversion
+0001c407  (VulkanAPI.cpp:534) vk::CreateDeviceHook - not all required extensions are available, unable to create device
+0001c476 AVProVideo::Player%u::RenderBuffer%i::CommandBuffer
+0001c4aa main
+0001c4af VK_SUCCESS
+0001c4ba VK_ERROR_INCOMPATIBLE_DRIVER
+0001c4d7 terminating due to %s foreign exception
+0001c4ff thread-local initialization routine for 
+0001c528 guard variable for 
+0001c53c alignof 
+0001c545 operator*
+0001c54f unsigned char
+0001c55d > typename 
+0001c569 (Ljavax/crypto/Cipher;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I
+0001c5ac Player_OpenURL
+0001c5bb Player_SetTrack
+0001c5ce  (UnityPlugin.cpp:53) OnUnityGfxDeviceEventInitialize - OpenGLES2 API is not supported
+0001c625 glDeleteProgramOES
+0001c638 glGenVertexArraysAPPLE
+0001c64f glGetStringOES
+0001c65e glIsFramebuffer
+0001c66e glIsFramebufferAPPLE
+0001c683 glLinkProgramANGLE
+0001c696 glPixelStorei
+0001c6a4 glUniform1iAPPLE
+0001c6b5 glUniform2fvOES
+0001c6c5 glUniformMatrix3fv
+0001c6d8 glViewportANGLE
+0001c6e8 AMEDIA_ERROR_INVALID_OPERATION
+0001c707 AMEDIA_IMGREADER_CANNOT_LOCK_IMAGE
+0001c72a The requested media operation completed successfully.
+0001c760 An Error occurred when the Media object is carrying IO operation.
+0001c7a8  (OpenGLESPlayerRenderBuffer.cpp:268) OpenGLESPlayerRenderBuffer::createRenderBuffer - framebuffer is incomplete, attachment is incomplete
+0001c833 (ShaderLibraryParser.cpp:182) shader missing attribute 'type')
+0001c872 (ShaderLibraryParser.cpp:221) shader "
+0001c89f  (UnpackBuffer.cpp:530) UnpackBuffer::decompressBuffer - failed to inflate, status: %d
+0001c8f6 vkBindBufferMemory2
+0001c90a vkCreatePipelineLayout
+0001c921 vkCreateSampler
+0001c937  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateRenderPass'
+0001c985  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkFreeMemory'
+0001c9cb  (VulkanAPI.cpp:362) vk::CreateDeviceHook - Vulkan not currently supported with %s hardware, failing device creation
+0001ca40 AVProVideo::Player%u::RenderBuffer%d::SrcImage
+0001ca6f VK_ERROR_INCOMPATIBLE_DISPLAY_KHR
+0001ca91 mutex lock failed
+0001caa3 %.0Lf
+0001caa9 terminate_handler unexpectedly threw an exception
+0001cadb unexpected
+0001cae6 vtable for 
+0001caf5 operator*=
+0001cb00 char
+0001cb05  noexcept
+0001cb0f string literal
+0001cb22 char32_t
+0001cb2b libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+0001cb71 (IZIIIDDDZZ)V
+0001cb82  (UnityPlugin.cpp:98) OnUnityGfxDeviceEventInitialize - Failed to initialise vulkan renderer, error: %d
+0001cbed  (OpenGLESPlayerRenderer.cpp:519) OpenGLESPlayerRenderer::setupEglContext - Failed to create image reader, error: %d
+0001cc62 glBufferSubData
+0001cc72 glClear
+0001cc7a glDeleteRenderbuffersANGLE
+0001cc95 glDeleteRenderbuffersAPPLE
+0001ccb0 glDisableAPPLE
+0001ccbf glDrawBuffersAPPLE
+0001ccd2 glEGLImageTargetTexture2DOESOES
+0001ccf2 glGenTexturesANGLE
+0001cd05 glGetAttribLocationOES
+0001cd1c glGetTexParameteriv
+0001cd30 glGetTexParameterivOES
+0001cd47 glUniform1fANGLE
+0001cd58 glUniformMatrix4fvANGLE
+0001cd70 glUseProgram
+0001cd7d EGL_BAD_ACCESS
+0001cd8c AMEDIA_ERROR_UNKNOWN
+0001cda4  (OpenGLESShaders.cpp:111) OpenGLESShaders::compileShader - failed to compile shader '%s', info:
+0001ce09 parseProgramShader - missing name
+0001ce2b 1.2.8
+0001ce31 vkDestroySampler
+0001ce42 vkEnumerateInstanceVersion
+0001ce5d AVProVideo::Player%u::DescriptorSetLayout
+0001ce87 AVProVideo::Player%u::RenderBuffer%i::DstImageView
+0001ceba VK_EVENT_RESET
+0001cec9 VK_ERROR_EXTENSION_NOT_PRESENT
+0001cee8 VK_ERROR_FRAGMENTED_POOL
+0001cf01 typeinfo for 
+0001cf0f out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h
+0001cf49 shrinkToSize() can't expand!
+0001cf66 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+0001cfb7 com/renderheads/AVPro/Video/Manager
+0001cfdb Player_GetVideoTrackInfo
+0001cff4 Player_GetBufferedTimeRanges
+0001d011 Player_GetCachedMediaStatus
+0001d031  (OpenGLESPlayerRenderer.cpp:290) OpenGLESPlayerRenderer::setup - Android 9 and Adreno 308 detected, forcing GLSL ES version to 3.00
+0001d0bd  (OpenGLESPlayerRenderer.cpp:338) OpenGLESPlayerRenderer::setupEglContext   - %s
+0001d111  (OpenGLESPlayerRenderer.cpp:428) OpenGLESPlayerRenderer::setupEglContext - Failed to choose config, error: %s
+0001d180 glBlitFramebufferOES
+0001d195 glCheckFramebufferStatusAPPLE
+0001d1b3 glClearANGLE
+0001d1c0 glCreateProgramOES
+0001d1d3 glDeleteShader
+0001d1e2 glDeleteShaderAPPLE
+0001d1f6 glDetachShaderANGLE
+0001d20a glFenceSyncANGLE
+0001d21b glGetShaderivAPPLE
+0001d22e glGetString
+0001d23a glGetTexParameterivANGLE
+0001d253 glReadBufferOES
+0001d263 glTexImage2DOES
+0001d273 glTexParameteriANGLE
+0001d288 glUniformMatrix3fvOES
+0001d29e glUnmapBufferAPPLE
+0001d2b1 EGL_BAD_ATTRIBUTE
+0001d2c3 EGL_BAD_NATIVE_PIXMAP
+0001d2d9 AMEDIACODEC_ERROR_RECLAIMED
+0001d2f5 This indicates required resource was not able to be allocated.
+0001d334 There are no more image buffers to read/write image data.
+0001d36e vkResetFences
+0001d382  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyImageView'
+0001d3d0  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetBufferMemoryRequirements'
+0001d426  (VulkanAPI.cpp:110) vk::CreateInstanceHook - failed to enumerate version, error: %d - %s
+0001d480 default
+0001d488 VK_ERROR_DEVICE_LOST
+0001d49d VK_ERROR_FEATURE_NOT_PRESENT
+0001d4bd operator<=
+0001d4c8 enum
+0001d4cd out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+0001d500 unknown pointer encoding
+0001d519 getSLEB128
+0001d524 DW_OP_deref_size with bad size
+0001d547 _GetDuration
+0001d554 glBlitFramebufferAPPLE
+0001d56b glCheckFramebufferStatus
+0001d584 glDeleteBuffersANGLE
+0001d599 glGetIntegervANGLE
+0001d5ac glGetShaderivANGLE
+0001d5bf glGetUniformLocationAPPLE
+0001d5d9 glReadPixels
+0001d5e6 glTexParameterfv
+0001d5f7 AMEDIA_DRM_TAMPER_DETECTED
+0001d612 The required operation would have to be blocked (on I/O or others), but blocking is not enabled.
+0001d676  (ShaderLibraryParser.cpp:242) parseShader - failed to add shader "%s", error: %s
+0001d6c8 parseProgram - failed to parse shaders
+0001d6f2  (UnpackBuffer.cpp:75) UnpackBuffer::unpack - invalid magic
+0001d72e vkAllocateCommandBuffers
+0001d747 vkBindImageMemory
+0001d759 vkCreateCommandPool
+0001d76d vkFreeMemory
+0001d780  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkAllocateMemory'
+0001d7cc  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdEndRenderPass'
+0001d81a  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdSetScissor'
+0001d865  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyRenderPass'
+0001d8b1  (VulkanAPI.cpp:101) vk::CreateInstanceHook - failed to get address for vkEnumerateInstanceVersion
+0001d914 VK_KHR_get_physical_device_properties2
+0001d93b AVProVideo::Player%u::Sampler
+0001d959 VK_INCOMPLETE
+0001d967 VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT
+0001d994 clock_gettime(CLOCK_REALTIME) failed
+0001d9b9 operator--
+0001d9c4 <char, std::char_traits<char>
+0001d9e2 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+0001da45 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+0001daad _GetWidth
+0001dab7 (IZ)V
+0001dac0  (UnityPlugin.cpp:276) OnRenderEvent - unrecognised event id: 0x%08x
+0001db05 EGL_KHR_surfaceless_context
+0001db21 glActiveTextureANGLE
+0001db36 glBindBufferANGLE
+0001db48 glBufferDataOES
+0001db58 glBufferSubDataAPPLE
+0001db6d glColorMaskANGLE
+0001db7e glDeleteRenderbuffers
+0001db94 glGenVertexArrays
+0001dba6 glGetAttribLocationANGLE
+0001dbbf glGetProgramInfoLog
+0001dbd3 glTexParameterfvANGLE
+0001dbe9 glTexStorage2D
+0001dbf8 glUnmapBufferOES
+0001dc09 vkCmdBlitImage
+0001dc18 vkResetCommandBuffer
+0001dc33  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkAllocateDescriptorSets'
+0001dc84  (VulkanAPI.cpp:174) vk::CreateInstanceHook - not all required extensions are available, unable to create device
+0001dcf5 VK_NOT_READY
+0001dd02 __cxa_guard_abort
+0001dd18 decimal32
+0001dd22 setRegister
+0001dd32 ()Ljava/lang/ClassLoader;
+0001dd4c Player_GetState
+0001dd63  (OpenGLESPlayerRenderer.cpp:95) VideoCaptureFactoryOpenGLES::setup - glExtensions:
+0001ddba  (OpenGLESPlayerRenderer.cpp:416) OpenGLESPlayerRenderer::setup - Failed to choose config, error: %s
+0001de1f glActiveTextureOES
+0001de32 glBindFramebuffer
+0001de44 glBlitFramebuffer
+0001de56 glDeleteProgramANGLE
+0001de6b glEnableAPPLE
+0001de79 glFinish
+0001de82 glGetShaderInfoLogOES
+0001de98 glGetTexParameterivAPPLE
+0001deb1 glGetUniformLocationANGLE
+0001decb glIsEnabledOES
+0001deda glTexParameterfvAPPLE
+0001def0 glTexStorage2DAPPLE
+0001df04 glUniformMatrix3fvANGLE
+0001df1c glViewportAPPLE
+0001df2c AMEDIA_DRM_NOT_PROVISIONED
+0001df47 shader specialisation constant type must bool, int or float
+0001df86  (UnpackBuffer.cpp:537) UnpackBuffer::decompressBuffer - failed to inflate, status: %d
+0001dfdd vkCmdBindPipeline
+0001dfef vkCmdEndRenderPass
+0001e002 vkGetPhysicalDeviceQueueFamilyProperties
+0001e031  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdBlitImage'
+0001e075 VK_ANDROID_external_memory_android_hardware_buffer
+0001e0a8 VK_ERROR_INVALID_EXTERNAL_HANDLE
+0001e0c9 VK_ERROR_OUT_OF_DATE_KHR
+0001e0e2 condition_variable timed_wait failed
+0001e109 thread-local wrapper routine for 
+0001e12b operator()
+0001e136 libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+0001e17e DW_EH_PE_textrel pointer encoding not supported
+0001e1ae DWARF opcode not implemented
+0001e1d6 (I)I
+0001e1db (I)V
+0001e1e0 Player_SetVolume
+0001e1f1 Player_AddMediaToCache
+0001e20f  (OpenGLESPlayerRenderer.cpp:318) OpenGLESPlayerRenderer::setupEglContext - eglVersion: %s
+0001e26a glBindRenderbufferOES
+0001e280 glBindAttribLocationAPPLE
+0001e29a glBlitFramebufferANGLE
+0001e2b1 glBufferSubDataANGLE
+0001e2c6 glDeleteRenderbuffersOES
+0001e2df glDisableOES
+0001e2ec glGenFramebuffersANGLE
+0001e303 glGenRenderbuffersOES
+0001e319 glGetAttribLocation
+0001e32d glGetStringANGLE
+0001e33e glIsEnabledANGLE
+0001e34f glIsFramebufferOES
+0001e362 glMapBufferRangeANGLE
+0001e378 glShaderSourceANGLE
+0001e38c glUniform1iOES
+0001e39b glUniformMatrix2fvAPPLE
+0001e3b3 glUniformMatrix3fvAPPLE
+0001e3cb glViewport
+0001e3d6 EGL_BAD_CURRENT_SURFACE
+0001e3f1  (AHardwareBufferPlayerSurface.cpp:65) AHardwareBufferPlayerSurface::AHardwareBufferPlayerSurface - failed to create image reader, error: %d - %s
+0001e483 xfrm
+0001e488 OpenGLESShaders::addProgram - failed to find shader
+0001e4bc vkCmdPushConstants
+0001e4cf vkCreateDescriptorPool
+0001e4e6 vkCreateDescriptorSetLayout
+0001e502 vkCreateImage
+0001e510 vkGetDeviceQueue
+0001e521 vkMapMemory
+0001e533  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetPhysicalDeviceImageFormatProperties2'
+0001e592 AVProVideo::Player%u::RenderBuffer%i::DstImage
+0001e5c1 Unknown error %d
+0001e5d2 __cxa_guard_acquire
+0001e5e6 noexcept 
+0001e5f0 operator delete
+0001e600  at offset 
+0001e60c allocator
+0001e616 unsigned int
+0001e623 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+0001e682 java/lang/ClassLoader
+0001e698 Player_SetHeadRotation
+0001e6b2  (UnityPlugin.cpp:64) OnUnityGfxDeviceEventInitialize - Failed to initialise OpenGLES renderer, error: %d
+0001e71c EGL_KHR_no_config_context
+0001e736 vector
+0001e73d glActiveTexture
+0001e74d glCompileShader
+0001e75d glDeleteTextures
+0001e76e glDisableANGLE
+0001e77d glGenerateMipmapOES
+0001e791 glUnmapBufferANGLE
+0001e7a4 EGL_BAD_DISPLAY
+0001e7b4 EGL_BAD_MATCH
+0001e7c5  (OpenGLESPlayer.cpp:192) OpenGLESPlayer::shutdown - glClientWaitSync wait failed
+0001e817 AMEDIA_DRM_ERROR_BASE
+0001e82d vkCreateRenderPass
+0001e846  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkAllocateCommandBuffers'
+0001e89a  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBindBufferMemory2'
+0001e8e9  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroySemaphore'
+0001e937  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkFlushMappedMemoryRanges'
+0001e989  (VulkanAPI.cpp:255) vk::CreateInstanceHook - failed to get address for vkGetPhysicalDeviceQueueFamilyProperties
+0001e9fa VK_EXT_queue_family_foreign
+0001ea16 RGBA8_sRGB
+0001ea21 Wednesday
+0001ea33 'block-literal'
+0001ea43 basic_iostream
+0001ea5c unknown register
+0001ea6d nativeDestroy : freeing BipBuffer for player index %d
+0001eaa3 (I[BI)V
+0001eaae  (UnityPlugin.cpp:234) UnityPluginLoad - Failed to intercept vulkan initialisation
+0001eb01 NVIDIA Tegra
+0001eb0e glBindRenderbufferANGLE
+0001eb26 glBindTextureOES
+0001eb37 glClearOES
+0001eb42 glClientWaitSyncOES
+0001eb56 glDeleteSyncANGLE
+0001eb68 glDrawArraysANGLE
+0001eb7a glEnableVertexAttribArrayOES
+0001eb97 glEnableVertexAttribArrayANGLE
+0001ebb6 glFinishOES
+0001ebc2 glGetFramebufferAttachmentParameterivANGLE
+0001ebed UNKNOWN
+0001ebf7 name
+0001ebff  (UnpackBuffer.cpp:178) VideoCaptureShaders::loadShaders - hash check failed
+0001ec4f  (UnpackBuffer.cpp:279) UnpackBuffer::decryptLibrary - failed to create cryptor instance, error: %d
+0001ecb3 vkCmdSetScissor
+0001ecc9  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBeginCommandBuffer'
+0001ed19  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkBindBufferMemory'
+0001ed67  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdCopyBufferToImage'
+0001edb9  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateDescriptorPool'
+0001ee05 vkSetDebugUtilsObjectNameEXT
+0001ee22 VK_KHR_maintenance1
+0001ee36 VK_KHR_external_memory_fd
+0001ee50 AVProVideo::Shader::%s
+0001ee67 VK_ERROR_UNKNOWN
+0001ee78 VK_ERROR_OUT_OF_POOL_MEMORY
+0001ee94 VK_PIPELINE_COMPILE_REQUIRED_EXT
+0001eeb5 : out of range
+0001eec4 iostream
+0001eecd terminating due to %s exception of type %s: %s
+0001eefc %LaL
+0001ef01 invocation function for block in 
+0001ef23 covariant return thunk to 
+0001ef41 operator%
+0001ef4b signed char
+0001ef57 long long
+0001ef61 decimal64
+0001ef6b half
+0001ef70 DW_EH_PE_datarel is invalid with a datarelBase of 0
+0001efa4 Unknown DWARF encoding for search table.
+0001efd8  (OpenGLESPlayerRenderer.cpp:328) OpenGLESPlayerRenderer::setupEglContext - eglVendor: %s
+0001f032 basic_string
+0001f03f glBindFramebufferANGLE
+0001f056 glBindAttribLocationANGLE
+0001f070 glBindVertexArrayAPPLE
+0001f087 glGetError
+0001f092 glGetShaderInfoLogANGLE
+0001f0aa glLinkProgram
+0001f0b8 glRenderbufferStorageAPPLE
+0001f0d3 EGL_CONTEXT_LOST
+0001f0e4 AMEDIA_ERROR_INVALID_OBJECT
+0001f103  (ShaderLibraryParser.cpp:259) parseShaders - failed to parse shader, error: %s
+0001f153 type
+0001f158 vkBindBufferMemory
+0001f16b vkCreateFramebuffer
+0001f17f vkDestroyImageView
+0001f192 vkDestroyPipeline
+0001f1a4 vkGetImageMemoryRequirements
+0001f1c4  (VulkanAPI.cpp:347) vk::CreateDeviceHook - unexpected vulkan API major version, failing device creation
+0001f22d AVProVideo::Player%u::RenderBuffer%i::DescriptorSet
+0001f261 VK_ERROR_TOO_MANY_OBJECTS
+0001f27b VK_ERROR_INVALID_SHADER_NV
+0001f296 template parameter object for 
+0001f2b5 construction vtable for 
+0001f2ce operator/=
+0001f2d9 operator!
+0001f2e3 operator->*
+0001f2ef , std::allocator<char>
+0001f306 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+0001f35a getClassLoader
+0001f369 UpdateCryptor
+0001f377 ro.build.version.sdk
+0001f38c glBindBuffer
+0001f399 glCreateShaderANGLE
+0001f3ad glDeleteShaderOES
+0001f3bf glFramebufferRenderbufferAPPLE
+0001f3de glGenerateMipmap
+0001f3ef glGetFramebufferAttachmentParameterivOES
+0001f418 glGetProgramInfoLogOES
+0001f42f glGetShaderiv
+0001f43d glReadBufferAPPLE
+0001f44f glTexStorage2DOES
+0001f461 AMEDIA_DRM_DEVICE_REVOKED
+0001f47b  version 
+0001f485 vkCmdBindDescriptorSets
+0001f49d vkDestroyDescriptorSetLayout
+0001f4ba vkEndCommandBuffer
+0001f4d3  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdSetViewport'
+0001f51c  (VulkanAPI.cpp:125) vk::CreateInstanceHook - failed to enumerate extensions, error: %s
+0001f577  (VulkanAPI.cpp:243) vk::CreateInstanceHook - failed to get address for vkEnumerateDeviceExtensionProperties
+0001f5e4 (VulkanShaders.cpp:226) failed to create shader module for shader: 
+0001f62b throw
+0001f634 operator
+0001f63d operator/
+0001f647 operator?
+0001f651 nullptr
+0001f659  typename 
+0001f664 operator"" 
+0001f670 float
+0001f676 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0001f6b6 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+0001f702 KeyDerivationPBKDF
+0001f715 (II)V
+0001f71b Player_GetAudioTrackInfo
+0001f734 (IDD)V
+0001f742  (UnityPlugin.cpp:145) OnUnityGfxDeviceEventInitialize - Using null renderer
+0001f796  (OpenGLESPlayerRenderer.cpp:84) VideoCaptureFactoryOpenGLES::setup - glVersion: %s
+0001f7ea Adreno (TM) 308
+0001f7fa glDetachShader
+0001f809 glFinishANGLE
+0001f817 glGetProgramivAPPLE
+0001f82b glGetUniformLocation
+0001f840 glMapBufferRangeAPPLE
+0001f856 glReadBufferANGLE
+0001f868 glUniformMatrix4fv
+0001f882  (AHardwareBufferPlayerSurface.cpp:57) AHardwareBufferPlayerSurface::AHardwareBufferPlayerSurface - creating surface with %d images
+0001f906 AMEDIA_ERROR_IO
+0001f916 AMEDIA_DRM_RESOURCE_BUSY
+0001f92f OpenGLESShaders::addProgram - failed to add program
+0001f963 expected >
+0001f96e vertex
+0001f975 parseProgram - program missing attribute 'name'
+0001f9a5 vkGetPhysicalDeviceProperties
+0001f9c9  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyFramebuffer'
+0001fa19  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkEndCommandBuffer'
+0001fa67  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkResetCommandBuffer'
+0001fab4  (VulkanAPI.cpp:237) vk::CreateInstanceHook - failed to get address for vkCreateDevice
+0001fb0b AVProVideo::Player%u::Pipeline
+0001fb2a system
+0001fb31 __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+0001fbc4 operator<<=
+0001fbd0 operator%=
+0001fbdb operator 
+0001fbe5 basic_ostream
+0001fbf3  volatile
+0001fbfd  auto
+0001fc03 _Unwind_Resume
+0001fc12 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+0001fc56 CIE ID is not zero
+0001fc69 Player_Seek
+0001fc7c  (OpenGLESPlayerRenderer.cpp:90) VideoCaptureFactoryOpenGLES::setup - glShadingLanguageVersion: %s
+0001fcdf glAttachShaderAPPLE
+0001fcf3 glCheckFramebufferStatusANGLE
+0001fd11 glCompileShaderAPPLE
+0001fd26 EGL_NOT_INITIALIZED
+0001fd3a EGL_BAD_CONTEXT
+0001fd4a vkCreateSamplerYcbcrConversion
+0001fd69 vkCreateShaderModule
+0001fd84  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCreateFramebuffer'
+0001fdd3  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkGetPhysicalDeviceQueueFamilyProperties'
+0001fe37  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkWaitForFences'
+0001fe83  (VulkanAPI.cpp:342) vk::CreateDeviceHook - vulkan device version: %u.%u.%u
+0001fecf VK_KHR_external_memory
+0001fee9  (VulkanAPI.cpp:649) vk::CreateDeviceHook - failed to create device, error: %s
+0001ff38 AVProVideo::Player%u::RenderBuffer%i::SrcImageMemory
+0001ff70 unspecified iostream_category error
+0001ff94 %s failed to broadcast
+0001ffab operator^
+0001ffb5 operator!=
+0001ffc3  restrict
+0001ffcd void
+0001ffd2 unsigned long
+0001ffe0 CIE start does not match
+0001fff9 SHA256
+00020000 DestroyPlayer
+0002000e Player_GetSeekableTimeRanges
+0002002b %d.%d
+00020031 glEnable
+0002003a glEnableVertexAttribArray
+00020054 glGenerateMipmapAPPLE
+0002006a glGenTexturesOES
+0002007b glGetAttribLocationAPPLE
+00020094 glGetProgramivANGLE
+000200a8 glGetShaderivOES
+000200b9 glGetShaderInfoLog
+000200cc glReadPixelsAPPLE
+000200de glUniform2fv
+000200eb glViewportOES
+000200f9 EGL_BAD_SURFACE
+00020109 EGL_BAD_PARAMETER
+0002011b AMEDIA_DRM_LICENSE_EXPIRED
+00020136 The required image buffer could not be locked to read.
+00020173  (OpenGLESPlayerRenderBuffer.cpp:280) OpenGLESPlayerRenderBuffer::createRenderBuffer - framebuffer is incomplete, something up with multisampling
+00020205 u_sampler0
+00020210 Debug
+00020219  (UnpackBuffer.cpp:193) VideoCaptureShaders::loadShaders - not a valid gzip archive
+00020270  (UnpackBuffer.cpp:487) UnpackBuffer::validateGzipHeader - bufLen too small
+000202bc vkCmdDraw
+000202c6 vkCreateImageView
+000202d8 vkGetAndroidHardwareBufferPropertiesANDROID
+0002030a  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkCmdPushConstants'
+00020355  (VulkanAPI.cpp:228) vk::CreateInstanceHook - Failed to create Vulkan instance, error: %s
+000203af vkGetPhysicalDeviceFeatures2
+000203cc VK_ERROR_OUT_OF_HOST_MEMORY
+000203e8 VK_OPERATION_NOT_DEFERRED_KHR
+00020406 libc++abi
+00020410 operator>
+0002041a template<
+00020424 basic_istream
+00020432 pixel vector[
+0002044d _CanPlay
+00020456 Player_GetCurrentTextCueAsByteArray
+0002047a (IDDD)V
+00020482 Player_SetKeyServerAuthToken
+0002049f AVPPlayerAudioCaptureBuffer: 1
+000204be glBindFramebufferOES
+000204d3 glCheckFramebufferStatusOES
+000204ef glDeleteTexturesOES
+00020503 glGenFramebuffersAPPLE
+0002051a glGenVertexArraysANGLE
+00020531 glPixelStoreiOES
+00020542 glPixelStoreiANGLE
+00020555 glReadPixelsOES
+00020565 glUniform1i
+00020571 glUniformMatrix3x2fv
+00020586 EGL_SUCCESS
+00020592 AMEDIA_DRM_SHORT_BUFFER
+000205b0  (OpenGLESPlayerRenderBuffer.cpp:272) OpenGLESPlayerRenderBuffer::createRenderBuffer - framebuffer is incomplete, missing attachment
+00020635 shader specialisation constant id must be >= 0
+0002066a  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkDestroyDescriptorSetLayout'
+000206c2  (VulkanAPI.cpp:41) Failed to bind Vulkan function 'vkUnmapMemory'
+00020705 VK_KHR_external_memory_capabilities
+00020729 VK_ERROR_OUT_OF_DEVICE_MEMORY
+00020747 VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS
+0002076f VK_RESULT_MAX_ENUM
+00020782 libc++abi: 
+0002078e virtual thunk to 
+000207a0 operator new
+000207ad operator||
+000207b8 operator+
+000207c2 typeid 
+000207cc  requires 
+000207d7 this
+000207dc char16_t
+000207e5 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+0002082a getEncodedP
+00020836 DW_OP_fbreg not implemented
+0002085e (III)Z
+00020865 Player_GetVideoTrackVariantsInfo
+00020886 glAttachShaderANGLE
+0002089a glClearColorANGLE
+000208ac glCreateShaderOES
+000208be glDeleteBuffersOES
+000208d1 glGetIntegervOES
+000208e2 glTexImage2DANGLE
+000208f4 glTexParameteriOES
+00020907 glUniformMatrix4fvAPPLE
+0002091f EGL_BAD_NATIVE_WINDOW
+00020935 AMEDIA_IMGREADER_MAX_IMAGES_ACQUIRED
+0002095a -debug
+00020964  (ShaderLibraryParser.cpp:406) VideoCaptureShaders::parseLibrary - failed to parse library, error: %s
+000209ca  has no source
+000209dc  (UnpackBuffer.cpp:518) UnpackBuffer::decompressBuffer - failed to init z stream, status: %d
+00020a39 vkGetPhysicalDeviceFormatProperties
+00020a60  (VulkanAPI.cpp:102) vk::CreateInstanceHook - failed to get address for vkEnumerateInstanceExtensionProperties
+00020ad2  (VulkanAPI.cpp:249) vk::CreateInstanceHook - failed to get address for vkGetPhysicalDeviceProperties
+00020b38 AVProVideo::Player%u::RenderBuffer%i::SrcImageView
+00020b6b generic
+00020b73 money_get error
+00020b83 terminating
+00020b8f out/llvm-project/libcxxabi/src/cxa_demangle.cpp
+00020bbf reference temporary for 
+00020bd8 operator^=
+00020be3 operator-=
+00020bee operator->
+00020bf9 struct
+00020c00 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+00020c4a 13IVulkanBridge
+00020c5a 18IVulkanBridgeUnity
+00020c6f NSt6__ndk120__shared_ptr_emplaceI17VulkanBridgeUnityI20IUnityGraphicsVulkanENS_9allocatorIS3_EEEE
+00020cd1 17VulkanBridgeUnityI20IUnityGraphicsVulkanE
+00020cfd NSt6__ndk120__shared_ptr_emplaceI17VulkanBridgeUnityI22IUnityGraphicsVulkanV2ENS_9allocatorIS3_EEEE
+00020d61 17VulkanBridgeUnityI22IUnityGraphicsVulkanV2E
+00020d8f 15IPlayerRenderer
+00020da1 18NullPlayerRenderer
+00020db6 NSt6__ndk120__shared_ptr_pointerIP18NullPlayerRendererNS_10shared_ptrI15IPlayerRendererE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+00020e4a NSt6__ndk110shared_ptrI15IPlayerRendererE27__shared_ptr_default_deleteIS1_18NullPlayerRendererEE
+00020ef0 22OpenGLESPlayerRenderer
+00020f09 NSt6__ndk120__shared_ptr_pointerIP22OpenGLESPlayerRendererNS_10shared_ptrI15IPlayerRendererE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+00020fa1 NSt6__ndk110shared_ptrI15IPlayerRendererE27__shared_ptr_default_deleteIS1_22OpenGLESPlayerRendererEE
+00021006 NSt6__ndk120__shared_ptr_emplaceI15OpenGLESShadersNS_9allocatorIS1_EEEE
+0002104e N7Shaders7ProgramE
+00021061 N15OpenGLESShaders7ProgramE
+0002107d NSt6__ndk120__shared_ptr_emplaceI21OpenGLESShaderProgramNS_9allocatorIS1_EEEE
+00021108 14OpenGLESPlayer
+00021119 7IPlayer
+00021122 NSt6__ndk120__shared_ptr_pointerIP14OpenGLESPlayerNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+000211a4 NSt6__ndk110shared_ptrI14OpenGLESPlayerE27__shared_ptr_default_deleteIS1_S1_EE
+000211f3 NSt6__ndk120__shared_ptr_emplaceI28AHardwareBufferPlayerSurfaceNS_9allocatorIS1_EEEE
+00021248 NSt6__ndk120__shared_ptr_emplaceI26OpenGLESPlayerRenderBufferNS_9allocatorIS1_EEEE
+0002129b 15OpenGLESShaders
+000212ad 7Shaders
+000212b6 28IShaderLibraryParserDelegate
+000212d5 NSt6__ndk120__shared_ptr_emplaceIN15OpenGLESShaders6ShaderENS_9allocatorIS2_EEEE
+00021326 N15OpenGLESShaders6ShaderE
+00021341 N7Shaders6ShaderE
+00021353 NSt6__ndk120__shared_ptr_emplaceIN15OpenGLESShaders7ProgramENS_9allocatorIS2_EEEE
+000213a5 N8rapidxml11parse_errorE
+000213c8 NSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00021718 St8__nestedISt13runtime_errorE
+00021738 VK_EXT_debug_utils
+000217a0 20VulkanPlayerRenderer
+000217b7 NSt6__ndk120__shared_ptr_emplaceI20VulkanPlayerRendererNS_9allocatorIS1_EEEE
+00021804 NSt6__ndk120__shared_ptr_emplaceI13VulkanShadersNS_9allocatorIS1_EEEE
+0002184a 12VulkanPlayer
+00021859 NSt6__ndk120__shared_ptr_pointerIP12VulkanPlayerNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE
+000218d9 NSt6__ndk110shared_ptrI12VulkanPlayerE27__shared_ptr_default_deleteIS1_S1_EE
+00021926 NSt6__ndk120__shared_ptr_emplaceI19VulkanPlayerSurfaceNS_9allocatorIS1_EEEE
+00021a50 NSt6__ndk120__shared_ptr_emplaceI24VulkanPlayerRenderBufferNS_9allocatorIS1_EEEE
+00021ad8 N13VulkanShaders6ShaderE
+00021af1 13VulkanShaders
+00021b01 NSt6__ndk120__shared_ptr_emplaceIN13VulkanShaders6ShaderENS_9allocatorIS2_EEEE
+00021b63 St12bad_any_cast
+00021b77 St16nested_exception
+00021b8d NSt6__ndk114__shared_countE
+00021ba9 NSt6__ndk119__shared_weak_countE
+00021bcd NSt6__ndk112__do_messageE
+00021be7 NSt6__ndk112system_errorE
+00021c01 NSt6__ndk124__generic_error_categoryE
+00021c27 NSt6__ndk123__system_error_categoryE
+00021c4d NSt6__ndk114error_categoryE
+00021c70 NSt6__ndk18ios_baseE
+00021c85 NSt6__ndk18ios_base7failureE
+00021ca2 NSt6__ndk119__iostream_categoryE
+00021cc5 NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+00021cf7 NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+00021d24 NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+00021d56 NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00021d9b NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+00021dcf NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+00021e02 NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00021fa0 0123456789abcdefABCDEFxX+-pPiInN
+00021fc1 %I:%M:%S %p%
+00022b34 NSt6__ndk16locale5facetE
+00022b4d NSt6__ndk15ctypeIwEE
+00022b62 NSt6__ndk110ctype_baseE
+00022b7a NSt6__ndk17codecvtIcc9mbstate_tEE
+00022b9c NSt6__ndk112codecvt_baseE
+00022bb6 NSt6__ndk17codecvtIDsc9mbstate_tEE
+00022bd9 NSt6__ndk17codecvtIDsDu9mbstate_tEE
+00022bfd NSt6__ndk17codecvtIDic9mbstate_tEE
+00022c20 NSt6__ndk17codecvtIDiDu9mbstate_tEE
+00022c44 NSt6__ndk17codecvtIwc9mbstate_tEE
+00022c66 NSt6__ndk16locale5__impE
+00022c7f NSt6__ndk17collateIcEE
+00022c96 NSt6__ndk17collateIwEE
+00022cad NSt6__ndk15ctypeIcEE
+00022cc2 NSt6__ndk18numpunctIcEE
+00022cda NSt6__ndk18numpunctIwEE
+00022cf2 NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00022d39 NSt6__ndk19__num_getIcEE
+00022d52 NSt6__ndk114__num_get_baseE
+00022d6e NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00022db5 NSt6__ndk19__num_getIwEE
+00022dce NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00022e15 NSt6__ndk19__num_putIcEE
+00022e2e NSt6__ndk114__num_put_baseE
+00022e4a NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00022e91 NSt6__ndk19__num_putIwEE
+00022eaa NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00022ef2 NSt6__ndk19time_baseE
+00022f08 NSt6__ndk120__time_get_c_storageIcEE
+00022f2d NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00022f75 NSt6__ndk120__time_get_c_storageIwEE
+00022f9a NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00022fe2 NSt6__ndk110__time_putE
+00022ffa NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00023042 NSt6__ndk110moneypunctIcLb0EEE
+00023061 NSt6__ndk110money_baseE
+00023079 NSt6__ndk110moneypunctIcLb1EEE
+00023098 NSt6__ndk110moneypunctIwLb0EEE
+000230b7 NSt6__ndk110moneypunctIwLb1EEE
+000230d6 NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0002311f NSt6__ndk111__money_getIcEE
+0002313b NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00023184 NSt6__ndk111__money_getIwEE
+000231a0 NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+000231e9 NSt6__ndk111__money_putIcEE
+00023205 NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0002324e NSt6__ndk111__money_putIwEE
+0002326a NSt6__ndk18messagesIcEE
+00023282 NSt6__ndk113messages_baseE
+0002329d NSt6__ndk18messagesIwEE
+000232bb St9exception
+000232c8 St20bad_array_new_length
+000232e1 St9bad_alloc
+000232ef St11logic_error
+000232ff St16invalid_argument
+00023314 St12length_error
+00023325 St12out_of_range
+00023336 St13runtime_error
+00023349 St9type_info
+00023356 St8bad_cast
+00023364 N10__cxxabiv116__shim_type_infoE
+00023385 N10__cxxabiv117__class_type_infoE
+000233a7 N10__cxxabiv123__fundamental_type_infoE
+000233d5 N10__cxxabiv120__si_class_type_infoE
+000233fa N10__cxxabiv121__vmi_class_type_infoE
+00023590 N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+000235c0 N12_GLOBAL__N_116itanium_demangle4NodeE
+000235e8 N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+00023622 N12_GLOBAL__N_116itanium_demangle8NameTypeE
+0002364e N12_GLOBAL__N_116itanium_demangle10ModuleNameE
+0002367d N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+000236ba N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+000236e9 N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+00023718 N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+00023748 N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+0002377f N12_GLOBAL__N_116itanium_demangle10MemberExprE
+000237ae N12_GLOBAL__N_116itanium_demangle7NewExprE
+000237d9 N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+00023808 N12_GLOBAL__N_116itanium_demangle8CallExprE
+00023834 N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+00023867 N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+0002389b N12_GLOBAL__N_116itanium_demangle8CastExprE
+000238c7 N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+000238f9 N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+0002392c N12_GLOBAL__N_116itanium_demangle8BoolExprE
+00023958 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+00023990 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+000239c8 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+00023a00 N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+00023a32 N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+00023a66 N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+00023aa5 N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+00023adf N12_GLOBAL__N_116itanium_demangle32ConstrainedTypeTemplateParamDeclE
+00023b24 N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+00023b61 N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+00023b9f N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+00023bd9 N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+00023c0d N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+00023c3c N12_GLOBAL__N_116itanium_demangle11EnumLiteralE
+00023c6c N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+00023c9e N12_GLOBAL__N_116itanium_demangle8FoldExprE
+00023cca N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+00023d05 N12_GLOBAL__N_116itanium_demangle10BracedExprE
+00023d34 N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+00023d68 N12_GLOBAL__N_116itanium_demangle12InitListExprE
+00023d99 N12_GLOBAL__N_116itanium_demangle29PointerToMemberConversionExprE
+00023ddb N12_GLOBAL__N_116itanium_demangle15ExprRequirementE
+00023e0f N12_GLOBAL__N_116itanium_demangle15TypeRequirementE
+00023e43 N12_GLOBAL__N_116itanium_demangle17NestedRequirementE
+00023e79 N12_GLOBAL__N_116itanium_demangle12RequiresExprE
+00023eaa N12_GLOBAL__N_116itanium_demangle13SubobjectExprE
+00023edc N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+00023f14 N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+00023f46 N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+00023f73 N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+00023fa5 N12_GLOBAL__N_116itanium_demangle8DtorNameE
+00023fd1 N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+0002400c N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+00024040 N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+00024078 N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+000240b0 N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+000240f0 N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+0002411f N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+00024159 N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+0002418a N12_GLOBAL__N_116itanium_demangle12ModuleEntityE
+000241bb N12_GLOBAL__N_116itanium_demangle20MemberLikeFriendNameE
+000241f4 N12_GLOBAL__N_116itanium_demangle10NestedNameE
+00024223 N12_GLOBAL__N_116itanium_demangle9LocalNameE
+00024250 N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+00024282 N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+000242b3 N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+000242ec N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+00024325 N12_GLOBAL__N_116itanium_demangle25TemplateParamQualifiedArgE
+00024363 N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+00024394 N12_GLOBAL__N_116itanium_demangle23ExplicitObjectParameterE
+000243d0 N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+00024405 N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+00024432 N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+00024463 N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+0002449c N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+000244cd N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+000244ff N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+00024535 N12_GLOBAL__N_116itanium_demangle8QualTypeE
+00024561 N12_GLOBAL__N_116itanium_demangle15TransformedTypeE
+00024595 N12_GLOBAL__N_116itanium_demangle12BinaryFPTypeE
+000245c6 N12_GLOBAL__N_116itanium_demangle10BitIntTypeE
+000245f5 N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+0002462e N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+00024662 N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+00024691 N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+000246be N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+000246f6 N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+00024731 N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+00024761 N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+0003405d zPLR
+0003a973 T	!@
+0003b293 TK!@
+0003be34 k2H)
+0003be42 E)e*C)
+0003be54 n>I)$	
+0003be67 SpR@
+0003c0eb T`#@
+0003c6ef T`#@
+0003c7d7 *h#@
+0003cb53 TK!@
+0003cd8b T@#@
+0003d61f T #@
+0003e3a3 T #@
+0003e5af T #@
+0003e7a3 T #@
+0003eac7 T@#@
+0003f357 rH@`
+0003f79f r(@ 
+0003fd54 La@9_
+0003fd8c -`@9
+0003fdc9 a@9L
+0003fe4c Ka@9k
+0003fe5c la@9,
+0003fe73 THa@9
+0003fecc ja@9J
+0003fedc La@9,
+0003feeb 9Ha@9
+0003ff24 ia@9I
+0003ff7d a@9	
+0003ffc8 ia@9i
+00040025 a@9	
+000400d7 T*!@
+0004023f T	!@
+0004036b TK!@
+000404db TK!@
+000405ab TK!@
+00040684 (a@9(
+0004068b 7(	@
+00040e6a @9	 @
+00040eb1 `@9	
+000414cf r?1@k
+00041e81 i)8h
+00042509 c@9H
+000437d5 j58	
+00043b97 T)#@
+00044057 T	!@
+000441a0 h"A9
+0004457f Tl!@
+00044627 Tl @
+000446e3 Tl!@
+000470b8 h2F9
+00047263 9h2F9
+000474cc j~F9
+000474d8 ivF9
+000478cf =hJ@
+00047c4c hrF9h
+00047f73 =h2@
+00048187 =hJ@
+0004829f =h2@
+0004911b TuZ@
+00049c37 TuZ@
+0004a81f 4h"@
+0004a947 <*ij
+0004b1b7 TuZ@
+0004b7da 	k@	
+0004bca7 6`6@
+0004bdc2 	*Jo
+0004bf50 ?k78i
+0004c17b n!X n!(a
+0004c67b 4aJ@
+0004c857 qaR@
+0004cc81 	@y?
+0004d319 c@9	
+0004d355 	@yJ
+0004e131 @@9(
+0004e137 4t"@
+0004e6e1 @@9(
+0004e6e7 4t"@
+0004e94b 6`"@
+0004e954 hb@9h
+0004ed29 c@9h
+0004ed73 6`"@
+0004eda9 c@9h
+0004ee41 c@9h
+0004ee77 <s2F
+0004f077 T		@9?
+0004f0bf K		@
+0004f13f T*	@9_
+0004f22a @y)	@9_
+0004f293 TK	@9
+0004f360 ?k78
+0004f38e @y)	@9_
+0004f434 ?k78
+0004f4c0 ?k78
+0004f54d 	@y?
+0004f770 ?k78
+0004f7e4 ?k78
+0004f86c ?k78
+0004fa11 #A9H
+0004fabd CB9(
+0005091b K		@
+00050b96  6i"@
+00050bc2 A9i&@
+00050c91 	@9J
+00050cbc jij8
+00050d13 T		@9?
+00050d3a @9?Q
+00050d52 @9?m
+00050dc0 		@9?=
+00050dda @9?Q
+00050de6 @9?e
+00050df2 @9?A
+00050e07 T	!@9
+00050e14 Iii8)
+00050e30 		@9?
+00050e67 T		@9?
+00050eef KJ	@
+00050f4b K	@@
+00050f90 +ih8
+00050f98 Kik8
+00050fce @8*ij8
+000510da _8?u
+000510e6 @9?u
+00051103 KJ	@
+0005115f K	@@
+0005120a @9?m
+00051252 @9_m
+000512f5 jh8h
+00051347 KJ	@
+000513a3 K)	@
+000513fe @8Lkj8
+00051430 Kkk8
+000514ae @8Hkh8
+00051602 @8)ki8
+0005173f KJ	@
+0005179b K	@@
+00051973 7		@
+00051beb 7		@
+00051c24 ( @9
+00051e2c ( @9
+00051e4c ( @9H 
+00052057 T*	@9_
+000520e3 T		@9?
+0005214b T		@9?
+00052212 E9hM
+000523d6 @9*m
+000523f5 CC9L
+0005251b T*	@9_
+00052563 T*!@9_
+0005256f T*%@9_
+0005257b T*)@9_
+00052587 T)-@9?
+00052677 T*	@9_
+0005271f T*	@9_
+000527cc ?k<8
+00052857 T*	@9_
+0005289f T*!@9_
+000528ab T*%@9_
+000528b7 T*)@9_
+000528c3 T*-@9_
+000528cf T*1@9_
+000528db T)5@9?
+00052955 CD9h
+0005296d #E9h
+000529c7 T		@9?
+00052a5c ?k<8`
+00052aa7 T		@9?
+00052e05 #F9h
+00052e6b T		@9?
+00052ef4 	a@9
+00052f6e 	kA	
+00052f95 	@9?
+0005316d #F9h
+00053215 CC9(
+00053249 #F9h
+0005330d #F9H
+0005334f r(	@
+0005344d CD9h
+00053465 #E9h
+000534e3 K		@
+0005356a E9H/
+000535b3 T		@9?
+000535fb T	!@9?
+00053607 T	%@9?
+00053613 T	)@9?
+00053649 #E9h
+0005368b T		@9?
+000536ff T		@9?
+000538a7 T		@9?
+00053a11 #F9(
+00053fb5 j48)
+000540d1 #@9i
+000541b3 T		@9?
+00054249 #@9h
+0005426b 7s.@
+000542af T		@9?
+00054321 #@9h
+00054cfd c@9h
+00054f0e @9)=
+00054f1a @9)!
+00054f2f JI!	*
+00054f49 s^8_
+00054f9d #^8I
+00054fa9 3^8)=
+00054fb9 *@9)!
+00054fcf JF!	*
+0005505d !	*i
+0005514d j38`
+0005545e @9	(
+000560c1 S@9`
+00057de4 _k88
+00058d5b o		@
+00058e84 _k88
+0005922c _k98
+0005b29d j48hB
+0005b599 `@9H
+0005b6fd A[9(
+0005c387 T	!@
+0005c4eb =HWB
+0005c52b =HWB
+0005c5d3 =HWB
+0005cd1f Tl!@
+0005cdc7 Tl @
+0005ce83 Tl!@
+0005d5e3 4hN@
+0005d64b ThB@
+0005d908 hRC9
+0005d944 hRC9
+0005e157 TuZ@
+0005ece3 4h&B
+0005ef64 hvG9i
+0005f5ef RH_C
+0005f788 HC@9
+0005fc39 #<)(
+0006011b =hZ@
+000603ff 5hrG9(
+0006041b =h*@
+00060488 hrG9
+000604a3 =h*@
+000604f3 =h*@
+0006062b =h*@
+00060867 Tt"O
+0006142b TuZ@
+00061bb5 cA9(
+00061c27 =I	@
+000623ff =h2@
+00062547 RhBH
+0006255b =)EA
+0006268b 4HWB
+00062c1b Ri&@
+00062cab Ri*@
+00062de7 =5Q@
+00062f73 n!X n!(a
+00063127 Ry.@
+0006325f Ri2@
+00063317 Ri6@
+0006345b Ri:@
+000636a4 hB@9
+00063862 @8mm
+00063b8d 	@y?
+000646fd `@9H
+00064b4d @@9(
+00064b53 4t"@
+00064cec +ih8J	
+00066f6d #@9h
+00067085 c@9h
+0006740c ( @9h
+0006777b TuZ@
+000688f0 ?i(8
+00068b8f 6`*@
+00068c15 `A9)A
+00068c27 6`6@
+00068c9d  A9)A
+00068caf 6`.@
+00068d29  A9)A
+00068e48 ibA9h*
+00068e53 6`6@
+000691d0 h @9
+00069a7d i)8I
+00069ad8 ?i(8
+00069eb9 i)8I
+00069f14 ?i(8
+0006a2f5 i)8I
+0006a350 ?i(8
+0006a731 i)8I
+0006a78c ?i(8
+0006ab6d i)8I
+0006abc8 ?i(8
+0006afa9 i)8I
+0006b004 ?i(8
+0006b3b5 i)8)
+0006b414 ?i(8
+0006b7cd i)8)
+0006b82c ?i(8
+0006bbe5 i)8)
+0006bc44 ?i(8
+0006c0b4 ?i(8
+0006c1e8 ?i(8
+0006c279 C@9h
+0006c379 C@9h
+0006c410 ib@9?
+0006c464 if@9?
+0006c4d4 hih8
+0006c540 hih8I
+0006c620 h @9
+0006cecd i)8I
+0006cf28 ?i(8
+0006d2fd i)8I
+0006d358 ?i(8
+0006d72d i)8I
+0006d788 ?i(8
+0006db5d i)8I
+0006dbb8 ?i(8
+0006df8d i)8I
+0006dfe8 ?i(8
+0006e3bd i)8I
+0006e418 ?i(8
+0006e7c1 i)8)
+0006e820 ?i(8
+0006ebcd i)8)
+0006ec2c ?i(8
+0006efd9 i)8)
+0006f038 ?i(8
+0006f49c ?i(8
+0006f5cc ?i(8
+0006f5f3 6a^D
+0006f6a5 C@9h
+0006f759 C@9h
+0006f8b0 hih8
+0006f91d ih8I
+000701b4 (ij8
+00070458 H @9
+00070662 X6J	
+000708ae X6J	
+00071b1c H @9
+00071d26 X6J	
+00071f72 X6J	
+0007325b r(1@
+00073584 Jih8
+00073598 )ih8
+00073989 jv8h
+00073a94 Jih8
+00073aa8 )ih8
+00073f78 Jih8j
+00073f8c )ih8
+00074379 jv8h
+00074490 Jih8j
+000744a4 )ih8
+0007487f *)%@
+000748bb *)%@
+00075140 +yhxJ	
+000755da @9	`@9
+00075f8b *(5@
+00075fc7 *(5@
+0007686c +yhxJ	
+00076cf6 @9	`@9
+00077b98 iki8	
+0007824d _D9_
+00078cd8 )iw8
+00078d79 CB9h
+00078d91 cC9(
+00078dd1 cC9(
+00078eb5 CB9h
+00078ecd cC9(
+00078f0d cC9(
+00079069 c@9(
+00079a3c hkh8
+00079e27 6(kt8
+0007a225 CB9i
+0007aae1 CB9)
+0007ac7a @9)	@
+0007acc9 CB9h
+0007add1 CB9(
+0007ade1 CB9h
+0007ae81 cC9H
+0007b4bb T*E@
+0007b7e7 6a^D
+0007c2c1 ii8_
+0007c763 6a^D
+0007c9f5 CH9h
+0007caf5 CH9h
+0007d037 NKm}
+0007d148 )ih8
+0007d1a8 *ih8_
+0007f887 T	yi
+0007f8cb T	yi
+0007f907 T	yi
+0007ff48 	`@9
+00080fa7 9+}F
+00081037 T+}F
+00081067 T+}L
+000810a3 TK-@xl
+000810c6 	*m%@
+00081154 ?9@q
+000815a5 	@9_
+000815ed 	@9_
+00081683 TJ	n
+00081a0b T		@9?
+00081d39 	@9_
+00081d75 	@9_
+000820c0 	`@9
+0008213c 	`@9
+000821ef =)	@
+0008221f =)	@
+00082528 (Ap9
+0008260c (aq9
+0008287b 6`nE
+00082c88 (Az9
+0008330f 6`~E
+00083ab0 )aM9
+00084527 Th"D9
+000849c5 !L9H
+000849e5 aM9(
+00084ac3 6#_D
+00084beb 6#_D
+00084d2f 6C_D
+00084e87 6C_D
+00084fdb 6C_D
+00085123 6C_D
+0008529b R @ 
+000853b3 R @`
+00086158  	Az@	Az
+0008638b Ti>A9
+00086474 i>A9
+000864e4 h:A9
+000865af ThF@
+0008665f 7i>@
+0008669f Th:A9
+000866cb Th6@
+000866f5 B@9h
+0008674c h:A9
+00086753 7h6A9H
+0008675b 4h2A9
+00086763 4h2@
+00086771 B@9H	
+000867bb Th:A9(
+000867c3 7h>@
+000867cf Th2@
+0008681f Th:A9
+00086827 7h>@
+00086883 Th2@
+0008695f ThF@
+00086998 h6A9
+0008699f 4h2A9i
+00086a0f Th6@
+00086a57 Th2@
+00086b2a G)t:
+00086b43 Th2@
+00086b6f Th6@
+00086c2b Th>@
+00086c4b Tz2A9|6A9
+00086c9c h2A9i6A9?
+00086cf0 h2A9i6A9j
+00086d0f Tj:A9
+00086d1f Th2@
+00086dab ThJ@
+00086e7b T(<@
+00086ef7 T(H@
+00086fcb T(<@
+0008700f T(H@
+000871c2 Iz@	
+0008742e @9_}
+0008758d h(8t
+0008777e @9_I
+00087843 TkNA
+000878c6 @9?%
+00087a8e @9?}
+00087d29 cA9x
+00087e7b Tu*L9(
+00088309 ik8k
+00088688 h"L9H1
+0008868f 4h&@
+000888da @9?}
+00088c26 @9?%
+000891d1 c@9?%
+000891df 4i"L9	
+0008923a @9?}
+0008927e @9?}
+00089476 @9?}
+000895d6 @9?}
+0008966b <!LA
+00089865 #@9H,
+0008986b 7w"S
+00089956 @9_=
+0008999a @9_I
+00089bb6 @xi 
+00089c36 @9?5
+00089d32 @9?}
+00089f42 @9?i
+0008a076 @9?Q
+0008a352 @x	 
+0008a6d3 Th&@
+0008b14e @xh[
+0008b192 @9_]
+0008b1ae @9?A
+0008b443 =I	@
+0008b4db r	h(
+0008b7ee @x	 
+0008bb9e @9_%
+0008bbbb 6`NA
+0008bd0d #@9I#
+0008be3b xz&A
+0008be4b T`"A
+0008bf12 @9_E
+0008bf1b Tu*L9
+0008bff2 @x	 
+0008c10e @9?Q
+0008c12a @9?1
+0008c1a2 _8_}
+0008c1ce @9_}
+0008c2f1 $L9H
+0008c356 @xv~
+0008c3d3 TJyi
+0008c3eb TSyv
+0008c4f2 @9?Q
+0008c602 @9?M
+0008c73a @9_}
+0008c75f TSyh
+0008c93e @9_1
+0008c9d8 j"@9_
+0008cee2 @x	 
+0008d0c7 9	%@9*
+0008d14b 9	)@9)
+0008d1d2 @x)-
+0008d604 +yhxJ	
+0008d67a @x	 
+0008d7c6 	k -
+0008d843 6h&@
+0008d95c t"L9
+0008d992 @9?}
+0008dabe @x	 
+0008dde7 6i"A
+0008defe @x	 
+0008df77 6h&@
+0008e5aa @x	 
+0008e8ae @y	 
+0008ecae @y	 
+0008eedf T(	@9
+0008ef87 T(!@9
+0008efa7 T(%@9
+0008f1bb T(	@9
+0008f21a @yj	@9K
+0008f22e Hz@!
+0008f2c8 ljk8
+0008f2d9 )Fz"
+0008f397 T(	@9
+0008f43f T(!@9
+0008f45f T(%@9
+0008f47b T()@9
+0008f497 T(-@9
+0008f4b3 T(1@9
+0008f4cf T(5@9
+0008f4eb T(9@9
+0008f507 T(=@9
+0008f523 T(A@9
+0008f53f T(E@9
+0008f6ae @yK	@9
+0008f77e @9_Y
+0008f79a @9_-
+0008f7fe @9_Y
+0008f81a @9_-
+0008f91e @9?}
+0008f9ee @9?}
+0008fa6e @9?a
+0008fb02 @x	 
+0008fbb2 @x	 
+0008fc62 @x	 
+0008fd06 @x	 
+0008fe62 @x*!
+0008ff1a @y	 
+0008ff9e @yK.
+0008ffb2 @yK.
+0009003e @9?}
+000900e3 Tj&A
+0009011a @9?a
+0009014a @9_9
+0009016e @9?Q
+000901ea @9?I
+0009027e @9?E
+0009058a @9_}
+0009094a @x	,
+00090c61 	@9lN
+00090c7a @ykN
+00090e7f xh&@
+000911ce @x	 
+00091306 @y	 
+000914cf R	h(8
+00091533 R	h(8h
+0009160b R	h(8
+0009161d !8k(
+0009175f R	h(8
+000917b7 R	h(8
+00091833 R	h(8
+000918e2 @y	 
+00091ae3 R	h(8
+00091c6b R	h(8
+00091e47 R	h(8h
+00091e9b R	h(8
+00091fcb R	h(8h
+0009201f R	h(8
+000921b3 R	h(8
+00092357 R	h(8
+000923ef R	h(xh
+0009249b R	h(xh
+00092508 	h(8
+00092563 R	h(8h
+000925a7 R	h(8
+00092650 	h(8
+000926ab R	h(8
+0009292c 	`@9(
+0009297b R	h(xh
+000929e1 f@9(
+00092a2b R	h(xh
+00092a84 	h(8
+00092b9c 	h(8
+00092bf7 R	h(8
+00092c90 	h(8
+00092d1b R	h(8h
+00092d74 	h(8
+00092dcf R	h(8
+00092f4f R	h(8h
+000930d7 R	h(8h
+0009326b R	h(8
+0009336f R	h(8h
+000933cf R	h(8
+00093427 R	h(8
+00093557 R	h(8h
+000935ab R	h(8
+000936c4 	h(8
+0009374f R	h(8
+00093e6a @9_Q
+00093f4e @9_E
+00093f57 Tu*L9
+0009407e @9_E
+00094087 Tu*L9(
+0009440f R	h(8
+000944c7 R	h(8
+00094527 R	h(8
+00094772 @9n	@9o
+00094926 @=		
+00094bee !NaT
+00094dab R	h(xh
+000955c2 @9_E
+000955cb Tv*L9
+00095682 @x	 
+000959bb R	h(8h
+00095b75 i)xH
+00095e47 R	h(8h
+00095f09 $@9	
+00095f73 R	h(8h
+00096427 R	h(8
+000964cf R	h(8h
+00096527 R	h(8h
+0009661f R	h(8h
+00096684 	h(8
+000966df R	h(8
+00096830 	 @9
+0009693c 	h(8
+000969c7 R	h(8
+00096a1f R	h(8
+00096b6e @x	 
+00096c05 i)xh
+00096d07 R	h(8
+00096d88 	h(8
+00096e58 	h(8H
+00096ed7 R	h(8h
+00096f17 R	h(8h
+00096fc3 R	h(8h
+00097077 R	h(8h
+00097123 R	h(8i
+0009713b 4l"@
+00097190 	h(8H
+00097213 Tl"@
+00097268 	h(8
+000972ef R	h(8h
+00097343 R	h(8
+00097444 6\C)
+000974f1 h(xh
+00097648 	h(8
+000976c7 R	h(8
+00097708 	h(8
+000979ab R	h(8
+00097b38 	h(8
+00097b87 R	h(8
+00097c20 	h(8
+00097cab R	h(8h
+00097d04 	h(8
+00097d8f R	h(8
+00097e21 i)8i
+00097e29 b@9(
+00097e8f R	h(8
+00097ed1 b@9h
+00097f2f R	h(8
+00097f35 b@9(
+00097fe7 r	h(
+00098073 R	h(8
+000981ab R	h(8
+000982cf R	h(8
+000983bb R	h(8h
+00098414 	h(8
+0009846f R	h(8h
+000984bb R	h(8h
+0009850f R	h(8
+000985b7 R	h(8h
+0009860b R	h(8
+000986db R	h(x
+000987df R	h(8i
+0009887f R	h(85
+00098913 R	h(8h
+00098a30 	h(8H
+00098aaf R	h(8
+00098f4e @9?%
+00099073 R	h(x
+000991b3 Ti	@9
+000991c9 $L9?
+000994e9 i)8`
+0009984b xh&@
+0009985a @9?	
+000999eb R+	@yl.
+00099b29 	@yk.
+00099d7f R	h(8h
+00099e17 7`"@
+00099f73 R	h(8h
+0009a02c 	h(8
+0009a087 R	h(8
+0009a180 	`@9
+0009a1d5 h)8i
+0009a314 	h(8
+0009a557 R	h(x
+0009a87b R	h(x
+0009a921 $@9	
+0009ab87 R	h(8h
+0009abdf R	h(8h
+0009ae47 R	h(8
+0009af99 $@9	
+0009b003 R	h(8h
+0009b0e0 	h(8
+0009b13b R	h(8
+0009b2db R	h(xH
+0009b503 R	h(xh
+0009b5af R	h(8h
+0009b64e @9_Y
+0009b66e @9_-
+0009b6cf Tk*A
+0009b927 xh&@
+0009b96e @9?e
+0009bbba @9_U
+0009bc70 p)@9Qm
+0009bcee @9_Y
+0009be16 @x	 
+0009bf26 @x	 
+0009c512 @xT	
+0009c546 @9_}
+0009c612 @9_}
+0009c942 @x	 
+0009cba7 R	h(8
+0009ccd7 R	h(8h
+0009cd2b R	h(8
+0009ce28 	h(8
+0009ce83 R	h(8
+0009cf23 R	h(8h
+0009cfb4 	h(8
+0009d014 	h(8
+0009d1ab R	h(xH
+0009d264 	h(8
+0009d373 R	h(8h
+0009d41f R	h(8h
+0009d4e7 R	h(8h
+0009d5d5 $@9	
+0009d8b8 	h(8
+0009d937 R	h(8
+0009da54 	`@9(
+0009db73 R	h(8
+0009dca3 R	h(8h
+0009dcf7 R	h(8
+0009e017 R	h(8h
+0009e16f R	h(8h
+0009e2a2 _8?u
+0009e2e3 R	h(8`"@
+0009e32b R	h(8h
+0009e3b7 R	h(8h
+0009e4dd $@9	
+0009e532 @x	%
+0009e603 R	h(8
+0009e6e2 @x	%
+0009e773 R	h(8
+0009e878 	h(8
+0009e8f1 $@9	
+0009e948 	!@9?!
+0009ea0f R	h(8h
+0009ea26 @x	%
+0009eab7 R	h(8h
+0009eb0b R	h(8
+0009ec84 	!@9?!
+0009ecd6 @x	%
+0009ed67 R	h(8
+0009edbd $@9	
+0009ee9b R	h(8h
+0009eeae @x	%
+0009ef43 R	h(8h
+0009f02e @x	%
+0009f0c3 R	h(8h
+0009f5ab Th:@
+0009f93a @yn	
+0009f957 K*)(
+0009fa96 @yn	
+0009fd26 ?7H}@
+0009fe44 @1Nz)
+0009ffc1 1NzJ
+000a020c h%@xJ
+000a1496 @9	{
+000a1515 1Mzk
+000a1eb7 4h~@
+000a237d zjxk	
+000a238d b@9`
+000a241c `1Jz
+000a242a 	*H}
+000a24ae @9`1Nz
+000a26e3 *i}	
+000a2943 <	|	
+000a2a1a @9`1Nz
+000a2b1f <	|	
+000a3279 1KzJ
+000a32d1 %@x(
+000a3760 M{kx
+000a3827 QhN(
+000a3877 ThN+
+000a38f9 1Kz)
+000a3a39 1KzJ
+000a3afe @9I	
+000a3b8e @9I	
+000a43d3 T+	@
+000a443f T		@
+000a461b TIC@
+000a83a8 qu	 
+000ab3cd W~A`{{
+000ab3f1 $<uA
+000ab433 2V$+e
+000ab47e ^[cg
+000ab4e0 X,7O
+000ab4ed D*\D
+000ab511 dVlhi_C>nO
+000ab520 t=&&F2"
+000ab53a %/8u
+000ab583 AZ+6=
+000ab5f5 i5|oK
+000ab636 n$gH
+000ab63d i>=I
+000ab64e P[c<
+000ab670 \.Up
+000ab676 EcD&
+000ab6f2 L3uX
+000ab76a Jx(dI
+000ab772 H99,c
+000ab798 !]LU
+000ab7ae U zN
+000ab7d9 SJbH~(L
+000ab81a w1^l
+000ab843 )%,3sGI
+000ab920 `_ocv4
+000ab962 UuJQ
+000aba3a {a,k
+000aba77 <BJcU2
+000abaa2 qHRRR_-
+000abac1 "AA'
+000abad1 Tl3;T
+000abaec \am;
+000abb01 |]?R
+000abb16 k3L`
+000abc52 5di<	
+000abcd8 Sp	+cN:
+000abce8 'j:#m+?xvXel+:p6GQiS|dPk~NVDeZI=3q7N0JTtb$#AY[:pZo}sXJa]QxUG!lo
+000abd7f :86Q7s
+000abd90 L;NY
+000abda4 r?&b
+000abdb5 @:pc
+000abe06 1Q"!
+000abe46 u(fB
+000abe98 P JUNth
+000abec0 FCxt#lN\_^LodV-^lI@f<#1kK:,Ri4r0O3]1XbtZ;[Wl[hqgoUsLc:dak*_T$`-
+000abf89 %m/%d/%y
+000abfa1 %H:%M:%S
+000abfb8 (%a %b %d %H:%M:%S %Y
+000abfd1 %I:%M:%S %p
+000ac038 Android (12642944, +pgo, -bolt, +lto, -mlgo, based on r530567b) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+000ac0f0 Linker: LLD 19.0.0
+000ac104 Android (12642944, +pgo, +bolt, +lto, +mlgo, based on r530567b) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+000ac1bd .init_array
+000ac1c9 .fini_array
+000ac1d5 .text
+000ac1db .got
+000ac1e0 .comment
+000ac1e9 .note.android.ident
+000ac1fd .got.plt
+000ac206 .rela.plt
+000ac210 .bss
+000ac215 .dynstr
+000ac21d .eh_frame_hdr
+000ac22b .gnu.version_r
+000ac23a .data.rel.ro
+000ac247 .rela.dyn
+000ac251 .gnu.version
+000ac25e .dynsym
+000ac266 .gnu.hash
+000ac270 .relro_padding
+000ac27f .eh_frame
+000ac289 .gcc_except_table
+000ac29b __lcxx_override
+000ac2ab .note.gnu.build-id
+000ac2be .dynamic
+000ac2c7 .shstrtab
+000ac2d1 .rodata
+000ac2d9 .data

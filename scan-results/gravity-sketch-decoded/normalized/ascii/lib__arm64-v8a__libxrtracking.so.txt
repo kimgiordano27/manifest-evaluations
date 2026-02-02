@@ -1,0 +1,788 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+00000b25 __cxa_finalize
+00000b34 __cxa_atexit
+00000b41 __register_atfork
+00000b53 _ZN6avatar23xr_tracking_integration15InstanceManager14createInstanceERK39ovrAvatarXXrTrackingInitializationInfo_
+00000bc4 __stack_chk_fail
+00000bd5 _ZNK6avatar23xr_tracking_integration15InstanceManager22findNextFreeInstanceIdEv
+00000c25 _ZN6avatar23xr_tracking_integration15InstanceManager15destroyInstanceE31ovrAvatarXXrTrackingInstanceId_
+00000c8d _ZN6avatar23xr_tracking_integration15InstanceManager17isInstanceIdValidE31ovrAvatarXXrTrackingInstanceId_
+00000cf7 _ZN6avatar23xr_tracking_integration15InstanceManager11getInstanceE31ovrAvatarXXrTrackingInstanceId_
+00000d5b ovrAvatarXXrTracking_GetRequiredExtensions
+00000d86 memmove
+00000d8e ovrAvatarXXrTracking_CreateInstance
+00000db2 ovrAvatarXXrTracking_DestroyInstance
+00000dd7 ovrAvatarXXrTracking_CreateComponent
+00000dfc ovrAvatarXXrTracking_GetHierarchy
+00000e1e ovrAvatarXXrTracking_Sample
+00000e3a ovrAvatarXXrTrackingComponentHandle_Invalid
+00000e66 abort
+00000e6c memset
+00000e73 memcpy
+00000e7a free
+00000e7f malloc
+00000e86 strcmp
+00000e8d strlen
+00000e94 __errno
+00000e9c strerror
+00000ea5 __vsnprintf_chk
+00000eb5 __strlen_chk
+00000ec2 __android_log_print
+00000ed6 clock_gettime
+00000ee4 stderr
+00000eeb fprintf
+00000ef3 isatty
+00000efa vsnprintf
+00000f04 close
+00000f0a __read_chk
+00000f15 fstat
+00000f1b open
+00000f20 strncmp
+00000f28 memchr
+00000f2f gettid
+00000f36 prctl
+00000f3c getpid
+00000f43 vfprintf
+00000f4c syscall
+00000f54 pthread_mutex_lock
+00000f67 pthread_mutex_unlock
+00000f7c aligned_alloc
+00000f8a __gnu_strerror_r
+00000f9b pthread_cond_signal
+00000faf pthread_cond_broadcast
+00000fc6 pthread_cond_wait
+00000fd8 pthread_cond_destroy
+00000fed pthread_mutex_destroy
+00001003 vasprintf
+0000100d fwrite
+00001014 fputc
+0000101a android_set_abort_message
+00001034 openlog
+0000103c syslog
+00001043 closelog
+0000104c __cxa_thread_atexit_impl
+00001065 fflush
+0000106c pthread_rwlock_wrlock
+00001082 pthread_rwlock_unlock
+00001098 dladdr
+0000109f dl_iterate_phdr
+000010af pthread_rwlock_rdlock
+000010c5 getauxval
+000010cf __system_property_get
+000010e5 libdl.so
+000010ee LIBC
+000010f3 libc.so
+000010fb LIBC_P
+00001102 liblog.so
+0000110c libxrtracking.so
+00001120 APS2
+000087d0 Captured exception on result but not out of memory
+00008803 ovrAvatarXXrTracking_GetHierarchy
+00008825 %s failed to release mutex
+00008840 %s failed to acquire mutex
+0000885b %s failed to broadcast
+00008872 __cxa_guard_abort
+00008884 hierarchy->floatCount == hierarchy->defaultPose.floatCount
+000088bf hierarchy->jointCount == hierarchy->defaultPose.transformCount
+000088fe componentOptions->componentType >= 0 && componentOptions->componentType < ovrAvatarXXrTrackingComponentType_Count
+00008970 Failed to destroy body tracking component
+0000899a Failed to destroy reference space in body tracking component
+000089d7 Failed to destroy face tracking component
+00008a01 Failed to destroy hand tracking component
+00008a2b Failed to destroy reference space in hand tracking component
+00008a68 ovrAvatarXXrTracking_CreateComponent
+00008a8d uncaught
+00008a96 Failed to sample body tracking pose because the pose pointer is not set
+00008ade Failed to sample face tracking pose because the pose pointer is not set
+00008b26 Failed to sample hand tracking pose because the pose pointer is not set
+00008b6e Failed to locate body joints
+00008b8b Unexpected number of body skeleton joints
+00008bb5 Unexpected number of hand skeleton joints
+00008bdf OpenXR returned an unexpected number of hand joints
+00008c13 Failed to locate hand joints
+00008c30 avatar_runtime_counters
+00008c48 ovrAvatarXXrTracking_GetRequiredExtensions
+00008c73 Failed to retrieve system properties
+00008c98 Failed to retrieve body tracking properties
+00008cc4 Failed to retrieve eye tracking properties
+00008cef Failed to retrieve face tracking properties
+00008d1b Failed to retrieve hand tracking properties
+00008d47 xrGetSystemProperties
+00008d5d Failed to initialize component. Make sure the OpenXR instance supports all required extensions:%s
+00008dbf %*s:%s
+00008dc6 %s %s
+00008dcc terminating due to %s exception of type %s
+00008df7 Bad parameter in %s. Required %s
+00008e18   XrResult = %s
+00008e28 terminating due to %s exception of type %s: %s
+00008e57 %s:%d: %s
+00008e61 hierarchy != nullptr
+00008e76 componentOptions != nullptr
+00008e92 extensions != nullptr
+00008ea8 initInfo != nullptr
+00008ebc componentHandle != nullptr
+00008ed7 instanceId != nullptr
+00008eed sampleData != nullptr
+00008f03 vector
+00008f0a unspecified system_category error
+00008f2c unspecified generic_category error
+00008f52 unsupported restore location for float register
+00008f82 unsupported restore location for register
+00008fac unknown register
+00008fbd unsupported arm64 register
+00008fd8 setRegister
+00008fe4 getRegister
+00008ff0 getSavedFloatRegister
+00009006 getSavedRegister
+00009017 Failed to create body tracker
+00009035 Failed to create eye tracker
+00009052 Failed to create face tracker
+00009070 Failed to create hand tracker
+00009091 arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/src/TrackingComponentFactory.cpp
+000090f9 arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/src/Context.cpp
+00009150 arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/src/tracking_components/BodyTrackingComponent.cpp
+000091c9 arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/src/tracking_components/EyeTrackingComponent.cpp
+00009241 arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/src/tracking_components/FaceTrackingComponent.cpp
+000092ba arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/src/tracking_components/HandTrackingComponent.cpp
+00009333 arvr/libraries/avatar/engine/libraries/allocators/src/RingAllocator.cpp
+0000937b arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/capi/src/XrTrackingIntegration.cpp
+000093e0 third-party/llvm-project/18.x-android/llvm-project/libcxxabi/src/fallback_malloc.cpp
+00009438 perfetto
+00009441 CIE ID is not zero
+00009454 _Unwind_Resume() can't return
+00009472 Failed to get body skeleton
+0000948e std::exception
+0000949d Out of memory exception
+000094b5 terminating due to %s foreign exception
+000094dd terminate_handler unexpectedly threw an exception
+0000950f Failed to get result string from `xrResultToString` function
+0000954c truncated uleb128 expression
+00009569 malformed uleb128 expression
+00009586 truncated sleb128 expression
+000095a3 evaluateExpression
+000095b6 Failed to retrieve system
+000095d0 xrGetSystem
+000095dc minAllocationsPerPage %u is too small
+00009602 XR_FB_eye_tracking_social
+0000961c libc++abi
+00009626 bad_array_new_length
+0000963b FDE has zero length
+0000964f XR_FB_hand_tracking_mesh
+00009668 Failed to get hand mesh
+00009680 CIE start does not match
+00009699 ro.arch
+000096a1 arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/include/avatar/xr_tracking_integration/core/Context.h
+0000971e arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/capi/include/private/avatar/xr_tracking_integration/utils/Utils.h
+000097a2 arvr/libraries/avatar/Libraries/xr_tracking_integration/libraries/core/include/avatar/xr_tracking_integration/core/Utils.h
+0000981d third-party/perfetto/sdk/perfetto.h
+00009841 terminating
+0000984d basic_string
+0000985a xrResultToString
+0000986b XR_FB_body_tracking
+0000987f XR_EXT_hand_tracking
+00009894 Failed to create reference space for body tracking
+000098c7 Failed to create reference space for hand tracking
+000098fa unknown pointer encoding
+00009913 DW_OP_deref_size with bad size
+00009932 getTableEntrySize
+00009944 Failed to get eye gaze
+0000995b Failed to sample face tracking pose
+0000997f __cxa_guard_release
+00009993 __cxa_guard_acquire
+000099a7 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00009a0a Body skeleton has multiple root joints (%td) but must have exactly one
+00009a51 /proc/self/cmdline
+00009a64 _Unwind_Resume
+00009a73 avatar_runtime
+00009a82 Events from the avatar runtime
+00009aa1 Counters from the avatar runtime
+00009ac2 thread_time
+00009ace ovrAvatarXXrTracking_Sample
+00009aea XR_EXT_hand_joints_motion_range
+00009b0a XR_EXT_hand_tracking_data_source
+00009b2b ovrAvatarXXrTracking_DestroyInstance
+00009b50 ovrAvatarXXrTracking_CreateInstance
+00009b74 xrDestroySpace
+00009b83 xrCreateReferenceSpace
+00009b9a componentHandle->componentId != ovrAvatarXXrTrackingComponentId_Invalid
+00009be2 componentHandle->instanceId != ovrAvatarXXrTrackingInstanceId_Invalid
+00009c28 Failed to sample face tracking pose because the face tracker is not initialized
+00009c78 Cannot convert xrResult to string as `xrResultToString` function is not initialized
+00009ccc Cannot convert xrResult to string as the XrInstance is not initialized
+00009d13 Failed to sample face tracking pose because the OpenXR API calls are not initialized
+00009d68 Tracking component unsupported
+00009d87 DW_EH_PE_textrel pointer encoding not supported
+00009db7 DW_EH_PE_funcrel pointer encoding not supported
+00009de7 DW_EH_PE_aligned pointer encoding not supported
+00009e17 Component of type %d not supported
+00009e3a DW_OP_fbreg not implemented
+00009e56 DWARF opcode not implemented
+00009e73 DW_OP_piece not implemented
+00009e8f unexpected
+00009e9a terminate_handler unexpectedly returned
+00009ec2 condition_variable wait failed
+00009ee1 Instance creation failed
+00009efa mutex lock failed
+00009f0c condition_variable::wait: mutex not locked
+00009f37 Incorrect sample data struct for the `Body` component type was provided
+00009f7f Incorrect sample data struct for the `Eye` component type was provided
+00009fc6 Incorrect sample data struct for the `Face` component type was provided
+0000a00e Incorrect sample data struct for the `Hand` component type was provided
+0000a056 Unknown error %d
+0000a067 Failed to fetch component with id %d
+0000a08c Failed to create component with id %d
+0000a0b2 Failed to destroy instance with id %d
+0000a0d8 Failed to fetch instance with id %d
+0000a0ff std::bad_alloc
+0000a10e generic
+0000a116 third-party/perfetto/sdk/perfetto.cc
+0000a13b [printf format error]
+0000a151 [Avatar2 SDK]
+0000a15f FACE_EXPRESSION_CHIN_RAISER_T
+0000a17d xrLocateHandJointsEXT
+0000a193 xrDestroyHandTrackerEXT
+0000a1ab xrCreateHandTrackerEXT
+0000a1c2 FACE_EXPRESSION_TONGUE_OUT
+0000a1dd FACE_EXPRESSION_JAW_THRUST
+0000a1f8 CONFIDENCE_RIGHT_HAND_WRIST_TWIST
+0000a21a CONFIDENCE_LEFT_HAND_WRIST_TWIST
+0000a23b CONFIDENCE_WRIST
+0000a24c CONFIDENCE_RIGHT_HAND_WRIST
+0000a268 CONFIDENCE_LEFT_HAND_WRIST
+0000a283 CONFIDENCE_CHEST
+0000a294 FACE_EXPRESSION_LIP_FUNNELER_RT
+0000a2b4 FACE_EXPRESSION_LIP_SUCK_RT
+0000a2d0 CONFIDENCE_ROOT
+0000a2e0 FACE_EXPRESSION_LIP_FUNNELER_LT
+0000a300 FACE_EXPRESSION_LIP_SUCK_LT
+0000a31c FACE_EXPRESSION_JAW_SIDEWAYS_RIGHT
+0000a33f FACE_EXPRESSION_MOUTH_RIGHT
+0000a35b CONFIDENCE_RIGHT
+0000a36c FACE_EXPRESSION_JAW_SIDEWAYS_LEFT
+0000a38e FACE_EXPRESSION_MOUTH_LEFT
+0000a3a9 CONFIDENCE_LEFT
+0000a3b9 FACE_EXPRESSION_TONGUE_RETREAT
+0000a3d8 CONFIDENCE_HIPS
+0000a3e8 FACE_EXPRESSION_EYES_LOOK_RIGHT_R
+0000a40a FACE_EXPRESSION_EYES_LOOK_LEFT_R
+0000a42b FACE_EXPRESSION_LIP_PRESSOR_R
+0000a449 FACE_EXPRESSION_LIP_CORNER_DEPRESSOR_R
+0000a470 FACE_EXPRESSION_LOWER_LIP_DEPRESSOR_R
+0000a496 FACE_EXPRESSION_OUTER_BROW_RAISER_R
+0000a4ba FACE_EXPRESSION_INNER_BROW_RAISER_R
+0000a4de FACE_EXPRESSION_UPPER_LIP_RAISER_R
+0000a501 FACE_EXPRESSION_CHEEK_RAISER_R
+0000a520 FACE_EXPRESSION_UPPER_LID_RAISER_R
+0000a543 FACE_EXPRESSION_BROW_LOWERER_R
+0000a562 FACE_EXPRESSION_LIP_TIGHTENER_R
+0000a582 FACE_EXPRESSION_LID_TIGHTENER_R
+0000a5a2 FACE_EXPRESSION_DIMPLER_R
+0000a5bc FACE_EXPRESSION_LIP_CORNER_PULLER_R
+0000a5e0 FACE_EXPRESSION_NOSE_WRINKLER_R
+0000a600 FACE_EXPRESSION_LIP_PUCKER_R
+0000a61d FACE_EXPRESSION_LIP_STRETCHER_R
+0000a63d FACE_EXPRESSION_EYES_LOOK_UP_R
+0000a65c FACE_EXPRESSION_EYES_LOOK_DOWN_R
+0000a67d FACE_EXPRESSION_CHEEK_SUCK_R
+0000a69a FACE_EXPRESSION_CHEEK_PUFF_R
+0000a6b7 FACE_EXPRESSION_EYES_CLOSED_R
+0000a6d5 CONFIDENCE_RIGHT_ARM_LOWER
+0000a6f0 CONFIDENCE_LEFT_ARM_LOWER
+0000a70a CONFIDENCE_SPINE_LOWER
+0000a721 FACE_CONFIDENCE_LOWER
+0000a737 CONFIDENCE_RIGHT_ARM_UPPER
+0000a752 CONFIDENCE_LEFT_ARM_UPPER
+0000a76c CONFIDENCE_SPINE_UPPER
+0000a783 FACE_CONFIDENCE_UPPER
+0000a799 CONFIDENCE_RIGHT_SHOULDER
+0000a7b3 CONFIDENCE_LEFT_SHOULDER
+0000a7cc FACE_EXPRESSION_TONGUE_TIP_ALVEOLAR
+0000a7f0 FACE_EXPRESSION_TONGUE_BACK_DORSAL_VELAR
+0000a819 getEncodedP
+0000a825 FACE_EXPRESSION_JAW_DROP
+0000a83e CONFIDENCE_INDEX_TIP
+0000a853 CONFIDENCE_RIGHT_HAND_INDEX_TIP
+0000a873 CONFIDENCE_LEFT_HAND_INDEX_TIP
+0000a892 CONFIDENCE_RING_TIP
+0000a8a6 CONFIDENCE_RIGHT_HAND_RING_TIP
+0000a8c5 CONFIDENCE_LEFT_HAND_RING_TIP
+0000a8e3 CONFIDENCE_LITTLE_TIP
+0000a8f9 CONFIDENCE_RIGHT_HAND_LITTLE_TIP
+0000a91a CONFIDENCE_LEFT_HAND_LITTLE_TIP
+0000a93a CONFIDENCE_MIDDLE_TIP
+0000a950 CONFIDENCE_RIGHT_HAND_MIDDLE_TIP
+0000a971 CONFIDENCE_LEFT_HAND_MIDDLE_TIP
+0000a991 CONFIDENCE_THUMB_TIP
+0000a9a6 CONFIDENCE_RIGHT_HAND_THUMB_TIP
+0000a9c6 CONFIDENCE_LEFT_HAND_THUMB_TIP
+0000a9e5 UNKNOWN
+0000a9ed CONFIDENCE_PALM
+0000a9fd CONFIDENCE_RIGHT_HAND_PALM
+0000aa18 CONFIDENCE_LEFT_HAND_PALM
+0000aa32 FACE_EXPRESSION_EYES_LOOK_RIGHT_L
+0000aa54 FACE_EXPRESSION_EYES_LOOK_LEFT_L
+0000aa75 FACE_EXPRESSION_LIP_PRESSOR_L
+0000aa93 FACE_EXPRESSION_LIP_CORNER_DEPRESSOR_L
+0000aaba FACE_EXPRESSION_LOWER_LIP_DEPRESSOR_L
+0000aae0 FACE_EXPRESSION_OUTER_BROW_RAISER_L
+0000ab04 FACE_EXPRESSION_INNER_BROW_RAISER_L
+0000ab28 FACE_EXPRESSION_UPPER_LIP_RAISER_L
+0000ab4b FACE_EXPRESSION_CHEEK_RAISER_L
+0000ab6a FACE_EXPRESSION_UPPER_LID_RAISER_L
+0000ab8d FACE_EXPRESSION_BROW_LOWERER_L
+0000abac FACE_EXPRESSION_LIP_TIGHTENER_L
+0000abcc FACE_EXPRESSION_LID_TIGHTENER_L
+0000abec FACE_EXPRESSION_DIMPLER_L
+0000ac06 FACE_EXPRESSION_LIP_CORNER_PULLER_L
+0000ac2a FACE_EXPRESSION_NOSE_WRINKLER_L
+0000ac4a FACE_EXPRESSION_LIP_PUCKER_L
+0000ac67 FACE_EXPRESSION_LIP_STRETCHER_L
+0000ac87 FACE_EXPRESSION_EYES_LOOK_UP_L
+0000aca6 FACE_EXPRESSION_EYES_LOOK_DOWN_L
+0000acc7 FACE_EXPRESSION_CHEEK_SUCK_L
+0000ace4 FACE_EXPRESSION_CHEEK_PUFF_L
+0000ad01 FACE_EXPRESSION_EYES_CLOSED_L
+0000ad1f CONFIDENCE_INDEX_DISTAL
+0000ad37 CONFIDENCE_RIGHT_HAND_INDEX_DISTAL
+0000ad5a CONFIDENCE_LEFT_HAND_INDEX_DISTAL
+0000ad7c CONFIDENCE_RING_DISTAL
+0000ad93 CONFIDENCE_RIGHT_HAND_RING_DISTAL
+0000adb5 CONFIDENCE_LEFT_HAND_RING_DISTAL
+0000add6 CONFIDENCE_LITTLE_DISTAL
+0000adef CONFIDENCE_RIGHT_HAND_LITTLE_DISTAL
+0000ae13 CONFIDENCE_LEFT_HAND_LITTLE_DISTAL
+0000ae36 CONFIDENCE_MIDDLE_DISTAL
+0000ae4f CONFIDENCE_RIGHT_HAND_MIDDLE_DISTAL
+0000ae73 CONFIDENCE_LEFT_HAND_MIDDLE_DISTAL
+0000ae96 CONFIDENCE_THUMB_DISTAL
+0000aeae CONFIDENCE_RIGHT_HAND_THUMB_DISTAL
+0000aed1 CONFIDENCE_LEFT_HAND_THUMB_DISTAL
+0000aef3 FACE_EXPRESSION_TONGUE_TIP_INTERDENTAL
+0000af1a CONFIDENCE_INDEX_METACARPAL
+0000af36 CONFIDENCE_RIGHT_HAND_INDEX_METACARPAL
+0000af5d CONFIDENCE_LEFT_HAND_INDEX_METACARPAL
+0000af83 CONFIDENCE_RING_METACARPAL
+0000af9e CONFIDENCE_RIGHT_HAND_RING_METACARPAL
+0000afc4 CONFIDENCE_LEFT_HAND_RING_METACARPAL
+0000afe9 CONFIDENCE_LITTLE_METACARPAL
+0000b006 CONFIDENCE_RIGHT_HAND_LITTLE_METACARPAL
+0000b02e CONFIDENCE_LEFT_HAND_LITTLE_METACARPAL
+0000b055 CONFIDENCE_MIDDLE_METACARPAL
+0000b072 CONFIDENCE_RIGHT_HAND_MIDDLE_METACARPAL
+0000b09a CONFIDENCE_LEFT_HAND_MIDDLE_METACARPAL
+0000b0c1 CONFIDENCE_THUMB_METACARPAL
+0000b0dd CONFIDENCE_RIGHT_HAND_THUMB_METACARPAL
+0000b104 CONFIDENCE_LEFT_HAND_THUMB_METACARPAL
+0000b12a CONFIDENCE_INDEX_PROXIMAL
+0000b144 CONFIDENCE_RIGHT_HAND_INDEX_PROXIMAL
+0000b169 CONFIDENCE_LEFT_HAND_INDEX_PROXIMAL
+0000b18d CONFIDENCE_RING_PROXIMAL
+0000b1a6 CONFIDENCE_RIGHT_HAND_RING_PROXIMAL
+0000b1ca CONFIDENCE_LEFT_HAND_RING_PROXIMAL
+0000b1ed CONFIDENCE_LITTLE_PROXIMAL
+0000b208 CONFIDENCE_RIGHT_HAND_LITTLE_PROXIMAL
+0000b22e CONFIDENCE_LEFT_HAND_LITTLE_PROXIMAL
+0000b253 CONFIDENCE_MIDDLE_PROXIMAL
+0000b26e CONFIDENCE_RIGHT_HAND_MIDDLE_PROXIMAL
+0000b294 CONFIDENCE_LEFT_HAND_MIDDLE_PROXIMAL
+0000b2b9 CONFIDENCE_THUMB_PROXIMAL
+0000b2d3 CONFIDENCE_RIGHT_HAND_THUMB_PROXIMAL
+0000b2f8 CONFIDENCE_LEFT_HAND_THUMB_PROXIMAL
+0000b31c CONFIDENCE_NECK
+0000b32c FACE_EXPRESSION_TONGUE_FRONT_DORSAL_PALATE
+0000b357 FACE_EXPRESSION_TONGUE_MID_DORSAL_PALATE
+0000b380 CONFIDENCE_INDEX_INTERMEDIATE
+0000b39e CONFIDENCE_RIGHT_HAND_INDEX_INTERMEDIATE
+0000b3c7 CONFIDENCE_LEFT_HAND_INDEX_INTERMEDIATE
+0000b3ef CONFIDENCE_RING_INTERMEDIATE
+0000b40c CONFIDENCE_RIGHT_HAND_RING_INTERMEDIATE
+0000b434 CONFIDENCE_LEFT_HAND_RING_INTERMEDIATE
+0000b45b CONFIDENCE_LITTLE_INTERMEDIATE
+0000b47a CONFIDENCE_RIGHT_HAND_LITTLE_INTERMEDIATE
+0000b4a4 CONFIDENCE_LEFT_HAND_LITTLE_INTERMEDIATE
+0000b4cd CONFIDENCE_MIDDLE_INTERMEDIATE
+0000b4ec CONFIDENCE_RIGHT_HAND_MIDDLE_INTERMEDIATE
+0000b516 CONFIDENCE_LEFT_HAND_MIDDLE_INTERMEDIATE
+0000b53f CONFIDENCE_SPINE_MIDDLE
+0000b557 FDE is really a CIE
+0000b56b TRACKING_DATA_SOURCE
+0000b580 FACE_EXPRESSION_LIPS_TOWARD
+0000b59c CONFIDENCE_HEAD
+0000b5ac FACE_EXPRESSION_CHIN_RAISER_B
+0000b5ca FACE_EXPRESSION_LIP_FUNNELER_RB
+0000b5ea FACE_EXPRESSION_LIP_SUCK_RB
+0000b606 FACE_EXPRESSION_LIP_FUNNELER_LB
+0000b626 FACE_EXPRESSION_LIP_SUCK_LB
+0000b642 xrLocateBodyJointsFB
+0000b657 xrGetEyeGazesFB
+0000b667 xrDestroyBodyTrackerFB
+0000b67e xrCreateBodyTrackerFB
+0000b694 xrDestroyEyeTrackerFB
+0000b6aa xrCreateEyeTrackerFB
+0000b6bf xrGetBodySkeletonFB
+0000b6d3 xrGetHandMeshFB
+0000b6e3 xrGetFaceExpressionWeights2FB
+0000b701 xrDestroyFaceTracker2FB
+0000b719 xrCreateFaceTracker2FB
+0000b730 CONFIDENCE_RIGHT_SCAPULA
+0000b749 CONFIDENCE_LEFT_SCAPULA
+0000b761 __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+0000b7f4 %.*s::
+0000b81b getULEB128
+0000b826 getSLEB128
+0000b8a7 CIE version is not 1 or 3
+0000b8c4 XR_FB_face_tracking2
+0000b8d9 unwind_phase2
+0000b92e exynos9810
+0000b939 DW_EH_PE_datarel is invalid with a datarelBase of 0
+0000b970 idealAllocationsPerPage %u needs to be bigger relative to minAllocationsPerPage %u.
+0000b9c4 defaultPageSize %zu is too small for idealAllocationsPerPage %u.
+0000ba05 Pose to sample body tracking has incorrect number of joints and float channels.
+0000ba55 Pose to sample hand tracking has incorrect number of joints and float channels.
+0000baa5 The transform of body joint '%s' is invalid. Replacing it with valid transform.
+0000baf5 The transform of eye joint '%s' is invalid. Replacing it with valid transform.
+0000bb44 The transform of hand joint '%s' is invalid. Replacing it with valid transform.
+0000bb94 Unknown DWARF encoding for search table.
+0000bbbd Can't binary search on variable length encoded data.
+0000bbf2 XR chain already contains item of type %d. Will be appended anyways...
+0000bc39 ring allocator implementations must EITHER provide a PageCache to the Allocator constructor, OR override the virtual deferredGetPageCache() member. (%s)
+0000bcd2 Unknown field type %u (errno: %d, %s)
+0000bcf8 %s (errno: %d, %s)
+0000bd0b Tracing not initialized. Call perfetto::Tracing::Initialize() first. (errno: %d, %s)
+0000bd60 (null_typeinfo)
+0000bd70 PERFETTO_CHECK(false)
+0000bd86 (empty_name)
+0000bd93 (null_name)
+0000bd9f PERFETTO_CHECK(writer_)
+0000bdb7 PERFETTO_CHECK(res == 0)
+0000bdd0 PERFETTO_CHECK(clock_gettime(clk_id, &ts) == 0)
+0000be00 [%03u.%03u] 
+0000be0d libc++abi: 
+0000be19 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0000be52 %s%s%s%s %s%s%s
+0000be63 %s%s %s
+0000be6c libunwind: %s - %s
+0000be80 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+0000bec8 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0000bf08 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+0000bf4e libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+0000bf90 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+0000bfd5 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+0000c01f libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+0000c061 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+0000c0a3 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+0000c0e4 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+0000c138 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0000c17f libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+0000c1c7 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+0000c206 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+0000c247 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+0000c2a4 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+0000c318 N6avatar23xr_tracking_integration4core19tracking_components21NoopTrackingComponentE
+0000c36c N6avatar23xr_tracking_integration4core19tracking_components17TrackingComponentE
+0000c400 N6avatar23xr_tracking_integration4core19tracking_components21BodyTrackingComponentE
+0000c6c8 N6avatar23xr_tracking_integration4core19tracking_components20EyeTrackingComponentE
+0000c738 N6avatar23xr_tracking_integration4core19tracking_components21FaceTrackingComponentE
+0000c8f8 N6avatar23xr_tracking_integration4core19tracking_components21HandTrackingComponentE
+0000ca1c N6avatar4core16ScratchAllocatorE
+0000ca3d N6avatar6engine4meta21NonCopyableNonMovableE
+0000ca6a N6avatar4core14ring_allocator9AllocatorE
+0000caa8 N6avatar4core14FrameAllocator5LocalE
+0000cacd N6avatar6engine4meta25NonCopyableDefaultMovableE
+0000cafe NSt6__ndk120__shared_ptr_emplaceIN6avatar4core14ring_allocator9PageCacheENS_9allocatorIS4_EEEE
+0000cb5e [39m
+0000cb6d [32m
+0000cb73 [31m
+0000cb79 [90m
+0000cb98 N8perfetto8internal12TracingMuxerE
+0000cbbb N9protozero21ScatteredStreamWriter8DelegateE
+0000cbe8 N9protozero19ScatteredHeapBufferE
+0000cc0a N9protozero13CppMessageObjE
+0000cc26 N8perfetto6protos3gen23ChromeProcessDescriptorE
+0000cc56 N8perfetto6protos3gen22ChromeThreadDescriptorE
+0000cc85 N8perfetto6protos3gen17CounterDescriptorE
+0000ccaf N8perfetto6protos3gen17ProcessDescriptorE
+0000ccd9 N8perfetto6protos3gen16ThreadDescriptorE
+0000cd02 N8perfetto6protos3gen15TrackDescriptorE
+0000cd2a N8perfetto8internal16TracingMuxerFakeE
+0000cd51 N8perfetto8internal16TracingMuxerFake12FakePlatformE
+0000cd86 N8perfetto8PlatformE
+0000cd9b N8perfetto8internal31BaseTrackEventInternedDataIndexE
+0000cdd1 N8perfetto8internal21InternedEventCategoryE
+0000cdfd N8perfetto27TrackEventInternedDataIndexINS_8internal21InternedEventCategoryELm1EPKcNS_23SmallInternedDataTraitsEEE
+0000ce70 N8perfetto8internal17InternedEventNameE
+0000ce98 N8perfetto27TrackEventInternedDataIndexINS_8internal17InternedEventNameELm2EPKcNS_23SmallInternedDataTraitsEEE
+0000cf07 NSt6__ndk117bad_function_callE
+0000cf5c NSt6__ndk114__shared_countE
+0000cf78 NSt6__ndk119__shared_weak_countE
+0000cf99 NSt6__ndk13pmr15memory_resourceE
+0000cfbb NSt6__ndk112system_errorE
+0000cfd5 NSt6__ndk112__do_messageE
+0000cfef NSt6__ndk124__generic_error_categoryE
+0000d015 NSt6__ndk123__system_error_categoryE
+0000d03a NSt6__ndk114error_categoryE
+0000d0c0 N10__cxxabiv116__shim_type_infoE
+0000d0e1 N10__cxxabiv117__class_type_infoE
+0000d103 N10__cxxabiv120__si_class_type_infoE
+0000d128 N10__cxxabiv121__vmi_class_type_infoE
+0000d14e St9exception
+0000d15b St20bad_array_new_length
+0000d174 St9bad_alloc
+0000d181 St11logic_error
+0000d191 St12length_error
+0000d1a2 St13runtime_error
+0000d1b4 St9type_info
+00011971 zPLR
+00012993 Nhb	
+00012b27 7	 I
+00013d1f Nh"@
+00014143 =)	@
+00014422 @9?!
+000145ba @9?!
+00014752 @9?!
+000148fa @9?!
+00014c2e `QJ}
+00014c4a `QJ}
+00014c66 `QJ}
+00014c86 `QJ}
+00014ca6 `QJ}
+00014cc6 `QJ}
+00014ce6 `QJ}
+00014da7 7l2@
+00014dd6 @M-1
+00014e4b 7h2@
+00015006 `Q)}
+00015026 `Q)}
+00015042 `Q)}
+00015062 `Q)}
+00015082 `Q)}
+000150a2 `Q)}
+000150c2 `Q)}
+0001510a `Q)}
+00015132 `Q)}
+0001513d )@z@
+00015152 `Q)}
+0001515d )@z@
+0001517e `Q)}
+0001519a `Q)}
+000151ba `Q)}
+000151de `Q)}
+000151e9 )@za
+0001520e `Q)}
+00015229 )@zh
+0001523b SD)@z#
+0001524c d)@z
+000153ef 7lyl
+00015516 @M-1
+00015543 TiR@
+0001554b 4h.@
+00015567 Th>@
+00015573 Q`&@
+00015597 Q`2@
+000158db 6h*@
+00015ce9 80.	
+00015d19 80.	
+00015d95 80.	
+00015dc5 80.	
+0001656a `Q)}
+0001658a `Q)}
+000165aa `Q)}
+000165ca `Q)}
+000165ea `Q)}
+0001660a `Q)}
+0001662a `Q)}
+0001693f Oh"@
+00016963 TiR@
+0001696b 4h.@
+00016987 Th>@
+00016993 Q`&@
+000169b7 Q`2@
+00017047 4MYk
+00017083 4MYk
+000170c2 `Qk}
+000170cb qD)@z@
+0001731f Oh"@
+00017343 ThR@
+0001734b 4`.@
+00017367 Q`2@
+0001775b R,E@
+00017918 jb@9ts
+00017a06 `Q)}
+00017aba `Q)}
+00017ada `Q)}
+00017afa `Q)}
+00017b1a `Q)}
+00017b3a `Q)}
+00017b5a `Q)}
+00017b7a `Q)}
+00017f1f 7KYk
+00017fea @Mn"@
+00018017 TiR@
+0001801f 4h.@
+0001803b Th>@
+00018047 Q`&@
+0001806b Q`2@
+00018583 6h6@
+000188c3 Rj6@
+00019425 $@)W-
+0001944f Th&@
+000194f3 )h&@
+00019553 )i*A
+00019609 -@)k
+00019b13 T`R@
+00019cc3 Rdb@
+00019d77 TvR@
+0001a017 T`^@
+0001a985 !A9(
+0001adac 	1@9
+0001aed4 .in8
+0001b7c5 C@9h
+0001bb2d C@9h
+0001c094 (a?9
+0001c0f4 H	@9J
+0001c817 T?i(8
+0001c82e @9	<@
+0001ceaa 	*I}
+0001d156 @9?	
+0001d34b 9`"@
+0001d371 i)8)
+0001db5b TtZ@
+0001dcf9 h*8J
+0001dedb <uRB
+0001dee3 =h"@
+0001e037 6`&@
+0001e040 hb@9
+0001e414 	@@9
+0001e760 	`A9
+0001e76f 6`6@
+0001e77f 6`"@
+0001ed2b 6`B@
+0001ef0f Ti"F
+0001f424 	@A9
+0001f433 6`2@
+0001f43c hB@9
+0001f97b 6`"@
+0001f984 hb@9h
+0001fb17 6`F@
+0001fb9f 6`"@
+0001fba8 hb@9
+0001fcff T`2@
+0001fe82 07H	 7H
+00020264 HP@y(
+00020913 *)EC
+00021345 #@9h
+000215d7 4hJ@
+00021859 #@9h
+00021c0d `@9H
+00021dff Tu^@
+00021fd8 	i{8J
+00022398 (a@9
+0002239f 5(	@
+00022845 C@9h
+000228a5 C@9h
+000229b5 C@9h
+00022a15 C@9h
+00022e1c *ih8
+00023ad1 j48	
+00023e6d #@9h
+00023ed5 #@9h
+000240d0 ( @9
+000241f1 C@9h
+00024fc4 @1Wz)
+00025131 1WzJ
+00025247 <h&?
+000253fc h%@x
+000254c1 j{8*
+0002570a @yn	
+00025727 K*)(
+00025856 @yn	
+00025b1c  	Az@	Az
+00025d5c )<A9
+00025eb3 T(<@
+00025ed7 T(H@
+0002600f 7i>@
+0002601f Rh:A9h
+00026077 Th6@
+000260a3 ThF@
+00026114 h:A9H
+0002611b 5h6A9
+00026123 4h2A9
+0002612b 4h2@
+00026139 B@9h
+00026193 7h:A9
+0002619b 5h>@
+000261ec h:A9
+000261f3 5h>@
+000261ff Th2@
+0002626f Th2@
+00026387 Th6@
+000263b3 ThF@
+000263ec h6A9h
+000263f3 4h2A9i
+0002643b Th2@
+00026516 G)t:
+0002652f Th2@
+0002655b Th6@
+000265fb 4z2A9
+00026604 {6A9
+0002664c h2A9i6A9
+00026680 j:A9J
+0002668f Th2@
+000266fc h2A9j
+00026704 i6A9K
+0002764a @9iy
+000277aa @9n%
+000280bb 4h~@
+000284ec J{hx)	
+000284f9 b@9`
+00028a5c `1Jz
+00028a6a 	*H}
+00028c40 *q@9
+000291ea ?7_|
+0002a3a5 1Mzk
+0002a3c4  %@x
+0002a758 `0Bz!
+0002a7b3 QqN0
+0002a807 TbN 
+0002a8c8 @0@z 
+0002a9d8  0@z1
+0002ad83 TqN0
+0002adab TaN0
+0002b67c w2@y
+0002b8cf TiC@
+0002de50 Linker: Facebook LLD 18.1.8
+0002de6c Facebook clang version 18.1.8 (https://git.internal.tfbnw.net/repos/git/ro/osmeta/external/llvm-project 215ea3564f72eee13aee28345a32c51bba7cd488)
+0002defe Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+0002dfb6 ovr-version:avatar-libxrtracking-android64-release:35.0.0.17.106
+0002dff8 .shstrta
+0002e001 .init_array
+0002e00d .fini_array
+0002e019 .text
+0002e01f .got
+0002e024 .comment
+0002e02d .note.android.ident
+0002e041 .got.plt
+0002e04a .rela.plt
+0002e054 .tbss
+0002e05a .bss
+0002e05f .dynstr
+0002e067 .eh_frame_hdr
+0002e075 .gnu.version_r
+0002e084 .data.rel.ro
+0002e091 .relr.dyn
+0002e09b .rela.dyn
+0002e0a5 .gnu.version
+0002e0b2 .oculus-version
+0002e0c2 .dynsym
+0002e0ca .gnu.hash
+0002e0d4 .relro_padding
+0002e0e3 .eh_frame
+0002e0ed .gcc_except_table
+0002e0ff __lcxx_override
+0002e10f .note.gnu.build-id
+0002e122 .dynamic
+0002e12b .shstrtab
+0002e135 .rodata
+0002e13d .data

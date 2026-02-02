@@ -1,0 +1,673 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+000002e1 xY)p
+000002eb P(hfJc
+00001ba9 __cxa_finalize
+00001bb8 __cxa_atexit
+00001bc5 __register_atfork
+00001bd7 MCFRuntimeRegisterClass
+00001bef __MCFCastToClassNotNull
+00001c07 MCFRelease
+00001c12 MQTTConfigCreate
+00001c23 MCFRuntimeCreateInstance
+00001c3c MCFRetain
+00001c46 memcpy
+00001c4d abort
+00001c53 MQTTConfigGetConnectionSettings
+00001c73 MQTTConfigDefaultClientKeepAliveInSeconds
+00001c9d MQTTConfigDefaultServerKeepAliveScheduleDiff
+00001cca MQTTConfigDefaultClientKeepAliveTimeoutInSeconds
+00001cfb MQTTConfigDefaultConnectTimeoutInSeconds
+00001d24 MQTTConfigDefaultValidConnectionIntervalInSeconds
+00001d56 MQTTConfigDefaultInitialReconnectBackoffInSeconds
+00001d88 MQTTConfigDefaultMaxReconnectBackoffInSeconds
+00001db6 MQTTConfigDefaultPublishTimeoutInSeconds
+00001ddf MQTTConfigDefaultPublishTtlInMs
+00001dff MQTTConfigDefaultInitialFastModeReconnectAttempts
+00001e31 MQTTConfigDefaultHighPingIntervalInSeconds
+00001e5c MQTTConfigDefaultMidPingIntervalInSeconds
+00001e86 MQTTConfigDefaultLowPingIntervalInSeconds
+00001eb0 MQTTConfigDefaultHighPingTimeoutInSeconds
+00001eda MQTTConfigDefaultMidPingTimeoutInSeconds
+00001f03 MQTTConfigDefaultLowPingTimeoutInSeconds
+00001f2c MQTTConfigDefaultHighConnectTimeoutInSeconds
+00001f59 MQTTConfigDefaultMidConnectTimeoutInSeconds
+00001f85 MQTTConfigDefaultLowConnectTimeoutInSeconds
+00001fb1 MQTTConfigDefaultHighPublishTimeoutInSeconds
+00001fde MQTTConfigDefaultMidPublishTimeoutInSeconds
+0000200a MQTTConfigDefaultLowPublishTimeoutInSeconds
+00002036 MQTTConfigDefaultHighPreemptivePublishTimeoutInSeconds
+0000206d MQTTConfigDefaultMidPreemptivePublishTimeoutInSeconds
+000020a3 MQTTConfigDefaultLowPreemptivePublishTimeoutInSeconds
+000020d9 MQTTConfigDefaultHighConnackLatencyInMs
+00002101 MQTTConfigDefaultMidConnackLatencyInMs
+00002128 MQTTConfigDefaultLowConnackLatencyInMs
+0000214f MQTTConfigDefaultHighPingLatencyInMs
+00002174 MQTTConfigDefaultMidPingLatencyInMs
+00002198 MQTTConfigDefaultLowPingLatencyInMs
+000021bc MQTTSubscribeObjectCreate
+000021d6 MCFDictionaryContainsKey
+000021ef MCFStringGetTypeID
+00002202 MCFDictionaryGetValue
+00002218 MCFStringCreateCopy
+0000222c MCFArrayGetCount
+0000223d MCFArrayGetValueAtIndex
+00002255 MCFGetTypeID
+00002262 MCFDictionaryGetTypeID
+00002279 MCFStringFind
+00002287 MCFStringGetLength
+0000229a MCFStringEqual
+000022a9 MCFDictionaryCreateMutable
+000022c4 MCFNumberGetTypeID
+000022d7 __MCFCastToClassOrNull
+000022ee MCFDictionarySetValue
+00002304 MCFNumberGetValue
+00002316 MCFArrayGetTypeID
+00002328 MCFArrayCreateMutable
+0000233e _MCFStringCreateWithConstCStringAndLenNoCopy
+0000236b MCFArrayAppendValue
+0000237f __stack_chk_fail
+00002390 MCFDictionaryGetCount
+000023a6 MCFNumberCreate
+000023b6 MCIStatsCreateSnapshot
+000023cd MCFDataGetLength
+000023de MCIStatsCreateSnapshotDiff
+000023f9 MCIStatsDiffContextGetTypeID
+00002416 MCIStatsDiffContextCreateSerializableSummary
+00002443 MCFArrayCreateCopy
+00002456 MCIJSONCreateSerializedString
+00002474 MCFDictionaryCreate
+00002488 MCILogAnnotatedEvent_DEPRECATED
+000024a8 MCFReleaseValues
+000024b9 MCILogEventAnnotate_DEPRECATED
+000024d8 MCIGenerateNowTimestampMs
+000024f2 MCFWeakCopyRef
+00002501 MQTTChannelCreate
+00002513 MCIStatsLeave
+00002521 MCIStatsEnter
+0000252f MCFWeakCreate
+0000253d MCFSetCreateMutable
+00002551 MCILogRegistryGlobalsIsLoggingEnabled
+00002577 _MCIWriteLogWithFormat
+0000258e MCIExecutionIsCurrentContextNetwork
+000025b2 kQPLDefaultInstanceKey
+000025c9 QPLGetTimestamp
+000025d9 QPLMarkerStartEx
+000025ea QPLAnnotationsNew
+000025fc QPLAnnotationsAddInt
+00002611 QPLMarkerAnnotate
+00002623 QPLAnnotationsRelease
+00002639 QPLAnnotationsAddBool
+0000264f QPLAnnotationsAddString
+00002667 QPLMarkerPointEx
+00002678 MCFDictionaryRemoveAllValues
+00002695 PerfLoggerActions
+000026a7 QPLMarkerEnd
+000026b4 mockptr_MCFTime_MCFAbsoluteTimeGetCurrent
+000026de MCIStatsIncrement
+000026f0 QPLMarkerPoint
+000026ff MCFTimeDiffInSeconds
+00002714 MCIUUIDCreateString
+00002728 MCFDictionaryCreateArrayWithSortedKeys
+0000274f MqttConnectivityLogMqttErrorCode
+00002770 QPLMarkerIsOn
+0000277e MCFStringCopyToHeapOrStackAsCString
+000027a2 MCFStringDeallocateCharArray
+000027bf QPLMarkEvent
+000027cc MCFDictionaryGetValueForCIntegerKey
+000027f0 MCFDictionaryRemoveValueForCIntegerKey
+00002817 MCINetworkSessionGetNotificationCenter
+0000283e MCFSetRemoveValue
+00002850 MCFDictionaryRemoveValue
+00002869 MCFDataGetBytePtr
+0000287b MCIParamsGetTypeID
+0000288e __MCFCastToClassNullable
+000028a7 MCICallbackContextGetTypeID
+000028c3 MCIParamsUnpackWithTypeIDs
+000028de MCICallbackContextGetCallback
+000028fc MCICallbackContextGetContext
+00002919 MQTTChannelDestroyAndRelease
+00002936 MCIGlobalGetMCIExecutionGlobalQueueForNetwork
+00002964 MCIExecutionGlobalQueueCheckIsOnContext
+0000298c MCFWeakInvalidate
+0000299e MCFWeakRefIsValid
+000029b0 MCIAuthDataGetFacebookUserID
+000029cd MCLMarkerAddPointWithSubspanState
+000029ef MCFDictionarySetValueForCStringKey
+00002a12 MCLMarkerAddPointEx
+00002a26 MqttConnectivityLogConnectionState
+00002a49 TimeToOnlineReportMqttConnectivityState
+00002a71 MCINetworkSessionNetworkStateSourceUserInfoKey
+00002aa0 MCINetworkStateConnectedNotification
+00002ac5 MCINetworkStateDisconnectedNotification
+00002aed MCINetworkSessionPostGlobalNotification
+00002b15 MCFDictionaryApplyFunction
+00002b30 MCFRangeMake
+00002b3d MCFArraySortValues
+00002b50 mockptr_MSYS_MCFTripwireHook
+00002b6d RTScheduleTask
+00002b7c MCFWeakGetTypeID
+00002b8d MQTTConnectPayloadSetValue
+00002ba8 LAST_PERSONALIZATION_CLASS
+00002bc3 MCIReadInt32Setting
+00002bd7 MCIAuthDataGetAccessToken
+00002bf1 MCIRedactedStringGetString
+00002c0c MCIGetUniformRandInRange
+00002c25 MQTTConnectPayloadSetIntValue
+00002c43 MCFBooleanFromValue
+00002c57 MCIAuthDataStorageGetCopy
+00002c71 MCFBooleanGetValue
+00002c84 MQTTConnectPayloadGetValue
+00002c9f MCLMarkerStart
+00002cae RTScheduleTask1
+00002cbe MQTTChannelStart
+00002ccf MQTTChannelGetState
+00002ce3 MQTTChannelSetStateChangeListener
+00002d05 MQTTChannelSetConnackResultListener
+00002d29 MQTTChannelSetErrorHandler
+00002d44 MQTTChannelSetMessageDroppedErrorHandler
+00002d6d MQTTChannelSetPresenceEnabledHandler
+00002d92 MQTTChannelSubscribe
+00002da7 MCIParamsCreate
+00002db7 MQTTChannelSubscribeToTopics
+00002dd4 MCFDictionarySetValueForCIntegerKey
+00002df8 memset
+00002dff MCFStringCreateByCombiningStrings
+00002e21 MQTTChannelUnsubscribe
+00002e38 MCICallbackContextCreate
+00002e51 MQTTChannelPublishMaybeReconnect
+00002e72 MCFSetAddValue
+00002e81 MQTTChannelCancelPublish
+00002e9a MCFDictionaryContainsCIntegerKey
+00002ebb MCLMarkerAddPoint
+00002ecd MQTTChannelHandleNetworkStateNotification
+00002ef7 MCFStringCreateWithCString
+00002f12 MQTTChannelHandleNetworkInterfaceNotification
+00002f40 MQTTChannelSetInitialAppState
+00002f5e MCLNotifyInitialAppState
+00002f77 MQTTChannelSetStateConnectTraceIdEnabled
+00002fa0 MQTTChannelOnAppStateChanged
+00002fbd MCLMarkerStartOnAppStateChange
+00002fdc MCFStringCreateMutable
+00002ff3 MCFStringAppend
+00003003 _MQTT_TOPIC_TRACE_ID_DELIMITOR
+00003022 RTLogNetworkTrace
+00003034 MCFSetContainsValue
+00003048 MCFNumberCompare
+00003059 MCFStringCreateWithFormat
+00003073 __MCFCastToClassNullableOwnedObject
+00003097 _MCICheck
+000030a1 RTNotifyRealtimePluginEvent
+000030bd MCIStatsReset
+000030cb MCFStringCreateMutableCopy
+000030e6 MCFStringAppendCStringWithFormat
+00003107 MQTTCodecCreatePingRequestPayload
+00003129 RTScheduleTimeoutTask
+0000313f MQTTCodecAppendData
+00003153 _MQTT_TOPIC_REQUEST_ID_DELIMITOR
+00003174 MQTTCodecDecode
+00003184 MQTTCodecCreatePingResponsePayload
+000031a7 MCIWriteInt32Setting
+000031bc MCIStatsSetUInt64
+000031ce MCFStringDelete
+000031de MQTTCodecCreatePublishACKPayload
+000031ff MCIZipUtilZlibUncompressedDataCreate
+00003224 MCFErrorGetDomain
+00003236 strcmp
+0000323d MCFErrorCopyFailureReason
+00003257 MCFErrorGetCode
+00003267 MCFDictionaryGetKeysAndValues
+00003285 MCIGetNanosecondTicks
+0000329b MCITimeMillisecondsFromTicks
+000032b8 QPLTimestampFromExternalSourceMs
+000032d9 MQTTCodecCreateConnectPayloadNoPassword
+00003301 MQTTCodecCreateConnectPayload
+0000331f MQTTCodecCreate
+0000332f MCIZipUtilZlibCompressedDataCreate
+00003352 MQTTCodecCreatePublishPayload
+00003370 MQTTCodecCreateSubscribePayload
+00003390 MQTTCodecCreateUnsubscribePayload
+000033b2 libc.so
+000033ba LIBC
+000033bf libxplat_messaging_client_random_random.so
+000033ea libxplat_messagingconnectivity_MessagingConnectivityLogger.so
+00003428 libxplat_perflogger_c_api_c_api.so
+0000344b libxplat_perflogger_base_base.so
+0000346c libxplat_messenger_channel_connectivity_mqtt_connectivity_MqttConnectivity.so
+000034ba libxplat_msys_mci_auth.so
+000034d4 libxplat_msys_mci_beagle.so
+000034f0 libxplat_msys_mci_encoding.so
+0000350e libxplat_msys_mci_log.so
+00003527 libxplat_msys_mci_settings.so
+00003545 libxplat_msys_mci_stats.so
+00003560 libxplat_msys_mci_string.so
+0000357c libxplat_msys_mci_tal.so
+00003595 libxplat_rtchannel_mqttcommon.so
+000035b6 libxplat_rtchannel_common.so
+000035d3 libxplat_messaging_client_time_time_utils.so
+00003600 libxplat_msys_mci_container.so
+0000361f libxplat_msys_mci_execution.so
+0000363e libxplat_msys_mci_network.so
+0000365b libxplat_mcf_mcfDirect.so
+00003675 libxplat_rtchannel_mqttchannel.so
+00003698 APS2
+00004668 Start reconnecting to cellular immediately
+00004693 _log_topics_array
+000046a5 Reconnecting with delay
+000046bd connection/mqtt_connect_now
+000046d9 Reconnecting now
+000046ea publish/schedule_preemptive_timeout; delay=%zu
+00004719 Expected postive timeout value, but was provided: %zu
+0000474f __p_channel_on_connect_timeout
+0000476e __p_channel_schedule_connect_timeout
+00004793 MQTTChannel_channel_on_publish_timeout
+000047ba MQTTChannel_channel_schedule_publish_timeout
+000047e7 MQTTChannel_channel_on_preemptive_timeout
+00004811 MQTTChannel_channel_schedule_preemptive_timeout
+00004841 MQTTClient_keepAlive_timeout
+0000485e _channel_on_unsubscribe_timeout
+0000487e _channel_on_subscribe_timeout
+0000489c ReconnectOnConnectTimeout
+000048b6 RTErrorCodeMQTTConnectTimeout
+000048d4 ReconnectOnPreemptiveTimeout
+000048f1 RTErrorCodeMQTTKeepAliveTimeout
+00004911 RTErrorCodeMQTTTimeout
+00004928 mqtt connect time out
+0000493e _channel_start_connecting_transport
+00004962 Pre-connect transport
+00004978 Coldstart
+00004985 fallback_on_failure_count
+0000499f PingCount
+000049a9 endpoint
+000049b2 region_hint
+000049be network_interface_int
+000049d4 mqtt_client
+000049e0 __p_channel_cleanup_client
+000049fb Destroying mqtt client
+00004a12 Creating mqtt client
+00004a27 Switching to pre-connected client
+00004a49 MQTTClient
+00004a54 result
+00004a5b publish/transport_not_connected_yet
+00004a7f invalid call to MQTTChannelSetMessageDroppedErrorHandler with a prior eventHandler already set MQTTChannelSetMessageDroppedErrorHandler should be called only once to set the eventHandler and should not be called if the channelptr's handler is already set
+00004b7e invalid call to MQTTChannelSetErrorHandler with a prior eventHandler already set MQTTChannelSetErrorHandler should be called only once to set the eventHandler and should not be called if the channelptr's eventHandler is already set
+00004c66 invalid call to MQTTChannelSetPresenceEnabledHandler with a prior handler already set
+00004cbc __p_channel_do_reconnect
+00004cd5 connection/do_reconnect
+00004ced MQTTChannel__p_channel_schedule_reconnect
+00004d17 Scheduling reconnect
+00004d2c Reconnect
+00004d36 Starting pre-connect
+00004d4b Completing pre-connect
+00004d62 Performing pre-connect
+00004d79 Expected wifi was unavailable on connect
+00004da2 Starting connect
+00004db3 Performing connect
+00004dc6 MQTTClientConnect
+00004dd8 MQTTClientPreConnect
+00004ded MQTTClientCompletePreConnect
+00004e0a MQTTPublishObject
+00004e1c MQTTSubscribeObject
+00004e30 status
+00004e37 networkStatus
+00004e45 apbts
+00004e4b Connack success
+00004e5b RTErrorCodeMQTTConnACKBadUsernamePass
+00004e8c tasks
+00004e92 NetworkInterfaceFlags
+00004ea8 Received data on transport %d bytes
+00004ecc ConnAck callback with %d bytes
+00004eeb MQTT ConnAck received. Code: %d. Payload: %d bytes
+00004f1e TotalRetries
+00004f2b _decoder_onOtherMessages
+00004f44 connection/mqtt_reconnect_in_%3.5f_seconds
+00004f6f connection/mqtt_reconnect_in_%d_seconds
+00004f97 Fail to connect after %f seconds
+00004fb8 _channel_publish_pending_sends
+00004fdb connection/reconnect; current=%s
+00004ffc publish/failed; result=%d topic=%s
+0000501f publish/sent; topic=%s
+00005036 connection/disconnect_cancel_publish; topic=%s
+00005065 Registering handler for topic:%s
+00005086 Received %d bytes from topic:%s
+000050a6 connection/disconnect_cancel_publish_skip; topic:%s
+000050da  | %s
+000050e0 MQTT State changed to: %s
+000050fa mqtt connect error
+0000510d Connect error
+0000511b _client_callback_onConnectError
+0000513b ReconnectOnConnectError
+00005153 RTErrorCodeNoError
+00005166 MQTTClient_transport_onError
+00005183 RTErrorCodeMQTTCodecEncodeError
+000051a3 RTErrorCodeMQTTCodecDecodeError
+000051c3 Connect Error
+000051d1 RTErrorCodeMQTTDisconnectedByServer
+000051f5 RTErrorCodeMQTTConnACKErrorOther
+00005216 Connack Failure - Other
+0000522e MqttConnectAttemptNumber
+00005247 ReconnectOnWifiToCellular
+00005261 _decoder_onPingReq
+00005274 MQTT channel cleanup
+00005289 network_info
+00005296 state_info
+000052a1 unknown
+000052a9 MQTT Channel initialized with RTNetworkStateUnknown
+000052dd RTErrorCodeMQTTUnknown
+000052f4 reason
+000052fb ErrorFailureReason
+0000530e Ignoring reconnect to cellular transition
+00005338 _handleWifiToCellularTransition
+00005358 _handleCellularToWifiTransition
+00005378 IsUnexpectedLigerDisconnection
+00005397 RTErrorCodeMQTTTransportDisconnectedDueToOSNetworkDisconnection
+000053d7 IsUnexpectedDisconnection
+000053f1 Abandoning pre-connection
+0000540b tearing down the client connection
+0000542e duration
+00005437 MQTTChannelHandleNetworkStateNotification
+00005461 MQTTChannelHandleNetworkInterfaceNotification
+0000548f ErrorDomain
+0000549b mqtt_token
+000054a9 Send pending publish %s message hits Ttl
+000054d5 mqtt_channel
+000054e2 Destroying mqtt channel
+000054fa Calling onTransportConnected into channel
+00005524 tearing down the channel
+0000553d Cleanup pending MQTT channel
+0000555a MQTTChannel
+00005566 pa_l
+0000556e MQTTChannel__p_channel_reconnect_task
+00005594 OSNetwork
+0000559e MQTT connack
+000055ab _invoke_Disconnect_callback
+000055c7 _invoke_connectError_callback
+000055e5 _invoke_connACK_callback
+000055fe _client_callback_onUnsubAck
+0000561a _client_callback_onSubAck
+00005634 _client_callback_onPubAck
+0000564e /t_rtc_multi
+0000565b Expected original connection to be over wifi
+00005688 ReconnectOnCellularToWifi
+000056a2 _attempt_client_publish
+000056ba Send pending publish
+000056cf MQTTClientPublish
+000056e1 _decoder_onPublish
+000056f4 _client_callback_onPublish
+0000570f _MQTTChannelPublish
+00005723 MQTTChannelCancelPublish
+0000573c ReconnectOnDisconnectDuringPublish
+0000575f RTErrorCodeMQTTConnACKBadConnectHash
+00005784 connection/reconnect_already_connected_or_connecting
+000057b9 State changed to MQTT connecting
+000057da MQTTConnecting
+000057e9 MQTT Connecting
+000057f9 RTErrorCodeString
+0000580b Publishing timeout, send ping
+00005829 Skipping scheduling ping due another pending
+00005856 Ignoring reconnect request, transport connection pending
+0000588f MQTTClientSendPing
+000058a2 MQTTConfig
+000058ad size
+000058b2 MQTTClient_run_keepAlive
+000058cb preemptive timeout value
+000058e4 _DataReceiveHandlerPrivate
+000058ff app_state
+00005909 connection_state
+0000591a new_network_state
+0000592c _channel_update_state
+00005942 AppState
+0000594b MQTTChannelState
+0000595c MQTTChannelCreate
+0000596e Received a ping, just send a response
+00005994 MQTTClientDestroyAndRelease
+000059b0 MQTTChannelDestroyAndRelease
+000059cd none
+000059d2 event_name
+000059dd queue_name
+000059e8 RTErrorCodeMQTTConnACKServerUnavailable
+00005a10 ReconnectOnNetworkChange
+00005a29 errorMessage
+00005a36 RTErrorCodeMessage
+00005a49 Invalid error code
+00005a5c errorCode
+00005a66 RTErrorCode
+00005a72 ConnACKErrorOtherCode
+00005a88 network_interface
+00005a9a NetworkInterface
+00005aab MQTTClientUnsubscribe
+00005ac1 MQTTChannelUnsubscribe
+00005ad8 _attempt_client_subscribe
+00005af2 MQTTClientSubscribe
+00005b06 MQTTChannelSubscribe
+00005b1e App in background
+00005b30 foreground
+00005b3b Received connAck, latency was %ld
+00005b5d Unexpected callback with clientId: %ldbut was expecting: %ld
+00005b9a Expected postive timeout value, but was provided: %ld
+00005bd0 onTransportConnected callback with clientId: %ld current clientId: %ld
+00005c17 Server is load shedding with clientId: %ld
+00005c46 publish/client_instance_is_invalid
+00005c69 MQTTChannelIsValid
+00005c7c call_id
+00005c84 task_id
+00005c8c message_id
+00005c97 data_trace_id
+00005ca5 Connack Failure - Not authorized
+00005cc6 Connack Failure - Not Authorized
+00005ce7 publish_received
+00005cf8 MQTTChannel_handle_transport_disconnected
+00005d22 Transport disconnected
+00005d39 Client disconnected
+00005d4d MQTT disconnected
+00005d5f OS disconnected
+00005d6f _client_callback_onDisconnected
+00005d8f ReconnectOnDisconnected
+00005da7 RTErrorCodeMQTTDisconnected
+00005dc3 Transport connected
+00005dd7 MQTT connected
+00005de6 OS connected
+00005df3 IsTransportConnected
+00005e08 _client_callback_onTransportConnected
+00005e2e MQTTClient_transport_onConnected
+00005e4f _client_callback_onConnected
+00005e6c MQTTClient_transport_onPreConnected
+00005e90 MQTTConnected
+00005e9e IsOSConnected
+00005eac MQTT Connected
+00005ebb Payload uncompressed
+00005ed0 RTErrorCodeMQTTTransportClosed
+00005eef is_dropped
+00005efa RTErrorCodeMQTTCancelled
+00005f13 publish failed
+00005f22 RTErrorCodeMQTTConnACKErrorAuthFailed
+00005f48 RTErrorCodeMQTTSubscribeFailed
+00005f67 LSPresenceEnabled
+00005f79 MQTTConnectedAndAcked
+00005f8f MQTTChannelOnAppStateChanged
+00005fac App foregrounded
+00005fbd Start uncompressing payload
+00005fd9 RTErrorCodeMQTTServerSheddingLoad
+00005ffb MqttSessionId
+00006009 PubACK received on missing msgId
+0000602a connection/get_connect_config; timeout=%d
+00006054 publish/publish; topic=%s, qos=%d, size=%d, token=%d
+00006089 connection/skip_preemptive_timeout; current_token=%d, skip_until=%d
+000060cd connection/preemptive_timeout_reconnect; current_token=%d, skip_until=%d
+00006116 connection/mqtt_disconnected; error_code=%d
+00006142 connecting to %s:%d
+00006156 UnsubACK received msgId:%d, token:%d
+0000617b SubACK received msgId:%d, token:%d
+0000619e PubACK received msgId:%d, token:%d
+000061c1 Cancelling publish: Token:%d
+000061de publish/read_preemptive_config; timeout:%ld, ttl:%d
+00006212 Message %s received, size:%d
+0000622f Message %s dropped: Size:%d
+0000624b Received unsubAck msgId:%d
+00006266 Received subAck msgId:%d
+0000627f Received pubAck msgId:%d
+00006298 Send pending publish %s to client, token:%d, msgId:%d
+000062ce Send publish %s to client, token:%d, msgId:%d
+000062fc Sent unsubscribe to client, topics:[%s], token:%d, msgId:%d
+00006338 Sent subscribe to client, topics:[%s], token:%d, msgId:%d
+00006372 Sent pending subscribe to client, topics:[%s], token:%d, msgId:%d
+000063b4 Network interface changed from %d to %d, with interface flags %d
+000063f5 Invalid state change from %d to %d
+00006418 Network type changed from %d to %d
+0000643b Unsupported message type received %d
+00006460 UnsubACK received on missing msgId %d
+00006486 SubACK received on missing msgId %d
+000064aa PubACK received on missing msgId %d
+000064ce App state changed %d -> %d
+000064e9 MQTT State changed to: %s | network state: %s, current network interface: %s, app state: %d
+00006545 %s, file: %s, line: %d
+0000655c MQTT ConnAck received with code: %d
+00006580 Client disconnected code: %d
+0000659d Switching to new MQTT connection now, rcvd payload: %d
+000065d4 MQTT Connect failed. %d
+000065ec /t_rtc
+000065f3 topic
+000065f9 Schedule keepalive timeout task, delay %f sec
+00006627 xplat/rtchannel/src/mqtt/mqtt_channel.c
+0000664f MQTTClient_transport_onData
+0000666b MQTTChannel__p_channel_schedule_reconnect_NEW
+00006699 SLOW_PUB_ACK_MQTT
+000066ab _decoder_onConnACK
+000066be _client_callback_onConnACK
+000066d9 _decoder_onUnsubACK
+000066ed _decoder_onSubACK
+000066ff _decoder_onPubACK
+00006711 Automatically send out PubACK
+0000672f Unsubscribe failed: MQTT_INVALID_STATE
+00006756 Subscribe failed: MQTT_INVALID_STATE
+0000677b MQTTChannelIsValid: connections disabled, returning FALSE
+000067b5 "otid":
+000067bd \"otid\":
+000067c7 PRes9
+000067cd Preq9
+000067d3 PRes19
+000067da Preq19
+000067e1 PRes8
+000067e7 Preq8
+000067ed PRes18
+000067f4 Preq18
+000067fb PRes7
+00006801 Preq7
+00006807 PRes17
+0000680e Preq17
+00006815 PRes6
+0000681b Preq6
+00006821 PRes16
+00006828 Preq16
+0000682f PRes5
+00006835 Preq5
+0000683b PRes15
+00006842 Preq15
+00006849 PRes4
+0000684f Preq4
+00006855 PRes14
+0000685c Preq14
+00006863 PRes3
+00006869 Preq3
+0000686f PRes13
+00006876 Preq13
+0000687d PRes2
+00006883 Preq2
+00006889 PRes12
+00006890 Preq12
+00006897 PRes1
+0000689d Preq1
+000068a3 PRes11
+000068aa Preq11
+000068b1 PRes20
+000068b8 Preq20
+000068bf PRes10
+000068c6 Preq10
+000068cd Scheduling reconnect with delay 0
+000068ef Pre-connection completed for client.
+00006914 Connection completed for client.
+00006935 Transport error on client.
+00006950 invalid call to MQTTChannelSetConnackResultListener. The channelptr's connackResultListener has already been set.
+000069c2 Published topic:%s %d bytes.
+000069df Subscribing to topics: %s.
+000069fa Unsubscribing from topics: %s.
+00006a19 Haven't received PingResp, close the connection.
+00006a4a Compression started.
+00006a5f Compression finished.
+00006a75 CreatePublishPayload finished.
+00006a94 CreateUnsubscribePayload finished.
+00006ab7 CreateSubscribePayload finished.
+00006ad8 Connection error code:%d.
+00006af2 Decoding data.
+00006b01 Decoded data.
+00006b11 Creating mqtt client (pre-connect)
+00006b34 invalid call to MQTTChannelSetStateChangeListener with a prior stateChangeListener already set MQTTChannelSetStateChangeListener should be called only once to set the stateChangeListener and should not be called if the channelptr's stateChangeListener is already setMQTTChannelSetStateChangeListener is reserved for RTChannel overwriting RTChannel will break sync 
+00006cb9 6'*3!$<09
+000099bb T`B@
+00009d0b T|z@
+0000a666 @yR*
+0000abb3 Th"@
+0000ada7 5h.@
+0000ae2f Thf@
+0000ae4b 4`.@
+0000b033 4`.@
+0000b063 ThBB9
+0000b355 	@y?
+0000b53c hBB9I
+0000bd23 T`j@
+0000c23d BB9H
+0000c8d8 +ih8J	
+0000cb13 R)uE
+0000cbf7 ThN@
+0000cc0f Thf@
+0000cc27 ThN@
+0000cd7f T`F@
+0000d1aa @9H0
+0000e3ff ThBB9(
+0000e407 4hN@
+0000ec09 k:8Z
+0000fe58 hBB9(
+0000fe8b Th.@
+00010006 @9tj
+000100eb 5hn@
+000101c3 Thn@
+000105f0 hBB9
+0001080a @9h	
+00011a0b 4hf@
+00011a23 R)mE
+00011af3 T`v@
+00011b03 T`J@
+00011bbf T`z@
+00011f15 *B9(
+00012f7e B9(	
+000131e7 T`J@
+000136f3 *`J@
+000139df T`J@
+00013b83 T`N@
+00013cf7 T`J@
+00013f5e B9dJ@
+00014977 T`f@
+00016999 .fini_array
+000169a5 .text
+000169ab .got
+000169b0 .note.android.ident
+000169c4 .got.plt
+000169cd .rela.plt
+000169d7 .bss
+000169dc .dynstr
+000169e4 .eh_frame_hdr
+000169f2 .gnu.version_r
+00016a01 .data.rel.ro
+00016a0e .relr.dyn
+00016a18 .rela.dyn
+00016a22 .gnu.version
+00016a2f .dynsym
+00016a37 .gnu.hash
+00016a41 .relro_padding
+00016a50 .eh_frame
+00016a5a .note.gnu.build-id
+00016a6d .dynamic
+00016a76 .shstrtab
+00016a80 .rodata
+00016a88 .data

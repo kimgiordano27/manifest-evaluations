@@ -1,0 +1,1439 @@
+0000027c Android
+00000288 r27c
+000002c8 12479018
+00002d65  " (
+0000305f m\F8
+000030d6 ):vh
+000030e5 d+[0
+00003128 3z`B
+0000315e  9v)
+000031a6 T:\@
+000031c3 *\|K
+000031f6 Wr^2
+0000333a GU*O
+0000337b *-}tC
+00003466 D"JS_
+00003490 0t:)j
+000034aa xDXe%0
+00003548 Z{u^
+000035e1 __cxa_finalize
+000035f0 __cxa_atexit
+000035fd __register_atfork
+0000360f 77fc393cb521ac129b1392d4eb94d29a
+00003630 Unity.Jobs.LowLevel.Unsafe.JobsUtility::GetWorkStealingRange_Ptr
+00003671 burst.initialize.externals.77fc393cb521ac129b1392d4eb94d29a
+000036ad burst.string.808e8e7f94567b9f878889686ba14eb1
+000036db burst_abort_Ptr
+000036eb burst.string.bc77e56f72475bcb1ba0b4d16fff9cb4
+00003719 burst.initialize.statics.77fc393cb521ac129b1392d4eb94d29a
+00003753 adceb2156d08d59afc9749dc2521fd2b
+00003774 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MallocTracked_Ptr
+000037b7 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::FreeTracked_Ptr
+000037f8 burst.memset.inline.ARMV8A_AARCH64.i64
+0000381f burst.initialize.externals.adceb2156d08d59afc9749dc2521fd2b
+0000385b burst.string.22ec91e5bc43e7e512fc53c9ce97a8e0
+00003889 burst.string.ffbfa8f9468181ee01437772260f8c26
+000038b7 burst.initialize.statics.adceb2156d08d59afc9749dc2521fd2b
+000038f1 burst.initialize.externals.f259e9421b556600f769263137cdc7bc
+0000392d burst.string.4ef0a76297599c8f7794310e9504c395
+0000395b UnityEngine.Rendering.GPUDrivenProcessor::ClassifyMaterialsImpl_Injected_Ptr
+000039a8 burst.string.8e5903df5608b81698ce21d2808fbcf4
+000039d6 Unity.Jobs.LowLevel.Unsafe.JobsUtility::get_ThreadIndexCount_Ptr
+00003a17 burst.string.57a01b00185c83d1eb43aeca89f29647
+00003a45 Unity.Burst.LowLevel.BurstCompilerService::GetOrCreateSharedMemory_Ptr
+00003a8c burst.initialize.statics.f259e9421b556600f769263137cdc7bc
+00003ac6 Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.AllocatorManager::None
+00003b22 Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.AllocatorManager::Temp
+00003b7e Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.AllocatorManager::TempJob
+00003bdd Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.AllocatorManager::AudioKernel
+00003c40 Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.AllocatorManager::Persistent
+00003ca2 Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.AllocatorManager::Invalid
+00003d01 System.UInt16 Unity.Collections.AllocatorManager::NumGlobalScratchAllocators
+00003d4e System.UInt16 Unity.Collections.AllocatorManager::MaxNumGlobalAllocators
+00003d97 System.UInt32 Unity.Collections.AllocatorManager::GlobalAllocatorBaseIndex
+00003de2 System.UInt32 Unity.Collections.AllocatorManager::FirstGlobalScratchpadAllocatorIndex
+00003e38 Unity.Burst.SharedStatic`1<Unity.Collections.AllocatorManager/Array32768`1<Unity.Collections.AllocatorManager/TableEntry>> Unity.Collections.AllocatorManager/SharedStatics/TableEntry::Ref
+00003ef4 f259e9421b556600f769263137cdc7bc
+00003f15 UnityEngine.Rendering.GPUResidentDrawerBurst+ClassifyMaterials_000000E6$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null materialIDs, Unity.Collections.NativeParallelHashMap`2+ReadOnly[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMaterialID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchMaterialHash, Unity.Collections.NativeList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null supportedMaterialIDs, Unity.Collections.NativeList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null unsupportedMaterialIDs, Unity.Collections.NativeList`1[[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null supportedPackedMaterialDatas) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000045bc Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000049b4 burst.memcpy.inline.ARMV8A_AARCH64.i64
+000049db Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00004e21 Unity.Collections.NativeList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Dispose(Unity.Collections.NativeList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000509d 8c2be93e18276203cbd918daa2748a10
+000050be burst.initialize.externals.8c2be93e18276203cbd918daa2748a10
+000050fa burst.initialize.statics.8c2be93e18276203cbd918daa2748a10
+00005134 a917331aad44b603aa293fb2ddd84845
+00005155 burst.initialize.externals.a917331aad44b603aa293fb2ddd84845
+00005191 burst.initialize.statics.a917331aad44b603aa293fb2ddd84845
+000051cb burst.initialize.externals.f531652faf1e45081f68869b8a72d6da
+00005207 burst.initialize.statics.f531652faf1e45081f68869b8a72d6da
+00005241 f531652faf1e45081f68869b8a72d6da
+00005262 burst.memset.inline.ARMV8A_AARCH64.i32
+00005289 82ff8baa2abd920945d7abccccedb808
+000052aa Unity.Collections.NativeSortExtension, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.IntroSort_R<System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,Unity.Collections.NativeSortExtension+DefaultComparer`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(System.Void*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 array, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 lo, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 hi, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 depth, Unity.Collections.NativeSortExtension+DefaultComparer`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null comp) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000578e burst.initialize.externals.82ff8baa2abd920945d7abccccedb808
+000057ca burst.initialize.statics.82ff8baa2abd920945d7abccccedb808
+00005804 Unity.Collections.NativeSortExtension, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.IntroSort_R<System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,Unity.Collections.NativeSortExtension+DefaultComparer`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(System.Void*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 array, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 lo, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 hi, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 depth, Unity.Collections.NativeSortExtension+DefaultComparer`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null comp) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.1
+00005cea 629364e44aefad191e287c15b5f1415d
+00005d0b UnityEngine.Rendering.SmallIntegerArray, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null..ctor(UnityEngine.Rendering.SmallIntegerArray*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 length, Unity.Collections.Allocator, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00005fe1 burst.initialize.externals.629364e44aefad191e287c15b5f1415d
+0000601d burst.initialize.statics.629364e44aefad191e287c15b5f1415d
+00006057 burst.initialize.externals.f94f7ff99dd2661c4fa8531d62e9b853
+00006093 burst.initialize.statics.f94f7ff99dd2661c4fa8531d62e9b853
+000060cd f94f7ff99dd2661c4fa8531d62e9b853
+000060ee 482aa17deb765720c35123ea290985cd
+0000610f Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryGetValue(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, System.Int32&, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 item) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00006596 burst.initialize.externals.482aa17deb765720c35123ea290985cd
+000065d2 burst.initialize.statics.482aa17deb765720c35123ea290985cd
+0000660c 627895236a7055248a171dd760154a74
+0000662d burst.initialize.externals.627895236a7055248a171dd760154a74
+00006669 burst.initialize.statics.627895236a7055248a171dd760154a74
+000066a3 burst.initialize.externals.e1a600a5b1122626d6f5840453636d73
+000066df burst.initialize.statics.e1a600a5b1122626d6f5840453636d73
+00006719 e1a600a5b1122626d6f5840453636d73
+0000673a Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00006b88 77623b226a0d9b2add0602da4c23b102
+00006ba9 burst.initialize.externals.77623b226a0d9b2add0602da4c23b102
+00006be5 burst.initialize.statics.77623b226a0d9b2add0602da4c23b102
+00006c1f 9ec4cbd609d0ce32be9a43e477fa08be
+00006c40 Unity.Collections.LowLevel.Unsafe.UnsafeBitArray, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Free(Unity.Collections.LowLevel.Unsafe.UnsafeBitArray*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00006e95 burst.initialize.externals.9ec4cbd609d0ce32be9a43e477fa08be
+00006ed1 burst.initialize.statics.9ec4cbd609d0ce32be9a43e477fa08be
+00006f0b burst.string.1ea13c7f7ea144ea32205d7ec317f39f
+00006f39 burst.string.d0b93ee7fcf5ddc862fb74c88f441fac
+00006f67 4a1dc7df3f09b836e86a41d0d8fb4229
+00006f88 Unity.Collections.NativeListDispose, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Dispose(Unity.Collections.NativeListDispose*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000713e burst.initialize.externals.4a1dc7df3f09b836e86a41d0d8fb4229
+0000717a burst.initialize.statics.4a1dc7df3f09b836e86a41d0d8fb4229
+000071b4 ad994327679b3c3b4b2057afe8015412
+000071d5 burst.initialize.externals.ad994327679b3c3b4b2057afe8015412
+00007211 burst.initialize.statics.ad994327679b3c3b4b2057afe8015412
+0000724b 36a800eeeae3c643da5520fa383c8c70
+0000726c Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.DeallocateHashMap(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000074e4 burst.initialize.externals.36a800eeeae3c643da5520fa383c8c70
+00007520 burst.initialize.statics.36a800eeeae3c643da5520fa383c8c70
+0000755a 43818c1b0c11124717e9257b630efd6f
+0000757b UnityEngine.Rendering.CullingJob, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.CalculateVisibilityMask(UnityEngine.Rendering.CullingJob*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 instanceIndex, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 sharedInstanceIndex, UnityEngine.Rendering.InstanceFlags, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceFlags) -> System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000078ea UnityEngine.Rendering.CullingJob, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.CalculateLODVisibility(UnityEngine.Rendering.CullingJob*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 instanceIndex, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 sharedInstanceIndex, UnityEngine.Rendering.InstanceFlags, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceFlags) -> System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00007c58 burst.initialize.externals.43818c1b0c11124717e9257b630efd6f
+00007c94 burst.string.24ad7448eda2bb33cde39b47d91caecb
+00007cc2 UnityEngine.Rendering.BatchRendererGroup::OcclusionTestAABB_Injected_Ptr
+00007d0b burst.initialize.statics.43818c1b0c11124717e9257b630efd6f
+00007d45 burst.initialize.externals.ec632d4d28f4ff494fdc1e6f91b50bde
+00007d81 burst.initialize.statics.ec632d4d28f4ff494fdc1e6f91b50bde
+00007dbb ec632d4d28f4ff494fdc1e6f91b50bde
+00007ddc baf840f8150b604b0fd300ceb19dd50e
+00007dfd burst.initialize.externals.baf840f8150b604b0fd300ceb19dd50e
+00007e39 burst.initialize.statics.baf840f8150b604b0fd300ceb19dd50e
+00007e73 164a9957f2c75e5d4b481d1ceff90393
+00007e94 burst.initialize.externals.164a9957f2c75e5d4b481d1ceff90393
+00007ed0 burst.initialize.statics.164a9957f2c75e5d4b481d1ceff90393
+00007f0a 670478f3fb3f285eeace534fbe61a03e
+00007f2b UnityEngine.Jobs.TransformAccessArray::GetSortedToUserIndex_Ptr
+00007f6b UnityEngine.Jobs.TransformAccessArray::GetSortedTransformAccess_Ptr
+00007faf UnityEngine.Jobs.TransformAccess::GetPosition_Ptr
+00007fe1 UnityEngine.Jobs.TransformAccess::GetRotation_Ptr
+00008013 UnityEngine.Jobs.TransformAccess::GetLocalScale_Ptr
+00008047 UnityEngine.Jobs.TransformAccess::GetLocalToWorldMatrix_Ptr
+00008083 Unity.Mathematics.quaternion UnityEngine.Rendering.Universal.DecalUpdateCachedSystem/UpdateTransformsJob::k_MinusYtoZRotation
+00008101 burst.initialize.externals.670478f3fb3f285eeace534fbe61a03e
+0000813d burst.string.a49d1bf1dee7fae5dc72ac4f72601177
+0000816b burst.string.d9f80c917ff2c0932a33512c28b630d8
+00008199 burst.string.b2f92778eea3d4fec2d417ae3253d035
+000081c7 burst.string.d4144f1165ceea83fae3ad98e36915e1
+000081f5 burst.string.32c7f61fcf6d46279167d7d70d167b3f
+00008223 burst.string.e1116eac05f808de55acb7173fefa2ea
+00008251 burst.initialize.statics.670478f3fb3f285eeace534fbe61a03e
+0000828b burst.initialize.externals.f5e11201c93244611b235bb9cbd6d39f
+000082c7 burst.initialize.statics.f5e11201c93244611b235bb9cbd6d39f
+00008301 f5e11201c93244611b235bb9cbd6d39f
+00008322 UnityEngine.Rendering.LODGroupDataPoolBurst+FreeLODGroupData_000002D0$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null destroyedLODGroupsID, Unity.Collections.NativeList`1[[UnityEngine.Rendering.LODGroupData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null lodGroupsData, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null lodGroupDataHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null freeLODGroupDataHandles) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000891d Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00008d6f Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Remove(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00009108 8f37a29b850e64637b028e3529fedcf1
+00009129 burst.initialize.externals.8f37a29b850e64637b028e3529fedcf1
+00009165 burst.initialize.statics.8f37a29b850e64637b028e3529fedcf1
+0000919f 1d663b8d3110406501ef71e24cbc8c20
+000091c0 Unity.Collections.LowLevel.Unsafe.UnsafeStream, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Deallocate(Unity.Collections.LowLevel.Unsafe.UnsafeStream*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000938f burst.initialize.externals.1d663b8d3110406501ef71e24cbc8c20
+000093cb burst.initialize.statics.1d663b8d3110406501ef71e24cbc8c20
+00009405 burst.initialize.externals.cf1f55f4d0e7ff667d7f2d581f72d66e
+00009441 burst.initialize.statics.cf1f55f4d0e7ff667d7f2d581f72d66e
+0000947b cf1f55f4d0e7ff667d7f2d581f72d66e
+0000949c 59142aef52ef9b6ab273da58974494a1
+000094bd burst.initialize.externals.59142aef52ef9b6ab273da58974494a1
+000094f9 burst.initialize.statics.59142aef52ef9b6ab273da58974494a1
+00009533 7cc5f3a00f14376bdb7c633e66b0a186
+00009554 burst.initialize.externals.7cc5f3a00f14376bdb7c633e66b0a186
+00009590 burst.initialize.statics.7cc5f3a00f14376bdb7c633e66b0a186
+000095ca 18315121a9f14c7140ec55ec386d5f0f
+000095eb Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMaterialID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAddAtomic(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key, UnityEngine.Rendering.BatchMaterialID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null item, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 threadIndex) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000099f0 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAddAtomic(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key, UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null item, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 threadIndex) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00009e0d burst.initialize.externals.18315121a9f14c7140ec55ec386d5f0f
+00009e49 burst.initialize.statics.18315121a9f14c7140ec55ec386d5f0f
+00009e83 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMaterialID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.AllocEntry(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 threadIndex) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000a1aa Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.AllocEntry(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 threadIndex) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000a4dd a7eb2129bbf8bd7104fae916867c0b01
+0000a4fe Unity.Collections.LowLevel.Unsafe.HashMapHelper`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAdd(Unity.Collections.LowLevel.Unsafe.HashMapHelper`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32&, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000a7ea burst.initialize.externals.a7eb2129bbf8bd7104fae916867c0b01
+0000a826 burst.initialize.statics.a7eb2129bbf8bd7104fae916867c0b01
+0000a860 Unity.Collections.LowLevel.Unsafe.HashMapHelper`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact(Unity.Collections.LowLevel.Unsafe.HashMapHelper`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newBucketCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000abc4 9f30316e6bdfd8714f19313b7e23c0f5
+0000abe5 UnityEngine.Rendering.ReceiverPlanes, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Create(UnityEngine.Rendering.BatchCullingContext&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null cc, Unity.Collections.Allocator, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator) -> UnityEngine.Rendering.ReceiverPlanes, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000ae72 UnityEngine.Rendering.ReceiverSphereCuller, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Create(UnityEngine.Rendering.BatchCullingContext&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null cc, Unity.Collections.Allocator, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator) -> UnityEngine.Rendering.ReceiverSphereCuller, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000b10b UnityEngine.Rendering.FrustumPlaneCuller, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Create(UnityEngine.Rendering.BatchCullingContext&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null cc, Unity.Collections.NativeArray`1[[UnityEngine.Plane, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null receiverPlanes, UnityEngine.Rendering.ReceiverSphereCuller&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null receiverSphereCuller, Unity.Collections.Allocator, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator) -> UnityEngine.Rendering.FrustumPlaneCuller, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000b525 burst.Sleef_tan_u35_armv8a
+0000b540 burst.initialize.externals.9f30316e6bdfd8714f19313b7e23c0f5
+0000b57c burst.initialize.statics.9f30316e6bdfd8714f19313b7e23c0f5
+0000b5b6 Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Plane, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Plane, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000b9bc Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.FrustumPlaneCuller+PlanePacket4, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.FrustumPlaneCuller+PlanePacket4, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000be2c Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.FrustumPlaneCuller+SplitInfo, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.FrustumPlaneCuller+SplitInfo, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000c296 Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.ReceiverSphereCuller+SplitInfo, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.ReceiverSphereCuller+SplitInfo, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000c704 Unity.Collections.NativeList`1[[UnityEngine.Plane, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Dispose(Unity.Collections.NativeList`1[[UnityEngine.Plane, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000c98e rempi_armv8a
+0000c99b rempitabdp
+0000c9a6 68a8ea65a4f1ea752d1138be3be73a9a
+0000c9c7 Unity.Collections.UnsafeQueue`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Free(Unity.Collections.UnsafeQueue`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000cc2c burst.initialize.externals.68a8ea65a4f1ea752d1138be3be73a9a
+0000cc68 burst.initialize.statics.68a8ea65a4f1ea752d1138be3be73a9a
+0000cca2 burst.string.03bb0bbe86ba419eda2df46b2e679c49
+0000ccd0 980427a8dd28167a01719079bf496bbc
+0000ccf1 burst.initialize.externals.980427a8dd28167a01719079bf496bbc
+0000cd2d burst.initialize.statics.980427a8dd28167a01719079bf496bbc
+0000cd67 027d1c28103a1381ae64161c5340b997
+0000cd88 burst.string.47f51fcea1db3d8c6806b705b40b3226
+0000cdb6 burst.initialize.externals.027d1c28103a1381ae64161c5340b997
+0000cdf2 burst.initialize.statics.027d1c28103a1381ae64161c5340b997
+0000ce2c 64cd2249db1cd2827e4382c5f345d9c3
+0000ce4d burst.initialize.externals.64cd2249db1cd2827e4382c5f345d9c3
+0000ce89 burst.initialize.statics.64cd2249db1cd2827e4382c5f345d9c3
+0000cec3 41653fbb2b01af86b92c23069361487d
+0000cee4 burst.initialize.externals.41653fbb2b01af86b92c23069361487d
+0000cf20 burst.initialize.statics.41653fbb2b01af86b92c23069361487d
+0000cf5a 3b4428102ac29b8776e97bd2840b189b
+0000cf7b UnityEngine.Rendering.InstanceDataSystemBurst+FreeRendererGroupInstances_00000280$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(Unity.Collections.NativeArray`1+ReadOnly[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rendererGroupsID, UnityEngine.Rendering.InstanceAllocators&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceAllocators, UnityEngine.Rendering.CPUInstanceData&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceData, UnityEngine.Rendering.CPUSharedInstanceData&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null sharedInstanceData, Unity.Collections.NativeParallelMultiHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rendererGroupInstanceMultiHash) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000d55f burst.initialize.externals.3b4428102ac29b8776e97bd2840b189b
+0000d59b burst.initialize.statics.3b4428102ac29b8776e97bd2840b189b
+0000d5d5 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Remove(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000d96c UnityEngine.Rendering.CPUInstanceData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Remove(UnityEngine.Rendering.CPUInstanceData*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instance) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000dbf6 UnityEngine.Rendering.CPUSharedInstanceData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Remove(UnityEngine.Rendering.CPUSharedInstanceData*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.SharedInstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instance) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000de92 428d454056b9288c93f4435d6e6f7fda
+0000deb3 burst.initialize.externals.428d454056b9288c93f4435d6e6f7fda
+0000deef burst.initialize.statics.428d454056b9288c93f4435d6e6f7fda
+0000df29 81d4349bbc49408c1d2f4889f8de4ccd
+0000df4a burst.initialize.externals.81d4349bbc49408c1d2f4889f8de4ccd
+0000df86 burst.initialize.statics.81d4349bbc49408c1d2f4889f8de4ccd
+0000dfc0 burst.initialize.externals.fbc079948c97a98cd097eb9cc996cc4a
+0000dffc burst.initialize.statics.fbc079948c97a98cd097eb9cc996cc4a
+0000e036 fbc079948c97a98cd097eb9cc996cc4a
+0000e057 burst.initialize.externals.f9bbde7d6de2f38c236b20159d9a044a
+0000e093 burst.initialize.statics.f9bbde7d6de2f38c236b20159d9a044a
+0000e0cd f9bbde7d6de2f38c236b20159d9a044a
+0000e0ee 79a98841a9e88a9648a38b19b7e5260b
+0000e10f UnityEngine.Rendering.InstanceCullingBatcherBurst+CreateDrawBatches_00000184$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 implicitInstanceIndices, Unity.Collections.NativeArray`1[[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instances, UnityEngine.Rendering.GPUDrivenRendererGroupData&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rendererData, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMeshID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchMeshHash, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMaterialID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchMaterialHash, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null packedMaterialDataHash, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rangeHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawRanges, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawBatch, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawBatches, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawInstance, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawInstances) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000ee85 burst.initialize.externals.79a98841a9e88a9648a38b19b7e5260b
+0000eec1 burst.string.e032451e108c081916a72836299e732a
+0000eeef Unity.Burst.LowLevel.BurstCompilerService::RuntimeLog_Ptr
+0000ef29 burst.initialize.statics.79a98841a9e88a9648a38b19b7e5260b
+0000ef63 Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.DrawBatch, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.DrawBatch, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000f3a7 Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.DrawInstance, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.DrawInstance, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000f7f1 Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0000fc35 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAdd(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 item, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocation) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000100d4 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ReallocateHashMap<UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089>(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newBucketCapacity, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null label) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000104f5 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAdd(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 item, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocation) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00010996 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ReallocateHashMap<UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089>(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newBucketCapacity, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null label) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00010db8 UnityEngine.Rendering.InstanceCullingBatcherBurst, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ProcessRenderer(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 i, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 implicitInstanceIndices, UnityEngine.Rendering.GPUDrivenRendererGroupData&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rendererData, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMeshID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchMeshHash, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null packedMaterialDataHash, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMaterialID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchMaterialHash, Unity.Collections.NativeArray`1[[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instances, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawInstance, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawInstances, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rangeHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawRanges, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawBatch, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawBatches) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00011b60 UnityEngine.Rendering.InstanceCullingBatcherBurst, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.EditDrawBatch(UnityEngine.Rendering.DrawKey&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, UnityEngine.Rendering.SubMeshDescriptor&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null subMeshDescriptor, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawBatch, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawBatches) -> UnityEngine.Rendering.DrawBatch&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001206d UnityEngine.Rendering.InstanceCullingBatcherBurst, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.EditDrawRange(UnityEngine.Rendering.RangeKey&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rangeHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawRanges) -> UnityEngine.Rendering.DrawRange&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000124f0 UnityEngine.Rendering.InstanceCullingBatcherBurst.ProcessRenderer(int i, bool implicitInstanceIndices, ref UnityEngine.Rendering.GPUDrivenRendererGroupData rendererData, Unity.Collections.NativeParallelHashMap`2<int,UnityEngine.Rendering.BatchMeshID> batchMeshHash, Unity.Collections.NativeParallelHashMap`2<int,UnityEngine.Rendering.GPUDrivenPackedMaterialData> packedMaterialDataHash, Unity.Collections.NativeParallelHashMap`2<int,UnityEngine.Rendering.BatchMaterialID> batchMaterialHash, Unity.Collections.NativeArray`1<UnityEngine.Rendering.InstanceHandle> instances, Unity.Collections.NativeList`1<UnityEngine.Rendering.DrawInstance> drawInstances, Unity.Collections.NativeParallelHashMap`2<UnityEngine.Rendering.RangeKey,int> rangeHash, Unity.Collections.NativeList`1<UnityEngine.Rendering.DrawRange> drawRanges, Unity.Collections.NativeParallelHashMap`2<UnityEngine.Rendering.DrawKey,int> batchHash, Unity.Collections.NativeList`1<UnityEngine.Rendering.DrawBatch> drawBatches) -> void_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.string.IL_0186
+00012964 UnityEngine.Rendering.InstanceCullingBatcherBurst.ProcessRenderer(int i, bool implicitInstanceIndices, ref UnityEngine.Rendering.GPUDrivenRendererGroupData rendererData, Unity.Collections.NativeParallelHashMap`2<int,UnityEngine.Rendering.BatchMeshID> batchMeshHash, Unity.Collections.NativeParallelHashMap`2<int,UnityEngine.Rendering.GPUDrivenPackedMaterialData> packedMaterialDataHash, Unity.Collections.NativeParallelHashMap`2<int,UnityEngine.Rendering.BatchMaterialID> batchMaterialHash, Unity.Collections.NativeArray`1<UnityEngine.Rendering.InstanceHandle> instances, Unity.Collections.NativeList`1<UnityEngine.Rendering.DrawInstance> drawInstances, Unity.Collections.NativeParallelHashMap`2<UnityEngine.Rendering.RangeKey,int> rangeHash, Unity.Collections.NativeList`1<UnityEngine.Rendering.DrawRange> drawRanges, Unity.Collections.NativeParallelHashMap`2<UnityEngine.Rendering.DrawKey,int> batchHash, Unity.Collections.NativeList`1<UnityEngine.Rendering.DrawBatch> drawBatches) -> void_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.string.IL_02DA
+00012dd8 444a077de582689b80065c15567a7b1a
+00012df9 burst.initialize.externals.444a077de582689b80065c15567a7b1a
+00012e35 burst.initialize.statics.444a077de582689b80065c15567a7b1a
+00012e6f 9158ad0c7b1f439e6e4b8e153f6320c3
+00012e90 burst.initialize.externals.9158ad0c7b1f439e6e4b8e153f6320c3
+00012ecc burst.initialize.statics.9158ad0c7b1f439e6e4b8e153f6320c3
+00012f06 a6f5259e22ed809ef3937424c4bd686d
+00012f27 UnityEngine.Rendering.Universal.TilingJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TileReflectionProbe(UnityEngine.Rendering.Universal.TilingJob*, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 index) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_577cc8a0fe599d1a540f8a2198d9513b from Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00013198 UnityEngine.Rendering.Universal.TilingJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TileLightOrthographic(UnityEngine.Rendering.Universal.TilingJob*, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 lightIndex) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_577cc8a0fe599d1a540f8a2198d9513b from Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00013410 UnityEngine.Rendering.Universal.TilingJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TileLight(UnityEngine.Rendering.Universal.TilingJob*, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 lightIndex) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_577cc8a0fe599d1a540f8a2198d9513b from Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001367c burst.initialize.externals.a6f5259e22ed809ef3937424c4bd686d
+000136b8 burst.initialize.statics.a6f5259e22ed809ef3937424c4bd686d
+000136f2 UnityEngine.Rendering.Universal.TilingJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.FindNearConicYTheta(System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 near, Unity.Mathematics.float3, Unity.Mathematics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null o, Unity.Mathematics.float3, Unity.Mathematics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null d, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 r, Unity.Mathematics.float3, Unity.Mathematics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null u, Unity.Mathematics.float3, Unity.Mathematics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null v, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 y) -> Unity.Mathematics.float2, Unity.Mathematics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null_577cc8a0fe599d1a540f8a2198d9513b from Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00013b30 burst.Sleef_cosf_u35_armv8a
+00013b4c burst.Sleef_sinf_u35_armv8a
+00013b68 Unity.Mathematics.int4[] UnityEngine.Rendering.Universal.TilingJob::k_CubeLineIndices_$__data_0c2ac4cec6d7e040
+00013bd7 rempif_armv8a
+00013be5 rempitabsp
+00013bf0 b223785fcbdbe4a27e2d3722e3db36c3
+00013c11 burst.string.ef1d7725f25e36552ec31e22050eb8e7
+00013c3f burst.initialize.externals.b223785fcbdbe4a27e2d3722e3db36c3
+00013c7b burst.initialize.statics.b223785fcbdbe4a27e2d3722e3db36c3
+00013cb5 aa309157da5950aa53ed6075709e6e40
+00013cd6 burst.initialize.externals.aa309157da5950aa53ed6075709e6e40
+00013d12 burst.initialize.statics.aa309157da5950aa53ed6075709e6e40
+00013d4c 6cbc8b9fecd561aa69df18786402e579
+00013d6d UnityEngine.Rendering.InstanceDataSystemBurst+ReallocateInstances_0000027F$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 implicitInstanceIndices, Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rendererGroupIDs, Unity.Collections.NativeArray`1[[UnityEngine.Rendering.GPUDrivenPackedRendererData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null packedRendererData, Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceOffsets, Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceCounts, UnityEngine.Rendering.InstanceAllocators&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceAllocators, UnityEngine.Rendering.CPUInstanceData&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instanceData, UnityEngine.Rendering.CPUSharedInstanceData&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null sharedInstanceData, Unity.Collections.NativeArray`1[[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instances, Unity.Collections.NativeParallelMultiHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rendererGroupInstanceMultiHash) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001477c burst.initialize.externals.6cbc8b9fecd561aa69df18786402e579
+000147b8 burst.initialize.statics.6cbc8b9fecd561aa69df18786402e579
+000147f2 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ReallocateHashMap<System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newBucketCapacity, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null label) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00014c1a UnityEngine.Rendering.CPUInstanceData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.AddNoGrow(UnityEngine.Rendering.CPUInstanceData*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.InstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instance) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00014ea7 UnityEngine.Rendering.CPUSharedInstanceData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.SetDefault(UnityEngine.Rendering.CPUSharedInstanceData*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.SharedInstanceHandle, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null instance) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00015147 burst.initialize.externals.ee7932f2d26e0fb2075ceacb8fd2b910
+00015183 burst.initialize.statics.ee7932f2d26e0fb2075ceacb8fd2b910
+000151bd ee7932f2d26e0fb2075ceacb8fd2b910
+000151de af2c1e0bcc7571bda3b5bca33403462e
+000151ff Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAdd(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key, UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null item, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocation) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000156a4 burst.initialize.externals.af2c1e0bcc7571bda3b5bca33403462e
+000156e0 burst.initialize.statics.af2c1e0bcc7571bda3b5bca33403462e
+0001571a Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ReallocateHashMap<System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,UnityEngine.Rendering.GPUDrivenPackedMaterialData, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newBucketCapacity, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null label) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00015b3e 2de7610275c816c1669b083b75290d16
+00015b5f burst.initialize.externals.2de7610275c816c1669b083b75290d16
+00015b9b burst.initialize.statics.2de7610275c816c1669b083b75290d16
+00015bd5 760037f9e4b42ec56ef1759249aa8afe
+00015bf6 Unity.Collections.LowLevel.Unsafe.UnsafeText, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Free(Unity.Collections.LowLevel.Unsafe.UnsafeText*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00015dbb burst.initialize.externals.760037f9e4b42ec56ef1759249aa8afe
+00015df7 burst.initialize.statics.760037f9e4b42ec56ef1759249aa8afe
+00015e31 burst.string.feed54fc5b78992fec17cb567fdaad9c
+00015e5f 660453e77e7446c547511a17e62a4458
+00015e80 burst.initialize.externals.660453e77e7446c547511a17e62a4458
+00015ebc burst.initialize.statics.660453e77e7446c547511a17e62a4458
+00015ef6 40ec7fc52bbe67c54ccf3a25c016c022
+00015f17 burst.initialize.externals.40ec7fc52bbe67c54ccf3a25c016c022
+00015f53 burst.initialize.statics.40ec7fc52bbe67c54ccf3a25c016c022
+00015f8d 26cbe08c7c0cc9c5beeb20459a4e562d
+00015fae burst.initialize.externals.26cbe08c7c0cc9c5beeb20459a4e562d
+00015fea burst.initialize.statics.26cbe08c7c0cc9c5beeb20459a4e562d
+00016024 06d34a132a763cc87a1b9dbd3092e8ea
+00016045 burst.initialize.externals.06d34a132a763cc87a1b9dbd3092e8ea
+00016081 burst.initialize.statics.06d34a132a763cc87a1b9dbd3092e8ea
+000160bb 959783104064e8c81fba5d33d94ead01
+000160dc burst.initialize.externals.959783104064e8c81fba5d33d94ead01
+00016118 burst.initialize.statics.959783104064e8c81fba5d33d94ead01
+00016152 2230a143748f5ecbc3a89a75bf0ad747
+00016173 burst.initialize.externals.2230a143748f5ecbc3a89a75bf0ad747
+000161af burst.initialize.statics.2230a143748f5ecbc3a89a75bf0ad747
+000161e9 burst.initialize.externals.f0c1de1e0e473dd1e2134aa9c2aedec8
+00016225 burst.string.2818560329a6930823c41d4980837452
+00016253 UnityEngine.LightProbesQuery::CalculateInterpolatedLightAndOcclusionProbes_Ptr
+000162a2 burst.initialize.statics.f0c1de1e0e473dd1e2134aa9c2aedec8
+000162dc f0c1de1e0e473dd1e2134aa9c2aedec8
+000162fd 5fdfeaf18115ebd7d5568447b4fcc068
+0001631e burst.initialize.externals.5fdfeaf18115ebd7d5568447b4fcc068
+0001635a burst.initialize.statics.5fdfeaf18115ebd7d5568447b4fcc068
+00016394 burst.initialize.externals.db6d8428411f96db68c6d896350dcfe8
+000163d0 burst.initialize.statics.db6d8428411f96db68c6d896350dcfe8
+0001640a db6d8428411f96db68c6d896350dcfe8
+0001642b 2f7e0116d3410ede708e88fe612f7c45
+0001644c burst.initialize.externals.2f7e0116d3410ede708e88fe612f7c45
+00016488 burst.initialize.statics.2f7e0116d3410ede708e88fe612f7c45
+000164c2 8f778f1045e597de4fb57be76d58bf33
+000164e3 burst.initialize.externals.8f778f1045e597de4fb57be76d58bf33
+0001651f burst.initialize.statics.8f778f1045e597de4fb57be76d58bf33
+00016559 209746fb9df6b9e66808d1c71bbb249b
+0001657a Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Malloc_Ptr
+000165b6 burst.initialize.externals.209746fb9df6b9e66808d1c71bbb249b
+000165f2 burst.string.bdd666115e14b80ef580b8be74b6c82f
+00016620 burst.initialize.statics.209746fb9df6b9e66808d1c71bbb249b
+0001665a 37865de3b54f1de9211580a333ee3519
+0001667b UnityEngine.Rendering.RemoveDrawInstanceIndicesJob, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.RemoveDrawBatch(UnityEngine.Rendering.RemoveDrawInstanceIndicesJob*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.DrawKey&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001691d burst.initialize.externals.37865de3b54f1de9211580a333ee3519
+00016959 burst.initialize.statics.37865de3b54f1de9211580a333ee3519
+00016993 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Remove(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00016d47 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Remove(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+000170fd Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.set_Item(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 value) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001757e Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.set_Item(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 value) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00017a02 UnityEngine.Rendering.RemoveDrawInstanceIndicesJob, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.RemoveDrawRange(UnityEngine.Rendering.RemoveDrawInstanceIndicesJob*, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, UnityEngine.Rendering.RangeKey&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00017ca5 burst.initialize.externals.daeac82c5bda0cec225f4b7eee5774e9
+00017ce1 burst.initialize.statics.daeac82c5bda0cec225f4b7eee5774e9
+00017d1b daeac82c5bda0cec225f4b7eee5774e9
+00017d3c UnityEngine.Rendering.GPUResidentDrawerBurst+FindUnsupportedRenderers_000000E7$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null unsupportedMaterials, Unity.Collections.NativeArray`1+ReadOnly[[UnityEngine.Rendering.SmallIntegerArray, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null materialIDArrays, Unity.Collections.NativeArray`1+ReadOnly[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rendererGroups, Unity.Collections.NativeList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null unsupportedRenderers) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001829f 7f9c693efd613feefc88a26bf6938ff5
+000182c0 UnityEngine.Rendering.InstanceCullingBatcherBurst+RemoveDrawInstanceIndices_00000180$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawInstanceIndices, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawInstance, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawInstances, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rangeHash, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawRanges, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawBatch, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawBatches) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00018afc burst.initialize.externals.7f9c693efd613feefc88a26bf6938ff5
+00018b38 burst.initialize.statics.7f9c693efd613feefc88a26bf6938ff5
+00018b72 UnityEngine.Rendering.InstanceCullingBatcherBurst, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.RemoveDrawBatch(UnityEngine.Rendering.DrawKey&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawRanges, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rangeHash, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.DrawKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null batchHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawBatch, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawBatches) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00019227 UnityEngine.Rendering.InstanceCullingBatcherBurst, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.RemoveDrawRange(UnityEngine.Rendering.RangeKey&, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null key, Unity.Collections.NativeParallelHashMap`2[[UnityEngine.Rendering.RangeKey, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null rangeHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.DrawRange, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null drawRanges) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00019686 burst.initialize.externals.e6a9132d09c113f0975355db1c7ee6e9
+000196c2 burst.initialize.statics.e6a9132d09c113f0975355db1c7ee6e9
+000196fc e6a9132d09c113f0975355db1c7ee6e9
+0001971d b29d8af445855df3eafdddfe8da10cc4
+0001973e UnityEngine.Rendering.LODGroupDataPoolBurst+AllocateOrGetLODGroupDataInstances_000002D1$BurstDirectCall, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(Unity.Collections.NativeArray`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null lodGroupsID, Unity.Collections.NativeList`1[[UnityEngine.Rendering.LODGroupData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null lodGroupsData, Unity.Collections.NativeList`1[[UnityEngine.Rendering.LODGroupCullingData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null lodGroupCullingData, Unity.Collections.NativeParallelHashMap`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null lodGroupDataHash, Unity.Collections.NativeList`1[[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null freeLODGroupDataHandles, Unity.Collections.NativeArray`1[[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null lodGroupInstances) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e183c4ff141fe4f70af5fed812ce8596 from Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+00019f5b burst.initialize.externals.b29d8af445855df3eafdddfe8da10cc4
+00019f97 burst.initialize.statics.b29d8af445855df3eafdddfe8da10cc4
+00019fd1 Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.LODGroupCullingData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.LODGroupCullingData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001a429 Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.LODGroupData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ResizeExact<Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeList`1[[UnityEngine.Rendering.LODGroupData, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null this, Unity.Collections.AllocatorManager+AllocatorHandle&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocator, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001a873 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAdd(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key, UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null item, System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 isMultiHashMap, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null allocation) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001ad24 Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.ReallocateHashMap<System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089,UnityEngine.Rendering.GPUInstanceIndex, Unity.RenderPipelines.GPUDriven.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null>(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newCapacity, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 newBucketCapacity, Unity.Collections.AllocatorManager+AllocatorHandle, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null label) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001b14e burst.initialize.externals.ca60ab232d19a9f4380a530fa0d222cf
+0001b18a burst.initialize.statics.ca60ab232d19a9f4380a530fa0d222cf
+0001b1c4 ca60ab232d19a9f4380a530fa0d222cf
+0001b1e5 8a11958584e6d7f43fdafe25379de05d
+0001b206 burst.initialize.externals.8a11958584e6d7f43fdafe25379de05d
+0001b242 burst.initialize.statics.8a11958584e6d7f43fdafe25379de05d
+0001b27c 276b96e48754d7f5ba865bd7f5b37c11
+0001b29d burst.initialize.externals.276b96e48754d7f5ba865bd7f5b37c11
+0001b2d9 burst.initialize.statics.276b96e48754d7f5ba865bd7f5b37c11
+0001b313 956e4506a89021f60bea991d59455e85
+0001b334 burst.initialize.externals.956e4506a89021f60bea991d59455e85
+0001b370 burst.initialize.statics.956e4506a89021f60bea991d59455e85
+0001b3aa 59481637653112fa89d3e6222e05e479
+0001b3cb Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMeshID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.TryAddAtomic(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 key, UnityEngine.Rendering.BatchMeshID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null item, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 threadIndex) -> System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001b7c8 burst.initialize.externals.59481637653112fa89d3e6222e05e479
+0001b804 burst.initialize.statics.59481637653112fa89d3e6222e05e479
+0001b83e Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Rendering.BatchMeshID, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.AllocEntry(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData*, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null data, System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 threadIndex) -> System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_6b819cebaf1ef725cd901633f4592019 from Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0001bb61 bfb92a5f7fd6b5fad55775a2d5c4b979
+0001bb82 burst.initialize.externals.bfb92a5f7fd6b5fad55775a2d5c4b979
+0001bbbe burst.initialize.statics.bfb92a5f7fd6b5fad55775a2d5c4b979
+0001bbf8 b78f808503c8b5fe97a83e833bd5871d
+0001bc19 burst.initialize.externals.b78f808503c8b5fe97a83e833bd5871d
+0001bc55 burst.initialize.statics.b78f808503c8b5fe97a83e833bd5871d
+0001bc8f System.IntPtr System.IntPtr::Zero
+0001bcb1 System.UInt32 UnityEngine.Rendering.Universal.DecalDrawSystem::MaxBatchSize
+0001bcfd Unity.Mathematics.float3 Unity.Mathematics.float3::zero
+0001bd35 Unity.Mathematics.float3[] UnityEngine.Rendering.Universal.TilingJob::k_CubePoints
+0001bd88 Unity.Mathematics.float3[] UnityEngine.Rendering.Universal.TilingJob::k_CubePoints_$__data_6d0a1cdf22a942e6
+0001bdf4 Unity.Mathematics.float4 Unity.Mathematics.float4::zero
+0001be2c Unity.Mathematics.int4[] UnityEngine.Rendering.Universal.TilingJob::k_CubeLineIndices
+0001be82 UnityEngine.Rendering.GPUInstanceIndex UnityEngine.Rendering.GPUInstanceIndex::Invalid
+0001bed9 UnityEngine.Rendering.InstanceHandle UnityEngine.Rendering.InstanceHandle::Invalid
+0001bf2c UnityEngine.Rendering.SharedInstanceHandle UnityEngine.Rendering.SharedInstanceHandle::Invalid
+0001bf8b UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+0001bfbf burst.initialize
+0001bfd0 libc.so
+0001bfd8 LIBC
+0001bfdd libm.so
+0001bfe5 libdl.so
+0001de08 hUUUUU
+0001de1b m0_d>
+0001de79 4QU_D5?
+0001debc 'lm?
+0002130d #})?
+000213ea A9B}
+000214c7 Th  
+000215ab Th  
+0002173f Th  
+00021823 Th  
+00021977 *sVG
+00021cb9 h(8_
+00021e30 )! K
+0002241f T<{{
+00022437 7I!@
+00022453 Thyh
+00022469 "A)s~@
+00022492 I*)	I*)
+0002249a I*)!I*)AI*"
+00022502 I*)	I*)
+0002250a I*)!I*)AI*"
+00022556 I*)	I*)
+0002255e I*)!I*)AI*"
+00022672 I*)	I*)
+0002267a I*)!I*)AI*"
+000226d1 "A)5
+000226f2 I*)	I*)
+000226fa I*)!I*)AI*"
+00022754 u"A)
+00022772 I*)	I*)
+0002277a I*)!I*)AI*"
+00022828 *hh8
+00022943 TKE@
+00022b0f r*-@))	@
+00022b45 %@)_
+00022ffe k8-b
+000232a5 "@9[
+000232ce 	K,o
+000233ab Qhzl
+000233bf *jz,
+00023403 Tiz7
+00023413 Thzw
+00023427 *iz7
+0002345b Tjz+
+00023467 Qjzk
+00023477 klz+
+000234d3 km}@
+000234e7 T/{m
+0002352b TH|@
+0002353f Tkzi
+0002354b Tkz7
+00023563 Tkz7
+000235e7 kpz.
+00023687 koz-
+000236a7 Tiz7
+0002377b Qhzl
+0002378f *jz,
+000237d3 Tiz7
+000237e3 Thzw
+000237f7 *iz7
+0002382b Tjz+
+00023837 Qjzk
+00023847 klz+
+000238a3 km}@
+000238b7 T/{m
+000238fb TH|@
+0002390f Tkzi
+0002391b Tkz7
+00023933 Tkz7
+000239b7 kpz.
+00023a57 koz-
+00023a77 Tiz7
+00023b2f *sVG
+00023be3 R	yz
+00023bed )Ijkihx-	
+00023c01 )Ij.}
+00023c67 7M!@
+00023cab SIyk
+00023cf3 =A	@
+00023cfa @96y
+00023d73 <(yh
+00023e25 A	*_	
+00023f21 3I).y6
+00024086 $NLQ
+0002409f Mxy)
+0002421c )! K
+00024325 +C)`
+00024346 I*)	I*)
+0002434e I*)!I*)AI*"
+0002453d oG)s
+000248dd oC)s
+00024a3b 5)=@
+00024b07 =*`@9
+00024b5c 0DB)
+00024b6a @9!4@
+00024b9f 7%!@
+00024d25 'A)*
+00024db0 /jo8
+00024f2b =N}@
+0002508b ^!("
+00025262 I*)	I*)
+0002526a I*)!I*)AI*"
+0002551d 'C))
+0002561f o+m}
+0002567e `NuF
+00025703 o+i|
+00025772 9N~G
+00025a50 )! K
+00025ac4 	 @y
+00025ac9 $@y+A
+00025da8 )! K
+00025e1c t"@yu&@y
+00026193 *)$z
+00026407 k7i;8
+00026410 (i;8
+000265ed qA9j
+00026623 R	x@
+0002676b ^!h"
+0002678b /`8 
+000267dd QA9a
+000267f7 T@Yi
+00026853 / 8 
+00026a43 O!("
+00026ab7 ^R*3
+00026b4f N#(&
+00026b7f _ "0
+00026d13 TN}	
+00026dbb *JiG
+0002722d #p))}@
+00027372 "N"X
+0002737e  NBX
+0002738a 'N#`
+000273ab ni:@
+00027519 +2)v#
+0002755f ^	(!
+000276d5 iw8h
+000276db 6h"@
+00027762 %n$$
+000277d2 #N#`
+000279b2 "N"X
+000279be  NBX
+000279ca 'N#`
+000279eb ni:@
+00027b2f T(C_
+00027b9b ^	(!
+00027d13 6h"@
+00027d9a %n$$
+00027e0a #N#`
+0002822b TNym
+0002829b *Kym
+000283e3 T!{|
+00028439 "A)Z
+0002846e I*)	I*)
+00028476 I*)!I*)AI*"
+000285f7 T1)@
+00028667 7'!@
+000286eb RmE@
+0002897d A	* 
+00028ab0 ib@9*
+00028c0f TN}	
+00028e3f Tpyi
+00028e4f 7Q!@
+00028ecb TN		
+00028fab *sVG
+0002902a 	KXk|
+0002937d X nE
+00029417 THyh
+000297d9 X nE
+00029873 THyh
+000299ff TK%@
+00029a13 7L!@
+00029bd3 *keG
+00029c2d #A)b
+00029ce3 T6{u
+00029d97 T	,@
+00029e67 T	,@
+0002a158 )! Kk
+0002aad3 8JeG
+0002acbe I*)	I*)
+0002acc6 I*)!I*)AI*"
+0002ad9b Rh#	
+0002ada1 QB)?
+0002add7 T<#A)
+0002ae0e I*)	I*)
+0002ae16 I*)!I*)AI*"
+0002ae73 54#A)
+0002ae9a I*)	I*)
+0002aea2 I*)!I*)AI*"
+0002b197 T M@
+0002b1a3 T =@
+0002b1af T -@
+0002b22a ".!( 
+0002b23b ^ ( 
+0002b249 !A)s~@
+0002b28a I*)	I*)
+0002b292 I*)!I*)AI*"
+0002b3ae @MB@
+0002b3ba  nc@
+0002b3d6 %nd`
+0002b417 ^B(#
+0002b443 n!(a
+0002b4fa I*)	I*)
+0002b502 I*)!I*)AI*"
+0002b60f ^ 8 
+0002b61d !A)s~@
+0002b65e I*)	I*)
+0002b666 I*)!I*)AI*"
+0002b792 @MB@
+0002b79e  nc@
+0002b7ba "nd`
+0002b7eb ^B($
+0002b827 n!(a
+0002b8de I*)	I*)
+0002b8e6 I*)!I*)AI*"
+0002ba5f R)eG
+0002c003 ~1*s
+0002c038 7aAm
+0002c4ba @9J}@
+0002c5e8 hz@yi~@y
+0002c5fd A	*JiG
+0002c64f ohz@yi~@y
+0002c831 +A)_
+0002ca29 /Aih
+0002caab T/yj
+0002cd28 )! Kk
+0002cec8 )! Kk
+0002cf7b TNym
+0002cfeb *Kym
+0002d291 u@yI
+0002d3bf =!	@
+0002d4e7 7	 @
+0002d574 5#A)
+0002d5a3 QHy)
+0002d5ca I*)	I*)
+0002d5d2 I*)!I*)AI*"
+0002d67a I*)	I*)
+0002d682 I*)!I*)AI*"
+0002d6bf 7	 @
+0002daf3 ohZ~
+0002db4f T)=@
+0002db70 lim8l
+0002dbef ohV}
+0002dc08 BX NcX N
+0002dc15 X NB( nc( n
+0002dc25 ( nB(`nc(`n
+0002dc35 (`nB(
+0002df23 5/{i
+0002e419 +A)_
+0002eb93 =;`@93$@
+0002eb9c 6PB)><
+0002ebb2 @9:,@
+0002ebba @9%4@
+0002ebff qJ-	
+0002ecc3 Tiyi
+0002ecd3 T	 @
+0002ed33 T	}|
+0002ed5b 6	 @
+0002ee30 -l@9|
+0002ee5a Cx)5
+0002ee6e @9)}
+0002eef4 ;hA)%l@96h@97d@94`@98
+0002ef0c 9@@9<
+0002efd7 Tiyi
+0002efe7 T	 @
+0002f037 T	}|
+0002f05f 6	 @
+0002f1ab Q	 @
+0002f1d7 Th&@
+0002f2bb R)eG
+0002f41f Tn&@
+0002f475 a@90
+0002f4ef 6n&@
+0002f603 Q	 @
+0002f62f Th&@
+0002f713 R)eG
+0002f877 Tn&@
+0002f91f 6n&@
+0002fbaf =6`C)
+0002fbc0 5\D)
+0002fc94 t"A)
+0002fd31 %	)h
+0002fd62 T*)	I*)
+0002fd6a I*)!I*)AI*"
+0002fddd KA9	
+0002fe86 @)	(@
+0002fea1 a@9?
+0002feb1 m@9+
+0002ff07 7	 @
+0002ff67 THyh
+0002ffc0 8#A)
+0003004e X*)	I*)
+00030056 I*)!I*)AI*"
+000300d2 D)	m
+000301af 7n!@
+000301fb xHyh
+0003024f xl:@
+000302ab 4hj@
+0003064f RJyo
+000306c5 '2)L
+00030735 #k)i
+000307e5 c]8	
+000308be X*)	I*)
+000308c6 I*)!I*)AI*"
+00030955 c]8	
+00030b45 $@y`
+00030dc1 cC)?
+000311e3 rb8"
+000312e3 o)$(
+000313ae &.f^@
+000313ba %.e~@
+000314af ^c($
+0003155b T%	G
+00031577 nxA!
+00031593 T2B!
+000315a7 ^`"-
+000315b7 .sZ .
+000315bd Z .h
+000316e6 %.e~@
+000317db Te~@
+000318f3 T"	G
+00031959 Z .1Z .	
+0003197b .` .
+00031997 ^  -
+000319a7 .!X .
+000319ad X .)
+000319e9 +2-"
+00031a2b ^c($
+00031a6a #.c@
+00031a7a ".b~@
+00031b43 ^c($
+00031b63 ^B(#
+00031b6f Tb~@
+00031b7e ByI<
+00031b8d +2-h
+00031c4e By'	
+00031c93 O  "
+00031cce @MC`
+00031d0b ^c($
+00031d6b ^A(!
+00031d84 !a	n @	n!C!
+00031dbb .b("
+00031f06 $.d~@
+00031fa3 ^@ -
+00031fe2 #.c~@
+0003208b rB(#
+000320d6 @Md`
+0003216a %nJ!
+000322cb ^` -
+0003230a $.d~@
+000323a7 ^  -
+000323d6 #.c@
+000323e6 ".b~@
+000324b2 $n"`
+000324d3 n!($
+0003256a ".#y
+00032572 #.c@
+00032582 ".b~@
+00032642 %.&y
+000326e3 yg	+
+0003278b ^c($
+00032a5f = @ 
+00032a77 =(("
+00032b1f = A 
+00032b3f <-("
+00032bdf ^c(%
+00032bf7 ^B(#
+00032bff =@ #
+00032c3e #.c^@
+00032c4a ".b~@
+00032d03 ^c($
+00032d1f ^!(#
+00032d37 ^!("
+00032d3f =  "
+00032d7a !.!@
+00032d8a  .`~@
+00032e43 r@("
+00032f1b r ( 
+00032f47 N!8"
+00032f63 Ra(!
+00033047 = @ 
+0003305f =*("
+0003312b <*( 
+000331cb ^c(%
+000331eb ^B(#
+000331f3 =@ #
+00033232 #.c^@
+0003323e ".b~@
+0003330f ^c($
+0003332b ^!(#
+00033343 ^!("
+0003334b =  "
+00033386 !.!@
+00033396  .`~@
+00033487 ^B($
+000334d7 ^E($
+00033603 ^1*2
+00033677 /(  
+0003369b ^  #
+000336ca #.c@
+000336da ".b~@
+0003379f ^B(#
+000337fa ".B@
+0003380a !.a~@
+0003390b < !	n
+000339c7 N"@!
+000339e7 ^B($
+00033a0f ^` %
+00033ac2 #.c@
+00033aeb /Bh#
+00033b73 OB('
+00033c8a 1.1B
+00033d0a #.c@
+00033d33 /Bh#
+00033d9d ;6-t.
+00033e27 <(( 
+00033ec3 =`A 
+00033f0b ^B(#
+00033f27 ^B(#
+00033f3f ^!("
+00033f47 =  "
+00033f6e ".B@
+00033f97 /!h"
+00033fc3 =A	!
+0003402f ^!("
+0003404b ^!("
+000340a2 !.!@
+0003426b ^s*5
+000342ef ^R*8
+0003433f T8;8
+000343ad Z nV
+0003443b ^v^@
+000344cf <v^@
+0003458b O#]@
+00034597 O$M@
+000345b6 '.B@
+000345df ^B@!
+000346af ^!@!
+000346c3 ^!(#
+00034b0f ^B($
+00034b82 )kj7
+00034cc7 ^J)+
+00034ce7 ^))*
+00034d53 ^))*
+00034f1e 0~P*0
+00035092 1.1B
+0003524b ^s:,
+0003525b ^1:$
+000352ef *()(
+000354f2 D9*J
+00035636 D9iC
+000356a2 D9*A
+00035702 D9I?
+000357e7 TkM*
+0003588b TkM*
+000358ef *kM*
+00035923 *kM*
+0003595f *kM*
+000359fb *kM*
+00035b0a ".c@
+0003609b ^!($
+000360ab n@@`
+0003611b rB(#
+000361b3 R!("
+0003621f R!("
+000362cf ^!($
+000362df n@@`
+0003634b rB(#
+0003654f ~1*3
+00036598 0EA-
+0003663f Rg8$
+00036964 )! K
+00036a42 0~B(#
+00036d38 )! K
+00036db3 Q	 @
+00036ddf Th&@
+00036eb3 R)eG
+00037013 Th&@
+00037067 6h&@
+0003719e I*)	I*)
+000371a6 I*)!I*)AI*"
+00037597 Th%@
+000375ab 7h!@
+000375ef QSYi
+00037615 *K)	
+0003765e I*)	I*)
+00037666 I*)!I*)AI*"
+00037769 "A)s~@
+00037796 I*)	I*)
+0003779e I*)!I*)AI*"
+00037883 Q[Yi
+000379b3 T	||
+00037a67 *MYx
+00037ac9 "A)9
+00037b0e I*)	I*)
+00037b16 I*)!I*)AI*"
+00037b7f 7*Yk
+00037cf5 'C)*
+00037e9b 7	 @
+00037eb7 THyh
+00037ff7 T	$@
+00038027 Tiyi
+00038037 T	 @
+00038087 T	}|
+00038197 Q	 @
+000381c3 Th&@
+00038297 R)eG
+000383f7 Th&@
+0003844b 6h&@
+00038597 R)eG
+000388dc )! K
+00038b6d 'Ci(
+00038b93 *n%@
+00038bc7 7`!@
+00038be3 T0xp
+00038ebf RBxd
+00038edb R"x`
+00039011 +AiZ
+000393e0 )! K
+00039793 ^#@!
+0003988f _B($
+000398db T!8,
+00039c0d _}i?
+00039c79 hi81
+00039cb5 ji8Y
+00039cc7 )E}@
+00039f1b *c8!
+0003a0c3 Ncm}
+0003a122 0n2@?
+0003a13e 3nQ@?
+0003a3ef Nbm}
+0003a9df T%.@
+0003ac58 )! K
+0003ad2d #Ci?
+0003af4c 	a@9
+0003afdb Th.@
+0003b033 Th.@
+0003b073 rH!)
+0003b0df 7jJ@
+0003b10b 5j~@
+0003b11b Tjz@
+0003b12b TjB@
+0003b357 ri"@
+0003b4df =)`@9
+0003b534 /@B)
+0003b542 @9!4@
+0003b5df Ttb@9
+0003b5f7 Tt"@
+0003b603 Tt&@
+0003b61b Tt.@
+0003b633 Ts6@
+0003b6b8 -@@9.
+0003b6c4 /`@9
+0003b775 @@9s
+0003b89d @@9s
+0003baab Ttb@9u
+0003bab6 	kt&@
+0003bac6 Kzv.@
+0003bad2 @9s6@
+0003bb76 @9#@@9/`@90d@9?
+0003bb87 q.h@91l@9
+0003bc23 TtB@9u
+0003bc3b Tsb@9s
+0003bdcf Td@@9e
+0003bde7 Tc`@9c
+0003bdf2 /k`	
+0003be4f *		@
+0003c01f T0xp
+0003c04b *		@
+0003c06b 9	A@9
+0003c2aa @9[yx
+0003c352 I*)	I*)
+0003c35a I*)!I*)AI*"
+0003c753 T0xp
+0003c97f Td@@9e
+0003c997 Tc`@9c
+0003c9d7 *		@
+0003c9f7 9	A@9
+0003d157 T	$@
+0003d187 Tiyi
+0003d197 T	 @
+0003d1e7 T	}|
+0003d2f7 Q	 @
+0003d323 Th&@
+0003d3f7 R)eG
+0003d557 Th&@
+0003d5ab 6h&@
+0003d757 7	 @
+0003d773 THyh
+0003d80a I*)	I*)
+0003d812 I*)!I*)AI*"
+0003d84e I*)	I*)
+0003d856 I*)!I*)AI*"
+0003d896 I*)	I*)
+0003d89e I*)!I*)AI*"
+0003da63 TJ}@
+0003da83 Toyj
+0003da93 70!@
+0003daaf T.zn
+0003db26 A9C0
+0003dc0f N"r~
+0003df11 'C)*
+0003e12d #C))}@
+0003e489 X nE
+0003e523 THyh
+0003e6d9 'C)*
+000408d6 Material count in the shared material list is higher than sub mesh count for the mesh. Object may be corrupted.
+00040948 Material in the shared materials list is null. Object will be partially rendered.
+000409b4 UnsafeQueue has yet to be created or has been destroyed!
+000409ed System.InvalidOperationException
+00040a0e Unity.Collections.LowLevel.Unsafe.UnsafeUtility::FreeTracked
+00040a4b UnityEngine.Rendering.BatchRendererGroup::OcclusionTestAABB_Injected
+00040a90 UnityEngine.LightProbesQuery::CalculateInterpolatedLightAndOcclusionProbes
+00040adb UnityEngine.Jobs.TransformAccess::GetLocalScale
+00040b0b Hash based container has yet to be created or has been destroyed!
+00040b4d UnityEngine.Rendering.GPUDrivenProcessor::ClassifyMaterialsImpl_Injected
+00040b96 Unity.Burst.LowLevel.BurstCompilerService::GetOrCreateSharedMemory
+00040bd9 burst_abort
+00040be5 Unity.Jobs.LowLevel.Unsafe.JobsUtility::get_ThreadIndexCount
+00040c22 UnityEngine.Jobs.TransformAccessArray::GetSortedToUserIndex
+00040c5e UnityEngine.Jobs.TransformAccess::GetPosition
+00040c8c Unity.Jobs.LowLevel.Unsafe.JobsUtility::GetWorkStealingRange
+00040cc9 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Malloc
+00040d01 UnsafeBitArray has yet to be created or has been destroyed!
+00040d3d UnityEngine.Jobs.TransformAccess::GetRotation
+00040d6b UnityEngine.Jobs.TransformAccessArray::GetSortedTransformAccess
+00040dab Unity.Burst.LowLevel.BurstCompilerService::RuntimeLog
+00040de1 UnityEngine.Jobs.TransformAccess::GetLocalToWorldMatrix
+00040e19 UnsafeRingQueue has yet to be created or has been destroyed!
+00040e56 UnsafeText has yet to be created or has been destroyed!
+00040e8e Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MallocTracked
+00040fe4 m0O?j
+00041004 m0O?j
+00041025 `>?NS
+00041046 ,?NS
+00041069 YVpA
+0004107e 04T*
+00041089 YVpA
+000410a9 YVpA
+000410c9 YVpA
+000410e9 YVpA
+00041109 YVpA
+00041123  rrk>
+00041143  rrk>
+00041163  rrk>
+00041183  rrk>
+000411a3  rrk>
+000411c3  rrk>
+00041244 "''>
+00041267 >6p7M}
+00041287 >6p7M}
+000412a7 =6p7M}
+000412d4 Y)V7
+000413a9 6p7M}4:
+000413c5  b=b
+0004143d X43H_
+00041449 :I~D
+00041469 :I~D
+00041489 :I~D
+000414a9 :I~D
+000414da :D!T
+000414fa :D!T
+0004151a :D!T
+0004153a :D!T
+0004155a :D!T
+0004157a :D!T
+000415bd ^m2R
+000415dd ^m2R
+0004171f 16M}
+000417ad 608^
+00041900 6p7M}
+0004191e u06p7M}
+0004194c Y)V7
+0004196c Y)V7
+00041a21 6p7M}4:
+00041b0d dv6X
+00041b22 6p7M
+00041b2d dv6X
+00041b79 MB:n$
+00041b99 MB:n$
+00041bb9 MB:n$
+00041bd2 :D!T
+00041bf2 :D!T
+00041c15 ^m2p
+00041c35 ^m2p
+00041c55 ^m2p
+00041c75 ^m2p
+00041c7d 7"/dV
+00041d7f .x2+
+00041ddc &!-.
+00041dfc &!-.
+00041e1c &!-.
+00041e25 608^
+00041e3c &!-.r
+00041e57 0wI2
+00041e5d nb-r
+00041e77 0wI2
+00041e7d nb-r
+00041e97 0wI2
+00041e9d nb-r
+00041eb7 0wI2
+00041ebd nb-r
+00041ed7 0wI2
+00041edd nb-r
+00041ef7 0wI2
+00041efd nb-r
+00041f17 0wI2
+00041f37 0wI2
+00041f57 0wI2
+00041f77 0wI2
+00041f7d nb- 
+00041f97 0wI2
+00041fe4 Y)V7
+0004203d t3- 
+00042185 dv6X
+000421a5 dv6X
+00042211 MB:n$
+00042231 MB:n$
+00042251 MB:n$
+00042271 MB:n$
+000422ad ^m2p
+000422b5 7"/HF'
+000422cd ^m2p
+000422d5 7"/HF'
+000422ed ^m2p
+000422f5 7"/HF'
+0004235d $y+dQ
+00042397 .HF'
+000423da NPwIb+
+000423fa NPwIb+
+0004241a NPwIb+
+0004243a NPwIb+^
+00042454 &!-.
+00042474 &!-.
+00042494 &!-.
+000424b4 &!-.
+000424d4 &!-.
+0004258f 0vI2
+000425af 0vI2
+000425cf 0vI2
+000425ef 0vI2
+0004260f 0vI2
+0004262f 0vI2
+000427c6 b3&!
+00042889 MB:n$
+000428a9 MB:n$
+000428c9 MB:n$
+000428e9 MB:n$
+00042915 $y+*
+00042935 $y+*
+00042955 $y+*
+00042965 ^m2p
+0004296d 7"/HF'
+00042975 $y+*
+00042985 ^m2p
+0004298d 7"/HF'
+00042995 $y+*
+000429a5 ^m2p
+000429ad 7"/HF'
+000429b5 $y+*
+000429c5 ^m2p
+000429cd 7"/HF'
+000429d5 $y+*
+000429ef .HF'
+000429f5 $y+*
+00042a0f .HF'
+00042a15 $y+*
+00042ab2 NPwIb+*
+00042ad2 NPwIb+*
+00042b4c &!-.
+00042b5b 4N!^
+00042b6c &!-.
+00042b7b 4N!^
+00042b8c &!-.
+00042b9b 4N!^
+00042bac &!-.
+00042bbb 4N!^
+00042bdb 4N!^
+00042c26 -1H2
+00042c46 -1H2
+00042c5e `':n$
+00042ca7 0vI2
+00042cc7 0vI2
+00042ce7 0vI2
+00042d07 0vI2
+00042d27 0vI2
+00042f07 /NPwI2
+00042f27 /NPwI2
+00042f47 /NPwI2
+00042f61 MB:n$
+00042f7f %L7	
+00042f9e R%L7	
+00042fc4 q#i/
+00042fe5 FR/HF'
+00042fed $y+*
+00043005 7"/HF'
+0004300d $y+*
+00043025 7"/HF'
+0004302d $y+*
+00043045 7"/HF'
+0004304d $y+*
+00043067 .HF'
+0004306d $y+*
+00043087 .HF'
+0004308d $y+*
+000430a7 .HF'
+000430ad $y+*
+0004314a NPwIb+*
+000431c6 a.:$
+000431d3 4N!^
+000431e4 &!-.
+000431f3 4N!^
+00043204 &!-.
+00043213 4N!^
+00043224 &!-.
+00043233 4N!^
+00043244 &!-.
+00043253 4N!^
+00043273 4N!^
+0004335f #vI2
+0004337f #vI2
+0004339f #vI2
+000433bf #vI2
+0004357e w"NPwI2
+0004359e w"NPwI2
+000435be w"NPwI2
+000435de w":A
+00043665 $y+*
+00043685 $y+*
+000436a5 $y+*
+000436c5 $y+*
+000436e5 $y+*
+00043705 $y+*
+00043725 $y+*
+00043745 $y+*
+00043765 $y+*
+00043785 $y+*
+000437a5 $y+*
+000437c2 NPwIb+*
+0004383e e!:$
+0004384b 4N!^
+0004385e r :$
+0004386b 4N!^
+0004387e r :$
+0004388b 4N!^
+000438ab 4N!^
+000438cb 4N!^
+000438eb 4N!^
+000439a1 sHF'
+000439c4 NPg*>
+000439e2 C2:AM*
+00043a02 C2:AM*
+00043ab5 F@#~
+00043ad5 F@#~
+00043c04 C2J)
+00043c56 w"A~_
+00043c76 w"A~_
+00043d97 !:A~_
+00043db7 !:A~_
+00043dd7 !:A~_
+00043f27 '(ZA
+00043f47 '(ZA
+00043f6e S$d?
+00043f80 NSb9
+00043f8c At/$(
+00043fa5 wx'^
+00043fac At/$(
+00044080 ~NSb9
+0004412d F@#~
+0004414d F@#~
+00044161 }NSb9
+0004416d F@#~
+00044181 }NSb9
+0004418d F@#~
+000441a6 h&&$
+000441c6 h&&$
+000441e6 Q&&$
+00044282 }NSb	&tB
+000442ce w"@~_
+000442ee w"@~_
+0004430e w"@~_
+0004440f !:A~_
+0004442f !:A~_
+0004444f !:A~_
+000445c6 i$d?
+000445e6 S$d?
+00044604 At/$(
+00044624 At/$(
+00044644 At/$(
+00044672 9A~_
+000447a5 F@#~
+000447c5 F@#~
+000447e5 F@#~
+00044805 F@#~
+00044986 w"@~_
+000449a6 w"@~_
+00044ac7 !:A~_
+00044ae7 !:A~_
+00044be5 hG!F
+00044c05 hG!F
+00044c67 !:2'
+00044c87 !:2'
+00044cea 9A~_
+00044f6b udN0
+00044f8b udN0
+00045160 :A~_
+00045362 9A~_
+000455e3 udN0
+00045603 udN0
+00045623 udN0
+00045800 >gj0
+00045901 >gj0
+00045e43 /BN*
+000465b8 ]X${
+000465d8 ]X${
+000465f8 ]X${
+00046618 ]X${
+00046638 ]X${
+00046658 ]X${
+00046678 ]X${
+00046698 ]X${
+0004671a \X${*
+0004673a \X${*
+0004675a \X${*
+0004677a \X${*
+0004679a \X${*
+000467ba \X${*
+000467da \X${*
+000467fa \X${*
+00046a9a f?FO
+00046aba f?FO
+00046ada f?FO
+00046afa f?FO
+00046b4b d})=
+00046b6b d})=
+00046b8b MAkA
+00046cd0 \X${
+00046cf0 \X${
+00046d10 \X${
+00046db2 \X${*
+00046dd2 \X${*
+00046df2 \X${*
+00046e12 \X${*
+00046e32 \X${*
+00046e52 \X${*
+00046e72 \X${*
+00046e92 \X${*
+00046ea0 *h-F
+00046eb2 \X${*
+00046ed2 \X${*
+00046ef2 \X${*
+00046f00 NAk1
+00046fa1 )h-F
+000470a2 )h-F
+000470b0 hX&p.,2
+00047112 f?FO
+00047132 f?FO
+00047152 f?FO
+00047172 f?FO
+00047203 MAkA
+00047388 \X${
+000474ea \X${*
+0004750a \X${*
+0004752a \X${*
+0004754a \X${*
+0004756a \X${*
+0004758a \X${*
+000477ca f?FO
+000477ea f?FO
+00047813 a+Jw
+00047833 a+Jw
+00047853 a+Jw
+000478c1 MX>y
+000479c2 MX>yf
+00047cf8 6uI)
+00047dba eE[k
+00047dda eE[k
+00047dfa eE[k
+00047e1a eE[k
+00047e3a eE[k
+00047e5a eE[k
+00047e62 f?FO
+00047e7a eE[k
+00047e9a eE[k
+00047eba eE[k
+00047eda eE[k
+00047efa eE[k
+00047f1a eE[k
+00047f3a eE[k
+00048387 	|aB
+000483d0 6uI)
+00048552 eE[k
+00048572 eE[k
+00048592 eE[k
+000485b2 eE[k
+000485d2 eE[k
+000488e2 f9SAd,
+000488f3 8SAd,
+000489fd wS	A
+00048a2d wS	*
+00048a60 SAd,
+00048a70 SAd,
+00048a80 SAd,
+00048c80 }uB<o
+00048d33 6?"K
+00048da0 M}t3
+00048da6 ]&2+
+00048db6 ]&2+
+00048e41 4u.v
+00048eb1 Linker: LLD 18.0.3
+00048ec4 Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+00048f7d .fini_array
+00048f89 .text
+00048f8f .got
+00048f94 .comment
+00048f9d .note.android.ident
+00048fb1 .got.plt
+00048fba .rela.plt
+00048fc4 .bss
+00048fc9 .dynstr
+00048fd1 .eh_frame_hdr
+00048fdf .gnu.version_r
+00048fee .data.rel.ro
+00048ffb .rela.dyn
+00049005 .gnu.version
+00049012 .dynsym
+0004901a .gnu.hash
+00049024 .relro_padding
+00049033 .eh_frame
+0004903d .note.gnu.build-id
+00049050 .dynamic
+00049059 .shstrtab
+00049063 .rodata
+0004906b .data

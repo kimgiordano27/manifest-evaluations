@@ -1,0 +1,528 @@
+00000244 Android
+00000250 r28c
+00000290 13676358
+00000d85 |2%~^
+00000dbd __cxa_finalize
+00000dcc __cxa_atexit
+00000dd9 __register_atfork
+00000deb intlog2
+00000df3 is_slice_type
+00000e01 h264_new
+00000e0a calloc
+00000e11 h264_free
+00000e1b free
+00000e20 sei_free
+00000e29 find_nal_unit
+00000e37 more_rbsp_data
+00000e46 rbsp_to_nal
+00000e52 nal_to_rbsp
+00000e5e read_nal_unit
+00000e6c malloc
+00000e73 read_pic_parameter_set_rbsp
+00000e8f read_slice_layer_rbsp
+00000ea5 read_access_unit_delimiter_rbsp
+00000ec5 read_sei_rbsp
+00000ed3 read_seq_parameter_set_rbsp
+00000eef read_slice_header
+00000f01 memcpy
+00000f08 read_rbsp_slice_trailing_bits
+00000f26 realloc
+00000f2e sei_new
+00000f36 read_sei_payload
+00000f47 memset
+00000f4e read_scaling_list
+00000f60 read_vui_parameters
+00000f74 read_end_of_seq_rbsp
+00000f89 read_end_of_stream_rbsp
+00000fa1 peek_nal_unit
+00000faf read_hrd_parameters
+00000fc3 read_rbsp_trailing_bits
+00000fdb read_sei_message
+00000fec _read_ff_coded_number
+00001002 read_filler_data_rbsp
+00001018 read_ref_pic_list_reordering
+00001035 read_pred_weight_table
+0000104c read_dec_ref_pic_marking
+00001065 more_rbsp_trailing_data
+0000107d write_nal_unit
+0000108c write_pic_parameter_set_rbsp
+000010a9 write_slice_layer_rbsp
+000010c0 write_access_unit_delimiter_rbsp
+000010e1 write_sei_rbsp
+000010f0 write_seq_parameter_set_rbsp
+0000110d write_slice_header
+00001120 _write_ff_coded_number
+00001137 write_sei_payload
+00001149 write_vui_parameters
+0000115e write_end_of_seq_rbsp
+00001174 write_end_of_stream_rbsp
+0000118d write_scaling_list
+000011a0 write_hrd_parameters
+000011b5 write_rbsp_trailing_bits
+000011ce write_sei_message
+000011e0 write_filler_data_rbsp
+000011f7 write_ref_pic_list_reordering
+00001215 write_pred_weight_table
+0000122d write_dec_ref_pic_marking
+00001247 write_rbsp_slice_trailing_bits
+00001266 debug_sps
+00001270 h264_dbgfile
+0000127d stdout
+00001284 fwrite
+0000128b fprintf
+00001293 debug_pps
+0000129d debug_slice_header
+000012b0 debug_aud
+000012ba debug_seis
+000012c5 fputc
+000012cb debug_bytes
+000012d7 debug_nal
+000012e1 read_sei_end_bits
+000012f3 stderr
+000012fa avcc_new
+00001303 avcc_free
+0000130d read_avcc
+00001317 write_avcc
+00001322 debug_avcc
+0000132d puts
+00001332 printf
+00001339 putchar
+00001341 libc.so
+00001349 LIBC
+0000134e libm.so
+00001356 libdl.so
+0000135f libh264bitstream.so
+00001900  bit_depth_luma_minus8 : %d 
+0000191e    frame_crop_top_offset : %d 
+0000193e    max_bits_per_mb_denom : %d 
+0000195e P slice only
+0000196b I slice only
+00001978 Scene info
+00001983  log2_max_frame_num_minus4 : %d 
+000019a5    chroma_sample_loc_type_top_field : %d 
+000019d0  vcl_hrd_parameters_present_flag : %d 
+000019f8  num_ref_idx_l0_active_minus1 : %d 
+00001a1d Unspecified
+00001a29 Sequence parameter set extension
+00001a4a  frame_cropping_flag : %d 
+00001a66    frame_crop_bottom_offset : %d 
+00001a89  chroma_loc_info_present_flag : %d 
+00001aae  constrained_intra_pred_flag : %d 
+00001ad2  profile_compatibility: %d
+00001aee  entropy_coding_mode_flag : %d 
+00001b0f  weighted_bipred_idc : %d 
+00001b2b ======= Slice Header =======
+00001b49  sp_for_switch_flag : %d 
+00001b64  slice_alpha_c0_offset_div2 : %d 
+00001b87 I, SI, P, SP
+00001b94 Pan scan rect
+00001ba2  pic_order_cnt_type : %d 
+00001bbd  gaps_in_frame_num_value_allowed_flag : %d 
+00001bea  pic_height_in_map_units_minus1 : %d 
+00001c11    cpb_size_value_minus1[%d] : %d 
+00001c35  slice_qp_delta : %d 
+00001c4c I, P, B
+00001c54  reserved_zero_2bits : %d 
+00001c70  residual_colour_transform_flag : %d 
+00001c97  frame_mbs_only_flag : %d 
+00001cb3    overscan_appropriate_flag : %d 
+00001cd7  second_chroma_qp_index_offset : %d 
+00001cfd  disable_deblocking_filter_idc : %d 
+00001d23  no_output_of_prior_pics_flag : %d 
+00001d48 I, SI
+00001d4e I, SI, P, SP, B
+00001d5e ======= SEI =======
+00001d73 Filler payload
+00001d82 Dec ref pic marking repetition
+00001da1  null pps
+00001dab  constraint_set3_flag : %d 
+00001dc8  bit_rate_scale : %d 
+00001ddf  cpb_size_scale : %d 
+00001df6 SI slice only
+00001e04  null sps
+00001e0e    colour_description_present_flag : %d 
+00001e38    transfer_characteristics : %d 
+00001e5b  cpb_cnt_minus1 : %d 
+00001e72  first_mb_in_slice : %d 
+00001e8c Progressive refinement segment end
+00001eaf Coded slice of a non-IDR picture
+00001ed0 Supplemental enhancement information (SEI)
+00001efb ======= AVC Decoder Configuration Record =======
+00001f2c    delta_pic_order_always_zero_flag : %d 
+00001f57 === VUI ===
+00001f64    chroma_sample_loc_type_bottom_field : %d 
+00001f92  redundant_pic_cnt_present_flag : %d 
+00001fb9  num_ref_idx_active_override_flag : %d 
+00001fe2 ======= Access Unit Delimiter =======
+00002009  payloadSize : %d 
+0000201d End of stream
+0000202b Coded slice of an auxiliary coded picture without partitioning
+0000206a  chroma_format_idc : %d 
+00002084  nal_hrd_parameters_present_flag : %d 
+000020ac  frame_num : %d 
+000020be Full frame snapshot
+000020d2  overscan_info_present_flag : %d 
+000020f5    log2_max_mv_length_vertical : %d 
+0000211b  slice_group_map_type : %d 
+00002138 P slice
+00002140 === Decoded Ref Pic Marking ===
+00002161 Sub seq info
+0000216e      sar_width : %d 
+00002184  ref_pic_list_reordering_flag_l1 : %d 
+000021ac Full frame freeze release
+000021c6 === %s ===
+000021d2 Sequence parameter set
+000021e9    num_ref_frames_in_pic_order_cnt_cycle : %d 
+00002219  direct_8x8_inference_flag : %d 
+0000223b    cbr_flag[%d] : %d 
+00002252 ======= PPS =======
+00002267 SP slice
+00002270  pic_order_cnt_lsb : %d 
+0000228a  chroma_log2_weight_denom : %d 
+000022ab  seq_scaling_matrix_present_flag : %d 
+000022d3  video_signal_type_present_flag : %d 
+000022fa  num_slice_groups_minus1 : %d 
+0000231a  pic_init_qp_minus26 : %d 
+00002336  field_pic_flag : %d 
+0000234d Recovery point
+0000235c  AVCLevelIndication: %d
+00002375  numOfPictureParameterSets: %d
+00002395 ======= SPS =======
+000023aa    offset_for_top_to_bottom_field : %d 
+000023d3    matrix_coefficients : %d 
+000023f1    fixed_frame_rate_flag : %d 
+00002411  pic_order_present_flag : %d 
+00002430  num_ref_idx_l1_active_minus1 : %d 
+00002455  transform_8x8_mode_flag : %d 
+00002475  pic_scaling_matrix_present_flag : %d 
+0000249d  long_term_reference_flag : %d 
+000024be  aspect_ratio_info_present_flag : %d 
+000024e5  slice_beta_offset_div2 : %d 
+00002504 I, P
+00002509 Full frame freeze
+0000251b Progressive refinement segment start
+00002540  forbidden_zero_bit : %d 
+0000255b Coded slice data partition A
+00002578    log2_max_pic_order_cnt_lsb_minus4 : %d 
+000025a4  timing_info_present_flag : %d 
+000025c5  pic_parameter_set_id : %d 
+000025e2  cabac_init_idc : %d 
+000025f9  nal_ref_idc : %d 
+0000260d    num_units_in_tick : %d 
+00002629    time_scale : %d 
+0000263e    low_delay_hrd_flag : %d 
+0000265b    max_bytes_per_pic_denom : %d 
+0000267d SP slice only
+0000268b  slice_type : %d ( %s ) 
+000026a5  ref_pic_list_reordering_flag_l0 : %d 
+000026cd  constraint_set4_flag : %d 
+000026ea    video_full_range_flag : %d 
+0000270a  pic_struct_present_flag : %d 
+0000272a SI slice
+00002733 B slice only
+00002740  delta_pic_order_cnt_bottom : %d 
+00002763  configurationVersion: %d
+0000277e Spare pic
+00002788 Sub seq characteristics
+000027a0  qpprime_y_zero_transform_bypass_flag : %d 
+000027cd    offset_for_non_ref_pic : %d 
+000027ee === Ref Pic List Reordering ===
+0000280f WARNING: bit_equal_to_zero is 1!!!!
+00002834  AVCProfileIndication: %d
+0000284f  constraint_set1_flag : %d 
+0000286c  pic_width_in_mbs_minus1 : %d 
+0000288c    log2_max_mv_length_horizontal : %d 
+000028b4  cpb_removal_delay_length_minus1 : %d 
+000028dc  weighted_pred_flag : %d 
+000028f7 B slice
+000028ff  slice_group_change_cycle : %d 
+00002920  primary_pic_type : %d ( %s ) 
+00002940 Film grain characteristics
+0000295b ==================== NAL ====================
+0000298a %02X 
+00002990  mb_adaptive_frame_field_flag : %d 
+000029b5    aspect_ratio_idc : %d 
+000029d0    video_format : %d 
+000029e7      colour_primaries : %d 
+00002a04    max_dec_frame_buffering : %d 
+00002a26  dpb_output_delay_length_minus1 : %d 
+00002a4d  time_offset_length : %d 
+00002a68 Motion constrained slice group set
+00002a8b Stereo video info
+00002a9d    frame_crop_right_offset : %d 
+00002abf  pic_init_qs_minus26 : %d 
+00002adb  idr_pic_id : %d 
+00002aee Access unit delimiter
+00002b04  nal_unit_type : %d ( %s ) 
+00002b21    num_reorder_frames : %d 
+00002b3e  adaptive_ref_pic_marking_mode_flag : %d 
+00002b69 Filler data
+00002b75  initial_cpb_removal_delay_length_minus1 : %d 
+00002ba5 User data unregistered
+00002bbc  lengthSizeMinusOne: %d
+00002bd5  seq_parameter_set_id : %d 
+00002bf2  bitstream_restriction_flag : %d 
+00002c15    bit_rate_value_minus1[%d] : %d 
+00002c39  chroma_qp_index_offset : %d 
+00002c58 I slice
+00002c60  redundant_pic_cnt : %d 
+00002c7a  slice_qs_delta : %d 
+00002c91  level_idc : %d 
+00002ca3    frame_crop_left_offset : %d 
+00002cc4  direct_spatial_mv_pred_flag : %d 
+00002ce8 === Prediction Weight Table ===
+00002d09  payloadType : %d 
+00002d1d  profile_idc : %d 
+00002d31  constraint_set2_flag : %d 
+00002d4e  constraint_set5_flag : %d 
+00002d6b      sar_height : %d 
+00002d84 Pic timing
+00002d8f Picture parameter set
+00002da5  vui_parameters_present_flag : %d 
+00002dc9    motion_vectors_over_pic_boundaries_flag : %d 
+00002dfb  bottom_field_flag : %d 
+00002e15  luma_log2_weight_denom : %d 
+00002e34 SI, SP
+00002e3b  payload : 
+00002e47 Coded slice of an IDR picture
+00002e65 End of sequence
+00002e75  numOfSequenceParameterSets: %d
+00002e96  constraint_set0_flag : %d 
+00002eb3 Unknown
+00002ebe Deblocking filter display preference
+00002ee3  bit_depth_chroma_minus8 : %d 
+00002f03  num_ref_frames : %d 
+00002f1a === HRD ===
+00002f27  deblocking_filter_control_present_flag : %d 
+00002f56 Buffering period
+00002f67 User data registered ITU-T T35
+00002f86 Sub seq layer characteristics
+00002fa4 Coded slice data partition B
+00002fc1 Coded slice data partition C
+00002fde WARNING: bit_equal_to_one is 0!!!!
+000044bf Th"@
+0000461f R`jt
+000046cf 5J	@9_
+000046e0 K	@9k
+0000470b 5)	@9?
+00004717 T*|@
+0000475f 5Kih8
+00004767 4Kih8
+00004811 ii8)
+00004849 ii8_
+000048f4 Lh 8
+00004a1d j:8Z
+00004b37 Riji
+00004dba @9k%
+00004df6 @9k%
+00004e32 @9k%
+00004e6a @9k%
+00004ea2 @9k%
+00004eda @9k%
+00004f12 @9J%
+00004f4a @9)%
+00004fa2 @9k%
+000050fa @9k%
+000051e6 @9k%
+00005226 @9k%
+0000530a @9k%
+000053ee @9k%
+0000542a @9)%
+000054a2 @9J%
+0000550e @9k%
+000055f2 @9k%
+000056ea @9k%
+00005776 @9k%
+00005816 @9k%
+0000590e @9k%
+00005a06 @9k%
+00005b42 @91&
+00005bca @9!$
+00005c12 @9k%
+00005cf6 @9k%
+00005d36 @9k%
+00005e1a @9k%
+00005efe @9k%
+00005f3e @9k%
+00005f7a @9k%
+00005fb6 @9k%
+00005ffa @9k%
+000060de @9k%
+000061c6 @9k%
+000062ae @9k%
+00006392 @9)%
+00006476 @9k%
+0000657e @9k%
+00006662 @9k%
+0000669e @9J%
+000066de @9J%
+000068c6 @9k%
+00006a9a @9B$
+00006ae6 @9J%
+00006b76 @91&
+00006bd2 @9k%
+00006cbe @9k%
+00006da2 @9k%
+00006e86 @9k%
+00006ec2 @9k%
+00006f46 @9k%
+00007042 @9k%
+0000713e @9k%
+00007236 @9k%
+00007272 @9k%
+000072ae @9k%
+0000730e @9J%
+000073ca @9J%
+0000743a @9k%
+000075c6 @91&
+0000764e @9!$
+00007762 @9)%
+000077d2 @9J%
+000077ea 	*i	
+0000793e @9J%
+00007976 @9k%
+00007a62 @9J%
+00007aa6 @9k%
+00007aea @9)%
+00007bce @91&
+00007c56 @9c$
+00007cbe @9k%
+00007de6 @9k%
+00007e26 @9k%
+00007e62 @9k%
+00007ea2 @9J%
+00007eda @9k%
+00007f5e @9k%
+00007f9a @9k%
+0000800a @9k%
+0000804e @9k%
+00008132 @9k%
+00008216 @9k%
+0000831e @9k%
+0000835a @9k%
+000083b2 @9)%
+00008426 @9k%
+00008462 @9k%
+0000849e @9k%
+000084e2 @9k%
+00008522 @9k%
+00008606 @9k%
+000086ea @9k%
+000087ce @9k%
+000088b2 @9k%
+00008996 @9k%
+00008aea @9k%
+00009012 @9k%
+000090be @9k%
+0000914a @9k%
+000091f6 @9k%
+00009282 @9k%
+0000932e @9k%
+000093ba @9k%
+0000949a @9J%
+000094d2 	*	)
+00009712 @9J%
+0000973e @9k%
+000098ae @9J%
+00009992 @9J%
+00009d12 @91&
+0000a0eb Zkj,
+0000a20e @9J%
+0000a39a @9k%
+0000a526 @9k%
+0000a616 @9k%
+0000a72e @9k%
+0000a76e @9k%
+0000a872 @9k%
+0000a962 @9k%
+0000aa5a @9k%
+0000aeae @91&
+0000af32 @9B$
+0000af76 @91&
+0000b04e @91&
+0000b326 @9c$
+0000b416 @9c$
+0000b6da @9s&
+0000ba92 @99'
+0000baea @99'
+0000c0b2 @9J%
+0000c62e @9	a
+0000c7ea @9?	
+0000c932 @9H!
+0000ca56 @9H!
+0000d127 T\{v
+0000d19f R<yh
+0000d61a @9H!
+0000dd8b T;{v
+0000ddb7 4ik|
+0000de03 R[yh
+0000de27 4ik|
+0000de9e @9I!
+0000e1ee @9I!
+0000e2c6 @9I!
+0000e30d A@q#
+0000f21a @9H!
+0001006a @9H!
+0001086a @9H!
+00010b97 4hk@
+00010b9f 4hkA
+00010bff 4hkC
+00012437 TS{|
+00012508 bju8
+000125b4 bjw8
+00012802 @9J%
+000128c2 @9J%
+00012a62 @91&
+00012aba @9!$
+00012d5a @9)%
+00012d92 @9k%
+00012e56 @9)%
+00012e8e @9J%
+00012f0e @9)%
+00012fae @9J%
+00013076 @9)%
+000130ae @9J%
+000130e6 @9k%
+0001319a @9)%
+000131de @9J%
+00013222 @9)%
+000132c2 @9J%
+000133da @9J%
+00013412 @9k%
+000134fe @9J%
+00013542 @9k%
+00013586 @9)%
+000137fa @9I!
+000139ea @9I!
+00013a42 @9I!
+00013a9a @9I!
+00013af2 @9I!
+00013b4a @9I!
+00013ba2 @9*!
+00013cb6 @9I!
+00013d0e @9I!
+00013d66 @9*!
+00014b31 Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+00014be9 Linker: LLD 19.0.1
+00014bfd .fini_array
+00014c09 .text
+00014c0f .got
+00014c14 .comment
+00014c1d .note.android.ident
+00014c31 .got.plt
+00014c3a .rela.plt
+00014c44 .bss
+00014c49 .dynstr
+00014c51 .eh_frame_hdr
+00014c5f .gnu.version_r
+00014c6e .data.rel.ro
+00014c7b .rela.dyn
+00014c85 .gnu.version
+00014c92 .dynsym
+00014c9a .gnu.hash
+00014ca4 .relro_padding
+00014cb3 .eh_frame
+00014cbd .note.gnu.build-id
+00014cd0 .dynamic
+00014cd9 .shstrtab
+00014ce3 .rodata

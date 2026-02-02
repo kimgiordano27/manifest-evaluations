@@ -1,0 +1,302 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+00000875 __cxa_finalize
+00000884 __cxa_atexit
+00000891 __register_atfork
+000008a3 dlopen
+000008aa dlclose
+000008b2 dlsym
+000008b8 ovrpTracking_Initialize
+000008d0 memset
+000008d7 __stack_chk_fail
+000008e8 ovrpTracking_Shutdown
+000008fe sscanf
+00000905 ovrpTracking_CreateInputTrackingContext
+0000092d ovrpTracking_CreateFaceTrackingContext
+00000954 ovrpTracking_CreateEyeTrackingContext
+0000097a ovrpTracking_CreateHandTrackingContext
+000009a1 memcpy
+000009a8 __android_log_print
+000009bc strlen
+000009c3 vsnprintf
+000009cd abort
+000009d3 memchr
+000009da __vsnprintf_chk
+000009ea malloc
+000009f1 free
+000009f6 stderr
+000009fd fwrite
+00000a04 vfprintf
+00000a0d fputc
+00000a13 vasprintf
+00000a1d android_set_abort_message
+00000a37 openlog
+00000a3f syslog
+00000a46 closelog
+00000a4f strcmp
+00000a56 fprintf
+00000a5e fflush
+00000a65 pthread_rwlock_wrlock
+00000a7b pthread_rwlock_unlock
+00000a91 dladdr
+00000a98 dl_iterate_phdr
+00000aa8 pthread_rwlock_rdlock
+00000abe __errno
+00000ac6 syscall
+00000ace getauxval
+00000ad8 __system_property_get
+00000aee strncmp
+00000af6 libdl.so
+00000aff LIBC
+00000b04 libc.so
+00000b0c liblog.so
+00000b16 libovrplugintracking.so
+00000b30 APS2
+000010d0 uncaught
+000010d9 OVRPlugin ovrpGetVersion2 returned unexpected version format %s
+00001119 terminating due to %s exception of type %s
+00001144 terminating due to %s exception of type %s: %s
+00001176 unsupported restore location for float register
+000011a6 unsupported restore location for register
+000011d0 unknown register
+000011e1 unsupported arm64 register
+000011fc setRegister
+00001208 getRegister
+00001214 getSavedFloatRegister
+0000122a getSavedRegister
+0000123e arvr/libraries/avatar/Libraries/ovrplugin_tracking/Src/Tracking.cpp
+00001282 arvr/libraries/avatar/Libraries/ovrplugin_tracking/Src/DynLib.cpp
+000012c7 libOVRPlugin.so
+000012d7 CIE ID is not zero
+000012ea _Unwind_Resume() can't return
+00001308 std::exception
+00001317 terminating due to %s foreign exception
+0000133f terminate_handler unexpectedly threw an exception
+00001371 truncated uleb128 expression
+0000138e malformed uleb128 expression
+000013ab truncated sleb128 expression
+000013c8 evaluateExpression
+000013db libc++abi
+000013e5 FDE has zero length
+000013f9 CIE start does not match
+00001412 ro.arch
+0000141a terminating
+00001426 FaceTracking
+00001433 unknown pointer encoding
+0000144c DW_OP_deref_size with bad size
+0000146b getTableEntrySize
+0000147d ovrp_GetEyeGazesState
+00001493 ovrp_GetFaceState
+000014a5 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00001508 _Unwind_Resume
+00001517 OVRPlugin library '%s' not found
+00001538 OVRPlugin method '%s' not found
+00001558 OVRPlugin library '%s' found
+00001575 %s false: ovrplugin not initialized
+00001599 ovrp_GetInitialized
+000015ad DW_EH_PE_textrel pointer encoding not supported
+000015dd DW_EH_PE_funcrel pointer encoding not supported
+0000160d DW_EH_PE_aligned pointer encoding not supported
+0000163d DW_OP_fbreg not implemented
+00001659 DWARF opcode not implemented
+00001676 DW_OP_piece not implemented
+00001692 terminate_handler unexpectedly returned
+000016ba ovrpGetEyeTrackingEnabled
+000016d4 ovrp_GetEyeTrackingEnabled
+000016ef ovrpGetFaceTrackingEnabled
+0000170a ovrp_GetFaceTrackingEnabled
+00001726 No context provided
+0000173a %d.%d.%d
+00001743 OVRPlugin ovrpGetVersion2 call failed %d
+0000176c %s failed: %d
+0000177a ovrpGetEyeGazesState failed: %d
+0000179a ovrpGetFaceState failed: %d
+000017b6 ovrpGetNodePoseState3 failed: %d
+000017da [Avatar2 SDK]
+000017e8 getEncodedP
+000017f4 FDE is really a CIE
+00001808 %.*s::
+0000182f getULEB128
+0000183a getSLEB128
+000018a8 ovrp_GetNodePoseState3
+000018bf ovrp_GetHandState3
+000018e5 CIE version is not 1 or 3
+00001902 ovrp_GetVersion2
+00001913 ovrp_GetHandState2
+00001926 unwind_phase2
+0000197b exynos9810
+00001986 DW_EH_PE_datarel is invalid with a datarelBase of 0
+000019bd OVRPlugin %s API only supported from v%d.%d.%d onwards.
+000019f5 Found ovrplugin version %s.
+00001a11 Unknown DWARF encoding for search table.
+00001a3a OVRPlugin InputTracking API methods not found.
+00001a69 OVRPlugin EyeTracking API methods not found.
+00001a96 OVRPlugin FaceTracking API methods not found.
+00001ac4 OVRPlugin HandTracking API methods not found.
+00001af2 OVRPlugin Initialization method not found.
+00001b1d OVRPlugin not initialized.
+00001b38 Not initialized.
+00001b49 ovrpTracking_CreateInputTrackingContext succeeded.
+00001b7c ovrpTracking_CreateEyeTrackingContext succeeded.
+00001bad ovrpTracking_CreateFaceTrackingContext succeeded.
+00001bdf ovrpTracking_CreateHandTrackingContext succeeded.
+00001c11 Can't binary search on variable length encoded data.
+00001c46 libc++abi: 
+00001c52 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+00001c8b libunwind: %s - %s
+00001c9f libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00001ce7 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+00001d27 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+00001d6d libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+00001daf libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+00001df4 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+00001e3e libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+00001e80 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+00001ec2 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+00001f03 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00001f57 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+00001f9e libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+00001fe6 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+00002025 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+00002066 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+000020c3 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+00002430 NSt6__ndk117bad_function_callE
+000024e0 N10__cxxabiv116__shim_type_infoE
+00002501 N10__cxxabiv117__class_type_infoE
+00002523 N10__cxxabiv120__si_class_type_infoE
+00002548 St9exception
+00002555 St9type_info
+00003b81 zPLR
+00003e19 bj9H
+00003e89 bj9)
+000040a4 	!p9I
+000040ad !09h
+00004285 aj9h
+000044f9 bj9H
+00004521 C@9	
+0000453d bj9H
+00004b07 nk!	
+00004c15 aj9(
+00004eaa 	9E(
+00004f85 "	./
+0000512e =N['
+0000518b =4!	n
+000052f6 5n	;
+00005317 N!@!
+00005326 0~)%
+00005477 nAA 
+00005542 7nsz
+00005586 %n1B!
+0000559f n#*$
+000057de <N*+
+00005a8a !n(%
+00005b0f =B@!
+00005c82 0~gA!
+00005e3b nZ;'
+00005eeb nG;=
+00005fbe 4Nt`
+00006012 :nPD
+00006032 0~c@
+00006137 NyB!
+00006165 A	na
+0000625f =jC!
+0000638e %nj'
+0000652f =1B!
+000065e7 n2*0
+00006602 ?nlB
+00006612 =N49
+00006642 <nTD
+00006656 0n/8
+00006733 =D:$
+000068ee %n-&
+00006b0d aj9(
+00006e73 R+ih
+0000712e 2n0d
+00007227 R   
+0000722f T  (
+0000724f T  (
+000072a3 9A(#
+000072b6 C-!(#
+000072c6 E-B(#
+00007383 O!MB
+0000738b O$QC
+000073ff .!@!
+000076ff RD@`
+000077df T"@!
+00007a7b ^A(!
+00007b85 @@-f
+00007b96 1Nf 
+00007c0b .B@!
+00007c62 D-B8#
+00007deb q!("
+00007e73 q!("
+00007fbc *ih8
+00008b28 @1Wz)
+00008c95 1WzJ
+00008dab <h&?
+00008f60 h%@x
+00009025 j{8*
+00009380  	Az@	Az
+000095eb T(<@
+0000960f T(H@
+0000971f Th6@
+0000974b ThF@
+00009784 h6A9h
+0000978b 4h2A9i
+000097d3 Th2@
+000098ae G)t:
+000098c7 Th2@
+000098f3 Th6@
+0000a57a @9iy
+0000a6da @9n%
+0000afeb 4h~@
+0000b41c J{hx)	
+0000b429 b@9`
+0000b98c `1Jz
+0000b99a 	*H}
+0000bb70 *q@9
+0000c11a ?7_|
+0000d2d5 1Mzk
+0000d2f4  %@x
+0000d688 `0Bz!
+0000d6e3 QqN0
+0000d737 TbN 
+0000d7f8 @0@z 
+0000d908  0@z1
+0000dcb3 TqN0
+0000dcdb TaN0
+0000e5ac w2@y
+0000e7ff TiC@
+0000f7e8 Linker: Facebook LLD 18.1.8
+0000f804 Facebook clang version 18.1.8 (https://git.internal.tfbnw.net/repos/git/ro/osmeta/external/llvm-project 215ea3564f72eee13aee28345a32c51bba7cd488)
+0000f896 Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+0000f94e ovr-version:avatar-libovrplugintracking-android64-release:35.1.0.81.106
+0000f997 .shstrtab
+0000f9a1 .note.android.ident
+0000f9b5 .note.gnu.build-id
+0000f9c8 .dynsym
+0000f9d0 .gnu.version
+0000f9dd .gnu.version_r
+0000f9ec .gnu.hash
+0000f9f6 .dynstr
+0000f9fe .rela.dyn
+0000fa08 .relr.dyn
+0000fa12 .rela.plt
+0000fa1c .gcc_except_table
+0000fa2e .rodata
+0000fa36 .eh_frame_hdr
+0000fa44 .eh_frame
+0000fa4e .text
+0000fa54 .tbss
+0000fa5a .data.rel.ro
+0000fa67 .fini_array
+0000fa73 .init_array
+0000fa7f .dynamic
+0000fa88 .got
+0000fa8d .got.plt
+0000fa96 .relro_padding
+0000faa5 .data
+0000faab .bss
+0000fab0 .comment
+0000fab9 .oculus-version

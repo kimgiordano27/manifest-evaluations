@@ -1,0 +1,94 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+000006f5 G01D
+00000726 `&vN
+00000735 __cxa_finalize
+00000744 __cxa_atexit
+00000751 __register_atfork
+00000763 _ZN8facebook9simplejni15registerNativesEP7_JNIEnvPKcPK15JNINativeMethodm
+000007ac _ZN8facebook9simplejni27findClassAndTurnToGlobalRefEP7_JNIEnvPKc
+000007ed _ZN8facebook9simplejni11getMethodIdEP7_JNIEnvP7_jclassPKcS6_
+0000082a __stack_chk_fail
+0000083b _ZN8facebook9simplejni9findClassEP7_JNIEnvPKc
+00000869 _ZN8facebook9simplejni17getStaticMethodIdEP7_JNIEnvP7_jclassPKcS6_
+000008ac _ZN8facebook9simplejni13callIntMethodEP7_JNIEnvP8_jobjectP10_jmethodIDz
+000008f4 _ZN8facebook9simplejni16callObjectMethodEP7_JNIEnvP8_jobjectP10_jmethodIDz
+0000093f _ZN8facebook9simplejni23callStaticBooleanMethodEP7_JNIEnvP7_jclassP10_jmethodIDz
+00000990 _ZN8facebook9simplejni19callStaticIntMethodEP7_JNIEnvP7_jclassP10_jmethodIDz
+000009dd _ZN8facebook9simplejni20callStaticVoidMethodEP7_JNIEnvP7_jclassP10_jmethodIDz
+00000a2b _ZN8facebook9simplejni22callStaticObjectMethodEP7_JNIEnvP7_jclassP10_jmethodIDz
+00000a7b _ZN8facebook9simplejni17ensureInitializedEPP7_JNIEnvP7_JavaVM
+00000ab9 _ZN8facebook9simplejni13getCurrentEnvEv
+00000ae1 _ZN8facebook9simplejni17getCurrentEnvSafeEv
+00000b0d android_set_abort_message
+00000b27 abort
+00000b2d __android_log_vprint
+00000b42 _ZN8facebook9simplejni19attachCurrentThreadEv
+00000b70 _ZN8facebook9simplejni19detachCurrentThreadEv
+00000b9e _ZN8facebook9simplejni18runWithClassLoaderEP7_JNIEnvPFvS2_PvES3_
+00000bdf _ZN8facebook9simplejni7JString13toUTF8CStringEP7_JNIEnvP8_jstring
+00000c21 malloc
+00000c28 __wrap___cxa_begin_catch
+00000c41 __wrap___cxa_guard_release
+00000c5c __wrap___cxa_guard_abort
+00000c75 __wrap___gxx_personality_v0
+00000c91 __wrap__Unwind_Resume
+00000ca7 __wrap__ZSt9terminatev
+00000cbe __wrap___cxa_guard_acquire
+00000cd9 JNI_OnLoad
+00000ce4 libc.so
+00000cec LIBC
+00000cf1 liblog.so
+00000cfb libc++_shared.so
+00000d0c libsimplejni.so
+00000d20 APS2
+000011c0 com/facebook/simplejni/CoreFunctions
+000011e5 Aborting due to error detected in native code: %s
+00001217 com/facebook/simplejni/NativeHolder$Destructor
+00001246 runWithClassLoader
+00001259 libsimplejni.so
+00001269 getErrorDescription
+0000127d Error retrieving JNIEnv during initialization of simplejni
+000012b8 SimpleJni
+000012c2 Error converting jstring to UTF-8 C string
+000012ed deleteNative
+000012fa Need to pass a valid JNIEnv pointer to simplejni initialization routine
+00001342 You cannot pass a NULL JavaVM to ensureInitialized
+00001375 There was an error retrieving the current JNIEnv. Make sure the current thread is attached
+000013d0 (JJ)V
+000013d6 You must run simplejni::ensureInitialized before using the simplejni API
+0000141f Aborting due to pending Java exception in JNI
+0000144d (Ljava/lang/Throwable;)Ljava/lang/String;
+00001477 There was an error detaching the thread from the Java VM.
+000014b1 There was an error attaching the thread to the Java VM. Note that ensureInitialized must have been called first (from any thread).
+00001aad zPLR
+00001c44 	AF9i
+00001c63 9(mC
+00002cc8 *%@x_
+00002d1a @yl}
+00003191 .fini_array
+0000319d .text
+000031a3 .got
+000031a8 .note.android.ident
+000031bc .got.plt
+000031c5 .rela.plt
+000031cf .bss
+000031d4 pre_merge_jni_libraries
+000031ec .dynstr
+000031f4 .eh_frame_hdr
+00003202 .gnu.version_r
+00003211 .data.rel.ro
+0000321e .relr.dyn
+00003228 .rela.dyn
+00003232 .gnu.version
+0000323f .dynsym
+00003247 .gnu.hash
+00003251 .relro_padding
+00003260 .eh_frame
+0000326a .gcc_except_table
+0000327c .note.gnu.build-id
+0000328f .dynamic
+00003298 .shstrtab
+000032a2 .rodata
+000032aa .data

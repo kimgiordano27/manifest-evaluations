@@ -1,0 +1,603 @@
+0000027c Android
+00000288 r26c
+000002c8 11394342
+00000e5d __cxa_finalize
+00000e6c __cxa_atexit
+00000e79 mmap
+00000e7e mprotect
+00000e87 munmap
+00000e8e __errno
+00000e96 printf
+00000e9d getpagesize
+00000ea9 __stack_chk_fail
+00000eba __sF
+00000ebf fwrite
+00000ec6 memcpy
+00000ecd abort
+00000ed3 calloc
+00000eda free
+00000edf memset
+00000ee6 memcmp
+00000eed memmove
+00000ef5 __emutls_get_address
+00000f0a MOZ_CrashPrintf
+00000f1a gMozCrashReason
+00000f2a _ZN7mozilla15RLBoxSoundTouchC2Ev
+00000f4b _ZNSt6__ndk118shared_timed_mutexC1Ev
+00000f70 _ZNSt6__ndk118shared_timed_mutex4lockEv
+00000f98 _ZN7mozilla15RLBoxSoundTouchD2Ev
+00000fb9 _ZNSt6__ndk15mutexD1Ev
+00000fd0 _ZNSt6__ndk16__treeINS_12__value_typeIjPvEENS_19__map_value_compareIjS3_NS_4lessIjEELb1EEENS_9allocatorIS3_EEED2Ev
+00001043 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEENS_19__map_value_compareIS7_S9_NS_4lessIS7_EELb1EEENS5_IS9_EEED2Ev
+000010ea _ZN7mozilla15RLBoxSoundTouch13setSampleRateEj
+00001118 _ZN7mozilla15RLBoxSoundTouch11setChannelsEj
+00001144 _ZN7mozilla15RLBoxSoundTouch8setPitchEd
+0000116c _ZN7mozilla15RLBoxSoundTouch10setSettingEii
+00001198 _ZN7mozilla15RLBoxSoundTouch8setTempoEd
+000011c0 _ZN7mozilla15RLBoxSoundTouch7setRateEd
+000011e7 _ZN7mozilla15RLBoxSoundTouch11numChannelsEv
+00001213 _ZN7mozilla15RLBoxSoundTouch10numSamplesEv
+0000123e _ZN7mozilla15RLBoxSoundTouch21numUnprocessedSamplesEv
+00001274 _ZN7mozilla15RLBoxSoundTouch10putSamplesEPKfj
+000012a2 _ZN7mozilla15RLBoxSoundTouch14receiveSamplesEPfj
+000012d3 _ZN7mozilla15RLBoxSoundTouch18resizeSampleBufferEj
+00001306 _ZN7mozilla15RLBoxSoundTouch5flushEv
+0000132b _ZNSt6__ndk13mapIjPvNS_4lessIjEENS_9allocatorINS_4pairIKjS1_EEEEEixEOj
+00001372 _ZNSt6__ndk16__treeINS_12__value_typeIjPvEENS_19__map_value_compareIjS3_NS_4lessIjEELb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJOjEEENSF_IJEEEEEENS_4pairINS_15__tree_iteratorIS3_PNS_11__tree_nodeIS3_S2_EElEEbEERKT_DpOT0_
+00001483 _ZNSt6__ndk16__treeINS_12__value_typeIjPvEENS_19__map_value_compareIjS3_NS_4lessIjEELb1EEENS_9allocatorIS3_EEE12__find_equalIjEERPNS_16__tree_node_baseIS2_EERPNS_15__tree_end_nodeISE_EERKT_
+00001541 moz_xmalloc
+0000154d _ZNSt6__ndk16__treeINS_12__value_typeIjPvEENS_19__map_value_compareIjS3_NS_4lessIjEELb1EEENS_9allocatorIS3_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIS2_EEEERSE_SE_
+0000160a _ZNSt6__ndk118shared_timed_mutex6unlockEv
+00001634 __aarch64_cas4_rel
+00001647 __aarch64_cas4_acq
+0000165a __aarch64_cas4_acq_rel
+00001671 __aarch64_cas4_relax
+00001686 _ZNSt6__ndk16__treeINS_12__value_typeIjPKvEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEED2Ev
+000016fa _ZNSt6__ndk16__treeINS_12__value_typeIPKvjEENS_19__map_value_compareIS3_S4_NS_4lessIS3_EELb1EEENS_9allocatorIS4_EEED2Ev
+00001772 _ZNSt6__ndk16__treeINS_12__value_typeIjPvEENS_19__map_value_compareIjS3_NS_4lessIjEELb1EEENS_9allocatorIS3_EEE7destroyEPNS_11__tree_nodeIS3_S2_EE
+00001804 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEENS_19__map_value_compareIS7_S9_NS_4lessIS7_EELb1EEENS5_IS9_EEE7destroyEPNS_11__tree_nodeIS9_S8_EE
+000018ca _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
+00001911 _ZNSt6__ndk16__treeINS_12__value_typeIjPKvEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE7destroyEPNS_11__tree_nodeIS4_PvEE
+000019a3 _ZNSt6__ndk16__treeINS_12__value_typeIPKvjEENS_19__map_value_compareIS3_S4_NS_4lessIS3_EELb1EEENS_9allocatorIS4_EEE7destroyEPNS_11__tree_nodeIS4_PvEE
+00001a39 _ZNSt6__ndk16vectorIPvNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_
+00001a85 _ZNSt6__ndk111__call_onceERVmPvPFvS2_E
+00001aac _ZNSt6__ndk118condition_variableD1Ev
+00001ad1 _ZN7mozilla15RLBoxSoundTouchC1Ev
+00001af2 _ZN7mozilla15RLBoxSoundTouchD1Ev
+00001b13 _ZNSt6__ndk118condition_variable10notify_oneEv
+00001b42 _ZNSt6__ndk118condition_variable10notify_allEv
+00001b71 _ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE
+00001bb6 _ZNSt6__ndk15mutex4lockEv
+00001bd0 _ZNSt6__ndk15mutex6unlockEv
+00001bec _ZNSt6__ndk119__shared_mutex_baseC2Ev
+00001c12 _ZNSt6__ndk119__shared_mutex_base4lockEv
+00001c3b _ZNSt6__ndk119__shared_mutex_base8try_lockEv
+00001c68 _ZNSt6__ndk119__shared_mutex_base6unlockEv
+00001c93 _ZNSt6__ndk119__shared_mutex_base11lock_sharedEv
+00001cc4 _ZNSt6__ndk119__shared_mutex_base15try_lock_sharedEv
+00001cf9 _ZNSt6__ndk119__shared_mutex_base13unlock_sharedEv
+00001d2c _ZNSt6__ndk118shared_timed_mutexC2Ev
+00001d51 _ZNSt6__ndk119__shared_mutex_baseC1Ev
+00001d77 _ZNSt6__ndk118shared_timed_mutex8try_lockEv
+00001da3 _ZNSt6__ndk118shared_timed_mutex11lock_sharedEv
+00001dd3 _ZNSt6__ndk118shared_timed_mutex15try_lock_sharedEv
+00001e07 _ZNSt6__ndk118shared_timed_mutex13unlock_sharedEv
+00001e39 libmozglue.so
+00001e47 libc.so
+00001e4f LIBC
+00001e54 libm.so
+00001e5c liblog.so
+00001e66 libdl.so
+00001e6f liblgpllibs.so
+000040f0 os_munmap error addr:%p, size:0x%lx, errno:%d
+0000411f Malloc tried to allocate 0 bytes
+00004140 MOZ_CRASH(wasm2c memory grow failed)
+00004165 MOZ_RELEASE_ASSERT(mSampleBuffer)
+000041a8 Could not allocate a heap for the wasm2c sandbox
+000041d9 Granting access too large a region
+000041fc Out-of-bounds access in linear memory or a table
+0000422d Integer overflow on divide or truncation
+00004277 Unexpected state. Destroying a sandbox that was never initialized.
+000042ba Conversion from NaN to integer
+000042d9 MOZ_RELEASE_ASSERT(written <= aMaxSamples) (Number of samples exceeds max samples)
+0000434d Performing memory operation memset/memcpy on a null pointer
+00004389 SetSampleRate
+00004397 SetTempo
+000043a0 NumChannels
+000043ac Sandbox heap not aligned to 4GB
+000043cc Integer divide by zero
+000043e3 Flush
+0000440a SetSetting
+00004415 createSoundTouchObj
+00004429 destroySoundTouchObj
+0000445f Invalid capacity
+00004470 destroy_sandbox called without sandbox creation/is being destroyed concurrently
+000044c0 ReceiveSamples
+000044cf Pointer to buffer is within sandbox and has at least numCopyElements elements.
+0000451e Malloc returned pointer outside the sandbox memory
+00004551 SetRate
+00004559 NumSamples
+00004564 RLBox crash: %s
+00004574 Could not initialize min wasi
+00004592 Sandbox already initialized
+000045ae Attempting to malloc more than the heap size
+000045db Invalid call_indirect
+000045f1 invalid trap code
+00004603 NumUnprocessedSamples
+00004619 MOZ_RELEASE_ASSERT(numCopyElements.isValid() && numCopyElements.value() <= maxElements.value()) (Bad number of written elements)
+0000469a Call stack exhausted
+000046db LcNb
+000046f1 PutSamples
+000046fc create_sandbox called when sandbox already created/is being created concurrently
+0000474d Unreachable instruction executed
+0000478f Does not support Wasm with memory64
+000047b3 Uncaught exception
+000047c6 Could not initialize min wasi instance
+000047ed Called memcpy for memory larger than the sandbox
+00004860 wasm2c crash: %s
+00004871 MOZ_RELEASE_ASSERT(ch == numChannels) (Number of channels changed)
+000048b4 No error
+000048c1 tg]g*
+000048ff SetChannels
+0000490b SetPitch
+00004914 MOZ_RELEASE_ASSERT(maxElements.isValid()) (Max number of elements overflow)
+000049a7 A1cb
+000049af =1cb
+000049b7 =1cb
+000049bf =IUUUUU
+00004a1d !	@|
+00004ab7 =IUUUUU
+00004ace 4@LUUUUU
+00004aff @1cb
+00004b16 V@1cb
+00004b2e 5@1cb
+00005120 ;Y)w
+00005168 N10soundtouch16FIFOSampleBufferE
+00005189 N10soundtouch14FIFOSamplePipeE
+000051dc N10soundtouch9FIRFilterE
+00005230 N10soundtouch16InterpolateCubicE
+000052c0 N10soundtouch24InterpolateLinearIntegerE
+000052f8 N10soundtouch22InterpolateLinearFloatE
+0000535c N10soundtouch18InterpolateShannonE
+000053f0 N10soundtouch14RateTransposerE
+0000540f N10soundtouch13FIFOProcessorE
+00005448 N10soundtouch14TransposerBaseE
+00005470 -+   0X0x
+0000547a -0X+0X 0X-0x+0x 0x
+0000548d std::bad_cast
+0000549b std::bad_exception
+000054ae std::exception
+000054c1 bad_array_new_length
+000054da std::bad_typeid
+000054ea terminate_handler unexpectedly returned
+00005512 unexpected_handler unexpectedly returned
+0000553b std::bad_alloc
+00005558 (null)
+0000555f Pure virtual function called!
+0000557d Deleted virtual function called!
+0000559e libc++abi: 
+000055aa SoundTouch Version: %s
+000055c2 Support for formatting long double values is currently disabled.
+00005603 To enable it, add -lc-printscan-long-double to the link command.
+0000567c N10soundtouch10SoundTouchE
+000056f8 N10soundtouch9TDStretchE
+00005794 N10soundtouch12TDStretchSSEE
+000057c0 N10soundtouch12FIRFilterSSEE
+00005828 St9exception
+00005854 St13bad_exception
+00005874 St9bad_alloc
+00005890 St20bad_array_new_length
+000058f0 St9type_info
+00005908 St8bad_cast
+00005920 St10bad_typeid
+0000593c N10__cxxabiv116__shim_type_infoE
+0000596c N10__cxxabiv117__class_type_infoE
+0000599c N10__cxxabiv117__pbase_type_infoE
+000059cc N10__cxxabiv119__pointer_type_infoE
+000059fc N10__cxxabiv120__function_type_infoE
+00005a30 N10__cxxabiv129__pointer_to_member_type_infoE
+00005ab0 N10__cxxabiv123__fundamental_type_infoE
+00005b38 PKDn
+00005e7c PKDh
+00005f84 PKDu
+00005fbc PKDs
+00005ff4 PKDi
+00006028 N10__cxxabiv117__array_type_infoE
+00006090 N10__cxxabiv116__enum_type_infoE
+00006110 N10__cxxabiv120__si_class_type_infoE
+0000616c N10__cxxabiv121__vmi_class_type_infoE
+00006ce0 -Dt>
+00006cff @ %z8
+00006d3b ?<TUUUU
+00006e46 /*RV
+00006e8c {Q}<
+00006ec3 ?`/:>
+00006f0b <8bunz8
+00006f13 ?}Ht
+00006f7a n<V/>
+00006fc3 ?hPK
+00007003 ?mL*
+00007015 i(z`
+00007049 cC<-
+0000708a v<'*6
+0000710b <)TH
+00007163 ?XXVx
+00007183 ?("^
+000071c5 >Z~d
+0000722a e<bN
+00007243 ?47;
+00007263 ?nWr
+000072aa {<6w
+0000731a m<##
+00007323 ?c"b"
+0000733b <3-J
+00007447 l,kg<i
+00007513 ?}t#
+0000752b <'Za
+0000754b <@En[v
+0000758c Success
+00007594 Illegal byte sequence
+000075aa Domain error
+000075b7 Result not representable
+000075d0 Not a tty
+000075da Permission denied
+000075ec Operation not permitted
+00007604 No such file or directory
+0000761e No such process
+0000762e File exists
+0000763a Value too large for data type
+00007658 No space left on device
+00007670 Out of memory
+0000767e Resource busy
+0000768c Interrupted system call
+000076a4 Resource temporarily unavailable
+000076c5 Invalid seek
+000076d2 Cross-device link
+000076e4 Read-only file system
+000076fa Directory not empty
+0000770e Connection reset by peer
+00007727 Operation timed out
+0000773b Connection refused
+0000774e Host is unreachable
+00007762 Address in use
+00007771 Broken pipe
+0000777d I/O error
+00007787 No such device or address
+000077a1 No such device
+000077b0 Not a directory
+000077c0 Is a directory
+000077cf Text file busy
+000077de Exec format error
+000077f0 Invalid argument
+00007801 Argument list too long
+00007818 Symbolic link loop
+0000782b Filename too long
+0000783d Too many open files in system
+0000785b No file descriptors available
+00007879 Bad file descriptor
+0000788d No child process
+0000789e Bad address
+000078aa File too large
+000078b9 Too many links
+000078c8 No locks available
+000078db Resource deadlock would occur
+000078f9 State not recoverable
+0000790f Previous owner died
+00007923 Operation canceled
+00007936 Function not implemented
+0000794f No message of desired type
+0000796a Identifier removed
+0000797d Link has been severed
+00007993 Protocol error
+000079a2 Bad message
+000079ae Not a socket
+000079bb Destination address required
+000079d8 Message too large
+000079ea Protocol wrong type for socket
+00007a09 Protocol not available
+00007a20 Protocol not supported
+00007a37 Not supported
+00007a45 Address family not supported by protocol
+00007a6e Address not available
+00007a84 Network is down
+00007a94 Network unreachable
+00007aa8 Connection reset by network
+00007ac4 Connection aborted
+00007ad7 No buffer space available
+00007af1 Socket is connected
+00007b05 Socket not connected
+00007b1a Operation already in progress
+00007b38 Operation in progress
+00007b4e Stale file handle
+00007b60 Quota exceeded
+00007b6f Multihop attempted
+00007b82 Capabilities insufficient
+00007e14 0123456789ABCDEF
+0000ca4b *!kh
+0000cd9b 2Ii(
+0000d0e4 kIi8
+0000d164 k=@9
+0000d220 jI(x+	
+0000d29b SjI(8J}
+0000d340 jI(8+
+0000d400 kIix
+0000d424 IIi8I
+0000d524 kIix
+0000d548 IIi8
+0000d554 II(8
+0000d5ec kIc8
+0000d684 kIl8
+0000d6a0 kIm8
+0000d6c4 kIm8
+0000d6e0 kIl8
+0000d723 rjI38
+0000d7f4 )Ij8
+0000d800 II+8
+0000d824 )Ij8
+0000d830 II+8 
+0000d854 )Ij8
+0000d860 II+8
+0000d881 Ii8	
+0000d88c (I*8K
+0000d896 	*?!
+0000d8ac )Ic8
+0000d8b8 iI(8	
+0000d8e8 )	@9
+0000df43 *!kh
+0000e0f7 *Bi)
+0000e1cd I38h
+0000e1e0 "I*8
+0000e21c BI+8
+0000e22c BI+8
+0000e254 "I(8c
+0000e7ef *)A!
+0000e98b Q!@b
+0000f40b *!kh
+0000f8f3 k0j+
+0000fa2b k0j+
+0000fda3 T` d
+0000fde7 kB8c
+0000ffaf T` d
+0000fff3 kB8c
+000100ff T#8b
+0001010b T@ b
+00010113 Tc@b
+000101b7 T` d
+000101f7 kB8c
+00010417 m @`
+00010443 m @`
+0001046b T`!+
+00010473 T !)
+000104bb T`"E
+000105bb T !)
+000105c3 T`!+
+00010609 KBmc
+000106c7 T  b
+00010923 m @`
+00010953 m @`
+0001097b T`!+
+00010983 T !)
+00010a07 T`"E
+00010b66 Gm@!*
+00010b77 T !)
+00010b7f T`!+
+00010c97 T` #
+00010d47 T  b
+00012962 	kb6
+00012ac2 	kb+
+00012b42 	kb'
+00013d38 )eA9
+00013d70 )iA9
+00014057 *Akh
+00014357 R(I!
+00014674 KiA9
+0001480b k"i6
+00014b10 JaA9
+000158c3 T  b
+00015bfb T  !
+00015efa #NCI
+00015f02 "NBI
+00015f0a %NEI
+00016dbf R	i<
+00017c2b R*i(8
+00017e34 5i(8
+00017e50 ?i(8i
+00017e5c (ih8w"
+00018553 R(i:
+0001874f 4kih
+0001877b kJih
+00018fac (i88
+00018fb9 ix8h
+00019044 (i88h
+00019085 i)8h
+00019091 ii8u"
+0001915b R*i(8i
+00019168 (ih8v"
+000192ec ?i(8
+0001933f *!iu
+0001944b 4*iz
+000194d7 4*iz
+0001951c  i(8
+000197a4 *i(8
+000197bc ?i(8
+000198c7 *!iw
+000198ff R*i(8
+00019920 ?i(8i
+0001992c (ih8t"
+000199ab 4!ih
+00019a64  i(8
+00019bc3 R*i(8
+00019bd4 ?i(8i
+00019be0 (ih8t"
+00019d17 R*i(8i
+00019d24 (ih8u"
+00019dd4 ?i(8
+00019e9b R	 @
+00019f7f 4kih
+00019fab kJih
+0001a591 i98h
+0001a5d5 i:8h
+0001a6f5 i:8h
+0001a72d i98h
+0001a78d iz8i
+0001a79f R)iv
+0001aacc &i98	
+0001abc5 iy8h
+0001acf4 %i88	
+0001ade5 ix8h
+0001b09d i{8h
+0001b159 i+8h
+0001b191 i)8h
+0001b20d i{8h
+0001b2c9 i*8h
+0001b2f8 	i+8h
+0001b305 ij8i
+0001b317 R)iy
+0001b339 ik8(
+0001b80c (i<8h
+0001b838 (i=8h
+0001b914 )i|8j
+0001b928 (i<8h
+0001b950 )i}8j
+0001b964 (i=8h
+0001badc )i|8j
+0001baf0 (i<8h
+0001bb18 )i}8j
+0001bb2c (i=8h
+0001bb69 i|8i
+0001bb95 i}8i
+0001bd31 iz8h
+0001be5c &i(8	
+0001be77 *)iy
+0001be94 (ih8
+0001bf01 Ib8	
+0001bf0c )Ia8?
+0001bf2d Ik8	
+0001bf3c )Ij8J
+0001c184 )Ih8i
+0001c1a0 )Ih8
+0001c1c0 )Ih8?
+0001c20c )Ih8
+0001c300 JIkx
+0001c313 QhA)
+0001c458 )IBQ?
+0001c513 RamE
+0001c76b T  b
+0001cd9b Q (`
+0001cedb T  b
+0001d86f q 8`
+0001d986 	*bi(
+0001df10 I@DQ?
+0001df40 	I!8	
+0001dfc4 	I!8
+0001e010 	I!8	
+0001e17f *JIw
+0001e35f *ji(
+0001e560 )Ij8?)
+0001e790 JIk8_)
+0001e970 JIh8_
+0001e99c JIh8_
+0001e9c8 JIh8_
+0001ea68 JIh8_
+0001ef0c #i*8	
+0001ef18 )ij8
+0001efa5 i)8h
+0001efb1 ii8u"
+0001f1a3 rMi,
+0001f203 rbh 
+0001fa2e Kzh0
+0001fa44 kim8K/
+0001fbc7 r }C
+0002006f 1		@
+0002019f r }C
+00020347 *KA,
+00020847 k`1Mz
+00020cc7 rji(
+00020d86 JK_}
+00020e2b rIA)
+000213df RkA,
+0002153b Kkim
+0002184b kk	A
+0002196b riA)
+0002203d I|8H8
+000220ac )	@9?
+000221d9 	@z,
+0002236c JIi8_
+0002247f kkA)
+000224f2 5*@}
+0002252b *IA)
+00022538 Bii8I
+00022784 O"h7
+0002284f qji4
+00022938 Ii+8
+000229dc KI)8)
+00022a70 kin8,
+00022a81 I)8)
+00022b65 ii8(
+00022ba5 ii8(
+00022d7c )Ih8
+00023107 2lI)8)
+00023147 2KI78
+000232c5 A@q`
+0002344d 	@q`
+00023452 Xzj^
+000234d5 ii8HZ/7
+000237a5 I*8J
+000237d0 Li+8*
+00023804 KI!8
+00023824 LI-8
+0002383b T  b
+00023879 Ik8,
+00023b66 [zmU
+00023c4a ?Q/|
+00023c7c  H`8
+00023cd3 T!@a
+00023d83 KkI}
+00023f3b 2lI(8
+00023fa3 R;I:8
+00023fbc +I*8
+000241a7 2mI,8
+00024245 ii8(
+00024295 ii8H
+00024313 2KI!8
+00024351 ii8(
+000243f9 I)8)
+00024481 ii8h
+00024678 6i(xi
+0002469c 6i(8`
+00024b3c (ihx_
+00024b98 (ih8H
+00025107 4ivB
+00025a83 T)D@
+00025ca0 	ag9
+00025cbc 	a'9
+00025db9 R	y`.
+00026050 jb@9
+000262c5  @9h
+000263a0 mij8
+0002699b =hZB
+00026a45 AC9h
+00026edd #@9h
+00027179 #@9h
+00028941 .init_array
+0002894d .fini_array
+00028959 .text
+0002895f .got
+00028964 .note.android.ident
+00028978 .got.plt
+00028981 .rela.plt
+0002898b .bss
+00028990 .dynstr
+00028998 .eh_frame_hdr
+000289a6 .gnu.version_r
+000289b5 .data.rel.ro
+000289c2 .rela.dyn
+000289cc .gnu.version
+000289d9 .dynsym
+000289e1 .hash
+000289e7 .eh_frame
+000289f1 .note.gnu.build-id
+00028a04 .dynamic
+00028a0d .shstrtab
+00028a17 .rodata
+00028a1f .data

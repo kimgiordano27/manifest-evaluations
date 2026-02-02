@@ -1,0 +1,671 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+00001085 __cxa_finalize
+00001094 __cxa_atexit
+000010a1 __register_atfork
+000010b3 __android_log_print
+000010c7 _ZNSt6__ndk115__thread_structC1Ev
+000010e9 pthread_create
+000010f8 _ZNSt6__ndk16thread6detachEv
+00001115 _ZNSt6__ndk16threadD1Ev
+0000112d __stack_chk_fail
+0000113e _ZNSt6__ndk120__throw_system_errorEiPKc
+00001166 _ZNSt6__ndk115__thread_structD1Ev
+00001188 _ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+000011e5 strlen
+000011ec memmove
+000011f4 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00001243 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc
+000012a7 _ZTVNSt6__ndk117bad_function_callE
+000012ca _ZTINSt6__ndk117bad_function_callE
+000012ed _ZNSt6__ndk117bad_function_callD1Ev
+00001311 _ZNSt6__ndk119__thread_local_dataEv
+00001335 pthread_setspecific
+00001349 _ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+000013ac _ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+0000140a _ZNSt6__ndk15mutex4lockEv
+00001424 _ZNSt6__ndk15mutex6unlockEv
+00001440 _ZNSt6__ndk119__shared_weak_count14__release_weakEv
+00001474 _ZNSt6__ndk112__next_primeEm
+00001491 _ZNSt6__ndk16chrono12steady_clock3nowEv
+000014b9 pthread_cond_clockwait
+000014d0 _ZNSt6__ndk16thread4joinEv
+000014eb strcmp
+000014f2 _ZNSt6__ndk119__shared_weak_countD2Ev
+00001518 _ZTINSt6__ndk110__function6__baseIFvbPKcEEE
+00001544 _ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info
+00001585 _ZTINSt6__ndk119__shared_weak_countE
+000015aa _ZNSt6__ndk119__shared_weak_count4lockEv
+000015d3 _ZTVNSt6__ndk112bad_weak_ptrE
+000015f1 _ZTINSt6__ndk112bad_weak_ptrE
+0000160f _ZNSt6__ndk112bad_weak_ptrD1Ev
+0000162e _ZNSt6__ndk19to_stringEd
+00001647 memset
+0000164e _ZTTNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000169b _ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000016e4 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev
+0000171d _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev
+00001754 _ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev
+00001786 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+000017d5 memcmp
+000017dc _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_
+0000182e _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEErsERd
+00001866 _ZTTNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000018b3 _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED2Ev
+000018ea _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+00001935 _ZTVNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001982 _ZNSt6__ndk18ios_base4initEPv
+000019a0 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+000019d9 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+00001a26 vsnprintf
+00001a30 _ZTVNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001a7d _ZNSt6__ndk19to_stringEi
+00001a96 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+00001ae6 memcpy
+00001aed _ZNSt6__ndk16stoullERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+00001b41 _ZNSt6__ndk14stoiERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+00001b93 _ZNSt6__ndk115future_categoryEv
+00001bb3 _ZNSt6__ndk112future_errorC1ENS_10error_codeE
+00001be1 _ZTINSt6__ndk112future_errorE
+00001bff _ZNSt6__ndk112future_errorD1Ev
+00001c1e _ZN7Horizon8Platform6Client22initializeWithCallbackEPKcPFvbS3_PvES4_S3_P7_JNIEnv
+00001c6f _ZTVNSt6__ndk120__shared_ptr_emplaceIN7Horizon8Platform6Client4Impl12CallbackDataENS_9allocatorIS5_EEEE
+00001cd7 _ZTVNSt6__ndk120__shared_ptr_emplaceINS_7promiseIN7Horizon8Platform11AsyncResultEEENS_9allocatorIS5_EEEE
+00001d40 _ZNSt6__ndk117__assoc_sub_state13set_exceptionESt13exception_ptr
+00001d81 _ZTVNSt6__ndk112future_errorE
+00001d9f _ZTINSt6__ndk120__shared_ptr_emplaceIN7Horizon8Platform6Client4Impl12CallbackDataENS_9allocatorIS5_EEEE
+00001e07 _ZTINSt6__ndk120__shared_ptr_emplaceINS_7promiseIN7Horizon8Platform11AsyncResultEEENS_9allocatorIS5_EEEE
+00001e70 _ZN7Horizon8Platform6ClientC1Ev
+00001e90 _ZN7Horizon8Platform6ClientD1Ev
+00001eb0 _ZNK7Horizon8Platform18PaginatedArrayBase7getSizeEv
+00001ee4 _ZNK7Horizon8Platform18PaginatedArrayBase13getTotalCountEv
+00001f1f _ZNK7Horizon8Platform18PaginatedArrayBase11hasNextPageEv
+00001f58 _ZNK7Horizon8Platform16LeaderboardEntry7getRankEv
+00001f8a _ZNK7Horizon8Platform16LeaderboardEntry8getScoreEv
+00001fbd _ZNK7Horizon8Platform16LeaderboardEntry7getUserEv
+00001fef _ZNK7Horizon8Platform21LeaderboardEntryArray19getLeaderboardEntryEm
+00002033 _ZN7Horizon8Platform18LeaderboardsClient10getEntriesEPKciNS0_21LeaderboardFilterTypeENS0_18LeaderboardStartAtEPFvRKNS0_21LeaderboardEntryArrayEbS3_PvES9_
+000020cd _ZN7Horizon8Platform18LeaderboardsClientC1Ev
+000020fa _ZN7Horizon8Platform18LeaderboardsClientD1Ev
+00002127 _ZNK7Horizon8Platform4User14getDisplayNameEv
+00002154 __wrap__ZNSt16invalid_argumentD1Ev
+00002177 __wrap__ZTISt12length_error
+00002193 __wrap__ZTISt16invalid_argument
+000021b3 __wrap___cxa_begin_catch
+000021cc __wrap__ZTVN10__cxxabiv120__si_class_type_infoE
+000021fc __wrap__ZNSt11logic_errorC2ERKS_
+0000221d __wrap__ZTVN10__cxxabiv117__class_type_infoE
+0000224a __wrap___cxa_allocate_exception
+0000226a __wrap___cxa_guard_release
+00002285 __wrap__ZdlPv
+00002293 __wrap__ZNSt13exception_ptrD1Ev
+000022b3 __wrap__ZNSt13runtime_errorD1Ev
+000022d3 __wrap__ZNSt20bad_array_new_lengthD1Ev
+000022fa __wrap___cxa_end_catch
+00002311 __wrap___cxa_pure_virtual
+0000232b __wrap__ZTVSt12length_error
+00002347 __wrap___gxx_personality_v0
+00002363 __wrap__Unwind_Resume
+00002379 __wrap___cxa_throw
+0000238c __wrap___cxa_free_exception
+000023a8 __wrap__ZTVSt16invalid_argument
+000023c8 __wrap__ZNSt13exception_ptr31__from_native_exception_pointerEPv
+00002408 __wrap__Znwm
+00002415 __wrap__ZSt9terminatev
+0000242c __wrap__ZTISt9exception
+00002444 __wrap__ZNSt11logic_errorC2EPKc
+00002464 __wrap__ZNSt12length_errorD1Ev
+00002483 __wrap__ZNSt20bad_array_new_lengthC1Ev
+000024aa __wrap___cxa_guard_acquire
+000024c5 __wrap__ZTISt20bad_array_new_length
+000024e9 __wrap___cxa_init_primary_exception
+0000250d __wrap__ZNSt13runtime_errorC1EPKc
+0000252f __wrap__ZTVN10__cxxabiv121__vmi_class_type_infoE
+00002560 __wrap__ZTISt13runtime_error
+0000257d getauxval
+00002587 __system_property_get
+0000259d strncmp
+000025a5 libc.so
+000025ad LIBC
+000025b2 LIBC_R
+000025b9 liblog.so
+000025c3 libc++_shared.so
+000025d4 libhorizon_platform_sdk.so
+000025f0 APS2
+00006af5 Horizon::Platform::LeaderboardEntry
+00006b19 summary
+00006b21 Message class and field IDs initialized successfully
+00006b56 ' is not an array
+00006b68 Invalid JSON: unterminated array
+00006b89 \u%04x
+00006b90 LeaderboardEntryArray::deserializeFromJsonValue: Failed to parse entry at index %zu
+00006be4 next
+00006be9 Failed to create request
+00006c02 Failed to make request
+00006c19 makeRequest
+00006c25 Horizon::Platform::Driver::Request
+00006c48 total_count
+00006c54 getMessageCount
+00006c64 Invalid JSON: expected digit after decimal point
+00006c95 Invalid JSON: expected digit in exponent
+00006cbe department
+00006cc9 Failed to get JNI environment
+00006ce7 Android platform initialization failed: Failed to get JavaVM from provided JNI environment
+00006d42 Successfully cached JavaVM from provided JNI environment
+00006d7b Failed to create client
+00006d93 Horizon::Platform::LeaderboardsClient
+00006db9 Horizon::Platform::Client
+00006dd3 limit
+00006dd9 LeaderboardEntry::deserializeFromJsonValue: JSON value is not an object
+00006e21 LeaderboardEntryArray::deserializeFromJsonValue: JSON value is not an object
+00006e6e User::deserializeFromJsonValue: JSON value is not an object
+00006eaa ManagedInfo::deserializeFromJsonValue: JSON value is not an object
+00006eed SupplementaryMetric::deserializeFromJsonValue: JSON value is not an object
+00006f38 ' is not an object
+00006f4b Invalid JSON: unterminated object
+00006f6d java/lang/Object
+00006f7e Failed to find toString method in java.lang.Object
+00006fb1 start_at
+00006fbd presence_status
+00006fcd previous
+00006fd6 Client::initializeWithCallback: Initialization already in progress
+00007019 Failed to find java.lang.Object class
+0000703f Failed to get field IDs for Message class
+00007069 Failed to find Message class
+00007086 loadClass
+00007090 Failed to initialize Horizon::Platform::ClientAndroid - see above errors for details
+000070e5 get_entries
+000070f1 No global client available for processing messages
+00007124 leaderboards
+00007131 alias
+00007137 Failed to make request: %s.%s
+00007155 LeaderboardEntryArray::deserializeFromJsonValue: Exception while parsing entry at index %zu: %s
+000071b5 User::deserializeFromJsonValue: Failed to parse managedInfo: %s
+000071f5 Java exception: %s
+00007208 Client::shutdown: Exception: %s
+00007228 Client::initializeWithCallback: Exception: %s
+00007256 Client::isInitialized: Exception: %s
+0000727b Exception during platform initialization: %s
+000072a8 Exception in CallbackRunner message processing: %s
+000072db LeaderboardEntry::deserializeFromJsonValue: Exception during parsing: %s
+00007324 LeaderboardEntryArray::deserializeFromJsonValue: Exception during parsing: %s
+00007372 User::deserializeFromJsonValue: Exception during parsing: %s
+000073af ManagedInfo::deserializeFromJsonValue: Exception during parsing: %s
+000073f3 SupplementaryMetric::deserializeFromJsonValue: Exception during parsing: %s
+0000743f Client::initializeWithCallback: Exception during Core::AsyncInitialize: %s
+0000748a Make leaderboards.get_entriesRequest failed: %s
+000074ba Successfully initialized Horizon::Platform::ClientAndroid with AppId: %s
+00007503 Failed to execute callback for request ID %d: %s
+00007534 Failed to handle message for request ID %d: %s
+00007563 LeaderboardEntry::deserializeFromJsonValue: Failed to parse supplementaryMetric: %s
+000075b7 LeaderboardEntry::deserializeFromJson: Failed to parse JSON: %s
+000075f7 LeaderboardEntryArray::deserializeFromJson: Failed to parse JSON: %s
+0000763c User::deserializeFromJson: Failed to parse JSON: %s
+00007670 ManagedInfo::deserializeFromJson: Failed to parse JSON: %s
+000076ab SupplementaryMetric::deserializeFromJson: Failed to parse JSON: %s
+000076ee Initializing SDK with App ID: %s
+0000770f vector
+00007716 filter
+0000771d user
+00007722 Horizon::Platform::User
+0000773a JNIHelper
+00007744 Horizon::Platform::Driver::CallbackRunner
+0000776e manager
+00007776 getClassLoader
+00007785 employee_number
+00007795 ' is not a number
+000077aa setup
+000077b0 Exception during JNI environment cleanup
+000077d9 timestamp
+000077e3 managed_info
+000077f0 Horizon::Platform::ManagedInfo
+0000780f Client::~Client: Exception during shutdown
+0000783a Android platform initialization failed: unknown exception
+00007874 Platform initialization failed with exception
+000078a2 Unknown Java exception
+000078b9 position
+000078c2 Failed to start initialization
+000078e1 location
+000078ea getApplication
+000078f9 stopSession
+00007905 makeSession
+00007914 Global client set for Callback system
+0000793a profile_url
+00007946 Object is null
+00007955 LeaderboardEntry::deserializeFromJson: jsonString is null
+0000798f LeaderboardEntryArray::deserializeFromJson: jsonString is null
+000079ce User::deserializeFromJson: jsonString is null
+000079fc ManagedInfo::deserializeFromJson: jsonString is null
+00007a31 SupplementaryMetric::deserializeFromJson: jsonString is null
+00007a6e Client::initializeWithCallback: appId is null
+00007a9c App ID cannot be null
+00007ab2 profile_url_small
+00007ac4 email
+00007aca rank
+00007acf Horizon::Platform::Driver::Callback
+00007af3 ro.arch
+00007afb Unknown exception in CallbackRunner message processing
+00007b32 basic_string
+00007b3f ' is neither a number nor a convertible string
+00007b6e Invalid JSON: unterminated string
+00007b90 ' is not a string
+00007ba2 toString
+00007bab CallbackRunner is already running
+00007bcd paging
+00007bd4 horizonos/supplement/hzplatformclientcore/AndroidHorizonPlatformConfig
+00007c1e true
+00007c23 Not an array value
+00007c36 Not an object value
+00007c4a Not a number value
+00007c5d Not a boolean value
+00007c71 Not a string value
+00007c84 Horizon Platform shutdown complete
+00007ca7 Horizon Platform Initialization Complete
+00007cd0 false
+00007cd6 display_score
+00007ce4 horizonos/supplement/hzplatformclientcore/HorizonPlatformCore
+00007d22 Failed to find Java class horizonos.supplement.hzplatformclientcore.HorizonPlatformCore
+00007d7a Horizon::Platform::Driver::Core
+00007d9a display_name
+00007da7 organization_name
+00007db9 presence_destination_api_name
+00007dd7 leaderboard_name
+00007de8 Global client not available
+00007e04 Cannot cleanup JNI resources - no JNI environment available
+00007e40 cookie
+00007e47 presence_deeplink_message
+00007e61 statusMessage
+00007e6f popMessage
+00007e7a horizonos/supplement/hzplatformclientcore/Message
+00007eac statusCode
+00007eb7 presence
+00007ec0 Client::shutdown: Invalid instance
+00007ee3 Client::initializeWithCallback: Invalid instance
+00007f14 Failed to load Java class '%s' using ClassLoader.loadClass method
+00007f56 Session stopped: %ld
+00007f6b Request created successfully with ID: %ld
+00007f95 Horizon::Platform::ClientAndroid
+00007fb6 organization_id
+00007fc6 presence_lobby_session_id
+00007fe0 presence_match_session_id
+00007ffa external_id
+00008006 Client::initializeWithCallback: Platform already initialized
+00008043 Cannot register callback: request is null or SDK is not initialized
+00008087 CallbackRunner started
+0000809e CallbackRunner stopped
+000080b5 condition_variable timed_wait failed
+000080da thread constructor failed
+000080f4 Platform initialization failed
+00008113 currentActivityThread
+00008129 android/app/ActivityThread
+00008144 NativeThread
+00008151 requestId
+0000815b getGlobalSessionId
+0000816e Message popped from session %ld: RequestId=%ld, StatusCode=%d
+000081ac Unknown exception in callback for request ID %d
+000081dc Unknown exception while handling message for request ID %d
+00008217 No matching request found for RequestID: %d
+00008243 No request object found for RequestID: %d
+0000826d supplementary_metric
+00008282 Horizon::Platform::SupplementaryMetric
+000082ac LeaderboardEntry::deserializeFromJsonValue: Failed to parse user data
+000082f9 (J)V
+000082fe (Landroid/content/Context;Ljava/lang/String;)V
+0000832d (Lhorizonos/supplement/hzplatformclientcore/HorizonPlatformConfig;)V
+00008376 FRIENDS
+0000837e USER_IDS
+00008387 CENTERED_ON_VIEWER
+0000839a CENTERED_ON_VIEWER_OR_TOP
+000083b4 UNKNOWN
+000083bc Unexpected end of JSON
+000083d3 Make sure the Java class is included in the Android application's APK
+00008419 Failed to initialize Horizon Platform Native SDK
+0000844a Successfully initialized Horizon Platform Native SDK
+0000847f (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;I)J
+000084bf (J)I
+000084c4 NONE
+000084c9 ONLINE
+000084d0 OFFLINE
+000084d8 <init>
+000084df (Ljava/lang/String;)Ljava/lang/Class;
+00008505 ()Ljava/lang/ClassLoader;
+0000851f ()Landroid/app/Application;
+0000853b ()Ljava/lang/String;
+00008550 (JZ)Lhorizonos/supplement/hzplatformclientcore/Message;
+00008588 ()Landroid/app/ActivityThread;
+000085aa extra_data_base64
+000085bc exynos9810
+000085c7 Failed to get Android application context.
+000085f2 SDK not initialized. Call AsyncInitialize() first.
+00008625 Attempted to attach multiple handlers to a Request. This is not allowed.
+0000866e App ID cannot be empty. Please provide a valid App ID.
+000086a5 Failed to create global reference for Java object 'AndroidHorizonPlatformConfig'.
+000086f7 Failed to create Java object of class 'AndroidHorizonPlatformConfig'.
+0000873d Failed to find constructor for Java class 'AndroidHorizonPlatformConfig'.
+00008787 Failed to create global reference for Java class 'AndroidHorizonPlatformConfig'.
+000087d8 Failed to find Java class 'AndroidHorizonPlatformConfig'.
+00008812 Failed to find the default constructor for Java class 'HorizonPlatformCore'.
+0000885f Failed to create global reference for Java class 'HorizonPlatformCore'.
+000088a7 Failed to find method 'setup' in Java class 'HorizonPlatformCore'.
+000088ea Failed to create Java object of class 'HorizonPlatformCore' with constructor '()V'.
+00008940 GetObjectClass(Application context)
+00008964 FindClass(java.lang.Object)
+00008980 GetObjectClass(ClassLoader)
+0000899c NewStringUTF(RequestName)
+000089b6 NewStringUTF(javaClassName)
+000089d2 NewStringUTF(ModuleName)
+000089eb GetIntField(Message.cookie)
+00008a07 GetFieldID(Message.cookie)
+00008a22 GetStringUTFChars(Message.statusMessage)
+00008a4b ReleaseStringUTFChars(Message.statusMessage)
+00008a78 GetObjectField(Message.statusMessage)
+00008a9e GetFieldID(Message.statusMessage)
+00008ac0 GetIntField(Message.statusCode)
+00008ae0 GetFieldID(Message.statusCode)
+00008aff Successfully made request: %s.%s (ID: %ld)
+00008b2a Successfully created session: %s.%s (ID: %ld)
+00008b58 FindClass(android.app.ActivityThread)
+00008b7e GetLongField(Message.requestId)
+00008b9e GetFieldID(Message.requestId)
+00008bbc NewStringUTF(AppId)
+00008bd0 Making request: %s.%s (version %d)
+00008bf3 GetStringUTFChars(Message.data)
+00008c13 ReleaseStringUTFChars(Message.data)
+00008c37 GetObjectField(Message.data)
+00008c54 GetFieldID(Message.data)
+00008c6d NewStringUTF(RequestData)
+00008c87 GetMethodID(horizonos.supplement.hzplatformclientcore.AndroidHorizonPlatformConfig.<init>)
+00008ce2 GetMethodID(horizon.core.android.binding.HorizonPlatformJavaBridge.<init>)
+00008d2d CallLongMethod(HorizonPlatformJavaBridge.makeRequest(String,String,int,String,int))
+00008d81 GetMethodID(HorizonPlatformJavaBridge.makeRequest(String,String,int,String,int))
+00008dd2 CallLongMethod(HorizonPlatformJavaBridge.makeSession(String,String,int,String,int))
+00008e26 GetMethodID(HorizonPlatformJavaBridge.makeSession(String,String,int,String,int))
+00008e77 CallObjectMethod(HorizonPlatformJavaBridge.popMessage(long,boolean))
+00008ebc GetMethodID(HorizonPlatformJavaBridge.popMessage(long,boolean))
+00008efc CallIntMethod(HorizonPlatformJavaBridge.getMessageCount(long))
+00008f3b GetMethodID(HorizonPlatformJavaBridge.getMessageCount(long))
+00008f78 CallVoidMethod(HorizonPlatformJavaBridge.stopSession(long))
+00008fb4 GetMethodID(HorizonPlatformJavaBridge.stopSession(long))
+00008fed GetMethodID(ClassLoader.loadClass(String))
+00009018 CallVoidMethod(HorizonPlatformJavaBridge.setup(String))
+00009050 GetMethodID(HorizonPlatformConfig.setup(horizonos.supplement.hzplatformclientcore.AndroidHorizonPlatformConfig))
+000090c1 NewObject(horizonos.supplement.hzplatformclientcore.AndroidHorizonPlatformConfig, AndroidHorizonPlatformConfigConstructor, JContext, NewStringUTF(AppId))
+0000915b GetMethodID(Context.getClassLoader())
+00009181 CallObjectMethod(ActivityThread.getApplication())
+000091b3 GetMethodID(ActivityThread.getApplication())
+000091e0 GetMethodID(Object.toString())
+000091ff CallStaticObjectMethod(ActivityThread.currentActivityThread())
+0000923e GetStaticMethodID(ActivityThread.currentActivityThread())
+00009278 CallLongMethod(HorizonPlatformJavaBridge.getGlobalSessionId())
+000092b7 GetMethodID(HorizonPlatformJavaBridge.getGlobalSessionId())
+000092f3 new HorizonPlatformBridge()
+0000930f Invalid JSON: expected ',' or '}'
+00009331 Invalid JSON: expected '{'
+0000934c Invalid JSON: expected 'null'
+0000936a Invalid JSON: expected 'true'
+00009388 Invalid JSON: expected 'false'
+000093a7 Failed to find method 'makeRequest' in Java class 'HorizonPlatformCore'
+000093ef Failed to find method 'getMessageCount' in Java class 'HorizonPlatformCore'
+0000943b Failed to find method 'stopSession' in Java class 'HorizonPlatformCore'
+00009483 Failed to find method 'makeSession' in Java class 'HorizonPlatformCore'
+000094cb Failed to find method 'popMessage' in Java class 'HorizonPlatformCore'
+00009512 Failed to find method 'getGlobalSessionId' in Java class 'HorizonPlatformCore'
+00009561 Invalid JSON: expected ',' or ']'
+00009583 Invalid JSON: expected '['
+0000959e Invalid JSON: expected ':'
+000095b9 Invalid JSON: expected '"'
+000095d4 Invalid JSON: unexpected character '
+000095f9 Field '
+00009604 Failed to execute typed callback for request ID 
+00009635 ' string value cannot be converted to int: 
+00009661 ' string value cannot be converted to unsigned long long: 
+0000969c Request failed with status code: 
+000096be Key not found: 
+000096ce Missing required field: 
+000096e7 Android platform initialization failed: 
+00009710 N7Horizon8Platform13ClientAndroidE
+00009733 N7Horizon8Platform10ClientBaseE
+00009754 NSt6__ndk110__function6__funcIZN7Horizon8Platform4Core15AsyncInitializeERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKNS_8functionIFvbPKcEEESC_P7_JNIEnvE3$_0NS8_ISM_EESG_EE
+00009811 NSt6__ndk110__function6__baseIFvbPKcEEE
+00009839 ZN7Horizon8Platform4Core15AsyncInitializeERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_8functionIFvbPKcEEESA_P7_JNIEnvE3$_0
+000098d3 NSt6__ndk120__shared_ptr_emplaceIN7Horizon8Platform7RequestENS_9allocatorIS3_EEEE
+00009925 N7Horizon8Platform7RequestE
+00009941 NSt6__ndk123enable_shared_from_thisIN7Horizon8Platform7RequestEEE
+0000998d 	NSt6__ndk110__function6__funcIZN7Horizon8Platform6Client4Impl16wrapInitCallbackEPKcS7_NS_10shared_ptrINS5_12CallbackDataEEEP7_JNIEnvEUlbS7_E_NS_9allocatorISD_EEFvbS7_EEE
+00009a38 ZN7Horizon8Platform6Client4Impl16wrapInitCallbackEPKcS4_NSt6__ndk110shared_ptrINS2_12CallbackDataEEEP7_JNIEnvEUlbS4_E_
+00009aaf NSt6__ndk120__shared_ptr_emplaceIN7Horizon8Platform6Client4Impl12CallbackDataENS_9allocatorIS5_EEEE
+00009b13 NSt6__ndk120__shared_ptr_emplaceINS_7promiseIN7Horizon8Platform11AsyncResultEEENS_9allocatorIS5_EEEE
+00009b78 N7Horizon8Platform18PaginatedArrayBaseE
+00009ba0 N7Horizon8Platform21LeaderboardEntryArrayE
+00009be8 NSt6__ndk120__shared_ptr_emplaceIN7Horizon8Platform12TypedRequestINS2_21LeaderboardEntryArrayEEENS_9allocatorIS5_EEEE
+00009c5e N7Horizon8Platform12TypedRequestINS0_21LeaderboardEntryArrayEEE
+00009c9e NSt6__ndk110__function6__funcIN7Horizon8Platform15CallbackWrapperINS3_21LeaderboardEntryArrayEPFvRKS5_bPKcPvEEENS_9allocatorISD_EEFvRKNS3_12TypedMessageIS5_EEEEE
+00009d40 NSt6__ndk110__function6__baseIFvRKN7Horizon8Platform12TypedMessageINS3_21LeaderboardEntryArrayEEEEEE
+00009da5 N7Horizon8Platform15CallbackWrapperINS0_21LeaderboardEntryArrayEPFvRKS2_bPKcPvEEE
+0000bde5 zPLR
+0000d7e5 c@9h
+0000d909 c@9(
+0000d9b7 6`2@
+0000d9ec h"@9
+0000fac1 #B9h
+0000fdef =)	@
+0000feb1 #@9h
+0000fef5 #A9h
+00010395 #A9h
+000104c3 7		@
+000105c3 6`"@
+000105cc hB@9
+0001087e @9	 @
+000108cd #@9h
+00010c93 6h*@
+00010e93 6`:@
+00010ed4 hb@9h
+00011a61 C@9h
+00012641 80.	
+00012789 80.	
+000130e9 #@9h
+0001321d #@9h
+00013378 )ak9	
+0001371d C@9h
+00013a6c 	a+9
+00013fdc hB@9
+00014090 hB@9h
+00014201 #@9h
+00014398 (C@9*
+000143f5 #@9h
+00014516 @9?,
+0001460d CA9h
+0001484f =a"@
+00014cea @9	ii8
+00014cf6 _8I!	
+000150dc hB@9
+000155e5 #@9h
+000156f4 Jii8_
+00015764 Aih8
+000158d0 Jii8_
+00015934 )ih8?
+00015a08 )ih8?
+00015a9c <ih8
+00015ac0 )ih8?
+00015afd C@9h
+00015d2c Jii8_m
+00015d84 )ih8?u
+00015e58 :ih8_w
+00015e7c )ih8?
+00015eb9 C@9h
+000160a3 T(	@
+000160eb T,	@
+0001613f T.	@
+0001615b T.	@
+00016193 T*	@
+000161a0 Kih8
+000161ab TJih8_
+000161df T/	@
+0001622f T,	@
+0001624b T,	@
+00016365 C@9h
+000163c3 T,	@
+00016461 C@9h
+000168c3 7		@
+00016dbf 7		@
+00016f33 6`&@
+00016f3c hB@9h
+0001718d `@9H
+000172ec hB@9h
+0001771f 6`2@
+000177c3 6`*@
+00017826  6i"@
+00017856 A9i&@
+00017c87 6`.@
+00018240 hb@9
+00018268 (`@9
+000182d1 `@9)`@9
+000187e1 c@9h
+000188c9 c@9h
+00018ec9 c@9h
+00018fb1 c@9h
+00019347 9(`@9
+00019384 hb@9
+00019add #A9h
+00019be5 #A9h
+0001a167 Thb@9h
+0001a210 hBA9
+0001a223 6`&@
+0001a28c (@A9
+0001a2a3 6`&@
+0001a2b7 Thb@9h
+0001a4d5 C@9h
+0001a77e A9`b
+0001a7ae A9`6
+0001a839 C@9h
+0001a9d5 C@9h
+0001aa11 CA9h
+0001ab86 \8h	
+0001af1d #@9h
+0001af6d cA9h
+0001af7d #@9h
+0001b009 cA9h
+0001b0ed c@9h
+0001b0fd cA9h
+0001b4c1 c@9h
+0001b5f9 c@9h
+0001b669 c@9h
+0001bd50 hbA9
+0001bd63 6`*@
+0001bd88 hb@9
+0001bde4 hbA9
+0001bdf7 6`*@
+0001be1c hb@9
+0001bed0 hbA9
+0001bee3 6`*@
+0001bf18 hb@9
+0001bf4f 9( @9
+0001bf78 h"@9
+0001c81d #@9h
+0001caed C@9h
+0001cb95 C@9h
+0001cd95 CA9h
+0001ce89 #@9h
+0001cf0e C85X@)7
+0001cf61 C@9h
+0001d00b 6`"@
+0001d014 hB@9
+0001d05c hB@9i
+0001d239 `@9)
+0001d333 7		@
+0001d359 `@9H
+0001d4ca @9	 @
+0001d4d8 jB@9
+0001d520 tB@9v
+0001d841 C@9h
+0001dda9 C@9h
+0001df29 c@9h
+0001df91 c@9h
+0001dff9 c@9h
+0001e061 c@9h
+0001e0c9 c@9h
+0001e131 c@9h
+0001e199 c@9h
+0001e201 c@9h
+0001e269 c@9h
+0001e2d1 c@9h
+0001e464 hbD9
+0001e493 6`z@
+0001e49c hbC9
+0001e4af 6`j@
+0001e4cb 6`Z@
+0001e4d4 hbB9
+0001e4e7 6`J@
+0001e503 6`:@
+0001e50c hbA9
+0001e51f 6`*@
+0001e544 hb@9
+0001e604 hbD9
+0001e63f 6`z@
+0001e650 hbC9
+0001e663 6`j@
+0001e687 6`Z@
+0001e698 hbB9
+0001e6ab 6`J@
+0001e6cf 6`:@
+0001e6e0 hbA9
+0001e6f3 6`*@
+0001e728 hb@9
+0001e840 	a@9?
+0001e901 C@9h
+0001ebc9 #A9h
+0001ef99 #@9h
+0001f105 #@9h
+0001f34f Th"D9h
+0001f373 6`~@
+0001f387 Th"C9h
+0001f38f 6`n@
+0001f3ab 6`^@
+0001f3bf Th"B9h
+0001f3c7 6`N@
+0001f3e3 6`>@
+0001f400 hBA9
+0001f413 6`&@
+0001f42c hb@9
+0001f47f 7		@
+0001f537 Th"D9
+0001f563 6`~@
+0001f587 6`n@
+0001f5ab 6`^@
+0001f5cf 6`N@
+0001f5f3 6`>@
+0001f620 hBA9
+0001f633 6`&@
+0001f654 hb@9
+0001f68b 9( @9
+0001f6b4 h"@9
+0001f735 Bl9p
+0001f7c0 (A,9h
+0001f7f5 Bl9p
+0001f825 Bl9p
+00020971 .init_array
+0002097d .fini_array
+00020989 .text
+0002098f .got
+00020994 .note.android.ident
+000209a8 .got.plt
+000209b1 .rela.plt
+000209bb .bss
+000209c0 .dynstr
+000209c8 .eh_frame_hdr
+000209d6 .gnu.version_r
+000209e5 .data.rel.ro
+000209f2 .relr.dyn
+000209fc .rela.dyn
+00020a06 .gnu.version
+00020a13 .dynsym
+00020a1b .gnu.hash
+00020a25 .relro_padding
+00020a34 .eh_frame
+00020a3e .gcc_except_table
+00020a50 .note.gnu.build-id
+00020a63 .dynamic
+00020a6c .shstrtab
+00020a76 .rodata
+00020a7e .data

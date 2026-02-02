@@ -1,0 +1,2592 @@
+00000244 Android
+00000290 7026061
+00000ccf CtE*
+00000cd4 5-co$
+00000cdf s4%0
+00000d84 nh*c
+00001045 __cxa_finalize
+00001054 __cxa_atexit
+00001061 __memcpy_chk
+00001072 memcpy
+00001079 memset
+00001080 __sF
+00001085 abort
+0000108b fprintf
+00001093 memmove
+0000109b opus_get_version_string
+000010b3 opus_strerror
+000010c9 exp2
+000010ce log10
+000010d4 __memset_chk
+000010e1 opus_packet_get_samples_per_frame
+00001103 opus_packet_parse
+00001115 opus_pcm_soft_clip
+00001128 free
+0000112d malloc
+00001134 opus_decode
+00001140 opus_decode_float
+00001152 opus_decoder_create
+00001166 opus_decoder_ctl
+00001177 opus_decoder_destroy
+0000118c opus_decoder_get_nb_samples
+000011a8 opus_decoder_get_size
+000011be opus_decoder_init
+000011d0 opus_packet_get_bandwidth
+000011ea opus_packet_get_nb_channels
+00001206 opus_packet_get_nb_frames
+00001220 opus_packet_get_nb_samples
+0000123b opus_encode
+00001247 opus_encode_float
+00001259 opus_encoder_create
+0000126d opus_encoder_ctl
+0000127e opus_encoder_destroy
+00001293 opus_encoder_get_size
+000012a9 opus_encoder_init
+000012bb opus_packet_pad
+000012cb opus_repacketizer_cat
+000012e1 opus_repacketizer_init
+000012f8 opus_multistream_encode
+00001310 opus_multistream_encode_float
+0000132e opus_multistream_encoder_create
+0000134e opus_multistream_encoder_ctl
+0000136b opus_multistream_encoder_destroy
+0000138c opus_multistream_encoder_get_size
+000013ae opus_multistream_encoder_init
+000013cc opus_multistream_surround_encoder_create
+000013f5 opus_multistream_surround_encoder_get_size
+00001420 opus_multistream_surround_encoder_init
+00001447 opus_repacketizer_get_nb_frames
+00001467 opus_multistream_decode
+0000147f opus_multistream_decode_float
+0000149d opus_multistream_decoder_create
+000014bd opus_multistream_decoder_ctl
+000014da opus_multistream_decoder_destroy
+000014fb opus_multistream_decoder_get_size
+0000151d opus_multistream_decoder_init
+0000153b opus_multistream_packet_pad
+00001557 opus_multistream_packet_unpad
+00001575 opus_packet_unpad
+00001587 opus_repacketizer_create
+000015a0 opus_repacketizer_destroy
+000015ba opus_repacketizer_get_size
+000015d5 opus_repacketizer_out
+000015eb opus_repacketizer_out_range
+00001607 opus_projection_ambisonics_encoder_create
+00001631 opus_projection_ambisonics_encoder_get_size
+0000165d opus_projection_ambisonics_encoder_init
+00001685 opus_projection_encode
+0000169c opus_projection_encode_float
+000016b9 opus_projection_encoder_ctl
+000016d5 opus_projection_encoder_destroy
+000016f5 opus_projection_decode
+0000170c opus_projection_decode_float
+00001729 opus_projection_decoder_create
+00001748 opus_projection_decoder_ctl
+00001764 opus_projection_decoder_destroy
+00001784 opus_projection_decoder_get_size
+000017a5 opus_projection_decoder_init
+000017c2 libm.so
+000017ca LIBC
+000017cf libc.so
+000017d7 libdl.so
+000017e0 libopus.so
+00002d0c MbP?
+00002da0 assertion failed: stride>0
+00002dbb assertion failed: st->channels == 1 || st->channels == 2
+00002df4 assertion failed: !ret
+00002e0b assertion failed: lag > 0 || signalType != TYPE_VOICED
+00002e42 assertion failed: d==10 || d==16
+00002e63 Fatal (internal) error in %s, line %d: %s
+00002e8e assertion failed: st->mode == opus_custom_mode_create(48000, 960, NULL)
+00002ed6 assertion failed: st->postfilter_period < MAX_PERIOD
+00002f0b assertion failed: _n>=2
+00002f23 celt/kiss_fft.c
+00002f33 assertion failed: n>0
+00002f49 celt/arm/celt_neon_intr.c
+00002f63 assertion failed: psDec->ltp_mem_length >= psDec->frame_length
+00002fa2 assertion failed: encControl->nChannelsAPI == 1 && encControl->nChannelsInternal == 1
+00002ff8 silk/encode_indices.c
+0000300e silk/interpolate.c
+00003021 assertion failed: psDec->LPC_order >= 10
+0000304a silk/sort.c
+00003056 assertion failed: order >= 0 && order <= SILK_MAX_ORDER_LPC
+00003092 assertion failed: ret==packet_frame_size
+000030bb src/opus_encoder.c
+000030ce assertion failed: nbBands>0
+000030ea assertion failed: st->start < st->end
+00003110 assertion failed: fin != fout
+0000312e In-place FFT not supported
+00003149 assertion failed: max_pitch>0
+00003167 assertion failed: overlap>=0
+00003184 celt/rate.c
+00003190 assertion failed: nStatesDelayedDecision > 0
+000031bd assertion failed: idx > 0
+000031d7 assertion failed: Order <= length
+000031f9 silk/float/sort_FLP.c
+0000320f assertion failed: st->Fs == 48000 || st->Fs == 24000 || st->Fs == 16000 || st->Fs == 12000 || st->Fs == 8000
+0000327c invalid argument
+0000328d assertion failed: count>0
+000032a7 assertion failed: ebits[j] >= 0
+000032c7 silk/NLSF_encode.c
+000032da assertion failed: Fs_kHz == 8
+000032f8 assertion failed: st->DecControl.nChannelsInternal == 0 || st->DecControl.nChannelsInternal == 1 || st->DecControl.nChannelsInternal == 2
+00003382 assertion failed: st->DecControl.payloadSize_ms == 0 || st->DecControl.payloadSize_ms == 10 || st->DecControl.payloadSize_ms == 20 || st->DecControl.payloadSize_ms == 40 || st->DecControl.payloadSize_ms == 60
+00003453 assertion failed: end>0
+0000346b buffer too small
+0000347c assertion failed: _n>1
+00003493 assertion failed: fs_kHz == 8 || fs_kHz == 12 || fs_kHz == 16
+000034d1 assertion failed: inLen >= S->Fs_in_kHz
+000034f9 assertion failed: bits[j] >= 0
+00003518 silk/decode_core.c
+0000352b silk/enc_API.c
+0000353a silk/resampler.c
+0000354b silk/float/schur_FLP.c
+00003562 invalid state
+00003570 assertion failed: st->overlap == 120
+00003595 assertion failed: st->postfilter_period_old < MAX_PERIOD
+000035ce assertion failed: fs>0
+000035e5 assertion failed: K>0
+000035fb alg_quant() needs at least one pulse
+00003620 assertion failed: psDec->LPC_order == 10 || psDec->LPC_order == 16
+00003663 assertion failed: L > 0 && L <= MAX_FRAME_LENGTH
+00003694 silk/decode_indices.c
+000036aa assertion failed: d <= len
+000036c5 assertion failed: S->inputDelay <= S->Fs_in_kHz
+000036f5 assertion failed: D >= 0
+0000370e assertion failed: pcm_count == frame_size
+00003738 assertion failed: (opus_custom_decoder_ctl(celt_dec, 10010, (((void)((0) == (opus_int32)0)), (opus_int32)(0)))) == OPUS_OK
+000037b3 assertion failed: st->last_pitch_index <= PLC_PITCH_LAG_MAX
+000037ef assertion failed: _this->offs+_this->end_offs<=_size
+00003824 celt/laplace.c
+00003833 assertion failed: encControl->nChannelsInternal == 1 || psEnc->state_Fxx[ 1 ].sCmn.inputBufIx == psEnc->state_Fxx[ 1 ].sCmn.frame_length
+000038bc silk/VAD.c
+000038c7 silk/process_NLSFs.c
+000038dc assertion failed: Complexity >= 0 && Complexity <= 10
+00003912 assertion failed: complexity >= SILK_PE_MIN_COMPLEX
+00003946 assertion failed: st->DecControl.nChannelsAPI == st->channels
+00003984 assertion failed: 0
+00003998 silk/NSQ.c
+000039a3 assertion failed: basis_ptr + sf_length_8kHz <= frame_4kHz + frame_length_4kHz
+000039f2 assertion failed: length_d_srch > 0
+00003a16 assertion failed: (opus_custom_decoder_ctl(celt_dec, 4031, ((&redundant_rng) + ((&redundant_rng) - (opus_uint32*)(&redundant_rng))))) == OPUS_OK
+00003aa7 assertion failed: !celt_isnan(norm)
+00003acb assertion failed: st->last_pitch_index >= PLC_PITCH_LAG_MIN || st->last_pitch_index == 0
+00003b24 assertion failed: m==4
+00003b3b assertion failed: (ord&3)==0
+00003b58 silk/dec_API.c
+00003b67 silk/encode_pulses.c
+00003b7c assertion failed: sum>=0
+00003b95 assertion failed: N>1
+00003bab alg_unquant() needs at least two dimensions
+00003bd7 assertion failed: start_idx > 0
+00003bf7 assertion failed: psEncC->psNLSF_CB->order == psEncC->predictLPCOrder
+00003c3d assertion failed: ifact_Q2 >= 0
+00003c5d assertion failed: psEncC->useInterpolatedNLSFs == 1 || psEncC->indices.NLSFInterpCoef_Q2 == ( 1 << 2 )
+00003cc4 assertion failed: ( psEnc->sCmn.subfr_length * psEnc->sCmn.nb_subfr ) == psEnc->sCmn.frame_length
+00003d26 silk/decode_pitch.c
+00003d3a silk/float/apply_sine_window_FLP.c
+00003d5d assertion failed: psRangeEnc->offs <= 1275
+00003d88 silk/float/burg_modified_FLP.c
+00003da7 assertion failed: complexity <= SILK_PE_MAX_COMPLEX
+00003ddb assertion failed: st->mode == MODE_HYBRID || curr_bandwidth == OPUS_BANDWIDTH_WIDEBAND
+00003e32 src/repacketizer.c
+00003e45 assertion failed: qn <= 256
+00003e61 success
+00003e69 ./celt/pitch.h
+00003e78 silk/decoder_set_fs.c
+00003e8e assertion failed: psEnc->state_Fxx[ 0 ].sCmn.inputBufIx == psEnc->state_Fxx[ 0 ].sCmn.frame_length
+00003ef1 silk/float/residual_energy_FLP.c
+00003f12 assertion failed: target_ptr + sf_length_8kHz <= frame_4kHz + frame_length_4kHz
+00003f62 assertion failed: (opus_multistream_decoder_ctl(st, 4029, ((&Fs) + ((&Fs) - (opus_int32*)(&Fs))))) == OPUS_OK
+00003fd0 src/mapping_matrix.c
+00003fe5 celt/celt_decoder.c
+00003ff9 assertion failed: st->postfilter_tapset_old <= 2
+0000402a celt/vq.c
+00004034 assertion failed: frame_length == 12 * 10
+0000405e assertion failed: psEncC->pitchEstimationLPCOrder <= MAX_FIND_PITCH_LPC_ORDER
+000040ac silk/float/LPC_analysis_filter_FLP.c
+000040d1 assertion failed: itheta>=0
+000040ed libopus 1.3.1
+000040fb assertion failed: _bits>0
+00004115 assertion failed: fl+fs<=32768
+00004134 assertion failed: L >= K
+0000414d assertion failed: align(data_size) == align(rows * cols * sizeof(opus_int16))
+0000419b assertion failed: x != y
+000041b4 assertion failed: codedBands > start
+000041d9 silk/PLC.c
+000041e4 assertion failed: NLSF_mu_Q20 > 0
+00004206 unknown error
+00004214 assertion failed: st->postfilter_tapset_old >= 0
+00004245 celt/celt_lpc.c
+00004255 assertion failed: psDec->prevSignalType >= 0 && psDec->prevSignalType <= 2
+000042a0 assertion failed: typeOffset >= 0 && typeOffset < 6
+000042d4 assertion failed: encode_LBRR == 0 || typeOffset >= 2
+0000430a assertion failed: psEncC->predictLPCOrder <= MAX_LPC_ORDER
+00004345 assertion failed: psEnc->sCmn.nb_subfr == 2 || psEnc->sCmn.nb_subfr == 4
+0000438e silk/stereo_encode_pred.c
+000043a8 assertion failed: start <= end
+000043c7 assertion failed: st->arch <= OPUS_ARCHMASK
+000043f3 assertion failed: _nbits<=EC_SYM_BITS
+00004419 assertion failed: K>0
+0000442f alg_unquant() needs at least one pulse
+00004456 assertion failed: MAX_FRAME_LENGTH >= psEncC->frame_length
+00004491 assertion failed: ( LPC_order & 1 ) == 0
+000044ba silk/float/encode_frame_FLP.c
+000044d8 assertion failed: basis_ptr >= frame_4kHz
+00004502 internal error
+00004511 assertion failed: st->postfilter_tapset >= 0
+0000453e silk/NSQ_del_dec.c
+00004551 assertion failed: signalType >= 0 && signalType <= 2
+00004586 assertion failed: D > 0
+0000459e celt/celt_encoder.c
+000045b2 assertion failed: _ft>1
+000045ca assertion failed: ( shapingLPCOrder & 1 ) == 0
+000045f9 assertion failed: n < 25
+00004612 assertion failed: *lagIndex >= 0
+00004633 assertion failed: (opus_custom_decoder_ctl(celt_dec, 10010, (((void)((start_band) == (opus_int32)0)), (opus_int32)(start_band)))) == OPUS_OK
+000046c0 assertion failed: len>=3
+000046d9 assertion failed: encControl->nChannelsInternal == 1 || psEnc->state_Fxx[ 0 ].sCmn.fs_kHz == psEnc->state_Fxx[ 1 ].sCmn.fs_kHz
+00004758 silk/LPC_analysis_filter.c
+00004773 silk/float/warped_autocorrelation_FLP.c
+0000479b celt/celt.c
+000047a7 assertion failed: st->arch >= 0
+000047c7 assertion failed: d >= 6
+000047e0 assertion failed: st->DecControl.API_sampleRate == st->Fs
+0000481a assertion failed: (opus_custom_decoder_ctl(celt_dec, 10012, (((void)((endband) == (opus_int32)0)), (opus_int32)(endband)))) == OPUS_OK
+000048a1 assertion failed: N > 0
+000048b9 assertion failed: decControl->nChannelsInternal == 1 || decControl->nChannelsInternal == 2
+00004914 assertion failed: fl<=fm
+0000492d assertion failed: (d & 1) == 0
+0000494c assertion failed: psEnc->sCmn.ltp_mem_length - psEnc->sCmn.predictLPCOrder >= psEncCtrl->pitchL[ 0 ] + LTP_ORDER / 2
+000049c1 celt/bands.c
+000049ce assertion failed: len>0
+000049e6 assertion failed: psEncC->frame_length == 8 * silk_RSHIFT( psEncC->frame_length, 3 )
+00004a3b silk/float/find_LPC_FLP.c
+00004a55 assertion failed: st->silk_mode.internalSampleRate == 16000
+00004a91 src/opus_multistream_encoder.c
+00004ab0 corrupted stream
+00004ac1 memory allocation failed
+00004ada assertion failed: !celt_isnan(tmp[0])
+00004b00 assertion failed: st->postfilter_period >= COMBFILTER_MINPERIOD || st->postfilter_period == 0
+00004b5e silk/CNG.c
+00004b69 assertion failed: K > 0
+00004b81 assertion failed: ( order & 1 ) == 0
+00004ba6 assertion failed: (opus_custom_decoder_ctl(celt_dec, 10015, ((&celt_mode) + ((&celt_mode) - (const OpusCustomMode**)(&celt_mode))))) == OPUS_OK
+00004c36 assertion failed: ifact_Q2 <= 4
+00004c56 silk/NLSF2A.c
+00004c64 assertion failed: ix[ n ][ 0 ] < 3
+00004c87 assertion failed: ix[ n ][ 1 ] < STEREO_QUANT_SUB_STEPS
+00004cbf silk/float/find_pitch_lags_FLP.c
+00004ce0 src/opus_decoder.c
+00004cf3 assertion failed: nb_frames*freq_size == frame_size
+00004d27 request not implemented
+00004d3f assertion failed: st->start == 0 || st->start == 17
+00004d73 assertion failed: _k>0
+00004d8a assertion failed: fl<32768
+00004da5 assertion failed: C*ebits[j]<<BITRES == bits[j]
+00004dd5 assertion failed: N>1
+00004deb alg_quant() needs at least two dimensions
+00004e15 assertion failed: max_pitch > 0
+00004e35 assertion failed: psDec->psNLSF_CB->order == psDec->LPC_order
+00004e73 assertion failed: L > 0
+00004e8b assertion failed: Fs_kHz == 8 || Fs_kHz == 12 || Fs_kHz == 16
+00004ec9 src/opus_multistream_decoder.c
+00004ee8 assertion failed: ret > 0 && ret <= len
+00004f10 assertion failed: input_rows <= matrix->cols && output_rows <= matrix->rows
+00004f5c assertion failed: st->postfilter_period_old >= COMBFILTER_MINPERIOD || st->postfilter_period_old == 0
+00004fc2 assertion failed: nb_subfr == PE_MAX_NB_SUBFR >> 1
+00004ff5 assertion failed: (opus_custom_decoder_ctl(celt_dec, 4028)) == OPUS_OK
+0000503c assertion failed: st->end <= 21
+0000505c celt/cwrs.c
+00005068 celt/entenc.c
+00005076 assertion failed: fm<IMIN(fl+fs,32768)
+0000509d celt/pitch.c
+000050aa silk/decode_pulses.c
+000050bf assertion failed: ( D & 1 ) == 0
+000050e0 assertion failed: win_type == 1 || win_type == 2
+00005111 assertion failed: buf_len >= psEnc->sCmn.pitch_LPC_win_length
+0000514f assertion failed: subfr_length * nb_subfr <= MAX_FRAME_SIZE
+0000518b assertion failed: st->DecControl.internalSampleRate == 0 || st->DecControl.internalSampleRate == 16000 || st->DecControl.internalSampleRate == 12000 || st->DecControl.internalSampleRate == 8000
+0000524d assertion failed: accum==0
+00005268 silk/check_control_input.c
+00005283 silk/control_codec.c
+00005298 assertion failed: ( length & 3 ) == 0
+000052be assertion failed: psEncC->indices.NLSFInterpCoef_Q2 == 4 || ( psEncC->useInterpolatedNLSFs && !psEncC->first_frame_after_reset && psEncC->nb_subfr == MAX_NB_SUBFR )
+00005363 assertion failed: st->signalling==0
+00005387 assertion failed: !celt_isnan(freq[0]) && (C==1 || !celt_isnan(freq[N]))
+000053d0 assertion failed: st->downsample > 0
+000053f5 assertion failed: st->postfilter_tapset <= 2
+00005422 celt/entdec.c
+00005430 silk/decode_frame.c
+00005444 silk/resampler_private_down_FIR.c
+00005466 assertion failed: sRangeEnc_copy2.offs <= 1275
+00005495 assertion failed: st->stream_channels == 1 || st->stream_channels == 2
+000054dc assertion failed: psDec->nb_subfr == MAX_NB_SUBFR || psDec->nb_subfr == MAX_NB_SUBFR/2
+00005533 silk/NLSF_VQ.c
+00005542 assertion failed: encControl != NULL
+00005567 silk/NLSF_VQ_weights_laroia.c
+00005585 silk/float/find_pred_coefs_FLP.c
+000055a6 silk/float/pitch_analysis_core_FLP.c
+000055cb assertion failed: ret==frame_size-packet_frame_size
+000055ff assertion failed: (opus_custom_decoder_ctl(celt_dec, 10008, (((void)((st->stream_channels) == (opus_int32)0)), (opus_int32)(st->stream_channels)))) == OPUS_OK
+000056f0 fff?(\O?
+00005724 03<?
+0000577e L>0u
+00005a6f A~|wmW)
+00005a7e nVF;3-(%!
+00005aa3 						
+00005b41 ~|wmW)
+00006adf 		x-
+00006b88 AI	 	
+00006b99 *0#)
+00006c74 qH,	;`
+00006cda 79]%
+00006d86 		9w
+00006dba 9=aA\E
+00006e3d b"Iq
+00006ebb 	3l0
+00006ef2 4 uH
+00006ef7 8}WW`
+00006fd1 ZPKE?81("
+00006fe6 ndZTNGA:3-' 
+00006ffb vng]VPKFA;5/(
+00007010 ~wph_YSNHB<6/' 
+00007027 xrga[UNHB<6/)#
+0000703d |qke_XRLF@93-'!
+00007053 {uoib\VPJC=71+$
+0000706a yslf`ZTMGA;5.
+00007080 }vpjd^WQKE?8-
+0000713a 8>0RF>
+000071b2 '?t|+??Z/?
+000071d5 :H?'mK?
+000071e9 8W?i
+000071f6 ^?sYa?
+0000720e k?n_m?P
+0000723a y?srz?''{?
+00007249 ^|?5
+00007266 ~?&)
+0000735a }?tt}?
+000073ae z?Mbz?H5z?
+000073c2 y?Zzy?
+000073da x?sMx?
+000073ea w?:ww?
+000073fe v?/\v?
+00007405 !v?<
+00007411 mu?B0u?A
+0000741e t?;tt?74t?
+0000742e s?&ps?v-s?
+0000743e r?dar?
+00007461 $p?b
+0000746a o? Bo?
+00007476 n?SZn?
+0000749e k?P+k?@
+000074aa j?2*j?5
+000074b5 {i?M#i?d
+000074ca g?``g?H
+000074d6 f?3Jf?6
+000074e2 e?W.e?w
+0000750a a?wSa?\
+00007529 {^?p
+0000753d a\?Y
+00007551 8Z?.
+00007556 Y?'WY?
+0000755e X?OsX?
+00007572 V?V/V?
+0000757a U?:CU?K
+000075e5 tH?$
+000075ed hG?)
+00007602 D?28D?/
+00007621 f@?(
+0000763d {<?\
+00007642 ;?uX;?
+00007656 9?Gw8?Q
+00007666 6?k 6?t
+0000767d (3?0
+0000769d O.?2
+000076a6 -?'v,?k
+000076ae +?78+?
+000076c6 (?3s'?
+000076d1 -&?y
+000076da $?aB$?
+000076f2 !?[_ ?
+0000777d 9	?I
+00007905 gx>/'u>
+00007912 n>sak><
+00007931 }T>k6Q>]
+0000795d M0>B
+00007966 )>Bd&>
+000079e6 |=Fvo=]
+000079fe ,=@"
+00007a2e ;;.}
+000081f5 d~?i3~?A
+00008216 |?MD|?
+00008225 \{?C
+00008245 zx?L
+00008251 9w?O
+00008261 eu?u
+00008266 t?Dlt?e
+00008279 Xr?9
+0000827e q?	?q?4
+000082ad uj?I
+000082b9 eh?o
+000082c2 f?|>f?
+000082d2 d?Z<c?
+000082d9 ub?L
+00008362 B?:oA?4U@?
+00008385 d8?":7?
+000083aa -?Vb,?H$+?Z
+000083bd ^'?q
+000083ca #?#>"?u
+000084e6 g>M-a>Y
+000084fa F>F_@>
+0000856f ;=zV
+00008955 -~??
+0000895a }?RJ}?H
+00008962 |?(;|?
+00008971 Qz?H
+00008981 +w?FFv?
+00008989 Vu?N\t?8Ws?vGr?
+000089a6 m?@Zl?~
+000089bd ie?>
+000089ca `?m'_?&~]?(
+000089da Z?SHX?
+00008a06 D?AdB?
+00008a16 ;?Bh9?
+00008a25 U2?)
+00008a2d w-?e
+00008a32 *?5z(?
+00008ac5 oz>!km>
+00008acd \`>)CS>
+00008ad5  F> 
+00008d3e `?NH]?E
+00008d49 >V?+
+00008d59 kF?j
+00008d69 m4?2
+00008d76 %??t ?m-
+00008dc2 Q>0P7>
+00008fd0 "$&')*+,-.//123456779:;<=>??ABCDEFGG(
+00008ff6 !)059=@BEGIKLNPRUWY[\^`begiklnpruwy{|~
+0000901f '3<CIOSW[^adfikosvy|~
+00009048 1ANYckrx~
+0000906b !:Oap}
+00009081 #?Vj{
+00009094 7K[iu
+000090ad $AYn
+000090c9 	+On
+000090d4 'Gc{
+000090e0 	,Qq
+000095b7 ?:^V
+000095ce ~?3e
+000095dd 9~?s
+000095f6 |?\0 
+000095fc gM|?
+0000963c wcv?>
+00009644 6uu?uj
+0000964c 0|t?L
+00009654 qxs?z7
+0000966c O-p?A6
+000096b6 d?qq
+000096c6 `?'N
+000096e5 FZ?w
+000096f6 V?wm
+00009746 B?:B&
+00009755 >>?%L+
+0000976d _7?e
+00009785 80?"
+00009794 %L+?
+000097a4 :B&?
+0000987f >O-p
+00009897 >qxs
+0000989f >0|t
+000098a7 >6uu
+000098af >wcv
+000098ed i->gM|
+000098f4 \0 >%
+00009934 :^V=/
+0000994d uV<c
+00009d38 :^V=
+00009d78 \0 >gM|
+00009dbb >wcv
+00009dc3 >6uu
+00009dcb >0|t
+00009dd3 >qxs
+00009deb >O-p
+00009ec8 :B&?
+00009ed8 %L+?
+00009f12 ;?%L+
+00009f21 x@?:B&
+00009f72 T?wm
+00009fa1 [_?'N
+00009fb2 b?qq
+00009ffa n?A6
+0000a000 O-p?
+0000a011 jr?z7
+0000a018 qxs?L
+0000a020 0|t?uj
+0000a028 6uu?>
+0000a030 wcv?
+0000a070 gM|?\0 
+0000a09a ~?3e
+0000a0b3 ?:^V
+0000a0dd uV<c
+0000a0f3 ?:^V=/
+0000a131 Y}?\0 >%
+0000a13d i->gM|?
+0000a179 Fw?>
+0000a17f >wcv?uj
+0000a187 >6uu?L
+0000a18f >0|t?z7
+0000a197 >qxs?
+0000a1a9 Pq?A6
+0000a1af >O-p?
+0000a1f2 e?qq
+0000a202 b?'N
+0000a232 X?wm
+0000a282 D?:B&?
+0000a291 x@?%L+?
+0000a2a5 80?"
+0000a2bd _7?e
+0000a2d5 >>?%L+?
+0000a2e6 B?:B&?
+0000a336 V?wm
+0000a345 FZ?w
+0000a366 `?'N
+0000a376 d?qq
+0000a3bb >O-p?A6
+0000a3d3 >qxs?z7
+0000a3db >0|t?L
+0000a3e3 >6uu?uj
+0000a3eb >wcv?>
+0000a42a :>gM|?
+0000a431 i->%
+0000a436 |?\0 >
+0000a44d 9~?s
+0000a45e ~?3e
+0000a477 ?:^V=y
+0000a890 \N\O\NZOt)s(r(
+0000a8ba =rF`JXKXWJYB[Cd;l2x(z%a+N2SNTQXKVJWGZI]J]Jm(r$u"u"
+0000a900 6s?fBbEcJYG[I[NYVP\B]@f;g<h<u4{,
+0000a924 a&M-=Z]<i*k)n-t&q&p&|
+0000a954 ;nGVKUTS[BXIWH\KbHi:k6s4r7p8
+0000a978 b#M**y`Bl+o(u,{ x$w!
+0000a9a8 ?rJRTS\Rg>`H`CeIkHq7v4}4v4u7
+0000a9cc a!M(
+0000a9e1   !""#$$%%
+0000aa2c G2*&#!
+0000aa5f |m`TG=3* 
+0000aa76 {ri`XPH@92,&!
+0000aa94 E]sv
+0000abde ZW][Rbmxv
+0000abe8 qsuwc;Wo?opP~|}|
+0000ac0a ~V|x{w
+0000ac19 #<Sl
+0000ac23  7Me}
+0000ac2d *BYr
+0000ac38 2Hax
+0000ac41 ,EZr
+0000ac56 ,@Zs
+0000ac60 >Rdx
+0000ac6a 2Ogx
+0000ac74 -Aj|
+0000ac7d 1Kay
+0000ac88 4F]t
+0000ac91 ">Kav
+0000ac9b !8F[q
+0000aca5 "3Hau
+0000acb0 2CZu
+0000acba 0B_u
+0000acc3 !3Mt
+0000acce FWj|
+0000acd7 !5@Su
+0000ace1 "A_l
+0000acf4 "+=N]r
+0000ad09 &8Yv
+0000ad14 1?Uo
+0000ad27 /Jc|
+0000ad30 !*=L]y
+0000ad4e %0@Thv
+0000ad70 Z	?	
+0000ad81 	$	$	
+0000ad8b 	$	$	?	2	
+0000ad98 $	$	
+0000adab 	?	Z	Z	Z	Z	?	g	
+0000adf1 	Z	?	
+0000ae17 	2	?	
+0000ae20 2	t	
+0000ae25 	?	Z	t	t	t	
+0000ae76 ?	g	2	
+0000aecb 	?	Z	$	O
+0000aef2 2	t	
+0000af07 	Z	?	
+0000af80 $	t	/
+0000af97 	2	L	
+0000afdc l`UROM=;98310-*)(&$"
+0000b006 }rf[QG<4+#
+0000b021 tCR;\HdY\
+0000b02f cB$$"$""""SE$4"tfFDD
+0000b044 fDD"AUDT$t
+0000b05c hfdDD
+0000b0af df"DDdD
+0000b138 ~I+9
+0000b141 }G0:
+0000b14a nI9>h
+0000b153 {A7Dd
+0000b172 &6EUdt
+0000b182 )7ESbp
+0000b192 "3=N\j~
+0000b1a2 $2?O_n~
+0000b1b2 %3;NYk{
+0000b1c2  3CQ`p
+0000b1d2 %3AObq~
+0000b1e2 "7?NWlv
+0000b1f2  $8O[lv
+0000b202 +:JYix
+0000b212 !.<K\k{
+0000b223 ,9JYiy
+0000b233 .9GXdx
+0000b242 #.8M\j{
+0000b252 -5?KYks
+0000b263 (8GXgw
+0000b272 $09LWiv
+0000b283 6GQ^h~
+0000b292 />Oas
+0000b2a3 ->N^o
+0000b2b2 1>O\kw
+0000b2c2 $-=L[ly
+0000b2d3 -<L[k{
+0000b2e3 +5FSgr
+0000b2f2 #*:N]n}
+0000b302 "2CScs
+0000b312 )BIV_o
+0000b322 %4?K\fw
+0000b332 1ASdu
+0000b342 4DXgu~
+0000b352 /=LZjw
+0000b362 #2=IVanw
+0000b77a wsqnmcb_OD420-+ 
+0000b79d |nhZNLFE9-"
+0000b7bf D>B<HuUZv
+0000b7d6 dffDD$"`
+0000b7e5 f@B$""
+0000b806 PmNk
+0000b828 {wwgEbDgxvvfGb
+0000b844 yk 1"""
+0000b85e dFDFBB"
+0000b870 fD""B
+0000b87a kkWfd
+0000b8a9 vWewe
+0000b8b1 $$BD#`
+0000b8c6 dkxw$
+0000b93c yM+7
+0000b94f B2Bk
+0000b957 tL75}
+0000b99a J B'
+0000b9ac R;876.
+0000ba74 xnbUH<1( 
+0000ba95 hJ4%
+0000baa7 |obXOF>82,'#
+0000bac7 waC+
+0000bacf wP=/#
+0000bb07 tS;+ 
+0000bb41 gSB5*!
+0000bb66 wU9%
+0000bb7a |bK7(
+0000bba7 E/Co
+0000bbb9 RJO_m
+0000bbcb }J;Ea
+0000bbde sUIL\s
+0000bbf1 qfefkv}
+0000bc04 eSOUax
+0000bc17 xe\Y]fv
+0000bc2b vmhfjov
+0000bc52 _c[}]L{s{
+0000bec3 #,6AMZhw
+0000becd 1CMR]c
+0000bedb .BNW^h
+0000bee4  *3B
+0000bee9 ^hmpsv
+0000bef0 5EPX_f
+0000bef8 '4=DJOTX\_cfiloruwz|~
+0000bf64 +4;AFJNQUWZ]_bdfikmoqstvxz{}
+0000c001 )18>BFJMPSVX[]_acegiklnpqstvwyz{}~
+0000c324 3$EE
+0000c5e8 HQ A 
+0000c604 AqAAAA 
+0000c6b1 <7<J
+0000c77e A4A4
+0000c933 56;.
+0000cb62 1'1'
+0000cb68 1'm7m7&
+0000cbba _	_	A
+0000cc9c _,_,
+0000ccac _,_,
+0000ce0e 2.2.{
+0000ced5 Z48wN39
+0000cef5 %c;w.
+0000cf16 I<OXb<^
+0000cf4b =aP&=
+0000cf5d 4S=?8_=i
+0000cf66 k=E.x=i
+0000cfcb >Tt$>
+0000cfd1 g)>3j.>
+0000cfd9 {3>R
+0000cfe6 C>YPH>z
+0000d001 $i>%
+0000d006 n>${t>
+0000d115 $)?(
+0000d122 -?rn/?
+0000d155 rA?7
+0000d15a B?wMD?
+0000d17a M?y>O?
+0000d189 !S?seT?
+0000d19a X?/QY?s
+0000d1b2 _?K<`?
+0000d1b9 Ta?jib?
+0000d1c1 yc?<
+0000d1e5 @l?O#m?
+0000d1f9 }p?IGq?|
+0000d219 Av??
+0000d22d 5y?4
+0000d23d 1{?w
+0000d251 3}?e
+0000d336 *>40
+0000d367 >`#I>
+0000d393 =`#I>
+0000d470 `#I>
+0000d48b >`#I>`#I
+0000d4f9 %q>4
+0000d51d |	?I
+0000d555 /R?jjU?
+0000d566 ]?K[`?n
+0000d595 ar?Mgs?
+0000d5b1 !x?b
+0000d5b9 Gy?K
+0000d5be y?$Cz?
+0000d5cd y{? 
+0000d5d5 #|?7o|?
+0000d5fd B~?Nd~?
+0000db53 "O7v
+0000df7b &J;'@
+0000df8c 346$Z\
+0000e494 #Qn/"
+0000e576 "#'#
+0000e6ce D,?b
+0000e846 23#"
+0000e876 E&'bB
+0000ec13 Ti|~
+0000ec33 Ti|~
+0000ec8f R	)	
+0000ecca 	K)E
+0000f0a7 Raii
+0000fb0f R)}@
+0000fd56 	K`v
+0000fe0f Th*X
+0000fe36 	K[!
+0000fe4b KT}~
+0000ff27 KkJ@
+00010093 Tjb@
+00010113 *ov@
+000101ef T*}@
+0001022b K)}@
+000102e7 =)	@
+00010353 xij@
+000103eb NvZ@
+00010453 xij@
+000104d3 =jN@
+0001051f Th*X
+00010542 	KI!
+000105ab xjj@
+000105df xjj@
+0001062f xij@
+000106eb =tZ@
+00010733 xij@
+0001077f xjj@
+00010a5c lil8m
+00010eb3 TVIv8?}
+00011131 #})B
+000114be @- ( 
+0001155b r!8"
+000118ef *+	@
+00011934 Mil8
+00011954 Nil8
+00011970 Nil8
+0001198c Nil8
+000119d7 4MIk82
+000119e7 TLik8
+00011a85 	@q-
+00011aa4 NIl8
+00011abb 4KIh8k
+00011acb *l*@
+00011af3 4KIl8k
+00011bb7 Tj:@
+00011df3 Th:@
+000120ca 	Kk1
+00012132 IKI)
+000122c7 T_	@q
+0001235b SJ!@Q
+00012368 k!@QL
+000123b9 =JKK=K
+0001289b R	u~
+00012a2c k!@Q
+00012a5b Qk!@Q *
+00012c33 T(  
+00012c76 @-d	@
+00012cbb q,~@
+00012ceb */J/
+00012d1f -w`@-
+00012dab *(  
+00012ddf *(  
+000132cf 7i}@
+000136e3 T!@!
+00013733 T@@!
+00013b4f T s@
+00013b93 T!o@
+00014187 4(G@
+000141bb 5(c@
+000141d5 %@x0
+00014217 *DD@
+000142b1 YjxB
+0001431f *bh"
+00014357 q%(%
+0001435f T&yf
+000144d3 T)G@
+000145b7 T(G@
+00014630 '/H)
+0001478b Kk{i
+000148af T!( 
+00014a97 ~` /
+00014abf T@ /
+00014b3b ~  /
+00014c5f *_y)
+00014d21 iq8)iq8
+00014eef Th"@
+00015337 T(G@
+000159bf RI}	
+000159df RI}	
+00015a17 RI}	
+00015a33 rI}	
+00015ba4 /;I)
+00015c37 4({@
+00015e89 #j)(
+0001658e @-!( 
+00016ae3 *aE@
+00016ec3 R)?@
+00016f1b 4!)@
+00016f9b r  #
+00016fe3 R@ #
+00017063 K(A!
+00017093 R)1@
+00017201 'k)	
+000172bb *.|~
+00017447 RQyy
+00017503 RB@b
+0001750f RA(!
+0001751f r H 
+000177f7 T:}@
+0001795b R*u~
+000179f1 yj|N
+00017cce @-!( 
+00017e4f *k}`
+00017fea @-BL#
+000180db T` &
+0001811b T` %
+0001812b T` &
+000183ca "nCk
+000185d4  haN
+0001874f T	}@
+00018847 S.}*
+00018860  %@xl
+00018a6f q 8 
+00018dc3 q,2	
+00018e43 *J}@
+00018ee3 qix9
+00018fcc +yhxJ	
+00019018 +yhxJ	
+00019137 *i}@
+000197cb Th*@
+000197d7 5h6@
+000197ef 5hB@
+00019807 5hF@
+0001981f 5hR@
+0001982f 7hV@
+00019bb1 7Ci+
+00019c9f R	p~
+00019ccc cTBO
+00019f0f TH#@
+00019f57 4H#@
+0001a2b9 i{8)i{8
+0001a3f3 Th"@
+0001a567 **yx
+0001a8d7 4	#E)
+0001aad3 )D3@
+0001b1bb T(#@
+0001b59c cTBO
+0001b643 Tj^A
+0001b687 4l^A
+0001b88b T:}@
+0001b8bf TvZA
+0001b8d3 TT}	
+0001b8ff ThjA
+0001b91e 	K7!
+0001b927 qy}@
+0001b92f TivA
+0001ba63 Rc^A
+0001bb2f Kkn@
+0001bb37 KhRA
+0001bc3f KhbA
+0001bc6b KhbA
+0001bc97 KhbA
+0001bcab KhbA
+0001bcbf KhbA
+0001bcd3 KhbA
+0001bce7 KhbA
+0001bcfb KhbA
+0001bd0f KhbA
+0001bd23 KhbA
+0001bd2f Rk}@
+0001bd37 KhbA
+0001bd4b KhbA
+0001bd5f KhbA
+0001bd73 KhbA
+0001bd87 KhbA
+0001bd9b KhbA
+0001bdaf KhbA
+0001bdc3 KhbA
+0001bdd7 KhbA
+0001bdeb KhbA
+0001c096 0npJ
+0001c0ae 0npF
+0001c0c6 0npB
+0001c0d2 'nh&
+0001c0de 0np>
+0001c0fe 'ng:
+0001c12f <h&	
+0001c18f Th~A
+0001c1c3 ThJA
+0001c1ef TifA
+0001c297 *({h
+0001c3e7 rmnA
+0001c443 T@! 
+0001c44b ThRA
+0001c46b ThRA
+0001c487 7h&@
+0001c497 Th&B
+0001c4af *kRA
+0001c4f3 ThF@
+0001c506 	*hn@
+0001c513 7h6@
+0001c53f ThF@
+0001c557 TjjA
+0001c5a3 Ti>@
+0001c5b3 TjjA
+0001c627 ThZA
+0001c647 *jZA
+0001c727 7iJ@
+0001c77b ThZA
+0001c7a7 NijA
+0001c7d6 $n)!
+0001c8ef *vq}
+0001ca9a ;)	0@
+0001cbae 	*C%@
+0001cfd8 +yhxJ	
+0001d024 +yhxJ	
+0001d058 vVAi	
+0001d4cb T	Xh
+0001d666 	KK}
+0001d6e2 	J)=
+0001d7da 	J)=
+0001d8dc )Hh8
+0001d924 *Hh8
+0001d96c (Hh8
+0001d9c5 $D)*
+0001da2a `q	 
+0001da63 3?!@q	"
+0001daad  D)i%
+0001dace 	k+1
+0001db00 1Jn8
+0001db11 !@q+ 
+0001dbc3 3_!@q*"
+0001dc39 0D)J
+0001dca8 !Ho8
+0001dcfc 	(D)+	
+0001dd7f 3?!@qJ
+0001de75 $B)?
+0001df6b T	$@
+0001dfc5 ,A)k
+0001e01c ji,8
+0001e0b7 T	$@
+0001e111 ,A)k
+0001e168 ji,8
+0001e1cb 4	$@
+0001e1e7 T	$@
+0001e241 ,A)k
+0001e298 ji,8
+0001e300 Lhj8i
+0001e310 Ihj8JHa8)
+0001e337 T	$@
+0001e391 ,A)k
+0001e3e8 ji,8
+0001e48b 4h*B)	
+0001e4c5 I,8m2@
+0001e4ec m2A)
+0001e58d $B)*
+0001e5e1 ,A)j
+0001e6d3 K(](
+0001e7b7 5h.@
+0001e7c4 k&A))
+0001e7e4 hi*8@
+0001e823 Tk.@
+0001e834 m*A)J
+0001e88c Ii+8j*@
+0001e897 *l2@
+0001e8b4 m2A)
+0001e8f2 	*i2
+0001e910 	i*8h*@
+0001e91b *k2@
+0001e938 l.A)k
+0001e954 uZB)
+0001e95f Th2@
+0001e97e 	KuI)8j2@
+0001e99a 	*h2
+0001e9a8 j&A)(
+0001e9d0 j.A)
+0001e9ef Ti"A)
+0001ea34 Iih8)
+0001ea3b *Ii(8
+0001eaa3 xoE@xJ	
+0001eb55 ih8J	
+0001eb7b TA	@-C
+0001eb8a B-QI~-TMC-u8!
+0001ebbf -A	<-B
+0001ebc6 }-GA>-GA
+0001ebcf -r:4
+0001ed22 @-,z
+0001ed27 S+~@
+0001ef3b S,~@
+0001f003 -B8$
+0001f17f -B8&
+0001f19b q%*!
+0001f23a !.Ax*
+0001f2b3 T(}@
+0001f49c ?!@q
+0001f5a8 ? @qB
+0001f5c9 !@q	
+0001f652 	K)}
+0001f7e3 kY}@
+0001fe6d 	@-B
+0001ff73 NQ*3
+00020070 0F@-
+000200a0 'BA-c
+0002015b nF*&
+000206ff r!8"
+000208bf T){t
+00020a03 ZB(*
+00020b1b r"9(
+00020e72 	*+0
+00020ffa @-G@A-
+0002105b Nc(%
+000217b3 qq|@
+0002194b RH!)
+00021dc4 (ih8)ij8
+00021e0e 	kbi*
+00021e1f Z@{5
+00021e7b 6 8 
+0002200b T"{{
+000220c7 k 8 
+000224a3 Th"@
+00022843 *J|@
+00022aba bn!ha
+00022b5e 	KJM'
+00022b77 TH|@
+00022b80 Pih8(
+00022cbd Z nS
+00022ce5 V#OsF
+00022cfa 2N4d
+00022e5d yixJ
+00022e93 xjjz8,?
+00022fcb xhjb8
+00022fd6 8KL}
+00022feb T*hb8
+0002353f ." b
+0002357e  K!<
+000241f7 TJ}~
+00024463 qj}@
+00024477 *lm}
+0002469b qj}@
+000246af *lm}
+0002490f r$( 
+00024abe &NF 
+00024b86 "n`E
+00024d9e "N"@
+00024e47 =*m|
+00024e83 NQ(a
+00024f63 =Km|
+00024f9f NQ(a
+00025074 a`dNA
+000251b6 HqI}@
+00025723 Thzv
+0002581f Thzv
+00025871 jzx	x
+000259bf 9kAA
+000259f7 Q0y(
+00025a07 Z0y(
+00025a2f q0y(
+00025bd3 Kk}@
+00025c62  Oo}
+00025c7a  OB<
+00025ca6  Oq}
+00025dbf 5_A@q
+00025dcf TH}@
+00025ea3 y)}@
+00025fcb QOk.
+00026674 c aN
+0002677b 9JEA
+000267e3 9)IA
+000268b8 `"+9
+000268db Sh"+9a
+000268f4 h"k9
+000268fc h"+9h
+00026928 `j78h
+0002693f ThbE
+00026957 y)}A
+00026968 `B+9
+000269c9 j88hbE
+00026a5b ThjI
+00026b34 `2+9
+00026b58 `j78h
+00026cd3 q`j4
+00026cff q`z:
+00026ddf *Ii(
+00027243 R	g	
+0002728f Tz*@
+0002731f TIcI
+000274d7 4uF@
+000275c7 RIk(8(
+0002766b Ti*@
+000276af Th*@
+000276d7 Ti*@
+000276ef Sx"E
+00027787 4h*@
+0002779f TiF@
+0002783b T|.@
+00027977 Ti&@
+00027990 L%@x)
+000279b7 T<{t
+000279eb 6h.@
+00027a66 @yk	
+00027be7 T|*@
+0002859b Tj~V
+00028661 E@xJ
+00028781 E@x)
+000288d7 <*q}
+00028965 i68+
+00028977 QbZh
+00028a17 R[+	
+00028ac9 iz8.<
+00028b3c 	#C)k
+00028c80 ?i(8<
+00028d4b T	;@
+00028d5f rJ}+
+00028f64 	m)9
+00028fb0 )ih8
+00028fc0 !ih8
+00029047 r)}+
+000290c6 ?o (a
+000290cc `(aN
+000292d3 9JAA
+000294b3 9)UA
+00029523 Th2I
+0002953b y)}A
+0002964f 9B`A
+000296fd 6@yb.I
+0002970c h:-y
+0002971f 9BlA
+0002977f 9BtA
+000297a7 9BxA
+00029b1b k${(
+00029b7f *)|A
+00029bbc 1jh8
+00029d97 T({t
+00029f6b R	}	
+00029f7b 9)]P
+00029f8d j78(
+00029fdd j78?
+0002a001 j78J
+0002a00a @9)y
+0002a1d1 %@xm%@x
+0002a23b 7	m|
+0002a318 K)	K
+0002a343 Rl1-
+0002a348 _!@q
+0002a3ff Rj),
+0002a42c c	@mJ=@
+0002a523 *	=@
+0002a56c my)x
+0002a5ad ii8)
+0002a5cd j-xm
+0002a668 Yt@9Jx
+0002a674 P|@9,
+0002a7db xj=@
+0002aa52 0O1"
+0002abba 0O! 
+0002ad53 Tp}@
+0002ae53 T`pH
+0002af8e  Oc<
+0002afde  OT}
+0002aff2  OW}
+0002b1bb q	is
+0002b236 =mh'@yn#@y
+0002b25b Th/@yn7@yo?@yp+@yq3@y`;@y
+0002b3fc K}	Sk
+0002b791 u@9(}@
+0002b835 u@9'
+0002b9aa @9+sH
+0002bd23 SBE(
+0002be37 q1~A
+0002bf12 0OB 
+0002bfb7 T`}@
+0002c0e2 0O! 
+0002c2a3 KJ}@
+0002c30b TN}@
+0002c522  O!<
+0002c5ce  O)?
+0002d343 T)}@
+0002d3e4 B|	SB
+0002d3ef Sbk(8"
+0002d41d z(x"
+0002d5eb NL	@y
+0002d656 =mK%@yL!@y`
+0002d683 TK-@yL5@yM=@yN)@yO1@yJ9@y`
+0002dbc7 x!}@
+0002dbce 	K)}@
+0002dbf7 y0}@
+0002ddb3 r	}+
+0002de53 q6}@
+0002dec3 TNA^
+0002e034 J}	SJ
+0002e1c7 RjY	
+0002e20b T,A^
+0002e48e  yi}
+0002e4ca  yh&
+0002e4ec hR!y
+0002e4fb Rhj)
+0002e56a  yj}
+0002e68c z9ay
+0002e6a3 Kk]P
+0002e778 _53q
+0002ebfb xM}A
+0002ec2b x.=@
+0002eca3 k/im
+0002f12f S?A@
+0002f19b qh~@
+0002f1ab Q)}@
+0002f2d7 Qk}@
+0002f440 ($@)*,A),4B).<C)0DD) 
+0002f4c5 Jh8)
+0002f563 T(Ku8
+0002f587 T(Kv8
+0002f5ab T(Kx8
+0002f5cf T(K|8
+0002f5fb T(Kh8
+0002f61b T(Kw8
+0002f63b T(Kv8
+0002f65f T(Kh8
+0002f683 T(Kh8
+0002f6a3 T(Ku8
+0002f6c7 T(Kh8
+0002f76d Jb8)
+0002fc9b qpi 
+0002fe0a @mc 
+0002fe7a @mc 
+0002feea @mc 
+0002ff5e @m1"
+00030023 K)}@
+000301bf Kk}@
+00030287 T(k{
+000302ce Dq5U	
+000302fe 	KJ#
+000303e4 h*L)
+000303ec k2M)-
+000303f5 #w)i
+0003041b K.		
+00030444 k!@Q_
+000304de 	khN
+000306d7 5*@@
+00030723 T)@@
+000307a2 	K(8
+00030847 *)ih
+00030987 9)EA
+00030b7d BI)j)
+00030c18 5iz8
+00030c22 	K)}
+00030c43 Q)iz8J
+00030cef K)}@
+000312ba l8N}
+0003144a @9%A@9'
+000314b0 <iz8
+000314bc #hnx
+000314e8 zKz8
+00031574 yj-8.
+00031589 i%x8h%x
+00031854 .hm8!@
+00031864 Nh-8B@
+00031893 q"h)8!@
+00031a5e @9?A
+00031e2b SKh)x
+00031e33 K+k)x)	
+00031e87 k)}	
+00031f1c jAC1
+00031f73 KJ}@
+00031fe6 	KkA@
+00031ff7 Sk}@
+0003205f Kk}@
+0003210d >@y*s
+00032129 :@y2
+00032141 :@yB
+00032178 g dNc d
+00032219 #>)^
+00032271 #>)H
+000322e5 #>)+
+00032309 B@yj
+0003247f SI}	
+000324b4 ?!@1)
+00032601 T)OH
+00032659 T)Ot|
+000326cf N	~	
+0003286c ?!@1)
+0003290b N(m}
+00032a0b NZWpO{WpO
+00032a25 WpOZ
+00032b05 WpO9
+00032c06 po4?
+00032c32 po)}
+00032cad +aNXg
+00032cb3 N9+a
+00032cb9 +aN8
+00032d74 ~t@)k	
+00032e7c ?!@1)
+00032f7a  O4>
+00033160 ?!@1)
+000332f9 WpO{WpO
+00033363 NZWpO9WpO
+0003336d WpOv
+00033384 sV)ORV)OZ
+00033396 POu?
+000334c6 9OR6
+000334ce ?Os6
+000334d6 ?OR*a
+000334df Nr*aN
+000334ec t*aN
+00033549 ,aN"
+000335d2 	ka	
+00033877 rJ}+
+00033977 4iJR
+00033b94 	o)9j~
+00033c0f qj.	
+0003406f R`yh
+00034090 -y(x
+000341d8 @yh|
+000341e6 !^ y(
+0003441f y	yv
+00034543 qL}|
+0003454f T(}@
+00034603 y	yv
+00034629 /u))
+00034641 +t))},
+0003465d +s))},
+00034679 +r))},
+00034739 	C) |@
+000348c3 *^xg
+000348f5 A@q(
+00034a3f Rm}~
+00034b26 {))}@
+00034b4a z))}@
+00034b6e y))}@
+00034b92 x))}@
+00034bd3 yizv
+00034bd9 +u))}@
+00034d73 yizv
+00034dfb *Dxc
+00034e69 y*xJ
+00034e9f T+(@)
+00034f73 TL4@)bD@)
+00035019  @1B|
+00035073 TN<@)
+0003521f qI|@
+00035227 TJ@@Q
+00035283 TI@@Q
+00035293 yM|	
+000352c7 xI|	
+000352d7 S	h(x
+0003555a 	K+}
+00035582 	K+}
+00035697 Q'D'
+0003570f ouE5
+000358ef T)|@
+0003594f K`|#
+00035ac3 Q1~@
+00035c7b KQy/
+00035cdb TByo
+00035d8f K0y.
+00035def T!yn
+00035f0e ?m)A
+0003607b Kmz7x
+00036113 x.~@
+000361f7 Kmz1x
+00036208 mj.xx
+0003629b qjj)x
+000362f8 ij(x
+00036356 	kJ1
+00036536 	k(|
+0003672b *K}@
+00036737 Qk}	
+000369ee ~iK}@
+00036b0f T	 @)n|
+00036b88 _ @1B
+00036dd9 !@1k
+00036e1f <aCA
+00036ead !@1k
+00036ee3 *l=@
+0003709f KH}@
+000371e3 KjO*
+00037231 !@1k
+000372b8 	(@)
+00037497 =(q}
+000374cb T(x(
+0003755f Tl|~
+0003756b Qj|@
+0003768d h.x@
+00037a22 	Kh&
+00037c1e 	KI)
+00037eb3 ZI}	
+00038118 	 @)(
+000381e3 *jzi
+000382d4 ? @1!
+000382dd  @1c
+000382ec ?"@q
+000382fc ?"@11
+00038342 ?))!
+000383e7 NBT?O
+0003841f nc(a
+00038894 (i*8
+000389c9 zk|l
+00038a8f RL!,
+00038bc3 R	U	
+00038c33 RHqi9H
+00038c3d ji8i
+00038d87 R@E@
+00038e4e C9)q)
+00039343 T1}@
+000393cb 4q{n
+000393df 5`{.
+00039496 ?)J!
+00039737 4h:R
+0003974b Td"R
+000397bb Td"R
+00039837 T@! 
+0003984b Tb"R
+0003986f 4h:R
+0003990b *{~~
+00039b3f 4h:R
+00039bc2 !^M3
+00039d7a 	KI	
+00039fa0 +yhxJ	
+0003a0b2 @M,`
+0003a0ba @M-p
+0003a1de A-PM@
+0003a1e4 2LB-t
+0003a1f4 6\C-b
+0003a22c 6\E-
+0003a2de @M,P
+0003a2e6 @M-`
+0003a2ee @M.p
+0003a3ae @-DM@
+0003a3ba A-2LB-
+0003a486 @M,P
+0003a532 @-BM@
+0003a5f6 @M,`
+0003a5fe @M-p
+0003a6f2 @-d	@
+0003a6f8 %@A-FM@
+0003a703 -1LB-
+0003a734 %LD-
+0003a7e6 @M,`
+0003a7ee @M-p
+0003a962 A-qAA-2LB-
+0003a978 6\C-
+0003a990 :lD-
+0003a9c0 6\F-
+0003ab86 h|)V
+0003acbf R"	-
+0003acfb T@gg
+0003ad3b qB9)
+0003ae1b RACR
+0003ae93 NL9 
+0003affb Tb{h
+0003b013 TA9!
+0003b063 *`{i
+0003b07b Q 8 
+0003b0ef Na{h
+0003b277 Nb{h
+0003b41f *`{i
+0003b437 Q 8 
+0003b51f R*q}
+0003b593 T@kR
+0003b6af RBgg
+0003b993 R	u~
+0003bb4f R E@
+0003bb6e @9?	
+0003bc34 #yh|
+0003bd1f qB("
+0003bd57 T!(!
+0003bfef Ti|@
+0003c037 T"xh
+0003c066 @me8b
+0003c0f2 ?mkA
+0003c16f R D@
+0003c43b TQq@
+0003c50b T-		
+0003c523 R`E@
+0003c607 TIt@9?	
+0003c61b 9kIA
+0003ca8f qA(a
+0003ccb7 *pk|
+0003ccbf =d}~
+0003ccdb <Pkd
+0003d076 ?mJA
+0003d0df T 	h
+0003d1b6 bn!(b
+0003d1bf ^!(b
+0003d26a bn!(c
+0003d273 ^!(b
+0003d31f T xj
+0003d48f T @b
+0003d527 N(}@
+0003d5a4 My+x
+0003d658  yh|
+0003d66e !^@y(
+0003d6cc My+x
+0003d784  yh|
+0003d79a !^@y(
+0003d7fc My+x
+0003d8cc  yh|
+0003d8e2 !^@y(
+0003d957 r ( 
+0003dcd9 y/xa
+0003dd24 lABymIBy
+0003dff3 R`	Dz
+0003e0cb T`{(
+0003e11f q@9 
+0003eb70 A	?-C
+0003ec8e ?mkA
+0003ece7 kCh`
+0003ecff Tcin
+0003ed0b qd(d
+0003edcb =(q}
+0003edff T(x(
+0003ee9f Qj|@
+0003efeb o)}@
+0003f041 62OR
+0003f073 NQ62O
+0003f0e3 ncT"
+0003f0fb N'42O
+0003f161 (`N`
+0003f17b Tbh`N"h`Nd
+0003f2ab KC|"
+0003f3be !OeB
+0003f52a `_!d
+0003f566 	K)})
+0003f59f T(~@
+0003f9f3 Tlr@
+0003fa33 Nlr@
+0003fa77 Tnr@
+0003fab9 |@9(
+0003fc07 Rpf@
+0003fd1f Thb@
+0003fd31 t@9f
+0003fd3a C*hR@
+0003fd4f Thr@
+0003fde3 oiih
+0003fe4a 	K)	
+0003fe85 t@9{
+0003ff33 TaJ@
+0004009b *vZA
+000400e3 7hB@
+0004010f Th2@
+00040272 0OB@
+00040283 ThZA
+000402af Th"@
+000402f7 Tk*K
+00040357 Kk}@
+000403e7 Th&@
+00040427 T+}@
+0004046f Qj.@
+000405a3 Tdn@
+000405e3 =k*K
+000407ef Th&@
+0004083b T+}@
+00040883 Qj.@
+000409c3 Tdn@
+00040a17 OgBT
+00040a2b OqJU
+00040a3f OsRV
+00040a53 OuZW
+00040a67 OwbX
+00040a7b OyjY
+00040a9f Oi*@
+00040b03 Tk*K
+00040b57 =@i{
+00040c03 KhF@
+00040cd4 )}	S)
+00040da8 9W!O
+00040dc9 76Oy
+00040edf N[u@
+00040eff N\mA
+00040f17 N\mB
+00040f2b N\mC
+00040f3f N\mD
+00040f53 N\mE
+00040f67 N\mF
+00040f7b N\mG
+00041029 W!O]
+00041051 W"OxW"O
+0004105f n{'<O
+0004107f N{+a
+00041763 N,}@
+00041876 @Mdj
+000418b7 */|@
+000418ff Swj08W
+00041a0b Oc(!
+00041a46 @MT|@
+00041a67 NcHa
+00041c37 ^!$q_ 
+00041c53 y)}@
+00041c5b qI}	
+00041db3 *L|~
+00041e23 T0~@
+00041e3f T` !
+00041fa3 *D8$
+0004205b r(|(
+000420bf r(|(
+00042275 X-x&
+00042e2f ThB@
+00042e8f TiF@
+00043093 Th>@
+000430cf RI}	
+000430eb 4h2@
+000431d3 Tg.@
+00043430 +ih8J	
+0004347f 5b2@
+000435af 4hF@
+0004361b ThF@
+0004396a 'n9#
+00043a7b Rl}~
+00043c13 R,}~
+0004400f R	}	
+000440b7 r G@
+00044260 mij8
+000442b8 h&A)
+000442bf R)}@
+000448e0 ij*xh~7
+000448fb Rhz7
+00044b0b Tk|@
+00044b8b Tk|@
+00044bdc  jm|
+00044c4f Tj|@
+00044c7b Th|@
+00044d0e !^@( 
+00044d5e !^ ( 
+00044d98  jm|
+00044db6 !^@( 
+00044e06 !^ ( 
+00044e1f rH|(
+00044f3f q!( 
+00044f57 /k}@
+00044f67 -PA@
+0004500b T` "
+000450af ~c(&
+0004562d 2E)i
+0004572b r.}.
+00045907 r)}-
+00045997 r)|)
+00045a72  qb~
+00046171 i"Q/
+000465a7 Rk}-
+000466ff qB8!
+000467f3 *	}	
+000468c1 *R)K
+00046b0b rJ},
+00046b27 Rb}~
+00046bae 	KJ}
+00046beb T   
+00046c53 Tk}@
+00046cfb Tk}@
+00046d83 T+}@
+00047216 ?-k!
+0004721f T)@3y
+000475c2 	KdF
+00047a47 5hJ{8
+00047d23 r)}*
+00047fff R*}*
+00048067 Rk}~
+000480bb Th}@
+00048387 =lu~
+000483da @M0<
+000485c5 		*!
+000488ff RI|	
+0004890f RI|	
+0004891f RI|	
+00048933 RO|	
+00048b2b *	}	
+00048bb7 RI|	
+00048bc7 RI|	
+00048bd7 RI|	
+00048be7 RI|	
+00048c23 RI|	
+00048d08 Lyhxk	
+00049193 Rhr7
+0004919b yj~7
+000491bb *hz7
+0004940f 5in@
+00049763 Tir@
+000497a2 .Q?	
+00049bb3 Tlij8
+00049bf3 S`}@
+00049bfd i`8_
+00049c37 R`}@
+00049c45 i`8_
+00049c8d i`8_
+00049d27 Ti3@
+00049ddc +ih8J	
+00049eee 	kA=
+00049fc3 Th&@
+0004a117 nfrA
+0004a12b n` &
+0004a153 Th+@
+0004a1bf =*q}
+0004a2c7 T|Z@
+0004a333 TB("
+0004a383 TA("
+0004a3eb T!(!
+0004a453 T!(!
+0004a557 <a&B
+0004a5a7 <azB
+0004a75c (Q@)
+0004acbc 	)@)
+0004ad8f =	i{
+0004adc5 j)8)
+0004ae55 j*8I
+0004b33b TJ#A
+0004b342 @)gv@
+0004b5ab 4.z 
+0004b5d7 7-z 
+0004b5e7 T/z 
+0004b64b *l>E
+0004b67f T-z0
+0004b7db Tkv@
+0004b8b7 Ti2@
+0004b92f *`RF
+0004b947 *x*@
+0004b98b Tx*@
+0004ba3b =`>@
+0004ba6b *v*@
+0004baeb T`>@
+0004bb5f 5h>@
+0004bce3 T(|@
+0004bd17 TLq}
+0004be28 +ih8J	
+0004c935 'l);
+0004cadf T(kx8
+0004cc67 T(|@
+0004cd47 T(|@
+0004ce18 +ih8J	
+0004d3bf Tx#	
+0004d4e6 @9hc
+0004d51f 9(}*
+0004d533 q)}H
+0004d5ab T(!	K
+0004dd83 =	m|
+0004ddb0 Ii)8)
+0004deb9 $@)'
+0004df41 $@)'
+0004e36b / 8!.A
+0004e373 /b8!.
+0004e417 =	m|
+0004e444 Ii)8)
+0004e890 I%@x
+0004e97e @}"F@
+0004ed2e aNs"
+0004ed51 htxs
+0004ee73 rk},
+0004efaf R  "
+0004f16f qbx"
+0004f507 R\-@
+0004f52a 	kB1-
+0004f7e3 ~E@'
+0004fa2a #nbj
+0004fa4f R@ #
+0004fd2f T@!*
+0004fdeb Rc(f
+0004ffab QEYi
+000501c8 Zmx-\uy-z::
+000501f4 [qz-
+00050210 ]m{-<8<
+0005022c \u|-{8;
+00050248 [q}-
+00050270 [q~-
+0005029a ;.Z+;
+000502a3 ^Z+;
+000502ae ;.Z+;
+000502b7 ^Z+;
+000503e3 RB<'
+000504af R$	&
+0005053f TIXh
+000505e4 8e|-:m}-
+00050604 9i~-;
+0005062c :m@-
+00050640 9iA-
+00050654 ;eB-:
+00050668 :mC-y
+00050cc7 S)}*
+00050fc2  .c(%
+0005106b T xk
+0005138b 9!F@
+000513d3 9!D@
+0005152a ?-c 
+00051597 T#xp
+000515ab 9dD@
+000515c7 T#x0
+000515ef 9dD@
+0005160b T#x0
+00051736 ?-! 
+00051837 T#zp
+00051867 T#z0
+00052648 Linker: LLD 11.0.5 (/buildbot/tmp/tmpJJnZSz 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+0005269f Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+00059149 .note.android.ident
+0005915d .dynsym
+00059165 .gnu.version
+00059172 .gnu.version_r
+00059181 .gnu.hash
+0005918b .hash
+00059191 .dynstr
+00059199 .rela.dyn
+000591a3 .rela.plt
+000591ad .rodata
+000591b5 .eh_frame_hdr
+000591c3 .eh_frame
+000591cd .text
+000591d3 .plt
+000591d8 .data.rel.ro
+000591e5 .fini_array
+000591f1 .dynamic
+000591fa .got
+000591ff .got.plt
+00059208 .comment
+00059211 .symtab
+00059219 .shstrtab
+00059223 .strtab
+0005922c /buildbot/tmp/crtbrand-6c78f1.o
+0005924c $d.0
+00059251 ndk_build_number
+00059262 ndk_version
+0005926e note_android_ident
+00059281 note_data
+0005928b note_end
+00059294 note_name
+0005929e crtbegin_so.c
+000592ac $d.1
+000592b1 $d.2
+000592b6 $d.3
+000592bb $d.4
+000592c0 $x.0
+000592c5 __dso_handle_const
+000592d8 __on_dlclose
+000592e5 __on_dlclose_late
+000592f7 bands.c
+000592ff $d.5
+00059304 compute_qn.exp2_table8
+0005931b compute_theta
+00059329 deinterleave_hadamard
+0005933f interleave_hadamard
+00059353 ordery_table
+00059360 quant_band
+0005936b quant_band.bit_deinterleave_table
+0005938d quant_band.bit_interleave_table
+000593ad quant_band_stereo
+000593bf quant_partition
+000593cf celt.c
+000593d6 comb_filter.gains
+000593e8 opus_strerror.error_strings
+00059404 celt_encoder.c
+00059413 celt_encode_with_ec.intensity_histeresis
+0005943c celt_encode_with_ec.intensity_thresholds
+00059465 compute_mdcts
+00059473 dynalloc_analysis
+00059485 run_prefilter
+00059493 spread_icdf
+0005949f tapset_icdf
+000594ab tf_analysis
+000594b7 transient_analysis
+000594ca transient_analysis.inv_table
+000594e7 trim_icdf
+000594f1 celt_decoder.c
+00059500 celt_decode_lost
+00059511 celt_synthesis
+00059520 deemphasis
+0005952b cwrs.c
+00059532 CELT_PVQ_U_DATA
+00059542 CELT_PVQ_U_ROW
+00059551 entcode.c
+0005955b ec_tell_frac.correction
+00059573 entdec.c
+0005957c $x.1
+00059581 entenc.c
+0005958a kiss_fft.c
+00059595 laplace.c
+0005959f mathops.c
+000595a9 mdct.c
+000595b0 modes.c
+000595b8 band_allocation
+000595c8 cache_bits50
+000595d5 cache_caps50
+000595e2 cache_index50
+000595f0 eband5ms
+000595f9 fft_bitrev120
+00059607 fft_bitrev240
+00059615 fft_bitrev480
+00059623 fft_bitrev60
+00059630 fft_state48000_960_0
+00059645 fft_state48000_960_1
+0005965a fft_state48000_960_2
+0005966f fft_state48000_960_3
+00059684 fft_twiddles48000_960
+0005969a logN400
+000596a2 mdct_twiddles960
+000596b3 mode48000_960_120
+000596c5 window120
+000596cf pitch.c
+000596d7 second_check
+000596e4 celt_lpc.c
+000596ef xcorr_kernel_c
+000596fe quant_bands.c
+0005970c beta_coef
+00059716 e_prob_model
+00059723 pred_coef
+0005972d quant_coarse_energy_impl
+00059746 small_energy_icdf
+00059758 rate.c
+0005975f LOG2_FRAC_TABLE
+0005976f vq.c
+00059774 exp_rotation.SPREAD_FACTOR
+0005978f armcpu.c
+00059798 arm_celt_map.c
+000597a7 celt_neon_intr.c
+000597b8 pitch_neon_intr.c
+000597ca CNG.c
+000597d0 $x.2
+000597d5 code_signs.c
+000597e2 init_decoder.c
+000597f1 decode_core.c
+000597ff decode_frame.c
+0005980e decode_parameters.c
+00059822 decode_indices.c
+00059833 decode_pulses.c
+00059843 decoder_set_fs.c
+00059854 dec_API.c
+0005985e enc_API.c
+00059868 encode_indices.c
+00059879 encode_pulses.c
+00059889 gain_quant.c
+00059896 interpolate.c
+000598a4 LP_variable_cutoff.c
+000598b9 NLSF_decode.c
+000598c7 NSQ.c
+000598cd NSQ_del_dec.c
+000598db silk_noise_shape_quantizer_del_dec
+000598fe PLC.c
+00059904 HARM_ATT_Q15
+00059911 PLC_RAND_ATTENUATE_UV_Q15
+0005992b PLC_RAND_ATTENUATE_V_Q15
+00059944 silk_PLC_conceal
+00059955 silk_PLC_energy
+00059965 shell_coder.c
+00059973 tables_gain.c
+00059981 tables_LTP.c
+0005998e silk_LTP_gain_BITS_Q5_0
+000599a6 silk_LTP_gain_BITS_Q5_1
+000599be silk_LTP_gain_BITS_Q5_2
+000599d6 silk_LTP_gain_iCDF_0
+000599eb silk_LTP_gain_iCDF_1
+00059a00 silk_LTP_gain_iCDF_2
+00059a15 silk_LTP_gain_vq_0
+00059a28 silk_LTP_gain_vq_0_gain
+00059a40 silk_LTP_gain_vq_1
+00059a53 silk_LTP_gain_vq_1_gain
+00059a6b silk_LTP_gain_vq_2
+00059a7e silk_LTP_gain_vq_2_gain
+00059a96 tables_NLSF_CB_NB_MB.c
+00059aad silk_NLSF_CB1_NB_MB_Q8
+00059ac4 silk_NLSF_CB1_Wght_Q9
+00059ada silk_NLSF_CB1_iCDF_NB_MB
+00059af3 silk_NLSF_CB2_BITS_NB_MB_Q5
+00059b0f silk_NLSF_CB2_SELECT_NB_MB
+00059b2a silk_NLSF_CB2_iCDF_NB_MB
+00059b43 silk_NLSF_DELTA_MIN_NB_MB_Q15
+00059b61 silk_NLSF_PRED_NB_MB_Q8
+00059b79 tables_NLSF_CB_WB.c
+00059b8d silk_NLSF_CB1_WB_Q8
+00059ba1 silk_NLSF_CB1_WB_Wght_Q9
+00059bba silk_NLSF_CB1_iCDF_WB
+00059bd0 silk_NLSF_CB2_BITS_WB_Q5
+00059be9 silk_NLSF_CB2_SELECT_WB
+00059c01 silk_NLSF_CB2_iCDF_WB
+00059c17 silk_NLSF_DELTA_MIN_WB_Q15
+00059c32 silk_NLSF_PRED_WB_Q8
+00059c47 tables_other.c
+00059c56 silk_LBRR_flags_2_iCDF
+00059c6d silk_LBRR_flags_3_iCDF
+00059c84 tables_pitch_lag.c
+00059c97 tables_pulses_per_block.c
+00059cb1 VAD.c
+00059cb7 tiltWeights
+00059cc3 control_audio_bandwidth.c
+00059cdd quant_LTP_gains.c
+00059cef VQ_WMat_EC.c
+00059cfc HP_variable_cutoff.c
+00059d11 NLSF_encode.c
+00059d1f NLSF_VQ.c
+00059d29 NLSF_unpack.c
+00059d37 NLSF_del_dec_quant.c
+00059d4c process_NLSFs.c
+00059d5c stereo_LR_to_MS.c
+00059d6e stereo_MS_to_LR.c
+00059d80 check_control_input.c
+00059d96 control_SNR.c
+00059da4 silk_TargetRate_MB_21
+00059dba silk_TargetRate_NB_21
+00059dd0 silk_TargetRate_WB_21
+00059de6 init_encoder.c
+00059df5 control_codec.c
+00059e05 silk_setup_resamplers
+00059e1b A2NLSF.c
+00059e24 ana_filt_bank_1.c
+00059e36 biquad_alt.c
+00059e43 bwexpander_32.c
+00059e53 bwexpander.c
+00059e60 debug.c
+00059e68 decode_pitch.c
+00059e77 inner_prod_aligned.c
+00059e8c lin2log.c
+00059e96 log2lin.c
+00059ea0 LPC_analysis_filter.c
+00059eb6 LPC_inv_pred_gain.c
+00059eca table_LSF_cos.c
+00059eda NLSF2A.c
+00059ee3 silk_NLSF2A.ordering10
+00059efa silk_NLSF2A.ordering16
+00059f11 NLSF_stabilize.c
+00059f22 NLSF_VQ_weights_laroia.c
+00059f3b pitch_est_tables.c
+00059f4e resampler.c
+00059f5a delay_matrix_dec
+00059f6b delay_matrix_enc
+00059f7c resampler_down2_3.c
+00059f90 resampler_down2.c
+00059fa2 resampler_private_AR2.c
+00059fba resampler_private_down_FIR.c
+00059fd7 resampler_private_IIR_FIR.c
+00059ff3 resampler_private_up2_HQ.c
+0005a00e resampler_rom.c
+0005a01e sigm_Q15.c
+0005a029 sigm_LUT_neg_Q15
+0005a03a sigm_LUT_pos_Q15
+0005a04b sigm_LUT_slope_Q10
+0005a05e sort.c
+0005a065 sum_sqr_shift.c
+0005a075 stereo_decode_pred.c
+0005a08a stereo_encode_pred.c
+0005a09f stereo_find_predictor.c
+0005a0b7 stereo_quant_pred.c
+0005a0cb LPC_fit.c
+0005a0d5 apply_sine_window_FLP.c
+0005a0ed corrMatrix_FLP.c
+0005a0fe encode_frame_FLP.c
+0005a111 find_LPC_FLP.c
+0005a120 find_LTP_FLP.c
+0005a12f find_pitch_lags_FLP.c
+0005a145 find_pred_coefs_FLP.c
+0005a15b LPC_analysis_filter_FLP.c
+0005a175 LTP_analysis_filter_FLP.c
+0005a18f LTP_scale_ctrl_FLP.c
+0005a1a4 noise_shape_analysis_FLP.c
+0005a1bf process_gains_FLP.c
+0005a1d3 regularize_correlations_FLP.c
+0005a1f1 residual_energy_FLP.c
+0005a207 warped_autocorrelation_FLP.c
+0005a224 wrappers_FLP.c
+0005a233 autocorrelation_FLP.c
+0005a249 burg_modified_FLP.c
+0005a25d bwexpander_FLP.c
+0005a26e energy_FLP.c
+0005a27b inner_product_FLP.c
+0005a28f k2a_FLP.c
+0005a299 LPC_inv_pred_gain_FLP.c
+0005a2b1 pitch_analysis_core_FLP.c
+0005a2cb scale_copy_vector_FLP.c
+0005a2e3 scale_vector_FLP.c
+0005a2f6 schur_FLP.c
+0005a302 sort_FLP.c
+0005a30d arm_silk_map.c
+0005a31c biquad_alt_neon_intr.c
+0005a333 LPC_inv_pred_gain_neon_intr.c
+0005a351 NSQ_del_dec_neon_intr.c
+0005a369 copy_winner_state
+0005a37b NSQ_neon.c
+0005a386 opus.c
+0005a38d opus_decoder.c
+0005a39c opus_decode_frame
+0005a3ae opus_encoder.c
+0005a3bd $d.6
+0005a3c2 compute_silk_rate_for_hybrid.rate_table
+0005a3ea encode_multiframe_packet
+0005a403 fec_thresholds
+0005a412 mono_music_bandwidth_thresholds
+0005a432 mono_voice_bandwidth_thresholds
+0005a452 opus_multistream.c
+0005a465 opus_multistream_encoder.c
+0005a480 logSum.diff_table
+0005a492 opus_copy_channel_in_float
+0005a4ad opus_copy_channel_in_short
+0005a4c8 opus_multistream_encoder_init_impl
+0005a4eb vorbis_mappings
+0005a4fb opus_multistream_decoder.c
+0005a516 opus_copy_channel_out_float
+0005a532 opus_copy_channel_out_short
+0005a54e repacketizer.c
+0005a55d opus_repacketizer_cat_impl
+0005a578 opus_projection_encoder.c
+0005a592 opus_projection_copy_channel_in_float
+0005a5b8 opus_projection_copy_channel_in_short
+0005a5de opus_projection_decoder.c
+0005a5f8 opus_projection_copy_channel_out_float
+0005a61f opus_projection_copy_channel_out_short
+0005a646 mapping_matrix.c
+0005a657 analysis.c
+0005a662 analysis_window
+0005a672 dct_table
+0005a67c downmix_and_resample
+0005a691 tbands
+0005a698 mlp.c
+0005a69e tansig_table
+0005a6ab mlp_data.c
+0005a6b6 layer0_bias
+0005a6c2 layer0_weights
+0005a6d1 layer1_bias
+0005a6dd layer1_recur_weights
+0005a6f2 layer1_weights
+0005a701 layer2_bias
+0005a70d layer2_weights
+0005a71c /buildbot/tmp/crtend_so-42a8c6.o
+0005a73d __FRAME_END__
+0005a74b __atexit_handler_wrapper
+0005a764 __cxa_finalize
+0005a773 __dso_handle
+0005a780 __cxa_atexit
+0005a78d __emutls_unregister_key
+0005a7a5 atexit
+0005a7ac __memcpy_chk
+0005a7b9 alg_quant
+0005a7c3 alg_unquant
+0005a7cf anti_collapse
+0005a7dd bitexact_cos
+0005a7ea bitexact_log2tan
+0005a7fb celt_fatal
+0005a806 celt_inner_prod_neon
+0005a81b celt_lcg_rand
+0005a829 compute_band_energies
+0005a83f denormalise_bands
+0005a851 dual_inner_prod_neon
+0005a866 eMeans
+0005a86d ec_dec_bit_logp
+0005a87d ec_dec_bits
+0005a889 ec_dec_uint
+0005a895 ec_dec_update
+0005a8a3 ec_decode
+0005a8ad ec_enc_bit_logp
+0005a8bd ec_enc_bits
+0005a8c9 ec_enc_uint
+0005a8d5 ec_encode
+0005a8df ec_tell_frac
+0005a8f0 haar1
+0005a8f6 hysteresis_decision
+0005a90a isqrt32
+0005a912 memcpy
+0005a919 memset
+0005a920 normalise_bands
+0005a930 quant_all_bands
+0005a940 renormalise_vector
+0005a953 spreading_decision
+0005a966 stereo_itheta
+0005a974 __sF
+0005a979 abort
+0005a97f comb_filter
+0005a98b fprintf
+0005a993 init_caps
+0005a99d memmove
+0005a9a5 opus_get_version_string
+0005a9bd opus_strerror
+0005a9cb resampling_factor
+0005a9dd tf_select_table
+0005a9ed amp2Log2
+0005a9f6 celt_encode_with_ec
+0005aa0a celt_encoder_get_size
+0005aa20 celt_encoder_init
+0005aa32 celt_preemphasis
+0005aa43 clt_compute_allocation
+0005aa5a clt_mdct_forward_c
+0005aa6d ec_enc_done
+0005aa79 ec_enc_icdf
+0005aa85 ec_enc_init
+0005aa91 ec_enc_shrink
+0005aaa3 opus_custom_encoder_ctl
+0005aabb opus_custom_mode_create
+0005aad3 pitch_downsample
+0005aae4 pitch_search
+0005aaf1 quant_coarse_energy
+0005ab05 quant_energy_finalise
+0005ab1b quant_fine_energy
+0005ab2d remove_doubling
+0005ab3d _celt_autocorr
+0005ab4c _celt_lpc
+0005ab56 celt_decode_with_ec
+0005ab6a celt_decoder_get_size
+0005ab80 celt_decoder_init
+0005ab92 celt_fir_c
+0005ab9d celt_iir
+0005aba6 clt_mdct_backward_c
+0005abba ec_dec_icdf
+0005abc6 ec_dec_init
+0005abd2 opus_custom_decoder_ctl
+0005abea unquant_coarse_energy
+0005ac00 unquant_energy_finalise
+0005ac18 unquant_fine_energy
+0005ac2c validate_celt_decoder
+0005ac42 decode_pulses
+0005ac50 encode_pulses
+0005ac5e ec_decode_bin
+0005ac6c ec_enc_patch_initial_bits
+0005ac86 ec_encode_bin
+0005ac94 opus_fft_c
+0005ac9f opus_fft_impl
+0005acad opus_ifft_c
+0005acb9 ec_laplace_decode
+0005accb ec_laplace_encode
+0005acdd celt_pitch_xcorr_c
+0005acf0 celt_pitch_xcorr_float_neon
+0005ad10 exp_rotation
+0005ad1d op_pvq_search_c
+0005ad2d silk_CNG
+0005ad36 silk_CNG_Reset
+0005ad45 silk_NLSF2A
+0005ad51 silk_decode_signs
+0005ad63 silk_encode_signs
+0005ad75 silk_sign_iCDF
+0005ad84 silk_PLC_Reset
+0005ad93 silk_init_decoder
+0005ada5 silk_LPC_analysis_filter
+0005adbe silk_Quantization_Offsets_Q10
+0005addc silk_decode_core
+0005aded silk_PLC
+0005adf6 silk_PLC_glue_frames
+0005ae0b silk_decode_frame
+0005ae1d silk_decode_indices
+0005ae31 silk_decode_parameters
+0005ae48 silk_decode_pulses
+0005ae5b silk_LTPScales_table_Q14
+0005ae74 silk_LTP_vq_ptrs_Q7
+0005ae88 silk_NLSF_decode
+0005ae99 silk_bwexpander
+0005aea9 silk_decode_pitch
+0005aebb silk_gains_dequant
+0005aece silk_LTP_gain_iCDF_ptrs
+0005aee6 silk_LTP_per_index_iCDF
+0005aefe silk_LTPscale_iCDF
+0005af11 silk_NLSF_EXT_iCDF
+0005af24 silk_NLSF_interpolation_factor_iCDF
+0005af48 silk_NLSF_unpack
+0005af59 silk_delta_gain_iCDF
+0005af6e silk_gain_iCDF
+0005af7d silk_pitch_delta_iCDF
+0005af93 silk_pitch_lag_iCDF
+0005afa7 silk_type_offset_VAD_iCDF
+0005afc1 silk_type_offset_no_VAD_iCDF
+0005afde silk_uniform4_iCDF
+0005aff1 silk_uniform8_iCDF
+0005b004 silk_lsb_iCDF
+0005b012 silk_pulses_per_block_iCDF
+0005b02d silk_rate_levels_iCDF
+0005b043 silk_shell_decoder
+0005b056 silk_NLSF_CB_NB_MB
+0005b069 silk_NLSF_CB_WB
+0005b079 silk_decoder_set_fs
+0005b08d silk_pitch_contour_10_ms_NB_iCDF
+0005b0ae silk_pitch_contour_10_ms_iCDF
+0005b0cc silk_pitch_contour_NB_iCDF
+0005b0e7 silk_pitch_contour_iCDF
+0005b0ff silk_resampler_init
+0005b113 silk_uniform6_iCDF
+0005b126 silk_Decode
+0005b132 silk_Get_Decoder_Size
+0005b148 silk_InitDecoder
+0005b159 silk_LBRR_flags_iCDF_ptr
+0005b172 silk_resampler
+0005b181 silk_stereo_MS_to_LR
+0005b196 silk_stereo_decode_mid_only
+0005b1b2 silk_stereo_decode_pred
+0005b1ca check_control_input
+0005b1de silk_Encode
+0005b1ea silk_Get_Encoder_Size
+0005b200 silk_HP_variable_cutoff
+0005b218 silk_InitEncoder
+0005b229 silk_control_SNR
+0005b23a silk_control_encoder
+0005b24f silk_encode_do_VAD_FLP
+0005b266 silk_encode_frame_FLP
+0005b27c silk_encode_indices
+0005b290 silk_encode_pulses
+0005b2a3 silk_init_encoder
+0005b2b5 silk_stereo_LR_to_MS
+0005b2ca silk_stereo_encode_mid_only
+0005b2e6 silk_stereo_encode_pred
+0005b2fe silk_max_pulses_table
+0005b314 silk_pulses_per_block_BITS_Q5
+0005b332 silk_rate_levels_BITS_Q5
+0005b34b silk_shell_encoder
+0005b35e silk_gains_ID
+0005b36c silk_gains_quant
+0005b37d silk_lin2log
+0005b38a silk_log2lin
+0005b397 silk_interpolate
+0005b3a8 silk_LP_variable_cutoff
+0005b3c0 silk_Transition_LP_A_Q28
+0005b3d9 silk_Transition_LP_B_Q28
+0005b3f2 silk_biquad_alt_stride1
+0005b40a silk_NLSF_stabilize
+0005b41e silk_NSQ_c
+0005b429 silk_NSQ_noise_shape_feedback_loop_neon
+0005b451 silk_noise_shape_quantizer_short_prediction_neon
+0005b482 silk_NSQ_del_dec_c
+0005b495 silk_LPC_inverse_pred_gain_neon
+0005b4b5 silk_sum_sqr_shift
+0005b4c8 silk_shell_code_table0
+0005b4df silk_shell_code_table1
+0005b4f6 silk_shell_code_table2
+0005b50d silk_shell_code_table3
+0005b524 silk_shell_code_table_offsets
+0005b542 silk_LTP_gain_BITS_Q5_ptrs
+0005b55d silk_LTP_vq_gain_ptrs_Q7
+0005b576 silk_LTP_vq_sizes
+0005b588 silk_stereo_only_code_mid_iCDF
+0005b5a7 silk_stereo_pred_joint_iCDF
+0005b5c3 silk_stereo_pred_quant_Q13
+0005b5de silk_uniform3_iCDF
+0005b5f1 silk_uniform5_iCDF
+0005b604 silk_VAD_GetSA_Q8_c
+0005b618 silk_VAD_Init
+0005b626 silk_ana_filt_bank_1
+0005b63b silk_sigm_Q15
+0005b649 silk_control_audio_bandwidth
+0005b666 silk_VQ_WMat_EC_c
+0005b678 silk_quant_LTP_gains
+0005b68d silk_NLSF_VQ
+0005b69a silk_NLSF_del_dec_quant
+0005b6b2 silk_NLSF_encode
+0005b6c3 silk_insertion_sort_increasing
+0005b6e2 silk_NLSF_VQ_weights_laroia
+0005b6fe silk_process_NLSFs
+0005b711 silk_stereo_find_predictor
+0005b72c silk_stereo_quant_pred
+0005b743 silk_A2NLSF
+0005b74f silk_LSFCosTab_FIX_Q12
+0005b766 silk_bwexpander_32
+0005b779 silk_biquad_alt_stride2_c
+0005b793 silk_CB_lags_stage2
+0005b7a7 silk_CB_lags_stage2_10_ms
+0005b7c1 silk_CB_lags_stage3
+0005b7d5 silk_CB_lags_stage3_10_ms
+0005b7ef silk_inner_prod_aligned_scale
+0005b80d silk_LPC_inverse_pred_gain_c
+0005b82a silk_LPC_fit
+0005b837 silk_insertion_sort_increasing_all_values_int16
+0005b867 silk_Lag_range_stage3
+0005b87d silk_Lag_range_stage3_10_ms
+0005b899 silk_nb_cbk_searchs_stage3
+0005b8b4 silk_Resampler_1_2_COEFS
+0005b8cd silk_Resampler_1_3_COEFS
+0005b8e6 silk_Resampler_1_4_COEFS
+0005b8ff silk_Resampler_1_6_COEFS
+0005b918 silk_Resampler_2_3_COEFS
+0005b931 silk_Resampler_3_4_COEFS
+0005b94a silk_resampler_private_IIR_FIR
+0005b969 silk_resampler_private_down_FIR
+0005b989 silk_resampler_private_up2_HQ_wrapper
+0005b9af silk_Resampler_2_3_COEFS_LQ
+0005b9cb silk_resampler_down2_3
+0005b9e2 silk_resampler_private_AR2
+0005b9fd silk_resampler_down2
+0005ba12 silk_resampler_frac_FIR_12
+0005ba2d silk_resampler_private_up2_HQ
+0005ba4b silk_apply_sine_window_FLP
+0005ba66 silk_corrMatrix_FLP
+0005ba7a silk_corrVector_FLP
+0005ba8e silk_energy_FLP
+0005ba9e silk_inner_product_FLP
+0005bab5 silk_NSQ_wrapper_FLP
+0005baca silk_find_pitch_lags_FLP
+0005bae3 silk_find_pred_coefs_FLP
+0005bafc silk_noise_shape_analysis_FLP
+0005bb1a silk_process_gains_FLP
+0005bb31 silk_A2NLSF_FLP
+0005bb41 silk_LPC_analysis_filter_FLP
+0005bb5e silk_NLSF2A_FLP
+0005bb6e silk_burg_modified_FLP
+0005bb85 silk_find_LPC_FLP
+0005bb97 silk_find_LTP_FLP
+0005bba9 silk_scale_vector_FLP
+0005bbbf silk_autocorrelation_FLP
+0005bbd8 silk_bwexpander_FLP
+0005bbec silk_k2a_FLP
+0005bbf9 silk_pitch_analysis_core_FLP
+0005bc16 silk_schur_FLP
+0005bc25 exp2
+0005bc2a silk_LTP_analysis_filter_FLP
+0005bc47 silk_LTP_scale_ctrl_FLP
+0005bc5f silk_process_NLSFs_FLP
+0005bc76 silk_quant_LTP_gains_FLP
+0005bc8f silk_residual_energy_FLP
+0005bca8 silk_scale_copy_vector_FLP
+0005bcc3 log10
+0005bcc9 silk_warped_autocorrelation_FLP
+0005bce9 silk_regularize_correlations_FLP
+0005bd0a silk_residual_energy_covar_FLP
+0005bd29 silk_LPC_inverse_pred_gain_FLP
+0005bd48 __memset_chk
+0005bd55 silk_insertion_sort_decreasing_FLP
+0005bd78 silk_biquad_alt_stride2_neon
+0005bd95 silk_NSQ_del_dec_neon
+0005bdab encode_size
+0005bdb7 opus_packet_get_samples_per_frame
+0005bdd9 opus_packet_parse
+0005bdeb opus_packet_parse_impl
+0005be02 opus_pcm_soft_clip
+0005be15 free
+0005be1a malloc
+0005be21 opus_decode
+0005be2d opus_decode_float
+0005be3f opus_decode_native
+0005be52 opus_decoder_create
+0005be66 opus_decoder_ctl
+0005be77 opus_decoder_destroy
+0005be8c opus_decoder_get_nb_samples
+0005bea8 opus_decoder_get_size
+0005bebe opus_decoder_init
+0005bed0 opus_packet_get_bandwidth
+0005beea opus_packet_get_nb_channels
+0005bf06 opus_packet_get_nb_frames
+0005bf20 opus_packet_get_nb_samples
+0005bf3b compute_stereo_width
+0005bf50 downmix_float
+0005bf5e downmix_int
+0005bf6a frame_size_select
+0005bf7c is_digital_silence
+0005bf8f opus_encode
+0005bf9b opus_encode_float
+0005bfad opus_encode_native
+0005bfc0 opus_encoder_create
+0005bfd4 opus_encoder_ctl
+0005bfe5 opus_encoder_destroy
+0005bffa opus_encoder_get_size
+0005c010 opus_encoder_init
+0005c022 opus_packet_pad
+0005c032 opus_repacketizer_cat
+0005c048 opus_repacketizer_init
+0005c05f opus_repacketizer_out_range_impl
+0005c080 run_analysis
+0005c08d tonality_analysis_init
+0005c0a4 tonality_analysis_reset
+0005c0bc get_left_channel
+0005c0cd get_mono_channel
+0005c0de get_right_channel
+0005c0f0 validate_layout
+0005c100 opus_multistream_encode
+0005c118 opus_multistream_encode_float
+0005c136 opus_multistream_encode_native
+0005c155 opus_multistream_encoder_create
+0005c175 opus_multistream_encoder_ctl
+0005c192 opus_multistream_encoder_ctl_va_list
+0005c1b7 opus_multistream_encoder_destroy
+0005c1d8 opus_multistream_encoder_get_size
+0005c1fa opus_multistream_encoder_init
+0005c218 opus_multistream_surround_encoder_create
+0005c241 opus_multistream_surround_encoder_get_size
+0005c26c opus_multistream_surround_encoder_init
+0005c293 opus_repacketizer_get_nb_frames
+0005c2b3 surround_analysis
+0005c2c5 opus_multistream_decode
+0005c2dd opus_multistream_decode_float
+0005c2fb opus_multistream_decode_native
+0005c31a opus_multistream_decoder_create
+0005c33a opus_multistream_decoder_ctl
+0005c357 opus_multistream_decoder_ctl_va_list
+0005c37c opus_multistream_decoder_destroy
+0005c39d opus_multistream_decoder_get_size
+0005c3bf opus_multistream_decoder_init
+0005c3dd opus_multistream_packet_pad
+0005c3f9 opus_multistream_packet_unpad
+0005c417 opus_packet_unpad
+0005c429 opus_repacketizer_create
+0005c442 opus_repacketizer_destroy
+0005c45c opus_repacketizer_get_size
+0005c477 opus_repacketizer_out
+0005c48d opus_repacketizer_out_range
+0005c4a9 mapping_matrix_foa_demixing
+0005c4c5 mapping_matrix_foa_demixing_data
+0005c4e6 mapping_matrix_foa_mixing
+0005c500 mapping_matrix_foa_mixing_data
+0005c51f mapping_matrix_get_data
+0005c537 mapping_matrix_get_size
+0005c54f mapping_matrix_init
+0005c563 mapping_matrix_multiply_channel_in_float
+0005c58c mapping_matrix_multiply_channel_in_short
+0005c5b5 mapping_matrix_soa_demixing
+0005c5d1 mapping_matrix_soa_demixing_data
+0005c5f2 mapping_matrix_soa_mixing
+0005c60c mapping_matrix_soa_mixing_data
+0005c62b mapping_matrix_toa_demixing
+0005c647 mapping_matrix_toa_demixing_data
+0005c668 mapping_matrix_toa_mixing
+0005c682 mapping_matrix_toa_mixing_data
+0005c6a1 opus_projection_ambisonics_encoder_create
+0005c6cb opus_projection_ambisonics_encoder_get_size
+0005c6f7 opus_projection_ambisonics_encoder_init
+0005c71f opus_projection_encode
+0005c736 opus_projection_encode_float
+0005c753 opus_projection_encoder_ctl
+0005c76f opus_projection_encoder_destroy
+0005c78f mapping_matrix_multiply_channel_out_float
+0005c7b9 mapping_matrix_multiply_channel_out_short
+0005c7e3 opus_projection_decode
+0005c7fa opus_projection_decode_float
+0005c817 opus_projection_decoder_create
+0005c836 opus_projection_decoder_ctl
+0005c852 opus_projection_decoder_destroy
+0005c872 opus_projection_decoder_get_size
+0005c893 opus_projection_decoder_init
+0005c8b0 compute_dense
+0005c8be compute_gru
+0005c8ca layer0
+0005c8d1 layer1
+0005c8d8 layer2
+0005c8df tonality_get_info
+0005c8f1 _DYNAMIC

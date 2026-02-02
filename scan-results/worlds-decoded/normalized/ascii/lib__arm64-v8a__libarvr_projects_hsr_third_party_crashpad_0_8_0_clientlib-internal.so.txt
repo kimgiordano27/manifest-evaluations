@@ -1,0 +1,304 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+000002d8 INFOCrashpad
+000011eb 5boG
+000011fd __cxa_finalize
+0000120c __cxa_atexit
+00001219 __register_atfork
+0000122b _ZN8crashpad12CrashpadInfo15GetCrashpadInfoEv
+00001259 _ZN7logging10LogMessageD1Ev
+00001275 __stack_chk_fail
+00001286 memset
+0000128d strlen
+00001294 _ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+000012f7 memmove
+000012ff _ZN4base8FilePathC1Ev
+00001315 _ZN8crashpad10FileWriterC1Ev
+00001332 _ZN4base8FilePathC1ERKS0_
+0000134c _ZN4base8FilePathD1Ev
+00001362 _ZN8crashpad4UUID17InitializeWithNewEv
+00001389 _ZNK8crashpad4UUID8ToStringEv
+000013a7 _ZNK4base8FilePath6AppendERKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+00001407 _ZN8crashpad10FileWriter4OpenERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00001460 _ZNK4base8FilePathneERKS0_
+0000147b _ZNK4base8FilePatheqERKS0_
+00001496 abort
+0000149c _ZN4base8FilePathaSERKS0_
+000014b6 _ZN8crashpad10FileReaderC1Ev
+000014d3 _ZN8crashpad10FileReader4OpenERKN4base8FilePathE
+00001504 _ZN8crashpad22LoggingCreateDirectoryERKN4base8FilePathENS_15FilePermissionsEb
+00001552 _ZN7logging10LogMessageC1EPKcS2_ii
+00001575 memcpy
+0000157c _ZN8crashpad15DirectoryReaderC1Ev
+0000159e _ZN8crashpad15DirectoryReader4OpenERKN4base8FilePathE
+000015d4 _ZNSt6__ndk119piecewise_constructE
+000015f7 _ZN8crashpad15DirectoryReader8NextFileEPN4base8FilePathE
+00001630 _ZNK4base8FilePath6AppendERKS0_
+00001650 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPN8crashpad10FileReaderEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSM_IJEEEEEENS_4pairINS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEEbEERKT_DpOT0_
+000017af _ZN8crashpad15DirectoryReaderD1Ev
+000017d1 _ZN8crashpad11IsDirectoryERKN4base8FilePathEb
+000017ff _ZN8crashpad17LoggingRemoveFileERKN4base8FilePathE
+00001832 _ZN8crashpad22LoggingRemoveDirectoryERKN4base8FilePathE
+0000186a _ZN8crashpad22ScopedRemoveFileTraits4FreeERKN4base8FilePathE
+000018a7 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPN8crashpad10FileReaderEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISM_EERKT_
+000019b0 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPN8crashpad10FileReaderEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSM_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISB_PvEENS_22__tree_node_destructorINS5_ISU_EEEEEEDpOT_
+00001b10 memcmp
+00001b17 time
+00001b1c _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+00001b67 _ZN8crashpad17LoggingUnlockFileEi
+00001b89 _ZN8crashpad16CheckedCloseFileEi
+00001baa _ZN8crashpad30LoggingOpenFileForReadAndWriteERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00001c12 _ZN8crashpad23OpenFileForReadAndWriteERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00001c73 _ZN8crashpad22LoggingOpenFileForReadERKN4base8FilePathE
+00001cab _ZN8crashpad8Settings17SetUploadsEnabledEb
+00001cd6 _ZN8crashpad15LoggingSeekFileEili
+00001cf8 _ZN8crashpad19LoggingTruncateFileEi
+00001d1c _ZN8crashpad16LoggingWriteFileEiPKvm
+00001d41 _ZN8crashpad15LoggingLockFileEiNS_11FileLockingENS_19FileLockingBlockingE
+00001d8b _ZN4base8internal19ScopedFDCloseTraits4FreeEi
+00001db9 _ZN8crashpad22LoggingReadFileExactlyEiPvm
+00001de3 _ZN8crashpad15ReadFileExactlyEiPvm
+00001e06 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEj
+00001e3d _ZN8crashpad14CrashpadClient12StartHandlerERKN4base8FilePathES4_S4_RKNSt6__ndk112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERKNS5_3mapISB_SB_NS5_4lessISB_EENS9_INS5_4pairISC_SB_EEEEEERKNS5_6vectorISB_NS9_ISB_EEEEbbRKNSN_IS2_NS9_IS2_EEEE
+00001f36 _ZN8crashpad20UnixCredentialSocket26CreateCredentialSocketpairEPN4base13ScopedGenericIiNS1_8internal19ScopedFDCloseTraitsEEES6_
+00001fb6 _ZN4base12StringPrintfEPKcz
+00001fd2 _ZN8crashpad15SpawnSubprocessERKNSt6__ndk16vectorINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS5_IS7_EEEEPSA_ibPFvvE
+00002059 _ZN4base8FilePathC1ERKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+000020b3 _ZN8crashpad13IsRegularFileERKN4base8FilePathE
+000020e2 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi
+00002119 _ZN8crashpad22ExceptionHandlerClientC1Eib
+00002143 _ZN8crashpad22ExceptionHandlerClient21GetHandlerCredentialsEP5ucred
+00002187 prctl
+0000218d __errno
+00002195 _ZN7logging15ErrnoLogMessageC1EPKcS2_iii
+000021be _ZN7logging15ErrnoLogMessageD1Ev
+000021df _ZN8crashpad7Signals20InstallCrashHandlersEPFviP7siginfoPvEiPNS0_10OldActionsEPKNSt6__ndk13setIiNS8_4lessIiEENS8_9allocatorIiEEEE
+00002261 _ZN8crashpad22ExceptionHandlerClientD1Ev
+0000228a sigaltstack
+00002296 getpagesize
+000022a2 pthread_getspecific
+000022b6 _ZN8crashpad10ScopedMmapC1Eb
+000022d3 _ZN8crashpad10ScopedMmap9ResetMmapEPvmiiil
+000022fe mprotect
+00002307 _ZN8crashpad10ScopedMmapD1Ev
+00002324 _ZN8crashpad10ScopedMmap7releaseEv
+00002347 pthread_setspecific
+0000235b munmap
+00002362 pthread_key_create
+00002375 _ZN8crashpad19ScopedPrSetDumpableC1Eb
+0000239b _ZN8crashpad19ScopedPrSetDumpableD1Ev
+000023c1 _ZNSt6__ndk16__treeIiNS_4lessIiEENS_9allocatorIiEEE14__assign_multiINS_21__tree_const_iteratorIiPNS_11__tree_nodeIiPvEElEEEEvT_SD_
+00002444 _ZN8crashpad24ExceptionHandlerProtocol17ClientInformationC1Ev
+00002482 _ZN8crashpad22ExceptionHandlerClient16RequestCrashDumpERKNS_24ExceptionHandlerProtocol17ClientInformationE
+000024ed waitpid
+000024f5 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEb
+0000252c _ZN8crashpad7Signals10OldActions15ActionForSignalEi
+00002560 _ZN8crashpad7Signals38RestoreHandlerAndReraiseSignalOnReturnEPK7siginfoPK9sigaction
+000025b4 _ZNSt6__ndk16__treeIiNS_4lessIiEENS_9allocatorIiEEE15__emplace_multiIJRKiEEENS_15__tree_iteratorIiPNS_11__tree_nodeIiPvEElEEDpOT_
+00002636 _ZN8crashpad14CrashpadClientC1Ev
+00002657 _ZN8crashpad14CrashpadClientD1Ev
+00002678 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+000026c7 _ZN8crashpad19CrashReportDatabase10InitializeERKN4base8FilePathE
+00002708 _ZNSt6__ndk111__call_onceERVmPvPFvS2_E
+0000272f _ZN8crashpad10FileWriter5CloseEv
+00002750 _ZN8crashpad19MoveFileOrDirectoryERKN4base8FilePathES3_
+00002788 _ZN8crashpad7Metrics18CrashReportPendingENS0_19PendingReportReasonE
+000027cc _ZN8crashpad7Metrics15CrashReportSizeEl
+000027f4 _ZNK4base8FilePath20RemoveFinalExtensionEv
+0000281f _ZN8crashpad23LoggingOpenFileForWriteERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00002880 _ZNK4base8FilePath14FinalExtensionEv
+000028a5 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEPKc
+000028f5 _ZN8crashpad7Metrics18CrashUploadSkippedENS0_18CrashSkippedReasonE
+00002938 _ZN8crashpad20FileModificationTimeERKN4base8FilePathEP8timespec
+00002978 _ZN8crashpad4UUID20InitializeFromStringERKN4base16BasicStringPieceINSt6__ndk112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEE
+00002a01 _ZN8crashpad7Metrics20CrashUploadAttemptedEb
+00002a2e _ZN8crashpad10FileReader5CloseEv
+00002a4f _ZNK4base8FilePath8BaseNameEv
+00002a6d _ZN8crashpad16LoggingReadToEOFEiPNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00002ad2 _ZN8crashpad11GetFileSizeERKN4base8FilePathE
+00002aff _ZN8crashpad16GetDirectorySizeERKN4base8FilePathE
+00002b31 __wrap__ZTISt12length_error
+00002b4d __wrap___cxa_begin_catch
+00002b66 __wrap___cxa_allocate_exception
+00002b86 __wrap___cxa_guard_release
+00002ba1 __wrap__ZdlPv
+00002baf __wrap___cxa_guard_abort
+00002bc8 __wrap__ZNSt20bad_array_new_lengthD1Ev
+00002bef __wrap__ZTVSt12length_error
+00002c0b __wrap___gxx_personality_v0
+00002c27 __wrap__Unwind_Resume
+00002c3d __wrap___cxa_throw
+00002c50 __wrap___cxa_free_exception
+00002c6c __wrap__Znwm
+00002c79 __wrap__ZSt9terminatev
+00002c90 __wrap__ZNSt11logic_errorC2EPKc
+00002cb0 __wrap__ZNSt12length_errorD1Ev
+00002ccf __wrap__ZNSt20bad_array_new_lengthC1Ev
+00002cf6 __wrap___cxa_guard_acquire
+00002d11 __wrap__ZTISt20bad_array_new_length
+00002d35 __wrap__ZTVN10__cxxabiv120__si_class_type_infoE
+00002d65 __wrap__ZTVN10__cxxabiv117__class_type_infoE
+00002d92 __wrap__ZTVN10__cxxabiv121__vmi_class_type_infoE
+00002dc3 getauxval
+00002dcd __system_property_get
+00002de3 strncmp
+00002deb libc.so
+00002df3 LIBC
+00002df8 libarvr_projects_hsr_third_party_crashpad_0_8_0_minichromium.so
+00002e38 libarvr_projects_hsr_third_party_crashpad_0_8_0_utillib-internal.so
+00002e7c libc++_shared.so
+00002e8d libarvr_projects_hsr_third_party_crashpad_0_8_0_clientlib-internal.so
+00002ed8 APS2
+00004b80 auto crashpad::CrashpadClient::InitializeSignalStackForThread()::(anonymous class)::operator()(void *) const
+00004bed auto crashpad::CrashpadClient::InitializeSignalStackForThread()::(anonymous class)::operator()() const
+00004c54 attachment
+00004c5f mprotect
+00004c68 --%s=%s
+00004c70 vector
+00004c77 metrics-dir
+00004c83 CrashpadClient::StartHandler
+00004ca0 munmap
+00004ca7 --shared-client-connection
+00004cc2 annotation
+00004ccd prctl
+00004cd7 sigaltstack
+00004ce3 metadata version mismatch
+00004cfd ro.arch
+00004d05 Interrupted while waiting for crashpad handler to finish uploading, retrying
+00004d52 basic_string
+00004d5f Waiting for crashpad handler to finish uploading
+00004d90 pthread_key_create
+00004da3 database
+00004dac /proc/sys/kernel/yama/ptrace_scope
+00004dcf Invalid file handle
+00004de3 Couldn't interpret report uuid
+00004e02 initial-client-fd
+00004e14 --%s=%d
+00004e1c pthread_setspecific
+00004e30 arvr/projects/hsr/third_party/crashpad/0.8.0/client/crashpad_client_linux.cc
+00004e7d arvr/projects/hsr/third_party/crashpad/0.8.0/client/settings.cc
+00004ebd arvr/projects/hsr/third_party/crashpad/0.8.0/client/crash_report_database_generic.cc
+00004f12 exynos9810
+00004f1d ptrace_scope file not regular, setting pid to 0
+00004f4d Check failed: errno == 0
+00004f66 Child process no longer exists. This is expected if the crashpad handler finished uploading report.
+00004fca Unexpected error while waiting for crashpad handler to finish uploading, aborting.
+0000501d bool crashpad::Settings::ReadSettings(FileHandle, Data *, bool)
+0000505d bool crashpad::CrashReportDatabaseGeneric::ReadMetadata(const base::FilePath &, Report *)
+000050b7 bool crashpad::Settings::RecoverSettings(FileHandle, Data *)
+000050f4 bool crashpad::(anonymous namespace)::RequestCrashDumpHandler::Initialize(ScopedFileHandle, pid_t, const std::set<int> *)
+0000516e void crashpad::CrashReportDatabaseGeneric::CleanOrphanedAttachments()
+000051b4 virtual void crashpad::(anonymous namespace)::RequestCrashDumpHandler::HandleCrashImpl()
+0000520d static void crashpad::(anonymous namespace)::RequestCrashDumpHandler::SetPtracerAtFork()
+00005266 static bool crashpad::CrashpadClient::InitializeSignalStackForThread()
+000052ad bool crashpad::CrashpadClient::StartHandler(const base::FilePath &, const base::FilePath &, const base::FilePath &, const std::string &, const std::map<std::string, std::string> &, const std::vector<std::string> &, bool, bool, const std::vector<base::FilePath> &)
+000053b5 Settings version is not 
+000053ce Settings magic is not 
+000053e5 SetPtracerAtFork 
+000053f7 unexpected attachment dir name 
+00005417 Exited Normally? 
+00005429 Stopped by Signal? 
+0000543d Killed by Signal? 
+00005450 Core Dumped? 
+0000545e Exit Status: 
+0000546c Terminating Signal: 
+00005481 Stopped Signal: 
+00005492 RequestCrashDumpHandler::Initialize pthread_atfork: 
+000054c7 RequestCrashDumpHandler::Initialize::GetHandlerCredentials pid: 
+00005508 Handler pid: 
+00005516 RequestCrashDumpHandler::Initialize pid: 
+00005543 sys_prctl(PR_SET_PTRACER) 
+0000555e attachments
+0000556a N8crashpad19CrashReportDatabase12UploadReportE
+00005599 N8crashpad19CrashReportDatabase6ReportE
+000055c8 sdPC
+000055e0 N8crashpad12_GLOBAL__N_123RequestCrashDumpHandlerE
+00005613 N8crashpad12_GLOBAL__N_113SignalHandlerE
+00005640 .dmp
+00005645 .meta
+0000564b .lock
+00005651 N8crashpad26CrashReportDatabaseGenericE
+00005679 N8crashpad19CrashReportDatabaseE
+0000569a pending
+000056a2 completed
+000056ac settings.dat
+000056b9 N8crashpad26CrashReportDatabaseGeneric20LockfileUploadReportE
+000063ed zPLR
+00007635 #@9h
+00007865 c@9{F
+00007b4b 6`"@
+00007cd1 #@9h
+00008407 7		@
+00008568 (a@9
+0000856f 7(	@
+00008819 `@9H
+00008a1f 7		@
+00008bcc 	`@9?	
+0000974d #@9h
+00009ed1 #@9)
+0000a9f5 7@9:
+0000b59b =a"@
+0000b5ed #A9h
+0000b70f =a"@
+0000b761 #A9h
+0000b883 =a"@
+0000b8d5 #A9h
+0000b93e @9j'D
+0000ba5b =a&@
+0000bacd c@9h
+0000badd #A9h
+0000bc43 =a&@
+0000bca5 #A9h
+0000bdad c@9h
+0000c0c5 #@9h
+0000c181 #@9h
+0000c349 c@9h
+0000c4e9 #@9h
+0000c639 #@9h
+0000c785 c@9h
+0000ca49 #@9h
+0000d4d1 #@9h
+0000d4fb Th"@
+0000d507 RjrA9
+0000d51f qj"A9
+0000d525 #;)(
+0000d546 @9j&C
+0000d695 #@9h
+0000db4d #@9h
+0000e269 C@9h
+0000e625 #@9h
+0000e7d5 #@9h
+0000eb01 #@9h
+0000eb61 #@9h
+0000ec8d c@9h
+0000ed9e A9i*
+0000ef81 #@9h
+0000efc9 #@9h
+00010290 daPC8
+000102c9 .init_array
+000102d5 .fini_array
+000102e1 .text
+000102e7 .got
+000102ec .note.android.ident
+00010300 .got.plt
+00010309 .rela.plt
+00010313 .bss
+00010318 .dynstr
+00010320 .eh_frame_hdr
+0001032e .gnu.version_r
+0001033d .data.rel.ro
+0001034a .note.crashpad.info
+0001035e .relr.dyn
+00010368 .rela.dyn
+00010372 .gnu.version
+0001037f .dynsym
+00010387 .gnu.hash
+00010391 .relro_padding
+000103a0 .eh_frame
+000103aa .gcc_except_table
+000103bc .note.gnu.build-id
+000103cf .dynamic
+000103d8 .shstrtab
+000103e2 .rodata
+000103ea .data

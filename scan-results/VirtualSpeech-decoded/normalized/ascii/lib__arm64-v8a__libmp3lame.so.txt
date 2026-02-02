@@ -1,0 +1,1388 @@
+00002fd1 __cxa_finalize
+00002fe0 __cxa_atexit
+00002fed memcpy
+00002ff4 get_lame_short_version
+0000300b strlen
+00003012 getframebits
+0000301f bitrate_table
+0000302d get_max_frame_buffer_size_by_constraint
+00003055 CRC_writeheader
+00003065 compute_flushbits
+00003077 lame_errorf
+00003083 flush_bitstream
+00003093 __stack_chk_guard
+000030a5 __stack_chk_fail
+000030b6 add_dummy_byte
+000030c5 format_bitstream
+000030d6 memset
+000030dd slen1_tab
+000030e7 slen2_tab
+000030f1 copy_buffer
+000030fd UpdateMusicCRC
+0000310c init_bit_stream_w
+0000311e malloc
+00003125 lame_encode_mp3_frame
+0000313b L3psycho_anal_vbr
+0000314d mdct_sub48
+00003158 set_frame_pinfo
+00003168 AddVbrFrame
+00003174 fft_short
+0000317e fft_long
+00003187 init_fft
+00003194 InitGainAnalysis
+000031a5 AnalyzeSamples
+000031b4 log10
+000031ba memmove
+000031c2 GetTitleGain
+000031cf calloc
+000031d6 free
+000031db toupper
+000031e3 strtol
+000031ea tolower
+000031f2 get_lame_os_bitness
+00003206 get_lame_version
+00003217 get_lame_url
+00003224 sprintf
+0000322c id3tag_genre_list
+0000323e id3tag_init
+0000324a free_id3tag
+00003256 id3tag_add_v2
+00003264 id3tag_v1_only
+00003273 id3tag_v2_only
+00003282 id3tag_space_v1
+00003292 id3tag_set_pad
+000032a1 id3tag_pad_v2
+000032af id3tag_set_albumart
+000032c3 strncmp
+000032cb id3tag_set_textinfo_utf16
+000032e5 id3tag_set_textinfo_ucs2
+000032fe id3tag_set_comment_latin1
+00003318 id3tag_set_comment_utf16
+00003331 id3tag_set_comment_ucs2
+00003349 id3tag_set_title
+0000335a id3tag_set_artist
+0000336c id3tag_set_album
+0000337d id3tag_set_year
+0000338d atoi
+00003392 id3tag_set_comment
+000033a5 id3tag_set_track
+000033b6 strchr
+000033bd id3tag_set_genre
+000033ce id3tag_set_textinfo_latin1
+000033e9 id3tag_set_fieldvalue
+000033ff id3tag_set_fieldvalue_utf16
+0000341b id3tag_set_fieldvalue_ucs2
+00003436 lame_get_id3v2_tag
+00003449 id3tag_write_v2
+00003459 lame_get_id3v1_tag
+0000346c id3tag_write_v1
+0000347c strcat
+00003483 is_lame_global_flags_valid
+0000349e is_lame_internal_flags_valid
+000034bb fill_buffer
+000034c7 lame_print_config
+000034d9 lame_msgf
+000034e3 isResamplingNecessary
+000034f9 lame_print_internals
+0000350e lame_encode_buffer
+00003521 lame_encode_buffer_float
+0000353a lame_encode_buffer_ieee_float
+00003558 lame_encode_buffer_interleaved_ieee_float
+00003582 lame_encode_buffer_ieee_double
+000035a1 lame_encode_buffer_interleaved_ieee_double
+000035cc lame_encode_buffer_int
+000035e3 lame_encode_buffer_long2
+000035fc lame_encode_buffer_long
+00003614 lame_encode_buffer_interleaved
+00003633 lame_encode_flush_nogap
+0000364b lame_init_bitstream
+0000365f InitVbrTag
+0000366a lame_init_params
+0000367b map2MP3Frequency
+0000368c nearestBitrateFullIndex
+000036a4 SmpFrqIndex
+000036b0 sfBandIndex
+000036bc apply_preset
+000036c9 ABR_iteration_loop
+000036e0 lame_get_quant_comp
+000036f4 lame_get_quant_comp_short
+0000370e lame_get_msfix
+0000371d lame_get_exp_nspsytune
+00003734 lame_set_exp_nspsytune
+0000374b powf
+00003750 iteration_init
+0000375f psymodel_init
+0000376d VBR_old_iteration_loop
+00003784 lame_set_quant_comp
+00003798 lame_set_quant_comp_short
+000037b2 lame_set_msfix
+000037c1 VBR_new_iteration_loop
+000037d8 has_SSE
+000037e0 has_SSE2
+000037e9 has_MMX
+000037f1 has_3DNow
+000037fb FindNearestBitrate
+0000380e BitrateIndex
+0000381b freegfc
+00003823 lame_set_VBR_mean_bitrate_kbps
+00003842 CBR_iteration_loop
+00003855 lame_encode_flush
+00003867 lame_close
+00003872 lame_encode_finish
+00003885 lame_mp3_tags_fid
+00003897 fseek
+0000389d PutVbrTag
+000038a7 lame_init
+000038b1 init_log_table
+000038c0 disable_FPE
+000038cc lame_report_def
+000038dc lame_bitrate_kbps
+000038ee lame_bitrate_hist
+00003900 lame_stereo_mode_hist
+00003916 lame_bitrate_stereo_mode_hist
+00003934 lame_block_type_hist
+00003949 lame_bitrate_block_type_hist
+00003966 lame_get_VBR
+00003973 lame_set_VBR_q
+00003982 lame_set_short_threshold_lrm
+0000399f lame_set_short_threshold_s
+000039ba lame_set_maskingadjust
+000039d1 lame_set_maskingadjust_short
+000039ee lame_set_ATHlower
+00003a00 lame_set_ATHcurve
+00003a12 lame_set_athaa_sensitivity
+00003a2d lame_set_interChRatio
+00003a43 lame_get_ATHlower
+00003a55 lame_get_ATHcurve
+00003a67 lame_get_athaa_sensitivity
+00003a82 lame_get_interChRatio
+00003a98 lame_get_short_threshold_lrm
+00003ab5 lame_get_short_threshold_s
+00003ad0 lame_get_maskingadjust
+00003ae7 lame_get_maskingadjust_short
+00003b04 lame_set_ATHtype
+00003b15 lame_set_experimentalY
+00003b2c lame_set_VBR
+00003b39 lame_get_VBR_mean_bitrate_kbps
+00003b58 lame_set_brate
+00003b67 lame_set_sfscale
+00003b78 lame_get_scale
+00003b87 lame_set_scale
+00003b96 freq2bark
+00003ba4 sqrt
+00003ba9 ATHformula
+00003bb8 ResvFrameBegin
+00003bc7 nr_of_sfb_block
+00003bd7 athAdjust
+00003be1 best_scalefac_store
+00003bf5 ResvAdjust
+00003c00 best_huffman_divide
+00003c14 calc_noise
+00003c1f qsort
+00003c25 noquant_count_bits
+00003c38 scale_bitcount
+00003c47 ipow20
+00003c4e pretab
+00003c55 init_xrpow_core_init
+00003c6a on_pe
+00003c70 calc_xmin
+00003c7a reduce_side
+00003c86 ResvFrameEnd
+00003c93 VBR_encode_frame
+00003ca4 pow43
+00003caa adj43
+00003cb0 huffman_init
+00003cbd ResvMaxBits
+00003cc9 lame_set_num_samples
+00003cde lame_get_num_samples
+00003cf3 lame_set_in_samplerate
+00003d0a lame_get_in_samplerate
+00003d21 lame_set_num_channels
+00003d37 lame_get_num_channels
+00003d4d lame_set_scale_left
+00003d61 lame_get_scale_left
+00003d75 lame_set_scale_right
+00003d8a lame_get_scale_right
+00003d9f lame_set_out_samplerate
+00003db7 lame_get_out_samplerate
+00003dcf lame_set_analysis
+00003de1 lame_get_analysis
+00003df3 lame_set_bWriteVbrTag
+00003e09 lame_get_bWriteVbrTag
+00003e1f lame_set_decode_only
+00003e34 lame_get_decode_only
+00003e49 lame_set_ogg
+00003e56 lame_get_ogg
+00003e63 lame_set_quality
+00003e74 lame_get_quality
+00003e85 lame_set_mode
+00003e93 lame_get_mode
+00003ea1 lame_set_mode_automs
+00003eb6 lame_get_mode_automs
+00003ecb lame_set_force_ms
+00003edd lame_get_force_ms
+00003eef lame_set_free_format
+00003f04 lame_get_free_format
+00003f19 lame_set_findReplayGain
+00003f31 lame_get_findReplayGain
+00003f49 lame_set_decode_on_the_fly
+00003f64 lame_get_decode_on_the_fly
+00003f7f lame_set_findPeakSample
+00003f97 lame_get_findPeakSample
+00003faf lame_set_ReplayGain_input
+00003fc9 lame_get_ReplayGain_input
+00003fe3 lame_set_ReplayGain_decode
+00003ffe lame_get_ReplayGain_decode
+00004019 lame_set_nogap_total
+0000402e lame_get_nogap_total
+00004043 lame_set_nogap_currentindex
+0000405f lame_get_nogap_currentindex
+0000407b lame_set_errorf
+0000408b lame_set_debugf
+0000409b lame_set_msgf
+000040a9 lame_get_brate
+000040b8 lame_set_compression_ratio
+000040d3 lame_get_compression_ratio
+000040ee lame_set_copyright
+00004101 lame_get_copyright
+00004114 lame_set_original
+00004126 lame_get_original
+00004138 lame_set_error_protection
+00004152 lame_get_error_protection
+0000416c lame_set_padding_type
+00004182 lame_get_padding_type
+00004198 lame_set_extension
+000041ab lame_get_extension
+000041be lame_set_strict_ISO
+000041d2 lame_get_strict_ISO
+000041e6 lame_set_disable_reservoir
+00004201 lame_get_disable_reservoir
+0000421c lame_get_experimentalX
+00004233 lame_set_experimentalX
+0000424a lame_get_experimentalY
+00004261 lame_set_experimentalZ
+00004278 lame_get_experimentalZ
+0000428f lame_get_VBR_q
+0000429e lame_set_VBR_quality
+000042b3 lame_get_VBR_quality
+000042c8 lame_set_VBR_min_bitrate_kbps
+000042e6 lame_get_VBR_min_bitrate_kbps
+00004304 lame_set_VBR_max_bitrate_kbps
+00004322 lame_get_VBR_max_bitrate_kbps
+00004340 lame_set_VBR_hard_min
+00004356 lame_get_VBR_hard_min
+0000436c lame_set_lowpassfreq
+00004381 lame_get_lowpassfreq
+00004396 lame_set_lowpasswidth
+000043ac lame_get_lowpasswidth
+000043c2 lame_set_highpassfreq
+000043d8 lame_get_highpassfreq
+000043ee lame_set_highpasswidth
+00004405 lame_get_highpasswidth
+0000441c lame_set_ATHonly
+0000442d lame_get_ATHonly
+0000443e lame_set_ATHshort
+00004450 lame_get_ATHshort
+00004462 lame_set_noATH
+00004471 lame_get_noATH
+00004480 lame_get_ATHtype
+00004491 lame_set_athaa_type
+000044a5 lame_get_athaa_type
+000044b9 lame_set_athaa_loudapprox
+000044d3 lame_get_athaa_loudapprox
+000044ed lame_set_cwlimit
+000044fe lame_get_cwlimit
+0000450f lame_set_allow_diff_short
+00004529 lame_get_allow_diff_short
+00004543 lame_set_useTemporal
+00004558 lame_get_useTemporal
+0000456d lame_set_substep
+0000457e lame_get_substep
+0000458f lame_get_sfscale
+000045a0 lame_set_subblock_gain
+000045b7 lame_get_subblock_gain
+000045ce lame_set_no_short_blocks
+000045e7 lame_get_no_short_blocks
+00004600 lame_set_force_short_blocks
+0000461c lame_get_force_short_blocks
+00004638 lame_set_short_threshold
+00004651 lame_set_emphasis
+00004663 lame_get_emphasis
+00004675 lame_get_version
+00004686 lame_get_encoder_delay
+0000469d lame_get_encoder_padding
+000046b6 lame_get_framesize
+000046c9 lame_get_frameNum
+000046db lame_get_mf_samples_to_encode
+000046f9 lame_get_size_mp3buffer
+00004711 lame_get_RadioGain
+00004724 lame_get_AudiophileGain
+0000473c lame_get_PeakSample
+00004750 lame_get_noclipGainChange
+0000476a lame_get_noclipScale
+0000477f lame_get_totalframes
+00004794 lame_set_preset
+000047a4 lame_set_asm_optimizations
+000047bf lame_set_write_id3tag_automatic
+000047df lame_get_write_id3tag_automatic
+000047ff lame_set_tune
+0000480d lame_set_preset_expopts
+00004825 lame_set_preset_notune
+0000483c lame_get_bitrate
+0000484d lame_get_samplerate
+00004861 samplerate_table
+00004872 scfsi_band
+0000487d table56
+00004885 table23
+0000488d largetbl
+00004896 t33l
+0000489b t32l
+000048a4 malloc_aligned
+000048b3 free_aligned
+000048c0 atan
+000048c9 __sF
+000048ce vfprintf
+000048d7 fflush
+000048de lame_report_fnc
+000048ee lame_debugf
+000048fa log10f
+00004901 GetVbrTag
+0000490b lame_get_lametag_frame
+00004922 get_lame_tag_encoder_short_version
+00004945 strncpy
+0000494d ftell
+00004953 fread
+00004959 fwrite
+00004960 get_lame_very_short_version
+0000497c get_psy_version
+0000498c get_lame_version_numerical
+000049a7 read_samples
+000049b4 Java_com_skyhi_audio_LameUtil_initEncoder
+000049de lame
+000049e3 Java_com_skyhi_audio_LameUtil_destroyEncoder
+00004a10 Java_com_skyhi_audio_LameUtil_encodeFile
+00004a39 fopen
+00004a3f fclose
+00004a46 liblog.so
+00004a50 libstdc++.so
+00004a5d libm.so
+00004a65 libc.so
+00004a6d libdl.so
+00004a76 _edata
+00004a7d __bss_start
+00004a89 __bss_start__
+00004a97 __bss_end__
+00004aa3 __end__
+00004aab _end
+00004ab0 libmp3lame.so
+000069e1 h%8`
+00006b15 h$8`
+00006bc1 h$8`
+00006c6d h$8`
+00006d19 h$8`
+00006d79 hu8b
+00006df1 h%8b
+0000704f Q!|A
+00007107 S!h`8)
+00007110 Lx`x)=
+00007183 K`in8
+00007197 *`i.8`
+0000721d im8$+
+00007231 i-8`
+00007353 S!h`8)
+0000735c Jx`x)=
+000073d1 im8D)
+000073e5 i-8`
+00007469 ik8$+
+0000747d i+8`
+000075af S!h`8)
+000075b8 Kx`x8=
+0000762d ij8d)
+00007641 i*8`
+000076c3 Kaij8d+
+000076d7 *ai*8a
+00007bcf Q;|A
+00007c8b S!h`8)
+00007c94 Kx`x)=
+00007d09 im8c)
+00007d1d i-8`
+00007db5 i+8`
+00007ee3 S!h`8J
+00007eec Kx`xW=
+00007f61 id8`)
+00007f75 i$8a
+00007ff7 Kci`8$+
+0000800b *ci 8b
+0000834f rc`E
+000083d7 qc8@
+000083f3 qc @
+000085ee @8cx
+00008921 h%8a
+00008a4d h$8`
+00008af9 h$8`
+00008ba5 h$8`
+00008c51 h$8`
+00008cb1 hw8a
+00008d15 h`8$+
+00008d29 h 8a
+00008f37 Khij8)(
+00008f4b *hi*8
+0000904b T&}@
+00009136 d9g!
+000091de d9B!
+00009246 d9c!
+0000928a d9a}
+00009316 d9B!
+0000937e d9c!
+000093c2 d9a}
+0000944e d9B!
+0000948f *K@B
+00009976 d9: 
+00009ba7 KLhn8
+00009bbb *Lh.8
+00009d25 jo8*xoxJ
+00009d97 K"iq8P)
+00009dab *"i18
+00009dc1 jo8 
+00009f73 T`*@
+0000a2cb R+@B
+0000a343 T,DB
+0000a382 d9B!
+0000a42e d9n 
+0000a4fb R@,@
+0000a532 d9G!
+0000a54f R@@^
+0000a58a d9G!
+0000a5da d9G!
+0000a62a d9G!
+0000a6ae d9'#
+0000a736 d9'#
+0000a78e d9'#
+0000a7de d9'#
+0000a82e d9'#
+0000a87e d9'#
+0000a8df KY$@
+0000aa5a d9%#
+0000aac2 d9'#
+0000ab1a d9'#
+0000ab6a d9'#
+0000abba d9'#
+0000aceb KKhm8L)
+0000acff *Kh-8
+0000ad27 **x`
+0000ad93 KKhm8,+
+0000ada7 *Kh-8
+0000adcb **x`
+0000ae37 KKhm8,+
+0000ae4b *Kh-8
+0000b0b7 Kbio8
+0000b0cb *bi/8
+0000b1a3 Kbio8
+0000b1b7 *bi/8
+0000b213 Kk}@
+0000b2d7 4`	@
+0000b321 kn8)xnx)
+0000b393 KOhq80)
+0000b3a7 *Oh18
+0000b3bd kn8!
+0000b612 d9B!
+0000b813 4`*@
+0000bd5d xaNA
+0000be5f q!|@
+0000c1d7 TP !
+0000c2ef qEx!
+0000c3fb T @ 
+0000c54d zD?333333
+0000c572 3$F|o>0*
+0000c57e A?F|o?
+0000cf07 Tv&@
+0000cfcf Tv&@
+0000d00b Tv&@
+0000d027 Tv&@
+0000d72b =&`/
+0000db48 gzax
+0000db60 fzfx
+0000db78 gzgx
+0000db90 fzfx
+0000dba3 Tgzgx&
+0000dbc0 fzfx
+0000dbd3 Tazax
+0000e0e3 o$(!
+0000e0e9 (!N$
+0000e0f8 @(!N 
+0000e1e3 T& @y
+0000e1fb T&$@y
+0000e213 T&(@y
+0000e22b T&,@y
+0000e243 T&0@y
+0000e25b T&4@y
+0000e273 T!8@y
+0000e327 oD(!
+0000e32d (!N$
+0000e33c  (!N 
+0000e49b T& @y
+0000e4bf T&$@y
+0000e4e3 T&(@y
+0000e507 T&,@y
+0000e52b T&0@y
+0000e54f T'4@y
+0000e573 T!8@y
+0000e59c $$@xc
+0000e5c4 $$@xc
+0000e696 eN"4dn
+0000e6a2 `n 4dn`
+0000e6aa fnA(!
+0000e6b1 (!NA
+0000e7cf T$ @y
+0000e7ef T$$@y
+0000e80f T$(@y
+0000e833 T$,@y
+0000e853 T$0@y
+0000e873 T$4@y
+0000e893 T!8@y#
+0000e94e pNb4gn 4gn
+0000e95e dnA(!
+0000e965 (!NA
+0000eae3 T$ @y
+0000eb0f T$$@y
+0000eb3b T"(@y
+0000eb43 RD<H
+0000eb6b T",@yD<H
+0000eb97 T"0@yD<H
+0000ebc3 T"4@yD<H
+0000ebef T!8@y"<H
+0000ec23 R$xcx
+0000ec39 h#8c
+0000ec5f R#xexd<H
+0000eec7 4`"@
+0000ef7c gxex
+0000f137 4`"@
+0000f307 \!@@
+0000f427 R"`$
+0000f563 5sV@
+0000f5d2 @9?`
+0000f77c aztx
+0000f7a4 dzcx
+0000f85c `ztx
+0000ff65 je8f
+00010215 $@xc
+00010230 #xix
+000102ce @yc 
+000103f1 $@xc
+000107df T% @9
+000107ef T%$@9
+000107ff T%(@9
+0001080f T%,@9
+0001081f T%0@9
+0001082f T%4@9
+0001083f T!8@9
+0001095f T$ @9_ 
+0001096f T$$@9_$
+0001097f T$(@9_(
+0001098f T$,@9_,
+0001099f T$0@9_0
+000109af T$4@9_4
+000109bf T!8@9a8
+00010bc1 :@9 8
+00010da9  @9? 
+00010db9 $@9?$
+00010dc9 (@9?(
+00010dd9 ,@9?,
+00010de9 0@9?0
+00010df9 4@9?4
+00010e09 8@9@8
+00010e81 2@9a.
+00010e89 6@9a2
+00010e91 :@9a6
+00010fa3 T% @9_ 
+00010fb3 T%$@9_$
+00010fc3 T%(@9_(
+00010fd3 T%,@9_,
+00010fe3 T%0@9_0
+00010ff3 T%4@9_4
+00011003 T!8@9a8
+000111b7 T% @9_ 
+000111c7 T%$@9_$
+000111d7 T%(@9_(
+000111e7 T%,@9_,
+000111f7 T%0@9_0
+00011207 T%4@9_4
+00011217 T!8@9a8
+00011319 ha8bj!8!
+00011338 #hb8
+0001133d h"8B
+00011354 #hb8
+00011359 h"8B
+00011371 ha8bj!8!
+000113c0 $hc8
+000113c5 h#8c
+000113e4 #hb8
+000113e9 h"8B
+00011411 j`8aj 8
+00011881 Xdxd
+0001195c "haN
+00011983 =ahaN#
+000119bb TBhe
+000119d3 k!@b
+00011a13 k!@b
+00011a83 TBhd
+00011b6d h`x_
+00011bd1 hlxc
+00011f23 TBhd
+00011fc3 TDhg
+00012266 @ydj x@
+0001255f 4`{@
+000126fb T'{b
+00012a74 MbP?
+00012eb0  H`8a
+00012f50  H`8a
+00012f90  H`8a
+0001330a %9`BA
+0001331e %9`JA
+00013353 qcv@
+0001337b T`:@
+00013387 T`>@
+000134bf 4aB@
+000134cb 5an@
+0001357b q |A
+000135af 5dj@
+000135e3 4`F@
+00013667 T`j@
+000137ff \0 `
+000139bf =)X@
+000139cf K+P@
+00013a83 KA|&
+00013b6b T`6@
+00013c63 qfb@
+00014027 T`|C
+000140ca >q!b
+00014121 Hb8b
+000141ef T"9"
+0001424f T0  
+000142a1 Xbxb
+00014583 T0  
+000145b1 Xexa
+000145db S`n@
+0001476b T0 ,
+000150e7 >ff0A
+0001510b Aff>A
+000151cf TyR@
+00015b33 4sV@
+00015bd7 5`V@
+00015d3b 4`V@
+000161f7 \.p@
+000169a9 /Am"t
+000169b1 7Bm 
+000169d5 qhDV
+000169db CE36D
+000179eb 5`A 
+00017a6b T A 
+00017aa7 * dT
+00017b43 T8! 
+00017c83 T`A 
+00018274  H`8a
+00018380 `H`8c
+000184a7 T%}~
+0001850f kah 
+000185b3 k`h 
+000185cb k`h!
+0001861b k3(!
+00018653 TE@ 
+0001869b TD@ 
+00018703 TBhe
+0001872f T&B 
+0001873b TD@ 
+00018747 Tbhe
+0001875f TE@ 
+00018a07 T`kz
+00018e47 ?brY;@&
+00018f4f =s~S
+0001967e (NC`
+00019a33 TJ	"
+00019a6f TJ	"
+00019aab TJ	"
+00019bef 5($@
+00019d43 kek(
+00019e54  TO_
+00019e68 !TC_
+0001a0af *	@!
+0001a0c7 T"@ 
+0001a0e3 T @ 
+0001a157 T @ 
+0001a1f3 T @ 
+0001a203 T @ 
+0001a2eb T @ 
+0001a47f *@iu
+0001a4ab Tx! 
+0001a4bb Tp!(
+0001a4eb Tk)(
+0001a507 Tj8D
+0001a5eb TX  
+0001a5f7 5P !
+0001a5ff Tp!"
+0001a76f q`h!
+0001a8f7 =@3@
+0001a930 M`@LE
+0001a93f LM`@LB
+0001a970 E`@LD
+0001a97f LE`@LA
+0001a9b0 A`@L
+0001a9bb LA`@L!H
+0001ac17 T"@ 
+0001ac2f T @ 
+0001ac93 T @ 
+0001ad2b T @ 
+0001ad3b T @ 
+0001ae1f T @ 
+0001aee8 Bke8,
+0001af0b k@id
+0001af10 Wka8
+0001af67 *@id
+0001af93 Tx! 
+0001afa3 Tp!,
+0001afd3 Tk),
+0001b003 Tp!(
+0001b043 5p!!
+0001b04f T"@ 
+0001b06f Tp!"
+0001b07b TA@ 
+0001b0d7 TA@b
+0001b263 T @ 
+0001b383 q`h 
+0001b3cb Tp!,
+0001b637 T+A 
+0001b66b TiA 
+0001b71b T"(@
+0001b72b T!8@
+0001b86f T@	 
+0001b9e7 q,A 
+0001bdb7 T@	 
+0001bdf3 T@	 
+0001be43 T@	 
+0001c0b3 k_h!
+0001c0c7 k_h!
+0001c13b kCh!
+0001c14f kCh!
+0001c2ed >+=Q?
+0001c387 =333333
+0001c543 =HP"
+0001c553 =JP2
+0001c5c3 =HP#
+0001c5d3 =JP3
+0001c643 =HP$
+0001c653 =JP4
+0001c6c3 =HP%
+0001c6d3 =JP5
+0001c9ab k@{4
+0001ca77 T	@`
+0001ca8b T)Ab
+0001cbb7 T`8 
+0001cc03 k@{7
+0001cc63 T	@`
+0001cc77 T)Ab
+0001cd83 \ 	`
+0001cdff T`>@
+0001ce4f T`2@
+0001cf17 T8  
+0001cfe3 T`~@
+0001d32b k@{7
+0001d3f7 @ffffff
+0001d447 @ffffff
+0001d477 @333333
+0001d943 TC|~
+0001da1f 4v?@
+0001dc70 $`@L
+0001dca8 $`@L
+0001dcfc $`@L
+0001deeb TC|~
+0001e473 T$|@
+0001e48f TB|@
+0001e4ab T!|@
+0001e58f 4 k`
+0001e6bf ~0 #
+0001e72b KB|~
+0001e9df k @ 
+0001ea0b T @ 
+0001eaaf Tb@ 
+0001ecb3 RNig
+0001ecdf T)|~
+0001ece7 RNii
+0001ee43 TA@ 
+0001f034 @X`xb
+0001f1c7 T8  
+0001f1eb \B8c
+0001f22b \!8b
+0001f327 \p!`
+0001f32f TkAb
+0001f5eb T8  
+0001f60f TA|@
+0001f6b3 TA|@
+0001f71f TC|@
+0001f7e0 ffffff
+0001f7f7 ?Zd;
+0001f828 333333
+0001fc83 R@x6
+000202f5 haNg
+000204ec pJ@L_
+00020555 yaNk
+0002055f oszaN
+0002057a tnRja
+00020582 gnkia
+00020599 jaNp
+000205c5 b@LpJ
+000209b3 5`V@
+00020a93 T ;@
+00020c6f T ?@
+00020cbb 5#c@
+00020f77 R ;@
+00020faf T ?@
+000213c7 \B@b
+0002155b Tgx!
+00021890 fff?
+000218c0 ffffff
+000219db T`;@
+00021a83 T`?@
+00021e93 T@;D
+00021fe3 k 8`
+00022208 UUUUUU
+00022367 T4|`
+0002245f TC|~
+0002246b kfjc
+0002257b \ 8`
+00022683 Tk@ 
+0002299f kCA 
+000229d7 kc("
+00022a2b T#@ 
+00022a37 Ta((
+00022a57 9c{ 
+00022a67 T`N@
+00022a73 4aC_
+000230e7 RuV@
+00023277 T`@ 
+0002348b *!|@
+00023745 _cX#B
+00023bbb 4`"@
+00023c1b 4`&@
+00023ce3 4`*@
+00023d4f 4`.@
+00023dbb 4`2@
+00023e5f 4`6@
+00023fa3 4`>@
+0002400f 4`B@
+0002407b 4`F@
+000240bb 4`J@
+000241af 4`R@
+0002420b 4`V@
+0002431f 4`j@
+0002437f 4`n@
+000243eb 4`r@
+00024457 4`v@
+0002453f 4`z@
+00024963 \P a
+00025267 4`Z@
+000252cf 4`^@
+00025333 4`b@
+000253d1 Ha8a
+0002563b 4`~@
+000256c3 4sV@
+0002570b 4sV@
+00025753 4`R@
+0002579f 4sV@
+000257e7 4sV@
+000258a7 4sV@
+0002591b 4sV@
+00025963 4sV@
+000259ab 4sV@
+00025a0f SB|@
+00025b9b 4aN@
+00025f3c (ib8gib8Bib8
+0002610f RKih
+00026287 q%}@
+00026853 Tb{v
+00026ba4 dic8
+00026ba9 hc8J
+00026f1b R0  
+0002700f RB|~
+0002724f TCh%
+00027417 TDh#
+0002742b TDh#
+0002743f TDh#
+0002749b T$0R
+000274ab T$4R
+000274bb T$8R
+000274cb T$<R
+000274db T$@R
+000274eb T#DR
+0002750f T"LR
+0002751f T"PR
+00027567 ="LR
+000275e7 TC|~
+000278e3 QG|'
+00027b03 oM|-
+00027e0f THin
+00028093 RE|%
+0002830b kpx$
+00028323 kpx&
+0002838f RDD@
+0002839f T%|@
+0002847b m)@ 
+000284a7 TH@ 
+000284b3 Th@ 
+00028568 q=Z@
+00028570 333333
+00028588 333333
+0002858f @333333
+00028598 ffffff!@333333
+000285af ?333333
+000285bc MbP?333333
+00028864 AHa8b
+000288fb =q=Z@
+00028994 MbP?R
+000294ef R@(`
+0002953f T(@ 
+0002960b 7bx`
+000297d3 k$i!
+000298bb k#i$
+00029a0f T 	/
+00029c7f \0 b
+0002a147 kLhe
+0002a16b kMhl
+0002a1d7 K0xd
+0002a1eb Khhd8
+0002a303 K-xd
+0002a313 Kehd8
+0002a465 V"O3
+0002a487 NsV"O$
+0002a533 nBT!O
+0002a53d T"O%T"OX
+0002a575 T"O&
+0002a593 N5T!O
+0002a617 nBT!O
+0002a625 T"OB
+0002a659 V"O!
+0002a673 NBT!O
+0002a67b N!T"O
+0002a6d8 Yky8
+0002b0a3 N0T!O
+0002b0d7 n!T"O
+0002b10f nwV!OX
+0002b127 NsV"Ocd
+0002b2b9 T"OP
+0002b351 ij8J
+0002b359 hk8$
+0002b79b T(ig
+0002b7b3 T?h'
+0002b7e7 *#ib
+0002baab TB($
+0002bb2f *A@ 
+0002bbf7 Td~}
+0002bee7 TB(%
+0002c5b7 R%`T
+0002c64f T @ 
+0002c66f T @ 
+0002c6ab Z0 (
+0002c7f9 hs8 m
+0002c967 q8k!
+0002c97b q8k"
+0002cc4f *	A 
+0002cce7 TX! 
+0002cd0f TX! 
+0002d11f q?x(
+0002d55f T @ 
+0002d56f T @ 
+0002d57f T @ 
+0002d6c3 T!@b
+0002d717 T!@b
+0002dd62 @9B|
+0002dd6a @9_8
+0002ddbe @9_`
+0002de02 @9_`
+0002de3e @9B 
+0002de6e _8$ 
+0002de76 _8c 
+0002df32 _8$ 
+0002df3a _8c 
+0002df64 EX@9DT@9F\@9
+0002dfbc $ @9"0
+0002dfc4 )$@9#(@9$!
+0002dfcf *!,@9c 
+0002dfec Dha8!
+0002e05f 5"h@
+0002e198 $he8
+0002e1b5  CJc<
+0002e27f 4wV@
+0002e399 K$8%
+0002e465 kc8a^H
+0002e49f */U@
+0002e4eb 9^'@
+0002e567 kH3@9
+0002e587 TN_@
+0002e590  I`8
+0002e5bf TVw@
+0002e65c @X`xb
+0002e6a9 k 8C
+0002e6c3 RF/@
+0002e70f 4@k@
+0002e76d k$8F
+0002e876 @8c^H
+0002ea2c !#&(+-0358:=?BDGILOQTVY[^`cfhkmpruwz|
+0002ebc5 &@9#
+0002ebd1 "@9a
+0002ebe7 *!|@
+0002ed23 ocT(OBT(Oa(a
+0002ed30 A(aN 
+0002ed53 kcjbxd|
+0002ed5f *cj"x
+0002ed73 kdjcx
+0002ed7f *dj#x
+0002ed93 kdjcx
+0002ed9f *dj#x
+0002edb3 kdjcx
+0002edbf *dj#x
+0002edd3 kdjcx
+0002eddf *dj#x
+0002edf8 cjcxd|
+0002ee03 *cj!x
+0002ee10 ajbx#|
+0002ee1b *aj"x
+0002f040 strange error flushing buffer ... 
+0002f068 Error: MAX_HEADER_BUF too small in bitstream.c 
+0002f0a0 Internal buffer inconsistency. flushbits <> ResvSize
+0002f0d8 bit reservoir error: 
+0002f0ee l3_side->main_data_begin: %i 
+0002f10c Resvoir size:             %i 
+0002f12a resv drain (post)         %i 
+0002f148 resv drain (pre)          %i 
+0002f166 header and sideinfo:      %i 
+0002f184 data bits:                %i 
+0002f1a2 total bits:               %i (remainder: %i) 
+0002f1d0 bitsperframe:             %i 
+0002f1f0 This is a fatal error.  It has several possible causes:
+0002f228 90%%  LAME compiled with buggy version of gcc using advanced optimizations
+0002f278  9%%  Your system is overclocked
+0002f2a0  1%%  bug in LAME encoding library
+0002f373 =s/v
+0002f3ab ;TL0@
+0002f4a7 =cT8=
+0002f536 '=S1
+0002f579 Q&>)?
+0002f581 v+>GY
+0002f5d4 zi3>
+0002f610 EW	?^A
+0002f659 $D=P
+0002f670 bx|?(r
+0002f67e x?bx|?
+0002f695 )|?B
+0002f6be y?[!y?
+0002f6cd qr?[!y?n
+0002f6e0 E+n?n
+0002f988 LAME %s version %s (%s)
+0002f9a0 LAME version %s (%s)
+0002f9c8 GIF8
+0002f9d0 image/gif
+0002f9e0 image/png
+0002f9f0 image/jpeg
+0002fa08 Blues
+0002fa10 Classic Rock
+0002fa20 Country
+0002fa28 Dance
+0002fa30 Disco
+0002fa38 Funk
+0002fa40 Grunge
+0002fa48 Hip-Hop
+0002fa50 Jazz
+0002fa58 Metal
+0002fa60 New Age
+0002fa68 Oldies
+0002fa70 Other
+0002fa90 Reggae
+0002fa98 Techno
+0002faa0 Industrial
+0002fab0 Alternative
+0002fac8 Death Metal
+0002fad8 Pranks
+0002fae0 Soundtrack
+0002faf0 Euro-Techno
+0002fb00 Ambient
+0002fb08 Trip-Hop
+0002fb18 Vocal
+0002fb20 Jazz+Funk
+0002fb30 Fusion
+0002fb38 Trance
+0002fb40 Classical
+0002fb50 Instrumental
+0002fb60 Acid
+0002fb68 House
+0002fb70 Game
+0002fb78 Sound Clip
+0002fb88 Gospel
+0002fb90 Noise
+0002fb98 Alternative Rock
+0002fbb0 Bass
+0002fbb8 Soul
+0002fbc0 Punk
+0002fbc8 Space
+0002fbd0 Meditative
+0002fbe0 Instrumental Pop
+0002fbf8 Instrumental Rock
+0002fc10 Ethnic
+0002fc18 Gothic
+0002fc20 Darkwave
+0002fc30 Techno-Industrial
+0002fc48 Electronic
+0002fc58 Pop-Folk
+0002fc68 Eurodance
+0002fc78 Dream
+0002fc80 Southern Rock
+0002fc90 Comedy
+0002fc98 Cult
+0002fca0 Gangsta
+0002fca8 Top 40
+0002fcb0 Christian Rap
+0002fcc0 Pop/Funk
+0002fcd0 Jungle
+0002fcd8 Native US
+0002fce8 Cabaret
+0002fcf0 New Wave
+0002fd00 Psychedelic
+0002fd10 Rave
+0002fd18 Showtunes
+0002fd28 Trailer
+0002fd30 Lo-Fi
+0002fd38 Tribal
+0002fd40 Acid Punk
+0002fd50 Acid Jazz
+0002fd60 Polka
+0002fd68 Retro
+0002fd70 Musical
+0002fd78 Rock & Roll
+0002fd88 Hard Rock
+0002fd98 Folk
+0002fda0 Folk-Rock
+0002fdb0 National Folk
+0002fdc0 Swing
+0002fdc8 Fast Fusion
+0002fdd8 Bebob
+0002fde0 Latin
+0002fde8 Revival
+0002fdf0 Celtic
+0002fdf8 Bluegrass
+0002fe08 Avantgarde
+0002fe18 Gothic Rock
+0002fe28 Progressive Rock
+0002fe40 Psychedelic Rock
+0002fe58 Symphonic Rock
+0002fe68 Slow Rock
+0002fe78 Big Band
+0002fe88 Chorus
+0002fe90 Easy Listening
+0002fea0 Acoustic
+0002feb0 Humour
+0002feb8 Speech
+0002fec0 Chanson
+0002fec8 Opera
+0002fed0 Chamber Music
+0002fee0 Sonata
+0002fee8 Symphony
+0002fef8 Booty Bass
+0002ff08 Primus
+0002ff10 Porn Groove
+0002ff20 Satire
+0002ff28 Slow Jam
+0002ff38 Club
+0002ff40 Tango
+0002ff48 Samba
+0002ff50 Folklore
+0002ff60 Ballad
+0002ff68 Power Ballad
+0002ff78 Rhythmic Soul
+0002ff88 Freestyle
+0002ff98 Duet
+0002ffa0 Punk Rock
+0002ffb0 Drum Solo
+0002ffc0 A Cappella
+0002ffd0 Euro-House
+0002ffe0 Dance Hall
+0002fff8 Drum & Bass
+00030008 Club-House
+00030018 Hardcore
+00030028 Terror
+00030030 Indie
+00030038 BritPop
+00030040 Negerpunk
+00030050 Polsk Punk
+00030060 Beat
+00030068 Christian Gangsta
+00030080 Heavy Metal
+00030090 Black Metal
+000300a0 Crossover
+000300b0 Contemporary Christian
+000300c8 Christian Rock
+000300d8 Merengue
+000300e8 Salsa
+000300f0 Thrash Metal
+00030100 Anime
+00030108 JPop
+00030110 SynthPop
+000302c8 Error: can't allocate in_buffer buffer
+000302f0 LAME %s %s (%s)
+00030310 3DNow!
+00030320 SSE2
+00030328 CPU features: %s
+00030340 Autoconverting from stereo to mono. Setting encoding to mono mode.
+00030388 Resampling:  input %g kHz  output %g kHz
+000303b8 Using polyphase highpass filter, transition band: %5.0f Hz - %5.0f Hz
+00030400 Using polyphase lowpass filter, transition band: %5.0f Hz - %5.0f Hz
+00030448 polyphase lowpass filter disabled
+00030470 Warning: many decoders cannot handle free format bitstreams
+000304b0 Warning: many decoders cannot handle free format bitrates >320 kbps (see documentation)
+00030510 normal
+00030518 best (outside loop)
+00030530 best (inside loop, slow)
+00030570 joint stereo
+00030580 stereo
+00030588 dual channel
+00030598 mono
+000305a0 not set (error)
+000305b0 unknown (error)
+000305d0 (free format)
+000305e0 (default)
+000305f0 allowed
+000305f8 channel coupled
+00030608 dispensed
+00030618 forced
+00030620 using
+00030628 the only masking for short blocks
+00030650 the only masking
+00030668 not used
+00030689 misc:
+00030698 	scaling: %g
+000306a8 	ch0 (left) scaling: %g
+000306c8 	ch1 (right) scaling: %g
+000306e8 	huffman search: %s
+00030700 	experimental Y=%d
+00030718 	...
+00030721 stream format:
+00030738 	MPEG-%s Layer 3
+00030750 	%d channel - %s
+00030768 	padding: %s
+00030778 	constant bitrate - CBR %s
+00030798 	variable bitrate - ABR %s
+000307b8 	variable bitrate - VBR rh %s
+000307d8 	variable bitrate - VBR mt %s
+000307f8 	variable bitrate - VBR mtrh %s
+00030820 	 ?? oops, some new one ?? 
+00030840 	using LAME Tag
+00030859 psychoacoustic:
+00030870 	using short blocks: %s
+00030890 	subblock gain: %d
+000308a8 	adjust masking: %g dB
+000308c0 	adjust masking short: %g dB
+000308e0 	quantization comparison: %d
+00030900 	 ^ comparison short blocks: %d
+00030928 	noise shaping: %d
+00030940 	 ^ amplification: %d
+00030958 	 ^ stopping: %d
+00030970 	ATH: %s
+00030980 	 ^ type: %d
+00030990 	 ^ shape: %g%s
+000309a8  (only for type 4)
+000309c0 	 ^ level adjustement: %g dB
+000309e0 	 ^ adjust type: %d
+000309f8 	 ^ adjust sensitivity power: %f
+00030a20 	experimental psy tunings by Naoki Shibata
+00030a50 	   adjust masking bass=%g dB, alto=%g dB, treble=%g dB, sfb21=%g dB
+00030a98 	using temporal masking effect: %s
+00030ac0 	interchannel masking ratio: %g
+00030ae8 Warning: highpass filter disabled.  highpass frequency too small
+00030b30 Error: could not update LAME tag.
+00030b58 Error: could not update LAME tag, file not seekable.
+00030b90 Error: could not update LAME tag, file not readable.
+00030bf9 e1DJ
+00030c1c ,L	BD
+00030c23 C`fLD/
+00030c37 AD|m@
+00030c6d /7DqV;Fe
+00030c86 <B./#DPc
+00030ca7 ?=[*
+00030cc7 A4;J@
+00030d12 :@M0
+00030d35 Zq?x
+00030d47 C	YJF?
+00030d84 ]-$B
+00030dd9 `PFG
+00030e14 [z&B
+00030e20 A(RF
+00030e3b C/fyE
+00030ea5 l!Bb3<CS
+00030eb1 <SFF
+00030fa3 B6{!E
+00031000 <9I=m
+00031011 qhDE36D
+000310d6 4+!N
+00031166 4+!N
+000312a2 q*%'
+000312ba +,f"
+00031417 Aff&
+000315af C333@333@
+000315f3 C333@333@
+00031637 C333@333@
+000316c3 Bfff
+00031710 333@
+00031754 ff&@
+0003178f C333
+0003181a +?ff&?33k
+00031973 C33s?
+00031982 0ARI
+000319a7 C33s?
+000319db C33s?
+00031a0f C33s?
+00031a43 C33s?
+00031a77 C33s?
+00031aab C33s?
+00031adf C33s?
+00031b13 C33s?
+00031b3e  @33
+00031b47 C33s?
+00031b7b C33s?
+00031baf C33s?
+00031be3 C33s?
+00031c75 Qx?ff
+00031ca8 fff?ff
+00031d03 ?6YK?
+00031d72 :B33MB
+00031d7a fB33
+00031daa AAfffA
+00031db2 pA33
+00031dc6  B33;B
+00031e38 INTERNAL ERROR IN VBR NEW CODE, please send bug report
+00032d0f 				
+00032dc0 											
+00034290 INTERNAL ERROR IN VBR NEW CODE (986), please send bug report
+000342d0 INTERNAL ERROR IN VBR NEW CODE (1313), please send bug report
+0003430e maxbits=%d usedbits=%d
+00034740 Error: can't allocate VbrFrames buffer
+00034770 3.99.5
+00034778 LAME3.99r5
+00034788 LAME3.99r
+000347a0 http://lame.sf.net
+000347b8 64bits
+0003c008 GCC: (GNU) 4.9 20140827 (prerelease)
+0003c02e .init_array
+0003c03a .fini_array
+0003c046 .text
+0003c04c .got
+0003c051 .comment
+0003c05a .rela.plt
+0003c064 .bss
+0003c069 .dynstr
+0003c071 .eh_frame_hdr
+0003c07f .data.rel.ro
+0003c08c .rela.dyn
+0003c096 .dynsym
+0003c09e .hash
+0003c0a4 .eh_frame
+0003c0ae .dynamic
+0003c0b7 .shstrtab
+0003c0c1 .rodata
+0003c0c9 .data

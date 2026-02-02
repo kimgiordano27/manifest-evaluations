@@ -1,0 +1,138 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+0000087d __cxa_finalize
+0000088c __cxa_atexit
+00000899 __register_atfork
+000008ab abort
+000008b1 __stack_chk_fail
+000008c2 _ZNSt6__ndk16chrono12steady_clock3nowEv
+000008ea _ZN4aidl3com6oculus8presence6stable19IPresenceServiceApi10fromBinderERKN3ndk10SpAIBinderE
+00000944 _ZNSt6__ndk119__shared_weak_count14__release_weakEv
+00000978 Java_com_oculus_presence_sdk_NativeApiManager_nativeOnApiAvailable
+000009bb AIBinder_fromJavaBinder
+000009d3 Java_com_oculus_presence_sdk_NativeApiManager_nativeOnApiNotAvailable
+00000a19 strlen
+00000a20 vsnprintf
+00000a2a malloc
+00000a31 __android_log_write
+00000a45 __android_log_vprint
+00000a5a free
+00000a5f __android_log_assert
+00000a74 memset
+00000a7b getpid
+00000a82 gettid
+00000a89 fopen
+00000a8f fread
+00000a95 fclose
+00000a9c __strlen_chk
+00000aa9 pthread_self
+00000ab6 pthread_setname_np
+00000ac9 AIBinder_decStrong
+00000adc __assert
+00000ae5 _ZTVNSt6__ndk117bad_function_callE
+00000b08 _ZTINSt6__ndk117bad_function_callE
+00000b2b _ZNSt6__ndk117bad_function_callD1Ev
+00000b4f _ZN8presence16NativeApiManagerC1EP7_JNIEnvP8_jobjectNSt6__ndk18functionIFvNS5_10shared_ptrIN4aidl3com6oculus8presence6stable19IPresenceServiceApiEEEEEENS6_IFvvEEES4_
+00000bf5 _ZN8presence16NativeApiManagerD1Ev
+00000c18 __wrap___cxa_begin_catch
+00000c31 __wrap___cxa_allocate_exception
+00000c51 __wrap___cxa_guard_release
+00000c6c __wrap__ZNSt13runtime_errorD1Ev
+00000c8c __wrap___gxx_personality_v0
+00000ca8 __wrap__Unwind_Resume
+00000cbe __wrap___cxa_throw
+00000cd1 __wrap___cxa_free_exception
+00000ced __wrap__ZSt9terminatev
+00000d04 __wrap___cxa_guard_acquire
+00000d1f __wrap__ZNSt13runtime_errorC1EPKc
+00000d41 __wrap__ZTISt13runtime_error
+00000d5e getauxval
+00000d68 __system_property_get
+00000d7e strncmp
+00000d86 libbinder_ndk.so
+00000d97 LIBBINDER_NDK
+00000da5 libc.so
+00000dad LIBC
+00000db2 liblog.so
+00000dbc libc++_shared.so
+00000dcd libarvr_projects_presence_service_aidl_if-cpp.so
+00000dfe libNativeApiManager.so
+00000e18 APS2
+000013a0 loadClass
+000013aa ovr_GetLocalClassReferenceWithLoader: JNIEnv is NULL. Classname is %s
+000013f0 JNI exception: %s
+00001402 couldn't get %s, %s
+00001416 com/oculus/presence/sdk/NativeApiManager
+0000143f getClassLoader
+0000144e java/lang/ClassLoader
+00001464 UNEXPECTED before FindClass( '%s' ) in ovr_GetLocalClassReferenceWithLoader
+000014b0 ovr_NewStringUTF found existing exception
+000014da GetStringUTFChars threw a JNI exception
+00001502 ReleaseStringUTFChars threw a JNI exception
+0000152e ovr_NewStringUTF threw a JNI exception
+00001555 /proc/%d/task/%d/comm
+0000156b AttachCurrentThread returned %i
+0000158b DetachCurrentThread() returned %i
+000015ad ro.arch
+000015b5 buck-out/v2/gen/fbsource/41f56f21acca7a5c/third-party/toolchains/android-ndk/__r26b-compilation-sysroot__/r26b-compilation-sysroot/usr/include/android/binder_auto_utils.h
+00001660 arvr/projects/xrruntime/mobile/1stParty/OVR/Include/JniUtils.h
+0000169f arvr/projects/xrruntime/mobile/1stParty/OVR/Include/JniUtils-inl.h
+000016e2 toString
+000016eb close
+000016f1 getClassLoaderFailed failed
+0000170d FindClass( %s ) failed
+00001724 Creating temporary JNIEnv. This is a heavy operation and should be infrequent. To optimize, use JNI AttachCurrentThread on calling thread
+000017ae (Landroid/content/Context;J)V
+000017d0 ovr_NewStringUTF failed with NULL
+000017f2 GetStringUTFChars returned NULL
+00001812 FAIL
+00001817 <init>
+0000181e (Ljava/lang/String;)Ljava/lang/Class;
+00001844 ()Ljava/lang/ClassLoader;
+0000185e ()Ljava/lang/String;
+00001873 exynos9810
+0000187e class '%s' not found.
+00001894 Race detected.
+000018a3 UNEXPECTED after loadClass( '%s' ) in ovr_GetLocalClassReferenceWithLoader!
+000018ef ERROR: failed to calculate log length!
+00001916 JNI exception occurred calling DeleteLocalRef!
+00001945 JNI exception before DeleteLocalRef!
+0000196a ERROR: out of memory allocating log message!
+00001d55 zPLR
+0000284b 5`*@
+00002d6a `8?q
+00002d7b T	}@
+00002d94 +ih8
+00002da3 TKi(8
+00002df0 ?i(8
+00003217 T	kh8?5
+00003505 bq9p
+00003598 (a19h
+000035c5 bq9p
+000035f5 bq9p
+00003c41 .init_array
+00003c4d .fini_array
+00003c59 .text
+00003c5f .got
+00003c64 .note.android.ident
+00003c78 .got.plt
+00003c81 .rela.plt
+00003c8b .bss
+00003c90 .dynstr
+00003c98 .eh_frame_hdr
+00003ca6 .gnu.version_r
+00003cb5 .data.rel.ro
+00003cc2 .relr.dyn
+00003ccc .rela.dyn
+00003cd6 .gnu.version
+00003ce3 .dynsym
+00003ceb .gnu.hash
+00003cf5 .relro_padding
+00003d04 .eh_frame
+00003d0e .gcc_except_table
+00003d20 .note.gnu.build-id
+00003d33 .dynamic
+00003d3c .shstrtab
+00003d46 .rodata
+00003d4e .data

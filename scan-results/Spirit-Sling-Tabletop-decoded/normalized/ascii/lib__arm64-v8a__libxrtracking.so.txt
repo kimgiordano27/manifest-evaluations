@@ -1,0 +1,436 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+00000cd9 __cxa_finalize
+00000ce8 __cxa_atexit
+00000cf5 __register_atfork
+00000d07 _ZN6avatar6openxr8InstanceC2ERK39ovrAvatar2XrTrackingInitializationInfo_NS1_3KeyE
+00000d59 __stack_chk_fail
+00000d6a _ZN6avatar6openxr8InstanceD2Ev
+00000d89 _ZN6avatar6openxr8Instance15createComponentE38ovrAvatar2XrTrackingPoseComponentType_
+00000dde _ZN6avatar6openxr19tracking_components24TrackingComponentFactory6createE38ovrAvatar2XrTrackingPoseComponentType_RKNS0_7ContextE
+00000e5e _ZNK6avatar6openxr8Instance23findNextFreeComponentIdEv
+00000e95 _ZN6avatar6openxr8Instance16destroyComponentE32ovrAvatar2XrTrackingComponentId_
+00000ee5 _ZN6avatar6openxr8Instance18isComponentIdValidE32ovrAvatar2XrTrackingComponentId_
+00000f37 _ZN6avatar6openxr8Instance12getComponentE32ovrAvatar2XrTrackingComponentId_
+00000f83 _ZN6avatar6openxr8InstanceC1ERK39ovrAvatar2XrTrackingInitializationInfo_NS1_3KeyE
+00000fd5 _ZN6avatar6openxr8InstanceD1Ev
+00000ff4 _ZN6avatar6openxr15InstanceManager14createInstanceERK39ovrAvatar2XrTrackingInitializationInfo_
+00001053 _ZNK6avatar6openxr15InstanceManager22findNextFreeInstanceIdEv
+00001091 _ZN6avatar6openxr15InstanceManager15destroyInstanceE31ovrAvatar2XrTrackingInstanceId_
+000010e7 _ZN6avatar6openxr15InstanceManager17isInstanceIdValidE31ovrAvatar2XrTrackingInstanceId_
+0000113f _ZN6avatar6openxr15InstanceManager11getInstanceE31ovrAvatar2XrTrackingInstanceId_
+00001191 _ZTVNSt6__ndk120__shared_ptr_emplaceIN6avatar6openxr8InstanceENS_9allocatorIS3_EEEE
+000011e5 _ZTINSt6__ndk120__shared_ptr_emplaceIN6avatar6openxr8InstanceENS_9allocatorIS3_EEEE
+00001239 _ZTSNSt6__ndk120__shared_ptr_emplaceIN6avatar6openxr8InstanceENS_9allocatorIS3_EEEE
+0000128d ovrAvatar2XrTracking_GetRequiredExtensions
+000012b8 ovrAvatar2XrTracking_CreateInstance
+000012dc ovrAvatar2XrTracking_DestroyInstance
+00001301 ovrAvatar2XrTracking_CreatePoseComponent
+0000132a ovrAvatar2XrTracking_HasHierarchyChanged
+00001353 ovrAvatar2XrTracking_GetHierarchy
+00001375 ovrAvatar2XrTracking_SamplePose
+00001395 ovrAvatar2XrTrackingComponentHandle_Invalid
+000013c1 memset
+000013c8 strlen
+000013cf vsnprintf
+000013d9 memchr
+000013e0 __vsnprintf_chk
+000013f0 memmove
+000013f8 __android_log_print
+0000140c prctl
+00001412 strcmp
+00001419 memcpy
+00001420 __errno
+00001428 strerror
+00001431 __strlen_chk
+0000143e clock_gettime
+0000144c stderr
+00001453 fprintf
+0000145b isatty
+00001462 close
+00001468 __read_chk
+00001473 fstat
+00001479 open
+0000147e strncmp
+00001486 free
+0000148b gettid
+00001492 getpid
+00001499 vfprintf
+000014a2 syscall
+000014aa pthread_mutex_lock
+000014bd pthread_mutex_unlock
+000014d2 malloc
+000014d9 aligned_alloc
+000014e7 __gnu_strerror_r
+000014f8 vasprintf
+00001502 android_set_abort_message
+0000151c openlog
+00001524 syslog
+0000152b closelog
+00001534 abort
+0000153a pthread_cond_signal
+0000154e pthread_cond_broadcast
+00001565 pthread_cond_wait
+00001577 pthread_cond_destroy
+0000158c pthread_mutex_destroy
+000015a2 fwrite
+000015a9 fputc
+000015af fflush
+000015b6 pthread_rwlock_wrlock
+000015cc pthread_rwlock_unlock
+000015e2 dladdr
+000015e9 dl_iterate_phdr
+000015f9 pthread_rwlock_rdlock
+0000160f getauxval
+00001619 __system_property_get
+0000162f libdl.so
+00001638 LIBC
+0000163d libc.so
+00001645 LIBC_P
+0000164c liblog.so
+00001656 libxrtracking.so
+00001668 APS2
+00007f38 Captured exception on result but not out of memory
+00007f6b ovrAvatar2XrTracking_GetHierarchy
+00007f8d %s failed to release mutex
+00007fa8 %s failed to acquire mutex
+00007fc3 %s failed to broadcast
+00007fda __cxa_guard_abort
+00007fec Component with id %d of instance with id %d is not a tracking pose component
+00008039 ovrAvatar2XrTracking_CreatePoseComponent
+00008062 uncaught
+0000806b bad_variant_access
+0000807e avatar_runtime_counters
+00008096 ovrAvatar2XrTracking_GetRequiredExtensions
+000080c1 %*s:%s
+000080c8 %s %s
+000080ce terminating due to %s exception of type %s
+000080f9 Bad parameter in %s. Required %s
+0000811a   XrResult = %s
+0000812a terminating due to %s exception of type %s: %s
+00008159 %s:%d: %s
+00008163 string_view::substr
+00008177 extensions != nullptr
+0000818d initInfo != nullptr
+000081a1 componentHandle != nullptr
+000081bc hasHierarchyChanged != nullptr
+000081db instanceId != nullptr
+000081f1 vector
+000081f8 unspecified system_category error
+0000821a unspecified generic_category error
+00008240 unsupported restore location for float register
+00008270 unsupported restore location for register
+0000829a unknown register
+000082ab unsupported arm64 register
+000082c6 setRegister
+000082d2 getRegister
+000082de getSavedFloatRegister
+000082f4 getSavedRegister
+00008308 arvr/libraries/avatar/Libraries/xr_tracking_integration/src/XrTrackingIntegration.cpp
+0000835e third-party/llvm-project/18.x-android/llvm-project/libcxxabi/src/fallback_malloc.cpp
+000083b6 perfetto
+000083bf CIE ID is not zero
+000083d2 _Unwind_Resume() can't return
+000083f0 std::exception
+000083ff Out of memory exception
+00008417 terminating due to %s foreign exception
+0000843f terminate_handler unexpectedly threw an exception
+00008471 Failed to get result string from `xrResultToString` function
+000084ae truncated uleb128 expression
+000084cb malformed uleb128 expression
+000084e8 truncated sleb128 expression
+00008505 evaluateExpression
+00008518 system
+0000851f libc++abi
+00008529 bad_array_new_length
+0000853e FDE has zero length
+00008552 CIE start does not match
+0000856b ro.arch
+00008573 arvr/libraries/avatar/Libraries/xr_tracking_integration/include/private/xr_tracking_integration/Context.h
+000085dd arvr/libraries/avatar/Libraries/xr_tracking_integration/include/private/xr_tracking_integration/utils/Utils.h
+0000864b arvr/third-party/perfetto_v30/sdk/perfetto.h
+00008678 terminating
+00008684 basic_string
+00008691 xrResultToString
+000086a2 unknown pointer encoding
+000086bb DW_OP_deref_size with bad size
+000086da getTableEntrySize
+000086ec ovrAvatar2XrTracking_SamplePose
+0000870c __cxa_guard_release
+00008720 __cxa_guard_acquire
+00008734 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00008797 /proc/self/cmdline
+000087aa _Unwind_Resume
+000087b9 avatar_runtime
+000087c8 Events from the avatar runtime
+000087e7 Counters from the avatar runtime
+00008808 thread_time
+00008814 ovrAvatar2XrTracking_DestroyInstance
+00008839 ovrAvatar2XrTracking_CreateInstance
+0000885d componentHandle->componentId != ovrAvatar2XrTrackingComponentId_Invalid
+000088a5 componentHandle->instanceId != ovrAvatar2XrTrackingInstanceId_Invalid
+000088eb Cannot convert xrResult to string as `xrResultToString` function is not initialized
+0000893f Cannot convert xrResult to string as the XrInstance is not initialized
+00008986 DW_EH_PE_textrel pointer encoding not supported
+000089b6 DW_EH_PE_funcrel pointer encoding not supported
+000089e6 DW_EH_PE_aligned pointer encoding not supported
+00008a16 Component of type %d not supported
+00008a39 DW_OP_fbreg not implemented
+00008a55 DWARF opcode not implemented
+00008a72 DW_OP_piece not implemented
+00008a8e unexpected
+00008a99 terminate_handler unexpectedly returned
+00008ac1 condition_variable wait failed
+00008ae0 Instance creation failed
+00008af9 recursive_mutex lock failed
+00008b15 condition_variable::wait: mutex not locked
+00008b40 ovrAvatar2XrTracking_HasHierarchyChanged
+00008b69 Unknown error %d
+00008b7a Failed to fetch component with id %d
+00008b9f Failed to destroy instance with id %d
+00008bc5 Failed to fetch instance with id %d
+00008bec std::bad_alloc
+00008bfb generic
+00008c03 arvr/third-party/perfetto_v30/sdk/perfetto.cc
+00008c31 [printf format error]
+00008c47 [Avatar2 SDK]
+00008c55 getEncodedP
+00008c61 FDE is really a CIE
+00008c75 __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+00008d08 %.*s::
+00008d2f getULEB128
+00008d3a getSLEB128
+00008dbb CIE version is not 1 or 3
+00008dd8 unwind_phase2
+00008e2d exynos9810
+00008e38 DW_EH_PE_datarel is invalid with a datarelBase of 0
+00008e6f Unknown DWARF encoding for search table.
+00008e98 Can't binary search on variable length encoded data.
+00008ecd libc++
+00008ed4 Unknown field type %u (errno: %d, %s)
+00008efa %s (errno: %d, %s)
+00008f0d Tracing not initialized. Call perfetto::Tracing::Initialize() first. (errno: %d, %s)
+00008f62 PERFETTO_CHECK(false)
+00008f78 PERFETTO_CHECK(writer_)
+00008f90 PERFETTO_CHECK(res == 0)
+00008fa9 PERFETTO_CHECK(clock_gettime(clk_id, &ts) == 0)
+00008fd9 out_of_range was thrown in -fno-exceptions mode with message "%s"
+0000901b [%03u.%03u] 
+00009028 libc++abi: 
+00009034 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0000906d %s%s%s%s %s%s%s
+0000907e %s%s %s
+00009087 libunwind: %s - %s
+0000909b libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+000090e3 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+00009123 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+00009169 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+000091ab libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+000091f0 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+0000923a libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+0000927c libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+000092be libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+000092ff libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00009353 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0000939a libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+000093e2 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+00009421 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+00009462 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+000094bf libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+0000950d NSt6__ndk120__shared_ptr_emplaceIN6avatar6openxr8InstanceENS_9allocatorIS3_EEEE
+00009568 NSt6__ndk117bad_function_callE
+000095c1 [39m
+000095d0 [32m
+000095d6 [31m
+000095dc [90m
+000095f8 N8perfetto8internal12TracingMuxerE
+0000961b N9protozero21ScatteredStreamWriter8DelegateE
+00009648 N9protozero19ScatteredHeapBufferE
+0000966a N9protozero13CppMessageObjE
+00009686 N8perfetto6protos3gen23ChromeProcessDescriptorE
+000096b6 N8perfetto6protos3gen22ChromeThreadDescriptorE
+000096e5 N8perfetto6protos3gen17CounterDescriptorE
+0000970f N8perfetto6protos3gen17ProcessDescriptorE
+00009739 N8perfetto6protos3gen16ThreadDescriptorE
+00009762 N8perfetto6protos3gen15TrackDescriptorE
+0000978a N8perfetto8internal16TracingMuxerFakeE
+000097b1 N8perfetto8internal16TracingMuxerFake12FakePlatformE
+000097e6 N8perfetto8PlatformE
+000097fb N8perfetto8internal31BaseTrackEventInternedDataIndexE
+00009831 N8perfetto8internal21InternedEventCategoryE
+0000985d N8perfetto27TrackEventInternedDataIndexINS_8internal21InternedEventCategoryELm1EPKcNS_23SmallInternedDataTraitsEEE
+000098d0 N8perfetto8internal17InternedEventNameE
+000098f8 N8perfetto27TrackEventInternedDataIndexINS_8internal17InternedEventNameELm2EPKcNS_23SmallInternedDataTraitsEEE
+00009978 NSt6__ndk114__shared_countE
+00009994 NSt6__ndk119__shared_weak_countE
+000099b5 NSt6__ndk112system_errorE
+000099cf NSt6__ndk112__do_messageE
+000099e9 NSt6__ndk124__generic_error_categoryE
+00009a0f NSt6__ndk123__system_error_categoryE
+00009a34 NSt6__ndk114error_categoryE
+00009a50 St18bad_variant_access
+00009ad0 N10__cxxabiv116__shim_type_infoE
+00009af1 N10__cxxabiv117__class_type_infoE
+00009b13 N10__cxxabiv120__si_class_type_infoE
+00009b38 N10__cxxabiv121__vmi_class_type_infoE
+00009b5e St9exception
+00009b6b St20bad_array_new_length
+00009b84 St9bad_alloc
+00009b91 St11logic_error
+00009ba1 St12length_error
+00009bb2 St13runtime_error
+00009bc4 St9type_info
+0000d4b9 zPLR
+0000e95f 7	 B
+0000f1cb 7	 I
+000104a0 *ih8
+000108b7 qJ1A
+00010afc (a@9
+00010b03 5(	@
+00010d39 am9h
+00010ec4 h3@9
+00010ed3 9Hkv
+00010f17 4Hkv
+000110d9 !A9(
+000114cf R`jt
+000115bc hB@9t
+000116a1 	B9j
+00011e89 C@9h
+00012110 h3@9
+0001211f 9Hkv
+00012163 4Hkv
+00012641 C@9h
+00012b4c H	@9J
+00013449 :@9?
+000134e6 @y	q
+0001393c j.D)
+00013959 i)8)
+00013973 9`"@
+00014049 h*8J
+0001423b =h"@
+000146be 	*I}
+0001473b 6`&@
+00014744 hb@9
+00014a1b Tl}`
+0001510b Tl}`
+00015505 `A9	
+0001550f 6`6@
+0001551f 6`"@
+0001591f Tl}`
+00015df7 6`B@
+0001631f Tl}`
+00016847 6`2@
+00016850 hB@9
+00016b67 Tl}`
+0001720c hb@9h
+00017247 6`6@
+000172c8 hb@9
+000175f3 Tl}`
+000178b6  7(	87
+00018ad3 T?i(8
+00018af5 #@9h
+00018f85 #@9h
+00019365 `@9H
+000196a1 `@9H
+000199e8 	i{8J
+0001aa6d j48	
+0001aebd #@9h
+0001af25 #@9h
+0001b22c ( @9
+0001b389 C@9h
+0001c15c @1Wz)
+0001c2c9 1WzJ
+0001c3df <h&?
+0001c594 h%@x
+0001c659 j{8*
+0001c88a @yn	
+0001c8a7 K*)(
+0001c9d6 @yn	
+0001cc9c  	Az@	Az
+0001cedc )<A9
+0001d033 T(<@
+0001d057 T(H@
+0001d18f 7i>@
+0001d19f Rh:A9h
+0001d1f7 Th6@
+0001d223 ThF@
+0001d294 h:A9H
+0001d29b 5h6A9
+0001d2a3 4h2A9
+0001d2ab 4h2@
+0001d2b9 B@9h
+0001d313 7h:A9
+0001d31b 5h>@
+0001d36c h:A9
+0001d373 5h>@
+0001d37f Th2@
+0001d3ef Th2@
+0001d507 Th6@
+0001d533 ThF@
+0001d56c h6A9h
+0001d573 4h2A9i
+0001d5bb Th2@
+0001d696 G)t:
+0001d6af Th2@
+0001d6db Th6@
+0001d77b 4z2A9
+0001d784 {6A9
+0001d7cc h2A9i6A9
+0001d800 j:A9J
+0001d80f Th2@
+0001d87c h2A9j
+0001d884 i6A9K
+0001e7ca @9iy
+0001e92a @9n%
+0001f23b 4h~@
+0001f66c J{hx)	
+0001f679 b@9`
+0001fbdc `1Jz
+0001fbea 	*H}
+0001fdc0 *q@9
+0002036a ?7_|
+00021525 1Mzk
+00021544  %@x
+000218d8 `0Bz!
+00021933 QqN0
+00021987 TbN 
+00021a48 @0@z 
+00021b58  0@z1
+00021f03 TqN0
+00021f2b TaN0
+000227fc w2@y
+00022a4f TiC@
+00024a80 Linker: Facebook LLD 18.1.7
+00024a9c Facebook clang version 18.1.7 (https://git.internal.tfbnw.net/repos/git/ro/osmeta/external/llvm-project 6f9858d44fb8374a598b3da36de5a151e05250b8)
+00024b2e Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+00024be6 ovr-version:avatar-libxrtracking-android64-release:29.7.0.292.23
+00024c28 .shstrtab
+00024c32 .note.android.ident
+00024c46 .note.gnu.build-id
+00024c59 .dynsym
+00024c61 .gnu.version
+00024c6e .gnu.version_r
+00024c7d .gnu.hash
+00024c87 .dynstr
+00024c8f .rela.dyn
+00024c99 .relr.dyn
+00024ca3 .rela.plt
+00024cad .gcc_except_table
+00024cbf .rodata
+00024cc7 .eh_frame_hdr
+00024cd5 .eh_frame
+00024cdf .text
+00024ce5 __lcxx_override
+00024cf5 .tbss
+00024cfb .data.rel.ro
+00024d08 .fini_array
+00024d14 .init_array
+00024d20 .dynamic
+00024d29 .got
+00024d2e .got.plt
+00024d37 .relro_padding
+00024d46 .data
+00024d4c .bss
+00024d51 .comment
+00024d5a .oculus-version

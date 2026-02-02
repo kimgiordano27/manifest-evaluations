@@ -1,0 +1,878 @@
+0000027c Android
+00000288 r27c
+000002c8 12479018
+00003064 _{5U
+00003081 0QRT
+0000309d riq8
+000030ca `BvI'$
+000030e5 Da+Z
+00003180 u{sC
+000031ae =]LW2M
+000031d4 fKQm
+0000324c ]_O*
+0000338e [F((
+000033db RZWx
+00003415 	vzT;
+00003421 R)Rh%
+00003495 c5n'
+000034bd __cxa_finalize
+000034cc __cxa_atexit
+000034d9 __register_atfork
+000034eb _ZN5Unity16UnityApplicationC2EP11android_app
+00003518 _ZN5Unity16UnityApplication21InitializeInputEventsEv
+0000354d _ZNK5Unity16UnityApplication18_GetSavedStateImplEPPvPm
+00003584 _ZNK5Unity16UnityApplication14_GetLooperImplEv
+000035b3 _ZNK5Unity16UnityApplication19_GetContentRectImplEv
+000035e7 _ZNK5Unity16UnityApplication21_GetActivityStateImplEv
+0000361d _ZNK5Unity16UnityApplication14_GetJavaVMImplEv
+0000364c _ZNK5Unity16UnityApplication22_GetUIThreadJNIEnvImplEv
+00003683 _ZNK5Unity16UnityApplication24_GetMainThreadJNIEnvImplEv
+000036bc _ZNK5Unity16UnityApplication32_GetGameActivityJavaInstanceImplEv
+000036fd _ZNK5Unity16UnityApplication24_GetInternalDataPathImplEv
+00003736 _ZNK5Unity16UnityApplication24_GetExternalDataPathImplEv
+0000376f _ZNK5Unity16UnityApplication15_GetObbPathImplEv
+0000379f _ZNK5Unity16UnityApplication18_GetSdkVersionImplEv
+000037d2 _ZNK5Unity16UnityApplication21_GetAAssetManagerImplEv
+00003808 _ZNK5Unity16UnityApplication28_GetMotionEventCallbacksImplEv
+00003845 _ZNK5Unity16UnityApplication23_GetMotionEventSizeImplEv
+0000387d _ZNK5Unity16UnityApplication26_GetMotionEventMaxAxisImplEv
+000038b8 _ZNK5Unity16UnityApplication25_GetKeyEventCallbacksImplEv
+000038f2 _ZNK5Unity16UnityApplication20_GetKeyEventSizeImplEv
+00003927 _ZNK5Unity16UnityApplication20_GetWindowInsetsImplENS_10InsetsTypeEP5ARect
+00003972 _Znwm
+00003978 _ZN5Unity17UnitySoftKeyboardC1EPNS_16UnityApplicationE
+000039af _ZN5Unity17UnitySoftKeyboardD1Ev
+000039d0 _ZdlPv
+000039d7 _ZN5Unity18UnityConfigurationC1EP11android_app
+00003a06 _ZN5Unity9LogOutputENS_7LogTypeEPKcz
+00003a2b abort
+00003a31 _ZN5Unity11UnityEventsD2Ev
+00003a4c _ZN5Unity16UnityApplication31SetUnityToGameActivityCallbacksEv
+00003a8b _ZN5Unity16UnityApplicationD2Ev
+00003aab __cxa_begin_catch
+00003abd _ZSt9terminatev
+00003acd _ZN5Unity16UnityApplication14CreateInstanceEP11android_app
+00003b08 dlopen
+00003b0f dlsym
+00003b15 _ZN5Unity16UnityApplication15UnityInitializeE
+00003b43 _ZN5Unity16UnityApplication13UnityShutdownE
+00003b6f _ZN5Unity16UnityApplicationC1EP11android_app
+00003b9c _ZN5Unity16UnityApplicationD1Ev
+00003bbc _ZN5Unity16UnityApplication15DestroyInstanceEv
+00003beb _ZN5Unity17RunningOnUIThreadEv
+00003c0a raise
+00003c10 _ZN5Unity19RunningOnMainThreadEv
+00003c31 GameActivity_getWindowInsets
+00003c4e _ZNK5Unity16UnityApplication11IsAnimatingEv
+00003c7a _ZN5Unity16UnityApplication20HandleCmdFocusGainedEP13ANativeWindow
+00003cbd _ZN5Unity16UnityApplication18HandleCmdFocusLostEP13ANativeWindow
+00003cfe _ZN5Unity16UnityApplication14HandleCmdPauseEP13ANativeWindow
+00003d3b _ZN5Unity16UnityApplication15HandleCmdResumeEP13ANativeWindow
+00003d79 _ZNK5Unity16UnityApplication16IgnorePauseEventEv
+00003daa _ZN5Unity16UnityApplication20OnApplicationCommandEP11android_appi
+00003dec _ZN5Unity10AppCmdNameEi
+00003e04 _ZTVN5Unity41UnityEventProcessApplicationCommandBeforeE
+00003e3c _ZN5Unity11UnityEvents6InvokeERKNS_10UnityEventE
+00003e6d malloc
+00003e74 _ZN5Unity16UnityApplication12ProcessFrameEv
+00003ea0 _ZN5Unity18UnityConfiguration13RefreshLocaleEv
+00003ecf _ZN5Unity16EditorActionNameEi
+00003eed GameActivity_isSoftwareKeyboardVisible
+00003f14 _ZTVN5Unity40UnityEventProcessApplicationCommandAfterE
+00003f4b __stack_chk_fail
+00003f5c _ZNSt6__ndk119piecewise_constructE
+00003f7f _ZNSt6__ndk16vectorIN5Unity11UnityEvents8CallbackENS_9allocatorIS3_EEE16__init_with_sizeB8ne180000IPS3_S8_EEvT_T0_m
+00003ff3 _ZNSt6__ndk16vectorIN5Unity11UnityEvents8CallbackENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
+00004060 _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIPKSt9type_infoNS_6vectorIN5Unity11UnityEvents8CallbackENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_SH_SF_Lb1EEENS9_ISC_EEE25__emplace_unique_key_argsIS4_JRKNS_21piecewise_construct_tENS_5tupleIJRKS4_EEENSR_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEERKT_DpOT0_
+00004203 _ZN5Unity11UnityEvents18UnregisterInternalEPKSt9type_infoRKNS0_8CallbackE
+0000424d _ZNSt6__ndk14pairIKPKSt9type_infoNS_6vectorIN5Unity11UnityEvents8CallbackENS_9allocatorIS8_EEEEED2Ev
+000042b2 _ZN5Unity16UnityApplication18ProcessInputEventsEv
+000042e4 _ZN5Unity16UnityApplication22ProcessTextInputEventsEv
+0000431a _ZN5Unity16UnityApplication16CleanInputEventsEv
+0000434a _ZTVN5Unity19UnityEventLoopAfterE
+0000436c GameActivity_finish
+00004380 _ZN5Unity16UnityApplication4LoopEv
+000043a3 _ZTVN5Unity26UnityEventFirstSceneLoadedE
+000043cc ALooper_pollOnce
+000043dd _ZNK5Unity16UnityApplication26ProcessApplicationCommandsEv
+00004418 _ZN5Unity10UnityEventD2Ev
+00004432 _ZN5Unity16UnityApplication8InstanceEv
+00004459 _ZN5Unity16UnityApplication17InstanceAvailableEv
+0000448a __cxa_allocate_exception
+000044a3 _ZTVNSt6__ndk117bad_function_callE
+000044c6 _ZTINSt6__ndk117bad_function_callE
+000044e9 _ZNSt9exceptionD2Ev
+000044fd __cxa_throw
+00004509 _ZTISt12length_error
+0000451e _ZNSt12length_errorD1Ev
+00004536 __cxa_free_exception
+0000454b _ZNSt11logic_errorC2EPKc
+00004564 _ZTVSt12length_error
+00004579 _ZNSt20bad_array_new_lengthC1Ev
+00004599 _ZTISt20bad_array_new_length
+000045b6 _ZNSt20bad_array_new_lengthD1Ev
+000045d6 _ZNSt6__ndk112__next_primeEm
+000045f3 _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIPKSt9type_infoNS_6vectorIN5Unity11UnityEvents8CallbackENS_9allocatorIS8_EEEEEENS_22__unordered_map_hasherIS4_SC_NS_4hashIS4_EENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_SC_SH_SF_Lb1EEENS9_ISC_EEE11__do_rehashILb1EEEvm
+0000470a _ZN5Unity41UnityEventProcessApplicationCommandBeforeD0Ev
+00004743 _ZN5Unity40UnityEventProcessApplicationCommandAfterD0Ev
+0000477b _ZN5Unity26UnityEventFirstSceneLoadedD0Ev
+000047a5 _ZN5Unity19UnityEventLoopAfterD0Ev
+000047c8 _ZTSNSt6__ndk117bad_function_callE
+000047eb _ZTVN10__cxxabiv120__si_class_type_infoE
+00004814 _ZTISt9exception
+00004825 _ZNKSt9exception4whatEv
+0000483d _ZTIN5Unity41UnityEventProcessApplicationCommandBeforeE
+00004875 _ZTSN5Unity41UnityEventProcessApplicationCommandBeforeE
+000048ad _ZTSN5Unity10UnityEventE
+000048c6 _ZTIN5Unity10UnityEventE
+000048df _ZTVN10__cxxabiv117__class_type_infoE
+00004905 _ZTIN5Unity40UnityEventProcessApplicationCommandAfterE
+0000493c _ZTSN5Unity40UnityEventProcessApplicationCommandAfterE
+00004973 _ZTIN5Unity26UnityEventFirstSceneLoadedE
+0000499c _ZTSN5Unity26UnityEventFirstSceneLoadedE
+000049c5 _ZTIN5Unity19UnityEventLoopAfterE
+000049e7 _ZTSN5Unity19UnityEventLoopAfterE
+00004a09 __gxx_personality_v0
+00004a1e _ZN5Unity18UnityConfigurationC2EP11android_app
+00004a4d _ZNK5Unity18UnityConfiguration18_GetSdkVersionImplEv
+00004a82 _ZNK5Unity18UnityConfiguration17_GetColorModeImplEv
+00004ab6 _ZNK5Unity18UnityConfiguration18_GetDensityDpiImplEv
+00004aeb _ZNK5Unity18UnityConfiguration17_GetFontScaleImplEv
+00004b1f _ZNK5Unity18UnityConfiguration28_GetFontWeightAdjustmentImplEv
+00004b5e _ZNK5Unity18UnityConfiguration26_GetHardKeyboardHiddenImplEv
+00004b9b _ZNK5Unity18UnityConfiguration16_GetKeyboardImplEv
+00004bce _ZNK5Unity18UnityConfiguration22_GetKeyboardHiddenImplEv
+00004c07 _ZNK5Unity18UnityConfiguration11_GetMccImplEv
+00004c35 _ZNK5Unity18UnityConfiguration11_GetMncImplEv
+00004c63 _ZNK5Unity18UnityConfiguration18_GetNavigationImplEv
+00004c98 _ZNK5Unity18UnityConfiguration24_GetNavigationHiddenImplEv
+00004cd3 _ZNK5Unity18UnityConfiguration19_GetOrientationImplEv
+00004d09 _ZNK5Unity18UnityConfiguration22_GetScreenHeightDpImplEv
+00004d42 _ZNK5Unity18UnityConfiguration20_GetScreenLayoutImplEv
+00004d79 _ZNK5Unity18UnityConfiguration21_GetScreenWidthDpImplEv
+00004db1 _ZNK5Unity18UnityConfiguration29_GetSmallestScreenWidthDpImplEv
+00004df1 _ZNK5Unity18UnityConfiguration19_GetTouchscreenImplEv
+00004e27 _ZNK5Unity18UnityConfiguration14_GetUIModeImplEv
+00004e58 _ZNK5Unity18UnityConfiguration22_GetLocaleLanguageImplEv
+00004e91 _ZNK5Unity18UnityConfiguration21_GetLocaleCountryImplEv
+00004ec9 AConfiguration_getLanguage
+00004ee4 AConfiguration_getCountry
+00004efe _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+00004f4c AConfiguration_getSdkVersion
+00004f69 GameActivity_getColorMode
+00004f83 GameActivity_getDensityDpi
+00004f9e GameActivity_getFontScale
+00004fb8 GameActivity_getFontWeightAdjustment
+00004fdd GameActivity_getHardKeyboardHidden
+00005000 GameActivity_getKeyboard
+00005019 GameActivity_getKeyboardHidden
+00005038 GameActivity_getMcc
+0000504c GameActivity_getMnc
+00005060 GameActivity_getNavigation
+0000507b GameActivity_getNavigationHidden
+0000509c GameActivity_getOrientation
+000050b8 GameActivity_getScreenHeightDp
+000050d7 GameActivity_getScreenLayout
+000050f4 GameActivity_getScreenWidthDp
+00005112 GameActivity_getSmallestScreenWidthDp
+00005138 GameActivity_getTouchscreen
+00005154 GameActivity_getUIMode
+0000516b _ZN5Unity23SetThisThreadAsUIThreadEv
+00005190 pthread_equal
+0000519e pthread_self
+000051ab __android_log_vprint
+000051c0 _ZN5Unity25SetThisThreadAsMainThreadEv
+000051e7 _ZN5Unity13GetUIThreadIdEv
+00005202 _ZN5Unity15GetMainThreadIdEv
+0000521f _ZN5Unity22CheckAndClearExceptionEP7_JNIEnvPKc
+0000524e strlen
+00005255 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi
+0000528c _ZNKSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+000052d9 _ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00005325 _ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000536e _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev
+000053a7 _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev
+000053df _ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev
+00005411 _ZNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+0000545e _ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000054aa _ZNSt6__ndk18ios_base4initEPv
+000054c8 _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+00005501 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+00005542 _ZNKSt6__ndk18ios_base6getlocEv
+00005562 _ZNSt6__ndk15ctypeIcE2idE
+0000557c _ZNKSt6__ndk16locale9use_facetERNS0_2idE
+000055a5 _ZNSt6__ndk16localeD1Ev
+000055bd _ZNSt6__ndk18ios_base5clearEj
+000055db _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+00005619 _ZNSt6__ndk18ios_base33__set_badbit_and_consider_rethrowEv
+00005654 __cxa_end_catch
+00005664 memset
+0000566b Java_com_unity3d_player_UnityPlayerGameActivity_UnityInitializeFromUIThead
+000056b6 Java_com_unity3d_player_UnityPlayerForGameActivity_nativeUnityPlayerForGameActivityInitialized
+00005715 _Z9ErrorLoopP11android_app
+00005730 _Z8MainLoopP11android_app
+0000574a _Z27UnityGameActivityPluginLoadRN5Unity16UnityApplicationE
+00005785 _Z29UnityGameActivityPluginUnloadRN5Unity16UnityApplicationE
+000057c2 android_main
+000057cf _exit
+000057d5 android_app_set_motion_event_filter
+000057f9 GameActivityPointerAxes_enableAxis
+0000581c android_app_swap_input_buffers
+0000583b _ZTVN5Unity22UnityEventProcessInputE
+00005860 _ZN5Unity17UnitySoftKeyboard11OnTextInputEv
+0000588c android_app_clear_key_events
+000058a9 android_app_clear_motion_events
+000058c9 _ZN5Unity22UnityEventProcessInputD0Ev
+000058ef _ZTIN5Unity22UnityEventProcessInputE
+00005914 _ZTSN5Unity22UnityEventProcessInputE
+00005939 _ZN5Unity22UnityKeyEventCallbacksC2Ev
+0000595f _ZN5Unity22UnityKeyEventCallbacks16_GetDeviceIdImplEPv
+00005996 _ZN5Unity22UnityKeyEventCallbacks14_GetSourceImplEPv
+000059cb _ZN5Unity22UnityKeyEventCallbacks14_GetActionImplEPv
+00005a00 _ZN5Unity22UnityKeyEventCallbacks23_GetEventTimeMillisImplEPv
+00005a3e _ZN5Unity22UnityKeyEventCallbacks22_GetDownTimeMillisImplEPv
+00005a7b _ZN5Unity22UnityKeyEventCallbacks13_GetFlagsImplEPv
+00005aaf _ZN5Unity22UnityKeyEventCallbacks17_GetMetaStateImplEPv
+00005ae7 _ZN5Unity22UnityKeyEventCallbacks17_GetModifiersImplEPv
+00005b1f _ZN5Unity22UnityKeyEventCallbacks19_GetRepeatCountImplEPv
+00005b59 _ZN5Unity22UnityKeyEventCallbacks15_GetKeyCodeImplEPv
+00005b8f _ZN5Unity22UnityKeyEventCallbacks19_GetUnicodeCharImplEPv
+00005bc9 _ZN5Unity22UnityKeyEventCallbacks18_GetCharactersImplEPv
+00005c02 _ZN5Unity22UnityKeyEventCallbacksC1Ev
+00005c28 _ZN5Unity25UnityMotionEventCallbacksC2Ev
+00005c51 _ZN5Unity25UnityMotionEventCallbacks16_GetDeviceIdImplEPv
+00005c8b _ZN5Unity25UnityMotionEventCallbacks14_GetSourceImplEPv
+00005cc3 _ZN5Unity25UnityMotionEventCallbacks14_GetActionImplEPv
+00005cfb _ZN5Unity25UnityMotionEventCallbacks23_GetEventTimeMillisImplEPv
+00005d3c _ZN5Unity25UnityMotionEventCallbacks22_GetDownTimeMillisImplEPv
+00005d7c _ZN5Unity25UnityMotionEventCallbacks13_GetFlagsImplEPv
+00005db3 _ZN5Unity25UnityMotionEventCallbacks17_GetMetaStateImplEPv
+00005dee _ZN5Unity25UnityMotionEventCallbacks20_GetActionButtonImplEPv
+00005e2c _ZN5Unity25UnityMotionEventCallbacks19_GetButtonStateImplEPv
+00005e69 _ZN5Unity25UnityMotionEventCallbacks22_GetClassificationImplEPv
+00005ea9 _ZN5Unity25UnityMotionEventCallbacks17_GetEdgeFlagsImplEPv
+00005ee4 _ZN5Unity25UnityMotionEventCallbacks20_GetPointerCountImplEPv
+00005f22 _ZN5Unity25UnityMotionEventCallbacks17_GetPointerIdImplEPvi
+00005f5e _ZN5Unity25UnityMotionEventCallbacks9_GetXImplEPvi
+00005f91 _ZN5Unity25UnityMotionEventCallbacks9_GetYImplEPvi
+00005fc4 _ZN5Unity25UnityMotionEventCallbacks16_GetPressureImplEPvi
+00005fff _ZN5Unity25UnityMotionEventCallbacks18_GetPrecisionXImplEPv
+0000603b _ZN5Unity25UnityMotionEventCallbacks18_GetPrecisionYImplEPv
+00006077 _ZN5Unity25UnityMotionEventCallbacks18_GetTouchMinorImplEPvi
+000060b4 _ZN5Unity25UnityMotionEventCallbacks18_GetTouchMajorImplEPvi
+000060f1 _ZN5Unity25UnityMotionEventCallbacks19_GetHistorySizeImplEPv
+0000612e _ZN5Unity25UnityMotionEventCallbacks33_GetHistoricalEventTimeMillisImplEPvi
+0000617a _ZN5Unity25UnityMotionEventCallbacks27_GetHistoricalAxisValueImplEPviii
+000061c2 _ZN5Unity25UnityMotionEventCallbacks26_GetHistoricalPressureImplEPvii
+00006208 _ZN5Unity25UnityMotionEventCallbacks22_GetHistoricalSizeImplEPvii
+0000624a _ZN5Unity25UnityMotionEventCallbacks19_GetHistoricalXImplEPvii
+00006289 _ZN5Unity25UnityMotionEventCallbacks19_GetHistoricalYImplEPvii
+000062c8 _ZN5Unity25UnityMotionEventCallbacks28_GetHistoricalTouchMinorImplEPvii
+00006310 _ZN5Unity25UnityMotionEventCallbacks28_GetHistoricalTouchMajorImplEPvii
+00006358 _ZN5Unity25UnityMotionEventCallbacks19_GetOrientationImplEPvi
+00006396 _ZN5Unity25UnityMotionEventCallbacks17_GetAxisValueImplEPvii
+000063d3 _ZN5Unity25UnityMotionEventCallbacks12_GetSizeImplEPvi
+0000640a _ZN5Unity25UnityMotionEventCallbacks16_GetToolTypeImplEPvi
+00006445 _ZN5Unity25UnityMotionEventCallbacks14_DeepCloneImplEPvPFS1_mE
+00006484 GameActivityPointerAxes_getAxisValue
+000064a9 GameActivityMotionEvent_getHistoricalAxisValue
+000064d8 memcpy
+000064df _ZN5Unity25UnityMotionEventCallbacksC1Ev
+00006508 _ZN5Unity17UnitySoftKeyboardC2EPNS_16UnityApplicationE
+0000653f _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+0000658a _ZN5Unity17UnitySoftKeyboard12_SetTextImplERKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+000065fb _ZN5Unity17UnitySoftKeyboard21_SetTextSelectionImplERKNS_5RangeE
+0000663c _ZN5Unity17UnitySoftKeyboard9_ShowImplEPKNS0_10ShowParamsEj
+00006678 _ZN5Unity17UnitySoftKeyboard9_HideImplEv
+000066a1 _ZN5Unity17UnitySoftKeyboard22_SetCharacterLimitImplEj
+000066d8 _ZNK5Unity17UnitySoftKeyboard12_GetTextImplEv
+00006706 _ZNK5Unity17UnitySoftKeyboard21_GetTextSelectionImplEv
+0000673d _ZN5Unity17UnitySoftKeyboard15TruncateToLimitEv
+0000676d GameActivity_setTextInputState
+0000678c GameActivity_restartInput
+000067a6 GameActivity_setImeEditorInfo
+000067c4 GameActivity_showSoftInput
+000067df _ZNK5Unity17UnitySoftKeyboard27WaitUntilKeyboardVisibilityEb
+0000681c GameActivity_hideSoftInput
+00006837 _ZN5Unity17UnitySoftKeyboardD2Ev
+00006858 GameActivity_getTextInputState
+00006877 _ZN5Unity17UnitySoftKeyboard20UpdateTextInputStateEv
+000068ac _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm
+000068f8 _ZN5Unity17UnitySoftKeyboard15RestartImeInputEv
+00006928 _ZN5Unity17UnitySoftKeyboard17InputWithinLimitsEPKcjj
+0000695e _ZN5Unity17UnitySoftKeyboard14SubStringBytesEPKcjj
+00006991 _ZNSt6__ndk16chrono12steady_clock3nowEv
+000069b9 _ZNSt6__ndk111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
+00006a14 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcm
+00006a63 ALooper_addFd
+00006a71 AAssetManager_fromJava
+00006a88 ANativeWindow_fromSurface
+00006aa2 ALooper_release
+00006ab2 ANativeWindow_release
+00006ac8 ALooper_forThread
+00006ada AConfiguration_delete
+00006af0 AConfiguration_new
+00006b03 ANativeWindow_getHeight
+00006b1b ALooper_acquire
+00006b2b ALooper_prepare
+00006b3b AConfiguration_fromAssetManager
+00006b5b ANativeWindow_getWidth
+00006b72 ALooper_removeFd
+00006b83 ANativeWindow_acquire
+00006b99 GameActivityEventsInit
+00006bb0 GameActivityKeyEvent_fromJava
+00006bce GameActivityMotionEvent_fromJava
+00006bef GameActivity_getTextInput
+00006c09 GameActivity_onCreate
+00006c1f GameActivity_register
+00006c35 GameActivity_setWindowFlags
+00006c51 GameTextInput_destroy
+00006c67 GameTextInput_getState
+00006c7e GameTextInput_hideIme
+00006c94 GameTextInput_init
+00006ca7 GameTextInput_processEvent
+00006cc2 GameTextInput_processImeInsets
+00006ce1 GameTextInput_restartInput
+00006cfc GameTextInput_setEventCallback
+00006d1b GameTextInput_setInputConnection
+00006d3c GameTextInput_setState
+00006d53 GameTextInput_showIme
+00006d69 Java_com_google_androidgamesdk_GameActivity_initializeNativeCode
+00006daa _ZN10NativeCodeD2Ev
+00006dbe _ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+00006df3 _ZN7_JNIEnv16CallObjectMethodEP8_jobjectP10_jmethodIDz
+00006e2a _ZN7_JNIEnv19CallStaticIntMethodEP7_jclassP10_jmethodIDz
+00006e63 _ZN7gamesdk18GetSystemPropAsIntEPKci
+00006e88 _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv
+00006ecb _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+00006f19 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
+00006f60 _ZNSt6__ndk15mutex4lockEv
+00006f7a _ZNSt6__ndk15mutex6unlockEv
+00006f96 _ZNSt6__ndk15mutexD1Ev
+00006fad __android_log_assert
+00006fc2 __android_log_print
+00006fd6 __cxa_thread_atexit
+00006fea __emutls_get_address
+00006fff __errno
+00007007 __system_property_get
+0000701d atoi
+00007022 close
+00007028 fcntl
+0000702e pipe
+00007033 read
+00007038 strerror
+00007041 write
+00007047 GameActivityMotionEvent_destroy
+00007067 GameActivityPointerAxes_disableAxis
+0000708b _ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+000070bf _ZN7_JNIEnv14CallLongMethodEP8_jobjectP10_jmethodIDz
+000070f4 _ZN7_JNIEnv15CallFloatMethodEP8_jobjectP10_jmethodIDz
+0000712a _Znam
+00007130 android_app_post_exec_cmd
+0000714a android_app_pre_exec_cmd
+00007163 android_app_read_cmd
+00007178 android_app_set_key_event_filter
+00007199 app_dummy
+000071a3 free
+000071a8 pthread_attr_init
+000071ba pthread_attr_setdetachstate
+000071d6 pthread_cond_broadcast
+000071ed pthread_cond_destroy
+00007202 pthread_cond_init
+00007214 pthread_cond_wait
+00007226 pthread_create
+00007235 pthread_mutex_destroy
+0000724b pthread_mutex_init
+0000725e pthread_mutex_lock
+00007271 pthread_mutex_unlock
+00007286 realloc
+0000728e GameTextInput_getImeInsets
+000072a9 GameTextInput_setImeInsetsCallback
+000072cc _ZN13GameTextInput12processEventEP8_jobject
+000072f8 _ZN13GameTextInput12restartInputEv
+0000731b _ZN13GameTextInput13setStateInnerERK18GameTextInputState
+00007354 _ZN13GameTextInput15processCallbackEPvPK18GameTextInputState
+00007391 _ZN13GameTextInput16processImeInsetsEPK5ARect
+000073bf _ZN13GameTextInput16setEventCallbackEPFvPvPK18GameTextInputStateES0_
+00007404 _ZN13GameTextInput18setInputConnectionEP8_jobject
+00007436 _ZN13GameTextInput20setImeInsetsCallbackEPFvPvPK5ARectES0_
+00007471 _ZN13GameTextInput7hideImeEj
+0000748e _ZN13GameTextInput7showImeEj
+000074ab _ZN13GameTextInput8setStateERK18GameTextInputState
+000074de _ZN13GameTextInputC1EP7_JNIEnvj
+000074fe _ZN13GameTextInputC2EP7_JNIEnvj
+0000751e _ZN13GameTextInputD1Ev
+00007535 _ZN13GameTextInputD2Ev
+0000754c _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+0000757a _ZNK13GameTextInput11stateToJavaERK18GameTextInputState
+000075b2 _ZNK13GameTextInput13stateFromJavaEP8_jobjectPFvPvPK18GameTextInputStateES2_
+000075ff currentState_fromJava
+00007615 currentState_toJava
+00007629 memmove
+00007631 s_gameTextInput
+00007641 _ZN7gamesdk13GetSystemPropEPKcS1_
+00007663 _ZN7gamesdk19GetSystemPropAsBoolEPKcb
+00007689 _ZN7gamesdk19getSystemPropViaGetEPKcS1_
+000076b1 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm
+00007704 strtoll
+0000770c __sF
+00007711 fprintf
+00007719 fflush
+00007720 pthread_rwlock_wrlock
+00007736 pthread_rwlock_unlock
+0000774c dl_iterate_phdr
+0000775c pthread_rwlock_rdlock
+00007772 getpid
+00007779 syscall
+00007781 fwrite
+00007788 libdl.so
+00007791 LIBC
+00007796 libc.so
+0000779e libandroid.so
+000077ac liblog.so
+000077b6 libc++_shared.so
+000077c7 libm.so
+000077cf libgame.so
+0000aa81 fv*EK
+0000aa8d Olibunity.so
+0000aa9a     EditorAction %s
+0000aaae APP_CMD_RESUME
+0000aabd Unable to find class %s
+0000aad5 Ljava/lang/String;
+0000aaec Couldn't acquire JNIEnv from android_app instance, result: %d
+0000ab2a Starting Game Loop
+0000ab3d UnityApplication was not yet created!
+0000ab63 com/google/androidgamesdk/GameActivity
+0000ab8a !gInsetsClassInfo.left
+0000aba1 hardKeyboardHidden
+0000abb4 captionBar
+0000abbf terminateNativeCode
+0000abd3 Invalid pointer index %d
+0000abec GameTextInput
+0000abfa (Ljava/lang/String;IIII)V
+0000ac14 libunwind: %s - %s
+0000ac28 DW_EH_PE_funcrel pointer encoding not supported
+0000ac60 SoftKeyboard: Invalid size of ShowParams, expected %d, was %d
+0000ac9e GameActivity_register
+0000acb4 ()Ljava/lang/String;
+0000acc9 onPauseNative
+0000acd7 Truncated reading work fd: %d
+0000acf5 getAction
+0000acff (II)F
+0000ad05 com/google/androidgamesdk/gametextinput/InputConnection
+0000ad3d getSavedFloatRegister
+0000ad57 GameActivity Package Version '%d.%d.%d'
+0000ad7f ()Landroidx/core/graphics/Insets;
+0000ada1 !gWindowInsetsCompatTypeClassInfo.methods[i]
+0000adce onSurfaceCreatedNative
+0000ade5 onSoftwareKeyboardVisibilityChangedNative
+0000ae0f getClassification
+0000ae21 getToolType
+0000ae2d composingRegionEnd
+0000ae40 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+0000ae87 IME_ACTION_DONE
+0000ae9b (I)Landroidx/core/graphics/Insets;
+0000aebe !gGameActivityClassInfo.getWaterfallInsets
+0000aee9 touchscreen
+0000aef5 onTrimMemoryNative
+0000af08 onEditorActionNative
+0000af1d setTextInputState
+0000af2f getHistorySize
+0000af3e libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+0000afa4 CIE version is not 1 or 3
+0000afbe APP_CMD_TERM_WINDOW
+0000afd2 !gInsetsClassInfo.right
+0000afea !gConfigurationClassInfo.navigation
+0000b00e onSurfaceDestroyedNative
+0000b027 (I)F
+0000b02c threaded_app
+0000b039 onTouchEvent: out of memory
+0000b055 setState
+0000b05e _Unwind_Resume() can't return
+0000b07c libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+0000b0be Can't binary search on variable length encoded data.
+0000b0fb Failed to load libunity.so
+0000b116 IME_ACTION_NONE
+0000b126 Timeout while waiting for keyboard to become visible
+0000b15b setWindowFlags
+0000b16a getWindowInsets
+0000b17a !gConfigurationClassInfo.fontWeightAdjustment
+0000b1a8 getXPrecision
+0000b1b6 getUnicodeChar
+0000b1c5 setSoftKeyboardActive
+0000b1db restartInput
+0000b1e8 getULEB128
+0000b1f9 APP_CMD_WINDOW_RESIZED
+0000b210 APP_CMD_KEY_EVENT
+0000b223 !gGameActivityClassInfo.setWindowFlags
+0000b24a !gGameActivityClassInfo.getWindowInsets
+0000b272 !gConfigurationClassInfo.screenWidthDp
+0000b299 androidx/core/view/WindowInsetsCompat$Type
+0000b2c4 onSurfaceChangedNative
+0000b2db (JLandroid/view/Surface;III)V
+0000b2f9 getEventTime
+0000b306 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0000b350 FDE has zero length
+0000b364 GetUIThreadJNIEnv must be called from the UI thread
+0000b398 !gInsetsClassInfo.top
+0000b3ae (JZ)V
+0000b3b4 (JLandroid/view/Surface;)V
+0000b3cf Unknown work command: %d
+0000b3e8 getPointerCount
+0000b3f8 truncated uleb128 expression
+0000b415 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0000b45e Unknown insets type: %d
+0000b476 APP_CMD_EDITOR_ACTION
+0000b48c !gGameActivityClassInfo.setImeEditorInfoFields
+0000b4bb !gConfigurationClassInfo.densityDpi
+0000b4df Truncated writing to work fd: %d
+0000b500 getMetaState
+0000b50d getRawX
+0000b515 unsupported arm64 register
+0000b530 unsupported restore location for register
+0000b55a getTableEntrySize
+0000b56c !activity_class
+0000b57c !gConfigurationClassInfo.mcc
+0000b599 navigation
+0000b5a4 onWindowInsetsChangedNative
+0000b5c0 Could not make main work read pipe non-blocking: %s
+0000b5f4 SDK version: %d
+0000b60c getKeyCode
+0000b617 getScanCode
+0000b623 truncated sleb128 expression
+0000b640 DW_OP_piece not implemented
+0000b666 UnityEvents::Invoke must be called from game main loop thread.
+0000b6a5 APP_CMD_SOFTWARE_KB_VIS_CHANGED
+0000b6c7 Couldn't create Unity application instance
+0000b6f2 Previous input buffer was not cleaned up
+0000b71b !gConfigurationClassInfo.hardKeyboardHidden
+0000b747 !gConfigurationClassInfo.navigationHidden
+0000b771 !gConfigurationClassInfo.orientation
+0000b796 screenLayout
+0000b7a3 uiMode
+0000b7aa (JI)V
+0000b7b0 ************** mainWorkCallback *********
+0000b7da (Lcom/google/androidgamesdk/gametextinput/State;)V
+0000b80d evaluateExpression
+0000b823     Keyboard Visible = %s
+0000b83d IME_ACTION_NEXT
+0000b855 navigationBars
+0000b864 (JLandroid/content/res/Configuration;)V
+0000b88c Invalid axis %d
+0000b89c getModifiers
+0000b8a9 text
+0000b8ae unwind_phase2
+0000b8bc malformed uleb128 expression
+0000b8d9 unsupported restore location for float register
+0000b913 UI thread id was already set
+0000b930 UI thread id was not yet set
+0000b94d APP_CMD_STOP
+0000b95a onResumeNative
+0000b969 Failed reading work fd: %s
+0000b984 getRawY
+0000b98c getHistoricalAxisValue
+0000b9a3 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+0000b9e4 DW_EH_PE_aligned pointer encoding not supported
+0000ba14 getSavedRegister
+0000ba29 Failed to acquire UnityShutdown function
+0000ba52 Handle cmd %s
+0000ba60 True
+0000ba65 (J)[B
+0000ba6b android/view/MotionEvent
+0000ba84 getYPrecision
+0000ba92 getRegister
+0000baa6 FDE is really a CIE
+0000baba UnityShutdown
+0000baca displayCutout
+0000bad8 onConfigurationChangedNative
+0000baf5 (JIIII)V
+0000bafe could not create pipe: 
+0000bb16 setImeEditorInfo
+0000bb27 Axis %d must be enabled before it can be accessed.
+0000bb5a getActionButton
+0000bb6a UI and Main thread ids should be different
+0000bb95 IME_ACTION_GO
+0000bba3 IME_ACTION_PREVIOUS
+0000bbb7 !gConfigurationClassInfo.keyboard
+0000bbd9 !gConfigurationClassInfo.uiMode
+0000bbf9 !windowInsetsCompatType_class
+0000bc17 initializeNativeCode
+0000bc2c (JLcom/google/androidgamesdk/gametextinput/State;)V
+0000bc60 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+0000bca6 Quit requested
+0000bcb5 APP_CMD_WINDOW_REDRAW_NEEDED
+0000bcd2 APP_CMD_LOST_FOCUS
+0000bce5 !gConfigurationClassInfo.screenLayout
+0000bd0b (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetManager;[BLandroid/content/res/Configuration;)J
+0000bd8c onSurfaceRedrawNeededNative
+0000bda8 getSource
+0000bdb2 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+0000be03 UnityApplication::DestroyInstance
+0000be25 Main thread id was already set
+0000be44 APP_CMD_SAVE_STATE
+0000be57 UnityPlayerForGameActivity java object should be initialized before android_main call.
+0000beae getWaterfallInsets
+0000bec1 left
+0000bec6 bottom
+0000becd !gConfigurationClassInfo.mnc
+0000beea statusBars
+0000bef5 Failed writing to work fd: %s
+0000bf13 onStopNative
+0000bf20 GameActivity GetJavaVM failed
+0000bf3e getFlags
+0000bf47 unknown pointer encoding
+0000bf60 getSLEB128
+0000bf6b DW_OP_deref_size with bad size
+0000bf91 APP_CMD_GAINED_FOCUS
+0000bfa6 APP_CMD_START
+0000bfb4 GameActivity
+0000bfc1 !gConfigurationClassInfo.fontScale
+0000bfe4 fontWeightAdjustment
+0000bff9 (J)V
+0000bffe onTouchEventNative
+0000c011 onKeyDownNative
+0000c021 setInputConnectionNative
+0000c03a getDownTime
+0000c046 getEdgeFlags
+0000c053 getHistoricalEventTime
+0000c06a could not create pipe: %s
+0000c084 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+0000c0e7 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+0000c14f !insets_class
+0000c15d !gInsetsClassInfo.bottom
+0000c176 smallestScreenWidthDp
+0000c18c Unable to find static method %s
+0000c1ac No data on command pipe!
+0000c1c5 Failure writing android_app cmd: %s
+0000c1e9 onKey: out of memory
+0000c1fe selectionStart
+0000c20d setRegister
+0000c21d False
+0000c223 APP_CMD_LOW_MEMORY
+0000c236 Unable to find method %s
+0000c251 keyboard
+0000c25a !gConfigurationClassInfo.smallestScreenWidthDp
+0000c289 <init>
+0000c290 libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+0000c2d8 DW_EH_PE_textrel pointer encoding not supported
+0000c308 DWARF opcode not implemented
+0000c330     HasWindow = %d, HasFocus = %d
+0000c352 Invalid initialization status: %d
+0000c374 (I)I
+0000c379 getRepeatCount
+0000c388 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+0000c3e7 vector
+0000c3ee APP_CMD_CONTENT_RECT_CHANGED
+0000c40b APP_CMD_WINDOW_INSETS_CHANGED
+0000c42d !gConfigurationClassInfo.colorMode
+0000c450 fontScale
+0000c45e Unable to retrieve native ALooper
+0000c480 (ZI)V
+0000c490 unknown register
+0000c4a1 Exception while running %s
+0000c4bc Unity
+0000c4c2 UNKNOWN
+0000c4ca setImeEditorInfoFields
+0000c4e5 getDlError
+0000c4f0 android/view/KeyEvent
+0000c506 DW_EH_PE_datarel is invalid with a datarelBase of 0
+0000c53a Unknown DWARF encoding for search table.
+0000c567 Starting Error Loop
+0000c57b finish
+0000c582 !configuration_class
+0000c597 (JLandroid/view/MotionEvent;IIIIIJJIIIIIIFF)Z
+0000c5c5 (JLandroid/view/KeyEvent;)Z
+0000c5e1 getDeviceId
+0000c5ed getAxisValue
+0000c5fa selectionEnd
+0000c607 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+0000c65b Main thread id was not yet set
+0000c67a APP_CMD_DESTROY
+0000c68a Timeout while waiting for keyboard to become hidden.
+0000c6bf androidx/core/graphics/Insets
+0000c6dd right
+0000c6e3 ro.build.version.sdk
+0000c6f8 Native registration unable to find class '%s'; aborting...
+0000c733 Could not make main work write pipe non-blocking: %s
+0000c768 Invalid history index %d
+0000c781 (III)F
+0000c788 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0000c7c8 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+0000c814 UnityApplication::CreateInstance
+0000c835 Failed to acquire UnityInitialize function
+0000c860 UnityInitialize
+0000c870 !gGameActivityClassInfo.finish
+0000c88f (II)V
+0000c895 android/content/res/Configuration
+0000c8b7 screenHeightDp
+0000c8c6 !gConfigurationClassInfo.screenHeightDp
+0000c8ee !gConfigurationClassInfo.touchscreen
+0000c913 onStartNative
+0000c921 getButtonState
+0000c930 (I)J
+0000c935 _Unwind_Resume
+0000c944 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+0000c988 CIE ID is not zero
+0000c99b GetMainThreadJNIEnv must be called from the main thread
+0000c9d3 APP_CMD_PAUSE
+0000c9e1 APP_CMD_TOUCH_EVENT
+0000c9f5 Invalid pointerIndex (%d), must be less than %d
+0000ca25 (III)V
+0000ca2e Unable to find field %s
+0000ca46 densityDpi
+0000ca51 !gConfigurationClassInfo.keyboardHidden
+0000ca79 orientation
+0000ca85 systemBars
+0000ca90 onSaveInstanceStateNative
+0000caaa (JLcom/google/androidgamesdk/gametextinput/InputConnection;)V
+0000cae8 onContentRectChangedNative
+0000cb03 Can't find gametextinput.State constructor
+0000cb2e CIE start does not match
+0000cb47 IME_ACTION_SEARCH
+0000cb59 IME_ACTION_SEND
+0000cb69 screenWidthDp
+0000cb77 systemGestures
+0000cb86 Configuration.get
+0000cb98 com/google/androidgamesdk/gametextinput/State
+0000cbc6 composingRegionStart
+0000cbe8 onKeyUpNative
+0000cbf6 onTextInputEventNative
+0000cc0d libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+0000cc52 getEncodedP
+0000cc5e DW_OP_fbreg not implemented
+0000cc86 APP_CMD_INIT_WINDOW
+0000cc9a APP_CMD_CONFIG_CHANGED
+0000ccb1 IME_ACTION_UNSPECIFIED
+0000ccc8 Quitting process
+0000ccd9 colorMode
+0000cce3 keyboardHidden
+0000ccf2 navigationHidden
+0000cd03 mandatorySystemGestures
+0000cd1b tappableElement
+0000cd2b clazz == nullptr
+0000cd3c RegisterNatives failed for '%s'; aborting...
+0000cd69 onWindowFocusChangedNative
+0000cd84 getPointerId
+0000cd91 Warning: called GameTextInput_init twice without calling GameTextInput_destroy
+0000cde0 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+0000ce2a NSt6__ndk117bad_function_callE
+0000ce4a N5Unity41UnityEventProcessApplicationCommandBeforeE
+0000ce7e N5Unity10UnityEventE
+0000ce93 N5Unity40UnityEventProcessApplicationCommandAfterE
+0000cec6 N5Unity26UnityEventFirstSceneLoadedE
+0000ceeb N5Unity19UnityEventLoopAfterE
+0000cf7c N5Unity22UnityEventProcessInputE
+0000cfcd %+^bf?
+00010a69 zPLR
+0001120c hbE9h
+000113ec hbE9h
+00011651 bE9h
+00011c08 +ih8J	
+00011f85 80.J}
+0001206f Th*@
+0001207f 5x"@
+00012769 80.J
+00012b71 `@9H
+00012c5d 80.	
+0001304d 80.	
+00013bc5 `E9	
+00014307 6`6@
+000146f4 ?k78i
+0001470f r(1@
+00014b73 N)}X
+00014fb3 RhR(
+00015007 RhR(
+0001505b RhR(
+000150af RhR(
+0001511f RhR(
+00015177 RhR(
+00015247 RhR(
+000152af RhR(
+00015307 RhR(
+0001535f RhR(
+00015397 Ti:@
+00015657 r 	@
+00015660 *0@)
+0001582f R 	@
+0001599f 6a"@
+0001731e @9(!
+0001735a @9h!
+00017386 @9("
+0001744f 5`VA
+00017588 hBD9
+00018184 hBF9H
+00018193 7hBD9
+000181c8 hBD9
+00018717 6`RA
+00018750 +ih8J	
+00018a57 R	I 8
+00018a84 )ih8
+00018b38 kIh8
+00018dc7 4b&F
+00018dff S	}@
+00018f23 4B+F
+00019a2c +ih8J	
+00019bdf R	Q	
+00019f73 9`&A
+00019fe7 Ri2@
+0001a00b T`2@
+0001a027 RiJ@
+0001a04b T`J@
+0001b77b T`n@
+0001ba9f Qh}`
+0001bab5 H*8	
+0001ca7a @9	{
+0001caf9 1Mzk
+0001d4df 4h~@
+0001d98d zjxk	
+0001d99d b@9`
+0001da2c `1Jz
+0001da3a 	*H}
+0001dabc `1Nz
+0001dd1f *i}	
+0001dd93 <	|	
+0001de55 q@9h
+0001e0c8 `1Nz
+0001e1ff <	|	
+0001e965 1KzJ
+0001e9bd %@x(
+0001ee4c M{kx
+0001ef13 QhN(
+0001ef63 ThN+
+0001efe5 1Kz)
+0001f125 1KzJ
+0001f1ea @9I	
+0001f27a @9I	
+0001f4c7 ThN 
+0001f4ef TjN 
+0001fabb Tl	@
+0001fd03 TIC@
+000222a9 Linker: LLD 18.0.3
+000222bc Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+0002235a Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+00022412 Android (12470979, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+000224b1 .init_array
+000224bd .fini_array
+000224c9 .text
+000224cf .got
+000224d4 .comment
+000224dd .note.android.ident
+000224f1 .got.plt
+000224fa .rela.plt
+00022504 .bss
+00022509 .dynstr
+00022511 .eh_frame_hdr
+0002251f .gnu.version_r
+0002252e .data.rel.ro
+0002253b .rela.dyn
+00022545 .gnu.version
+00022552 .dynsym
+0002255a .gnu.hash
+00022564 .relro_padding
+00022573 .eh_frame
+0002257d .gcc_except_table
+0002258f .note.gnu.build-id
+000225a2 .dynamic
+000225ab .shstrtab
+000225b5 .rodata
+000225bd .data

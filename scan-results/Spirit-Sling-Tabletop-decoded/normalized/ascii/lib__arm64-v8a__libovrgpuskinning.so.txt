@@ -1,0 +1,655 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+000019ae {s<Zg7
+000019ba ?BLi
+000019ed 377J
+00001a2c FQ8D
+00001a38 ``0#
+00001a49 (cpV
+00001a4e q/:]
+00001a95 Z $@
+00001b21 ZM6|
+00001b9f ,1Nt
+00001bb1 e&]D
+00001bde 6HNX
+00001c11 __cxa_finalize
+00001c20 __cxa_atexit
+00001c2d __register_atfork
+00001c3f ovrGpuSkinning_Initialize
+00001c59 _ZN3OVR11GpuSkinning11AtlasPacker8shutdownEv
+00001c86 _ZN3OVR11GpuSkinning11AtlasPacker10initializeEv
+00001cb6 ovrGpuSkinning_Shutdown
+00001cce ovrGpuSkinning_SkinnerCreate
+00001ceb ovrGpuSkinning_SkinnerDestroy
+00001d09 ovrGpuSkinning_SkinnerUpdate
+00001d26 ovrGpuSkinning_AtlasPackerCreate
+00001d47 _ZN3OVR11GpuSkinning11AtlasPacker12StaticCreateEijji
+00001d7c ovrGpuSkinning_AtlasPackerDestroy
+00001d9e _ZN3OVR11GpuSkinning11AtlasPacker13StaticDestroyEi
+00001dd1 ovrGpuSkinning_AtlasPackerAddBlock
+00001df4 _ZN3OVR11GpuSkinning11AtlasPacker24GetStaticInstancePointerEi
+00001e32 _ZN3OVR11GpuSkinning11AtlasPacker8addBlockEjj
+00001e60 __stack_chk_fail
+00001e71 ovrGpuSkinning_AtlasPackerRemoveBlock
+00001e97 _ZN3OVR11GpuSkinning11AtlasPacker11removeBlockERKNS_15TypesafeNumberTIiNS0_5Types10HandleEnumELS4_n1EEE
+00001eff ovrGpuSkinning_AtlasPackerResultsForBlock
+00001f29 _ZNK3OVR11GpuSkinning11AtlasPacker22packingResultsForBlockERKNS_15TypesafeNumberTIiNS0_5Types10HandleEnumELS4_n1EEE
+00001f9d ovrGpuSkinning_MorphTargetEncodeMeshVertToAffectedVert
+00001fd4 _ZN3OVR11GpuSkinning18MorphTargetEncoder28EncodeMeshVertToAffectedVertENS0_5Types17EncodingPrecisionEjjjPPKNS_7Vector3IfEES8_Pi
+00002054 ovrGpuSkinning_MorphTargetEncodeMeshVertToAffectedVertWithTangents
+00002097 _ZN3OVR11GpuSkinning18MorphTargetEncoder28EncodeMeshVertToAffectedVertENS0_5Types17EncodingPrecisionEjjjPPKNS_7Vector3IfEES8_S8_Pi
+0000211a ovrGpuSkinning_MorphTargetEncodeTextureData
+00002146 _ZN3OVR11GpuSkinning18MorphTargetEncoder17EncodeTextureDataERKNS1_11TextureDescENS0_5Types17EncodingPrecisionEPKiPPKNS_7Vector3IfEESD_PSt4byte
+000021d5 ovrGpuSkinning_MorphTargetEncodeTextureDataWithTangents
+0000220d _ZN3OVR11GpuSkinning18MorphTargetEncoder17EncodeTextureDataERKNS1_11TextureDescENS0_5Types17EncodingPrecisionEPKiPPKNS_7Vector3IfEESD_SD_PSt4byte
+0000229f ovrGpuSkinning_MorphTargetGetBufferMetaData
+000022cb _ZN3OVR11GpuSkinning18MorphTargetEncoder31GetMeshVertexReorderingMetaDataENS0_5Types17EncodingPrecisionEjjPPKNS_7Vector3IfEES8_S8_PKNS_7Vector4IfEEPt
+00002361 ovrGpuSkinning_MorphTargetGetBufferMetaDataWithTangents
+00002399 ovrGpuSkinning_MorphTargetEncodeBufferData
+000023c4 _ZN3OVR11GpuSkinning18MorphTargetEncoder16EncodeBufferDataERKNS1_24BufferDescReorderedVertsEPKtPPKNS_7Vector3IfEESB_SB_PSt4byte
+00002444 ovrGpuSkinning_MorphTargetEncodeBufferDataWithTangents
+0000247b ovrGpuSkinning_IndirectionTextureInfoTexCoordsSizeInBytes
+000024b5 _ZN3OVR11GpuSkinning22IndirectionTextureInfo20texCoordsSizeInBytesEv
+000024fa ovrGpuSkinning_IndirectionTextureInfoTexelSizeInBytes
+00002530 _ZN3OVR11GpuSkinning22IndirectionTextureInfo16texelSizeInBytesEv
+00002571 ovrGpuSkinning_IndirectionTextureInfoPopulateTextureCoordinateArrays
+000025b6 _ZN3OVR11GpuSkinning22IndirectionTextureInfo31populateTextureCoordinateArraysERKNS_4RectIiEEjjjRKNS_7Vector3IfEEjjPKiRNSt6__ndk16vectorIfNSC_9allocatorIfEEEESH_
+00002657 memmove
+0000265f ovrGpuSkinning_IndirectionTextureInfoPopulateTextureCoordinateArraysWithTangents
+000026b0 _ZN3OVR11GpuSkinning22IndirectionTextureInfo31populateTextureCoordinateArraysERKNS_4RectIiEEjjjRKNS_7Vector3IfEEjjPKiRNSt6__ndk16vectorIfNSC_9allocatorIfEEEESH_SH_
+00002754 ovrGpuSkinning_IndirectionTextureInfoPopulateTextureData
+0000278d _ZN3OVR11GpuSkinning22IndirectionTextureInfo19populateTextureDataEjjjPKfS3_
+000027d9 ovrGpuSkinning_IndirectionTextureInfoPopulateTextureDataWithTangents
+0000281e _ZN3OVR11GpuSkinning22IndirectionTextureInfo19populateTextureDataEjjjPKfS3_S3_
+0000286d ovrGpuSkinning_NeutralPoseTextureDesc
+00002893 _ZN3OVR11GpuSkinning18NeutralPoseEncoder14GetTextureDescEjjNS0_5Types13TangentsUsageE
+000028e9 ovrGpuSkinning_NeutralPoseEncodeTextureData
+00002915 _ZN3OVR11GpuSkinning18NeutralPoseEncoder17EncodeTextureDataERKNS0_5Types11TextureDescEjPKNS_7Vector3IfEES9_PKNS_7Vector4IfEEPhj
+00002995 ovrGpuSkinning_NeutralPoseEncodeBufferData
+000029c0 _ZN3OVR11GpuSkinning18NeutralPoseEncoder16EncodeBufferDataEjPKNS_7Vector3IfEES5_PKNS_7Vector4IfEENS0_5Types17EncodingPrecisionEbPhj
+00002a44 ovrGpuSkinning_NeutralPositionsBufferDesc
+00002a6e _ZN3OVR11GpuSkinning18NeutralPoseEncoder24IsPositionsEncodingValidENS0_5Types17EncodingPrecisionE
+00002ad0 _ZN3OVR11GpuSkinning18NeutralPoseEncoder22GetPositionsBufferDescEjNS0_5Types17EncodingPrecisionE
+00002b31 ovrGpuSkinning_NeutralNormalsBufferDesc
+00002b59 _ZN3OVR11GpuSkinning18NeutralPoseEncoder22IsNormalsEncodingValidENS0_5Types17EncodingPrecisionE
+00002bb9 _ZN3OVR11GpuSkinning18NeutralPoseEncoder20GetNormalsBufferDescEjNS0_5Types17EncodingPrecisionE
+00002c18 ovrGpuSkinning_NeutralTangentsBufferDesc
+00002c41 _ZN3OVR11GpuSkinning18NeutralPoseEncoder23IsTangentsEncodingValidENS0_5Types17EncodingPrecisionE
+00002ca2 _ZN3OVR11GpuSkinning18NeutralPoseEncoder21GetTangentsBufferDescEjNS0_5Types17EncodingPrecisionE
+00002d02 ovrGpuSkinning_EncodeNeutralPositionsBufferData
+00002d32 _ZN3OVR11GpuSkinning18NeutralPoseEncoder25EncodePositionsBufferDataERKNS0_5Types10BufferDescEPKNS_7Vector3IfEEPKtPSt4byte
+00002dac ovrGpuSkinning_EncodeNeutralNormalsBufferData
+00002dda _ZN3OVR11GpuSkinning18NeutralPoseEncoder23EncodeNormalsBufferDataERKNS0_5Types10BufferDescEPKNS_7Vector3IfEEPKtPSt4byte
+00002e52 ovrGpuSkinning_EncodeNeutralTangentsBufferData
+00002e81 _ZN3OVR11GpuSkinning18NeutralPoseEncoder24EncodeTangentsBufferDataERKNS0_5Types10BufferDescEPKNS_7Vector4IfEEPKtPSt4byte
+00002efa ovrGpuSkinning_JointTextureDesc
+00002f1a _ZN3OVR11GpuSkinning12JointEncoder14GetTextureDescEjj
+00002f50 ovrGpuSkinning_JointEncodeTextureData
+00002f76 _ZN3OVR11GpuSkinning12JointEncoder17EncodeTextureDataERKNS0_5Types11TextureDescEjPKNS_7Vector4ItEEPKNS6_IfEEPh
+00002fe5 ovrGpuSkinning_JointWeightsBufferDesc
+0000300b _ZN3OVR11GpuSkinning12JointEncoder25GetJointWeightsBufferDescEj
+0000304b ovrGpuSkinning_JointIndicesBufferDesc
+00003071 _ZN3OVR11GpuSkinning12JointEncoder36IsJointIndicesEncodingPrecisionValidENS0_5Types17EncodingPrecisionE
+000030d9 _ZN3OVR11GpuSkinning12JointEncoder25GetJointIndicesBufferDescEjNS0_5Types17EncodingPrecisionE
+00003137 ovrGpuSkinning_EncodeJointWeightsBufferData
+00003163 _ZN3OVR11GpuSkinning12JointEncoder28EncodeJointWeightsBufferDataERKNS0_5Types10BufferDescEPKNS_7Vector4IfEEPKtPSt4byte
+000031da ovrGpuSkinning_EncodeJointIndicesBufferData
+00003206 _ZN3OVR11GpuSkinning12JointEncoder28EncodeJointIndicesBufferDataERKNS0_5Types10BufferDescEPKNS_7Vector4ItEEPKtPSt4byte
+0000327d _ZN3OVR11GpuSkinning11AtlasPackerC2EjjNS1_16PackingAlgorithmE
+000032bb _ZTVN3OVR11GpuSkinning11AtlasPacker4ImplE
+000032e5 _ZN3OVR11GpuSkinning11AtlasPackerD2Ev
+0000330b _ZN3rbp12ShelfBinPackC1Eiibb
+00003328 _ZN3rbp15MaxRectsBinPackC1Eiib
+00003347 _ZN3OVR11GpuSkinning25SequentialHandleGeneratorD1Ev
+0000337b _ZN3OVR11GpuSkinning5Types14kInvalidHandleE
+000033a7 _ZN3OVR11GpuSkinning25SequentialHandleGenerator18getAvailableHandleEv
+000033ed _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN3OVR11GpuSkinning5Types20TexArrayLayoutResultEEENS_22__unordered_map_hasherIiS6_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIiJNS_4pairIKiS5_EEEEENSJ_INS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_
+00003546 _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN3OVR11GpuSkinning5Types20TexArrayLayoutResultEEENS_22__unordered_map_hasherIiS6_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEERKT_
+00003669 _ZN3OVR11GpuSkinning11AtlasPacker10sInstancesE
+00003698 _ZN3OVR11GpuSkinning11AtlasPackerC1EjjNS1_16PackingAlgorithmE
+000036d6 _ZNSt6__ndk16__treeINS_12__value_typeIKiNS_10unique_ptrIN3OVR11GpuSkinning11AtlasPackerENS_14default_deleteIS6_EEEEEENS_19__map_value_compareIS2_SA_NS_4lessIS2_EELb1EEENS_9allocatorISA_EEE21__emplace_unique_implIJRS2_S9_EEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEEDpOT_
+000037fb _ZN3OVR11GpuSkinning11AtlasPackerD1Ev
+00003821 _ZNSt6__ndk16__treeINS_12__value_typeIKiNS_10unique_ptrIN3OVR11GpuSkinning11AtlasPackerENS_14default_deleteIS6_EEEEEENS_19__map_value_compareIS2_SA_NS_4lessIS2_EELb1EEENS_9allocatorISA_EEE14__erase_uniqueIiEEmRKT_
+000038f7 _ZN3OVR11GpuSkinning11AtlasPacker17GetStaticInstanceEi
+0000392e _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN3OVR11GpuSkinning5Types20TexArrayLayoutResultEEENS_22__unordered_map_hasherIiS6_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE8__rehashILb1EEEvm
+00003a26 _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN3OVR11GpuSkinning5Types20TexArrayLayoutResultEEENS_22__unordered_map_hasherIiS6_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb1EEEvm
+00003b22 _ZN3OVR11GpuSkinning25SequentialHandleGeneratorC1Ev
+00003b56 _ZN3rbp12ShelfBinPack6InsertEiiNS0_20ShelfChoiceHeuristicE
+00003b91 _ZN3rbp15MaxRectsBinPack6InsertEiiNS0_23FreeRectChoiceHeuristicE
+00003bd2 _ZTSN3OVR11GpuSkinning11AtlasPacker4ImplE
+00003bfc _ZTIN3OVR11GpuSkinning11AtlasPacker4ImplE
+00003c26 memset
+00003c2d _ZN3OVR11GpuSkinning5Utils29findOptimialTextureDimensionsEjjj
+00003c6b _ZN3OVR7Vector3IfE4ZEROE
+00003c84 _ZN3OVR11GpuSkinning5Utils31getTextureHeightToFitVertexInfoEjjj
+00003cc4 _ZN3OVR11GpuSkinning25SequentialHandleGeneratorC2Ev
+00003cf8 _ZN3OVR11GpuSkinning25SequentialHandleGeneratorD2Ev
+00003d2c _ZN3OVR11GpuSkinning25SequentialHandleGenerator12returnHandleERKNS_15TypesafeNumberTIiNS0_5Types10HandleEnumELS4_n1EEE
+00003da3 _ZN3rbp17GuillotineBinPackC2Ev
+00003dc2 _ZN3rbp17GuillotineBinPackC2Eii
+00003de2 _ZN3rbp17GuillotineBinPack4InitEii
+00003e05 _ZN3rbp17GuillotineBinPack6InsertERNSt6__ndk16vectorINS_8RectSizeENS1_9allocatorIS3_EEEEbNS0_23FreeRectChoiceHeuristicENS0_24GuillotineSplitHeuristicE
+00003e9c _ZN3rbp17GuillotineBinPack16ScoreByHeuristicEiiRKNS_4RectENS0_23FreeRectChoiceHeuristicE
+00003ef5 _ZN3rbp17GuillotineBinPack24SplitFreeRectByHeuristicERKNS_4RectES3_NS0_24GuillotineSplitHeuristicE
+00003f58 _ZN3rbp17GuillotineBinPack13MergeFreeListEv
+00003f84 _ZN3rbp4FitsERKNS_8RectSizeERKNS_4RectE
+00003fac _ZN3rbp13FitsPerfectlyERKNS_8RectSizeERKNS_4RectE
+00003fde _ZN3rbp17GuillotineBinPack6InsertEiibNS0_23FreeRectChoiceHeuristicENS0_24GuillotineSplitHeuristicE
+00004041 _ZN3rbp17GuillotineBinPack22FindPositionForNewNodeEiiNS0_23FreeRectChoiceHeuristicEPi
+00004097 _ZNK3rbp17GuillotineBinPack9OccupancyEv
+000040bf _ZN3rbp17GuillotineBinPack16ScoreBestAreaFitEiiRKNS_4RectE
+000040fa _ZN3rbp17GuillotineBinPack21ScoreBestShortSideFitEiiRKNS_4RectE
+0000413a _ZN3rbp17GuillotineBinPack20ScoreBestLongSideFitEiiRKNS_4RectE
+00004179 _ZN3rbp17GuillotineBinPack17ScoreWorstAreaFitEiiRKNS_4RectE
+000041b5 _ZN3rbp17GuillotineBinPack22ScoreWorstShortSideFitEiiRKNS_4RectE
+000041f6 _ZN3rbp17GuillotineBinPack21ScoreWorstLongSideFitEiiRKNS_4RectE
+00004236 _ZN3rbp17GuillotineBinPack22SplitFreeRectAlongAxisERKNS_4RectES3_b
+00004279 _ZN3rbp17GuillotineBinPackC1Ev
+00004298 _ZN3rbp17GuillotineBinPackC1Eii
+000042b8 _ZN3rbp15MaxRectsBinPackC2Ev
+000042d5 _ZN3rbp15MaxRectsBinPackC2Eiib
+000042f4 _ZN3rbp15MaxRectsBinPack4InitEiib
+00004316 _ZNK3rbp15MaxRectsBinPack38FindPositionForNewNodeBestShortSideFitEiiRiS1_
+00004360 _ZNK3rbp15MaxRectsBinPack32FindPositionForNewNodeBottomLeftEiiRiS1_
+000043a4 _ZNK3rbp15MaxRectsBinPack34FindPositionForNewNodeContactPointEiiRi
+000043e7 _ZNK3rbp15MaxRectsBinPack37FindPositionForNewNodeBestLongSideFitEiiRiS1_
+00004430 _ZNK3rbp15MaxRectsBinPack33FindPositionForNewNodeBestAreaFitEiiRiS1_
+00004475 _ZN3rbp15MaxRectsBinPack13SplitFreeNodeENS_4RectERKS1_
+000044ac _ZN3rbp15MaxRectsBinPack13PruneFreeListEv
+000044d6 _ZN3rbp13IsContainedInERKNS_4RectES2_
+000044fc _ZN3rbp15MaxRectsBinPack6InsertERNSt6__ndk16vectorINS_8RectSizeENS1_9allocatorIS3_EEEERNS2_INS_4RectENS4_IS8_EEEENS0_23FreeRectChoiceHeuristicE
+0000458c _ZNK3rbp15MaxRectsBinPack9ScoreRectEiiNS0_23FreeRectChoiceHeuristicERiS2_
+000045d6 _ZN3rbp15MaxRectsBinPack9PlaceRectERKNS_4RectE
+00004605 _ZNK3rbp15MaxRectsBinPack9OccupancyEv
+0000462b _ZN3rbp20CommonIntervalLengthEiiii
+0000464e _ZNK3rbp15MaxRectsBinPack21ContactPointScoreNodeEiiii
+00004684 _ZN3rbp15MaxRectsBinPackC1Ev
+000046a1 _ZN3rbp12ShelfBinPackC2Ev
+000046bb _ZN3rbp12ShelfBinPackC2Eiibb
+000046d8 _ZN3rbp12ShelfBinPack4InitEiibb
+000046f8 _ZN3rbp12ShelfBinPack13StartNewShelfEi
+0000471f _ZNK3rbp12ShelfBinPack16CanStartNewShelfEi
+0000474a _ZNK3rbp12ShelfBinPack11FitsOnShelfERKNS0_5ShelfEiib
+0000477f _ZNK3rbp12ShelfBinPack13RotateToShelfERKNS0_5ShelfERiS4_
+000047b8 _ZN3rbp12ShelfBinPack10AddToShelfERNS0_5ShelfEiiRNS_4RectE
+000047f3 _ZN3rbp12ShelfBinPack19MoveShelfToWasteMapERNS0_5ShelfE
+0000482b _ZNK3rbp12ShelfBinPack9OccupancyEv
+0000484e _ZN3rbp12ShelfBinPackC1Ev
+00004868 malloc
+0000486f free
+00004874 aligned_alloc
+00004882 __strlen_chk
+0000488f memcpy
+00004896 pthread_mutex_lock
+000048a9 pthread_mutex_unlock
+000048be pthread_mutex_destroy
+000048d4 __errno
+000048dc __gnu_strerror_r
+000048ed strlen
+000048f4 vsnprintf
+000048fe pthread_cond_broadcast
+00004915 pthread_cond_wait
+00004927 syscall
+0000492f stderr
+00004936 fwrite
+0000493d vfprintf
+00004946 fputc
+0000494c vasprintf
+00004956 android_set_abort_message
+00004970 openlog
+00004978 syslog
+0000497f closelog
+00004988 abort
+0000498e strcmp
+00004995 fprintf
+0000499d fflush
+000049a4 pthread_rwlock_wrlock
+000049ba pthread_rwlock_unlock
+000049d0 dladdr
+000049d7 dl_iterate_phdr
+000049e7 __vsnprintf_chk
+000049f7 pthread_rwlock_rdlock
+00004a0d getauxval
+00004a17 __system_property_get
+00004a2d strncmp
+00004a35 libdl.so
+00004a3e LIBC
+00004a43 libc.so
+00004a4b LIBC_P
+00004a52 libovrgpuskinning.so
+00004a68 APS2
+000058b8 N12_GLOBAL__N_112ConcreteImplINS_23RuntimeBinPackingPolicyEEE
+000058f6 N3OVR11GpuSkinning11AtlasPacker4ImplE
+0000591c N12_GLOBAL__N_123RuntimeBinPackingPolicyE
+00005946 %s failed to release mutex
+00005961 %s failed to acquire mutex
+0000597c __next_prime overflow
+00005992 %s failed to broadcast
+000059a9 uncaught
+000059b2 terminating due to %s exception of type %s
+000059dd terminating due to %s exception of type %s: %s
+00005a0c %s:%d: %s
+00005a16 vector
+00005a1d unspecified system_category error
+00005a3f unspecified generic_category error
+00005a65 unsupported restore location for float register
+00005a95 unsupported restore location for register
+00005abf unknown register
+00005ad0 unsupported arm64 register
+00005aeb setRegister
+00005af7 getRegister
+00005b03 getSavedFloatRegister
+00005b19 getSavedRegister
+00005b2d third-party/llvm-project/18.x-android/llvm-project/libcxxabi/src/fallback_malloc.cpp
+00005b85 CIE ID is not zero
+00005b98 _Unwind_Resume() can't return
+00005bb6 terminating due to %s foreign exception
+00005bde terminate_handler unexpectedly threw an exception
+00005c10 truncated uleb128 expression
+00005c2d malformed uleb128 expression
+00005c4a truncated sleb128 expression
+00005c67 evaluateExpression
+00005c7a system
+00005c81 libc++abi
+00005c8b bad_array_new_length
+00005ca0 FDE has zero length
+00005cb4 CIE start does not match
+00005ccd ro.arch
+00005cd5 terminating
+00005ce1 basic_string
+00005cee unknown pointer encoding
+00005d07 DW_OP_deref_size with bad size
+00005d26 getTableEntrySize
+00005d38 __cxa_guard_release
+00005d4c __cxa_guard_acquire
+00005d60 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00005dc3 _Unwind_Resume
+00005dd2 DW_EH_PE_textrel pointer encoding not supported
+00005e02 DW_EH_PE_funcrel pointer encoding not supported
+00005e32 DW_EH_PE_aligned pointer encoding not supported
+00005e62 DW_OP_fbreg not implemented
+00005e7e DWARF opcode not implemented
+00005e9b DW_OP_piece not implemented
+00005eb7 unexpected
+00005ec2 terminate_handler unexpectedly returned
+00005eea mutex lock failed
+00005efc Unknown error %d
+00005f10 std::bad_alloc
+00005f1f generic
+00005f27 getEncodedP
+00005f33 FDE is really a CIE
+00005f47 __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+00005ffa getULEB128
+00006005 getSLEB128
+00006086 CIE version is not 1 or 3
+000060a3 unwind_phase2
+000060f8 exynos9810
+00006103 DW_EH_PE_datarel is invalid with a datarelBase of 0
+00006137 Unknown DWARF encoding for search table.
+00006160 Can't binary search on variable length encoded data.
+00006195 Pure virtual function called!
+000061b3 libc++abi: 
+000061bf libunwind: unsupported .eh_frame_hdr version: %u at %lx
+000061f8 libunwind: %s - %s
+0000620c libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00006254 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+00006294 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+000062da libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+0000631c libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+00006361 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+000063ab libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+000063ed libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+0000642f libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+00006470 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+000064c4 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0000650b libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+00006553 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+00006592 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+000065d3 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+00006630 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+0000667e N12_GLOBAL__N_112ConcreteImplINS_23OfflineBinPackingPolicyEEE
+000066bc N12_GLOBAL__N_123OfflineBinPackingPolicyE
+000068b0 NSt6__ndk112system_errorE
+000068ca NSt6__ndk112__do_messageE
+000068e4 NSt6__ndk124__generic_error_categoryE
+0000690a NSt6__ndk123__system_error_categoryE
+0000692f NSt6__ndk114error_categoryE
+000069b8 N10__cxxabiv116__shim_type_infoE
+000069d9 N10__cxxabiv117__class_type_infoE
+000069fb N10__cxxabiv120__si_class_type_infoE
+00006a20 N10__cxxabiv121__vmi_class_type_infoE
+00006a46 St9exception
+00006a53 St20bad_array_new_length
+00006a6c St9bad_alloc
+00006a79 St11logic_error
+00006a89 St12length_error
+00006a9a St13runtime_error
+00006aac St14overflow_error
+00006abf St9type_info
+00009ff1 zPLR
+0000a92c hbW9
+0000a99c hbW9
+0000af7a 	*`0
+0000b082 	*`0
+0000b120 	aW9
+0000b147 q	 @
+0000b1e0 	aW9 
+0000b20b q	 @
+0000b436 	*@0
+0000b7d4 	aW9
+0000b944 	aW9
+0000bcd7 *)aW9?
+0000be2c 	aW9
+0000c37f *)aW9?
+0000c4bb *)aW9?
+0000c5f0 )aW9?
+0000c6a0 )aW9?
+0000cb31 `@9h
+0000cb58 hb@9
+0000cba8 hb@9
+0000ccdc (a@9
+0000cd5b T(!@
+0000cdaf TK!@
+0000ced3 =a"@
+0000d18d 80.	
+0000d28d 80.	
+0000de25 `@9H
+0000e2a0 M!@9_
+0000e3e4 ( @9)
+0000e69c (a@9
+0000e6a3 5(	@
+0000e8ab TK!@
+0000ea0b TH	@
+0000ea18 La@9_
+0000ea58 -`@9
+0000ea7d a@9L
+0000eae8 Ka@9
+0000eaf8 la@9
+0000eb0f THa@9
+0000eb78 Ka@9k
+0000eb88 la@9L
+0000eb97 9Ha@9
+0000eba7 TH	@
+0000ebf0 ia@9I
+0000ec49 a@9*a
+0000ec5b 9(	@
+0000ec98 Ia@9i
+0000ecf5 a@9*a
+0000ed07 9(	@
+0000ee2f 4Q{j
+0000ee6b ~@ !
+0000ee7b ~@ !
+0000ee8b ~@ !
+0000eeaf ~@ !
+0000eebf ~@ !
+0000eecf ~@ !
+0000eee7 ~@ !
+0000eef7 ~@ !
+0000ef07 ~@ !
+0000f043 4Q{j
+0000f07f ~@ !
+0000f08f ~@ !
+0000f09f ~@ !
+0000f0c3 ~@ !
+0000f0d3 ~@ !
+0000f0e3 ~@ !
+0000f0fb ~@ !
+0000f10b ~@ !
+0000f11b ~@ !
+0000f26f 4O{j
+0000f297 ~@ ,
+0000f2a7 ~@ ,
+0000f2b7 ~@ ,
+0000f2f7 ~@ ,
+0000f307 ~@ ,
+0000f317 ~@ ,
+0000f34b ~@ ,
+0000f35b ~@ ,
+0000f36b ~@ ,
+0000f383 . !"
+0000f623 41{j
+0000f657 ~@ !
+0000f667 ~@ !
+0000f677 ~@ !
+0000f68f ~@ !
+0000f69f ~@ !
+0000f6af ~@ !
+0000f6ea 	*d{#
+0000f7eb 41{j
+0000f81f ~@ !
+0000f82f ~@ !
+0000f83f ~@ !
+0000f857 ~@ !
+0000f867 ~@ !
+0000f877 ~@ !
+0000f8b2 	*d{#
+0000f9cb 41{i
+0000f9eb ~@ +
+0000f9fb ~@ +
+0000fa0b ~@ +
+0000fa4b ~@ +
+0000fa5b ~@ +
+0000fa6b ~@ +
+0000fa83 . !"
+0000fca7 RjC)
+0000fd8f RjC)
+0000fddf N!h!
+0000fdfb N!h!
+0000fecf *xxl
+0000ff2d &B)j
+00010183 N!h!
+0001019f N!h!
+000101bb N!h!
+000103df *@( 
+00010403 ^@ #
+0001043f TB("
+0001045b rC}C
+00010c46 	k+0
+00010ce0 I$@x
+00010d1c KXix)
+00010d50 KXix)
+00010d5c !l`.!(!
+000111bb RoYix
+0001120b RoYix)
+0001128f RpYix
+000112bb ^ "2
+000112ef T1*1
+000113d4 KXix)
+00011404 KXix)
+00011474 KXix)
+000114e7 *kh(
+0001150e 	*)}
+00011697 *\{x
+000118c7 *\{x
+00011b2b *U{x
+00011c3b *\{x
+00011d3f *\{x
+00012e6f * Xqx
+00012f6f *0Xox
+0001303f /1Xpx
+00013063 NBh!
+0001316f *xxj
+00013184 7Xsx
+00013283 //Xnx
+000132a7 NBh!
+00013363 *7X|x
+00013487 ~   
+000134a3 ~   
+000134e3 ~   
+000134ff ~   
+00013711 !@y*
+0001371b ykz)x
+0001387b ~` !
+0001388b ~@ !
+000138a7 ~@ !
+000138db .` !
+0001390f * hj
+00013917 ~` !
+00013927 ~@ !
+00013943 ~@ !
+00013973 .` !
+00013a07 ~   
+00013a23 ~   
+00013a63 ~   
+00013a7f ~   
+00013abf ~   
+00013adb ~   
+00013b13 ~` !
+00013b23 ~@ !
+00013b3f ~@ !
+00013b73 .` !
+00013baf ~` !
+00013bbf ~@ !
+00013bdb ~@ !
+00013c0f .` !
+00013c37 *@hj
+00013c3f ~` !
+00013c4f ~@ !
+00013c6b ~@ !
+00013c9b .` !
+00014bcd  @9N
+00014e95 "@9H
+00014ff5  @9N
+000150d9 EA).6
+0001591d $@)(}
+00015c08 hb@9
+00015c83 oi6@
+00015d34 ((@)	,@),
+00015d8d  @9H
+0001603c i"@9{j@)
+00016124 i"@9{j@)
+00016196 	K(}
+000161f8 i"@9xj@)
+0001628c i*@)(,
+000162ab Tk"@9+
+00016304 i"@9{j@)
+00016376 	K(}
+000163c4 i"@9xj@)
+00016490 k"@9
+0001649c j&@)
+000164a8 .4@)/
+000164f4 i*@)h2@
+00016530 ib@9
+00016600 z1@)
+000167e1 $@)(}
+00016b35 `@9H
+000170b7 TH$A)
+000170ef TH$A)
+00017114 I(A)
+0001711b KH!	
+00017124 H$A)(}
+00017138 H$A)
+00017158 H$A)
+00017180 )4A)K(A)
+000173b5 (@))
+000173f9 (@))
+000177cd $@)(}
+000177e4 I(A)
+000177eb K@!	
+000177f4 H$A)
+00017814 H$A)
+00017834 H$A)(}
+00017848 H$A)
+0001786c H$A)
+000178b0 W A)9$A)
+000178c0 8X@):
+00017b93 R.yj
+00017b9f Rnim
+00018855 #@9h
+000188bd #@9h
+00019770 @1Wz)
+000198dd 1WzJ
+000199f3 <h&?
+00019ba8 h%@x
+00019c6d j{8*
+00019eb2 @yn	
+00019ecf K*)(
+00019ffe @yn	
+0001a2c4  	Az@	Az
+0001a504 )<A9
+0001a65b T(<@
+0001a67f T(H@
+0001a7b7 7i>@
+0001a7c7 Rh:A9h
+0001a81f Th6@
+0001a84b ThF@
+0001a8bc h:A9H
+0001a8c3 5h6A9
+0001a8cb 4h2A9
+0001a8d3 4h2@
+0001a8e1 B@9h
+0001a93b 7h:A9
+0001a943 5h>@
+0001a994 h:A9
+0001a99b 5h>@
+0001a9a7 Th2@
+0001aa17 Th2@
+0001ab2f Th6@
+0001ab5b ThF@
+0001ab94 h6A9h
+0001ab9b 4h2A9i
+0001abe3 Th2@
+0001acbe G)t:
+0001acd7 Th2@
+0001ad03 Th6@
+0001ada3 4z2A9
+0001adac {6A9
+0001adf4 h2A9i6A9
+0001ae28 j:A9J
+0001ae37 Th2@
+0001aea4 h2A9j
+0001aeac i6A9K
+0001bdce @9iy
+0001bf2e @9n%
+0001c83f 4h~@
+0001cc70 J{hx)	
+0001cc7d b@9`
+0001d1e0 `1Jz
+0001d1ee 	*H}
+0001d3c4 *q@9
+0001d96e ?7_|
+0001eb29 1Mzk
+0001eb48  %@x
+0001eedc `0Bz!
+0001ef37 QqN0
+0001ef8b TbN 
+0001f04c @0@z 
+0001f15c  0@z1
+0001f507 TqN0
+0001f52f TaN0
+0001fe00 w2@y
+00020053 TiC@
+000215b0 Linker: Facebook LLD 18.1.7
+000215cc Facebook clang version 18.1.7 (https://git.internal.tfbnw.net/repos/git/ro/osmeta/external/llvm-project 6f9858d44fb8374a598b3da36de5a151e05250b8)
+0002165e Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+00021716 ovr-version:avatar-libovrgpuskinning-android64-release:29.7.0.292.23
+0002175c .shstrtab
+00021766 .note.android.ident
+0002177a .note.gnu.build-id
+0002178d .dynsym
+00021795 .gnu.version
+000217a2 .gnu.version_r
+000217b1 .gnu.hash
+000217bb .dynstr
+000217c3 .rela.dyn
+000217cd .relr.dyn
+000217d7 .rela.plt
+000217e1 .gcc_except_table
+000217f3 .rodata
+000217fb .eh_frame_hdr
+00021809 .eh_frame
+00021813 .text
+00021819 __lcxx_override
+00021829 .tbss
+0002182f .data.rel.ro
+0002183c .fini_array
+00021848 .init_array
+00021854 .dynamic
+0002185d .got
+00021862 .got.plt
+0002186b .relro_padding
+0002187a .data
+00021880 .bss
+00021885 .comment
+0002188e .oculus-version

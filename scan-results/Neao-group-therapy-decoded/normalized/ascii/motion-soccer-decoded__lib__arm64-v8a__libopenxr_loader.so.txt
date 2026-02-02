@@ -1,0 +1,1396 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+000015ef !BA@
+0000166b /(VI
+00001672 kTR!
+00001749 __cxa_finalize
+00001758 __cxa_atexit
+00001765 __register_atfork
+00001777 stat
+0000177c __stack_chk_fail
+0000178d access
+00001794 memset
+0000179b realpath
+000017a4 memmove
+000017ac memchr
+000017b3 memcpy
+000017ba opendir
+000017c2 readdir
+000017ca strlen
+000017d1 closedir
+000017da __android_log_print
+000017ee dlopen
+000017f5 dlclose
+000017fd __strlen_chk
+0000180a memcmp
+00001811 dlerror
+00001819 dlsym
+0000181f xrEnumerateApiLayerProperties
+0000183d xrEnumerateInstanceExtensionProperties
+00001864 strcmp
+0000186b xrCreateInstance
+0000187c xrDestroyInstance
+0000188e xrGetInstanceProcAddr
+000018a4 AAssetManager_fromJava
+000018bb strstr
+000018c2 strncpy
+000018ca __android_log_write
+000018de sscanf
+000018e5 atoi
+000018ea AAssetManager_openDir
+00001900 AAssetDir_getNextFileName
+0000191a AAssetDir_close
+0000192a AAssetManager_open
+0000193d AAsset_getLength
+0000194e AAsset_getBuffer
+0000195f AAsset_close
+0000196c geteuid
+00001974 getuid
+0000197b getegid
+00001983 getgid
+0000198a xrGetInstanceProperties
+000019a2 xrPollEvent
+000019ae xrResultToString
+000019bf xrStructureTypeToString
+000019d7 xrGetSystem
+000019e3 xrGetSystemProperties
+000019f9 xrEnumerateEnvironmentBlendModes
+00001a1a xrCreateSession
+00001a2a xrDestroySession
+00001a3b xrEnumerateReferenceSpaces
+00001a56 xrCreateReferenceSpace
+00001a6d xrGetReferenceSpaceBoundsRect
+00001a8b xrCreateActionSpace
+00001a9f xrLocateSpace
+00001aad xrDestroySpace
+00001abc xrEnumerateViewConfigurations
+00001ada xrGetViewConfigurationProperties
+00001afb xrEnumerateViewConfigurationViews
+00001b1d xrEnumerateSwapchainFormats
+00001b39 xrCreateSwapchain
+00001b4b xrDestroySwapchain
+00001b5e xrEnumerateSwapchainImages
+00001b79 xrAcquireSwapchainImage
+00001b91 xrWaitSwapchainImage
+00001ba6 xrReleaseSwapchainImage
+00001bbe xrBeginSession
+00001bcd xrEndSession
+00001bda xrRequestExitSession
+00001bef xrWaitFrame
+00001bfb xrBeginFrame
+00001c08 xrEndFrame
+00001c13 xrLocateViews
+00001c21 xrStringToPath
+00001c30 xrPathToString
+00001c3f xrCreateActionSet
+00001c51 xrDestroyActionSet
+00001c64 xrCreateAction
+00001c73 xrDestroyAction
+00001c83 xrSuggestInteractionProfileBindings
+00001ca7 xrAttachSessionActionSets
+00001cc1 xrGetCurrentInteractionProfile
+00001ce0 xrGetActionStateBoolean
+00001cf8 xrGetActionStateFloat
+00001d0e xrGetActionStateVector2f
+00001d27 xrGetActionStatePose
+00001d3c xrSyncActions
+00001d4a xrEnumerateBoundSourcesForAction
+00001d6b xrGetInputSourceLocalizedName
+00001d89 xrApplyHapticFeedback
+00001d9f xrStopHapticFeedback
+00001db4 xrLocateSpaces
+00001dc3 wcslen
+00001dca strchr
+00001dd1 stderr
+00001dd8 fprintf
+00001de0 vsnprintf
+00001dea malloc
+00001df1 free
+00001df6 modf
+00001dfb __vsnprintf_chk
+00001e0b aligned_alloc
+00001e19 wmemchr
+00001e21 __errno
+00001e29 pthread_cond_destroy
+00001e3e pthread_mutex_lock
+00001e51 pthread_mutex_unlock
+00001e66 pthread_mutex_destroy
+00001e7c __gnu_strerror_r
+00001e8d pthread_cond_signal
+00001ea1 pthread_cond_broadcast
+00001eb8 pthread_cond_wait
+00001eca realloc
+00001ed2 fopen
+00001ed8 fclose
+00001edf setbuf
+00001ee6 fseek
+00001eec fread
+00001ef2 fwrite
+00001ef9 fseeko
+00001f00 ftello
+00001f07 fflush
+00001f0e stdin
+00001f14 stdout
+00001f1b ungetc
+00001f22 getc
+00001f27 __fwrite_chk
+00001f34 ungetwc
+00001f3c getwc
+00001f42 fputwc
+00001f49 uselocale
+00001f53 vsscanf
+00001f5b newlocale
+00001f65 isxdigit_l
+00001f70 isdigit_l
+00001f7a strftime_l
+00001f85 mbsrtowcs
+00001f8f vasprintf
+00001f99 freelocale
+00001fa4 iswlower_l
+00001faf islower_l
+00001fb9 isupper_l
+00001fc3 wcsnrtombs
+00001fce wcrtomb
+00001fd6 mbsnrtowcs
+00001fe1 mbrtowc
+00001fe9 mbtowc
+00001ff0 __ctype_get_mb_cur_max
+00002007 mbrlen
+0000200e strtoll_l
+00002018 strtoull_l
+00002023 strtof_l
+0000202c strtod_l
+00002035 strtold_l
+0000203f syscall
+00002047 vfprintf
+00002050 fputc
+00002056 android_set_abort_message
+00002070 openlog
+00002078 syslog
+0000207f closelog
+00002088 abort
+0000208e __cxa_thread_atexit_impl
+000020a7 pthread_rwlock_wrlock
+000020bd pthread_rwlock_unlock
+000020d3 dladdr
+000020da dl_iterate_phdr
+000020ea pthread_rwlock_rdlock
+00002100 getauxval
+0000210a __system_property_get
+00002120 strncmp
+00002128 libm.so
+00002130 LIBC
+00002135 libdl.so
+0000213e libc.so
+00002146 LIBC_N
+0000214d LIBC_O
+00002154 LIBC_P
+0000215b libandroid.so
+00002169 liblog.so
+00002173 libopenxr_loader.so
+00002188 APS2
+000086c0 authority
+000086ca -Infinity
+000086d4 query
+000086da VUID-xrEnumerateApiLayerProperties-propertyCapacityInput-parameter: insufficient space in array
+0000873a VUID-xrEnumerateApiLayerProperties-properties-parameter: non-zero capacity but null array
+00008794 Wednesday
+0000879e %m/%d/%y
+000087a7 %s failed to release mutex
+000087c2 %s failed to acquire mutex
+000087dd getColumnIndex
+000087ec __next_prime overflow
+00008802 %u.%u.%u
+0000880b android/content/Context
+00008823 moveToNext
+0000882e unsupported locale for standard input
+00008854 moveToFirst
+00008860  does not appear to exist
+0000887a %s failed to broadcast
+00008891 std::bad_cast
+0000889f __cxa_guard_abort
+000088b1 strictRoot
+000088bc getCount
+000088c5 xrPollEvent
+000088d1 disable_environment
+000088e5 enable_environment
+000088f8 RuntimeManifestFile::FindManifestFiles - failed to determine active runtime file path for this environment
+00008963 getInt
+0000896a stackLimit
+00008975 uncaught
+0000897e ApiLayerManifestFile::AddManifestFilesAndroid unable to access asset
+000089c3 xrDestroyActionSet
+000089d6 xrCreateActionSet
+000089e8 /product
+000089f1 xrGetReferenceSpaceBoundsRect
+00008a0f xrGetActionStateFloat
+00008a25 rejectDupKeys
+00008a33 allowNumericKeys
+00008a44 xrEnumerateViewConfigurationViews
+00008a66 xrLocateViews
+00008a74 Active XrInstance handle already exists
+00008a9c VUID-xrCreateInstance-info-parameter: something wrong with XrInstanceCreateInfo contents
+00008af5 allowComments
+00008b03 collectComments
+00008b13 xrAttachSessionActionSets
+00008b2d allowSpecialFloats
+00008b40 xrEnumerateSwapchainFormats
+00008b5c allowDroppedNullPlaceholders
+00008b79 has_functions
+00008b87 xrSyncActions
+00008b95 xrEnumerateViewConfigurations
+00008bb3 instance_extensions
+00008bc7 XR_EXT_debug_utils
+00008bda xrSuggestInteractionProfileBindings
+00008c02 allowSingleQuotes
+00008c14 ApiLayerInterface::GetApiLayerProperties - failed searching for API layer manifest files
+00008c6d ApiLayerInterface::GetInstanceExtensionProperties - failed searching for API layer manifest files
+00008ccf VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
+00008d19 Failed querying extension properties
+00008d3e unknown type in properties
+00008d59 invalid properties
+00008d6c Failed ApiLayerInterface::GetApiLayerProperties
+00008d9c xrEnumerateApiLayerProperties
+00008dba xrGetViewConfigurationProperties
+00008ddb xrEnumerateInstanceExtensionProperties
+00008e02 xrGetSystemProperties
+00008e18 xrGetInstanceProperties
+00008e30 xrEnumerateSwapchainImages
+00008e4b xrEnumerateEnvironmentBlendModes
+00008e6c Loader does not support simultaneous XrInstances
+00008e9d xrLocateSpaces
+00008eac xrEnumerateReferenceSpaces
+00008ec7 allowTrailingCommas
+00008edb terminating due to %s exception of type %s
+00008f06 Got runtime: package: %s, so filename: %s, native lib dir: %s, has functions: %s
+00008f57 terminating due to %s exception of type %s: %s
+00008f86 %s:%d: %s
+00008f90 populateFunctions: Querying URI: %s
+00008fb4 getActiveRuntimeCursor: Querying URI: %s
+00008fdd Null Value Passed to Value Constructor
+00009004 vector
+0000900b Entering loader terminator
+00009026 Completed loader terminator
+00009042 android/database/Cursor
+0000905a unspecified system_category error
+0000907c unspecified iostream_category error
+000090a0 unspecified generic_category error
+000090c3 money_get error
+000090d3 RuntimeInterface::LoadRuntimes - unknown error
+00009102 /vendor
+0000910d native_lib_dir
+0000911c expecting another \u token to begin the second half of a unicode surrogate pair
+0000916c nativeLibraryDir
+0000917d api_layer
+00009187 getContentResolver
+0000919a android/content/ContentResolver
+000091ba unsupported restore location for float register
+000091ea unsupported restore location for register
+00009214 unknown register
+00009225 unsupported arm64 register
+00009240 setRegister
+0000924c getRegister
+00009258 getSavedFloatRegister
+0000926e getSavedRegister
+0000927f invalid messenger pointer
+00009299 Invalid Function pointer
+000092b2 Invalid Name pointer
+000092c7 VUID-xrEnumerateInstanceExtensionProperties-propertyCountOutput-parameter
+00009311 VUID-XrInstanceCreateInfo-enabledExtensionNames-parameter
+0000934b VUID-xrEnumerateInstanceExtensionProperties-properties-parameter
+0000938c VUID-xrCreateDebugUtilsMessengerEXT-messenger-parameter
+000093c4 VUID-xrCreateInstance-info-parameter
+000093e9 VUID-XrInstanceCreateInfo-applicationInfo-parameter
+0000941d VUID-xrSessionBeginDebugUtilsLabelRegionEXT-labelInfo-parameter
+0000945d VUID-xrSessionInsertDebugUtilsLabelEXT-labelInfo-parameter
+00009498 VUID-xrGetInstanceProcAddr-function-parameter
+000094c6 VUID-XrApplicationInfo-applicationName-parameter
+000094f7 VUID-XrApplicationInfo-engineName-parameter
+00009523 VUID-xrGetInstanceProcAddr-instance-parameter
+00009551 VUID-xrCreateInstance-instance-parameter
+0000957a org.khronos.openxr.system_runtime_broker
+000095a3 org.khronos.openxr.runtime_broker
+000095c5 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+0000961d in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+0000966c android/net/Uri$Builder
+00009684 , OpenXR version returned not compatible with this loader
+000096be OpenXR-Loader
+000096cc September
+000096d6 , negotiation did not return a valid getInstanceProcAddr
+0000970f , negotiation succeeded but returned NULL getInstanceProcAddr
+0000974d xrGetInstanceProcAddr
+00009763 ios_base::clear
+00009776 third-party\llvm-project\19.x-android\llvm-project\libcxxabi\src\private_typeinfo.cpp
+000097cc third-party\llvm-project\19.x-android\llvm-project\libcxxabi\src\fallback_malloc.cpp
+00009824 %I:%M:%S %p
+00009830 CIE ID is not zero
+00009846 _Unwind_Resume() can't return
+00009864 /active_runtime.json
+00009879 /active_runtime.aarch64.json
+00009896 description
+000098a2 terminating due to %s foreign exception
+000098ca terminate_handler unexpectedly threw an exception
+000098fc xrDestroyAction
+0000990c xrEnumerateBoundSourcesForAction
+0000992d xrCreateAction
+0000993c Missing ',' or ']' in array declaration
+00009964 Missing ',' or '}' in object declaration
+0000998d Failed loading layer information
+000099ae Failed loading runtime information
+000099d1 truncated uleb128 expression
+000099ee malformed uleb128 expression
+00009a0b truncated sleb128 expression
+00009a28 evaluateExpression
+00009a3b xrDestroySession
+00009a4c xrRequestExitSession
+00009a61 xrBeginSession
+00009a70 xrCreateSession
+00009a80 xrEndSession
+00009a8d file_format_version
+00009aa1 implementation_version
+00009ab8 extension_version
+00009aca api_version
+00009ad6 , negotiation succeeded but returned invalid interface version
+00009b15 xrDestroySwapchain
+00009b28 xrCreateSwapchain
+00009b3a Unknown error occurred calling down chain
+00009b64 xrGetActionStateBoolean
+00009b7c skipBom
+00009b84 /system
+00009b8c xrGetSystem
+00009b98 /oem
+00009b9d /odm
+00009ba2 iostream
+00009bab null
+00009bb0 VUID-XrInstanceCreateInfo-createFlags-zerobitmask
+00009be2 xrApplyHapticFeedback
+00009bf8 xrStopHapticFeedback
+00009c0d android/net/Uri
+00009c1d libc++abi
+00009c27 bad_array_new_length
+00009c3c FDE has zero length
+00009c50 library_path
+00009c5d xrStringToPath
+00009c6c appendPath
+00009c77 CIE start does not match
+00009c90 ro.arch
+00009c98 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+00009ce6 terminating
+00009cf2 basic_string
+00009cff Type is not convertible to string
+00009d21 Empty escape sequence in string
+00009d41 Bad escape sequence in string
+00009d5f getString
+00009d69 toString
+00009d72 xrResultToString
+00009d83 xrPathToString
+00009d92 xrStructureTypeToString
+00009daa java/lang/String
+00009dbb , skipping
+00009dc6 unknown pointer encoding
+00009ddf %.*g
+00009de4 0123456789abcdef
+00009df5 %.0Lf
+00009dff xrGetActionStateVector2f
+00009e18 %.*f
+00009e1d DW_OP_deref_size with bad size
+00009e3c getTableEntrySize
+00009e52 wbxe
+00009e57 w+bxe
+00009e5d w+xe
+00009e65 in Json::Value::operator[](int index): index cannot be negative
+00009ea5 true
+00009eaa in Json::Value::operator[](ArrayIndex): requires arrayValue
+00009ee6 in Json::Value::resolveReference(key, end): requires objectValue
+00009f27 in Json::Value::find(begin, end): requires objectValue or nullValue
+00009f6b close
+00009f71 xrGetActionStatePose
+00009f86 false
+00009f8c __cxa_guard_release
+00009fa0 __cxa_guard_acquire
+00009fb4 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+0000a017 VUID-XrExtensionProperties-type-type
+0000a03c VUID-XrInstanceCreateInfo-type-type
+0000a060 Entering loader trampoline
+0000a07b Completed loader trampoline
+0000a097 _Unwind_Resume
+0000a0a6 RuntimeInterface::LoadRuntimes - failed to load a runtime
+0000a0e0 scheme
+0000a0e7 xrWaitFrame
+0000a0f3 xrBeginFrame
+0000a100 xrEndFrame
+0000a10b so_filename
+0000a117 function_name
+0000a125 symbol_name
+0000a131 package_name
+0000a13e Missing '}' or object member name
+0000a160 Missing ':' after object member name
+0000a185 getName
+0000a18d xrGetInputSourceLocalizedName
+0000a1ab xrGetCurrentInteractionProfile
+0000a1ca installable
+0000a1d6 LargestInt out of UInt range
+0000a1f3 LargestUInt out of UInt range
+0000a211 double out of UInt range
+0000a22a xrWaitSwapchainImage
+0000a23f xrReleaseSwapchainImage
+0000a257 xrAcquireSwapchainImage
+0000a26f  requires a valid instance
+0000a28a xrDestroyInstance
+0000a29c xrCreateApiLayerInstance
+0000a2b5 xrCreateInstance
+0000a2c6 Entering LoaderInstance::CreateInstance
+0000a2ee xrDestroySpace
+0000a2fd xrCreateActionSpace
+0000a311 xrLocateSpace
+0000a31f xrCreateReferenceSpace
+0000a336 xrNegotiateLoaderApiLayerInterface
+0000a359 xrNegotiateLoaderRuntimeInterface
+0000a37b RuntimeInterface::UnloadRuntime - Unloading RuntimeInterface
+0000a3c4 w+be
+0000a3c9 r+be
+0000a3ce a+be
+0000a3e2  was not found
+0000a3f1 ApiLayerInterface::GetApiLayerProperties - too many API layers found
+0000a436 build
+0000a43c JNI not initialized
+0000a450 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
+0000a49a  is not supported
+0000a4ac DW_EH_PE_textrel pointer encoding not supported
+0000a4dc DW_EH_PE_funcrel pointer encoding not supported
+0000a50c DW_EH_PE_aligned pointer encoding not supported
+0000a53c locale not supported
+0000a551 DW_OP_fbreg not implemented
+0000a56d DWARF opcode not implemented
+0000a58a DW_OP_piece not implemented
+0000a5a6 unexpected
+0000a5b1 terminate_handler unexpectedly returned
+0000a5d9 condition_variable wait failed
+0000a5f8 assert json failed
+0000a60b LoaderInstance::CreateInstance chained CreateInstance call failed
+0000a64d mutex lock failed
+0000a65f xrCreateInstance failed
+0000a677  is disabled
+0000a684 condition_variable::wait: mutex not locked
+0000a6af Could not attach JNI to thread
+0000a6ce /api_layers/explicit.d
+0000a6e5 /api_layers/implicit.d
+0000a6fc Unknown error %d
+0000a70d Line %d, Column %d
+0000a720 /product/etc
+0000a72d /vendor/etc
+0000a739 /system/etc
+0000a748 std::bad_alloc
+0000a757 generic
+0000a75f failIfExtra
+0000a76b arm64-v8a
+0000a775     Object[
+0000a781     SessionLabel[
+0000a793 Error [
+0000a79b Info [
+0000a7a2 Warning [
+0000a7ac Verbose [
+0000a7ba %a %b %d %H:%M:%S %Y
+0000a7d3 xrDestroyDebugUtilsMessengerEXT
+0000a7f3 xrCreateDebugUtilsMessengerEXT
+0000a812 xrSessionBeginDebugUtilsLabelRegionEXT
+0000a839 xrSessionEndDebugUtilsLabelRegionEXT
+0000a85e xrSessionInsertDebugUtilsLabelEXT
+0000a880 xrSetDebugUtilsObjectNameEXT
+0000a89d xrSubmitDebugUtilsMessageEXT
+0000a8ba %H:%M:%S
+0000a8c3 xrInitializeLoaderKHR
+0000a8d9 getEncodedP
+0000a8e9 UNKNOWN
+0000a8f1 labelInfo must be non-NULL
+0000a90c VUID-XrInstanceCreateInfo-enabledApiLayerNames-parameter: enabledApiLayerCount is non-0 but array is NULL
+0000a976 enabledExtensionCount is non-0 but array is NULL
+0000a9a7 GENERAL
+0000a9af (I)I
+0000a9b4 (Ljava/lang/String;)I
+0000a9ce PERF
+0000a9d3 FDE is really a CIE
+0000a9e7 SPEC
+0000a9ec .  Does it exist?
+0000a9fe catching a class without an object?
+0000aa22 __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+0000aab5  Is it a valid layer manifest file?
+0000aad9  Is it a valid runtime manifest file?
+0000aaff <init>
+0000ab06 getApplicationContext()Landroid/content/Context;
+0000ab37 Ljava/lang/Object;
+0000ab4a (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
+0000abe0 (Landroid/net/Uri;[Ljava/lang/String;Landroid/os/Bundle;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
+0000ac52 (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+0000acc9 ()Landroid/content/ContentResolver;
+0000aced getAssets()Landroid/content/res/AssetManager;
+0000ad1b (Ljava/lang/String;)Landroid/net/Uri$Builder;
+0000ad49 getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+0000ad82 ()Landroid/net/Uri;
+0000ad96 (I)Ljava/lang/String;
+0000adac ()Ljava/lang/String;
+0000adc7 -1e+9999
+0000add0 0123456789
+0000adf5 getULEB128
+0000ae00 getSLEB128
+0000ae81 CIE version is not 1 or 3
+0000ae9e unwind_phase2
+0000aee3 keylength >= 2^30
+0000af05 exynos9810
+0000af10 1.0.0
+0000af16 DW_EH_PE_datarel is invalid with a datarelBase of 0
+0000af4a /etc/openxr/
+0000af57 openxr/1/api_layers/explicit.d/
+0000af77 openxr/1/api_layers/implicit.d/
+0000af97 in Json::Value::setComment(): Comments must start with /
+0000afd0 VUID-XrApplicationInfo-engineName-parameter: application name can not be empty.
+0000b020  is missing required fields.  Verify all proper fields exist.
+0000b05e Value is not convertible to UInt.
+0000b080 Non-null but empty cursor when querying content resolver for functions.
+0000b0c8 Null cursor when querying content resolver for functions.
+0000b102  "functions" section contains non-string values.
+0000b133 Unable to open any of the broker provided runtimes.
+0000b167 application name missing NULL terminator.
+0000b191 engine name missing NULL terminator.
+0000b1b6 additional six characters expected to parse unicode surrogate pair.
+0000b1fa  has invalid API Version.  Skipping layer.
+0000b225 Non-null but empty cursor when querying %s content resolver.
+0000b262 Null cursor when querying %s content resolver.
+0000b291 ApiLayerInterface::LoadApiLayers got success from xrGetInstanceProcAddr for xrInitializeLoaderKHR, but output a null pointer.
+0000b30f RuntimeInterface::LoadRuntime got success from xrGetInstanceProcAddr for xrInitializeLoaderKHR, but output a null pointer.
+0000b38a Could access neither the installable nor system runtime broker.
+0000b3ca ' is not a number.
+0000b3dd Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
+0000b417 Value is not convertible to bool.
+0000b439 A valid JSON document must be either an array or an object value.
+0000b47b Extra non-whitespace after JSON value.
+0000b4a2  is not a valid manifest file.
+0000b4c1 No active XrInstance handle.
+0000b4de Unknown DWARF encoding for search table.
+0000b507 ApiLayerInterface::LoadApiLayers forwarding xrInitializeLoaderKHR call to API layer after calling xrNegotiateLoaderApiLayerInterface.
+0000b58d ApiLayerInterface::LoadApiLayers forwarding xrInitializeLoaderKHR call to API layer before calling xrNegotiateLoaderApiLayerInterface.
+0000b614 RuntimeInterface::LoadRuntime forwarding xrInitializeLoaderKHR call to runtime after calling xrNegotiateLoaderRuntimeInterface.
+0000b694 RuntimeInterface::LoadRuntime forwarding xrInitializeLoaderKHR call to runtime before calling xrNegotiateLoaderRuntimeInterface.
+0000b715 info->applicationInfo is not valid.
+0000b739 ApiLayerManifestFile::AddManifestFilesAndroid unable to add manifest files LoaderInitData not initialized.
+0000b7a4 RuntimeInterface being destroyed.
+0000b7c6 Syntax error: value, object or array expected.
+0000b7f5 Bad unicode escape sequence in string: hexadecimal digit expected.
+0000b838 Bad unicode escape sequence in string: four digits expected.
+0000b875 RuntimeInterface::LoadRuntime cannot run because xrInitializeLoaderKHR was not successfully called.
+0000b8d9  because xrInitializeLoaderKHR was not yet called.
+0000b90c ApiLayerInterface::LoadApiLayers forwarded call to xrInitializeLoaderKHR failed.
+0000b95d RuntimeInterface::LoadRuntime forwarded call to xrInitializeLoaderKHR failed.
+0000b9ab Can't binary search on variable length encoded data.
+0000b9e0 expected XR_TYPE_INSTANCE_CREATE_INFO.
+0000ba07 Messenger handle is XR_NULL_HANDLE.
+0000ba2b Session handle is XR_NULL_HANDLE.
+0000ba4d Instance handle is XR_NULL_HANDLE.
+0000ba70 flags must be 0.
+0000ba81 Unable to open broker provided runtime at %s, checking for more records...
+0000bacc Unable to populate functions from runtime: %s, checking for more records...
+0000bb18 Exceeded stackLimit in readValue().
+0000bb3c Failed to find default runtime with RuntimeInterface::LoadRuntime()
+0000bb83 Duplicate key: '
+0000bb94  is missing "disable_environment"
+0000bbb6 ManifestFile::IsValidJson - JSON file missing "file_format_version"
+0000bbfa , failed to load with message "
+0000bc1e  library 
+0000bc28 ApiLayerManifestFile::AddManifestFilesAndroid unable to open asset 
+0000bc6c .  Max supported version is 
+0000bc89 isValidJson indicates 
+0000bca0  due to failed negotiation with error 
+0000bcc7 , negotiation failed with error 
+0000bce8 XR_NULL_HANDLE for instance but query for 
+0000bd13 Implicit layer 
+0000bd23 ApiLayerInterface being destroyed for layer 
+0000bd50 ApiLayerInterface::LoadApiLayers skipping layer 
+0000bd81 ApiLayerInterface::LoadApiLayers succeeded loading layer 
+0000bdbb ApiLayerInterface::LoadApiLayers - failed to find layer 
+0000bdf4 ManifestFile::ParseCommon 
+0000be0f  because negotiation function 
+0000be2e RuntimeInterface::LoadRuntime failed to find negotiate function 
+0000be6f  using interface version 
+0000be89 xrCreateInstance called with invalid API version 
+0000bebb  and OpenXR API version 
+0000bed4 failed to open 
+0000bee4 LoaderInstance::CreateInstance succeeded with 
+0000bf13 failed to parse 
+0000bf24 RuntimeInterface::LoadRuntime succeeded loading runtime defined in manifest file 
+0000bf76 ApiLayerInterface::LoadApiLayers skipping manifest file 
+0000bfaf RuntimeInterface::LoadRuntime skipping manifest file 
+0000bfe5 RuntimeManifestFile::FindManifestFiles - using global runtime file 
+0000c029 See 
+0000c02e ApiLayerManifestFile::CreateIfValid 
+0000c053 RuntimeManifestFile::CreateIfValid 
+0000c077 RuntimeManifestFile::CreateIfValid - attempting to load 
+0000c0b0  layers enabled and runtime interface - created instance = 
+0000c0ec Destroying LoaderInstance = 
+0000c109 ] = 
+0000c10e LoaderInstance::CreateInstance, no support found for requested extension: 
+0000c159 libc++abi: 
+0000c165  (Error message: 
+0000c177 ] : 
+0000c17f ManifestFile::IsValidJson - JSON "file_format_version" 
+0000c1b7  filesystem operations failed for path  
+0000c1e0 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0000c219 libunwind: %s - %s
+0000c22d libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+0000c275 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0000c2b5 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+0000c2fb libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+0000c33d libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+0000c382 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+0000c3cc libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+0000c40e libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+0000c450 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+0000c491 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+0000c4e5 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0000c52c libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+0000c574 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+0000c5b3 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+0000c5f4 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+0000c651  for detail.
+0000c65f libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+0000c6ae N3jni5ClassE
+0000c8a0 9223372036854775!
+0000cb00 17ApiLayerInterface
+0000cb28 XR_EXT_debug_utils
+0000cbb0 14LoaderInstance
+0000cbc1 17LoaderLogRecorder
+0000cbd5 N12_GLOBAL__N_124OstreamLoaderLogRecorderE
+0000cc00 N12_GLOBAL__N_121DebugUtilsLogRecorderE
+0000cc28 N12_GLOBAL__N_123LogcatLoaderLogRecorderE
+0000cc52 16RuntimeInterface
+0000cc65 N3jni23InitializationExceptionE
+0000cc85 N3jni23NameResolutionExceptionE
+0000cca5 N3jni6ObjectE
+0000ccb3 N3jni5ArrayINSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE
+0000cd05 N3jni19InvocationExceptionE
+0000ce38 N4Json17CharReaderBuilderE
+0000ce53 N4Json10CharReader7FactoryE
+0000ce6f N4Json13OurCharReaderE
+0000ce86 N4Json10CharReaderE
+0000ce9b N4Json12RuntimeErrorE
+0000ceb1 N4Json9ExceptionE
+0000cec3 N4Json10LogicErrorE
+0000d07f ;00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899NSt6__ndk112system_errorE
+0000d162 NSt6__ndk112__do_messageE
+0000d17c NSt6__ndk124__generic_error_categoryE
+0000d1a2 NSt6__ndk123__system_error_categoryE
+0000d1c7 NSt6__ndk114error_categoryE
+0000d1e3 NSt6__ndk114__shared_countE
+0000d1ff NSt6__ndk18ios_baseE
+0000d214 NSt6__ndk18ios_base7failureE
+0000d231 NSt6__ndk119__iostream_categoryE
+0000d253 HHH*HH<'HH6-HH2
+0000d266 *HH3'HH9-NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+0000d29c NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+0000d2d0 NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+0000d302 NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+0000d334 NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+0000d367 NSt6__ndk19basic_iosIwNS_11char_traitsIwEEEE
+0000d394 NSt6__ndk115basic_streambufIwNS_11char_traitsIwEEEE
+0000d3c8 NSt6__ndk113basic_istreamIwNS_11char_traitsIwEEEE
+0000d3fa NSt6__ndk113basic_ostreamIwNS_11char_traitsIwEEEE
+0000d42c NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000d471 NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000d4b9 NSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000d502 NSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000d54b NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE
+0000d57e NSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEE
+0000d5b0 NSt6__ndk110__stdinbufIcEE
+0000d5cb NSt6__ndk111__stdoutbufIcEE
+0000d5e7 NSt6__ndk110__stdinbufIwEE
+0000d602 NSt6__ndk111__stdoutbufIwEE
+0000d620 -W-g-Ml---
+0000d62b ----y
+0000d636 \-------
+0000d646 -9--
+0000d659 -W-e-Mh---
+0000d664 ----u
+0000d66f Z-------
+0000d67f -9--
+0000d68e /E0123456789abcdefABCDEFxX+-pPiInN
+0000d6b1 %I:%M:%S %p%
+0000e284 NSt6__ndk16locale5facetE
+0000e29d NSt6__ndk15ctypeIwEE
+0000e2b2 NSt6__ndk110ctype_baseE
+0000e2ca NSt6__ndk17codecvtIcc9mbstate_tEE
+0000e2ec NSt6__ndk112codecvt_baseE
+0000e306 NSt6__ndk17codecvtIDsc9mbstate_tEE
+0000e329 NSt6__ndk17codecvtIDsDu9mbstate_tEE
+0000e34d NSt6__ndk17codecvtIDic9mbstate_tEE
+0000e370 NSt6__ndk17codecvtIDiDu9mbstate_tEE
+0000e394 NSt6__ndk17codecvtIwc9mbstate_tEE
+0000e3b6 NSt6__ndk16locale5__impE
+0000e3cf NSt6__ndk17collateIcEE
+0000e3e6 NSt6__ndk17collateIwEE
+0000e3fd NSt6__ndk15ctypeIcEE
+0000e412 NSt6__ndk18numpunctIcEE
+0000e42a NSt6__ndk18numpunctIwEE
+0000e442 NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0000e489 NSt6__ndk19__num_getIcEE
+0000e4a2 NSt6__ndk114__num_get_baseE
+0000e4be NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0000e505 NSt6__ndk19__num_getIwEE
+0000e51e NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0000e565 NSt6__ndk19__num_putIcEE
+0000e57e NSt6__ndk114__num_put_baseE
+0000e59a NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0000e5e1 NSt6__ndk19__num_putIwEE
+0000e5fa NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0000e642 NSt6__ndk19time_baseE
+0000e658 NSt6__ndk120__time_get_c_storageIcEE
+0000e67d NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0000e6c5 NSt6__ndk120__time_get_c_storageIwEE
+0000e6ea NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0000e732 NSt6__ndk110__time_putE
+0000e74a NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0000e792 NSt6__ndk110moneypunctIcLb0EEE
+0000e7b1 NSt6__ndk110money_baseE
+0000e7c9 NSt6__ndk110moneypunctIcLb1EEE
+0000e7e8 NSt6__ndk110moneypunctIwLb0EEE
+0000e807 NSt6__ndk110moneypunctIwLb1EEE
+0000e826 NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0000e86f NSt6__ndk111__money_getIcEE
+0000e88b NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0000e8d4 NSt6__ndk111__money_getIwEE
+0000e8f0 NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0000e939 NSt6__ndk111__money_putIcEE
+0000e955 NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0000e99e NSt6__ndk111__money_putIwEE
+0000e9ba NSt6__ndk18messagesIcEE
+0000e9d2 NSt6__ndk113messages_baseE
+0000e9ed NSt6__ndk18messagesIwEE
+0000ea70 N10__cxxabiv116__shim_type_infoE
+0000ea91 N10__cxxabiv117__class_type_infoE
+0000eab3 N10__cxxabiv120__si_class_type_infoE
+0000ead8 N10__cxxabiv121__vmi_class_type_infoE
+0000eafe St9exception
+0000eb0b St20bad_array_new_length
+0000eb24 St9bad_alloc
+0000eb31 St11logic_error
+0000eb41 St12length_error
+0000eb52 St12out_of_range
+0000eb63 St13runtime_error
+0000eb75 St14overflow_error
+0000eb88 St9type_info
+0000eb95 St8bad_cast
+00015dcd zPLR
+0001a284 lij8J
+0001a31d j68h
+0001a339 #@9`
+0001a6f1 #@9h
+0001a709 #@9h
+0001a819 k78`
+0001a907 R		@
+0001ad53 R		@
+0001af95 j68a"@
+0001b157 y+im8
+0001b160 *ij8,il8
+0001b184 -im8*ij8+ik8,il8
+0001b1b4 -im8*ij8+ik8,il8
+0001b1e8 -im8*ij8+ik8,il8(ih8
+0001b225 #@9h
+0001b32d j48)
+0001b48b 6`.@
+0001b5bd C@9h
+0001b645 C@9h
+0001b6b1 C@9h
+0001b914 (C@9,G
+0001bb10 ?k78
+0001c5db TH(@
+0001c7c3 7h&@
+0001c7e3 =H @
+0001c880 KA@9L
+0001c9fb =*	@
+0001cb91 `@9H
+0001d0dd 80.J
+0001d1ed 80.J
+0001d33d 80.	
+0001e0dd cE9h
+0001e152 B9H4
+0001e1a5 #F9h
+0001e67b 6a6A
+0001e731 #F9h
+0001e7e5 cB9H
+0001eb71 #F9(
+0001ec11 #F9H
+0001edd9 #F9h
+0001ee29 cB9h
+0001ee49 #C9h
+0001eeeb TV{t
+0001f0e4 ?k88
+0001f1e5 #A9H
+0001f279 CB9H
+0001f705 c@9h
+0001f75d c@9h
+0001f7ad #A9h
+0001f80d CB9(
+000204db <!	@
+000205cb <!	@
+00020d78 	!B9
+00020ed5 "B9H
+00020f79 B@9(
+00021015 "B9H
+000210b9 B@9(
+00021311 CE9h
+00021671 CE9h
+00021794 _k78
+000217cc 	!B9
+000218a1 CE9h
+000219cc *!B9+M@
+00021a30 	!B9
+00021b94 	!B9
+00021ced CE9h
+00021df5 CE9h
+00021e98 _k68
+00021efd CE9h
+00021f29 #I9)
+0002220c 	!B9
+000222cf <Z{D
+00022374 	!B9
+00022460 _k68
+000224f9 #I9)
+000225f0 _k68
+00022681 #I9)
+0002288b 7(	@
+00022bf9 j48A
+00022c9d CE9h
+00022d40 hB@9t
+00022e0d CE9h
+00023081 CE9h
+0002341b =i"@9
+000234bd c@9h
+00023530 h"@9h
+000236c5 "B9H
+00023799 B@9(
+00023c05 j68a"@
+00023e11  @9h
+0002437d @@9h
+0002495a @9(hh8)
+00024962 _8H!
+00025cfb =!	@
+00025f22 [8h	
+00026243 <Z{D
+00026371 CB9H
+0002654d CA9h
+0002679d CB9h
+000267fd CB9(
+00026925 CB9h
+000269b9 CA9h
+00026aa5 CA9h
+00026bf9 CA9h
+00026e49 CB9(
+000281d1 b@9h
+000281f3 4*ih8J
+00028207 4J	@9*
+00028243 4J!@9
+00028250 K%@9
+00028257 4J)@9
+00028264 K-@9
+0002826b 4J1@9
+00028278 K5@9k	
+0002827f 4J9@9j	
+0002828c K=@9K	
+00028293 4JA@9J	
+000282a0 KE@9+	
+000282a7 4JI@9*	
+000282b4 KM@9
+000282bb 4JQ@9
+000282c8 KU@9
+000282cf 4JY@9
+000282dc K]@9
+000282e3 4Ja@9
+000282f0 Ke@9
+000282f7 4Ji@9
+00028304 Km@9
+0002830b 4Jq@9
+00028324 Ju@9
+00028521 rB9h
+00028530 *ih8
+00028543 4J	@9*
+0002857f 4J!@9
+0002858c K%@9
+00028593 4J)@9
+000285a0 K-@9
+000285a7 4J1@9
+000285b4 K5@9k	
+000285bb 4J9@9j	
+000285c8 K=@9K	
+000285cf 4JA@9J	
+000285dc KE@9+	
+000285e3 4JI@9*	
+000285f0 KM@9
+000285f7 4JQ@9
+00028604 KU@9
+0002860b 4JY@9
+00028618 K]@9
+0002861f 4Ja@9
+0002862c Ke@9
+00028633 4Ji@9
+00028640 Km@9
+00028647 4Jq@9
+00028654 Ku@9k
+0002865b 4Jy@9j
+00028674 J}@9
+00028871 b@9H
+00028b16 \8H	
+0002b6f1 CA9h
+0002b7f5 CA9H
+0002be45 #@9h
+0002be8d #@9h
+0002bea5 #@9h
+0002bf97 =)	@
+0002c60f 7h:A
+0002ca05 CK9h
+0002cd03 R yE
+0002cda7 7(	@
+0002cfab =(	@
+0002d06f <szD
+0002d14f R)e@
+0002d170 *ij8
+0002d177 9*ik8
+0002d183 9*ik8
+0002d18f 9*ik8
+0002d19b 9*ik8
+0002d1a7 9*ik8
+0002d1b3 9*ik8
+0002d1bf 9*ik8
+0002d1cb 9*ik8
+0002d1d7 9*ik8
+0002d1e3 9*ik8
+0002d1ef 9*ik8
+0002d1fb 9*ik8
+0002d207 9*ik8
+0002d217 9*ik8
+0002d21f 9(ih8
+0002d23d CK9h
+0002d36d CB9h
+0002d37d CK9h
+0002d551 CK9H
+0002db10 	ii8
+0002db17 9	ij8j.H
+0002db23 9	ij8j>L
+0002db2f 9	ij8jNP
+0002db3b 9	ij8j^T
+0002db47 9	ij8jnX
+0002db53 9	ij8j~\
+0002db5f 9	ij8j
+0002db6b 9	ij8j
+0002db77 9	ij8j
+0002db83 9	ij8j
+0002db8f 9	ij8j
+0002db9b 9	ij8j
+0002dba7 9	ij8j
+0002dbb3 9	ij8j
+0002e687 TtN@
+0002eb77 TwN@
+0002f63d 80.	
+00030698 hb@9
+0003071d C@9h
+0003077c hb@9
+00030831 C@9h
+000309c8 Xc@9*
+00030aea 	)@A
+00030ca8 LA@9M
+00030f19 #@9h
+00030f52 A9IA
+000311af 6`6@
+000314bd CA9h
+0003173d CA9h
+000318f3 T|Z@
+000323cd CB9h
+0003245d CB9h
+0003274d c@9h
+00032775 #A9h
+0003283d CB9h
+00032875 #D9IA
+00032a6d #A9h
+000331d5 #D9IA
+0003339d #A9h
+0003361d c@9H
+000336a5 #A9h
+00033b49 #A9(
+00033ba5 #A9H
+00034107 6`N@
+0003420b <#	A
+0003427e B9h;
+000343b4 _k98
+00034dd1 CE9h
+000353b9 cC9h
+000353f9 #G9IA
+00035759 #J)(
+000359cd c@9h
+00035bc6 C9h	
+00035d8d cC9h
+00035feb 6`2@
+000363b1 c@9h
+000363f9 cB9IA
+00036609 #@9(
+00036649 #@9h
+00036760 	 B9
+00036ab7 RiB@
+00036c35 j68h
+00036db1 j68h
+00036fb5 cA9h
+000375c8 Jii8_q
+000376f8 )i{8?q
+00038194 hB@9h
+00038274 ?i+8
+0003827a A9	$@
+00038a03 R!	@
+00038c46 B9!	@
+00039459 j38Zc
+00039a2f Txn@
+0003a4ed c@9h
+0003ad57 =IH@
+0003ad93 =LH@
+0003adcb =KH@
+0003ae67 <JH@
+0003afd7 <IH@
+0003b1e7 7(	@
+0003b52d 80.	
+0003b929 80.	
+0003e571 j`8h
+0003e98c (`@9
+0003eaa4 hb@9
+0003eb34 hb@9
+0003eb75 b@9hb
+0003fb81 #@9h
+00040239 j48A
+00040261 c@9`
+00040454 hb@9
+000404d4 hb@9
+00040a12 J8)c@9!
+00040c50 i&C9
+00040c8b T		@9?
+00040dc4 hbC9
+00040dd2 B9bZ@
+00040f87 ThbC9
+00040fa4 hbC9
+00041064 +yhxJ	
+0004107b ThF@
+000414cf *k>@
+00041500 hbC9
+000415e7 *hbC9
+00041607 *hbC9
+000417b3 RhbC9
+000417bf TiF@
+0004199b Rk6E
+00041ebf =!	@
+00042171 j48A
+000428dd #@9h
+00042935 #@9h
+00042bda @9*	
+00042cda @9*	
+00042d8b R	D@
+00042df7 T		@9?
+00042e67 T		@9?
+00042eb3 T		@9?
+00042f06 @9?9
+00042f3b T		@9?
+00042fe2 @9?q
+000430b2 @9_)
+000430d2 @9_)
+00043147 7	H@
+00043236 @8?4
+00043272 @9sN@
+000433ce @9?p
+00043489 C@9h
+0004363d C@9h
+0004375f 7h.@
+00043783 Ti*@
+00043843 7h.@
+00043893 Th.@
+00043c41 k68 
+00043ce1 j58B
+00043de1 #@9h
+00043e1a C9IA
+00043ee1 #@9H
+00043f25 #@9H
+0004447a @9k	
+000447c0 _k98
+00044a4f 6 	@
+000454e3 6`B@
+00045533 6`f@
+00045543 6`B@
+000456a7 T)c@9
+00045dab TuZ@
+00046a59 b@9(
+000474e0 (a@9H
+000474e7 7(	@
+000476a9  @9+ @9
+00047840 	 @9
+000479d8 	 @9
+00047c7f 7hb@9
+00047cb4 hb@9
+00047cf2 @y(|@
+00048356 @y( @9)
+0004881f 7hb@9
+0004886c hb@9
+00048f2c 	 @9?
+00049103 T()@
+000491ad  @9H
+00049711  @9H
+00049ee4 _i(87
+0004a248 	 @9
+0004a465 8@z@
+0004b008 ?i(8
+0004b080 ?i(8m
+0004b0f2  ./<
+0004b113 7/<	
+0004b167 9/<	
+0004b1e2  n/<
+0004b203 7/<	
+0004b297 8/<	
+0004b449 j!8h
+0004b4e1 i!8h
+0004ce6b SJYi
+0004d013 Si}	
+0004d052 0q(|
+0004d08c hYhx)=@
+0004d097 xhyix
+0004d0fb rKykx	}
+0004d113 RIyix
+0004d130 IYkx
+0004d13b xHyhx
+0004d17f 9(yhx
+0004d1a8 iYixJ
+0004d1bb Rjyjx
+0004d1d8 jYix
+0004d1e3 yhyhx
+0004d208 HYhx,=
+0004d224 IYkx
+0004d22f yHyhx
+0004d260 KYhx
+0004d26f yHyhx
+0004d2b9 yixK}
+0004d2d5 ykxK}
+0004d2f1 ykxM=
+0004d30d YixJ=@
+0004d31d yjx	
+0004d96c ( @9
+0004dd66 	j	 
+0004e204 	$@9	
+0004f8e3 T`"@
+0004f8fb T`6@
+0004fa0c +ih8J	
+0004fb7f 6`>@
+0004fb97 4`>@
+0004fcef T`"@
+0004fda3 Th"@
+00050061 pB9(
+00050087 T	 @
+00050103 T`"@
+0005011b T`6@
+00050152 B9hb
+00050207 T`>@
+000502a3 *`>@
+000503d7 T`B@
+0005040f Rc>@
+00050437 T`>@
+0005044a B9iJ@
+0005049b *`>@
+0005050f T`B@
+000505b7 4`"@
+000505e7 7h"@
+000505f7 T`2@
+00050663 6h"@
+000506bb 6h"@
+00050753 6h.@
+000507df 6h&@
+00050867 6h&@
+00050974 jbA9k
+00050987 6h.@
+00050a0b 6h&@
+00050a85 "A9j
+00050b04 k"A9
+00050b17 6h&@
+00050b9f 6h*@
+00050c19 BA9j
+00050c9c kBA9
+00050cb3 6h*@
+000517eb Tu^@
+0005180f T`"@
+00051827 7a"@
+000518bb Th*@
+000518cb T`"@
+00051906 ^8u^
+00051925 jh8a"@
+00051a4f *c"@
+00051efb Tu^@
+00051f1f T`"@
+00051f37 7a"@
+00051fcb Th*@
+00051fdb T`"@
+00052037 8a"@
+00052498 h @9
+000525a8 	a@9
+00054c87 *)uE
+00054c8c (ih8	
+00054ceb *)uE
+00054cf4 (ih8I
+00054e8c h @9
+00054f9c 	a@9
+00058003 *)uE
+0005800c (ih8I
+0005806b *)uE
+00058074 (ih8I
+00058980 H @9
+00059798 H @9
+0005a517 r(1@
+0005b7b7 *)%@
+0005b7f3 *)%@
+0005b85b *)%@
+0005bf90 +ih8J	
+0005c9b7 *(5@
+0005c9f3 *(5@
+0005cb83 *)%@
+0005d27c +ih8J	
+0005e00f R iE
+0005e13f R iE
+0005e2f8 hkh8
+0005e6d6 @9H	86
+0005e880 h'87
+0005e9de 	ka$
+0005ea60 h 06(
+0005ebad CB9	
+0005edec )iv8
+000601e9 cB9	
+000604d1 cB9	
+00061bf1 ii8_
+000629fd ii8_
+00062aa7 Tj	@
+00063c47 T	yi
+00063c83 T	yi
+00063eb8 hb@9
+00064b47 T,}F
+00064b73 T,}L
+00064baf TK-@xl
+00064bcf Tl%@
+00064c5c ?9@q
+00064c73 T,}L
+00064c87 9,}F
+000650d1 	@9@
+000651a3 TJ	n
+000654a3 T(	@9
+000655c3 T)	@9,
+0006560b T-	@9
+00065904 	`@9
+00065974 	`@9
+000659fb =)	@
+00065af6 X6H	
+00065d40 haD9
+00065ddc h!E9
+00065ec0 HAF9
+00065f80 HaG9
+00066000 H!H9
+00066220 hAL9
+000662ec haM9
+000664c8 hAO9
+00066594 HaP9
+00066624 h!Q9
+0006670c HAR9
+000667d8 HaS9
+00066858 H!T9
+00066918 HAU9
+000669d8 HaV9
+00066bbf =(aY9
+00066cf8 ha\9
+00066d80 h!]9
+00066e4c hA^9
+00066f18 ha_9
+0006713c IAa9
+0006804f R @ 
+0006812f R @`
+000684f3 r(1@
+000693e0 @1Wz)
+00069549 1WzJ
+00069667 <i*?
+0006981c h%@x
+000698e1 j{8*
+00069b47 K*)(
+00069c76 @yN	
+00069f88  	Az@	Az
+0006a1c8 )<A9
+0006a327 T(<@
+0006a34b T(H@
+0006a483 7i>@
+0006a493 Rh:A9
+0006a4eb Th6@
+0006a517 ThF@
+0006a588 h:A9
+0006a58f 7h6A9
+0006a59b Th2A9
+0006a5a7 Th2@
+0006a613 7h:A9
+0006a61b 7h>@
+0006a66c h:A9
+0006a673 7h>@
+0006a67f Th2@
+0006a6ef Th2@
+0006a807 Th6@
+0006a833 ThF@
+0006a86c h6A9
+0006a877 Th2A9i
+0006a8bf Th2@
+0006a99a G)t:
+0006a9b3 Th2@
+0006a9df Th6@
+0006aa7f 4y2A9|6A9
+0006aad0 h2A9
+0006aad7 qi6A9
+0006aaf4 j:A9
+0006aaff 6h2@
+0006ab1d C@9H
+0006ab68 h2A9
+0006ab70 i6A9
+0006bc1e @9o%
+0006c553 Th~@
+0006c982 @8|"
+0006c995 zhx)	
+0006c9a1 b@9a
+0006cb29 1Mzl
+0006cedc `1Jz
+0006cef6 	*h}
+0006d062 ?7|"
+0006d1a6 ?7|"
+0006d441 1Mzl
+0006d5d2 ?7_|
+0006e7f8  %@x
+0006eb84 `0Bz
+0006ebe7 QqN0
+0006ec3b TbN 
+0006ecf3 R@0@z 
+0006ee08  0@z
+0006fd1f TiC@
+00074119 .init_array
+00074125 .fini_array
+00074131 .text
+00074137 .got
+0007413c .note.android.ident
+00074150 .got.plt
+00074159 .rela.plt
+00074163 .tbss
+00074169 .bss
+0007416e .dynstr
+00074176 .eh_frame_hdr
+00074184 .gnu.version_r
+00074193 .data.rel.ro
+000741a0 .relr.dyn
+000741aa .rela.dyn
+000741b4 .gnu.version
+000741c1 .dynsym
+000741c9 .gnu.hash
+000741d3 .relro_padding
+000741e2 .eh_frame
+000741ec .gcc_except_table
+000741fe __lcxx_override
+0007420e .note.gnu.build-id
+00074221 .dynamic
+0007422a .shstrtab
+00074234 .rodata
+0007423c .data

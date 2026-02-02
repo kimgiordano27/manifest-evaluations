@@ -1,0 +1,66 @@
+0000020c Android
+00000218 r26b
+00000258 10909125
+0000063f :Vqp
+00000669 __cxa_finalize
+00000678 __cxa_atexit
+00000685 __register_atfork
+00000697 checked_memcpy
+000006a6 memcpy
+000006ad buffer_overflow_error_with_size
+000006cd null_pointer_error
+000006e0 checked_memcpy_robust
+000006f6 buffer_overflow_error
+0000070c try_checked_memcpy
+0000071f try_checked_memcpy_robust
+00000739 checked_strcat
+00000748 strlen
+0000074f integer_overflow_error
+00000766 try_checked_strcat
+00000779 checked_memcmp
+00000788 memcmp
+0000078f buffer_oob_read_error
+000007a5 checked_strncmp
+000007b5 strncmp
+000007bd checked_memset
+000007cc memset
+000007d3 __vsnprintf_chk
+000007e3 __stack_chk_fail
+000007f4 error_with_prefix_msg
+0000080a abort
+00000810 error_print
+0000081c __write_chk
+00000828 libc.so
+00000830 LIBC
+00000835 LIBC_N
+0000083c libxplat_secure_lib_secure_string.so
+00000998 checked_memcpy
+000009a7 checked_memcpy_robust
+000009bd checked_memset
+000009cc checked_strcat
+000009db checked_strncmp
+000009eb checked_memcmp
+000009fa [err] Aborting due to potential integer overflow in: 
+00000a30 [err] Aborting due to potential buffer overflow in: 
+00000a65 [err] Aborting due to potential buffer overflow, writing size %zu to destination %zu in: 
+00000abf [err] Aborting due to unexpected null pointer in: 
+00000af2 [err] Aborting due to potential buffer out-of-bounds read in: 
+000015f1 .fini_array
+000015fd .text
+00001603 .note.android.ident
+00001617 .got.plt
+00001620 .rela.plt
+0000162a .dynstr
+00001632 .eh_frame_hdr
+00001640 .gnu.version_r
+0000164f .data.rel.ro
+0000165c .relr.dyn
+00001666 .gnu.version
+00001673 .dynsym
+0000167b .gnu.hash
+00001685 .relro_padding
+00001694 .eh_frame
+0000169e .note.gnu.build-id
+000016b1 .dynamic
+000016ba .shstrtab
+000016c4 .rodata

@@ -1,0 +1,66 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+00000519 __cxa_finalize
+00000528 __cxa_atexit
+00000535 __register_atfork
+00000547 __android_log_print
+0000055b __stack_chk_fail
+0000056c distract_init
+0000057a android_aware_dlopen
+0000058f android_aware_dlopen_err
+000005a8 android_aware_dlopen_err_msg
+000005c5 dlsym
+000005cb distract_lookup_size
+000005e0 distract_hook
+000005ee abort
+000005f4 __wrap__ZdlPv
+00000602 __wrap__Znwm
+0000060f JNI_OnLoad
+0000061a libdl.so
+00000623 LIBC
+00000628 libc.so
+00000630 liblog.so
+0000063a libc++_shared.so
+0000064b libdistract.so
+0000065a libandroid_aware_dlopen.so
+00000675 libfb_mboost.so
+00000810 enableLicmFix
+0000081e _ZN3art4LICM3RunEv
+00000831 Successfully hooked %s
+00000848 Library request failed. Code: %d Message: %s
+00000875 libfb_mboost.so
+00000885 libart-compiler.so
+00000898 com/facebook/mobileboost/framework/os/jni/MobileBoostNative
+000008d4 (Z)Z
+000008d9 MobileBoostJNI
+000008e8 Distract could not get library %s.
+0000090b Distract could not get function %s.
+0000092f Error hooking %s function: %s.
+0000094e Failed to init distract; aborting.
+00000971 Failed to init distract args for %s; aborting.
+00000c4c 	AQ9i
+00000c6b 9(mC
+00000c92 	k	x
+0000105c `bQ9
+00001451 .fini_array
+0000145d .text
+00001463 .note.android.ident
+00001477 .got.plt
+00001480 .rela.plt
+0000148a .bss
+0000148f pre_merge_jni_libraries
+000014a7 .dynstr
+000014af .eh_frame_hdr
+000014bd .gnu.version_r
+000014cc .data.rel.ro
+000014d9 .relr.dyn
+000014e3 .gnu.version
+000014f0 .dynsym
+000014f8 .gnu.hash
+00001502 .relro_padding
+00001511 .eh_frame
+0000151b .note.gnu.build-id
+0000152e .dynamic
+00001537 .shstrtab
+00001541 .rodata

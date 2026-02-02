@@ -1,0 +1,1837 @@
+0000027c Android
+00000288 r23b
+000002c8 7779620
+000048a9  ! Q
+00004c48 $X$B
+00004cb0 6Jes
+00004d96 &G G
+00004e1d cmz0
+00004f23 lBSE
+00004fd8 ~@$m
+00005023 ~BUYb?
+0000509a OI(w
+00005127 H>Tn
+00005223 lBo(
+000052d0 X$s>
+0000537a (+z=
+0000543f BHnQ
+00005480 0@iL
+0000548d 8y&V)
+0000550b m$]Mw
+00006985 __cxa_atexit
+00006992 __cxa_finalize
+000069a1 UnityOpenXRAndroidXR_OpenXRLifeCycle_HookGetInstanceProcAddr
+000069de UnityOpenXRAndroidXR_OpenXRLifeCycle_OnAppSpaceChange
+00006a14 UnityOpenXRAndroidXR_OpenXRLifeCycle_OnInstanceCreate
+00006a4a UnityOpenXRAndroidXR_OpenXRLifeCycle_OnInstanceDestroy
+00006a81 UnityOpenXRAndroidXR_OpenXRLifeCycle_OnSessionCreate
+00006ab6 UnityOpenXRAndroidXR_OpenXRLifeCycle_OnSessionDestroy
+00006aec UnityOpenXRAndroidXR_OpenXRLifeCycle_OnSystemChange
+00006b20 UnityOpenXRAndroid_FrameManager_GetCurrentTime
+00006b4f UnityPluginLoad
+00006b5f _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv
+00006ba2 _ZNSt11logic_errorC2EPKc
+00006bbb _ZNSt12length_errorD1Ev
+00006bd3 _ZNSt12out_of_rangeD1Ev
+00006beb _ZNSt6__ndk112__next_primeEm
+00006c08 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+00006c53 _ZSt9terminatev
+00006c63 _ZTISt11logic_error
+00006c77 _ZTISt12length_error
+00006c8c _ZTISt12out_of_range
+00006ca1 _ZTISt9exception
+00006cb2 _ZTSSt11logic_error
+00006cc6 _ZTSSt12length_error
+00006cdb _ZTSSt12out_of_range
+00006cf0 _ZTSSt9exception
+00006d01 _ZTVN10__cxxabiv117__class_type_infoE
+00006d27 _ZTVN10__cxxabiv120__si_class_type_infoE
+00006d50 _ZTVSt12length_error
+00006d65 _ZTVSt12out_of_range
+00006d7a _ZdlPv
+00006d81 _Znwm
+00006d87 __cxa_allocate_exception
+00006da0 __cxa_begin_catch
+00006db2 __cxa_free_exception
+00006dc7 __cxa_throw
+00006dd3 __gxx_personality_v0
+00006de8 __stack_chk_fail
+00006df9 memcmp
+00006e00 memcpy
+00006e07 strlen
+00006e0e UnityAndroidOpenXR_Display_GetDisplayRefreshRateCount
+00006e44 UnityAndroidOpenXR_Display_TryGetDisplayRefreshRates
+00006e79 UnityAndroidOpenXR_Display_TryRequestDisplayRefreshRate
+00006eb1 UnityOpenXRAndroid_HandMeshes_Destroy
+00006ed7 UnityOpenXRAndroid_HandMeshes_ReleaseConvertedMeshData
+00006f0e UnityOpenXRAndroid_HandMeshes_TryEnsureInitialized
+00006f41 UnityOpenXRAndroid_HandMeshes_TryGetHandMeshData
+00006f72 _ZNKSt6__ndk120__vector_base_commonILb1EE20__throw_length_errorEv
+00006fb4 memset
+00006fbb UnityOpenXRAndroid_Anchor_ClearChanges
+00006fe2 UnityOpenXRAndroid_Anchor_Create
+00007003 UnityOpenXRAndroid_Anchor_Destroy
+00007025 UnityOpenXRAndroid_Anchor_GetChanges
+0000704a UnityOpenXRAndroid_Anchor_GetSavedIdCount
+00007074 UnityOpenXRAndroid_Anchor_GetSavedIds
+0000709a UnityOpenXRAndroid_Anchor_IsPersistedAnchor
+000070c6 UnityOpenXRAndroid_Anchor_Start
+000070e6 UnityOpenXRAndroid_Anchor_StopLoadingAnchor
+00007112 UnityOpenXRAndroid_Anchor_TryAdd
+00007133 UnityOpenXRAndroid_Anchor_TryAttach
+00007157 UnityOpenXRAndroid_Anchor_TryEraseAnchor
+00007180 UnityOpenXRAndroid_Anchor_TryLoadAnchor
+000071a8 UnityOpenXRAndroid_Anchor_TryRemove
+000071cc UnityOpenXRAndroid_Anchor_TrySaveAnchor
+000071f4 UnityOpenXRAndroid_Camera_Create
+00007215 UnityOpenXRAndroid_Camera_Destroy
+00007237 UnityOpenXRAndroid_Camera_GetCurrentLightEstimation
+0000726b UnityOpenXRAndroid_Camera_GetPassthroughCameraState
+0000729f UnityOpenXRAndroid_Camera_GetRequestedLightEstimation
+000072d5 UnityOpenXRAndroid_Camera_SetRequestedLightEstimation
+0000730b UnityOpenXRAndroid_Camera_TryGetFrame
+00007331 UnityOpenXRAndroid_Face_AcquireChanges
+00007358 UnityOpenXRAndroid_Face_Create
+00007377 UnityOpenXRAndroid_Face_Destroy
+00007397 UnityOpenXRAndroid_Face_OnSessionBegin
+000073be UnityOpenXRAndroid_Face_OnSessionEnd
+000073e3 UnityOpenXRAndroid_Face_OnSessionStateChange
+00007410 UnityOpenXRAndroid_Face_ReleaseChanges
+00007437 UnityOpenXRAndroid_Face_StartAndGetInwardID
+00007463 UnityOpenXRAndroid_Occlusion_Create
+00007487 UnityOpenXRAndroid_Occlusion_Destroy
+000074ac UnityOpenXRAndroid_Occlusion_GetBufferCount
+000074d8 UnityOpenXRAndroid_Occlusion_GetDepthTextureDimensions
+0000750f UnityOpenXRAndroid_Occlusion_GetUseSmoothing
+0000753c UnityOpenXRAndroid_Occlusion_SetUseSmoothing
+00007569 UnityOpenXRAndroid_Occlusion_Start
+0000758c UnityOpenXRAndroid_Occlusion_Stop
+000075ae UnityOpenXRAndroid_Occlusion_TryGetEnvironmentDepth
+000075e2 UnityOpenXRAndroid_Plane_ClearChanges
+00007608 UnityOpenXRAndroid_Plane_Create
+00007628 UnityOpenXRAndroid_Plane_Destroy
+00007649 UnityOpenXRAndroid_Plane_GetBoundaryVertexCount
+00007679 UnityOpenXRAndroid_Plane_GetBoundaryVertexData
+000076a8 UnityOpenXRAndroid_Plane_GetChanges
+000076cc UnityOpenXRAndroid_Plane_GetPlaneDetectionMode
+000076fb UnityOpenXRAndroid_Plane_SetPlaneDetectionMode
+0000772a UnityOpenXRAndroid_Raycast_AcquireHitResults
+00007757 UnityOpenXRAndroid_Raycast_Create
+00007779 UnityOpenXRAndroid_Raycast_Destroy
+0000779c UnityOpenXRAndroid_Raycast_ReleaseHitResults
+000077c9 UnityOpenXRAndroid_Session_IsSupported
+000077f0 UnityOpenXRAndroid_Stats_Create
+00007810 UnityOpenXRAndroid_Stats_Destroy
+00007831 UnityOpenXRAndroid_Stats_Initialize
+00007855 UnityOpenXRAndroid_Stats_Start
+00007874 UnityOpenXRAndroid_Stats_Stop
+00007892 UnityOpenXRAndroid_Stats_Update
+000078b2 _ZdaPv
+000078b9 _Znam
+000078bf memmove
+000078c7 strcmp
+000078ce free
+000078d3 memalign
+000078dc _ZNSt6__ndk16__itoa8__u32toaEjPc
+000078fd _ZNSt6__ndk16__itoa8__u64toaEmPc
+0000791e _ZNSt13runtime_errorC2EPKc
+00007939 _ZNSt14overflow_errorD1Ev
+00007953 _ZTISt14overflow_error
+0000796a _ZTVSt14overflow_error
+00007981 _ZSt17__throw_bad_allocv
+0000799a _ZSt7nothrow
+000079a7 _ZNSt9bad_allocC1Ev
+000079bb _ZNSt9bad_allocD1Ev
+000079cf _ZSt15get_new_handlerv
+000079e6 _ZTISt9bad_alloc
+000079f7 _ZdaPvRKSt9nothrow_t
+00007a0c _ZdaPvSt11align_val_t
+00007a22 _ZdaPvSt11align_val_tRKSt9nothrow_t
+00007a46 _ZdaPvm
+00007a4e _ZdaPvmSt11align_val_t
+00007a65 _ZdlPvRKSt9nothrow_t
+00007a7a _ZdlPvSt11align_val_t
+00007a90 _ZdlPvSt11align_val_tRKSt9nothrow_t
+00007ab4 _ZdlPvm
+00007abc _ZdlPvmSt11align_val_t
+00007ad3 _ZnamRKSt9nothrow_t
+00007ae7 _ZnamSt11align_val_t
+00007afc _ZnamSt11align_val_tRKSt9nothrow_t
+00007b1f _ZnwmRKSt9nothrow_t
+00007b33 _ZnwmSt11align_val_t
+00007b48 _ZnwmSt11align_val_tRKSt9nothrow_t
+00007b6b __cxa_end_catch
+00007b7b malloc
+00007b82 posix_memalign
+00007b91 _ZNSt11logic_errorC1EPKc
+00007baa _ZNSt11logic_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00007c05 _ZNSt11logic_errorC1ERKS_
+00007c1f _ZNSt11logic_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00007c7a _ZNSt11logic_errorC2ERKS_
+00007c94 _ZNSt11logic_erroraSERKS_
+00007cae _ZNSt13runtime_errorC1EPKc
+00007cc9 _ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00007d26 _ZNSt13runtime_errorC1ERKS_
+00007d42 _ZNSt13runtime_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00007d9f _ZNSt13runtime_errorC2ERKS_
+00007dbb _ZNSt13runtime_erroraSERKS_
+00007dd7 _ZNSt9exceptionD2Ev
+00007deb _ZTVSt11logic_error
+00007dff _ZTVSt13runtime_error
+00007e15 __strlen_chk
+00007e22 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE12find_last_ofEPKcmm
+00007e7a _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE13find_first_ofEPKcmm
+00007ed3 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16find_last_not_ofEPKcmm
+00007f2f _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17find_first_not_ofEPKcmm
+00007f8c _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE2atEm
+00007fd5 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4copyEPcmm
+00008023 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEPKcmm
+00008072 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcm
+000080be _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEPKcmm
+0000810e _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEcm
+0000815b _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEPKc
+000081ab _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKc
+000081fd _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmPKcm
+00008250 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEmmRKS5_mm
+000082a6 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE12find_last_ofEPKwmm
+000082fe _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE13find_first_ofEPKwmm
+00008357 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE16find_last_not_ofEPKwmm
+000083b3 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE17find_first_not_ofEPKwmm
+00008410 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE2atEm
+00008459 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE4copyEPwmm
+000084a7 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE4findEPKwmm
+000084f6 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE4findEwm
+00008542 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE5rfindEPKwmm
+00008592 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE5rfindEwm
+000085df _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7compareEPKw
+0000862f _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7compareEmmPKw
+00008681 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7compareEmmPKwm
+000086d4 _ZNKSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7compareEmmRKS5_mm
+0000872a _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_out_of_rangeEv
+0000876d _ZNSt16invalid_argumentD1Ev
+00008789 _ZNSt6__ndk110to_wstringEd
+000087a4 _ZNSt6__ndk110to_wstringEe
+000087bf _ZNSt6__ndk110to_wstringEf
+000087da _ZNSt6__ndk110to_wstringEi
+000087f5 _ZNSt6__ndk110to_wstringEj
+00008810 _ZNSt6__ndk110to_wstringEl
+0000882b _ZNSt6__ndk110to_wstringEm
+00008846 _ZNSt6__ndk110to_wstringEx
+00008861 _ZNSt6__ndk110to_wstringEy
+0000887c _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc
+000088e0 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE2atEm
+00008928 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4nposE
+00008971 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm
+000089bd _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm
+00008a0c _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcmm
+00008a5c _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEmc
+00008aa9 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+00008af7 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00008b46 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendERKS5_mm
+00008b98 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
+00008be5 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+00008c33 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcm
+00008c82 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignERKS5_mm
+00008cd4 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEmc
+00008d21 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertENS_11__wrap_iterIPKcEEc
+00008d83 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc
+00008dd2 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+00008e22 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmRKS5_mm
+00008e75 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmmc
+00008ec3 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+00008f10 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKc
+00008f61 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKcm
+00008fb3 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmRKS5_mm
+00009008 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmmc
+00009058 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+000090a5 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__grow_byEmmmmmm
+000090f9 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+00009148 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_RKS4_
+00009198 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_mmRKS4_
+000091ea _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_
+00009235 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_RKS4_
+00009285 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_
+000092d7 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+0000931e _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
+00009365 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+000093b0 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSEc
+000093f7 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE21__grow_by_and_replaceEmmmmmmPKw
+0000945b _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE2atEm
+000094a3 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE4nposE
+000094ec _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE5eraseEmm
+00009538 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6__initEPKwm
+00009587 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6__initEPKwmm
+000095d7 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6__initEmw
+00009624 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendEPKw
+00009672 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendEPKwm
+000096c1 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendERKS5_mm
+00009713 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendEmw
+00009760 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEPKw
+000097ae _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEPKwm
+000097fd _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignERKS5_mm
+0000984f _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEmw
+0000989c _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertENS_11__wrap_iterIPKwEEw
+000098fe _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmPKw
+0000994d _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmPKwm
+0000999d _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmRKS5_mm
+000099f0 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmmw
+00009a3e _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6resizeEmw
+00009a8b _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmPKw
+00009adc _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmPKwm
+00009b2e _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmRKS5_mm
+00009b83 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmmw
+00009bd3 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7reserveEm
+00009c20 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE9__grow_byEmmmmmm
+00009c74 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE9push_backEw
+00009cc3 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC1ERKS5_
+00009d0e _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC1ERKS5_RKS4_
+00009d5e _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC1ERKS5_mmRKS4_
+00009db0 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC2ERKS5_
+00009dfb _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC2ERKS5_RKS4_
+00009e4b _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC2ERKS5_mmRKS4_
+00009e9d _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEED1Ev
+00009ee4 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEED2Ev
+00009f2b _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEaSERKS5_
+00009f76 _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEaSEw
+00009fbd _ZNSt6__ndk14stodERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPm
+0000a00e _ZNSt6__ndk14stodERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPm
+0000a05f _ZNSt6__ndk14stofERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPm
+0000a0b0 _ZNSt6__ndk14stofERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPm
+0000a101 _ZNSt6__ndk14stoiERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+0000a153 _ZNSt6__ndk14stoiERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPmi
+0000a1a5 _ZNSt6__ndk14stolERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+0000a1f7 _ZNSt6__ndk14stolERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPmi
+0000a249 _ZNSt6__ndk15stoldERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPm
+0000a29b _ZNSt6__ndk15stoldERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPm
+0000a2ed _ZNSt6__ndk15stollERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+0000a340 _ZNSt6__ndk15stollERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPmi
+0000a393 _ZNSt6__ndk15stoulERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+0000a3e6 _ZNSt6__ndk15stoulERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPmi
+0000a439 _ZNSt6__ndk16stoullERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi
+0000a48d _ZNSt6__ndk16stoullERKNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPmi
+0000a4e1 _ZNSt6__ndk19to_stringEd
+0000a4fa _ZNSt6__ndk19to_stringEe
+0000a513 _ZNSt6__ndk19to_stringEf
+0000a52c _ZNSt6__ndk19to_stringEi
+0000a545 _ZNSt6__ndk19to_stringEj
+0000a55e _ZNSt6__ndk19to_stringEl
+0000a577 _ZNSt6__ndk19to_stringEm
+0000a590 _ZNSt6__ndk19to_stringEx
+0000a5a9 _ZNSt6__ndk19to_stringEy
+0000a5c2 _ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+0000a620 _ZTISt16invalid_argument
+0000a639 _ZTVSt16invalid_argument
+0000a652 __errno
+0000a65a memchr
+0000a661 snprintf
+0000a66a strtod
+0000a671 strtof
+0000a678 strtol
+0000a67f strtold
+0000a687 strtoll
+0000a68f strtoul
+0000a697 strtoull
+0000a6a0 swprintf
+0000a6a9 wcslen
+0000a6b0 wcstod
+0000a6b7 wcstof
+0000a6be wcstol
+0000a6c5 wcstold
+0000a6cd wcstoll
+0000a6d5 wcstoul
+0000a6dd wcstoull
+0000a6e6 wmemchr
+0000a6ee wmemcmp
+0000a6f6 wmemcpy
+0000a6fe wmemmove
+0000a707 wmemset
+0000a70f _ZNKSt6__ndk120__vector_base_commonILb1EE20__throw_out_of_rangeEv
+0000a751 _ZSt13set_terminatePFvvE
+0000a76a _ZSt14set_unexpectedPFvvE
+0000a784 __cxa_terminate_handler
+0000a79c __cxa_unexpected_handler
+0000a7b5 __cxa_demangle
+0000a7c4 __cxa_allocate_dependent_exception
+0000a7e7 _ZSt13get_terminatev
+0000a7fc _ZSt14get_unexpectedv
+0000a812 __cxa_call_unexpected
+0000a828 __cxa_current_exception_type
+0000a845 __cxa_current_primary_exception
+0000a865 __cxa_decrement_exception_refcount
+0000a888 __cxa_free_dependent_exception
+0000a8a7 __cxa_get_exception_ptr
+0000a8bf __cxa_get_globals
+0000a8d1 __cxa_get_globals_fast
+0000a8e8 __cxa_increment_exception_refcount
+0000a90b __cxa_rethrow
+0000a919 __cxa_rethrow_primary_exception
+0000a939 __cxa_uncaught_exception
+0000a952 __cxa_uncaught_exceptions
+0000a96c __emutls_get_address
+0000a981 _ZSt10unexpectedv
+0000a993 _ZSt15set_new_handlerPFvvE
+0000a9ae __cxa_new_handler
+0000a9c0 __memmove_chk
+0000a9ce __vsnprintf_chk
+0000a9de realloc
+0000a9e6 __sF
+0000a9eb abort
+0000a9f1 android_set_abort_message
+0000aa0b closelog
+0000aa14 fputc
+0000aa1a openlog
+0000aa22 syslog
+0000aa29 vasprintf
+0000aa33 vfprintf
+0000aa3c _ZNSt13bad_exceptionD1Ev
+0000aa55 _ZTISt13bad_exception
+0000aa6b _ZTVSt13bad_exception
+0000aa81 __cxa_deleted_virtual
+0000aa97 __cxa_pure_virtual
+0000aaaa pthread_mutex_lock
+0000aabd pthread_mutex_unlock
+0000aad2 _ZTIDh
+0000aad9 _ZTIDi
+0000aae0 _ZTIDn
+0000aae7 _ZTIDs
+0000aaee _ZTIDu
+0000aaf5 _ZTIN10__cxxabiv116__enum_type_infoE
+0000ab1a _ZTIN10__cxxabiv116__shim_type_infoE
+0000ab3f _ZTIN10__cxxabiv117__array_type_infoE
+0000ab65 _ZTIN10__cxxabiv117__class_type_infoE
+0000ab8b _ZTIN10__cxxabiv117__pbase_type_infoE
+0000abb1 _ZTIN10__cxxabiv119__pointer_type_infoE
+0000abd9 _ZTIN10__cxxabiv120__function_type_infoE
+0000ac02 _ZTIN10__cxxabiv120__si_class_type_infoE
+0000ac2b _ZTIN10__cxxabiv121__vmi_class_type_infoE
+0000ac55 _ZTIN10__cxxabiv123__fundamental_type_infoE
+0000ac81 _ZTIN10__cxxabiv129__pointer_to_member_type_infoE
+0000acb3 _ZTIPDh
+0000acbb _ZTIPDi
+0000acc3 _ZTIPDn
+0000accb _ZTIPDs
+0000acd3 _ZTIPDu
+0000acdb _ZTIPKDh
+0000ace4 _ZTIPKDi
+0000aced _ZTIPKDn
+0000acf6 _ZTIPKDs
+0000acff _ZTIPKDu
+0000ad08 _ZTIPKa
+0000ad10 _ZTIPKb
+0000ad18 _ZTIPKc
+0000ad20 _ZTIPKd
+0000ad28 _ZTIPKe
+0000ad30 _ZTIPKf
+0000ad38 _ZTIPKg
+0000ad40 _ZTIPKh
+0000ad48 _ZTIPKi
+0000ad50 _ZTIPKj
+0000ad58 _ZTIPKl
+0000ad60 _ZTIPKm
+0000ad68 _ZTIPKn
+0000ad70 _ZTIPKo
+0000ad78 _ZTIPKs
+0000ad80 _ZTIPKt
+0000ad88 _ZTIPKv
+0000ad90 _ZTIPKw
+0000ad98 _ZTIPKx
+0000ada0 _ZTIPKy
+0000ada8 _ZTIPa
+0000adaf _ZTIPb
+0000adb6 _ZTIPc
+0000adbd _ZTIPd
+0000adc4 _ZTIPe
+0000adcb _ZTIPf
+0000add2 _ZTIPg
+0000add9 _ZTIPh
+0000ade0 _ZTIPi
+0000ade7 _ZTIPj
+0000adee _ZTIPl
+0000adf5 _ZTIPm
+0000adfc _ZTIPn
+0000ae03 _ZTIPo
+0000ae0a _ZTIPs
+0000ae11 _ZTIPt
+0000ae18 _ZTIPv
+0000ae1f _ZTIPw
+0000ae26 _ZTIPx
+0000ae2d _ZTIPy
+0000ae34 _ZTIa
+0000ae3a _ZTIb
+0000ae40 _ZTIc
+0000ae46 _ZTId
+0000ae4c _ZTIe
+0000ae52 _ZTIf
+0000ae58 _ZTIg
+0000ae5e _ZTIh
+0000ae64 _ZTIi
+0000ae6a _ZTIj
+0000ae70 _ZTIl
+0000ae76 _ZTIm
+0000ae7c _ZTIn
+0000ae82 _ZTIo
+0000ae88 _ZTIs
+0000ae8e _ZTIt
+0000ae94 _ZTIv
+0000ae9a _ZTIw
+0000aea0 _ZTIx
+0000aea6 _ZTIy
+0000aeac _ZTSDh
+0000aeb3 _ZTSDi
+0000aeba _ZTSDn
+0000aec1 _ZTSDs
+0000aec8 _ZTSDu
+0000aecf _ZTSN10__cxxabiv116__enum_type_infoE
+0000aef4 _ZTSN10__cxxabiv116__shim_type_infoE
+0000af19 _ZTSN10__cxxabiv117__array_type_infoE
+0000af3f _ZTSN10__cxxabiv117__class_type_infoE
+0000af65 _ZTSN10__cxxabiv117__pbase_type_infoE
+0000af8b _ZTSN10__cxxabiv119__pointer_type_infoE
+0000afb3 _ZTSN10__cxxabiv120__function_type_infoE
+0000afdc _ZTSN10__cxxabiv120__si_class_type_infoE
+0000b005 _ZTSN10__cxxabiv121__vmi_class_type_infoE
+0000b02f _ZTSN10__cxxabiv123__fundamental_type_infoE
+0000b05b _ZTSN10__cxxabiv129__pointer_to_member_type_infoE
+0000b08d _ZTSPDh
+0000b095 _ZTSPDi
+0000b09d _ZTSPDn
+0000b0a5 _ZTSPDs
+0000b0ad _ZTSPDu
+0000b0b5 _ZTSPKDh
+0000b0be _ZTSPKDi
+0000b0c7 _ZTSPKDn
+0000b0d0 _ZTSPKDs
+0000b0d9 _ZTSPKDu
+0000b0e2 _ZTSPKa
+0000b0ea _ZTSPKb
+0000b0f2 _ZTSPKc
+0000b0fa _ZTSPKd
+0000b102 _ZTSPKe
+0000b10a _ZTSPKf
+0000b112 _ZTSPKg
+0000b11a _ZTSPKh
+0000b122 _ZTSPKi
+0000b12a _ZTSPKj
+0000b132 _ZTSPKl
+0000b13a _ZTSPKm
+0000b142 _ZTSPKn
+0000b14a _ZTSPKo
+0000b152 _ZTSPKs
+0000b15a _ZTSPKt
+0000b162 _ZTSPKv
+0000b16a _ZTSPKw
+0000b172 _ZTSPKx
+0000b17a _ZTSPKy
+0000b182 _ZTSPa
+0000b189 _ZTSPb
+0000b190 _ZTSPc
+0000b197 _ZTSPd
+0000b19e _ZTSPe
+0000b1a5 _ZTSPf
+0000b1ac _ZTSPg
+0000b1b3 _ZTSPh
+0000b1ba _ZTSPi
+0000b1c1 _ZTSPj
+0000b1c8 _ZTSPl
+0000b1cf _ZTSPm
+0000b1d6 _ZTSPn
+0000b1dd _ZTSPo
+0000b1e4 _ZTSPs
+0000b1eb _ZTSPt
+0000b1f2 _ZTSPv
+0000b1f9 _ZTSPw
+0000b200 _ZTSPx
+0000b207 _ZTSPy
+0000b20e _ZTSa
+0000b214 _ZTSb
+0000b21a _ZTSc
+0000b220 _ZTSd
+0000b226 _ZTSe
+0000b22c _ZTSf
+0000b232 _ZTSg
+0000b238 _ZTSh
+0000b23e _ZTSi
+0000b244 _ZTSj
+0000b24a _ZTSl
+0000b250 _ZTSm
+0000b256 _ZTSn
+0000b25c _ZTSo
+0000b262 _ZTSs
+0000b268 _ZTSt
+0000b26e _ZTSv
+0000b274 _ZTSw
+0000b27a _ZTSx
+0000b280 _ZTSy
+0000b286 _ZTVN10__cxxabiv116__enum_type_infoE
+0000b2ab _ZTVN10__cxxabiv116__shim_type_infoE
+0000b2d0 _ZTVN10__cxxabiv117__array_type_infoE
+0000b2f6 _ZNSt9type_infoD2Ev
+0000b30a _ZTISt9type_info
+0000b31b _ZTVN10__cxxabiv117__pbase_type_infoE
+0000b341 _ZTVN10__cxxabiv119__pointer_type_infoE
+0000b369 _ZTVN10__cxxabiv120__function_type_infoE
+0000b392 _ZTVN10__cxxabiv121__vmi_class_type_infoE
+0000b3bc _ZTVN10__cxxabiv123__fundamental_type_infoE
+0000b3e8 _ZTVN10__cxxabiv129__pointer_to_member_type_infoE
+0000b41a __dynamic_cast
+0000b429 _ZNKSt13bad_exception4whatEv
+0000b446 _ZNKSt20bad_array_new_length4whatEv
+0000b46a _ZNKSt9bad_alloc4whatEv
+0000b482 _ZNKSt9exception4whatEv
+0000b49a _ZNSt13bad_exceptionD0Ev
+0000b4b3 _ZNSt13bad_exceptionD2Ev
+0000b4cc _ZNSt20bad_array_new_lengthC1Ev
+0000b4ec _ZNSt20bad_array_new_lengthC2Ev
+0000b50c _ZNSt20bad_array_new_lengthD0Ev
+0000b52c _ZNSt20bad_array_new_lengthD1Ev
+0000b54c _ZNSt20bad_array_new_lengthD2Ev
+0000b56c _ZNSt9bad_allocC2Ev
+0000b580 _ZNSt9bad_allocD0Ev
+0000b594 _ZNSt9bad_allocD2Ev
+0000b5a8 _ZNSt9exceptionD0Ev
+0000b5bc _ZNSt9exceptionD1Ev
+0000b5d0 _ZTISt20bad_array_new_length
+0000b5ed _ZTSSt13bad_exception
+0000b603 _ZTSSt20bad_array_new_length
+0000b620 _ZTSSt9bad_alloc
+0000b631 _ZTVSt20bad_array_new_length
+0000b64e _ZTVSt9bad_alloc
+0000b65f _ZTVSt9exception
+0000b670 _ZNKSt11logic_error4whatEv
+0000b68b _ZNKSt13runtime_error4whatEv
+0000b6a8 _ZNSt11logic_errorD0Ev
+0000b6bf _ZNSt11logic_errorD1Ev
+0000b6d6 _ZNSt11logic_errorD2Ev
+0000b6ed _ZNSt11range_errorD0Ev
+0000b704 _ZNSt11range_errorD1Ev
+0000b71b _ZNSt11range_errorD2Ev
+0000b732 _ZNSt12domain_errorD0Ev
+0000b74a _ZNSt12domain_errorD1Ev
+0000b762 _ZNSt12domain_errorD2Ev
+0000b77a _ZNSt12length_errorD0Ev
+0000b792 _ZNSt12length_errorD2Ev
+0000b7aa _ZNSt12out_of_rangeD0Ev
+0000b7c2 _ZNSt12out_of_rangeD2Ev
+0000b7da _ZNSt13runtime_errorD0Ev
+0000b7f3 _ZNSt13runtime_errorD1Ev
+0000b80c _ZNSt13runtime_errorD2Ev
+0000b825 _ZNSt14overflow_errorD0Ev
+0000b83f _ZNSt14overflow_errorD2Ev
+0000b859 _ZNSt15underflow_errorD0Ev
+0000b874 _ZNSt15underflow_errorD1Ev
+0000b88f _ZNSt15underflow_errorD2Ev
+0000b8aa _ZNSt16invalid_argumentD0Ev
+0000b8c6 _ZNSt16invalid_argumentD2Ev
+0000b8e2 _ZTISt11range_error
+0000b8f6 _ZTISt12domain_error
+0000b90b _ZTISt13runtime_error
+0000b921 _ZTISt15underflow_error
+0000b939 _ZTSSt11range_error
+0000b94d _ZTSSt12domain_error
+0000b962 _ZTSSt13runtime_error
+0000b978 _ZTSSt14overflow_error
+0000b98f _ZTSSt15underflow_error
+0000b9a7 _ZTSSt16invalid_argument
+0000b9c0 _ZTVSt11range_error
+0000b9d4 _ZTVSt12domain_error
+0000b9e9 _ZTVSt15underflow_error
+0000ba01 _ZNKSt10bad_typeid4whatEv
+0000ba1b _ZNKSt8bad_cast4whatEv
+0000ba32 _ZNSt10bad_typeidC1Ev
+0000ba48 _ZNSt10bad_typeidC2Ev
+0000ba5e _ZNSt10bad_typeidD0Ev
+0000ba74 _ZNSt10bad_typeidD1Ev
+0000ba8a _ZNSt10bad_typeidD2Ev
+0000baa0 _ZNSt8bad_castC1Ev
+0000bab3 _ZNSt8bad_castC2Ev
+0000bac6 _ZNSt8bad_castD0Ev
+0000bad9 _ZNSt8bad_castD1Ev
+0000baec _ZNSt8bad_castD2Ev
+0000baff _ZNSt9type_infoD0Ev
+0000bb13 _ZNSt9type_infoD1Ev
+0000bb27 _ZTISt10bad_typeid
+0000bb3a _ZTISt8bad_cast
+0000bb4a _ZTSSt10bad_typeid
+0000bb5d _ZTSSt8bad_cast
+0000bb6d _ZTSSt9type_info
+0000bb7e _ZTVSt10bad_typeid
+0000bb91 _ZTVSt8bad_cast
+0000bba1 _ZTVSt9type_info
+0000bbb2 pthread_getspecific
+0000bbc6 pthread_key_create
+0000bbd9 pthread_key_delete
+0000bbec pthread_once
+0000bbf9 pthread_setspecific
+0000bc0d fflush
+0000bc14 fprintf
+0000bc1c dl_iterate_phdr
+0000bc2c fwrite
+0000bc33 pthread_rwlock_rdlock
+0000bc49 pthread_rwlock_unlock
+0000bc5f pthread_rwlock_wrlock
+0000bc75 libdl.so
+0000bc7e LIBC
+0000bc83 libc.so
+0000bc8b libm.so
+0000bc93 libUnityARFoundationAndroidXR.so
+00016dc0 [Android OpenXR][./Source/TrackersHelper.cpp:71] [TrackersHelper] Creating trackable tracker failed with error: %s
+00016e33 XR_SESSION_LOSS_PENDING
+00016e4b XR_ERROR_PATH_UNSUPPORTED
+00016e65 XR_ERROR_SCENE_MESH_BUFFER_ID_INVALID_MSFT
+00016e90 XR_ERROR_MARKER_INVALID_ML
+00016eab [Android OpenXR][Source/XrFuncTable.h:68] xrRequestDisplayRefreshRateFB failed with result %s.
+00016f0a [Android OpenXR][./Source/Providers/AnchorProvider.cpp:542] [AnchorProvider] Could not save anchor because xrPersistAnchorANDROID failed with error: %s
+00016fa2 [Android OpenXR][./Source/Providers/FaceProvider.cpp:234] [FaceProvider] OnSessionEnd called with a session that does not match the active session. This should never happen!
+00017050 xrPersistAnchorANDROID
+00017067 xrDestroyDepthSwapchainANDROID
+00017086 covariant return thunk to 
+000170a6 operator^=
+000170b1 operator<=
+000170bc unknown pointer encoding
+000170d5 unsupported restore location for float register
+0001710f XR_ERROR_MARKER_DETECTOR_INVALID_DATA_QUERY_ML
+0001713e XR_ERROR_SPACE_CLOUD_STORAGE_DISABLED_FB
+00017167 [Android OpenXR][Source/XrFuncTable.h:88] xrDestroyEyeTrackerANDROID failed with result %s.
+000171c3 [Android OpenXR][Source/XrFuncTable.h:95] xrCreateDepthSwapchainANDROID failed with result %s.
+00017222 decltype(
+0001722f typeid (
+00017238 operator>>=
+00017244 operator<=>
+00017250 long
+00017255 char32_t
+0001725e libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+0001729f libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+000172e4 XR_ERROR_LIMIT_REACHED
+000172fb XR_ERROR_SESSION_NOT_RUNNING
+00017318 XR_ERROR_LOCALIZED_NAME_DUPLICATED
+0001733b xrRequestDisplayRefreshRateFB
+00017359 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:762] %s
+00017398 [Android OpenXR][./Source/Providers/FaceProvider.cpp:295] [FaceProvider] No instance of FaceProvider exists, but is being told to AcquireChanges. This should never happen!
+00017444 [Android OpenXR][./Source/Providers/RaycastProvider.cpp:142] %s
+00017484 [Android OpenXR][./Source/Providers/OcclusionProvider.cpp:199] No OcclusionProvider instance!
+000174e6 throw
+000174ec wchar_t
+000174f4 operator~
+000174fe operator"" 
+0001750a std::basic_string
+0001751c decltype(auto)
+0001752b Deleted virtual function called!
+0001754c std::exception
+0001755b XR_ERROR_SIZE_INSUFFICIENT
+00017576 XR_ERROR_HANDLE_INVALID
+0001758e XR_ERROR_PATH_INVALID
+000175a4 XR_ERROR_NOT_PERMITTED_PASSTHROUGH_FB
+000175ca [Android OpenXR][./Source/Providers/AnchorProvider.cpp:363] [AnchorProvider] xrLocateSpace failed with error: %s
+0001763b [Android OpenXR][./Source/Providers/CameraProvider.cpp:160] [CameraProvider] xrGetLightEstimateANDROID failed with error: %s.
+000176b9 Failed to enumerate swapchain images
+000176de [Android OpenXR][Source/XrFuncTable.h:81] xrCreatePersistedAnchorSpaceANDROID failed with result %s.
+00017743 terminating with %s exception of type %s
+0001776c const_cast
+0001777a unsigned __int128
+0001778c operator delete
+0001779c operator>=
+000177a7 unwind_phase2
+000177b5 unsupported arm64 register
+000177d0 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+0001780f getSLEB128
+0001781a getSavedRegister
+00017833 XR_ERROR_DISPLAY_REFRESH_RATE_UNSUPPORTED_FB
+00017860 XR_ERROR_INSUFFICIENT_RESOURCES_PASSTHROUGH_FB
+0001788f [Android OpenXR][./Source/Providers/AnchorProvider.cpp:236] [AnchorProvider] Could not update anchor because xrLocateSpace failed with error: %s
+00017920 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:483] [AnchorProvider] xrEnumeratePersistedAnchorsANDROID failed with error: %s
+000179a6 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:721] %s
+000179e5 [Android OpenXR][./Source/Providers/CameraProvider.cpp:111] [CameraProvider] Failed to perform light estimation while getting frame. Frame will not include light estimation data.
+00017a98 [Android OpenXR][./Source/Providers/FaceProvider.cpp:350] [FaceProvider] No instance of FaceProvider exists, but is being informed of a session state change. This should never happen!
+00017b50 [Android OpenXR][./Source/Providers/RaycastProvider.cpp:34] [RaycastProvider] Invalid input to AcquireHitResults. Hit buffer cannot be null.
+00017bdd [Android OpenXR][Source/XrFuncTable.h:71] xrGetPassthroughCameraStateANDROID failed with result %s.
+00017c41 typeinfo name for 
+00017c54 operator new
+00017c61  [enable_if:
+00017c6e std::nullptr_t
+00017c7d objc_object
+00017c89 std::bad_alloc
+00017c98 std::bad_typeid
+00017ca8 getEncodedP
+00017cbb XR_ERROR_EXTENSION_NOT_PRESENT
+00017cda XR_ERROR_COMPUTE_NEW_SCENE_NOT_COMPLETED_MSFT
+00017d08 XR_ERROR_MARKER_DETECTOR_LOCATE_FAILED_ML
+00017d32 [Android OpenXR][./Source/Features/DisplayUtilities.cpp:20] [DisplayUtilities] GetNumDisplayRefreshRates failed with error: %s
+00017db1 [Android OpenXR][./Source/Providers/PlaneProvider.cpp:362] [PlaneProvider] Cannot find plane with null trackableId.
+00017e25 typeinfo for 
+00017e33 reference temporary for 
+00017e4c unsigned char
+00017e5c operator&=
+00017e67 operator*=
+00017e72 std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+00017ebc getSavedFloatRegister
+00017ed6 XR_ERROR_API_VERSION_UNSUPPORTED
+00017ef7 XR_ERROR_SWAPCHAIN_RECT_INVALID
+00017f17 XR_ERROR_FORM_FACTOR_UNAVAILABLE
+00017f38 XR_ERROR_NAME_DUPLICATED
+00017f51 XR_ERROR_SCENE_COMPONENT_TYPE_MISMATCH_MSFT
+00017f7d XR_ERROR_LOCALIZATION_MAP_FAIL_ML
+00017f9f XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
+00017fce [Android OpenXR][./Source/Features/HandMeshData.cpp:288] %s
+0001800a [Android OpenXR][Source/XrFuncTable.h:108] xrCreateHandMeshTrackerANDROID failed with result %s.
+0001806b [Android OpenXR][./Source/Providers/AnchorProvider.cpp:31] [AnchorProvider] Cannot pass null anchor to TryAdd
+000180d9 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:454] [AnchorProvider] xrEnumeratePersistedAnchorsANDROID failed with error: %s
+0001815f [Android OpenXR][./Source/Providers/FaceProvider.cpp:113] xrCreateEyeTrackerANDROID failed with error '%s', will try again next time GetChanges is called.
+000181fa [Android OpenXR][./Source/Providers/OcclusionProvider.cpp:105] %s with error code: %s
+00018250 [Android OpenXR][Source/XrFuncTable.h:72] xrCreateLightEstimatorANDROID failed with result %s.
+000182b9 operator delete[]
+000182cb std::string
+000182de XR_ERROR_LAYER_INVALID
+000182f5 XR_ERROR_TIME_INVALID
+0001830b XR_ERROR_ANDROID_THREAD_SETTINGS_FAILURE_KHR
+00018338 XR_ERROR_RENDER_MODEL_KEY_INVALID_FB
+0001835d XR_ERROR_SPACE_LOCALIZATION_FAILED_FB
+00018383 [Android OpenXR][./Source/Features/DisplayUtilities.cpp:67] [DisplayUtilities] TryRequestDisplayRefreshRate failed with error: %s
+00018405 [Android OpenXR][./Source/Providers/CameraProvider.cpp:77] Failed to get camera state with error code: %s
+0001846f /perfmetrics_android/compositor/gpu_frametime
+0001849d [Android OpenXR][./Source/Providers/StatsProvider.cpp:52] [StatsProvider] xrEnumeratePerformanceMetricsCounterPathsANDROID failed with error: %s
+0001852e xrCreateLightEstimatorANDROID
+0001854c [Android OpenXR][Source/XrFuncTable.h:96] xrDestroyDepthSwapchainANDROID failed with result %s.
+000185ac [Android OpenXR][Source/XrFuncTable.h:103] xrSetPerformanceMetricsStateANDROID failed with result %s.
+00018612 auto
+00018619 unsigned short
+00018628 false
+0001862e %LaL
+00018633 operator/
+0001863d operator|
+00018647 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+00018699 FDE has zero length
+000186ad FDE is really a CIE
+000186c1 XR_ERROR_SPACE_COMPONENT_NOT_ENABLED_FB
+000186e9 allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+0001872d [HandMeshData] No instance of HandMeshData exists. You should initialize XR before invoking hand mesh data functionality.
+000187a7 [Android OpenXR][./Source/Providers/CameraProvider.cpp:52] [CameraProvider] xrCreateLightEstimatorANDROID failed with error: %s
+00018827 [Android OpenXR][./Source/Providers/CameraProvider.cpp:274] %s
+00018866 [Android OpenXR][./Source/Providers/PlaneProvider.cpp:48] [PlaneProvider] xrGetAllTrackablesANDROID failed with error code: %s
+000188e5 [StatsProvider] No instance of StatsProvider exists. You should initialize XR before invoking the stats subsystem.
+00018958 [Android OpenXR][Source/XrFuncTable.h:78] xrCreateDeviceAnchorPersistenceANDROID failed with result %s.
+000189c0 [Android OpenXR][Source/XrFuncTable.h:84] xrUnpersistAnchorANDROID failed with result %s.
+00018a1a xrDestroyEyeTrackerANDROID
+00018a35 operator&
+00018a3f operator%
+00018a49 operator>>
+00018a58 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+00018a9a DW_EH_PE_aligned pointer encoding not supported
+00018aca truncated sleb128 expression
+00018aea XR_SUCCESS
+00018af5 Unknown
+00018afd unordered_map::at: key not found
+00018b1e [Android OpenXR][./Source/Features/HandMeshData.cpp:233] %s
+00018b5a [Android OpenXR][./Source/Providers/AnchorProvider.cpp:622] %s
+00018b99 [Android OpenXR][./Source/Providers/StatsProvider.cpp:251] %s
+00018bd7 xrEnumeratePersistedAnchorsANDROID
+00018bfa xrUnpersistAnchorANDROID
+00018c13 terminate_handler unexpectedly returned
+00018c3d signed char
+00018c4c sizeof...(
+00018c57 basic_ostream
+00018c65 std::ostream
+00018c72 std::iostream
+00018c80 long long
+00018c8a noexcept(
+00018c94 unsupported restore location for register
+00018ccb XR_TIMEOUT_EXPIRED
+00018cde XR_ERROR_RUNTIME_UNAVAILABLE
+00018cfb [Android OpenXR][Source/XrFuncTable.h:110] xrGetHandMeshANDROID failed with result %s.
+00018d52 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:668] %s
+00018d91 [Android OpenXR][./Source/Providers/OcclusionProvider.cpp:68] %s with error code: %s
+00018de6 [Android OpenXR][./Source/Providers/PlaneProvider.cpp:293] %s
+00018e24 [Android OpenXR][./Source/Providers/StatsProvider.cpp:139] [StatsProvider] xrSetPerformanceMetricsStateANDROID failed with error: %s
+00018ea9 [Android OpenXR][Source/XrFuncTable.h:77] xrCreateAnchorSpaceANDROID failed with result %s.
+00018f05 xrCreatePersistedAnchorSpaceANDROID
+00018f29 xrCreateDepthSwapchainANDROID
+00018f4f operator new[]
+00018f5e operator!
+00018f68 std::basic_ostream<char, std::char_traits<char> >
+00018f9a __float128
+00018fa5 char16_t
+00018fae during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00019011 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00019074 XR_SESSION_NOT_FOCUSED
+0001908b XR_ERROR_FEATURE_REQUIRED_PASSTHROUGH_FB
+000190b4 XR_ERROR_SPACE_NETWORK_TIMEOUT_FB
+000190d6 XR_ERROR_SPACE_NOT_LOCATABLE_EXT
+000190f7 xrCreateHandMeshTrackerANDROID
+00019116 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:418] [AnchorProvider] xrCreateDeviceAnchorPersistenceANDROID failed with error: %s
+000191a0 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:708] %s
+000191df [Android OpenXR][./Source/Providers/AnchorProvider.cpp:735] %s
+0001921e [Android OpenXR][./Source/Providers/FaceProvider.cpp:313] [FaceProvider] No instance of FaceProvider exists, but is being told to ReleaseChanges. This should never happen!
+000192ca [Android OpenXR][./Source/Providers/PlaneProvider.cpp:306] %s
+00019308 [RaycastProvider] No instance of RaycastProvider exists. You should initialize XR before invoking the raycast subsystem.
+00019381 xrCreateEyeTrackerANDROID
+0001939b [Android OpenXR][Source/XrFuncTable.h:87] xrCreateEyeTrackerANDROID failed with result %s.
+000193f6 [Android OpenXR][Source/XrFuncTable.h:102] xrEnumeratePerformanceMetricsCounterPathsANDROID failed with result %s.
+00019470 typename 
+0001947a operator()
+00019485 operator>
+0001948f operator[]
+0001949a operator->
+000194a5 unsigned long
+000194b3 std::bad_cast
+000194c1 setRegister
+000194cd libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+00019517 [Android OpenXR][./Source/main.cpp:49] Invalid session id: %lu
+00019557 XR_ERROR_FUNCTION_UNSUPPORTED
+00019575 XR_ERROR_FILE_ACCESS_ERROR
+00019590 XR_ERROR_LOCALIZATION_MAP_UNAVAILABLE_ML
+000195b9 XR_ERROR_LOCALIZATION_MAP_PERMISSION_DENIED_ML
+000195e8 XR_SCENE_MARKER_DATA_NOT_STRING_MSFT
+0001960d [Android OpenXR][./Source/Providers/AnchorProvider.cpp:588] %s
+0001964c [Android OpenXR][./Source/Providers/AnchorProvider.cpp:749] %s
+0001968b [Android OpenXR][./Source/Providers/PlaneProvider.cpp:108] [PlaneProvider] Getting a trackable plane failed with error code: %s
+0001970b [Android OpenXR][Source/XrFuncTable.h:113] xrLocateSpace failed with result %s.
+0001975b > typename 
+00019767 (anonymous namespace)
+0001977d operator==
+00019788  complex
+00019791 CIE version is not 1 or 3
+000197b3 [Android OpenXR][./Source/XrFrameManager.cpp:57] [XrFrameManager] xrWaitFrame failed with error code: %s
+0001981c XR_ERROR_RUNTIME_FAILURE
+00019835 XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
+00019864 XR_ERROR_MARKER_NOT_TRACKED_VARJO
+00019886 [Android OpenXR][./Source/Features/DisplayUtilities.cpp:42] [DisplayUtilities] TryGetDisplayRefreshRates failed due to insufficient capacity in input NativeArray.
+00019929 [Android OpenXR][Source/XrFuncTable.h:67] xrEnumerateDisplayRefreshRatesFB failed with result %s.
+0001998b [Android OpenXR][./Source/Providers/AnchorProvider.cpp:292] [AnchorProvider] Could not save anchor because xrPersistAnchorANDROID failed with error: %s
+00019a23 [Android OpenXR][./Source/Providers/FaceProvider.cpp:223] [FaceProvider] OnSessionBegin called when a session is already active. This should never happen!
+00019abe [Android OpenXR][./Source/Providers/PlaneProvider.cpp:372] %s
+00019afc [Android OpenXR][Source/XrFuncTable.h:74] xrGetLightEstimateANDROID failed with result %s.
+00019b57 [Android OpenXR][Source/XrFuncTable.h:63] xrGetTrackablePlaneANDROID failed with result %s.
+00019bb3 vtable for 
+00019bbf VTT for 
+00019bc8 alignof (
+00019bd4 noexcept (
+00019bdf char
+00019be6 operator<
+00019bf0 operator->*
+00019bfc unsigned int
+00019c09 DW_EH_PE_funcrel pointer encoding not supported
+00019c39 libunwind: Unsupported .eh_frame_hdr version
+00019c6b [Android OpenXR][./Source/XrFrameManager.cpp:102] [XrFrameManager] xrEndFrame failed with error code: %s
+00019cd4 xrWaitFrame
+00019ce0 XR_ERROR_SESSION_LOST
+00019cf6 XR_ERROR_SYSTEM_INVALID
+00019d0e XR_ERROR_CALL_ORDER_INVALID
+00019d2a [Android OpenXR][./Source/Providers/AnchorProvider.cpp:695] %s
+00019d69 [Android OpenXR][./Source/Providers/FaceProvider.cpp:326] [FaceProvider] No instance of FaceProvider exists, but is being told that a session is beginning. This should never happen!
+00019e1f [Android OpenXR][./Source/Providers/PlaneProvider.cpp:352] %s
+00019e5d xrCreateDeviceAnchorPersistenceANDROID
+00019e84 [Android OpenXR][Source/XrFuncTable.h:79] xrDestroyDeviceAnchorPersistenceANDROID failed with result %s.
+00019eed xrRaycastANDROID
+00019f02 : out of range
+00019f11 dynamic_cast
+00019f26 short
+00019f2c string
+00019f33 ostream
+00019f3b long double
+00019f47 libc++abi
+00019f58 [Android OpenXR][./Source/XrFrameManager.cpp:43] [XrFrameManager] xrBeginFrame failed with error code: %s
+00019fc2 XR_SPACE_BOUNDS_UNAVAILABLE
+00019fde XR_FRAME_DISCARDED
+00019ff1 XR_ERROR_ACTIONSET_NOT_ATTACHED
+0001a011 XR_ERROR_LOCALIZED_NAME_INVALID
+0001a031 XR_ERROR_LOCALIZATION_MAP_IMPORT_EXPORT_PERMISSION_DENIED_ML
+0001a06e XR_ERROR_LOCALIZATION_MAP_CANNOT_EXPORT_CLOUD_MAP_ML
+0001a0a3 XR_ERROR_SPACE_NETWORK_REQUEST_FAILED_FB
+0001a0cc XR_ERROR_HINT_ALREADY_SET_QCOM
+0001a0eb [Android OpenXR][Source/XrFuncTable.h:61] xrCreateTrackableTrackerANDROID failed with result %s.
+0001a14c [Android OpenXR][Source/XrFuncTable.h:109] xrDestroyHandMeshTrackerANDROID failed with result %s.
+0001a1ae [Android OpenXR][./Source/Providers/CameraProvider.cpp:330] %s
+0001a1ed Failed to enumerate depth resolutions
+0001a213 [Android OpenXR][./Source/Providers/OcclusionProvider.cpp:97] %s with error code: %s
+0001a268 [Android OpenXR][./Source/Providers/RaycastProvider.cpp:98] [RaycastProvider] xrRaycastANDROID failed with error: %s
+0001a2dd /perfmetrics_android/compositor/dropped_frame_count
+0001a311 [Android OpenXR][./Source/Providers/StatsProvider.cpp:43] [StatsProvider] xrEnumeratePerformanceMetricsCounterPathsANDROID failed with error: %s
+0001a3a2 xrLocateSpace
+0001a3b0 xrGetLightEstimateANDROID
+0001a3ca xrEnumerateDepthResolutionsANDROID
+0001a3ed [Android OpenXR][Source/XrFuncTable.h:92] xrRaycastANDROID failed with result %s.
+0001a43f xrQueryPerformanceMetricsCounterANDROID
+0001a467 unexpected
+0001a472 guard variable for 
+0001a489 true
+0001a48e operator?
+0001a498 bad_array_new_length
+0001a4ad libunwind: %s - %s
+0001a4c8 xrEndFrame
+0001a4d3 XR_ERROR_SESSION_RUNNING
+0001a4ec XR_ERROR_NAME_INVALID
+0001a502 XR_ERROR_LOCALIZATION_MAP_ALREADY_EXISTS_ML
+0001a52e XR_ERROR_NOT_AN_ANCHOR_HTC
+0001a549 [Android OpenXR][./Source/Features/DisplayUtilities.cpp:49] [DisplayUtilities] TryGetDisplayRefreshRates failed with error: %s
+0001a5c8 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:601] %s
+0001a607 [Android OpenXR][./Source/Providers/PlaneProvider.cpp:342] [PlaneProvider] Cannot find plane with null trackableId.
+0001a67b [Android OpenXR][./Source/Providers/RaycastProvider.cpp:161] %s
+0001a6bb xrDestroyDeviceAnchorPersistenceANDROID
+0001a6e3 [Android OpenXR][Source/XrFuncTable.h:82] xrEnumeratePersistedAnchorsANDROID failed with result %s.
+0001a747 xrGetAnchorPersistStateANDROID
+0001a766 xrAcquireDepthSwapchainImagesANDROID
+0001a78b virtual thunk to 
+0001a7ab operator*
+0001a7b5 operator||
+0001a7c0 istream
+0001a7c8 char8_t
+0001a7d0 DW_OP_deref_size with bad size
+0001a7ef Unknown DWARF encoding for search table.
+0001a820 XR_ERROR_API_LAYER_NOT_PRESENT
+0001a83f XR_ERROR_CONTROLLER_MODEL_KEY_INVALID_MSFT
+0001a86a XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
+0001a895 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:83] [AnchorProvider] Cannot remove anchor. No anchor with that ID exists.
+0001a916 Failed to create depth swapchain
+0001a937 [Android OpenXR][./Source/Providers/RaycastProvider.cpp:24] [RaycastProvider] Invalid input to AcquireHitResults. Hit count cannot be null.
+0001a9c3 [Android OpenXR][./Source/Providers/StatsProvider.cpp:279] %s
+0001aa01 [Android OpenXR][./Source/Providers/StatsProvider.cpp:293] %s
+0001aa3f xrGetPassthroughCameraStateANDROID
+0001aa62 xrGetCoarseTrackingEyesInfoANDROID
+0001aa85 unexpected_handler unexpectedly returned
+0001aaae construction vtable for 
+0001aacc __int128
+0001aad5 template<
+0001aadf operator<<
+0001aaea operator+
+0001aaf4 operator+=
+0001aaff operator++
+0001ab0a string literal
+0001ab19 unsigned long long
+0001ab2c  imaginary
+0001ab37 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+0001ab85 XR_ERROR_ENVIRONMENT_BLEND_MODE_UNSUPPORTED
+0001abb1 XR_ERROR_ANDROID_THREAD_SETTINGS_ID_INVALID_KHR
+0001abe1 XR_ERROR_MARKER_ID_INVALID_VARJO
+0001ac02 [Android OpenXR][Source/XrFuncTable.h:115] xrPathToString failed with result %s.
+0001ac53 : no conversion
+0001ac6d operator=
+0001ac77 operator/=
+0001ac82 bool
+0001ac87 evaluateExpression
+0001aca1 XR_ERROR_GRAPHICS_REQUIREMENTS_CALL_MISSING
+0001accd xrCreateTrackableTrackerANDROID
+0001aced [Android OpenXR][./Source/Providers/AnchorProvider.cpp:48] [AnchorProvider] xrLocateSpace failed with error: %s
+0001ad5d [PlaneProvider] No instance of PlaneProvider exists. You should initialize XR before invoking the plane subsystem.
+0001add0 [Android OpenXR][./Source/Providers/RaycastProvider.cpp:70] [RaycastProvider] No trackable trackers were successfully acquired to raycast against.
+0001ae67 operator^
+0001ae71  restrict
+0001ae7b decimal64
+0001ae85 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+0001aed5 [Android OpenXR][./Source/main.cpp:30] Invalid instance id: %lu
+0001af16 XR_ERROR_VALIDATION_FAILURE
+0001af32 XR_ERROR_POSE_INVALID
+0001af48 XR_ERROR_INDEX_OUT_OF_RANGE
+0001af64 XR_ERROR_VIEW_CONFIGURATION_TYPE_UNSUPPORTED
+0001af91 XR_ERROR_REPROJECTION_MODE_UNSUPPORTED_MSFT
+0001afbd XR_ERROR_PASSTHROUGH_COLOR_LUT_BUFFER_SIZE_MISMATCH_META
+0001aff6 [Android OpenXR][./Source/Providers/CameraProvider.cpp:316] %s
+0001b035 [Android OpenXR][./Source/Providers/FaceProvider.cpp:264] [FaceProvider] No instance of FaceProvider exists, but is being told to Start. This should never happen!
+0001b0d8 [Android OpenXR][./Source/Providers/OcclusionProvider.cpp:156] %s with error code: %s
+0001b12e string_view::substr
+0001b142 terminating with %s exception of type %s: %s
+0001b16f non-virtual thunk to 
+0001b18c std::basic_istream<char, std::char_traits<char> >
+0001b1be iostream
+0001b1c7 pixel vector[
+0001b1d5 union
+0001b1db _Unwind_Resume() can't return
+0001b1f9 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0001b239 XR_EVENT_UNAVAILABLE
+0001b24e XR_ERROR_PATH_COUNT_EXCEEDED
+0001b26b XR_ERROR_SWAPCHAIN_FORMAT_UNSUPPORTED
+0001b291 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:70] [AnchorProvider] Cannot add anchor. Anchor with that ID already exists.
+0001b314 [Android OpenXR][Source/XrFuncTable.h:80] xrPersistAnchorANDROID failed with result %s.
+0001b36c [Android OpenXR][Source/XrFuncTable.h:89] xrGetCoarseTrackingEyesInfoANDROID failed with result %s.
+0001b3d0 [Android OpenXR][Source/XrFuncTable.h:98] xrEnumerateDepthSwapchainImagesANDROID failed with result %s.
+0001b438 xrGetAllTrackablesANDROID
+0001b452 xrEnumeratePerformanceMetricsCounterPathsANDROID
+0001b486 yptn
+0001b48b operator%=
+0001b496 DW_OP_fbreg not implemented
+0001b4ba XR_ERROR_LAYER_LIMIT_EXCEEDED
+0001b4d8 XR_ERROR_COLOR_SPACE_UNSUPPORTED_FB
+0001b4fc XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
+0001b526 XR_ERROR_SPATIAL_ANCHOR_NAME_NOT_FOUND_MSFT
+0001b552 [Android OpenXR][./Source/Features/HandMeshData.cpp:218] Failed to initialize native resources for hand mesh data.
+0001b5c5 [Android OpenXR][./Source/Providers/CameraProvider.cpp:288] %s
+0001b604 [Android OpenXR][./Source/Providers/FaceProvider.cpp:132] xrGetCoarseTrackingEyesInfoANDROID failed with error '%s', will not report any gaze data this frame.
+0001b6a3 Failed to acquire depth image
+0001b6c1 [Android OpenXR][./Source/Providers/PlaneProvider.cpp:93] [PlaneProvider] Null handle was found when acquiring plane changes.
+0001b73f [Android OpenXR][Source/XrFuncTable.h:114] xrDestroySpace failed with result %s.
+0001b790 xrGetTrackablePlaneANDROID
+0001b7ab terminating with %s foreign exception
+0001b7d1 uncaught
+0001b7dd operator--
+0001b7e8 operator|=
+0001b7f3 std::basic_iostream<char, std::char_traits<char> >
+0001b826 _Unwind_Resume
+0001b835 libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+0001b881 XR_ERROR_FEATURE_UNSUPPORTED
+0001b89e XR_ERROR_SCENE_COMPUTE_FEATURE_INCOMPATIBLE_MSFT
+0001b8cf XR_ERROR_UNKNOWN_PASSTHROUGH_FB
+0001b8ef XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
+0001b91d [Android OpenXR][./Source/Features/HandMeshData.cpp:249] %s
+0001b959 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:347] [AnchorProvider] xrCreatePersistedAnchorSpaceANDROID failed with error: %s
+0001b9e0 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:637] %s
+0001ba1f [Android OpenXR][./Source/Providers/AnchorProvider.cpp:654] %s
+0001ba5e [Android OpenXR][./Source/Providers/CameraProvider.cpp:302] %s
+0001ba9d [Android OpenXR][./Source/Providers/PlaneProvider.cpp:272] %s
+0001badb [Android OpenXR][./Source/Providers/PlaneProvider.cpp:332] %s
+0001bb19 [Android OpenXR][./Source/Providers/RaycastProvider.cpp:29] [RaycastProvider] Invalid input to AcquireHitResults. Element size cannot be null.
+0001bba8 /perfmetrics_android/app/gpu_frametime
+0001bbcf __next_prime overflow
+0001bbeb 'block-literal'
+0001bbfb operator-
+0001bc05 basic_istream
+0001bc13 std::istream
+0001bc20 double
+0001bc2a XR_ERROR_OUT_OF_MEMORY
+0001bc41 XR_ERROR_INITIALIZATION_FAILED
+0001bc60 XR_ERROR_GRAPHICS_DEVICE_INVALID
+0001bc81 XR_ERROR_CREATE_SPATIAL_ANCHOR_FAILED_MSFT
+0001bcac XR_RESULT_MAX_ENUM
+0001bcbf [CameraProvider] No instance of CameraProvider exists. You should initialize XR before invoking the camera subsystem.
+0001bd35 [Android OpenXR][./Source/Providers/CameraProvider.cpp:36] [CameraProvider] XR Session is null. Cannot initialize CameraProvider without an XR Session.
+0001bdcd [Android OpenXR][./Source/Providers/PlaneProvider.cpp:124] [PlaneProvider] Getting a trackable plane failed with error code: %s
+0001be4d [Android OpenXR][./Source/Providers/PlaneProvider.cpp:319] %s
+0001be8b [Android OpenXR][./Source/Providers/RaycastProvider.cpp:174] %s
+0001becb /perfmetrics_android/app/motion_to_photon_latency
+0001befd [Android OpenXR][./Source/Providers/StatsProvider.cpp:71] [StatsProvider] xrPathToString failed with error: %s
+0001bf6c xrCreateAnchorSpaceANDROID
+0001bf87 [Android OpenXR][Source/XrFuncTable.h:97] xrEnumerateDepthResolutionsANDROID failed with result %s.
+0001bfeb xrSetPerformanceMetricsStateANDROID
+0001c00f [Android OpenXR][Source/XrFuncTable.h:105] xrQueryPerformanceMetricsCounterANDROID failed with result %s.
+0001c079 invocation function for block in 
+0001c09b static_cast
+0001c0a7 sizeof... (
+0001c0b9 operator-=
+0001c0c4 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+0001c10e getULEB128
+0001c119 malformed uleb128 expression
+0001c136 DWARF opcode not implemented
+0001c15b XR_ERROR_SECONDARY_VIEW_CONFIGURATION_TYPE_NOT_ENABLED_MSFT
+0001c197 Failed to obtain number of swapchain images
+0001c1c3 xrDestroySpace
+0001c1d2 xrPathToString
+0001c1e6 nullptr
+0001c1ee operator<<=
+0001c1fa ::operator 
+0001c206 enum
+0001c20b libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+0001c25e XR_ERROR_FILE_CONTENTS_INVALID
+0001c27d XR_ERROR_FORM_FACTOR_UNSUPPORTED
+0001c29e XR_RENDER_MODEL_UNAVAILABLE_FB
+0001c2bd XR_ERROR_MARKER_DETECTOR_INVALID_CREATE_INFO_ML
+0001c2ed XR_ERROR_SPACE_MAPPING_INSUFFICIENT_FB
+0001c314 xrDestroyHandMeshTrackerANDROID
+0001c334 [Android OpenXR][./Source/Providers/CameraProvider.cpp:124] [CameraProvider] Failed to create light estimator.
+0001c3a3 [Android OpenXR][./Source/Providers/FaceProvider.cpp:277] [FaceProvider] No instance of FaceProvider exists, but is being told to Destroy. This should never happen!
+0001c448 [Android OpenXR][./Source/Providers/OcclusionProvider.cpp:118] %s with error code: %s
+0001c49e [Android OpenXR][./Source/Providers/OcclusionProvider.cpp:233] No output provided for `environmentDepthImage`
+0001c50c [Android OpenXR][./Source/Providers/PlaneProvider.cpp:63] [PlaneProvider] Getting all trackables failed with error code: %s
+0001c588 vector
+0001c58f terminating
+0001c59f reinterpret_cast
+0001c5b5 DW_EH_PE_textrel pointer encoding not supported
+0001c5e5 truncated uleb128 expression
+0001c606 XR_ERROR_ACTION_TYPE_MISMATCH
+0001c624 XR_ERROR_SESSION_NOT_READY
+0001c63f XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
+0001c664 [Android OpenXR][Source/XrFuncTable.h:73] xrDestroyLightEstimatorANDROID failed with result %s.
+0001c6c4 [Android OpenXR][Source/XrFuncTable.h:99] xrAcquireDepthSwapchainImagesANDROID failed with result %s.
+0001c72a basic_string
+0001c738 operator 
+0001c742 void
+0001c747 float
+0001c74d decimal128
+0001c758 libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+0001c7a0 getTableEntrySize
+0001c7c1 xrEnumerateDisplayRefreshRatesFB
+0001c7e2 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:39] [AnchorProvider] xrCreateAnchorSpaceANDROID failed with error: %s
+0001c85f [Android OpenXR][./Source/Providers/AnchorProvider.cpp:222] [AnchorProvider] xrDestroySpace failed with error: %s
+0001c8d1 [Android OpenXR][./Source/Providers/StatsProvider.cpp:161] [StatsProvider] xrQueryPerformanceMetricsCounterANDROID failed with error: %s
+0001c961 operator&&
+0001c96c decimal32
+0001c976 CIE ID is not zero
+0001c991 XR_ERROR_INSTANCE_LOST
+0001c9a8 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
+0001c9cd XR_ERROR_UNEXPECTED_STATE_PASSTHROUGH_FB
+0001c9f6 XR_ERROR_FEATURE_ALREADY_CREATED_PASSTHROUGH_FB
+0001ca26 XR_ERROR_LOCALIZATION_MAP_INCOMPATIBLE_ML
+0001ca50 [Android OpenXR][./Source/Providers/AnchorProvider.cpp:505] [AnchorProvider] xrUnpersistAnchorANDROID failed with error: %s
+0001cacc [Android OpenXR][./Source/Providers/FaceProvider.cpp:338] [FaceProvider] No instance of FaceProvider exists, but is being told that a session is ending. This should never happen!
+0001cb7f [Android OpenXR][./Source/Providers/StatsProvider.cpp:124] [StatsProvider] xrSetPerformanceMetricsStateANDROID failed with error: %s
+0001cc04 [Android OpenXR][Source/XrFuncTable.h:83] xrGetAnchorPersistStateANDROID failed with result %s.
+0001cc64 xrDestroyLightEstimatorANDROID
+0001cc83 thread-local wrapper routine for 
+0001cca5 thread-local initialization routine for 
+0001ccce sizeof (
+0001ccd7 operator!=
+0001cce2 __uuidof(
+0001ccec std::allocator
+0001ccfb allocator
+0001cd05 struct
+0001cd0c libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+0001cd54 Can't binary search on variable length encoded data.
+0001cd91 xrBeginFrame
+0001cd9e XR_ERROR_SPATIAL_ANCHOR_NAME_INVALID_MSFT
+0001cdc8 [Android OpenXR][./Source/XrOverrides.cpp:36] xrGetInstanceProcAddr(%s) failed with error code %s.
+0001ce2b [Android OpenXR][./Source/Providers/StatsProvider.cpp:265] %s
+0001ce69 GPUAppLastFrameTime
+0001ce7d motionToPhoton
+0001ce8c xrEnumerateDepthSwapchainImagesANDROID
+0001ceb3 [Android OpenXR][Source/XrFuncTable.h:62] xrGetAllTrackablesANDROID failed with result %s.
+0001cf0e terminate_handler unexpectedly threw an exception
+0001cf43 operator,
+0001cf4d decimal16
+0001cf57 noexcept
+0001cf60 getRegister
+0001cf6c DW_EH_PE_datarel is invalid with a datarelBase of 0
+0001cfaa unknown register
+0001cfbb XR_ERROR_PATH_FORMAT_INVALID
+0001cfd8 XR_ERROR_SESSION_NOT_STOPPING
+0001cff6 XR_ERROR_SCENE_COMPONENT_ID_INVALID_MSFT
+0001d01f XR_ERROR_SCENE_COMPUTE_CONSISTENCY_MISMATCH_MSFT
+0001d050 xrGetHandMeshANDROID
+0001d065 [AnchorProvider] No instance of AnchorProvider exists. You should initialize XR before invoking the anchor subsystem.
+0001d0db [Android OpenXR][./Source/Providers/AnchorProvider.cpp:682] %s
+0001d11a [Android OpenXR][./Source/Providers/AnchorProvider.cpp:776] %s
+0001d159 GPUCompositorLastFrameTime
+0001d174 droppedFrameCount
+0001d188 basic_iostream
+0001d197  volatile
+0001d1a1 Pure virtual function called!
+0001d1bf std::bad_exception
+0001d1d2 DW_OP_piece not implemented
+0001d4cb ]xEc
+0001d4e0 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+0001d6b4 dddd
+0001d6b9 ddddddddd1W
+0001dd06 $-N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+0001dd38 N12_GLOBAL__N_116itanium_demangle4NodeE
+0001dd60 N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+0001dd9a N12_GLOBAL__N_116itanium_demangle8NameTypeE
+0001ddc6 N12_GLOBAL__N_116itanium_demangle10NestedNameE
+0001ddf5 N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+0001de32 N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+0001de65 N12_GLOBAL__N_116itanium_demangle8BoolExprE
+0001de91 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+0001dec9 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+0001df01 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+0001df39 N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+0001df6b N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+0001df9f N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+0001dfde N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+0001e018 N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+0001e055 N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+0001e093 N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+0001e0cd N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+0001e101 N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+0001e130 N12_GLOBAL__N_116itanium_demangle15IntegerCastExprE
+0001e164 N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+0001e196 N12_GLOBAL__N_116itanium_demangle8FoldExprE
+0001e1c2 N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+0001e1fd N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+0001e22c N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+0001e25b N12_GLOBAL__N_116itanium_demangle8CastExprE
+0001e287 N12_GLOBAL__N_116itanium_demangle8CallExprE
+0001e2b3 N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+0001e2e6 N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+0001e315 N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+0001e347 N12_GLOBAL__N_116itanium_demangle8DtorNameE
+0001e373 N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+0001e3ae N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+0001e3e2 N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+0001e41a N12_GLOBAL__N_116itanium_demangle10MemberExprE
+0001e449 N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+0001e480 N12_GLOBAL__N_116itanium_demangle10BracedExprE
+0001e4af N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+0001e4e3 N12_GLOBAL__N_116itanium_demangle12InitListExprE
+0001e514 N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+0001e544 N12_GLOBAL__N_116itanium_demangle7NewExprE
+0001e56f N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+0001e5a1 N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+0001e5d5 N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+0001e60d N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+0001e63f N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+0001e66c N12_GLOBAL__N_116itanium_demangle10UUIDOfExprE
+0001e69b N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+0001e6db N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+0001e70c N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+0001e73b N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+0001e775 N12_GLOBAL__N_116itanium_demangle9LocalNameE
+0001e7a2 N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+0001e7da N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+0001e80c N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+0001e83d N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+0001e876 N12_GLOBAL__N_116itanium_demangle16StdQualifiedNameE
+0001e8ab N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+0001e8e4 N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+0001e915 N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+0001e94a N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+0001e977 N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+0001e9a8 N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+0001e9e1 N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+0001ea12 N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+0001ea44 N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+0001ea7a N12_GLOBAL__N_116itanium_demangle8QualTypeE
+0001eaa6 N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+0001eada N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+0001eb09 N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+0001eb36 N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+0001eb6e N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+0001eba9 N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+0001ebd9 N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+0001ec0b N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+0001ec49 LLLL6
+0001ed18 N10__cxxabiv116__shim_type_infoE
+0001ed39 N10__cxxabiv117__class_type_infoE
+0001ed5b N10__cxxabiv117__pbase_type_infoE
+0001ed7d N10__cxxabiv119__pointer_type_infoE
+0001eda1 N10__cxxabiv120__function_type_infoE
+0001edc6 N10__cxxabiv129__pointer_to_member_type_infoE
+0001ee10 N10__cxxabiv123__fundamental_type_infoE
+0001ee48 PKDn
+0001eedb PKDh
+0001ef0b PKDu
+0001ef17 PKDs
+0001ef23 PKDi
+0001ef28 N10__cxxabiv117__array_type_infoE
+0001ef4a N10__cxxabiv116__enum_type_infoE
+0001ef6b N10__cxxabiv120__si_class_type_infoE
+0001ef90 N10__cxxabiv121__vmi_class_type_infoE
+0001efb6 St9exception
+0001efc3 St13bad_exception
+0001efd5 St9bad_alloc
+0001efe2 St20bad_array_new_length
+0001effb St12domain_error
+0001f00c St11logic_error
+0001f01c St16invalid_argument
+0001f031 St12length_error
+0001f042 St12out_of_range
+0001f053 St11range_error
+0001f063 St13runtime_error
+0001f075 St14overflow_error
+0001f088 St15underflow_error
+0001f09c St9type_info
+0001f0a9 St8bad_cast
+0001f0b5 St10bad_typeid
+0001f154 xxxx 6:
+0001f15e ;	FQ8
+000256a9 zPLR
+00026c60 +yhxJ	
+00026cd0 +yhxJ	
+00026d28 +yhxJ	
+00026d70 +yhxJ	
+00026db8 +yhxJ	
+00026df0 +yhxJ	
+00026e28 +yhxJ	
+00027e10 	aR9	
+00027f4c JE@9
+00027f51 ji8_
+000283fd ij8j
+00028650 JE@9
+00028655 ki8_
+00028a04 YC@9I
+0002935d I@LB
+00029451 I@LB
+0002a339 80.k[
+0002a96e @9iN@
+0002ab91 80.j[
+0002b311 80.j[
+0002bdb7 T(  
+0002be57 5i*@9
+0002c1b4 h*@9
+0002c1bf Thb@9
+0002c6d7 Thb@9
+0002c6df 4h&L
+0002ca57 R)YB
+0002cef7 r*YB
+0002dd0f *!\-
+0002de2f *!\-
+0002de77 *!47
+0002de87 Rj*@
+0002e375 80.l[
+0002e59b =I1@
+0002e715 80.l[
+0002ec65 80.i[
+0002ecdb T.	@
+0002ef79 80.l[
+0002f421 3Gm!
+0002f9b3 T{zw
+0002f9ef 6(?B
+0002fdcb Th'B
+0002fdf7 6h'B
+00030d5f Th2@
+000314b0 (a@9
+000314b7 5(	@
+00033968 ?k(8
+00033a29 j48h
+00033d4d j48h
+0003426c 	i`8
+00034391 j48h
+0003443d i!8a
+0003488d j48h
+00034d29 j)8h
+00038da1 C@9h
+00038db9 C@9h
+00038f91 C@9h
+00038fa9 C@9h
+00039036 	K)}
+00039172 	K)}
+000392ae 	K)}
+00039726 	K)}
+000397e6 ?)k!
+000398aa 	K)}
+0003996a ?)k!
+00039a2e 	K)}
+00039aee ?)k!
+00039c0e ?)k!
+00039d2e ?)k!
+00039e4e ?)k!
+0003a745 C@9h
+0003a769 C@9I
+0003a8c1 k68h
+0003aa71 i!8a
+0003ab19 Yjx*
+0003ab7d yix*
+0003ac38 iYix
+0003ac81 ykxJ
+0003acc7 R+Yhx
+0003acd4 (yhx
+0003ad01 Yjxk
+0003ad45 yix	
+0003adbb Rh~@
+0003ae10 iyixjyjxhyhxkylx	
+0003aea5 ykx+
+0003aec5 Ymx+
+0003af7d yix+
+0003b2e7 Th:@
+0003b687 Th:@
+0003bd36 @9?i
+0003bd82 @9?}
+0003bd8e @9?i
+0003bdc6 @9?}
+0003bddb TI	@9?
+0003be0e @9?}
+0003be23 TI!@9?
+0003be2f TI%@9?
+0003be3b TI)@9?
+0003be47 TI-@9?
+0003be53 TI1@9?
+0003c065 h(8t
+0003c252 @9_Q
+0003c2a0 myjx
+0003c33f 9hnA
+0003c383 TkNA
+0003c473 T*	@9_
+0003c4bb T*!@9_
+0003c4c7 T*%@9_}
+0003c4d3 T*)@9_
+0003c4df T*-@9_
+0003c4eb T*1@9_%
+0003c55e @9?I
+0003d027 Rke,
+0003d157 rk1+
+0003d25a @9?}
+0003d3bc h"L9H-
+0003d3c3 4h&@
+0003d437 rk	2
+0003d503 rki>
+0003d56f rkQ)
+0003d5db rkA	
+0003d6e8 Lyixk	
+0003d801 &@9	
+0003da33 rk19
+0003dd1b rk}/
+0003dd52 @9?}
+0003ddee @9?}
+0003de7c h"L9h
+0003de83 4h&@
+0003e207 rk5=
+0003e267 rkU	
+0003e4ba @9_}
+0003e5da @9?}
+0003e70e @9?1
+0003e91f TH	@9
+0003eaee @9_=
+0003eb12 @9_I
+0003ec1e @9_1
+0003ec3a @9_5
+0003ec60 lkj8k	
+0003f01e @9_}
+0003f15b RJ),
+0003f8fb r	h(
+0003f9a6 @9?M
+0003fa15 ik8)	
+0003fd4e @9?%
+0003fd6f 6hNA
+0003febb <hVA
+00040038 J%@9_
+000401b6 @9_Q
+00040224 .	@9
+00040278 h&L9
+000402db 9hnA
+000402eb TwjA
+00040393 TJyi
+000403ab TTyu
+0004045e @9?}
+00040576 @9?Q
+00040678 	!@9?
+00040716 @9_%
+0004090d .@9U
+00040927 9i"@
+0004093a @9_	
+00040a6a @9_U
+00040d47 R	h(xh
+000411fc myjx
+0004123f T(	@9
+0004136a @9?}
+000413c4 myjx
+00041430 myjx
+00041478 myjx
+00041590 myjx
+000415d4 myjx
+000417cc myjx
+00041813 T(	@9
+0004185b T(!@9
+00041867 T(%@9
+00041873 T()@9
+000418af T(	@9
+000418f7 T(!@9
+00041903 T(%@9
+0004190f T()@9
+00041d24 u"L9(	
+00041d56 @9_}
+000420b7 rkQ/
+00042457 rk!/
+0004267f rk93
+00042b8b Tk*A
+000430f6 @9_1
+000432d7 T		@9?
+000433ff T		@9?i
+00043467 T		@9?
+00043515 	@9K
+000435d5 !@9K
+000435f5 %@9K
+00043615 )@9K
+00043635 -@9K
+00043655 1@9K
+00043675 5@9K
+00043695 9@9K
+000436b5 =@9K
+000436d5 A@9K
+000436f5 E@9K
+000437b1 jj8l
+000437ed 	@9K
+000438ad !@9K
+000438cd %@9K
+00043a90 		@9?
+00043c1e @9?Y
+00043c3a @9?-
+00043c82 @9_1
+00043d66 @9?Y
+00043d82 @9?-
+00043ed8 mii8
+00043f8e @9_9
+00043fb2 @9_M
+0004404e @9_Y
+0004409a @9_=
+00044176 @9_M
+000441ee @9_%
+0004423a @9_1
+000442ce @9_I
+0004431a @9_1
+00044366 @9_5
+0004445e @9?M
+0004458d 	@9_9
+00044baa @9?a
+00044f5e @9_U
+00044fa6 @9_U
+000450f2 @9_U
+00045553 R	h(8h
+00045607 R	h(8h
+0004568b R	h(8h
+00045ced #@9)
+00045d3b oc$1
+00045e95 i*8J
+00045f03 np(aN
+00045f0d (aNB4
+00045f1f nc(!
+00045f25 *!NP*a
+00045f33 OP(aN
+00045f39 (aNc
+00045f4d *!Nc
+00045f93 9Hi)8c
+000460db R	h(xh
+00046163 R	h(xh
+000461ce @9?Q
+000462c6 @9?Q
+000463ce @9?Q
+000463e3 Tt"C
+000465f6 @9?Q
+000467ff R	h(8h
+000469ef R	h(xH
+00046b43 R	h(8
+00046c34 h&@9
+00046d07 R	h(8h
+00046ed4 h&@9
+0004720b R	h(8h
+000472a7 R	h(8h
+00047303 R	h(8h
+00047353 R	h(8h
+000473af R	h(8h
+0004742b R	h(xh
+00047440 	 @9?
+0004752f R	h(8h
+000475b7 R	h(8h
+000476a7 R	h(xh
+000477c3 R	h(8
+0004786b R	h(8
+000478c7 R	h(8
+0004795f R	h(8h
+000479ab R	h(8
+00047a5f R	h(8h
+00047aa7 r	h(
+00047b63 R	h(8h
+00047baf R	h(8
+00047c47 R	h(8h
+00047c93 R	h(8
+00047d47 r	h(
+00047da7 R	h(8
+00047e5b R	h(8
+00047ecb o7`C) 
+00048143 R	h(8h
+00048193 R	h(8h
+0004821b R	h(xh
+000482cf R	h(xh
+00048357 R	h(8i
+000483e7 R	h(8h
+000484db R	h(8h
+00048563 R	h(8h
+00048657 R	h(8h
+000486bb R	h(xh
+0004871f R	h(8h
+000487df R	h(8h
+0004883b R	h(8h
+00048997 R	h(8h
+00048a1f R	h(xh
+00048a7b R	h(8h
+00048abc 	`@9(
+00048b0f R	h(xh
+00049203 R	h(xh
+000492d8 myjx
+00049310 Lyixk	
+000493a8 Lyixk	
+000494b4 Lyixk	
+000495c0 Lyixk	
+000496cc Lyixk	
+00049746 @9?=
+00049864 Lyixk	
+000498fc Lyixk	
+00049994 Lyixk	
+000499f3 Rk==
+00049a1a @9?I
+00049eb7 rk%)
+00049f84 w&L9
+00049f8c v"L9h
+0004a083 rkq9
+0004a3b3 rk}+
+0004a533 rk]3
+0004a593 rky=
+0004a5fb RkQ1
+0004a843 R	h(8h
+0004aa93 R	h(xh
+0004ac8f R	h(8h
+0004ad17 R	h(xh
+0004ad9f R	h(8h
+0004ae47 R	h(8
+0004aecb R	h(8
+0004af03 R	h(8
+0004b07b R	h(8
+0004b197 R	h(8
+0004b313 R	h(8
+0004b373 R	h(8
+0004b3eb R	h(8h
+0004b473 R	h(8h
+0004b63b R	h(xh
+0004b693 R	h(8
+0004b6df R	h(8h
+0004b73b R	h(8h
+0004b7cb R	h(8h
+0004b827 R	h(8h
+0004b9ef R	h(8h
+0004bba7 R	h(8h
+0004bcd3 R	h(8h
+0004befb R	h(8h
+0004bf50 +ih8J	
+0004c29b R	h(8h
+0004c46f R	h(8h
+0004c4ff R	h(8
+0004c55b R	h(8
+0004c607 R	h(xh
+0004c6a8 +ih8J	
+0004cbf7 R	h(8h
+0004cc63 R	h(8h
+0004ccb3 R	h(8h
+0004cf7f R	h(8
+0004d04b R	h(8h
+0004d10b R	h(8h
+0004d167 R	h(8h
+0004d33b R	h(xH
+0004d483 R	h(xh
+0004d537 R	h(8h
+0004d5da @9_Y
+0004d5fa @9_-
+0004d68b Rk]=
+0004d6ba @9_=
+0004d826 @9?e
+0004d89e @9?I
+0004d8b6 @9?=
+0004da9a @9?U
+0004db3a @9?Y
+0004dcb1 "@9_
+0004de5e @9?Q
+0004de8e @9?Q
+0004debe @9?Q
+0004e083 R	h(8h
+0004e17f R	h(8
+0004e217 R	h(8h
+0004e293 R	h(8h
+0004e2ef R	h(8h
+0004e4bf R	h(xH
+0004e563 R	h(8
+0004e657 R	h(8h
+0004e70b R	h(8h
+0004e7cb R	h(8h
+0004eb6f R	h(8h
+0004ecc3 R	h(8h
+0004ed4e _8?u
+0004ed97 R	h(8h
+0004ede7 R	h(8h
+0004ee73 R	h(8h
+0004ef0d (@9H
+0004f0b9 (@9H
+0004f143 R	h(8h
+0004f24b R	h(8
+0004f318 (!@9
+0004f323 T(%A
+0004f3ff R	h(8h
+0004f415 (@9H
+0004f49f R	h(8h
+0004f644 (!@9
+0004f64f T(%A
+0004f6a1 (@9H
+0004f72b R	h(8
+0004f825 *@9(
+0004f8c1 *@9h
+0004f8e9 .@9(
+0004fa4d p@9h	
+0004faa1 *@9h
+0004fac9 .@9(
+0005009e ?77}@
+000506bc *kz8K
+000506df 4izv
+0005077c *kx8K
+0005079f 4I{|
+000508dc Mih8
+0005093c H%@x,
+00050b33 yh*(
+00050c06 @yn	
+00050fef T(<@
+0005106f T(<@
+00051123 Th>@
+000511c7 Th:A9
+00051753 ThB@9
+00051923 q 	Az@	Az`
+00051a5b ThF@
+00051b0b 7i>@
+00051b4b Th:A9h
+00051b77 Th6@
+00051bd8 h:A9
+00051bdf 5h6A9H
+00051be7 4h2A9(
+00051bef 4h2@
+00051bfd B@98
+00051c11 B@9h
+00051c6b Th:A9h
+00051c73 5h>@
+00051c7f Th2@
+00051ccf Th:A9H
+00051cd7 5h>@
+00051d47 Th2@
+00051dff ThF@
+00051e38 h6A9
+00051e3f 4h2A9i
+00051eb3 Th6@
+00051efb Th2@
+00051fce G)t:
+00051fe7 Th2@
+00052013 Th6@
+000520cf Th>@
+000520f7 Ty2A9|6A9
+00052148 h2A9i6A9
+0005219c h2A9i6A9
+000521b3 Tj:A9
+000521c3 Th2@
+00052277 ThJ@
+00052363 Th>@
+000523b3 ThJ@
+0005245b Th>@
+000524ab ThJ@
+00053e33 T {:
+00054005 zixJ	
+00054015 b@9`
+0005410b T.il8
+0005415a A8j}
+0005437b T.il8
+000544e3 T.il8
+000547d8 .im8
+000548d0 .im8
+00054a76 A8I}	
+00054b30 .im8
+00054d46 A8)}
+00054d8c )q@9i
+00054edf T.il8
+000551fc mij8
+000552e0 Lii8k	
+00055448 Lii8k	
+000554bc  %@x"
+00055568 -ik8
+000557af QOXo
+00055873 TAL1
+0005596b T@L/
+00055e38 !jn8
+00055ecf TPL/
+000565b7 TIC@
+00056ab1 ik8k
+00056bba @9N%
+00056c02 @9		
+00056c2e @8if
+00056c86 @8ib
+00056d9c +ih8J	
+0005b2f0 Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+0005b38f Linker: LLD 12.0.8 (/buildbot/src/android/llvm-r416183/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee)
+0005b406 .init_array
+0005b412 .fini_array
+0005b41e .text
+0005b424 .got
+0005b429 .comment
+0005b432 .note.android.ident
+0005b446 .got.plt
+0005b44f .rela.plt
+0005b459 .bss
+0005b45e .dynstr
+0005b466 .eh_frame_hdr
+0005b474 .gnu.version_r
+0005b483 .data.rel.ro
+0005b490 .rela.dyn
+0005b49a .gnu.version
+0005b4a7 .dynsym
+0005b4af .gnu.hash
+0005b4b9 .eh_frame
+0005b4c3 .gcc_except_table
+0005b4d5 .note.gnu.build-id
+0005b4e8 .dynamic
+0005b4f1 .shstrtab
+0005b4fb .rodata
+0005b503 .data

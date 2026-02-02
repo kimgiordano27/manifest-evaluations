@@ -1,0 +1,207 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+00000325 yh^M
+00000805 __cxa_finalize
+00000814 __cxa_atexit
+00000821 __register_atfork
+00000833 _ZN8facebook10perflogger20HealthCountersFacade4bumpENS0_16HealthCounterKeyEii
+00000881 _ZN8facebook10perflogger8internal15QplReleaseFlags21sEnableHealthCountersE
+000008cc _ZN8facebook10perflogger8internal15QplReleaseFlags19sHealthCountersSizeE
+00000915 memset
+0000091c _ZN8facebook10perflogger20HealthCountersFacade19getAndClearCountersEv
+00000962 memcpy
+00000969 __stack_chk_fail
+0000097a malloc
+00000981 free
+00000986 aligned_alloc
+00000994 __strlen_chk
+000009a1 pthread_mutex_lock
+000009b4 syscall
+000009bc pthread_cond_wait
+000009ce pthread_cond_broadcast
+000009e5 pthread_mutex_unlock
+000009fa stderr
+00000a01 fwrite
+00000a08 vfprintf
+00000a11 fputc
+00000a17 vasprintf
+00000a21 android_set_abort_message
+00000a3b openlog
+00000a43 syslog
+00000a4a closelog
+00000a53 abort
+00000a59 strcmp
+00000a60 fprintf
+00000a68 fflush
+00000a6f pthread_rwlock_wrlock
+00000a85 pthread_rwlock_unlock
+00000a9b dladdr
+00000aa2 dl_iterate_phdr
+00000ab2 __vsnprintf_chk
+00000ac2 pthread_rwlock_rdlock
+00000ad8 __errno
+00000ae0 getauxval
+00000aea __system_property_get
+00000b00 strncmp
+00000b08 libdl.so
+00000b11 LIBC
+00000b16 libc.so
+00000b1e LIBC_P
+00000b25 libxplat_perflogger_safe_rollout_qpl_safe_rollout.so
+00000b5a libxplat_perflogger_health_counters_health_counters.so
+00000b98 APS2
+00001180 %s failed to release mutex
+0000119b %s failed to acquire mutex
+000011b6 %s failed to broadcast
+000011cd uncaught
+000011d6 terminating due to %s exception of type %s
+00001201 terminating due to %s exception of type %s: %s
+00001230 %s:%d: %s
+0000123a vector
+00001244 unsupported restore location for float register
+00001274 unsupported restore location for register
+0000129e unknown register
+000012af unsupported arm64 register
+000012ca setRegister
+000012d6 getRegister
+000012e2 getSavedFloatRegister
+000012f8 getSavedRegister
+0000130c third-party\llvm-project\19.x-android\llvm-project\libcxxabi\src\private_typeinfo.cpp
+00001362 third-party\llvm-project\19.x-android\llvm-project\libcxxabi\src\fallback_malloc.cpp
+000013ba CIE ID is not zero
+000013cd _Unwind_Resume() can't return
+000013eb terminating due to %s foreign exception
+00001413 terminate_handler unexpectedly threw an exception
+00001445 truncated uleb128 expression
+00001462 malformed uleb128 expression
+0000147f truncated sleb128 expression
+0000149c evaluateExpression
+000014af libc++abi
+000014b9 bad_array_new_length
+000014ce FDE has zero length
+000014e2 CIE start does not match
+000014fb ro.arch
+00001503 terminating
+0000150f unknown pointer encoding
+00001528 DW_OP_deref_size with bad size
+00001547 getTableEntrySize
+00001559 __cxa_guard_release
+0000156d __cxa_guard_acquire
+00001581 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+000015e4 _Unwind_Resume
+000015f3 DW_EH_PE_textrel pointer encoding not supported
+00001623 DW_EH_PE_funcrel pointer encoding not supported
+00001653 DW_EH_PE_aligned pointer encoding not supported
+00001683 DW_OP_fbreg not implemented
+0000169f DWARF opcode not implemented
+000016bc DW_OP_piece not implemented
+000016d8 unexpected
+000016e3 terminate_handler unexpectedly returned
+0000170e std::bad_alloc
+0000171d getEncodedP
+00001729 FDE is really a CIE
+0000173d catching a class without an object?
+00001761 __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+00001814 getULEB128
+0000181f getSLEB128
+000018a0 CIE version is not 1 or 3
+000018bd unwind_phase2
+00001912 exynos9810
+0000191d DW_EH_PE_datarel is invalid with a datarelBase of 0
+00001951 Unknown DWARF encoding for search table.
+0000197a Can't binary search on variable length encoded data.
+000019af libc++abi: 
+000019bb libunwind: unsupported .eh_frame_hdr version: %u at %lx
+000019f4 libunwind: %s - %s
+00001a08 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00001a50 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+00001a90 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+00001ad6 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+00001b18 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+00001b5d libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+00001ba7 libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+00001be9 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+00001c2b libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+00001c6c libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00001cc0 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+00001d07 libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+00001d4f libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+00001d8e libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+00001dcf libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+00001e2c libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+00001ee8 St9exception
+00001ef5 St20bad_array_new_length
+00001f0e St9bad_alloc
+00001f1b N10__cxxabiv116__shim_type_infoE
+00001f3c N10__cxxabiv117__class_type_infoE
+00001f5e N10__cxxabiv120__si_class_type_infoE
+00001f83 St11logic_error
+00001f93 St12length_error
+00001fa4 St9type_info
+000034bd zPLR
+00003999 ]	qh$
+00006350 @1Wz)
+000064b9 1WzJ
+000065d7 <i*?
+0000678c h%@x
+00006851 j{8*
+00006a9f K*)(
+00006bce @yN	
+00006f28  	Az@	Az
+00007193 T(<@
+000071b7 T(H@
+000072c7 Th6@
+000072f3 ThF@
+0000732c h6A9
+00007337 Th2A9i
+0000737f Th2@
+0000745a G)t:
+00007473 Th2@
+0000749f Th6@
+0000842a @9o%
+00008d5f Th~@
+0000918e @8|"
+000091a1 zhx)	
+000091ad b@9a
+00009335 1Mzl
+000096e8 `1Jz
+00009702 	*h}
+0000986e ?7|"
+000099b2 ?7|"
+00009c4d 1Mzl
+00009dde ?7_|
+0000b004  %@x
+0000b390 `0Bz
+0000b3f3 QqN0
+0000b447 TbN 
+0000b4ff R@0@z 
+0000b614  0@z
+0000c52b TiC@
+0000d6f1 .init_array
+0000d6fd .fini_array
+0000d709 .text
+0000d70f .got
+0000d714 .note.android.ident
+0000d728 .got.plt
+0000d731 .rela.plt
+0000d73b .tbss
+0000d741 .bss
+0000d746 .dynstr
+0000d74e .eh_frame_hdr
+0000d75c .gnu.version_r
+0000d76b .data.rel.ro
+0000d778 .relr.dyn
+0000d782 .rela.dyn
+0000d78c .gnu.version
+0000d799 .dynsym
+0000d7a1 .gnu.hash
+0000d7ab .relro_padding
+0000d7ba .eh_frame
+0000d7c4 .gcc_except_table
+0000d7d6 __lcxx_override
+0000d7e6 .note.gnu.build-id
+0000d7f9 .dynamic
+0000d802 .shstrtab
+0000d80c .rodata
+0000d814 .data

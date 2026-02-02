@@ -1,0 +1,402 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+0000166e zn:G
+00001699 j"C>
+000016af aqRXe
+000016d5 	:-N
+00001747 r;]G
+00001763 lp$d
+00001795 __cxa_finalize
+000017a4 __cxa_atexit
+000017b1 __register_atfork
+000017c3 __stack_chk_fail
+000017d4 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00001823 memmove
+0000182b memset
+00001832 _ZN7logging10LogMessageC1EPKcS2_ii
+00001855 _ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+000018b8 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEm
+000018ef _ZN7logging10LogMessageD1Ev
+0000190b _ZN8crashpad15ReadFileExactlyEiPvm
+0000192e _ZN8crashpad22LoggingReadFileExactlyEiPvm
+00001958 _ZN8crashpad16LoggingWriteFileEiPKvm
+0000197d __errno
+00001985 _ZN7logging15ErrnoLogMessageC1EPKcS2_iii
+000019ae _ZN7logging15ErrnoLogMessageD1Ev
+000019cf _ZN8crashpad16LoggingReadToEOFEiPNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00001a34 _ZN8crashpad22LoggingOpenFileForReadERKN4base8FilePathE
+00001a6c _ZN4base8internal19ScopedFDCloseTraits4FreeEi
+00001a9a _ZN8crashpad16CheckedCloseFileEi
+00001abb strlen
+00001ac2 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi
+00001af9 _ZN8crashpad15LoggingSeekFileEili
+00001b1b _ZN8crashpad10FileReaderC1Ev
+00001b38 _ZN8crashpad10FileReader4OpenERKN4base8FilePathE
+00001b69 abort
+00001b6f _ZN8crashpad10FileReader5CloseEv
+00001b90 sysconf
+00001b98 writev
+00001b9f _ZN8crashpad10FileWriterC1Ev
+00001bbc _ZN8crashpad10FileWriter4OpenERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00001c15 _ZN8crashpad23LoggingOpenFileForWriteERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00001c76 _ZN8crashpad10FileWriter5CloseEv
+00001c97 _ZN8crashpad22ScopedRemoveFileTraits4FreeERKN4base8FilePathE
+00001cd4 _ZN8crashpad17LoggingRemoveFileERKN4base8FilePathE
+00001d07 memcpy
+00001d0e _ZN4base11StringToIntERKNS_16BasicStringPieceINSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEEPi
+00001d84 strncmp
+00001d8c _ZN8crashpad7Metrics18CrashReportPendingENS0_19PendingReportReasonE
+00001dd0 _ZN8crashpad7Metrics15CrashReportSizeEl
+00001df8 _ZN8crashpad7Metrics20CrashUploadAttemptedEb
+00001e25 _ZN8crashpad7Metrics18CrashUploadSkippedENS0_18CrashSkippedReasonE
+00001e68 _ZNSt6__ndk119piecewise_constructE
+00001e8b _ZNSt6__ndk16__treeINS_12__value_typeImmEENS_19__map_value_compareImS2_NS_4lessImEELb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSE_IJEEEEEENS_4pairINS_15__tree_iteratorIS2_PNS_11__tree_nodeIS2_PvEElEEbEERKT_DpOT0_
+00001f9b memcmp
+00001fa2 _ZN8crashpad4UUID20InitializeFromStringERKN4base16BasicStringPieceINSt6__ndk112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEE
+0000202b sscanf
+00002032 _ZN8crashpad4UUID17InitializeWithNewEv
+00002059 _ZN4base9RandBytesEPvm
+00002070 _ZNK8crashpad4UUID8ToStringEv
+0000208e _ZN4base12StringPrintfEPKcz
+000020aa _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
+000021f4 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE4findIS7_EENS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEERKT_
+000022db _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8crashpad20HTTPMultipartBuilder14FileAttachmentEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE4findIS7_EENS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEERKT_
+000023f0 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8crashpad20HTTPMultipartBuilder14FileAttachmentEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSM_IJEEEEEENS_4pairINS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEEbEERKT_DpOT0_
+00002568 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSJ_IJEEEEEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_
+000026b1 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISJ_EERKT_
+000027a5 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSJ_IJEEEEEENS_10unique_ptrINS_11__tree_nodeIS8_PvEENS_22__tree_node_destructorINS5_ISR_EEEEEEDpOT_
+000028f0 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8crashpad20HTTPMultipartBuilder14FileAttachmentEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISM_EERKT_
+00002a12 _ZNSt6__ndk16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8crashpad20HTTPMultipartBuilder14FileAttachmentEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSM_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISB_PvEENS_22__tree_node_destructorINS5_ISU_EEEEEEDpOT_
+00002b8b _ZN4base8FilePathC1Ev
+00002ba1 _ZN4base8FilePathD1Ev
+00002bb7 _ZN4base8FilePathaSERKS0_
+00002bd1 __strlen_chk
+00002bde _ZN8crashpad15DirectoryReader4OpenERKN4base8FilePathE
+00002c14 opendir
+00002c1c _ZN8crashpad15DirectoryReader8NextFileEPN4base8FilePathE
+00002c55 readdir
+00002c5d _ZN4base8FilePathC1ERKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+00002cb7 dirfd
+00002cbd _ZN8crashpad15DirectoryReaderC1Ev
+00002cdf _ZN8crashpad15DirectoryReaderD1Ev
+00002d01 __write_chk
+00002d0d __read_chk
+00002d18 __open_2
+00002d21 open
+00002d26 _ZN8crashpad23OpenFileForReadAndWriteERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00002d87 _ZN8crashpad30LoggingOpenFileForReadAndWriteERKN4base8FilePathENS_13FileWriteModeENS_15FilePermissionsE
+00002def _ZN8crashpad15LoggingLockFileEiNS_11FileLockingENS_19FileLockingBlockingE
+00002e39 flock
+00002e3f _ZN8crashpad17LoggingUnlockFileEi
+00002e61 lseek
+00002e67 _ZN8crashpad19LoggingTruncateFileEi
+00002e8b ftruncate
+00002e95 close
+00002e9b _ZN8crashpad20FileModificationTimeERKN4base8FilePathEP8timespec
+00002edb lstat
+00002ee1 _ZN8crashpad22LoggingCreateDirectoryERKN4base8FilePathENS_15FilePermissionsEb
+00002f2f mkdir
+00002f35 _ZN8crashpad11IsDirectoryERKN4base8FilePathEb
+00002f63 stat
+00002f68 _ZN8crashpad19MoveFileOrDirectoryERKN4base8FilePathES3_
+00002fa0 rename
+00002fa7 _ZN8crashpad13IsRegularFileERKN4base8FilePathE
+00002fd6 unlink
+00002fdd _ZN8crashpad22LoggingRemoveDirectoryERKN4base8FilePathE
+00003015 rmdir
+0000301b _ZN8crashpad11GetFileSizeERKN4base8FilePathE
+00003048 _ZN8crashpad16GetDirectorySizeERKN4base8FilePathE
+0000307a _ZNK4base8FilePath6AppendERKS0_
+0000309a closedir
+000030a3 _ZN4base11GetPageSizeEv
+000030bb munmap
+000030c2 _ZN8crashpad10ScopedMmap9ResetMmapEPvmiiil
+000030ed mmap
+000030f2 _ZN8crashpad10ScopedMmap7releaseEv
+00003115 _ZN8crashpad10ScopedMmapC1Eb
+00003132 _ZN8crashpad10ScopedMmapD1Ev
+0000314f _ZN8crashpad7Signals10OldActions15ActionForSignalEi
+00003183 sigemptyset
+0000318f sigaction
+00003199 _ZN8crashpad7Signals20InstallCrashHandlersEPFviP7siginfoPvEiPNS0_10OldActionsEPKNSt6__ndk13setIiNS8_4lessIiEENS8_9allocatorIiEEEE
+0000321b _ZN8crashpad7Signals38RestoreHandlerAndReraiseSignalOnReturnEPK7siginfoPK9sigaction
+0000326f getpid
+00003276 syscall
+0000327e raise
+00003284 _exit
+0000328a fopen
+00003290 fscanf
+00003297 feof
+0000329c _ZNK4base8internal16ScopedFILECloserclEP7__sFILE
+000032cd _ZN8crashpad15SpawnSubprocessERKNSt6__ndk16vectorINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS5_IS7_EEEEPSA_ibPFvvE
+00003354 fork
+00003359 waitpid
+00003361 strsignal
+0000336b setsid
+00003372 environ
+0000337a posix_spawn
+00003386 posix_spawnp
+00003393 _ZNSt6__ndk16__treeINS_12__value_typeImmEENS_19__map_value_compareImS2_NS_4lessImEELb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsImJNS_4pairImmEEEEENSB_INS_15__tree_iteratorIS2_PNS_11__tree_nodeIS2_PvEElEEbEERKT_DpOT0_
+00003475 _ZN8crashpad22ExceptionHandlerClient21GetHandlerCredentialsEP5ucred
+000034b9 _ZN8crashpad22ExceptionHandlerClient16RequestCrashDumpERKNS_24ExceptionHandlerProtocol17ClientInformationE
+00003524 getppid
+0000352c prctl
+00003532 _ZN8crashpad22ExceptionHandlerClientC1Eib
+0000355c _ZN8crashpad22ExceptionHandlerClientD1Ev
+00003585 _ZN8crashpad24ExceptionHandlerProtocol17ClientInformationC1Ev
+000035c3 __pread64_chk
+000035d1 __memcpy_chk
+000035de ptrace
+000035e5 _ZN8crashpad19ScopedPrSetDumpableC1Eb
+0000360b _ZN8crashpad19ScopedPrSetDumpableD1Ev
+00003631 _ZN8crashpad20UnixCredentialSocket26CreateCredentialSocketpairEPN4base13ScopedGenericIiNS1_8internal19ScopedFDCloseTraitsEEES6_
+000036b1 socketpair
+000036bc setsockopt
+000036c7 sendmsg
+000036cf recvmsg
+000036d7 __cmsg_nxthdr
+000036e5 _ZNSt6__ndk16__treeIjNS_4lessIjEENS_9allocatorIjEEE25__emplace_unique_key_argsIjJRKjEEENS_4pairINS_15__tree_iteratorIjPNS_11__tree_nodeIjPvEElEEbEERKT_DpOT0_
+00003783 _ZNSt6__ndk16__treeIjNS_4lessIjEENS_9allocatorIjEEE25__emplace_unique_key_argsIjJjEEENS_4pairINS_15__tree_iteratorIjPNS_11__tree_nodeIjPvEElEEbEERKT_DpOT0_
+0000381f _ZNSt6__ndk16__treeIjNS_4lessIjEENS_9allocatorIjEEE30__emplace_hint_unique_key_argsIjJRKjEEENS_4pairINS_15__tree_iteratorIjPNS_11__tree_nodeIjPvEElEEbEENS_21__tree_const_iteratorIjSE_lEERKT_DpOT0_
+000038e4 _ZNSt6__ndk16__treeIjNS_4lessIjEENS_9allocatorIjEEE12__find_equalIjEERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIjPNS_11__tree_nodeIjS8_EElEERPNS_15__tree_end_nodeISA_EESB_RKT_
+000039a0 _ZNSt6__ndk18functionIFlmmPvEEaSINS_6__bindIMN8crashpad16PtraceConnectionEFlmmS1_EJRPS7_RKNS_12placeholders4__phILi1EEERKNSD_ILi2EEERKNSD_ILi3EEEEEEvEERS3_OT_
+00003a3f _ZTVNSt6__ndk110__function6__funcINS_6__bindIMN8crashpad16PtraceConnectionEFlmmPvEJRPS4_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFlmmS5_EEE
+00003af1 strcmp
+00003af8 _ZTINSt6__ndk16__bindIMN8crashpad16PtraceConnectionEFlmmPvEJRPS2_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEE
+00003b76 _ZTINSt6__ndk110__function6__baseIFlmmPvEEE
+00003ba2 _ZTINSt6__ndk110__function6__funcINS_6__bindIMN8crashpad16PtraceConnectionEFlmmPvEJRPS4_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFlmmS5_EEE
+00003c54 _ZTINSt6__ndk118__weak_result_typeIMN8crashpad16PtraceConnectionEFlmmPvEEE
+00003c9f __wrap__ZTISt12length_error
+00003cbb __wrap___cxa_begin_catch
+00003cd4 __wrap___cxa_allocate_exception
+00003cf4 __wrap__ZdlPv
+00003d02 __wrap__ZNSt20bad_array_new_lengthD1Ev
+00003d29 __wrap__ZTVSt12length_error
+00003d45 __wrap___gxx_personality_v0
+00003d61 __wrap__Unwind_Resume
+00003d77 __wrap___cxa_throw
+00003d8a __wrap___cxa_free_exception
+00003da6 __wrap__Znwm
+00003db3 __wrap__ZSt9terminatev
+00003dca __wrap__ZNSt11logic_errorC2EPKc
+00003dea __wrap__ZNSt12length_errorD1Ev
+00003e09 __wrap__ZNSt20bad_array_new_lengthC1Ev
+00003e30 __wrap__ZTISt20bad_array_new_length
+00003e54 __wrap__ZTVN10__cxxabiv120__si_class_type_infoE
+00003e84 __wrap__ZTVN10__cxxabiv117__class_type_infoE
+00003eb1 __wrap__ZTVN10__cxxabiv121__vmi_class_type_infoE
+00003ee2 libc.so
+00003eea LIBC
+00003eef LIBC_N
+00003ef6 LIBC_P
+00003efd libarvr_projects_hsr_third_party_crashpad_0_8_0_minichromium.so
+00003f3d libc++_shared.so
+00003f4e libarvr_projects_hsr_third_party_crashpad_0_8_0_utillib-internal.so
+00003f98 APS2
+00005f10  not a directory
+00005f21 %08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
+00005f52 intermediate process: unknown termination 0x%x
+00005f81 writev
+00005f88 setsockopt
+00005f93 SpawnSubprocess
+00005fa3 64-bit ARM cannot trace TLS area for a 32-bit process
+00005fd9 Unable to collect registers
+00005ff5 missing credentials
+00006009 WriteIoVec(): no iovecs
+00006021 intermediate process terminated by signal %d (%s)%s
+00006055 vector
+0000605c /proc/sys/fs/nr_open format error
+0000607e closedir
+00006087 socketpair
+00006092 posix_spawnp
+0000609f munmap
+000060a6 mmap
+000060ab posix_spawn
+000060b7 /proc/sys/fs/nr_open
+000060cc prctl
+000060d2 fork
+000060d7 lseek
+000060dd flock
+000060e3 address size mismatch
+000060f9 recvmsg
+00006101 truncated msg
+0000610f basic_string
+0000611c ftruncate
+00006126 close
+0000612f unexpected msg name
+00006143 ptrace
+0000614a setsid
+00006151 waitpid
+00006159 dirfd
+0000615f process not stopped
+00006173 arvr/projects/hsr/third_party/crashpad/0.8.0/util/file/directory_reader_posix.cc
+000061c4 arvr/projects/hsr/third_party/crashpad/0.8.0/util/file/file_io_posix.cc
+0000620c arvr/projects/hsr/third_party/crashpad/0.8.0/util/file/filesystem_posix.cc
+00006257 arvr/projects/hsr/third_party/crashpad/0.8.0/util/linux/socket.cc
+00006299 arvr/projects/hsr/third_party/crashpad/0.8.0/util/posix/spawn_subprocess.cc
+000062e5 arvr/projects/hsr/third_party/crashpad/0.8.0/util/posix/signals.cc
+00006328 arvr/projects/hsr/third_party/crashpad/0.8.0/util/posix/scoped_dir.cc
+0000636e arvr/projects/hsr/third_party/crashpad/0.8.0/util/file/file_writer.cc
+000063b4 arvr/projects/hsr/third_party/crashpad/0.8.0/util/file/file_reader.cc
+000063fa arvr/projects/hsr/third_party/crashpad/0.8.0/util/linux/ptracer.cc
+0000643d arvr/projects/hsr/third_party/crashpad/0.8.0/util/posix/scoped_mmap.cc
+00006484 arvr/projects/hsr/third_party/crashpad/0.8.0/util/file/file_io.cc
+000064c6 arvr/projects/hsr/third_party/crashpad/0.8.0/util/linux/scoped_ptrace_attach.cc
+00006516 arvr/projects/hsr/third_party/crashpad/0.8.0/util/posix/close_multiple.cc
+00006560 arvr/projects/hsr/third_party/crashpad/0.8.0/util/linux/scoped_pr_set_dumpable.cc
+000065b2 Check failed: setsid() != -1
+000065cf writev: returned 0
+000065e2 void crashpad::CloseMultipleNowOrOnExec(int, int)
+00006614 FileOffset crashpad::LoggingSeekFile(FileHandle, FileOffset, int)
+00006656 bool crashpad::ScopedMmap::ResetMmap(void *, size_t, int, int, int, off_t)
+000066a1 virtual FileOperationResult crashpad::WeakFileHandleFileReader::Read(void *, size_t)
+000066f6 bool crashpad::LoggingWriteFile(FileHandle, const void *, size_t)
+00006738 bool crashpad::FileWriter::Open(const base::FilePath &, FileWriteMode, FilePermissions)
+00006790 FileHandle crashpad::LoggingOpenFileForWrite(const base::FilePath &, FileWriteMode, FilePermissions)
+000067f5 FileHandle crashpad::LoggingOpenFileForReadAndWrite(const base::FilePath &, FileWriteMode, FilePermissions)
+00006861 crashpad::ScopedPrSetDumpable::ScopedPrSetDumpable(bool)
+0000689a void crashpad::(anonymous namespace)::CloseNowOrOnExec(int, bool)
+000068dc bool (anonymous namespace)::LoggingMunmap(uintptr_t, size_t, bool)
+0000691f bool crashpad::internal::ReadExactlyInternal::ReadExactly(void *, size_t, bool)
+0000696f virtual FileOperationResult crashpad::(anonymous namespace)::FileIOReadExactly::Read(void *, size_t, bool)
+000069da bool crashpad::PtraceAttach(pid_t, bool)
+00006a03 bool crashpad::PtraceDetach(pid_t, bool)
+00006a2c bool crashpad::LoggingCreateDirectory(const base::FilePath &, FilePermissions, bool)
+00006a81 bool crashpad::(anonymous namespace)::GetFloatingPointRegisters64(pid_t, FloatContext *, bool)
+00006ae0 bool crashpad::(anonymous namespace)::GetFloatingPointRegisters32(pid_t, FloatContext *, bool)
+00006b3f size_t crashpad::(anonymous namespace)::GetGeneralPurposeRegistersAndLength(pid_t, ThreadContext *, bool)
+00006ba9 bool crashpad::(anonymous namespace)::GetGeneralPurposeRegisters64(pid_t, ThreadContext *, bool)
+00006c0a bool crashpad::(anonymous namespace)::GetGeneralPurposeRegisters32(pid_t, ThreadContext *, bool)
+00006c6b bool crashpad::(anonymous namespace)::GetThreadArea64(pid_t, const ThreadContext &, LinuxVMAddress *, bool)
+00006cd7 bool crashpad::(anonymous namespace)::GetThreadArea32(pid_t, const ThreadContext &, LinuxVMAddress *, bool)
+00006d43 bool crashpad::IsDirectory(const base::FilePath &, bool)
+00006d7c FileLockingResult crashpad::LoggingLockFile(FileHandle, FileLocking, FileLockingBlocking)
+00006dd6 Check failed: LoggingCloseFile(file)
+00006dfb bool crashpad::LoggingUnlockFile(FileHandle)
+00006e28 bool crashpad::LoggingTruncateFile(FileHandle)
+00006e57 bool crashpad::LoggingCloseFile(FileHandle)
+00006e83 void crashpad::CheckedCloseFile(FileHandle)
+00006eaf  (core dumped)
+00006ebe ssize_t crashpad::Ptracer::ReadLastBytes(pid_t, LinuxVMAddress, size_t, char *)
+00006f0e ssize_t crashpad::Ptracer::ReadUpTo(pid_t, LinuxVMAddress, size_t, char *)
+00006f59 static bool crashpad::Signals::InstallHandler(int, Handler, int, struct sigaction *)
+00006fae DirectoryReader::Result crashpad::DirectoryReader::NextFile(base::FilePath *)
+00006ffc bool crashpad::LoggingReadToEOF(FileHandle, std::string *)
+00007037 static bool crashpad::UnixCredentialSocket::CreateCredentialSocketpair(ScopedFileHandle *, ScopedFileHandle *)
+000070a6 bool crashpad::FileModificationTime(const base::FilePath &, timespec *)
+000070ee static void crashpad::internal::ScopedDIRCloseTraits::Free(DIR *)
+00007130 static bool crashpad::UnixCredentialSocket::RecvMsg(int, void *, size_t, ucred *, std::vector<ScopedFileHandle> *)
+000071a3 virtual bool crashpad::WeakFileHandleFileWriter::WriteIoVec(std::vector<WritableIoVec> *)
+000071fd bool crashpad::SpawnSubprocess(const std::vector<std::string> &, const std::vector<std::string> *, int, bool, void (*)())
+00007277 void crashpad::FileWriter::Close()
+0000729a void crashpad::FileReader::Close()
+000072bd crashpad::ScopedPrSetDumpable::~ScopedPrSetDumpable()
+000072f3 Check failed: !file_.is_valid()
+00007313 Check failed: file_.is_valid()
+00007332 int crashpad::DirectoryReader::DirectoryFD()
+0000735f bool crashpad::LoggingRemoveDirectory(const base::FilePath &)
+0000739d bool crashpad::DirectoryReader::Open(const base::FilePath &)
+000073da bool crashpad::FileReader::Open(const base::FilePath &)
+00007412 uint64_t crashpad::GetFileSize(const base::FilePath &)
+00007449 bool crashpad::IsRegularFile(const base::FilePath &)
+0000747e bool crashpad::LoggingRemoveFile(const base::FilePath &)
+000074b7 FileHandle crashpad::LoggingOpenFileForRead(const base::FilePath &)
+000074fb bool crashpad::MoveFileOrDirectory(const base::FilePath &, const base::FilePath &)
+0000754e lstat 
+00007555 opendir 
+0000755e rmdir 
+00007565 mkdir 
+0000756c readdir 
+00007575 sigaction 
+00007580 open 
+00007586 unlink 
+0000758e unhandled cmsg 
+0000759e Unexpected registers size 
+000075b9 incorrect payload size 
+000075d1 rename 
+000075d9 intermediate process exited with code 
+00007600 , observed 
+0000760c ReadExactly: expected 
+00007623  != 
+00007628  status: 
+00007632  wait_pid: 
+0000763e SpawnSubprocess: waiting for child process pid: 
+0000766f SpawnSubprocess: fork pid: 
+00007695 write
+0000769b read
+000076a0 N8crashpad12_GLOBAL__N_117FileIOReadExactlyE
+000076cd N8crashpad8internal19ReadExactlyInternalE
+000076f7 N8crashpad12_GLOBAL__N_114FileIOWriteAllE
+00007721 N8crashpad8internal16WriteAllInternalE
+00007748 read
+0000774d N8crashpad19FileReaderInterfaceE
+0000776e N8crashpad19FileSeekerInterfaceE
+0000778f N8crashpad24WeakFileHandleFileReaderE
+000077b5 N8crashpad10FileReaderE
+000077cd N8crashpad19FileWriterInterfaceE
+000077ee N8crashpad24WeakFileHandleFileWriterE
+00007814 N8crashpad10FileWriterE
+0000782d %08x-%04hx-%04hx-%02hhx%02hhx-%02hhx%02hhx%02hhx%02hhx%02hhx%02hhx
+00007890 /proc/self/fd
+000078b0 /proc/
+000078b7 NSt6__ndk110__function6__baseIFlmmPvEEE
+000078df NSt6__ndk110__function6__funcINS_6__bindIMN8crashpad16PtraceConnectionEFlmmPvEJRPS4_RKNS_12placeholders4__phILi1EEERKNSB_ILi2EEERKNSB_ILi3EEEEEENS_9allocatorISL_EEFlmmS5_EEE
+0000798d NSt6__ndk16__bindIMN8crashpad16PtraceConnectionEFlmmPvEJRPS2_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEE
+00007a07 NSt6__ndk118__weak_result_typeIMN8crashpad16PtraceConnectionEFlmmPvEEE
+00008c31 zPLR
+0000a8fc (a@9
+0000a903 7(	@
+0000ab4a @yj"@9	
+0000ab9d ,@9	0@9
+0000aceb 6`"@
+0000acf4 hb@9h
+0000aea7 7		@
+0000b15f 7		@
+0000b277 =		@
+0000b5c8 	L@9
+0000b5e0 	Q@9)
+0000b5e7 4	Q@9)
+0000b5f3 T	U@9
+0000b6b9 #@9h
+0000cdbd B@9 
+0000d505 #@9h
+0000d70d #@9h
+0000dea5 c@9h
+0000e9a5 i+8k
+0000e9bb R*i48
+0000ef80 ?k68
+0000f0df 7`6@
+0000f0ff T`6@
+0000f20f Rh2@
+0000f223 T`2@
+0000f277 7`6@
+0000f293 4`6@
+0000f373 7`6@
+0000f393 T`6@
+0000f43b 6`6@
+0000f812 @9	B
+00010b6b TH	@
+00012351 .fini_array
+0001235d .text
+00012363 .got
+00012368 .note.android.ident
+0001237c .got.plt
+00012385 .rela.plt
+0001238f .dynstr
+00012397 .eh_frame_hdr
+000123a5 .gnu.version_r
+000123b4 .data.rel.ro
+000123c1 .relr.dyn
+000123cb .rela.dyn
+000123d5 .gnu.version
+000123e2 .dynsym
+000123ea .gnu.hash
+000123f4 .relro_padding
+00012403 .eh_frame
+0001240d .gcc_except_table
+0001241f .note.gnu.build-id
+00012432 .dynamic
+0001243b .shstrtab
+00012445 .rodata
+0001244d .data

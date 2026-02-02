@@ -1,0 +1,87 @@
+{
+  "apk": "zenoteVR-decoded",
+  "timestamp_utc": "2026-02-02T14:56:25.057728Z",
+  "decoded_path": "C:\\realDesktop\\manifest-evaluations\\decoded-apks\\zenoteVR-decoded",
+  "summary": {
+    "so_count": 8,
+    "files_with_term_hits": 3,
+    "total_hits": 12
+  },
+  "matches": [
+    {
+      "so_file": "lib\\arm64-v8a\\libopenxr_loader.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0006a97c"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libunity.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "manifest",
+          "offset_hex": "0015909d"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "000fe7c4"
+        }
+      ]
+    },
+    {
+      "so_file": "lib\\arm64-v8a\\libUnityOpenXR.so",
+      "findings": [
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0010c299"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0010c313"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00117c90"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00117cbc"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "001181f1"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "001182ea"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "001182fa"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "00118335"
+        },
+        {
+          "type": "bytes_ascii",
+          "term": "foveat",
+          "offset_hex": "0011834f"
+        }
+      ]
+    }
+  ]
+}

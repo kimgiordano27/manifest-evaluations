@@ -1,0 +1,1614 @@
+00000244 Android
+00000290 13004108
+00001508  `Dh
+00001554 P0K#n
+00001562 GJ\+N
+0000156e [nF<.
+000015e2 M$8z
+00001643 !b[+
+00001665 __cxa_finalize
+00001674 __cxa_atexit
+00001681 __register_atfork
+00001693 OpenXRAndroid_getPassthroughCameraState
+000016bb OpenXRAndroid_setBlendMode
+000016d6 OpenXRAndroid_getBlendMode
+000016f1 OpenXRAndroid_enumerateEnvironmentBlendModes
+0000171e XrBodyTracking_setTrackingEnabled
+00001740 XrBodyTracking_setCalibration
+0000175e XrBodyTracking_getSkeleton
+00001779 XrBodyTracking_acquireChanges
+00001797 XrBodyTracking_destroyChanges
+000017b5 XrEyeCalibration_setEnabled
+000017d1 XrEyeCalibration_startCalibration
+000017f3 XrEyeCalibration_stopCalibration
+00001814 XrEyeCalibration_getCalibrationState
+00001839 XrEyeTracking_setEnabled
+00001852 XrEyeTracking_getFinePoses
+0000186d XrFaceTracking_setTrackingEnabled
+0000188f XrFaceTracking_getFaceState
+000018ab XrFaceTracking_enableCalibration
+000018cc XrFaceTracking_isFaceCalibrated
+000018ec XrFaceTracking_activateCalibrationMode
+00001913 memcpy
+0000191a XrHandMesh_enableHandMesh
+00001934 XrHandMesh_disableHandMesh
+0000194f intercept_xrGetInstanceProcAddr
+0000196f XrInstanceManager_create
+00001988 XrInstanceManager_destroy
+000019a2 XrInstanceManager_registerFeature
+000019c4 memset
+000019cb XrInstanceManager_unregisterFeature
+000019ef XrInstanceManager_onSystemChange
+00001a10 XrInstanceManager_onSessionCreate
+00001a32 XrInstanceManager_onSessionBegin
+00001a53 XrInstanceManager_onSessionEnd
+00001a72 XrInstanceManager_onSessionDestroy
+00001a95 XrInstanceManager_onSessionStateChange
+00001abc XrInstanceManager_onAppSpaceChange
+00001adf XrIpdCalibration_setEnabled
+00001afb XrIpdCalibration_initiateAutomaticIpdCalibration
+00001b2c XrIpdCalibration_getIpdCalibrationState
+00001b54 XrIpdCalibration_updateRenderOrigin
+00001b78 UnityPluginLoad
+00001b88 UnityPluginUnload
+00001b9a XrPassthrough_createLayer
+00001bb4 XrPassthrough_destroyLayer
+00001bcf XrSceneMeshing_setEnabled
+00001be9 XrSceneMeshing_isSceneMeshId
+00001c06 XrSceneMeshing_getMeshSemantics
+00001c26 XrSceneMeshing_getSceneMeshTrackingState
+00001c4f OpenXRAndroid_getSystemState
+00001c6c XrTrackable_setTracking
+00001c84 XrTrackable_getTrackableType
+00001ca1 XrTrackable_getObjectExtents
+00001cbe XrTrackable_getObjectLabel
+00001cd9 XrTrackable_resetObjectGuids
+00001cf6 XrTrackable_setObjectGuid
+00001d10 XrTrackable_acquireObjectChanges
+00001d31 XrTrackable_destroyObjectChanges
+00001d52 XrTrackable_getQrCodeProperties
+00001d72 XrTrackable_setQrCodeGuid
+00001d8c XrTrackable_configureQrCode
+00001da8 XrTrackable_getQrCodeData
+00001dc2 XrTrackable_getMarkerProperties
+00001de2 XrTrackable_configureMarker
+00001dfe XrTrackable_getMarkerData
+00001e18 XrTrackable_acquireImageChanges
+00001e38 XrTrackable_destroyImageChanges
+00001e58 memchr
+00001e5f strlen
+00001e66 memcmp
+00001e6d getenv
+00001e74 memmove
+00001e7c __stack_chk_fail
+00001e8d __errno
+00001e95 __gcov_dump
+00001ea1 abort
+00001ea7 __gcov_flush
+00001eb4 _exit
+00001eba wcslen
+00001ec1 __gnu_strerror_r
+00001ed2 snprintf
+00001edb mmap
+00001ee0 munmap
+00001ee7 __android_log_write
+00001efb stderr
+00001f02 fwrite
+00001f09 sched_yield
+00001f15 pthread_self
+00001f22 pthread_getschedparam
+00001f38 syscall
+00001f40 clock_gettime
+00001f4e wmemchr
+00001f56 frexp
+00001f5c ldexp
+00001f62 MallocExtension_Internal_MarkThreadIdle
+00001f8a MallocExtension_Internal_MarkThreadBusy
+00001fb2 free
+00001fb7 sysconf
+00001fbf sigfillset
+00001fca pthread_sigmask
+00001fda prctl
+00001fe0 __start_google_malloc
+00001ff6 __stop_google_malloc
+0000200b __start_malloc_hook
+0000201f __stop_malloc_hook
+00002032 nanosleep
+0000203c strtod
+00002043 __system_property_get
+00002059 strcmp
+00002060 pthread_setspecific
+00002074 pthread_key_create
+00002087 pthread_getspecific
+0000209b write
+000020a1 vsnprintf
+000020ab strtof
+000020b2 strerror_r
+000020bd __sF
+000020c2 vfprintf
+000020cb vasprintf
+000020d5 android_set_abort_message
+000020ef openlog
+000020f7 syslog
+000020fe closelog
+00002107 pthread_mutex_lock
+0000211a pthread_mutex_unlock
+0000212f pthread_cond_broadcast
+00002146 pthread_cond_wait
+00002158 realloc
+00002160 malloc
+00002167 fflush
+0000216e ungetc
+00002175 getc
+0000217a ungetwc
+00002182 getwc
+00002188 fputwc
+0000218f uselocale
+00002199 vsscanf
+000021a1 newlocale
+000021ab strftime_l
+000021b6 sscanf
+000021bd freelocale
+000021c8 iswlower_l
+000021d3 wcsnrtombs
+000021de wcrtomb
+000021e6 mbsnrtowcs
+000021f1 mbrtowc
+000021f9 mbtowc
+00002200 __ctype_get_mb_cur_max
+00002217 mbrlen
+0000221e mbsrtowcs
+00002228 strtoll_l
+00002232 strtoull_l
+0000223d strtold_l
+00002247 fputc
+0000224d posix_memalign
+0000225c dl_iterate_phdr
+0000226c getauxval
+00002276 fprintf
+0000227e strncmp
+00002286 pthread_once
+00002293 pthread_rwlock_unlock
+000022a9 pthread_rwlock_rdlock
+000022bf pthread_rwlock_wrlock
+000022d5 pthread_key_delete
+000022e8 libunity_openxr_android.so
+00002303 VERS_1.0
+0000230c libdl.so
+00002315 LIBC
+0000231a libc.so
+00002322 libm.so
+0000232a libGLESv3.so
+00002337 liblog.so
+0000c3e0 768948450
+0000c420 unknown
+0000c620 googlefile:/google_src/files/768948450/depot/google3
+0000c820 build-secure-info:source-uri
+0000ca40 aarch64-linux-android-llvm-libcxx-arm64-v8a
+0000cc40 Jun 9 2025 23:13:48
+0000cc60 //depot/google3
+0000ce60 2d562e0b-754f-4806-b69a-0639a07c1241
+0000d060 vr-builder@lgp11.prod.google.com:/google/src/cloud/buildrabbit-username/buildrabbit-client/google3
+0000d260 androidxr_1.1.0_20250609_RC000
+0000d460 //vr/unity/google_xr/sdk/openxr_android/c_api:libunity_openxr_android.so
+0000d660 1749536028
+0000d680 Blaze, release blaze-2025.05.16-2 (mainline @759339575)
+0000d880 blaze-out/arm64-v8a-opt-android-ST-e668e9600b88/bin/vr/unity/google_xr/sdk/openxr_android/c_api/libunity_openxr_android.so
+0000daa0 plain
+0000dac0 768948450
+0000dae0 none
+0000db00 none
+0000db20 none
+0000db40 vr-builder
+0000dd40 lgp11.prod.google.com
+0000df40 /google/src/cloud/buildrabbit-username/buildrabbit-client/google3
+0000e168 Built on Jun 9 2025 23:13:48 (1749536028)
+0000e368 changelist 768948450 with baseline 768948450 in a mint client based on //depot/google3
+0000e768 XrHandMesh_enableHandMesh
+0000e782 XrInstanceManager_create
+0000e79b XrIpdCalibration_getIpdCalibrationState
+0000e7c3 :: success
+0000e7ce XR_ERROR_TIME_INVALID
+0000e7e4 XR_ERROR_SYSTEM_NOTIFICATION_PERMISSION_DENIED_ML
+0000e816 XR_ERROR_ANCHOR_NOT_OWNED_BY_CALLER_ANDROID
+0000e842 false
+0000e848 dfatal
+0000e84f info
+0000e854 fatal
+0000e85a GetExpressionParameters
+0000e872 xrInitiateAutomaticIpdCalibrationANDROIDSYS(tracker_)
+0000e8a8 xrGetSystemStateANDROIDX
+0000e8c1 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_5X5_100_ANDROID
+0000e8f6 XR_TRACKABLE_MARKER_DICTIONARY_MAX_ENUM_ANDROID
+0000e926 Wait unblocked 
+0000e936 level >= 1
+0000e941 next->header.arena == arena
+0000e95d clock_gettime(CLOCK_REALTIME, &ts) == 0
+0000e985 unspecified system_category error
+0000e9a7 0123456789
+0000e9b2 locale not supported
+0000e9c7 March
+0000e9d5 XrInstanceManager_onSessionBegin
+0000e9f6 : out_type was null.
+0000ea0b vr/unity/google_xr/sdk/openxr_android/eyetracking_provider.cc
+0000ea49 XR_SUCCESS
+0000ea54 XR_ERROR_LAYER_LIMIT_EXCEEDED
+0000ea72 XR_ERROR_GRAPHICS_REQUIREMENTS_CALL_MISSING
+0000ea9e XR_ERROR_UNEXPECTED_STATE_PASSTHROUGH_FB
+0000eac7 XR_ERROR_MARKER_DETECTOR_INVALID_CREATE_INFO_ML
+0000eaf7 XR_ERROR_HINT_ALREADY_SET_QCOM
+0000eb16 XR_ERROR_PERSISTED_DATA_NOT_READY_ANDROID
+0000eb40 XR_ERROR_SPATIAL_COMPONENT_UNSUPPORTED_FOR_CAPABILITY_EXT
+0000eb7a InterceptedEndFrame
+0000eb8e vr/unity/google_xr/sdk/openxr_android/passthrough_camera_state_feature.cc
+0000ebd8 klogdebugfatal
+0000ebe7 OnSessionBegin
+0000ebf6 TryLoadObjectTrackingEntrypoints
+0000ec17 Check tag failed: 
+0000ec2a Unlock
+0000ec31 waiting when shouldn't be
+0000ec4b third_party/absl/synchronization/internal/futex_waiter.cc
+0000ec85 0123456789ABCDEF0123456789abcdef
+0000eca6 bad arena pointer in Next()
+0000ecc2 September
+0000ecd0 %s failed to release mutex
+0000eceb %s:%d: %s
+0000ecf5 libunwind: %s - %s
+0000ed09 DW_EH_PE_funcrel pointer encoding not supported
+0000ed41 OpenXRAndroid_getBlendMode
+0000ed5c : out_sample_time was null.
+0000ed78 XrSceneMeshing_getMeshSemantics
+0000ed98 : provider was null.
+0000edad XrTrackable_getQrCodeData
+0000edc7 XrTrackable_getMarkerData
+0000ede1 XR_ERROR_PATH_FORMAT_INVALID
+0000edfe XR_ERROR_FILE_ACCESS_ERROR
+0000ee19 xrEndFrame
+0000ee24 xrStartEyeTrackerCalibrationANDROIDSYS(eye_tracker_)
+0000ee59 xrGetFaceCalibrationStateANDROID(face_tracker_, &face_is_calibrated)
+0000ee9e xrGetIpdCalibrationStateANDROIDSYS
+0000eec3 %c0000 00:00:%02d.%06d %7d 
+0000eedf %s@ %*p
+0000eee8 detected illegal recursion in Mutex code
+0000ef19 getSavedFloatRegister
+0000ef33 Failed to get submesh data.
+0000ef4f vr/unity/google_xr/sdk/openxr_android/c_api/xrtrackable_api.cc
+0000ef8e XrTrackable_setObjectGuid
+0000efa8 XrTrackable_configureMarker
+0000efc4 OnInstanceCreate
+0000efd5 XR_ERROR_FEATURE_UNSUPPORTED
+0000eff2 XR_ERROR_PATH_UNSUPPORTED
+0000f00c XR_ERROR_SESSION_NOT_READY
+0000f027 XR_ERROR_VIEW_CONFIGURATION_TYPE_UNSUPPORTED
+0000f054 XR_ERROR_TRACKABLE_TYPE_NOT_SUPPORTED_ANDROID
+0000f082 XR_ERROR_SPATIAL_PERSISTENCE_STORE_UNSUPPORTED_EXT
+0000f0b5 ' to invalid value 
+0000f0c9 xrdestroyEyeTrackerANDROIDSYS
+0000f0e7 SetObjectGuid
+0000f0f5 , static_only=
+0000f104 XR_TRACKABLE_MARKER_DICTIONARY_APRILTAG_36H10_ANDROID
+0000f13a %s%p %s %s
+0000f147 0123456789ABCDEF
+0000f15a element not in freelist
+0000f172 absl
+0000f177 LowLevelAlloc arithmetic overflow
+0000f199 bad magic number in Next()
+0000f1b4 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+0000f1fb XrEyeCalibration_getCalibrationState
+0000f220 XR_ERROR_SESSION_NOT_RUNNING
+0000f23d XR_ERROR_API_LAYER_NOT_PRESENT
+0000f25c XR_ERROR_COMPUTE_NEW_SCENE_NOT_COMPLETED_MSFT
+0000f28a XR_ERROR_LOCALIZATION_MAP_UNAVAILABLE_ML
+0000f2b3 GOOGLE_STDERRTHRESHOLD
+0000f2cc xrDestroyHandMeshTrackerANDROID(tracker_)
+0000f2f6 xrGetAllSubmeshStatesANDROID(snapshot_, 0, &submeshCount, nullptr)
+0000f339 Submesh states did not update.
+0000f358 ResetObjectGuids
+0000f369 , Guid=
+0000f371 XR_TRACKABLE_TYPE_QR_CODE_ANDROID
+0000f393 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_6X6_250_ANDROID
+0000f3c8 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_7X7_50_ANDROID
+0000f3fc Enqueue to list failed
+0000f413 waitp != nullptr
+0000f424 haven't left Arena region
+0000f43e bad arena pointer in AddToFreelist()
+0000f463 Thursday
+0000f46f std::bad_cast
+0000f47d libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+0000f4e3 CIE version is not 1 or 3
+0000f4fd AndroidXRMeshPlugin
+0000f511 XrTrackable_setQrCodeGuid
+0000f52b XR_ERROR_SWAPCHAIN_RECT_INVALID
+0000f54b XR_ERROR_LOCALIZATION_MAP_FAIL_ML
+0000f56d XR_ERROR_EARTH_TRACKER_NOT_RUNNING_ANDROIDX1
+0000f59a XR_ERROR_SPATIAL_ENTITY_ID_INVALID_EXT
+0000f5c1 xrGetBodyTrackerRestSkeletonANDROIDX
+0000f5e6 xrCreateFaceTrackerANDROID
+0000f601 Trying to get Hand Mesh while feature is disabled.
+0000f634 xrCreateHandMeshTrackerANDROID(session_, &createInfo, &tracker_)
+0000f675 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_7X7_100_ANDROID
+0000f6aa h->skip == nullptr
+0000f6bd ./third_party/absl/base/internal/spinlock.h
+0000f6e9 i < prev->levels
+0000f6fa clock_gettime(CLOCK_MONOTONIC) failed
+0000f720 August
+0000f727 bad_array_new_length
+0000f73c out/llvm-project/libcxxabi/src/private_typeinfo.cpp
+0000f770 _Unwind_Resume() can't return
+0000f78e libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+0000f7d0 Can't binary search on variable length encoded data.
+0000f80d manager already exists
+0000f824 feature already registered
+0000f83f vr/unity/google_xr/sdk/openxr_android/c_api/xripdcalibration_api.cc
+0000f883 XrTrackable_acquireImageChanges
+0000f8a3 XR_ERROR_API_VERSION_UNSUPPORTED
+0000f8c4 XR_ERROR_INITIALIZATION_FAILED
+0000f8e3 XR_ERROR_GRAPHICS_DEVICE_INVALID
+0000f904 XR_ERROR_NOT_PERMITTED_PASSTHROUGH_FB
+0000f92a XR_ERROR_LOCALIZATION_MAP_PERMISSION_DENIED_ML
+0000f959 XR_ERROR_SPACE_CLOUD_STORAGE_DISABLED_FB
+0000f982 third_party/absl/flags/internal/flag.cc
+0000f9aa  to: 
+0000f9b0 xrDestroyBodyTrackerANDROIDX
+0000f9cd Calibrate
+0000f9d7 GetTrackingState
+0000f9e8 xrCreateTrackableTrackerANDROID
+0000fa0b SetAndroidNativeTag() must only be called once per process!
+0000fa47 slow release
+0000fa54 ReaderLock returning 
+0000fa6a ./third_party/absl/time/internal/get_current_time_posix.inc
+0000faa6 unspecified generic_category error
+0000facc February
+0000fad5 %s failed to acquire mutex
+0000faf0 ro.arch
+0000faf8 getULEB128
+0000fb09 vr/unity/google_xr/sdk/openxr_android/c_api/xrsystemstate_api.cc
+0000fb4a XrTrackable_acquireObjectChanges
+0000fb6b XR_ERROR_FILE_CONTENTS_INVALID
+0000fb8a XR_ERROR_FORM_FACTOR_UNSUPPORTED
+0000fbab XR_ERROR_ACTIONSET_NOT_ATTACHED
+0000fbcb XR_ERROR_MARKER_NOT_TRACKED_VARJO
+0000fbed XR_ERROR_LOCALIZATION_MAP_ALREADY_EXISTS_ML
+0000fc19 XR_ERROR_ANCHOR_ALREADY_PERSISTED_ANDROID
+0000fc44 Check absl::ParseFlag(env, &value, &err) failed: 
+0000fc78 xrGetBodyTrackerSkeletonANDROIDX(body_tracker_, &getInfo, &skeleton)
+0000fcbd xrGetHandMeshANDROID
+0000fcd2 Enable
+0000fcd9 xrGetHandMeshANDROID(tracker_, &getInfo, &handMeshes)
+0000fd0f OnSessionEnd
+0000fd1c xrCreateIpdCalibrationTrackerANDROIDSYS(session_, &createInfo, &tracker_)
+0000fd66 xrGetAllTrackablesANDROID
+0000fd80 ConfigureMarker
+0000fd90  size=
+0000fd97 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_7X7_1000_ANDROID
+0000fdcd *** Check failure stack trace: ***
+0000fdf1 s->waitp != nullptr || s->suppress_fatal_errors
+0000fe21 Unlock 
+0000fe29 waitp->thread->waitp == nullptr
+0000fe49 sum >= a
+0000fe52 libc++
+0000fe59 ios_base::clear
+0000fe6d June
+0000fe72 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+0000febc FDE has zero length
+0000fed0 XrEyeCalibration_stopCalibration
+0000fef1 XrFaceTracking_getFaceState
+0000ff0d XrSceneMeshing_setEnabled
+0000ff27 XrTrackable_configureQrCode
+0000ff43 xrGetFineTrackingEyesInfoANDROID
+0000ff64 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
+0000ff89 XR_ENVIRONMENT_DEPTH_NOT_AVAILABLE_META
+0000ffb1 XR_COLOCATION_DISCOVERY_ALREADY_DISCOVERING_META
+0000ffe2 XR_ERROR_KEYLESS_AUTH_NOT_SETUP_ANDROIDX1
+0001000c xrEnumerateReferenceSpaces
+00010027 third_party/absl/log/flags.cc
+00010048 vr/unity/google_xr/sdk/openxr_android/xreyecalibration_provider.cc
+0001008b xrGetFaceCalibrationStateANDROID
+000100ac XrInstanceManager
+000100be xrGetSubmeshDataANDROID(snapshot_, newSubmeshData.size(), newSubmeshData.data())
+0001010f SetTracking
+0001011b XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_4X4_1000_ANDROID
+00010151 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_5X5_250_ANDROID
+00010186  (stacktrace:
+00010195 unexpected empty wake list
+000101b0 Check (v & (kMuWriter | kMuReader)) != (kMuWriter | kMuReader) failed: %s: Mutex corrupt: both reader and writer lock held: %p
+00010231 f->header.magic == Magic(kMagicAllocated, &f->header)
+0001026b terminate_handler unexpectedly returned
+00010293 catching a class without an object?
+000102b7 truncated uleb128 expression
+000102d4 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0001031d vr/unity/google_xr/sdk/openxr_android/c_api/xrblendmode_api.cc
+0001035c UnityPluginLoad
+0001036c XR_SESSION_LOSS_PENDING
+00010384 XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
+000103a9 XR_ERROR_INDEX_OUT_OF_RANGE
+000103c5 XR_ERROR_LOCALIZATION_MAP_CANNOT_EXPORT_CLOUD_MAP_ML
+000103fa XR_ERROR_SPATIAL_ANCHORS_SPACE_NOT_LOCATABLE_ML
+0001042a XR_ERROR_SPACE_NETWORK_TIMEOUT_FB
+0001044c length_error was thrown in -fno-exceptions mode with message "%s"
+0001048e GOOGLE_LOGTOSTDERR
+000104a1 vr/unity/google_xr/sdk/openxr_android/xrbodytracking_provider.cc
+000104e2 xrInitiateAutomaticIpdCalibrationANDROIDSYS
+0001050e xrSetPassthroughLayerMeshANDROID(layer, &mesh)
+0001053d thread should hold at least a read lock on Mutex %p %s
+00010574 s->waitp == nullptr || s->waitp == waitp || s->suppress_fatal_errors
+000105b9 third_party/absl/base/internal/low_level_alloc.cc
+000105eb nothing in arena to free
+00010604 prev < next
+00010614 __cxa_guard_release
+00010628 exynos9810
+00010633 unsupported arm64 register
+0001064e unsupported restore location for register
+00010678 getTableEntrySize
+0001068a XrBodyTracking_setTrackingEnabled
+000106ac : joint_count was null.
+000106c4 XrEyeCalibration_startCalibration
+000106e6 XrEyeTracking_getFinePoses
+00010701 vr/unity/google_xr/sdk/openxr_android/c_api/xrinstance_manager_api.cc
+00010747 vr/unity/google_xr/sdk/openxr_android/c_api/xrmeshprovidermanager.cc
+0001078c vr/unity/google_xr/sdk/openxr_android/c_api/xrscenemeshing_api.cc
+000107ce Invalid scene mesh id.
+000107e5 XrTrackable_getQrCodeProperties
+00010805 : buffer was null.
+00010818 XR_ERROR_NAME_INVALID
+0001082e XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
+0001085d XR_ERROR_LOCALIZATION_MAP_INCOMPATIBLE_ML
+00010887 XR_ERROR_ANCHOR_ID_NOT_FOUND_ANDROID
+000108ac automatic=
+000108b7 xrDestroySpace
+000108c6 StopCalibration
+000108d6 UpdateRenderOrigin
+000108e9 xrCreatePassthroughLayerANDROID(session_, &create_info, out_layer)
+0001092c xrCreateSceneMeshSnapshotANDROID
+0001094d xrDestroySceneMeshSnapshotANDROID
+0001096f   Guid=
+00010977 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_5X5_1000_ANDROID
+000109ad XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_6X6_50_ANDROID
+000109e1 third_party/tcmalloc/malloc_hook.cc
+00010a05 std::bad_alloc
+00010a14 truncated sleb128 expression
+00010a31 DW_OP_piece not implemented
+00010a57 vr/unity/google_xr/sdk/openxr_android/c_api/xreyecalibration_api.cc
+00010a9b XrEyeCalibration_setEnabled
+00010ab7 XrInstanceManager_unregisterFeature
+00010adb XR_ERROR_RUNTIME_UNAVAILABLE
+00010af8 XR_ERROR_CONTROLLER_MODEL_KEY_INVALID_MSFT
+00010b23 XR_ERROR_SPATIAL_ANCHORS_OUT_OF_MAP_BOUNDS_ML
+00010b51 XR_ERROR_SPACE_NETWORK_REQUEST_FAILED_FB
+00010b7e xrDestroyBodyTrackerANDROID
+00010b9a CreateEyeTracker
+00010bab vr/unity/google_xr/sdk/openxr_android/xrscenemeshing_feature.cc
+00010beb xrGetSystemProperties(instance_, system_, &system_properties)
+00010c29 Guid=
+00010c2f %s@ %*p  %s
+00010c3c terminating.
+00010c4a third_party/absl/log/globals.cc
+00010c6a third_party/absl/synchronization/mutex.cc
+00010c94 waitp == nullptr || waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+00010cf0 SignalAll on 
+00010d03 evaluateExpression
+00010d19 XR_ERROR_SESSION_LOST
+00010d2f XR_ERROR_SCENE_MESH_BUFFER_ID_INVALID_MSFT
+00010d5a XR_ERROR_FEATURE_ALREADY_CREATED_PASSTHROUGH_FB
+00010d8a XR_SCENE_MARKER_DATA_NOT_STRING_MSFT
+00010daf ): string form of default value '
+00010dd1 warning
+00010dd9 Confidence region count must be .
+00010dfb xrGetTrackableQrCodeANDROID
+00010e17 SetQrCodeGuid
+00010e25 XR_TRACKABLE_TYPE_DEPTH_ANDROID
+00010e45 detected illegal recursion into Mutex code
+00010e70 UnlockSlow is confused
+00010e87 enqueue_after->skip == nullptr || MuEquivalentWaiter(enqueue_after, s)
+00010ed2 pthread_sigmask failed: %d
+00010ef1 unwind_phase2
+00010eff malformed uleb128 expression
+00010f1c unsupported restore location for float register
+00010f53 vr/unity/google_xr/sdk/openxr_android/c_api/passthrough_camera_state_api.cc
+00010f9f XrBodyTracking_getSkeleton
+00010fba : out_states was null.
+00010fd1 XrTrackable_getTrackableType
+00010fee XR_SPACE_BOUNDS_UNAVAILABLE
+0001100a XR_ERROR_PATH_INVALID
+00011020 XR_ERROR_LOCALIZED_NAME_DUPLICATED
+00011043 XR_GOOGLE_CLOUD_UNREACHABLE_ANDROIDX1
+00011069 XR_ERROR_SPATIAL_CAPABILITY_UNSUPPORTED_EXT
+00011095 XR_ERROR_SPATIAL_COMPONENT_NOT_ENABLED_EXT
+000110c0 xrStopEyeTrackerCalibrationANDROIDSYS
+000110e6 xrCreateHandMeshTrackerANDROID
+00011105 xrDestroySceneMeshingTrackerANDROID
+00011129 No snapshot available.
+00011140 XR_TRACKABLE_TYPE_OBJECT_ANDROID
+00011161 e == found
+0001116c reinterpret_cast<char *>(prev) + prev->header.size < reinterpret_cast<char *>(next)
+000111c0 malformed freelist
+000111d8 Sunday
+000111e3 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+00011224 DW_EH_PE_aligned pointer encoding not supported
+00011254 getSavedRegister
+00011269 OpenXRAndroid_getPassthroughCameraState
+00011291 OpenXRAndroid_setBlendMode
+000112ac xrCreateEyeTrackerANDROID
+000112c6 XR_ERROR_VALIDATION_FAILURE
+000112e2 XR_ERROR_LAYER_INVALID
+000112f9 XR_ERROR_SECONDARY_VIEW_CONFIGURATION_TYPE_NOT_ENABLED_MSFT
+00011335 XR_ERROR_SCENE_COMPUTE_CONSISTENCY_MISMATCH_MSFT
+00011366 XR_ERROR_DISPLAY_REFRESH_RATE_UNSUPPORTED_FB
+00011393 XR_ERROR_NOT_AN_ANCHOR_HTC
+000113ae XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
+000113dd XR_ERROR_MISMATCHING_TRACKABLE_TYPE_ANDROID
+00011409 XR_ERROR_SPATIAL_BUFFER_ID_INVALID_EXT
+00011430 vr/unity/google_xr/sdk/openxr_android/interception.cc
+00011466 Attempt to set flag '
+0001147c  (from 
+00011484 true
+00011489 xrGetExpressionParametersANDROID
+000114aa vr/unity/google_xr/sdk/openxr_android/xrpassthrough_provider.cc
+000114ea Submesh index out of range.
+00011506 XR_TRACKABLE_MARKER_DICTIONARY_APRILTAG_25H9_ANDROID
+0001153b ERROR
+00011541 condition untrue on return from LockSlow
+0001156a wake_list != kPerThreadSynchNull
+0001158e block not big enough for even one level
+000115b6 next->header.magic == Magic(kMagicUnallocated, &next->header)
+000115f4 #trans=
+00011600 January
+00011608 November
+00011611 getRegister
+00011625 FDE is really a CIE
+00011639 : out_joints was null.
+00011650 XrFaceTracking_isFaceCalibrated
+00011670 AndroidXRMeshProvider
+00011686 CopySceneSubmeshData
+0001169b xrCreateEyeTrackerANDROID(session_, &createInfo, &eye_tracker_)
+000116db :: failed with status 
+000116f6 OnSessionDestroy
+00011707 XR_SESSION_NOT_FOCUSED
+0001171e XR_ERROR_SIZE_INSUFFICIENT
+00011739 XR_ERROR_FORM_FACTOR_UNAVAILABLE
+0001175a XR_ERROR_UNKNOWN_PASSTHROUGH_FB
+0001177a XR_ERROR_SPACE_LOCALIZATION_FAILED_FB
+000117a0 xrWaitFrame
+000117af xrEnumerateEnvironmentBlendModes( xr_instance_, system_id, view_configuration_type, capacity, count_output, blend_modes)
+00011828 xrGetEyeTrackerCalibrationStateANDROIDSYS
+00011852 OnSessionStateChange
+00011867 xrDestroySceneMeshingTrackerANDROID(tracker_)
+00011895   id=
+0001189b XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_4X4_50_ANDROID
+000118cf arena != nullptr
+000118e0 %.*s
+000118e5 XrInstanceManager_onSessionCreate
+00011907 XrInstanceManager_onSessionStateChange
+0001192e XrSceneMeshing_getSceneMeshTrackingState
+00011957 XR_ERROR_EXTENSION_NOT_PRESENT
+00011976 XR_ERROR_PERMISSION_INSUFFICIENT
+00011997 Invalid GOOGLE_STDERRTHRESHOLD value: 
+000119be Restore saved value of 
+000119d6 GetHandMeshes
+000119e4 InitiateAutomaticIpdCalibration
+00011a04 xrUpdateRenderOriginANDROIDSYS( tracker_, render_origin.has_value() ? &origin : nullptr)
+00011a5d , edge=
+00011a65 (unknown)
+00011a6f waiters disappeared during Enqueue()!
+00011a95 old_h == nullptr || h->maybe_unlocking
+00011abc Mutex queue changed beneath us
+00011adb Lock returning 
+00011aeb Mutex Enqueue failure
+00011b05 s->header.arena == arena
+00011b1e %.0Lf
+00011b24 terminate_handler unexpectedly threw an exception
+00011b56 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+00011b9c vr/unity/google_xr/sdk/openxr_android/c_api/xrfacetracking_api.cc
+00011bde register feature before instance creation!
+00011c09 Initialize
+00011c14 XrTrackable_getMarkerProperties
+00011c34 : entries was null.
+00011c48 XR_ERROR_RENDER_MODEL_KEY_INVALID_FB
+00011c6d XR_ERROR_MARKER_ID_INVALID_VARJO
+00011c8e XR_ERROR_SPACE_GROUP_NOT_FOUND_META
+00011cb2 Hooked OpenXR function 
+00011cca GetPassthroughCameraState
+00011ce6 vr/unity/google_xr/sdk/openxr_android/xrinstance_manager.cc
+00011d22 vr/unity/google_xr/sdk/openxr_android/xrtrackable_provider.cc
+00011d60 xrGetTrackablePlaneANDROID
+00011d7b TryLoadMarkerTrackingEntrypoints
+00011d9c ConfigureQrCode
+00011dac XR_TRACKABLE_TYPE_SHOEBOX_ANDROIDSYS
+00011dd1 WARNING
+00011dd9 July
+00011dde libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+00011e2f : left was null.
+00011e40 XrFaceTracking_activateCalibrationMode
+00011e67 XrPassthrough_createLayer
+00011e81 SetEnabled
+00011e8c XR_ERROR_NAME_DUPLICATED
+00011ea5 XR_ERROR_ANDROID_THREAD_SETTINGS_ID_INVALID_KHR
+00011ed5 XR_ERROR_FEATURE_REQUIRED_PASSTHROUGH_FB
+00011efe XR_ERROR_INSUFFICIENT_RESOURCES_PASSTHROUGH_FB
+00011f2d XR_ERROR_LOCALIZATION_MAP_IMPORT_EXPORT_PERMISSION_DENIED_ML
+00011f6a InterceptionGetInstanceProcAddr
+00011f8a out_of_range was thrown in -fno-exceptions mode with message "%s"
+00011fcf xrCreateBodyTrackerANDROIDX
+00011feb  -> 
+00011ff0 xrGetSystemStateANDROIDX(xr_instance_, xr_system_id_, &system_state)
+00012035 edge=
+0001203b XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_7X7_250_ANDROID
+00012070 ReaderLock blocking 
+00012085 unordered freelist
+00012098 MallocHook::RemoveNewHook(&InitialNewHook)
+000120c3 out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+000120f6 unknown pointer encoding
+0001210f getSLEB128
+0001211a DW_OP_deref_size with bad size
+00012140 vr/unity/google_xr/sdk/openxr_android/c_api/xrbodytracking_api.cc
+00012182 XrFaceTracking_enableCalibration
+000121a3 XR_EVENT_UNAVAILABLE
+000121b8 XR_ERROR_HANDLE_INVALID
+000121d0 XR_ERROR_CALL_ORDER_INVALID
+000121ec XR_ERROR_SCENE_COMPONENT_ID_INVALID_MSFT
+00012215 XR_ERROR_SCENE_COMPONENT_TYPE_MISMATCH_MSFT
+00012241 XR_ERROR_PASSTHROUGH_COLOR_LUT_BUFFER_SIZE_MISMATCH_META
+0001227a XR_ERROR_FUTURE_INVALID_EXT
+00012296 XR_ERROR_SYSTEM_NOTIFICATION_INCOMPATIBLE_SKU_ML
+000122c7  to 
+000122ce error
+000122d4 xrGetBodyTrackerSkeletonANDROIDX
+000122f5 SetCalibration
+00012304 vr/unity/google_xr/sdk/openxr_android/xrhandmesh_feature.cc
+00012340 vr/unity/google_xr/sdk/openxr_android/xripdcalibration_provider.cc
+00012383 xrDestroyPassthroughLayerANDROID(layer)
+000123ab xrGetSubmeshDataANDROID
+000123c3 databases size=
+000123d3 %08X-%08X-%08X-%08X
+000123e7 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_6X6_100_ANDROID
+0001241e third_party/absl/log/internal/log_sink_set.cc
+0001244c Wait on 
+00012455 Check (v & (kMuWait | kMuWrWait)) != kMuWrWait failed: %s: Mutex corrupt: waiting writer with no waiters: %p
+000124c2 thread should hold the lock on SpinLock
+000124f2 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00012555 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+000125bd vr/unity/google_xr/sdk/openxr_android/c_api/xreyetracking_api.cc
+000125fe XrInstanceManager_onSessionEnd
+0001261d XrTrackable_getObjectLabel
+00012638 XR_ERROR_SWAPCHAIN_FORMAT_UNSUPPORTED
+0001265e XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED
+00012688 XR_ERROR_MESH_DATA_LIMIT_EXCEEDED_ANDROID
+000126b2 XR_ERROR_FACIAL_EXPRESSION_PERMISSION_DENIED_ML
+000126e2 Passthrough camera state change from 
+00012708 Flag 
+00012710 xrSetBodyTrackerCalibrationANDROIDX
+00012734 xrStopEyeTrackerCalibrationANDROIDSYS(eye_tracker_)
+00012768 xrDestroyHandMeshTrackerANDROID
+00012788 GetSubmeshData
+00012799 Reset marker configuration.
+000127b5 %d-%d
+000127bb INFO
+000127c0 tag must be non-null.
+000127d6 Check android_log_tag.exchange(tag_str->c_str(), std::memory_order_acq_rel) == kDefaultAndroidTag failed: 
+00012841 old_h->skip == nullptr
+00012858 must pass a valid arena
+00012870 unsupported locale for standard input
+00012896 __cxa_guard_abort
+000128a8 setRegister
+000128b8 OpenXRAndroid_enumerateEnvironmentBlendModes
+000128e5 OpenXRAndroid::
+000128f5 XrInstanceManager_registerFeature
+00012917 XrInstanceManager_onSessionDestroy
+0001293a XrPassthrough_destroyLayer
+00012955 getSceneMeshCount
+00012967 xrDestroyEyeTrackerANDROID
+00012982 XR_TIMEOUT_EXPIRED
+00012995 XR_ERROR_FUNCTION_UNSUPPORTED
+000129b3 XR_ERROR_ACTION_TYPE_MISMATCH
+000129d1 XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
+000129fb XR_ERROR_COLOCATION_DISCOVERY_NO_DISCOVERY_METHOD_META
+00012a32 Illegal value '
+00012a42 only integers, absl::LogSeverity enumerators, and DFATAL are accepted
+00012a88 xrStartEyeTrackerCalibrationANDROIDSYS
+00012aaf xrCreateFaceTrackerANDROID(session_, &createInfo, &face_tracker_)
+00012af1 xrCreatePassthroughLayerANDROID
+00012b11 xrCreateSceneMeshSnapshotANDROID(tracker_, &createInfo, &result)
+00012b52 xrGetTrackableObjectANDROID
+00012b6e GetMarkerProperties
+00012b88 FATAL
+00012b8e Enqueue to empty list failed
+00012bab pthread_getschedparam failed: %d
+00012bce libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+00012c16 DW_EH_PE_textrel pointer encoding not supported
+00012c46 DWARF opcode not implemented
+00012c6e XrIpdCalibration_updateRenderOrigin
+00012c92 vr/unity/google_xr/sdk/openxr_android/c_api/xrpassthrough_api.cc
+00012cd3 XR_ERROR_RUNTIME_FAILURE
+00012cec XR_ERROR_PATH_COUNT_EXCEEDED
+00012d09 XR_ERROR_CREATE_SPATIAL_ANCHOR_FAILED_MSFT
+00012d34 XR_ERROR_SCENE_COMPUTE_FEATURE_INCOMPATIBLE_MSFT
+00012d65 XR_ERROR_FUTURE_PENDING_EXT
+00012d81 XR_ERROR_SPATIAL_CAPABILITY_CONFIGURATION_INVALID_EXT
+00012db7 GOOGLE_ALSOLOGTOSTDERR
+00012dd1 EnableCalibration
+00012de3 xrSetPassthroughLayerMeshANDROID
+00012e04 Unexpected tracking state: 
+00012e20 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_6X6_1000_ANDROID
+00012e56 Unknown error %d
+00012e67 TryLock succeeded 
+00012e7a ReaderTryLock failed 
+00012e90 f->header.arena == arena
+00012ea9  spec='
+00012eb1 Saturday
+00012eba __cxa_guard_acquire
+00012ece libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+00012f2d GetHandMeshInfos
+00012f3e Enabled hand mesh.
+00012f51 XrHandMesh_disableHandMesh
+00012f6c Disabled hand mesh.
+00012f80 XrInstanceManager_destroy
+00012f9a XrTrackable_getObjectExtents
+00012fb7 GetFinePoses
+00012fc4 xrGetFineTrackingEyesInfoANDROID(eye_tracker_, &get_info, &eyes)
+00013005 XR_ERROR_ANDROID_THREAD_SETTINGS_FAILURE_KHR
+00013032 XR_ERROR_SPATIAL_PERSISTENCE_STORE_INCOMPATIBLE_EXT
+00013066 xrGetPassthroughCameraStateANDROID
+00013089 absl::string_view::substr
+000130a3 ' is defined as one type and declared as another
+000130d4 vector
+000130dd no value provided
+000130ef IsFaceCalibrated
+00013100 xrGetSystemProperties
+00013116 XR_TRACKABLE_TYPE_MARKER_ANDROID
+00013137 TryLock failed 
+00013147 bad magic number in AddToFreelist()
+0001316b too few levels in Next()
+00013184 Wednesday
+000131a0 unknown register
+000131b1 XrBodyTracking_acquireChanges
+000131cf XrFaceTracking_setTrackingEnabled
+000131f1 vr/unity/google_xr/sdk/openxr_android/c_api/xrhandmesh_api.cc
+0001322f XrInstanceManager_onAppSpaceChange
+00013252 Mesh 
+00013258  has not been generated yet.
+00013275 XR_ERROR_POSE_INVALID
+0001328b XR_ERROR_COLOR_SPACE_UNSUPPORTED_FB
+000132af XR_ERROR_SPATIAL_ANCHOR_NAME_NOT_FOUND_MSFT
+000132db XR_COLOCATION_DISCOVERY_ALREADY_ADVERTISING_META
+0001330c XR_ERROR_GEOSPATIAL_COORDINATES_INVALID_ANDROIDX1
+0001333e InterceptedWaitFrame
+00013353 ' specified for flag '
+0001336a ' could not be parsed; error=
+00013388 vr/unity/google_xr/sdk/openxr_android/xrblendmode_feature.cc
+000133c5 SetTrackingEnabled
+000133d8 vr/unity/google_xr/sdk/openxr_android/xrfacetracking_provider.cc
+00013419 Blendshape parameter count must be .
+0001343e Hand Mesh is already enabled. Trying to enable Hand Mesh more than once.
+00013487 xrCreateIpdCalibrationTrackerANDROIDSYS
+000134af xrCreateSceneMeshingTrackerANDROID
+000134d2 GetSubmeshStates
+000134e3 GetQrCodeProperties
+000134f7 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_5X5_50_ANDROID
+0001352b UNKNOWN
+00013533 Duplicate log sinks are not supported
+0001355f third_party/absl/base/internal/throw_delegate.cc
+00013590 iostream
+00013599 Tuesday
+000135a5 DW_EH_PE_datarel is invalid with a datarelBase of 0
+000135d9 Unknown DWARF encoding for search table.
+00013606 Initialized and registered mesh provider.
+00013630 Failed to update scene mesh.
+0001364d OnSessionCreate
+0001365d XR_ERROR_SPATIAL_ANCHORS_NOT_LOCALIZED_ML
+00013687 XR_GOOGLE_CLOUD_QUOTA_EXCEEDED_ANDROIDX1
+000136b0 xrCreateReferenceSpace
+000136c7 HookFunction
+000136d4 basic_string
+000136e1 Hand Mesh is already disabled. Trying to disable hand mesh more than once.
+0001372c ~XrInstanceManager
+0001373f xrDestroyPassthroughLayerANDROID
+00013760 XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_4X4_100_ANDROID
+00013795     
+0001379a Lock
+0001379f Futex operation failed with error %d
+000137c5 mmap error: %d
+000137d4 April
+000137da October
+000137ea libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+0001383e : out_state was null.
+00013854 : out_parameters was null.
+0001386f Registered AndroidXRMeshProvider.
+00013891 XrTrackable_resetObjectGuids
+000138ae XR_ERROR_OUT_OF_MEMORY
+000138c5 XR_ERROR_ENVIRONMENT_BLEND_MODE_UNSUPPORTED
+000138f1 XR_ERROR_SPATIAL_ANCHORS_PERMISSION_DENIED_ML
+0001391f XR_ERROR_SPACE_NOT_LOCATABLE_EXT
+00013940 XR_KEYLESS_AUTH_FAILED_ANDROIDX1
+00013961 Flag '
+0001396a Disable
+00013972 xrDestroyIpdCalibrationTrackerANDROIDSYS
+0001399b xrGetAllSubmeshStatesANDROID
+000139b8 TryLoadQrCodeTrackingEntrypoints
+000139d9 RAW: 
+000139df Check %s failed: %s
+000139f3 illegal skip from head
+00013a0a Signal on 
+00013a19  #types=
+00013a22 December
+00013a2b libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+00013a6b libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00013ab7 AcquireHandMesh
+00013ac7 invalid out_manager
+00013adb unsupported feature 
+00013af0 XrIpdCalibration_setEnabled
+00013b0c XrIpdCalibration_initiateAutomaticIpdCalibration
+00013b3d OpenXRAndroid_getSystemState
+00013b5a XR_ERROR_LIMIT_REACHED
+00013b71 XR_ERROR_LOCALIZED_NAME_INVALID
+00013b91 XR_ERROR_MARKER_DETECTOR_LOCATE_FAILED_ML
+00013bbb XR_ERROR_MARKER_DETECTOR_INVALID_DATA_QUERY_ML
+00013bea XR_ERROR_SPATIAL_ANCHORS_ANCHOR_NOT_FOUND_ML
+00013c17 XR_ERROR_WORLD_MESH_DETECTOR_PERMISSION_DENIED_ML
+00013c49 xrCreateBodyTrackerANDROIDX(session_, &createInfo, &body_tracker_)
+00013c8c xrActivateFaceCalibrationModeANDROIDSYS
+00013cb4 xrCreateSceneMeshingTrackerANDROID(session_, &createInfo, &tracker_)
+00013cf9 xrDestroyTrackableTrackerANDROID
+00013d1a XR_TRACKABLE_TYPE_MAX_ENUM_ANDROID
+00013d3d XR_TRACKABLE_MARKER_DICTIONARY_ARUCO_4X4_250_ANDROID
+00013d72 Lock blocking 
+00013d85 [%s : %d] RAW: 
+00013d95 system
+00013d9c __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+00013e2f _Unwind_Resume
+00013e3e libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+00013e82 CIE ID is not zero
+00013e98 XrBodyTracking_setCalibration
+00013eb6 : proportions was null.
+00013ece XR_ERROR_SESSION_RUNNING
+00013ee7 XR_RENDER_MODEL_UNAVAILABLE_FB
+00013f06 XR_ERROR_SPATIAL_ANCHOR_NAME_INVALID_MSFT
+00013f30 XR_SURFACE_ANCHOR_LOCATION_UNSUPPORTED_ANDROIDX1
+00013f61 bad_function_call was thrown in -fno-exceptions mode
+00013f96 xrEnumerateEnvironmentBlendModes
+00013fb7 xrGetFaceStateANDROID
+00013fcd TryLoadCalibrationEntrypoints
+00013feb xrUpdateRenderOriginANDROIDSYS
+0001400a xrGetAllSubmeshStatesANDROID(snapshot_, newSubmeshStates.size(), &submeshCount, newSubmeshStates.data())
+00014073 XR_TRACKABLE_TYPE_PLANE_ANDROID
+00014093 XR_TRACKABLE_MARKER_DICTIONARY_APRILTAG_16H5_ANDROID
+000140c8 bad skip in DequeueAllWakeable
+000140ea arena->allocation_count > 0
+00014106 Failed to read real-time clock.
+00014126 unspecified iostream_category error
+00014152 %s failed to broadcast
+00014169 CIE start does not match
+00014182 XrEyeTracking_setEnabled
+0001419b Failed to get submesh states.
+000141b9 XR_FRAME_DISCARDED
+000141cc XR_ERROR_SYSTEM_INVALID
+000141e4 XR_ERROR_SESSION_NOT_STOPPING
+00014202 XR_ERROR_SPACE_MAPPING_INSUFFICIENT_FB
+00014229 XR_ERROR_ANCHOR_NOT_TRACKING_ANDROID
+0001424e XR_ERROR_WORLD_MESH_DETECTOR_SPACE_NOT_LOCATABLE_ML
+00014282 XR_ERROR_DEPTH_NOT_AVAILABLE_ANDROID
+000142a7 XR_ERROR_GOOGLE_CLOUD_AUTH_ERROR_ANDROIDX1
+000142d2 StartCalibration
+000142e3 UpdateSceneMesh
+000142f3 vr/unity/google_xr/sdk/openxr_android/xrsystemstate_feature.cc
+00014332 this->LockSlowWithDeadline(how, cond, KernelTimeout::Never(), flags)
+00014377 waitp->thread->waitp == nullptr || waitp->thread->suppress_fatal_errors
+000143bf new_h != nullptr
+000143d0 pw->next == w
+000143de ReaderUnlock 
+000143ec Monday
+000143f7 libc++abi
+0001440e : right was null.
+00014420 XrTrackable_setTracking
+00014438 XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
+00014466 XR_RESULT_MAX_ENUM
+00014479 Unknown
+00014481 xrGetPassthroughCameraStateANDROID(session_, &get_info, &out_state)
+000144c7 xrGetBodyTrackerCalibrationANDROIDX
+000144eb Calibration not supported yet.
+0001450a xrDestroyFaceTrackerANDROID
+00014526 ActivateFaceTrackingCalibrationMode
+0001454a xrActivateFaceCalibrationModeANDROIDSYS(face_tracker_)
+00014581 AcquireTrackableChanges
+00014599 xrGetTrackableMarkerANDROID
+000145b5 XR_TRACKABLE_TYPE_NOT_VALID_ANDROID
+000145d9 XR_TRACKABLE_MARKER_DICTIONARY_APRILTAG_36H11_ANDROID
+0001460f pw not w's predecessor
+00014626 ReaderTryLock succeeded 
+0001463f left_
+00014645 Friday
+0001464c libc++abi: 
+00014658 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+0001469d getEncodedP
+000146a9 DW_OP_fbreg not implemented
+000146d1 XR_ERROR_INSTANCE_LOST
+000146e8 XR_ERROR_REPROJECTION_MODE_UNSUPPORTED_MSFT
+00014714 XR_ERROR_SPACE_COMPONENT_NOT_ENABLED_FB
+0001473c XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
+00014767 XR_ERROR_MARKER_INVALID_ML
+00014782 XR_ERROR_SERVICE_NOT_READY_ANDROID
+000147a5 XR_ERROR_COLOCATION_DISCOVERY_NETWORK_FAILED_META
+000147d7 frameEndInfo is null
+000147ec Check absl::ParseFlag(val, &dflt, &err) failed: 
+0001481d bad_array_new_length was thrown in -fno-exceptions mode
+00014855 xrDestroySceneMeshSnapshotANDROID(snapshot_)
+00014885 pw->skip == nullptr
+00014899 generic
+000148a1 money_get error
+000148b8 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+00014902 called before registered feature.
+00014924 called before initialized.
+0001493f invalid parameter.
+00014b91 5(cI
+00014bcc openxr_android_unity
+00014be1 N6openxr5unity18XrFeatureInterfaceE
+00014c05 N6openxr5unity26XrUnboundedRefSpaceFeatureE
+00014cac N6openxr5unity19EyeTrackingProviderE
+00014cd1 N6openxr5unity29PassthroughCameraStateFeatureE
+00014d03 NSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00014d49  (unknown) 
+00014d59 N4absl14flags_internal8FlagImplE
+00014da8 N4absl14flags_internal9FlagStateE
+00014dca NSt6__ndk110__function6__funcIPFbN4absl11string_viewEENS_9allocatorIS5_EES4_EE
+00014e19 NSt6__ndk110__function6__baseIFbN4absl11string_viewEEEE
+00014e51 PFbN4absl11string_viewEE
+00014e6a FbN4absl11string_viewEE
+00014e82 NSt6__ndk110__function6__funcIPFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvENS5_IS9_EES8_EE
+00014eee NSt6__ndk110__function6__baseIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvEEE
+00014f4c PFNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvE
+00014f92 FNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvE
+00014fd7 NSt6__ndk110__function6__funcIPFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEENS5_ISB_EESA_EE
+00015056 NSt6__ndk110__function6__baseIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEEEE
+000150c7 PFNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEE
+00015120 FNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4absl11string_viewEE
+00015178 N4absl15CommandLineFlagE
+00015191 N4absl14flags_internal18FlagStateInterfaceE
+000151bd N6openxr5unity18XrBlendModeFeatureE
+00015203 ?N6openxr5unity22XrBodyTrackingProviderE
+00015248 N6openxr5unity24XrEyeCalibrationProviderE
+00015298 N6openxr5unity22XrFaceTrackingProviderE
+000152c0 N6openxr5unity15HandMeshFeatureE
+00015300 N6openxr5unity24XrIpdCalibrationProviderE
+0001532a N6openxr5unity21XrPassthroughProviderE
+00015438 N6openxr5unity21XrSceneMeshingFeatureE
+00015478 N6openxr5unity20XrSystemStateFeatureE
+000154a3 *3$<
+000154ae 	'6?display is not ready.
+000154cf ;N6openxr5unity19XrTrackableProviderE
+00015506 N4absl12log_internal10LogMessage11OstreamViewE
+00015535 (null)
+0001553c N4absl12log_internal12_GLOBAL__N_113StderrLogSinkE
+0001556f N4absl12log_internal12_GLOBAL__N_114AndroidLogSinkE
+000155a3 native
+000155aa N4absl7LogSinkE
+00015734 csdiouxXfFeEgGaAnpv
+000157a0 @@@@@@@@@hHHHH@@@@@@@@@@@@@@@@@@(
+000158a0 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
+00015aa1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+00015ada 	$$$$$$$
+00015af8  !"#$$$$$$
+00015b18  !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+00015ccc Fixed/UTC
+00015cd6 0123456789
+00015ce1 N4absl13time_internal4cctz10TimeZoneIfE
+00015d70 N4absl13time_internal4cctz12TimeZoneInfoE
+00015e08  ... (message truncated)
+00015e27 NSt6__ndk112__do_messageE
+00015e41 NSt6__ndk112system_errorE
+00015e5b NSt6__ndk124__generic_error_categoryE
+00015e81 NSt6__ndk123__system_error_categoryE
+00015ea7 NSt6__ndk114error_categoryE
+00015ecc NSt6__ndk114__shared_countE
+00015ee9 NSt6__ndk18ios_baseE
+00015efe NSt6__ndk18ios_base7failureE
+00015f1b NSt6__ndk119__iostream_categoryE
+00015f3d NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+00015f6f NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+00015f9c NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+00015fce NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00016013 NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+00016047 NSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00016090 NSt6__ndk19basic_iosIwNS_11char_traitsIwEEEE
+000160bd NSt6__ndk115basic_streambufIwNS_11char_traitsIwEEEE
+000160f1 NSt6__ndk113basic_istreamIwNS_11char_traitsIwEEEE
+00016123 NSt6__ndk113basic_ostreamIwNS_11char_traitsIwEEEE
+00016156 NSt6__ndk110__stdinbufIcEE
+00016171 NSt6__ndk111__stdoutbufIcEE
+0001618d NSt6__ndk110__stdinbufIwEE
+000161a8 NSt6__ndk111__stdoutbufIwEE
+0001624b 0123456789abcdefABCDEFxX+-pPiInN
+0001626c %I:%M:%S %p
+00016f24 NSt6__ndk16locale5facetE
+00016f3d NSt6__ndk15ctypeIwEE
+00016f52 NSt6__ndk110ctype_baseE
+00016f6a NSt6__ndk17codecvtIcc9mbstate_tEE
+00016f8c NSt6__ndk112codecvt_baseE
+00016fa6 NSt6__ndk17codecvtIDsc9mbstate_tEE
+00016fc9 NSt6__ndk17codecvtIDsDu9mbstate_tEE
+00016fed NSt6__ndk17codecvtIDic9mbstate_tEE
+00017010 NSt6__ndk17codecvtIDiDu9mbstate_tEE
+00017034 NSt6__ndk17codecvtIwc9mbstate_tEE
+00017056 NSt6__ndk16locale5__impE
+0001706f NSt6__ndk17collateIcEE
+00017086 NSt6__ndk17collateIwEE
+0001709d NSt6__ndk15ctypeIcEE
+000170b2 NSt6__ndk18numpunctIcEE
+000170ca NSt6__ndk18numpunctIwEE
+000170e2 NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00017129 NSt6__ndk19__num_getIcEE
+00017142 NSt6__ndk114__num_get_baseE
+0001715e NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+000171a5 NSt6__ndk19__num_getIwEE
+000171be NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00017205 NSt6__ndk19__num_putIcEE
+0001721e NSt6__ndk114__num_put_baseE
+0001723a NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00017281 NSt6__ndk19__num_putIwEE
+0001729a NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+000172e2 NSt6__ndk19time_baseE
+000172f8 NSt6__ndk120__time_get_c_storageIcEE
+0001731d NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00017365 NSt6__ndk120__time_get_c_storageIwEE
+0001738a NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+000173d2 NSt6__ndk110__time_putE
+000173ea NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00017432 NSt6__ndk110moneypunctIcLb0EEE
+00017451 NSt6__ndk110money_baseE
+00017469 NSt6__ndk110moneypunctIcLb1EEE
+00017488 NSt6__ndk110moneypunctIwLb0EEE
+000174a7 NSt6__ndk110moneypunctIwLb1EEE
+000174c6 NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+0001750f NSt6__ndk111__money_getIcEE
+0001752b NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00017574 NSt6__ndk111__money_getIwEE
+00017590 NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+000175d9 NSt6__ndk111__money_putIcEE
+000175f5 NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+0001763e NSt6__ndk111__money_putIwEE
+0001765a NSt6__ndk18messagesIcEE
+00017672 NSt6__ndk113messages_baseE
+0001768d NSt6__ndk18messagesIwEE
+000176ab St9exception
+000176b8 St20bad_array_new_length
+000176d1 St9bad_alloc
+000176df St11logic_error
+000176ef St12length_error
+00017700 St13runtime_error
+00017713 St9type_info
+00017720 St8bad_cast
+0001772e N10__cxxabiv116__shim_type_infoE
+0001774f N10__cxxabiv117__class_type_infoE
+00017771 N10__cxxabiv117__pbase_type_infoE
+00017793 N10__cxxabiv119__pointer_type_infoE
+000177b7 N10__cxxabiv120__function_type_infoE
+000177dc N10__cxxabiv129__pointer_to_member_type_infoE
+0001780a N10__cxxabiv123__fundamental_type_infoE
+0001783b N10__cxxabiv120__si_class_type_infoE
+00017860 N10__cxxabiv121__vmi_class_type_infoE
+0001788f 66661
+000284d9 zPLR
+0002bcb8 +ih8J	
+0002cde9 @A9h
+0002ce98 	AA9
+0002d070 	AA9I
+0002e738 +yhxJ	
+0002f7c7 5h"@
+0002f7e7 5h"@
+0002fa54 h"A9
+0002feec ?k78
+0002fef9 #@9i
+00030881 #@9h
+0003097b 6(qJ9
+00031797 6hrJ9
+000319b7 7		@
+00031a23 TKii8)
+00031be7 7		@
+00031ff3 R	i 8h
+00032902 @9`B
+00032972 @9`B
+000329ff 5v&@
+00033129 		*h
+0003327d c@9h
+00033b2b 5u&@
+00033cf9 c@9h
+00033d55 cA9h
+00033df3 5w&@
+000341b9 #@9h
+00034269 il8l
+0003445d il8l
+0003449f T	hh8?
+00034604 ?i(8
+00034729 il8l
+00034b38 ?i78
+00035085 	@y),
+00036110 h"C9t
+0003628c h"C9
+00036538 	 C9
+00036674 	 C9
+000366e9 &C9)
+0003670f 6h&B
+00036f7b 4h6@
+00037b10 hbA9h
+00037c1f T(|~
+000386e7 Th"@
+000386f3 T`*@
+0003875b Th"@
+00038767 T`*@
+00039123 *J5B
+000393c3 *J5B
+000394bf *J5B
+0003988b T)	@
+00039898 Ak)8i
+00039927 RJ1B
+00039a17 *J1B
+0003a273 =)	@
+0003b5b5 @A9(	
+0003b86b T*)@
+0003b98d @A9h
+0003ba15 @A9h
+0003bb23 )	3@
+0003c1f3 *J5B
+0003c229 @Ay`
+0003c423 R!8B
+0003c5bb T(w@
+0003c5c7 T({@
+0003cd47 R!8B
+0003ce07 R9CB
+0003ce83 6<{h
+0003d4bf R9CB
+0003d503 R9CB
+0003d663 ThN@
+0003daef *J5B
+0003db25 @Ay`
+0003e2a5 #P)H
+0003e4ba @yxfA
+0003e65d c@9(
+0003ed3b Th>@
+0003ef0b Th>@
+0003f00f Thf@
+0003f04f Thv@
+0003f3f3 T	d@
+0003f3ff T	h@
+0003f4c7 T	t@
+0003f4d3 T	x@
+0003fb3c h*@)
+0003fb64 h*A)
+0003fe80 jBE9
+0003ffb9 #@9h
+00040b5d cA9h
+00040ce5 cA9h
+00040e67 6(	@
+00040eec +ih8J	
+000411c7 RJ1B
+000412b3 *J1B
+000413fe @y97B
+00041427 T(ht
+000414df Tk	@
+000414ed j*8Hxh
+00041667 RJ1B
+00041757 *J1B
+0004188e @y97B
+000418b7 T(ht
+00041981 j)8h
+000419c3 RJ1B
+00041ab3 *J1B
+00041bce @y97B
+00041bf7 T(ht
+00041cc1 j)8`
+00041d4a _8)A
+00041d50 *hk8)!
+000422ae @y97B
+000422db T(ht
+000423ad j)8h
+0004266e @y97B
+00042697 T(ht
+0004301d i)8)
+000430a9 i)8)
+0004310b Rhj48
+00043414 (<@96
+0004343e @yi>
+000434f1 j88h
+000435a4 	i#8
+000435bc 	i*8
+00043634 	i 8j
+000437f9 i 8i
+0004393b TI3@
+00043997 THk|8
+00043a47 T	i<8
+00043a64 Kkj8	i*8
+00043ab9 i<8i
+00043ae3 THkw8
+00043be4 	i 8
+00043ec8 (i=8
+00043ef3 TIk}
+000442dd i)8)
+000444f4 (i=8
+0004451f TIk}
+0004474c (i38
+00044777 THks
+00044a9b Rh*^
+00044bcb Rh*^
+00044e9b Rhjv
+00044ebb Rhjv
+00044ecb Rhjv
+00044f03 Rhjv
+00044fd3 4v^G)xfA
+000450fa _8?)
+0004510b Rjk(8
+0004511d k(8?
+000452c0 h"B9h
+000452c7 6`J@
+000452d7 6`>@
+0004538c 		B9
+000454ed @D9*
+00045771 @D9*
+00045a1f 8h'@
+00045a7b xh+@
+00045bbd #	)	
+00045bc7 *`'@
+00045cc3 TM8@
+00045d07 TI(@
+00045de7 Tk2@
+00045e2f Ti*@
+00045f1b TK0@
+00045f5f TI(@
+00045fcf TMil8
+0004601f T*$@
+00046042 @9?	
+0004604f TM	@9?
+000460bf T*$@
+000460e2 @9?	
+000460ef TM	@9?
+00046123 Tnim8
+0004615b Tnim8
+0004625b 7		@
+000466b3 4`"D
+00046a9e A9i:@
+00046c1d k68@
+00046c25 #@9h
+000470af r)ih
+00047125 !@1s
+00047747 TuZ@
+00047a24 ?k78
+000481ff TL)@
+000483d0 hR@9
+000487bd Q@9(9
+00048893 6(C@9
+00048b78 lE@9
+00048d65 K@9h
+00049061 Q@9H
+000498df ThN@9
+0004991b TiN@9
+00049954 hN@9
+0004995b 9hB@9
+00049ab7 T+%@
+00049b2f T	A@9
+00049b8f T+%@
+00049c27 TK)@
+0004a0c8 hBF9H
+0004ab1f S*ij8
+0004aca5 #@9H
+0004ae7b T`"@
+0004b633 q*ij8
+0004b6c7 qKikx
+0004b88b qKikx
+0004b8db q*ij8
+0004ba47 TB|@
+0004ba8b TB|@
+0004bacb TB|@
+0004c02b T(0@9
+0004c0f8 *0@9
+0004c10c *4@9
+0004c130 +8@9
+0004c553 R	A`
+0004c582 @9*u
+0004c5ae @y)	@9c
+0004c5df 7 A`
+0004cd0d in8Ni+8k
+0004cdf2 @9*u
+0004ce2b 9H0@
+0004ce4f 9H0@
+0004d03b Th^A
+0004d053 T`"@
+0004d3d2 @9I	
+0004d3d7 7)$ 7
+0004dae3 rJ}+
+0004dec7 rHyh
+0004e0ab T`"@
+0004e3ef 4)}@
+0004e69b T`"@
+0004e843 T`"@
+0004eb9b 4hgA
+0004ebb3 T`#@
+0004f24b Th,@
+0004f2cf Tk,@
+0004f2eb 8j,@
+0004f313 Ti0@
+0004f3eb Th,@
+0004f41f 9j,@
+0004f457 Tk0@
+0004f46f Tj,@
+0004f4ab 9j,@
+0004f4bf Rj0@
+0004f593 Tm,@
+0004f5b3 8l,@
+0004f5db Ti0@
+0004f637 9j,@
+0004f654 jii8_
+0004f6c7 8k0@
+0004f71f Th0@
+0004f74f 6j,@
+0004f76b 9j,@
+0004f7a3 Tk0@
+0004f7bb Tj,@
+0004f7f7 9j,@
+0004f80f Rj0@
+0004f840 jii8_
+0004f8ff 8m0@
+0004f92e (*q0@
+0004f9b7 Th0@
+0004f9ef 6j,@
+0004fa0b 9j,@
+0004fa94 +ij8
+0004fad4 +ij8
+0004fbbc (ih8
+0004fdf9 3@9`
+0004fe3c KIh8l	
+0004fe4b Th2@9k
+0004fea4 h2@9`
+0004feb1 3@9i2
+0004febf Th2@9
+0004ff05 3@9`
+0004ff87 Th2@9?
+0005000c *Ih8a
+00050013 Th2@9
+000500ef 7i2@9)
+0005015b TH0@9
+0005022b TH0@9?
+0005026b TH0@9
+0005031b TH0@9
+0005041b 7J0@9J
+00050967 TJ}@
+00050b23 qi*@
+00050bc3 TK!@
+00050d6b Th"A
+0005118f T* @
+00051649 |>ql
+00051c3f R)|B
+00051ca7 R*|@
+00052387 Qc}0
+00052a99 im8M
+00052f39 9@q`
+00052fce @9	$
+0005322f S)=P
+000536ef 6`*@
+00053767 r+|X
+00053b8b R(}H
+00053bc3 R+|X
+00053cad "B9i	
+00053db6 ]8n}`
+00053e0a ]8n}`
+00053f4f T* @9.$@9
+00053f5b R/(@90,@9
+000541ff R*}*
+000543f7 TCQ~
+000544fb TN	@
+000546fb TcU~
+00054b0b =)	@
+00054e79 "@9+
+0005510b 7hbA9H
+00055150 hbA9
+00055157 6`6@
+00055167 6`*@
+0005519b 7hbA9
+000551e8 hbA9
+000551ef 6`6@
+000551ff 6`*@
+0005535f RA|A
+000554a3 R) 	
+0005559f TuR@
+00055800 Kih8
+0005581c Kih8
+000558d6 _8p%@8
+000558e5 i08a
+00055910 li-8
+00055929 ic8Kik8
+000559a4 lic8
+00055a11 i18a
+00055a48 Lic8lil8
+00055b69 i18a
+00055b85 ij8H
+00055bd1 ik8Mil8l
+00056aad k)8,
+00056f49 i)8&
+00057d6e ?q	!
+00058df9 C@9(
+000593a7 T E@
+00059c6f q@	Xz 
+0005a8eb 4`^@
+0005a90b 4`"@
+0005a947 T`"@
+0005a99f Th*@
+0005a9af T`"@
+0005aa3d jh8a"@
+0005ac18 ajv8
+0005afd3 4`^@
+0005aff3 4`"@
+0005b02f T`"@
+0005b087 Th*@
+0005b097 T`"@
+0005b125 jh8a"@
+0005b61b T(D@
+0005b9da @9_	
+0005d211 b@9?
+0005d249 f@9?
+0005d812 @9_	
+0005f39a @9k1
+0005f6d0 hii8
+0005f74a @9k1
+0005f8b8 H @9
+0006055d #@9i
+0006056b r(1@
+0006061c H @9
+000611ad #@9i
+000611bf r(1@
+000613ac )ih8
+00061674 )ih8
+000618f6 @9(-@
+0006196c )ih8
+00061b62 @9(-@
+00061c40 )ih8
+00061eaf *)%@
+00061eeb *)%@
+0006244c +ih8J	
+00062dc7 *(5@
+00062e03 *(5@
+00063374 +ih8J	
+0006404d CV8h
+00064244 jih8)	
+00064790 )ih8?
+000650e9 3C9h
+000652c4 jih8)	
+000659e9 s@9(
+000664bd kh8)	
+00066754 *ih8_
+0006675f T)ih8
+00067021 kh8)	
+00067280 +ih8
+0006728b T)ih8
+000684ab T5yv
+000688a7 T	yi
+000688e7 T	yi
+00068a72 @8hD
+00068a9f T(D@
+00068b14 hb@9H
+00068ef4 jkh8
+000697db q,}L
+00069827 TK-@xl
+0006984a 	*m%@
+000698bc ?9@q
+000699c7 T		@9?
+00069cfd 	@9_
+00069d41 	@9_
+00069dbf TJ	n
+0006a1af T		@9?
+0006a499 	@9_
+0006a4d5 	@9_
+0006a6d7 R)AD
+0006a8fa X6H	
+0006c3d5  @9H
+0006cff7 R @ 
+0006d0df R @`
+0006d577 *)}C
+0006d580 (ih8I
+0006d783 *J}C
+0006d78c Hih8*
+0006db32 @9	`@9
+0006db70 h @9
+0006e808  	Az@	Az
+0006e9a8 )<A9
+0006ef57 T(<@
+0006ef79 	Az$0
+0006f007 Th6@
+0006f047 ThF@
+0006f094 h:A9
+0006f09b 7h6A9
+0006f0a3 4h2A9(
+0006f0ab 4h2@
+0006f0cd B@9H
+0006f117 7i>@
+0006f123 Th:A9
+0006f193 Th2@
+0006f1af 7h:A9H
+0006f1b7 7h>@
+0006f1ec h:A9h
+0006f1f3 7h>@
+0006f1ff Th2@
+0006f31f Th6@
+0006f35f ThF@
+0006f398 h6A9
+0006f39f 4h2A9i
+0006f41b Th2@
+0006f48f Th6@
+0006f4d2 G)t:
+0006f4eb Th2@
+0006f5b0 z2A9{6A9
+0006f5dc h2A9i6A9
+0006f604 j:A9
+0006f613 Th2@
+0006f635 C@9H
+0006f65c h2A9i6A99C
+0006fede @yM	
+000704f8 +ih8J	
+0007071d 1Nz	
+00070842 **N 
+000708ca )*- 
+00070d4b S@|_
+0007115b *@|_
+000712cb * |_
+0007132b * |_
+0007135b * |_
+00071d26 @9	{
+00071da5 1Mzk
+00072747 4h~@
+00072c0d zjxk	
+00072c1d b@9`
+00072cac `1Jz
+00072cba 	*H}
+00072d3e @9`1Nz
+00072f73 *i}	
+000731d3 <	|	
+000732aa @9`1Nz
+000733af <	|	
+00073b09 1KzJ
+00073b61 %@x(
+00073ff0 M{kx
+000740b7 QhN(
+00074107 ThN+
+00074189 1Kz)
+000742c9 1KzJ
+0007438e @9I	
+0007441e @9I	
+00074c63 T+	@
+00074ccf T		@
+00074eab TIC@
+000754b5 #@9h
+00075c33 TJM)
+00075f67 TJM)
+0007629b TJM)
+000765cf TJM)
+0007c169 %m/%d/%y
+0007c181 %H:%M:%S
+0007c198 (%a %b %d %H:%M:%S %Y
+0007c1b1 %I:%M:%S %p
+0007c210 Android (dev, -pgo, -bolt, -lto, -mlgo, based on r530567c) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+0007c2c3 Linker: LLD 19.0.0
+0007c2d7 Android (12896553, +pgo, +bolt, +lto, +mlgo, based on r530567c) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+0007c390 .init_array
+0007c39c .fini_array
+0007c3a8 .text
+0007c3ae .got
+0007c3b3 .comment
+0007c3bc .note.android.ident
+0007c3d0 .got.plt
+0007c3d9 .rela.plt
+0007c3e3 .bss
+0007c3e8 .dynstr
+0007c3f0 .eh_frame_hdr
+0007c3fe .gnu.version_r
+0007c40d .data.rel.ro
+0007c41a .rela.dyn
+0007c424 .gnu.version
+0007c431 .dynsym
+0007c439 malloc_hook
+0007c445 .gnu.hash
+0007c44f .relro_padding
+0007c45e .eh_frame
+0007c468 .gcc_except_table
+0007c47a __lcxx_override
+0007c48a .note.gnu.build-id
+0007c49d .gnu.version_d
+0007c4ac google_malloc
+0007c4ba .dynamic
+0007c4c3 .shstrtab
+0007c4cd .rodata
+0007c4d5 .data

@@ -1,0 +1,1308 @@
+0000024c z&JJ
+00003249 __cxa_finalize
+00003258 __cxa_atexit
+00003265 liblog.so
+0000326f libm.so
+00003277 libdl.so
+00003280 libc.so
+00003288 __stack_chk_fail
+00003299 abort
+0000329f av_append_path_component
+000032b8 av_asprintf
+000032c4 av_basename
+000032d0 av_bprint_escape
+000032e1 av_bprint_finalize
+000032f4 av_bprint_init
+00003303 av_d2str
+0000330c av_dirname
+00003317 av_escape
+00003321 av_get_token
+0000332e av_log
+00003335 av_malloc
+0000333f av_match_list
+0000334d av_match_name
+0000335b av_strcasecmp
+00003369 av_strdup
+00003373 av_stristart
+00003380 av_stristr
+0000338b av_strlcat
+00003396 av_strlcatf
+000033a2 av_strlcpy
+000033ad av_strncasecmp
+000033bc av_strnstr
+000033c7 av_strstart
+000033d3 av_strtok
+000033dd av_utf8_decode
+000033ec memcmp
+000033f3 strchr
+000033fa strcspn
+00003402 strlen
+00003409 strncmp
+00003411 strrchr
+00003419 strspn
+00003420 vsnprintf
+0000342a av_bprint_append_data
+00003440 av_bprint_chars
+00003450 av_bprint_clear
+00003460 av_bprint_get_buffer
+00003475 av_bprint_init_for_buffer
+0000348f av_bprint_strftime
+000034a2 av_bprintf
+000034ad av_freep
+000034b6 av_realloc
+000034c1 av_vbprintf
+000034cd memchr
+000034d4 memcpy
+000034db memset
+000034e2 av_buffer_alloc
+000034f2 av_buffer_allocz
+00003503 av_buffer_create
+00003514 av_buffer_default_free
+0000352b av_buffer_get_opaque
+00003540 av_buffer_get_ref_count
+00003558 av_buffer_is_writable
+0000356e av_buffer_make_writable
+00003586 av_buffer_pool_get
+00003599 av_buffer_pool_init
+000035ad av_buffer_pool_uninit
+000035c3 av_buffer_realloc
+000035d5 av_buffer_ref
+000035e3 av_buffer_unref
+000035f3 av_mallocz
+000035fe pthread_mutex_destroy
+00003614 pthread_mutex_init
+00003627 pthread_mutex_lock
+0000363a pthread_mutex_unlock
+0000364f __errno
+00003657 av_bprint_channel_layout
+00003670 av_channel_layout_extract_channel
+00003692 av_get_channel_description
+000036ad av_get_channel_layout
+000036c3 av_get_channel_layout_channel_index
+000036e7 av_get_channel_layout_nb_channels
+00003709 av_get_channel_layout_string
+00003726 av_get_channel_name
+0000373a av_get_default_channel_layout
+00003758 av_get_standard_channel_layout
+00003777 strtol
+0000377e strtoll
+00003786 av_cpu_count
+00003793 av_default_item_name
+000037a8 av_force_cpu_flags
+000037bb av_get_cpu_flags
+000037cc av_opt_eval_flags
+000037de av_parse_cpu_caps
+000037f0 av_parse_cpu_flags
+00003803 av_set_cpu_flags_mask
+00003819 sysconf
+00003821 av_crc
+00003828 av_crc_get_table
+00003839 av_crc_init
+00003845 pthread_once
+00003852 av_dict_copy
+0000385f av_dict_count
+0000386d av_dict_free
+0000387a av_dict_get
+00003886 av_dict_get_string
+00003899 av_dict_parse_string
+000038ae av_dict_set
+000038ba av_dict_set_int
+000038ca av_strerror
+000038d6 strerror_r
+000038e1 acos
+000038e6 asin
+000038eb atan
+000038f0 atan2
+000038f6 av_expr_eval
+00003903 av_expr_free
+00003910 av_expr_parse
+0000391e av_expr_parse_and_eval
+00003935 av_gcd
+0000393c av_gettime
+00003947 av_strtod
+00003951 cosh
+00003956 exp2
+0000395b fabs
+00003960 hypot
+0000396a sinh
+0000396f strtoul
+00003977 tanh
+0000397c av_fifo_alloc
+0000398a av_fifo_alloc_array
+0000399e av_fifo_drain
+000039ac av_fifo_free
+000039b9 av_fifo_freep
+000039c7 av_fifo_generic_peek
+000039dc av_fifo_generic_read
+000039f1 av_fifo_generic_write
+00003a07 av_fifo_grow
+00003a14 av_fifo_realloc2
+00003a25 av_fifo_reset
+00003a33 av_fifo_size
+00003a40 av_fifo_space
+00003a4e av_malloc_array
+00003a5e avpriv_alloc_fixed_dsp
+00003a75 avpriv_float_dsp_alloc
+00003a8c avpriv_scalarproduct_float_c
+00003aa9 av_frame_alloc
+00003ab8 av_frame_apply_cropping
+00003ad0 av_frame_clone
+00003adf av_frame_copy
+00003aed av_frame_copy_props
+00003b01 av_frame_free
+00003b0f av_frame_get_best_effort_timestamp
+00003b32 av_frame_get_buffer
+00003b46 av_frame_get_channel_layout
+00003b62 av_frame_get_channels
+00003b78 av_frame_get_color_range
+00003b91 av_frame_get_colorspace
+00003ba9 av_frame_get_decode_error_flags
+00003bc9 av_frame_get_metadata
+00003bdf av_frame_get_pkt_duration
+00003bf9 av_frame_get_pkt_pos
+00003c0e av_frame_get_pkt_size
+00003c24 av_frame_get_plane_buffer
+00003c3e av_frame_get_qp_table
+00003c54 av_frame_get_sample_rate
+00003c6d av_frame_get_side_data
+00003c84 av_frame_is_writable
+00003c99 av_frame_make_writable
+00003cb0 av_frame_move_ref
+00003cc2 av_frame_new_side_data
+00003cd9 av_frame_ref
+00003ce6 av_frame_remove_side_data
+00003d00 av_frame_set_best_effort_timestamp
+00003d23 av_frame_set_channel_layout
+00003d3f av_frame_set_channels
+00003d55 av_frame_set_color_range
+00003d6e av_frame_set_colorspace
+00003d86 av_frame_set_decode_error_flags
+00003da6 av_frame_set_metadata
+00003dbc av_frame_set_pkt_duration
+00003dd6 av_frame_set_pkt_pos
+00003deb av_frame_set_pkt_size
+00003e01 av_frame_set_qp_table
+00003e17 av_frame_set_sample_rate
+00003e30 av_frame_side_data_name
+00003e48 av_frame_unref
+00003e57 av_get_colorspace_name
+00003e6e av_image_check_size
+00003e82 av_image_copy
+00003e90 av_image_fill_linesizes
+00003ea8 av_image_fill_pointers
+00003ebf av_mallocz_array
+00003ed0 av_pix_fmt_count_planes
+00003ee8 av_samples_copy
+00003ef8 av_samples_get_buffer_size
+00003f13 av_hwdevice_ctx_alloc
+00003f29 av_hwdevice_ctx_create_derived
+00003f48 av_hwdevice_ctx_init
+00003f5d av_hwdevice_get_hwframe_constraints
+00003f81 av_hwdevice_get_type_name
+00003f9b av_hwdevice_hwconfig_alloc
+00003fb6 av_hwframe_constraints_free
+00003fd2 av_hwframe_ctx_alloc
+00003fe7 av_hwframe_ctx_init
+00003ffb av_hwframe_get_buffer
+00004011 av_hwframe_transfer_get_formats
+00004031 av_image_alloc
+00004040 av_image_check_sar
+00004053 av_image_check_size2
+00004068 av_image_copy_plane
+0000407c av_image_copy_to_buffer
+00004094 av_image_fill_arrays
+000040a9 av_image_fill_max_pixsteps
+000040c4 av_image_get_buffer_size
+000040dd av_image_get_linesize
+000040f3 av_rescale_rnd
+00004102 avpriv_set_systematic_pal2
+0000411d __sF
+00004122 av_default_get_category
+0000413a av_log_default_callback
+00004152 av_log_format_line
+00004165 av_log_get_flags
+00004176 av_log_get_level
+00004187 av_log_set_callback
+0000419b av_log_set_flags
+000041ac av_log_set_level
+000041bd av_vlog
+000041c5 avpriv_report_missing_feature
+000041e3 avpriv_request_sample
+000041f9 fprintf
+00004201 fputs
+00004207 getenv
+0000420e isatty
+00004215 strcmp
+0000421c strcpy
+00004223 strstr
+0000422a av_add_stable
+00004238 av_compare_mod
+00004247 av_compare_ts
+00004255 av_mul_q
+0000425e av_rescale
+00004269 av_rescale_delta
+0000427a av_rescale_q
+00004287 av_rescale_q_rnd
+00004298 av_calloc
+000042a2 av_dynarray2_add
+000042b3 av_dynarray_add
+000042c3 av_dynarray_add_nofree
+000042da av_fast_malloc
+000042e9 av_fast_realloc
+000042f9 av_free
+00004301 av_max_alloc
+0000430e av_memcpy_backptr
+00004320 av_memdup
+0000432a av_realloc_array
+0000433b av_realloc_f
+00004348 av_reallocp
+00004354 av_reallocp_array
+00004366 av_strndup
+00004371 posix_memalign
+00004380 av_d2q
+00004387 av_get_pix_fmt
+00004396 av_get_sample_fmt
+000043a8 av_opt_child_class_next
+000043c0 av_opt_child_next
+000043d2 av_opt_copy
+000043de av_opt_eval_double
+000043f1 av_opt_eval_float
+00004403 av_opt_eval_int
+00004413 av_opt_eval_int64
+00004425 av_opt_eval_q
+00004433 av_opt_find
+0000443f av_opt_find2
+0000444c av_opt_flag_is_set
+0000445f av_opt_free
+0000446b av_opt_freep_ranges
+0000447f av_opt_get
+0000448a av_opt_get_channel_layout
+000044a4 av_opt_get_dict_val
+000044b8 av_opt_get_double
+000044ca av_opt_get_image_size
+000044e0 av_opt_get_int
+000044ef av_opt_get_key_value
+00004504 av_opt_get_pixel_fmt
+00004519 av_opt_get_q
+00004526 av_opt_get_sample_fmt
+0000453c av_opt_get_video_rate
+00004552 av_opt_is_set_to_default
+0000456b av_opt_is_set_to_default_by_name
+0000458c av_opt_next
+00004598 av_opt_ptr
+000045a3 av_opt_query_ranges
+000045b7 av_opt_query_ranges_default
+000045d3 av_opt_serialize
+000045e4 av_opt_set
+000045ef av_opt_set_bin
+000045fe av_opt_set_channel_layout
+00004618 av_opt_set_defaults
+0000462c av_opt_set_defaults2
+00004641 av_opt_set_dict
+00004651 av_opt_set_dict2
+00004662 av_opt_set_dict_val
+00004676 av_opt_set_double
+00004688 av_opt_set_from_string
+0000469f av_opt_set_image_size
+000046b5 av_opt_set_int
+000046c4 av_opt_set_pixel_fmt
+000046d9 av_opt_set_q
+000046e6 av_opt_set_sample_fmt
+000046fc av_opt_set_video_rate
+00004712 av_opt_show2
+0000471f av_parse_color
+0000472e av_parse_time
+0000473c av_parse_video_rate
+00004750 av_parse_video_size
+00004764 av_set_options_string
+0000477a sscanf
+00004781 av_find_info_tag
+00004792 av_get_known_color_name
+000047aa av_parse_ratio
+000047b9 av_reduce
+000047c3 av_small_strptime
+000047d5 av_timegm
+000047df bsearch
+000047e7 gmtime_r
+000047f0 localtime_r
+000047fc mktime
+00004803 av_chroma_location_name
+0000481b av_color_primaries_name
+00004833 av_color_range_name
+00004847 av_color_space_name
+0000485b av_color_transfer_name
+00004872 av_find_best_pix_fmt_of_2
+0000488c av_get_bits_per_pixel
+000048a2 av_get_padded_bits_per_pixel
+000048bf av_get_pix_fmt_loss
+000048d3 av_get_pix_fmt_name
+000048e7 av_get_pix_fmt_string
+000048fd av_pix_fmt_desc_get
+00004911 av_pix_fmt_desc_get_id
+00004928 av_pix_fmt_desc_next
+0000493d av_pix_fmt_get_chroma_sub_sample
+0000495e av_pix_fmt_swap_endianness
+00004979 av_read_image_line
+0000498c av_write_image_line
+000049a0 av_add_q
+000049a9 av_div_q
+000049b2 av_find_nearest_q_idx
+000049c8 av_nearer_q
+000049d4 av_q2intfloat
+000049e2 av_sub_q
+000049eb frexp
+000049f1 av_get_alt_sample_fmt
+00004a07 av_get_bytes_per_sample
+00004a1f av_get_packed_sample_fmt
+00004a38 av_get_planar_sample_fmt
+00004a51 av_get_sample_fmt_name
+00004a68 av_get_sample_fmt_string
+00004a81 av_sample_fmt_is_planar
+00004a99 av_samples_alloc
+00004aaa av_samples_alloc_array_and_samples
+00004acd av_samples_fill_arrays
+00004ae4 av_samples_set_silence
+00004afb memmove
+00004b03 avpriv_slicethread_create
+00004b1d avpriv_slicethread_execute
+00004b38 avpriv_slicethread_free
+00004b50 pthread_cond_destroy
+00004b65 pthread_cond_init
+00004b77 pthread_cond_signal
+00004b8b pthread_cond_wait
+00004b9d pthread_create
+00004bac pthread_join
+00004bb9 av_gettime_relative
+00004bcd av_gettime_relative_is_monotonic
+00004bee av_usleep
+00004bf8 clock_gettime
+00004c06 gettimeofday
+00004c13 nanosleep
+00004c1d av_fourcc_make_string
+00004c33 av_get_media_type_string
+00004c4c av_get_picture_type_char
+00004c65 av_get_time_base_q
+00004c78 av_int_list_length_for_size
+00004c94 av_util_ffversion
+00004ca6 av_version_info
+00004cb6 avutil_configuration
+00004ccb avutil_license
+00004cda avutil_version
+00004ce9 libmozavutil.so
+00004cf9 LIBC
+0000a0c5 h38`
+0000a0cd ij8S
+0000a719 jh8i
+0000aacd ji8_
+0000acec h&A))
+0000adc0 _I(8
+0000adf4 h&A))
+0000afd0 h&A))
+0000b027 4xfA)(
+0000b104 	 A)
+0000b35d jz8"
+0000b75f **!@
+0000bd0b TJ	@
+0000c268 +ih8J	
+0000c63e 	J	Xi
+0000c648 !!AJC
+0000c6ab 7lIn8-Hn8
+0000c6e8 lIn8-Hn8
+0000cdcf T	ii
+0000cec2 @9?	
+0000d2dc +ih8J	
+0000d440 +yhxJ	
+0000d5f8 +yhxJ	
+0000d6f9 jh<h2@
+0000d72b 6h2@
+0000d76f Th2@
+0000d787 Th2@
+0000d7b7 Th2@
+0000d7ef Th2@
+0000d7ff Th2@
+0000d817 Nh2@
+0000dae3 TH!`
+0000db03 Th2@
+0000db3f Th2@
+0000e026 @9?y
+0000e08e @9?y
+0000e18a @9?	
+0000e30f Tvkh
+0000ed20 	 D)
+0000ee70 	 D)
+0000f0c7 rP}@
+0000f16e "k!&
+0000f180 Ai/xJ	
+0000fb13 ThjA
+0000fbbf Tan@
+0000fbfb 4hn@
+0000fc5b *jjh
+0000fd83 *`B@
+0000fe4b Rhj@
+0000feab ThE@
+000101e7 <hzA
+00010243 Tin@
+00010387 7(t@
+000103af Tjj@
+000103bb Thn@
+0001042f Rhr@
+00010917 T	l@
+0001093f Tm._
+00010a2f SKIk8
+00010a67 SOIo8
+00010b10 m:M)I
+00010b5b TK$@9L(@9
+00010b84 M @9
+00011444 *-@)J}@
+0001153f Th$@9
+0001157c i@@9
+000115c7 q( )
+0001167f R*(+
+000116a3 TKA@9+
+000116ec LA@9M
+00011767 TA)@9
+00011808 mii8
+00011af7 *	|@
+00011bf7 *A|@
+00011d6b <`hh
+00011dd0 (C@9
+00011dec )#@9
+00011e6f T(+@9
+0001200d C@9H
+000120df RH#)
+0001240f 4}kh
+0001254b Q(Ih8
+00012850 @)QzH
+00012daf T(9@
+00012e28 *ij8+ik8
+00012e78 .in8
+000138dc +ih8J	
+0001390e _x)=
+00013cf4 Lih8k	
+0001405f 5(3@
+000143c5 k38s
+000148d8 +ih8J	
+00014dbf *5i*
+0001501b *6i(
+000150bf *4i(
+00015268 mij8
+00015b2f *(ih
+00015bff *(ih
+00015caf *!ih
+000161c4 jih8)	
+000162cb R	%*
+000165a4 *kc8)	
+000168fa Jz )Zz
+00016914 !k`8a
+00016958 _k<8
+00016e7b *Z[3
+00016e98 Kkh8J	
+000170e8 +ih8J	
+00017248 +ic8J	
+000174e4 Lii8k	
+0001769a $k`	
+00018089 (@9	
+00018152 @8*%
+0001841b *IA#
+00018478 	 B)
+00018487 Rk}@
+00018633 R))+
+000189cf RZ}@
+00018ad1 &Cik
+00018b97 40xn
+00018c1b 7.xi
+00018c55 $@xL
+00018d11 $@x,
+00018ea9 $@9	(@9
+00018eb1  @9(
+00018f04 	$@9
+00018f11  @9i
+00018fb9  @96|@
+000190bc 	%@9
+000190c9 )@9H
+000190f3 q	$*
+00019110 I!@9	
+000192ab R* )
+0001939c 	#@9
+000195a5 @@Qh
+00019695 #@9)#@9
+000197a7 RH )
+000197b7 T	!@9)
+000197d0 	!@9)
+0001980d !@9?
+00019ba7 Qd~@
+00019bc5 'B)H
+00019c01 'B))}`
+0001a121 %A)J}
+0001a247 T	}@
+0001a653 4`~@
+0001aa2f ThJ@
+0001ad6c +ih8J	
+0001ad80 (H`8
+0001adb8 (X`x
+0001ae6b q )Jz
+0001af08 Assertion %s failed at %s:%d
+0001af26 tail_len <= 5
+0001af34 /builds/worker/checkouts/gecko/media/ffvpx/libavutil/avstring.c
+0001af8c [truncated strftime output]
+0001afa8 '\''
+0001afb0 %d channels
+0001afc1 mono
+0001afc6 stereo
+0001afd5 3.0(back)
+0001afe3 quad
+0001afe8 quad(side)
+0001affb 5.0(side)
+0001b00d 5.1(side)
+0001b01b 6.0(front)
+0001b026 hexagonal
+0001b034 6.1(back)
+0001b03e 6.1(front)
+0001b04d 7.0(front)
+0001b05c 7.1(wide)
+0001b066 7.1(wide-side)
+0001b075 octagonal
+0001b07f hexadecagonal
+0001b08d downmix
+0001b099 low frequency
+0001b0ab front left-of-center
+0001b0c4 front right-of-center
+0001b0dd side left
+0001b0ea side right
+0001b0f8 top center
+0001b107 top front left
+0001b11a top front center
+0001b12f top front right
+0001b143 top back left
+0001b155 top back center
+0001b169 top back right
+0001b178 downmix left
+0001b185 downmix right
+0001b196 wide left
+0001b1a3 wide right
+0001b1b2 surround direct left
+0001b1cb surround direct right
+0001b1e1 LFE2
+0001b1e6 low frequency 2
+0001b1f6 cpuflags
+0001b1ff detected %d logical cores
+0001b222 /builds/worker/checkouts/gecko/media/ffvpx/libavutil/crc.c
+0001b25d av_crc_init(av_crc_table[AV_CRC_8_ATM], 0, 8, 0x07, sizeof(av_crc_table[AV_CRC_8_ATM])) >= 0
+0001b2ba av_crc_init(av_crc_table[AV_CRC_8_EBU], 0, 8, 0x1D, sizeof(av_crc_table[AV_CRC_8_EBU])) >= 0
+0001b317 av_crc_init(av_crc_table[AV_CRC_16_ANSI], 0, 16, 0x8005, sizeof(av_crc_table[AV_CRC_16_ANSI])) >= 0
+0001b37b av_crc_init(av_crc_table[AV_CRC_16_CCITT], 0, 16, 0x1021, sizeof(av_crc_table[AV_CRC_16_CCITT])) >= 0
+0001b3e1 av_crc_init(av_crc_table[AV_CRC_24_IEEE], 0, 24, 0x864CFB, sizeof(av_crc_table[AV_CRC_24_IEEE])) >= 0
+0001b447 av_crc_init(av_crc_table[AV_CRC_32_IEEE], 0, 32, 0x04C11DB7, sizeof(av_crc_table[AV_CRC_32_IEEE])) >= 0
+0001b4af av_crc_init(av_crc_table[AV_CRC_32_IEEE_LE], 1, 32, 0xEDB88320, sizeof(av_crc_table[AV_CRC_32_IEEE_LE])) >= 0
+0001b51d av_crc_init(av_crc_table[AV_CRC_16_ANSI_LE], 1, 16, 0xA001, sizeof(av_crc_table[AV_CRC_16_ANSI_LE])) >= 0
+0001b58b Error number %d occurred
+0001b5a4 BSF_NOT_FOUND
+0001b5b2 Bitstream filter not found
+0001b5d1 Internal bug, should not have happened
+0001b5f8 BUG2
+0001b5fd BUFFER_TOO_SMALL
+0001b60e Buffer too small
+0001b61f DECODER_NOT_FOUND
+0001b631 Decoder not found
+0001b643 DEMUXER_NOT_FOUND
+0001b655 Demuxer not found
+0001b667 ENCODER_NOT_FOUND
+0001b679 Encoder not found
+0001b68f End of file
+0001b69b EXIT
+0001b6a0 Immediate exit requested
+0001b6b9 EXTERNAL
+0001b6c2 Generic error in an external library
+0001b6e7 FILTER_NOT_FOUND
+0001b6f8 Filter not found
+0001b709 INPUT_CHANGED
+0001b717 Input changed
+0001b725 INVALIDDATA
+0001b731 Invalid data found when processing input
+0001b75a Muxer not found
+0001b76a OPTION_NOT_FOUND
+0001b77b Option not found
+0001b78c Output changed
+0001b79b PATCHWELCOME
+0001b7a8 Not yet implemented in FFmpeg, patches welcome
+0001b7d7 PROTOCOL_NOT_FOUND
+0001b7ea Protocol not found
+0001b7fd STREAM_NOT_FOUND
+0001b80e Stream not found
+0001b81f UNKNOWN
+0001b827 Unknown error occurred
+0001b83e EXPERIMENTAL
+0001b84b Experimental feature
+0001b860 INPUT_AND_OUTPUT_CHANGED
+0001b879 Input and output changed
+0001b892 HTTP_BAD_REQUEST
+0001b8a3 Server returned 400 Bad Request
+0001b8c3 HTTP_UNAUTHORIZED
+0001b8d5 Server returned 401 Unauthorized (authorization failed)
+0001b90d HTTP_FORBIDDEN
+0001b91c Server returned 403 Forbidden (access denied)
+0001b94a HTTP_NOT_FOUND
+0001b959 Server returned 404 Not Found
+0001b977 HTTP_OTHER_4XX
+0001b986 Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+0001b9c3 HTTP_SERVER_ERROR
+0001b9d5 Server returned 5XX Server Error reply
+0001bdac ]r2<
+0001becc MbP?
+0001c010 Invalid chars '%s' at the end of expression '%s'
+0001c042 Eval
+0001c047 Undefined constant or missing '(' in '%s'
+0001c072 Missing ')' in '%s'
+0001c087 Missing ')' or too many args in '%s'
+0001c0ad sinh
+0001c0b2 cosh
+0001c0b7 tanh
+0001c0bc atan
+0001c0c1 acos
+0001c0d2 time
+0001c0d7 squish
+0001c0de gauss
+0001c0fe isnan
+0001c104 isinf
+0001c10a while
+0001c110 taylor
+0001c117 root
+0001c11c floor
+0001c122 ceil
+0001c127 trunc
+0001c12d round
+0001c133 sqrt
+0001c13c print
+0001c142 random
+0001c149 hypot
+0001c153 ifnot
+0001c159 bitand
+0001c160 bitor
+0001c166 between
+0001c16e clip
+0001c173 atan2
+0001c179 lerp
+0001c17e Unknown function in '%s'
+0001c19f QP2LAMBDA
+0001c1dc bt709
+0001c1e6 bt470bg
+0001c1ee smpte170m
+0001c1f8 smpte240m
+0001c202 YCgCo
+0001c208 AVPanScan
+0001c212 ATSC A53 Part 4 Closed Captions
+0001c232 Stereo 3D
+0001c23c AVMatrixEncoding
+0001c24d Metadata relevant to a downmix procedure
+0001c276 AVReplayGain
+0001c283 3x3 displaymatrix
+0001c295 Active format description
+0001c2af Motion vectors
+0001c2be Skip samples
+0001c2cb Audio service type
+0001c2de Mastering display metadata
+0001c2f9 Content light level metadata
+0001c316 GOP timecode
+0001c323 SMPTE 12-1 timecode
+0001c337 Spherical Mapping
+0001c349 ICC profile
+0001c355 QP table properties
+0001c369 QP table data
+0001c377 HDR Dynamic Metadata SMPTE2094-40 (HDR10+)
+0001c3a2 Regions Of Interest
+0001c3f0 The hardware pixel format '%s' is not supported by the device type '%s'
+0001c439 Failed to map frame into derived frame context: %d.
+0001c46e Invalid mapping found when attempting unmap.
+0001c49c vdpau
+0001c4a2 cuda
+0001c4a7 vaapi
+0001c4ad dxva2
+0001c4b7 videotoolbox
+0001c4c4 d3d11va
+0001c4d0 opencl
+0001c4d7 mediacodec
+0001c4e2 AVHWFramesContext
+0001c4fa Formats with a palette require a minimum alignment of 4
+0001c533 Picture size %ux%u is invalid
+0001c552 Picture size %ux%u exceeds specified max pixel count %ld, see the documentation if you wish to increase it
+0001c5be ret >= 0
+0001c5c7 /builds/worker/checkouts/gecko/media/ffvpx/libavutil/imgutils.c
+0001c607 IMGUTILS
+0001c610 ((src_linesize) >= 0 ? (src_linesize) : (-(src_linesize))) >= bytewidth
+0001c658 ((dst_linesize) >= 0 ? (dst_linesize) : (-(dst_linesize))) >= bytewidth
+0001c6a0 av_image_get_linesize failed
+0001c6be %s%s%s%s
+0001c6c7     Last message repeated %d times
+0001c6eb     Last message repeated %d times
+0001c70f [%s @ %p] 
+0001c71a [%s] 
+0001c720 quiet
+0001c726 debug
+0001c72c verbose
+0001c734 info
+0001c739 warning
+0001c741 error
+0001c747 fatal
+0001c74d panic
+0001c754 [%u;3%um%s
+0001c764 [48;5;%um
+0001c76e [38;5;%dm%s
+0001c77f [48;5;%um
+0001c789 [38;5;%um%s
+0001c799 TERM
+0001c79e NO_COLOR
+0001c7a7 AV_LOG_FORCE_NOCOLOR
+0001c7bc AV_LOG_FORCE_COLOR
+0001c7cf AV_LOG_FORCE_256COLOR
+0001c7e5 256color
+0001c7ee  is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+0001c89e If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+0001cb34 in_ts != ((int64_t)0x8000000000000000UL)
+0001cb5d /builds/worker/checkouts/gecko/media/ffvpx/libavutil/mathematics.c
+0001cba0 duration >= 0
+0001cbc0 '.,*
+0001cbc7 #;81
+0001cbd2 %(!/=-+
+0001cbf2 /val || !min_size
+0001cc04 /builds/worker/checkouts/gecko/media/ffvpx/libavutil/mem_internal.h
+0001cc87 P-2>
+0001ccac IPZ^E
+0001cd67  3I:
+0001cd88 The "%s" option is deprecated: %s
+0001cdab Unable to parse option value "%s" as duration
+0001cdda Value %f for parameter '%s' out of range [%g - %g]
+0001ce0e none
+0001ce13 Unable to parse option value "%s" as channel layout
+0001ce48 Invalid option type.
+0001ce5e The value set by option '%s' is not an image size.
+0001ce92 Invalid negative size value %dx%d for size '%s'
+0001cec3 The value set by option '%s' is not a video rate.
+0001cef6 pixel
+0001cefc sample
+0001cf03 The value set by option '%s' is not a channel layout.
+0001cf3a 0x%08X
+0001cf45 %d/%d
+0001cf4b %02X
+0001cf50 %dx%d
+0001cf56 0x%02x%02x%02x%02x
+0001cf69 0x%lx
+0001cf6f The value for option '%s' is not an image size.
+0001cfa0 The value for option '%s' is not a channel layout.
+0001cfd4 %s AVOptions:
+0001cfe3 AVOption type %d of option %s not implemented yet
+0001d016 No option name near '%s'
+0001d030 Unable to parse '%s': %s
+0001d04a Setting '%s' to value '%s'
+0001d066 Option '%s' not found
+0001d07d Error setting option %s to value %s.
+0001d0a3 Not supported option type: %d, option name: %s
+0001d0d3 Invalid separator(s) found.
+0001d0ef auto
+0001d0f4 true,y,yes,enable,enabled,on
+0001d111 false,n,no,disable,disabled,off
+0001d131 Unable to parse option value "%s" as boolean
+0001d15f %d%*1[:/]%d%c
+0001d16d const_values array too small for %s
+0001d192 default
+0001d19a Unable to parse option value "%s"
+0001d1bd Unable to parse option value "%s" as image size
+0001d1ee Unable to parse option value "%s" as video rate
+0001d21f Value %f for parameter '%s' is not a valid set of 32bit integer flags
+0001d266 pixel format
+0001d273 Unable to parse option value "%s" as %s
+0001d29c Value %d for parameter '%s' out of %s format range [%d - %d]
+0001d2da sample format
+0001d2e8 Unable to parse option value "%s" as color
+0001d314 The value set by option '%s' is not a %s format
+0001d344 true
+0001d349 false
+0001d34f INT64_MAX
+0001d359 INT64_MIN
+0001d363 %ld:%02d:%02d.%06d
+0001d376 %d:%02d.%06d
+0001d383 %d.%06d
+0001d38b The value for option '%s' is not a %s format.
+0001d3ba      %-15s 
+0001d3c6   %s%-17s 
+0001d3d3 %-12s 
+0001d3da <flags>
+0001d3e2 <int>
+0001d3e8 <int64>
+0001d3f0 <uint64>
+0001d3f9 <double>
+0001d402 <float>
+0001d40a <string>
+0001d413 <rational>
+0001d41e <binary>
+0001d427 <image_size>
+0001d434 <video_rate>
+0001d441 <pix_fmt>
+0001d44b <sample_fmt>
+0001d458 <duration>
+0001d463 <color>
+0001d46b <channel_layout>
+0001d47c <boolean>
+0001d48a  (from 
+0001d492  to 
+0001d497  (default 
+0001d4a6 "%s"
+0001d4ab INT_MAX
+0001d4b3 INT_MIN
+0001d4bb UINT32_MAX
+0001d4c6 I64_MAX
+0001d4ce I64_MIN
+0001d4d6 -FLT_MAX
+0001d4df -FLT_MIN
+0001d4e8 -DBL_MAX
+0001d4f1 -DBL_MIN
+0001d4fd Missing key or no key/value separator found after key '%s'
+0001d539 Setting entry with key '%s' to value '%s'
+0001d564 Key '%s' not found.
+0001d579 %d:%d%c
+0001d584 bikeshed
+0001d58d 0123456789ABCDEFabcdef
+0001d5a4 Invalid 0xRRGGBB[AA] color string: '%s'
+0001d5cd Cannot find color '%s'
+0001d5e5 Invalid alpha value specifier '%s' in '%s'
+0001d611 %H:%M:%S
+0001d61a %Y - %m - %d
+0001d627 %Y%m%d
+0001d62e %H%M%S
+0001d635 %H:%M
+0001d63b %H%M
+0001d643 %J:%M:%S
+0001d64c qntsc
+0001d652 qpal
+0001d657 sntsc
+0001d65d spal
+0001d662 ntsc-film
+0001d66c sqcif
+0001d672 4cif
+0001d677 16cif
+0001d67d qqvga
+0001d683 svga
+0001d688 qxga
+0001d68d wvga
+0001d692 wxga
+0001d697 wsxga
+0001d69d wuxga
+0001d6a3 woxga
+0001d6a9 wqsxga
+0001d6b0 wquxga
+0001d6b7 whsxga
+0001d6be whuxga
+0001d6cd hd480
+0001d6d3 hd720
+0001d6d9 hd1080
+0001d6e3 2kdci
+0001d6e9 2kflat
+0001d6f0 2kscope
+0001d6fb 4kdci
+0001d701 4kflat
+0001d708 4kscope
+0001d714 hqvga
+0001d71a fwqvga
+0001d721 hvga
+0001d72a uhd2160
+0001d732 uhd4320
+0001d73a AliceBlue
+0001d744 AntiqueWhite
+0001d751 Aqua
+0001d756 Aquamarine
+0001d761 Azure
+0001d767 Beige
+0001d76d Bisque
+0001d774 Black
+0001d77a BlanchedAlmond
+0001d789 BlueViolet
+0001d794 BurlyWood
+0001d79e CadetBlue
+0001d7a8 Chartreuse
+0001d7b3 Chocolate
+0001d7bd CornflowerBlue
+0001d7cc Cornsilk
+0001d7d5 Crimson
+0001d7dd DarkBlue
+0001d7e6 DarkCyan
+0001d7ef DarkGoldenRod
+0001d7fd DarkGray
+0001d806 DarkGreen
+0001d810 DarkKhaki
+0001d81a DarkMagenta
+0001d826 DarkOliveGreen
+0001d835 Darkorange
+0001d840 DarkOrchid
+0001d84b DarkRed
+0001d853 DarkSalmon
+0001d85e DarkSeaGreen
+0001d86b DarkSlateBlue
+0001d879 DarkSlateGray
+0001d887 DarkTurquoise
+0001d895 DarkViolet
+0001d8a0 DeepPink
+0001d8a9 DeepSkyBlue
+0001d8b5 DimGray
+0001d8bd DodgerBlue
+0001d8c8 FireBrick
+0001d8d2 FloralWhite
+0001d8de ForestGreen
+0001d8ea Fuchsia
+0001d8f2 Gainsboro
+0001d8fc GhostWhite
+0001d907 Gold
+0001d90c GreenYellow
+0001d918 HoneyDew
+0001d921 HotPink
+0001d929 IndianRed
+0001d933 Indigo
+0001d93a Ivory
+0001d940 Lavender
+0001d949 LavenderBlush
+0001d957 LawnGreen
+0001d961 LemonChiffon
+0001d96e LightBlue
+0001d978 LightCoral
+0001d983 LightCyan
+0001d98d LightGoldenRodYellow
+0001d9a2 LightGreen
+0001d9ad LightGrey
+0001d9b7 LightPink
+0001d9c1 LightSalmon
+0001d9cd LightSeaGreen
+0001d9db LightSkyBlue
+0001d9e8 LightSlateGray
+0001d9f7 LightSteelBlue
+0001da06 LightYellow
+0001da12 Lime
+0001da17 LimeGreen
+0001da21 Linen
+0001da27 Maroon
+0001da2e MediumAquaMarine
+0001da3f MediumBlue
+0001da4a MediumOrchid
+0001da57 MediumPurple
+0001da64 MediumSeaGreen
+0001da73 MediumSlateBlue
+0001da83 MediumSpringGreen
+0001da95 MediumTurquoise
+0001daa5 MediumVioletRed
+0001dab5 MidnightBlue
+0001dac2 MintCream
+0001dacc MistyRose
+0001dad6 Moccasin
+0001dadf NavajoWhite
+0001daeb Navy
+0001daf0 OldLace
+0001daf8 Olive
+0001dafe OliveDrab
+0001db08 Orange
+0001db0f OrangeRed
+0001db19 PaleGoldenRod
+0001db27 PaleGreen
+0001db31 PaleTurquoise
+0001db3f PaleVioletRed
+0001db4d PapayaWhip
+0001db58 PeachPuff
+0001db62 Peru
+0001db67 Plum
+0001db6c PowderBlue
+0001db77 RosyBrown
+0001db81 RoyalBlue
+0001db8b SaddleBrown
+0001db97 SandyBrown
+0001dba2 SeaShell
+0001dbab Sienna
+0001dbb2 Silver
+0001dbb9 Snow
+0001dbc2 Teal
+0001dbc7 Thistle
+0001dbcf Tomato
+0001dbd6 Wheat
+0001dbdc WhiteSmoke
+0001dbe7 YellowGreen
+0001dbf3 january
+0001dbfb february
+0001dc04 march
+0001dc0a april
+0001dc14 june
+0001dc19 july
+0001dc1e august
+0001dc25 september
+0001dc2f october
+0001dc37 november
+0001dc40 december
+0001dc4d rgb32
+0001dc53 bgra
+0001dc58 bgr32
+0001dc5e rgba
+0001dc63 name nb_components nb_bits
+0001dc7e %-11s %7d %10d
+0001dc8d yuv420p
+0001dc95 yuyv422
+0001dc9d rgb24
+0001dca3 bgr24
+0001dca9 yuv422p
+0001dcb1 yuv444p
+0001dcb9 yuv410p
+0001dcc1 yuv411p
+0001dcc9 gray
+0001dcce gray8,y8
+0001dcd7 monow
+0001dcdd monob
+0001dce3 pal8
+0001dce8 yuvj420p
+0001dcf1 yuvj422p
+0001dcfa yuvj444p
+0001dd03 uyvy422
+0001dd0b uyyvyy411
+0001dd15 bgr8
+0001dd1a bgr4
+0001dd1f bgr4_byte
+0001dd29 rgb8
+0001dd2e rgb4
+0001dd33 rgb4_byte
+0001dd3d nv12
+0001dd42 nv21
+0001dd47 argb
+0001dd4c abgr
+0001dd51 gray16be
+0001dd5a gray16le
+0001dd63 yuv440p
+0001dd6b yuvj440p
+0001dd74 yuva420p
+0001dd7d rgb48be
+0001dd85 rgb48le
+0001dd8d rgb565be
+0001dd96 rgb565le
+0001dd9f rgb555be
+0001dda8 rgb555le
+0001ddb1 bgr565be
+0001ddba bgr565le
+0001ddc3 bgr555be
+0001ddcc bgr555le
+0001ddd5 vaapi_moco
+0001dde0 vaapi_idct
+0001ddeb vaapi_vld
+0001ddf5 yuv420p16le
+0001de01 yuv420p16be
+0001de0d yuv422p16le
+0001de19 yuv422p16be
+0001de25 yuv444p16le
+0001de31 yuv444p16be
+0001de3d dxva2_vld
+0001de47 rgb444le
+0001de50 rgb444be
+0001de59 bgr444le
+0001de62 bgr444be
+0001de6f gray8a
+0001de76 bgr48be
+0001de7e bgr48le
+0001de86 yuv420p9be
+0001de91 yuv420p9le
+0001de9c yuv420p10be
+0001dea8 yuv420p10le
+0001deb4 yuv422p10be
+0001dec0 yuv422p10le
+0001decc yuv444p9be
+0001ded7 yuv444p9le
+0001dee2 yuv444p10be
+0001deee yuv444p10le
+0001defa yuv422p9be
+0001df05 yuv422p9le
+0001df10 gbrp
+0001df15 gbrp9be
+0001df1d gbrp9le
+0001df25 gbrp10be
+0001df2e gbrp10le
+0001df37 gbrp16be
+0001df40 gbrp16le
+0001df49 yuva422p
+0001df52 yuva444p
+0001df5b yuva420p9be
+0001df67 yuva420p9le
+0001df73 yuva422p9be
+0001df7f yuva422p9le
+0001df8b yuva444p9be
+0001df97 yuva444p9le
+0001dfa3 yuva420p10be
+0001dfb0 yuva420p10le
+0001dfbd yuva422p10be
+0001dfca yuva422p10le
+0001dfd7 yuva444p10be
+0001dfe4 yuva444p10le
+0001dff1 yuva420p16be
+0001dffe yuva420p16le
+0001e00b yuva422p16be
+0001e018 yuva422p16le
+0001e025 yuva444p16be
+0001e032 yuva444p16le
+0001e03f xyz12le
+0001e047 xyz12be
+0001e04f nv16
+0001e054 nv20le
+0001e05b nv20be
+0001e062 rgba64be
+0001e06b rgba64le
+0001e074 bgra64be
+0001e07d bgra64le
+0001e086 yvyu422
+0001e08e ya16be
+0001e095 ya16le
+0001e09c gbrap
+0001e0a2 gbrap16be
+0001e0ac gbrap16le
+0001e0b6 mmal
+0001e0bb d3d11va_vld
+0001e0c7 0rgb
+0001e0cc rgb0
+0001e0d1 0bgr
+0001e0d6 bgr0
+0001e0db yuv420p12be
+0001e0e7 yuv420p12le
+0001e0f3 yuv420p14be
+0001e0ff yuv420p14le
+0001e10b yuv422p12be
+0001e117 yuv422p12le
+0001e123 yuv422p14be
+0001e12f yuv422p14le
+0001e13b yuv444p12be
+0001e147 yuv444p12le
+0001e153 yuv444p14be
+0001e15f yuv444p14le
+0001e16b gbrp12be
+0001e174 gbrp12le
+0001e17d gbrp14be
+0001e186 gbrp14le
+0001e18f yuvj411p
+0001e198 bayer_bggr8
+0001e1a4 bayer_rggb8
+0001e1b0 bayer_gbrg8
+0001e1bc bayer_grbg8
+0001e1c8 bayer_bggr16le
+0001e1d7 bayer_bggr16be
+0001e1e6 bayer_rggb16le
+0001e1f5 bayer_rggb16be
+0001e204 bayer_gbrg16le
+0001e213 bayer_gbrg16be
+0001e222 bayer_grbg16le
+0001e231 bayer_grbg16be
+0001e240 xvmc
+0001e245 yuv440p10le
+0001e251 yuv440p10be
+0001e25d yuv440p12le
+0001e269 yuv440p12be
+0001e275 ayuv64le
+0001e27e ayuv64be
+0001e287 videotoolbox_vld
+0001e298 p010le
+0001e29f p010be
+0001e2a6 gbrap12be
+0001e2b0 gbrap12le
+0001e2ba gbrap10be
+0001e2c4 gbrap10le
+0001e2ce gray12be
+0001e2d7 gray12le
+0001e2e0 gray10be
+0001e2e9 gray10le
+0001e2f2 p016le
+0001e2f9 p016be
+0001e300 d3d11
+0001e306 gray9be
+0001e30e gray9le
+0001e316 gbrpf32be
+0001e320 gbrpf32le
+0001e32a gbrapf32be
+0001e335 gbrapf32le
+0001e340 drm_prime
+0001e34a gray14be
+0001e353 gray14le
+0001e35c grayf32be
+0001e366 grayf32le
+0001e370 yuva422p12be
+0001e37d yuva422p12le
+0001e38a yuva444p12be
+0001e397 yuva444p12le
+0001e3a4 nv24
+0001e3a9 nv42
+0001e3ae yuvj
+0001e3b7 unknown
+0001e3c5 reserved
+0001e3ce bt470m
+0001e3d5 bt2020
+0001e3dc smpte428
+0001e3e5 smpte431
+0001e3ee smpte432
+0001e3f7 jedec-p22
+0001e401 linear
+0001e408 log100
+0001e40f log316
+0001e416 iec61966-2-4
+0001e423 bt1361e
+0001e42b iec61966-2-1
+0001e438 bt2020-10
+0001e442 bt2020-12
+0001e44c smpte2084
+0001e456 arib-std-b67
+0001e467 ycgco
+0001e46d bt2020nc
+0001e476 bt2020c
+0001e47e smpte2085
+0001e488 chroma-derived-nc
+0001e49a chroma-derived-c
+0001e4ab ictcp
+0001e4b1 unspecified
+0001e4bd topleft
+0001e4c9 bottomleft
+0001e4d4 bottom
+0001e660 s16p
+0001e674 s32p
+0001e688 fltp
+0001e69c dblp
+0001e6c4 s64p
+0001e6d8 name   depth
+0001e6e5 %-6s   %2d 
+0001e6f1 nb_threads >= 0
+0001e701 /builds/worker/checkouts/gecko/media/ffvpx/libavutil/slicethread.c
+0001e744 nb_jobs > 0
+0001e758 FFmpeg version n4.0.2-6-g2be51cbeea
+0001e77c n4.0.2-6-g2be51cbeea
+0001e791 Libavutil has been linked to a broken llrint()
+0001e7c1 --disable-everything --disable-protocols --disable-demuxers --disable-muxers --disable-filters --disable-programs --disable-doc --disable-parsers --disable-static --enable-shared --disable-debug --disable-sdl2 --disable-libxcb --disable-securetransport --disable-iconv --disable-swresample --disable-swscale --disable-avdevice --disable-avfilter --disable-avformat --disable-d3d11va --disable-dxva2 --disable-vaapi --disable-vdpau --disable-videotoolbox --enable-decoder=flac --disable-crystalhd --disable-asm --disable-cuda --disable-cuvid --enable-decoder=mp3
+0001e9f3 libavutil license: LGPL version 2.1 or later
+0001ea20 video
+0001ea26 audio
+0001ea2c subtitle
+0001ea35 attachment
+0001ea40 !"valid element size"
+0001ea56 /builds/worker/checkouts/gecko/media/ffvpx/libavutil/utils.c
+0001ea93 . -_
+0001ea98 [%d]
+000226a4 Android
+000226f0 5594570
+0002d030 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+0002d138 clang version 11.0.0
+0002d14d libmozavutil.so.dbg
+0002d166 .note.gnu.property
+0002d179 .fini_array
+0002d185 .text
+0002d18b .got
+0002d190 .comment
+0002d199 .note.android.ident
+0002d1ad .rela.plt
+0002d1b7 .bss
+0002d1bc .dynstr
+0002d1c4 .eh_frame_hdr
+0002d1d2 .gnu.version_r
+0002d1e1 .data.rel.ro
+0002d1ee .rela.dyn
+0002d1f8 .gnu.version
+0002d205 .dynsym
+0002d20d .gnu_debuglink
+0002d21c .hash
+0002d222 .eh_frame
+0002d22c .note.gnu.build-id
+0002d23f .gnu.version_d
+0002d24e .dynamic
+0002d257 .shstrtab
+0002d261 .rodata
+0002d269 .data

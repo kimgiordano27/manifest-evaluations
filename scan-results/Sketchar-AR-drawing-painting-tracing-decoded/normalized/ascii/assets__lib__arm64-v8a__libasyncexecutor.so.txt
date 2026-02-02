@@ -1,0 +1,290 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+00000cbd v~pPk
+00000cfd :9zT
+00000d15 __cxa_finalize
+00000d24 __cxa_atexit
+00000d31 __register_atfork
+00000d43 _ZN8facebook6mobile5xplat8executor20InlineSerialExecutor3addEN5folly8FunctionIFvvEEE
+00000d98 _ZTv0_n32_N8facebook6mobile5xplat8executor20InlineSerialExecutor3addEN5folly8FunctionIFvvEEE
+00000df5 _ZTVN8facebook6mobile5xplat8executor20InlineSerialExecutorE
+00000e31 _ZTIN8facebook6mobile5xplat8executor20InlineSerialExecutorE
+00000e6d _ZN5folly8Executor15addWithPriorityENS_8FunctionIFvvEEEa
+00000ea6 _ZN5folly8Executor16keepAliveAcquireEv
+00000ecd _ZN5folly8Executor16keepAliveReleaseEv
+00000ef4 _ZTTN8facebook6mobile5xplat8executor20InlineSerialExecutorE
+00000f30 _ZTCN8facebook6mobile5xplat8executor20InlineSerialExecutorE0_NS2_14SerialExecutorE
+00000f83 _ZTCN8facebook6mobile5xplat8executor20InlineSerialExecutorE0_N5folly17SequencedExecutorE
+00000fdc _ZTIN8facebook6mobile5xplat8executor14SerialExecutorE
+00001012 _ZTSN8facebook6mobile5xplat8executor14SerialExecutorE
+00001048 _ZTSN5folly17SequencedExecutorE
+00001068 _ZTIN5folly17SequencedExecutorE
+00001088 _ZTIN5folly8ExecutorE
+0000109e _ZTSN8facebook6mobile5xplat8executor20InlineSerialExecutorE
+000010da _ZN8facebook6mobile5xplat8executor18InlineSyncExecutor3addEN5folly8FunctionIFvvEEE
+0000112d _ZTVN8facebook6mobile5xplat8executor18InlineSyncExecutorE
+00001167 _ZTIN8facebook6mobile5xplat8executor18InlineSyncExecutorE
+000011a1 _ZTSN8facebook6mobile5xplat8executor18InlineSyncExecutorE
+000011db _ZN8facebook6mobile5xplat8executor24SerialConstraintExecutorC2ERKNSt6__ndk110shared_ptrINS2_14SerialExecutorEEE
+0000124b _ZTVNSt6__ndk120__shared_ptr_emplaceIN8facebook6mobile5xplat8executor24SerialConstraintExecutor9WorkQueueENS_9allocatorIS6_EEEE
+000012cb _ZN8facebook6mobile5xplat8executor24SerialConstraintExecutorC1ERKNSt6__ndk110shared_ptrINS2_14SerialExecutorEEE
+0000133b _ZTVN8facebook6mobile5xplat8executor24SerialConstraintExecutorE
+0000137b _ZN8facebook6mobile5xplat8executor24SerialConstraintExecutor3addEN5folly8FunctionIFvvEEE
+000013d4 __stack_chk_fail
+000013e5 _ZN8facebook6mobile5xplat8executor24SerialConstraintExecutor9WorkQueue16enqueueFunctionsEON5folly8FunctionIFvvEEE
+00001457 _ZTv0_n32_N8facebook6mobile5xplat8executor24SerialConstraintExecutor3addEN5folly8FunctionIFvvEEE
+000014b8 _ZN8facebook6mobile5xplat8executor24SerialConstraintExecutor15addWithPriorityEN5folly8FunctionIFvvEEEa
+0000151f _ZTv0_n40_N8facebook6mobile5xplat8executor24SerialConstraintExecutor15addWithPriorityEN5folly8FunctionIFvvEEEa
+0000158e _ZN8facebook6mobile5xplat8executor24SerialConstraintExecutor9WorkQueue13callFunctionsEv
+000015e6 _ZN5folly6detail16throw_exception_INSt6__ndk117bad_function_callEJEEEvDpT0_
+00001632 _ZTVNSt6__ndk117bad_function_callE
+00001655 _ZN5folly15throw_exceptionINSt6__ndk117bad_function_callEEEvOT_
+00001695 _ZTINSt6__ndk117bad_function_callE
+000016b8 memmove
+000016c0 _ZTIN8facebook6mobile5xplat8executor24SerialConstraintExecutorE
+00001700 _ZTTN8facebook6mobile5xplat8executor24SerialConstraintExecutorE
+00001740 _ZTCN8facebook6mobile5xplat8executor24SerialConstraintExecutorE0_NS2_14SerialExecutorE
+00001797 _ZTCN8facebook6mobile5xplat8executor24SerialConstraintExecutorE0_N5folly17SequencedExecutorE
+000017f4 _ZTSN8facebook6mobile5xplat8executor24SerialConstraintExecutorE
+00001834 _ZTSNSt6__ndk117bad_function_callE
+00001857 _ZTINSt6__ndk120__shared_ptr_emplaceIN8facebook6mobile5xplat8executor24SerialConstraintExecutor9WorkQueueENS_9allocatorIS6_EEEE
+000018d7 _ZTSNSt6__ndk120__shared_ptr_emplaceIN8facebook6mobile5xplat8executor24SerialConstraintExecutor9WorkQueueENS_9allocatorIS6_EEEE
+00001957 pthread_mutex_lock
+0000196a pthread_mutex_unlock
+0000197f malloc
+00001986 free
+0000198b aligned_alloc
+00001999 pthread_mutex_destroy
+000019af memset
+000019b6 __errno
+000019be __gnu_strerror_r
+000019cf strlen
+000019d6 vsnprintf
+000019e0 __strlen_chk
+000019ed memcpy
+000019f4 syscall
+000019fc stderr
+00001a03 fwrite
+00001a0a vfprintf
+00001a13 fputc
+00001a19 vasprintf
+00001a23 android_set_abort_message
+00001a3d openlog
+00001a45 syslog
+00001a4c closelog
+00001a55 abort
+00001a5b strcmp
+00001a62 fprintf
+00001a6a fflush
+00001a71 pthread_rwlock_wrlock
+00001a87 pthread_rwlock_unlock
+00001a9d dladdr
+00001aa4 dl_iterate_phdr
+00001ab4 __vsnprintf_chk
+00001ac4 pthread_rwlock_rdlock
+00001ada getauxval
+00001ae4 __system_property_get
+00001afa strncmp
+00001b02 libdl.so
+00001b0b LIBC
+00001b10 libc.so
+00001b18 LIBC_P
+00001b1f libxplat_folly_executorAndroid.so
+00001b41 libasyncexecutor.so
+00001b58 APS2
+00001fd0 N8facebook6mobile5xplat8executor14SerialExecutorE
+00002002 N5folly17SequencedExecutorE
+0000201e N8facebook6mobile5xplat8executor20InlineSerialExecutorE
+00002056 N8facebook6mobile5xplat8executor18InlineSyncExecutorE
+0000208c N8facebook6mobile5xplat8executor24SerialConstraintExecutorE
+000020c8 NSt6__ndk117bad_function_callE
+000020e7 NSt6__ndk120__shared_ptr_emplaceIN8facebook6mobile5xplat8executor24SerialConstraintExecutor9WorkQueueENS_9allocatorIS6_EEEE
+00002163 NSt6__ndk114__shared_countE
+0000217f NSt6__ndk119__shared_weak_countE
+000021a0 uncaught
+000021a9 terminating due to %s exception of type %s
+000021d4 terminating due to %s exception of type %s: %s
+00002203 %s:%d: %s
+0000220d unspecified system_category error
+0000222f unspecified generic_category error
+00002255 unsupported restore location for float register
+00002285 unsupported restore location for register
+000022af unknown register
+000022c0 unsupported arm64 register
+000022db setRegister
+000022e7 getRegister
+000022f3 getSavedFloatRegister
+00002309 getSavedRegister
+0000231d third-party\llvm-project\18.x-android\llvm-project\libcxxabi\src\fallback_malloc.cpp
+00002375 CIE ID is not zero
+00002388 _Unwind_Resume() can't return
+000023a6 std::exception
+000023b5 terminating due to %s foreign exception
+000023dd terminate_handler unexpectedly threw an exception
+0000240f truncated uleb128 expression
+0000242c malformed uleb128 expression
+00002449 truncated sleb128 expression
+00002466 evaluateExpression
+00002479 system
+00002480 libc++abi
+0000248a bad_array_new_length
+0000249f FDE has zero length
+000024b3 CIE start does not match
+000024cc ro.arch
+000024d4 terminating
+000024e0 basic_string
+000024ed unknown pointer encoding
+00002506 DW_OP_deref_size with bad size
+00002525 getTableEntrySize
+00002537 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+0000259a _Unwind_Resume
+000025a9 DW_EH_PE_textrel pointer encoding not supported
+000025d9 DW_EH_PE_funcrel pointer encoding not supported
+00002609 DW_EH_PE_aligned pointer encoding not supported
+00002639 DW_OP_fbreg not implemented
+00002655 DWARF opcode not implemented
+00002672 DW_OP_piece not implemented
+0000268e unexpected
+00002699 terminate_handler unexpectedly returned
+000026c1 mutex lock failed
+000026d3 Unknown error %d
+000026e7 std::bad_alloc
+000026f6 generic
+000026fe getEncodedP
+0000270a FDE is really a CIE
+0000273e getULEB128
+00002749 getSLEB128
+000027ca CIE version is not 1 or 3
+000027e7 unwind_phase2
+0000283c exynos9810
+00002847 DW_EH_PE_datarel is invalid with a datarelBase of 0
+0000287b Unknown DWARF encoding for search table.
+000028a4 Can't binary search on variable length encoded data.
+000028d9 Pure virtual function called!
+000028f7 libc++abi: 
+00002903 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+0000293c libunwind: %s - %s
+00002950 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00002998 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+000029d8 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+00002a1e libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+00002a60 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+00002aa5 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+00002aef libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+00002b31 libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+00002b73 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+00002bb4 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00002c08 libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+00002c4f libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+00002c97 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+00002cd6 libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+00002d17 libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+00002d74 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+00002dc2 NSt6__ndk112system_errorE
+00002ddc NSt6__ndk112__do_messageE
+00002df6 NSt6__ndk124__generic_error_categoryE
+00002e1c NSt6__ndk123__system_error_categoryE
+00002e41 NSt6__ndk114error_categoryE
+00002ec8 N10__cxxabiv116__shim_type_infoE
+00002ee9 N10__cxxabiv117__class_type_infoE
+00002f0b N10__cxxabiv120__si_class_type_infoE
+00002f30 N10__cxxabiv121__vmi_class_type_infoE
+00002f56 St9exception
+00002f63 St20bad_array_new_length
+00002f7c St9bad_alloc
+00002f89 St11logic_error
+00002f99 St12length_error
+00002faa St13runtime_error
+00002fbc St9type_info
+000052d5 zPLR
+00005e7f Ti&@
+00006a0b TuZ@
+00007109 #@9h
+00007171 #@9h
+00007e42 ?74}@
+00007f50 @1Wz)
+000080bd 1WzJ
+000081db <i*?
+00008390 h%@x
+00008455 j{8*
+000086b7 K*)(
+000087e6 @yN	
+00008ab8  	Az@	Az
+00008cf8 )<A9
+00008e53 T(<@
+00008e77 T(H@
+00008faf 7i>@
+00008fbf Rh:A9h
+00009017 Th6@
+00009043 ThF@
+000090b4 h:A9H
+000090bb 5h6A9
+000090c3 4h2A9
+000090cb 4h2@
+000090d9 B@9h
+00009133 7h:A9
+0000913b 5h>@
+0000918c h:A9
+00009193 5h>@
+0000919f Th2@
+0000920f Th2@
+00009327 Th6@
+00009353 ThF@
+0000938c h6A9h
+00009393 4h2A9i
+000093db Th2@
+000094b6 G)t:
+000094cf Th2@
+000094fb Th6@
+0000959b 4z2A9{6A9
+000095ec h2A9i6A9
+00009620 j:A9J
+0000962f Th2@
+0000969c h2A9J
+000096a4 i6A9k
+0000a5d2 @9iy
+0000a732 @9o%
+0000b053 4h~@
+0000b48c J{hx)	
+0000b499 b@9a
+0000b9eb R`1Jz
+0000ba02 	*h}
+0000bbd8 *q@9
+0000c182 ?7_|
+0000d344  %@x
+0000d6cf R`0Bz
+0000d733 QqN0
+0000d787 TbN 
+0000d843 R@0@z
+0000d953 R 0@z
+0000dd13 TqN0
+0000dd3b TaN0
+0000e867 TiC@
+00010199 .init_array
+000101a5 .fini_array
+000101b1 .text
+000101b7 .got
+000101bc .note.android.ident
+000101d0 .got.plt
+000101d9 .rela.plt
+000101e3 .tbss
+000101e9 .bss
+000101ee .dynstr
+000101f6 .eh_frame_hdr
+00010204 .gnu.version_r
+00010213 .data.rel.ro
+00010220 .relr.dyn
+0001022a .rela.dyn
+00010234 .gnu.version
+00010241 .dynsym
+00010249 .gnu.hash
+00010253 .relro_padding
+00010262 .eh_frame
+0001026c .gcc_except_table
+0001027e __lcxx_override
+0001028e .note.gnu.build-id
+000102a1 .dynamic
+000102aa .shstrtab
+000102b4 .rodata
+000102bc .data

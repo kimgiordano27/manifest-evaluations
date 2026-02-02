@@ -1,0 +1,684 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+0000031e ~iP	
+0000209e u6h$
+000020fc }B}V
+0000212d __cxa_finalize
+0000213c __cxa_atexit
+00002149 __register_atfork
+0000215b _ZNSt6__ndk119__shared_weak_count14__release_weakEv
+0000218f __stack_chk_fail
+000021a0 memmove
+000021a8 _ZNSt6__ndk16threadD1Ev
+000021c0 _ZTVNSt6__ndk120__shared_ptr_emplaceIN6wangle18LRUPersistentCacheINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_6vectorIN8proxygen11DNSResolver6AnswerENS7_ISE_EEEENS_5mutexEEENS7_ISI_EEEE
+00002297 _ZNSt6__ndk119__shared_weak_countD2Ev
+000022bd _ZTVNSt6__ndk120__shared_ptr_pointerIPN6wangle16CachePersistenceENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+0000232d _ZNSt6__ndk15mutex4lockEv
+00002347 _ZNSt6__ndk15mutex6unlockEv
+00002363 _ZNSt6__ndk15mutexD1Ev
+0000237a _ZNSt6__ndk118condition_variableD1Ev
+0000239f _ZNSt6__ndk118condition_variable10notify_allEv
+000023ce _ZNSt6__ndk16thread4joinEv
+000023e9 _ZNSt6__ndk16chrono12steady_clock3nowEv
+00002411 memcpy
+00002418 strcmp
+0000241f _ZN6google10LogMessageC1EPKcii
+0000243e _ZN6google10LogMessage6streamEv
+0000245e _ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+000024c1 _ZN6google10LogMessageD1Ev
+000024dc _ZN5folly7dynamic7destroyEv
+000024f8 _ZN5folly7dynamic8TypeInfoINSt6__ndk16vectorIS0_NS2_9allocatorIS0_EEEEE4nameE
+00002546 strlen
+0000254d _ZN5folly9TypeErrorC1ERKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_7dynamic4TypeE
+000025ba memcmp
+000025c1 _ZN5folly6detail21safe_assert_terminateILb0EEEvPKNS0_15safe_assert_argEz
+0000260a memset
+00002611 _ZN5folly3f146detail12F14LinkCheckILNS1_17F14IntrinsicsModeE1EE5checkEv
+00002659 _ZTVNSt6__ndk117bad_function_callE
+0000267c _ZTINSt6__ndk117bad_function_callE
+0000269f _ZNSt6__ndk117bad_function_callD1Ev
+000026c3 _ZNK5folly7dynamic4sizeEv
+000026dd _ZN5folly7dynamic8TypeInfoINS0_10ObjectImplEE4nameE
+00002711 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00002760 _ZN5folly6detail15to_ascii_powersILm10EmE4dataE
+00002790 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+000027dd _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+0000282c _ZN5folly6detail14to_ascii_tableILm10ENS_17to_ascii_alphabetILb0EEEE4dataE
+00002877 _ZNK17double_conversion23DoubleToStringConverter7ToFixedEdiPNS_13StringBuilderE
+000028c7 _ZNK17double_conversion23DoubleToStringConverter20ToShortestIeeeNumberEdPNS_13StringBuilderENS0_8DtoaModeE
+00002932 _ZNK17double_conversion23DoubleToStringConverter11ToPrecisionEdiPNS_13StringBuilderE
+00002987 _ZN5folly6detail15str_to_integralIlEENS_8ExpectedIT_NS_14ConversionCodeEEEPNS_5RangeIPKcEE
+000029e2 nextafter
+000029ec _ZN5folly19makeConversionErrorENS_14ConversionCodeENS_5RangeIPKcEE
+00002a2f _ZNKR5folly7dynamic6atImplERKS0_
+00002a50 _ZN5folly9IPAddressC1Ev
+00002a68 __memcpy_chk
+00002a75 _ZN5folly6detail13futexWakeImplEPKNSt6__ndk16atomicIjEEij
+00002aaf _ZNSt6__ndk116generic_categoryEv
+00002ad0 _ZNSt6__ndk112system_errorC1ENS_10error_codeE
+00002afe _ZNSt6__ndk112system_errorD1Ev
+00002b1d _ZTINSt6__ndk112system_errorE
+00002b3b _ZTVNSt6__ndk112system_errorE
+00002b59 _ZN5folly7dynamicC1EOS0_
+00002b72 _ZN5folly6detail11MemoryIdler18defaultIdleTimeoutE
+00002ba5 _ZN5folly6detail11MemoryIdler22flushLocalMallocCachesEv
+00002bdd _ZN5folly6detail11MemoryIdler16unmapUnusedStackEm
+00002c0f _ZN5folly6detail13futexWaitImplEPKNSt6__ndk16atomicIjEEjPKNS1_6chrono10time_pointINS6_12system_clockENS6_8durationIxNS1_5ratioILl1ELl1000000EEEEEEEPKNS7_INS6_12steady_clockENS9_IxNSA_ILl1ELl1000000000EEEEEEEj
+00002ce0 _ZN5folly18getCurrentThreadIDEv
+00002d00 _ZNSt6__ndk16chrono12system_clock3nowEv
+00002d28 _ZNSt6__ndk119__shared_weak_count4lockEv
+00002d51 _ZTVNSt6__ndk112bad_weak_ptrE
+00002d6f _ZTINSt6__ndk112bad_weak_ptrE
+00002d8d _ZNSt6__ndk112bad_weak_ptrD1Ev
+00002dac abort
+00002db2 _ZTVN6wangle20FilePersistenceLayerE
+00002dd6 _ZN5folly13setThreadNameENS_5RangeIPKcEE
+00002dff _ZNSt6__ndk115__thread_structC1Ev
+00002e21 pthread_create
+00002e30 _ZNSt6__ndk120__throw_system_errorEiPKc
+00002e58 _ZNSt6__ndk115__thread_structD1Ev
+00002e7a pthread_cond_clockwait
+00002e91 _ZNSt6__ndk119__thread_local_dataEv
+00002eb5 pthread_setspecific
+00002ec9 _ZTINSt6__ndk120__shared_ptr_emplaceIN6wangle18LRUPersistentCacheINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_6vectorIN8proxygen11DNSResolver6AnswerENS7_ISE_EEEENS_5mutexEEENS7_ISI_EEEE
+00002fa0 _ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info
+00002fe1 _ZTINSt6__ndk119__shared_weak_countE
+00003006 _ZTINSt6__ndk123enable_shared_from_thisIN6wangle18LRUPersistentCacheINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_6vectorIN8proxygen11DNSResolver6AnswerENS7_ISE_EEEENS_5mutexEEEEE
+000030d6 _ZTINSt6__ndk120__shared_ptr_pointerIPN6wangle16CachePersistenceENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+00003146 _ZN8proxygen22DNSFilePersistentCacheC1ERKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEN6wangle21PersistentCacheConfigE
+000031d3 _ZN5folly18DelayedDestructionD2Ev
+000031f5 _ZN6google15LogMessageFatalC1EPKciRKNS_13CheckOpStringE
+0000322d _ZN6google15LogMessageFatalD1Ev
+0000324d _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEt
+00003284 DomainInfoUtilsIsFbInfra
+0000329d _ZN8proxygen10TraceEvent3endERKNS_15TimeUtilGenericINSt6__ndk16chrono12steady_clockEEE
+000032f4 _ZNK5folly13SocketAddress13getAddressStrEv
+0000331f _ZNK8proxygen10TraceEvent11readStrMetaENS_14TraceFieldTypeERNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+0000339f _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEPKc
+000033ef _ZNK5folly13SocketAddress8describeEv
+00003414 _ZTTNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003461 _ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000034aa _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev
+000034e3 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev
+0000351a _ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev
+0000354c _ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00003598 _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev
+000035d0 _ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000361c _ZNSt6__ndk18ios_base4initEPv
+0000363a _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+00003673 _ZTVNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000036c0 _ZN8proxygen10TraceEvent15addMetaInternalENS_14TraceFieldTypeEONS0_8MetaDataE
+0000370e _ZN5folly6detail24make_exception_ptr_with_ERKNS0_28make_exception_ptr_with_arg_EPv
+00003761 pthread_self
+0000376e pthread_equal
+0000377c _ZN6google15LogMessageFatalC1EPKci
+0000379f _ZN8proxygen10TraceEventC1ENS_14TraceEventTypeEj
+000037d0 _ZN8proxygen10TraceEvent5startERKNS_15TimeUtilGenericINSt6__ndk16chrono12steady_clockEEE
+00003829 _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEN8proxygen26DNSPersistentCacheResolver27BidirectionalCallbackHolderEEENS_19__map_value_compareIS9_SD_NS_4lessIS9_EELb1EEENS6_ISD_EEE25__emplace_unique_key_argsIS9_JNS2_IS9_SC_EEEEENS2_INS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEEbEERKT_DpOT0_
+00003990 _ZN8proxygen17TraceEventContext19traceEventAvailableERKNS_10TraceEventE
+000039d8 _ZNSt6__ndk119piecewise_constructE
+000039fb _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEiEENS_19__map_value_compareIS9_SA_NS_4lessIS9_EELb1EEENS6_ISA_EEE25__emplace_unique_key_argsIS9_JRKNS_21piecewise_construct_tENS_5tupleIJRKS9_EEENSL_IJEEEEEENS2_INS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_
+00003b4b _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEN8proxygen26DNSPersistentCacheResolver27BidirectionalCallbackHolderEEENS_19__map_value_compareIS9_SD_NS_4lessIS9_EELb1EEENS6_ISD_EEE4findIS9_EENS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEERKT_
+00003c7f _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEN8proxygen26DNSPersistentCacheResolver27BidirectionalCallbackHolderEEENS_19__map_value_compareIS9_SD_NS_4lessIS9_EELb1EEENS6_ISD_EEE14__erase_uniqueIS9_EEmRKT_
+00003d8b _ZN5folly6detail25exception_ptr_get_object_ERKSt13exception_ptrPKSt9type_info
+00003dd9 _ZN5folly6detail23exception_ptr_get_type_ERKSt13exception_ptr
+00003e17 _ZN5folly8demangleEPKc
+00003e2e _ZNSt6__ndk16__treeIPN8proxygen11DNSResolver9QueryBaseENS_4lessIS4_EENS_9allocatorIS4_EEE14__erase_uniqueIS4_EEmRKT_
+00003ea3 _ZNSt6__ndk16__treeIPN8proxygen11DNSResolver9QueryBaseENS_4lessIS4_EENS_9allocatorIS4_EEE25__emplace_unique_key_argsIS4_JRKS4_EEENS_4pairINS_15__tree_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEEbEERKT_DpOT0_
+00003f6f _ZN8proxygen11DNSResolver18ResolutionCallbackD2Ev
+00003fa1 _ZNR5folly7dynamicixENS_5RangeIPKcEE
+00003fc6 _ZN5folly7dynamicaSEOS0_
+00003fdf _ZNKR5folly7dynamic2atENS_5RangeIPKcEE
+00004006 _ZN5folly13SocketAddress13setFromIpPortEPKc
+00004032 _ZNKR5folly7dynamic10getDefaultENS_5RangeIPKcEEOS0_
+00004066 _ZN5folly7dynamic8TypeInfoIlE4nameE
+0000408a _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEiEENS_19__map_value_compareIS9_SA_NS_4lessIS9_EELb1EEENS6_ISA_EEE12__find_equalIS9_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISL_EERKT_
+00004188 _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEiEENS_19__map_value_compareIS9_SA_NS_4lessIS9_EELb1EEENS6_ISA_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRKS9_EEENSL_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISA_PvEENS_22__tree_node_destructorINS6_IST_EEEEEEDpOT_
+000042dd nallocx
+000042e5 malloc
+000042ec _ZNK5folly6detail24UsingJEMallocInitializerclEv
+0000431c _ZNK5folly6detail24UsingTCMallocInitializerclEv
+0000434c free
+00004351 realloc
+00004359 _ZN6google4base21CheckOpMessageBuilderC1EPKc
+00004386 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi
+000043bd _ZN6google4base21CheckOpMessageBuilder7ForVar2Ev
+000043ee _ZN6google4base21CheckOpMessageBuilder9NewStringEv
+00004421 _ZN6google4base21CheckOpMessageBuilderD1Ev
+0000444c _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEN8proxygen26DNSPersistentCacheResolver27BidirectionalCallbackHolderEEENS_19__map_value_compareIS9_SD_NS_4lessIS9_EELb1EEENS6_ISD_EEE12__find_equalIS9_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISO_EERKT_
+0000458d _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEN8proxygen26DNSPersistentCacheResolver27BidirectionalCallbackHolderEEENS_19__map_value_compareIS9_SD_NS_4lessIS9_EELb1EEENS6_ISD_EEE16__construct_nodeIJNS2_IS9_SC_EEEEENS_10unique_ptrINS_11__tree_nodeISD_PvEENS_22__tree_node_destructorINS6_ISP_EEEEEEDpOT_
+000046f9 _ZNSt6__ndk16__treeINS_12__value_typeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEtEEN8proxygen26DNSPersistentCacheResolver27BidirectionalCallbackHolderEEENS_19__map_value_compareIS9_SD_NS_4lessIS9_EELb1EEENS6_ISD_EEE13__lower_boundIS9_EENS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEElEERKT_SP_PNS_15__tree_end_nodeIPNS_16__tree_node_baseISN_EEEE
+0000486e _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEm
+000048a5 _ZTIN8proxygen11DNSResolver18ResolutionCallbackE
+000048d6 _ZTIN8proxygen11DNSResolverE
+000048f3 _ZN8proxygen26DNSPersistentCacheResolverC1ENSt6__ndk110unique_ptrINS_11DNSResolverEN5folly18DelayedDestruction10DestructorEEEiPN6wangle15PersistentCacheINS1_4pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtEENS1_6vectorINS3_6AnswerENSE_ISJ_EEEEEEb
+000049fe _ZNSt11logic_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00004a59 _ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00004ab6 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+00004b03 _ZNKSt6__ndk16locale9use_facetERNS0_2idE
+00004b2c _ZNSt6__ndk16localeD1Ev
+00004b44 __wrap___gxx_personality_v0
+00004b60 __wrap__Unwind_Resume
+00004b76 __wrap__ZTISt12length_error
+00004b92 __wrap___cxa_begin_catch
+00004bab __wrap__ZTVN10__cxxabiv120__si_class_type_infoE
+00004bdb __wrap___cxa_allocate_exception
+00004bfb __wrap__ZdlPv
+00004c09 __wrap__ZNSt9exceptionD2Ev
+00004c24 __wrap__ZTVSt12length_error
+00004c40 __wrap___cxa_throw
+00004c53 __wrap___cxa_free_exception
+00004c6f __wrap__Znwm
+00004c7c __wrap__ZSt9terminatev
+00004c93 __wrap__ZTISt9exception
+00004cab __wrap__ZNSt11logic_errorC2EPKc
+00004ccb __wrap__ZNSt12length_errorD1Ev
+00004cea __wrap___cxa_guard_release
+00004d05 __wrap___cxa_guard_acquire
+00004d20 __wrap__ZNSt16invalid_argumentD1Ev
+00004d43 __wrap__ZTISt12out_of_range
+00004d5f __wrap__ZNSt9bad_allocC1Ev
+00004d7a __wrap__ZTISt16invalid_argument
+00004d9a __wrap__ZNSt11logic_errorC2ERKS_
+00004dbb __wrap__ZTVN10__cxxabiv117__class_type_infoE
+00004de8 __wrap__ZNSt13runtime_errorC2ERKS_
+00004e0b __wrap__ZNSt12out_of_rangeD1Ev
+00004e2a __wrap__ZNSt13runtime_errorD1Ev
+00004e4a __wrap__ZNSt11range_errorD2Ev
+00004e68 __wrap__ZTVSt9bad_alloc
+00004e80 __wrap__ZNSt16invalid_argumentD2Ev
+00004ea3 __wrap__ZNSt20bad_array_new_lengthD1Ev
+00004eca __wrap___cxa_end_catch
+00004ee1 __wrap__ZNKSt11logic_error4whatEv
+00004f03 __wrap__ZTVSt12out_of_range
+00004f1f __wrap__ZNSt9bad_allocD1Ev
+00004f3a __wrap__ZTISt9bad_alloc
+00004f52 __wrap__ZTISt11range_error
+00004f6d __wrap__ZTVSt16invalid_argument
+00004f8d __wrap__ZNKSt13runtime_error4whatEv
+00004fb1 __wrap__ZNSt20bad_array_new_lengthC1Ev
+00004fd8 __wrap__ZTISt20bad_array_new_length
+00004ffc __wrap__ZNSt13runtime_errorC1EPKc
+0000501e __wrap__ZNSt13runtime_errorD2Ev
+0000503e __wrap__ZTISt13runtime_error
+0000505b _ZN5folly6detail14to_ascii_arrayILm10ENS_17to_ascii_alphabetILb0EEEE4dataE
+000050a6 _ZN5folly6detail12formatBinaryE
+000050c6 _ZN5folly6detail11formatOctalE
+000050e5 _ZN5folly6detail14formatHexUpperE
+00005107 _ZN5folly6detail29insertThousandsGroupingUnsafeEPcPS1_
+0000513e _ZNK5folly9FormatArg8validateENS0_4TypeE
+00005167 _ZN5folly9FormatArg8initSlowEv
+00005186 _ZN5folly6detail14formatHexLowerE
+000051a8 _ZN5folly6detail15str_to_integralIiEENS_8ExpectedIT_NS_14ConversionCodeEEEPNS_5RangeIPKcEE
+00005203 __wrap___cxa_guard_abort
+0000521c __wrap__ZTISt18bad_variant_access
+0000523e __wrap__ZTVSt18bad_variant_access
+00005260 _ZN5folly6netops5closeENS_13NetworkSocketE
+0000528b _ZN5folly8errnoStrEi
+000052a0 _ZN5folly6netops8shutdownENS_13NetworkSocketEi
+000052cf _ZNSt6__ndk112__next_primeEm
+000052ec _ZNSt6__ndk18ios_base5clearEj
+0000530a _ZNKSt6__ndk18ios_base6getlocEv
+0000532a _ZNSt6__ndk15ctypeIcE2idE
+00005344 mallctlbymib
+00005351 mallctlnametomib
+00005362 mallctl
+0000536a __wrap__ZNSt11logic_errorC1EPKc
+0000538a __wrap__ZNSt11logic_errorD1Ev
+000053a8 __wrap__ZTISt11logic_error
+000053c3 _ZN5folly4json9serializeERKNS_7dynamicERKNS0_18serialization_optsE
+00005406 _ZN5folly9parseJsonENS_5RangeIPKcEERKNS_4json18serialization_optsE
+00005449 _ZN5folly9openNoIntEPKcij
+00005463 __errno
+0000546b _ZN5folly10closeNoIntEi
+00005483 _ZN5folly17current_exceptionEv
+000054a2 _ZN5folly12exceptionStrERKSt13exception_ptr
+000054ce _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+0000550f _ZNSt6__ndk116__pad_and_outputIcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+00005585 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+000055c3 unlink
+000055ca fstat
+000055d0 _ZN5folly8readFullEiPvm
+000055e8 _ZN5folly13CacheLocality6systemINSt6__ndk16atomicEEERKS0_v
+00005623 sysconf
+0000562b open
+00005630 close
+00005636 memchr
+0000563d _ZNSt6__ndk111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_5tupleIJmmmEEELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
+000056cd _ZN5folly6Getcpu15resolveVdsoFuncEv
+000056f1 _ZN5folly15HashingThreadId3getEv
+00005712 _ZN5folly6detail18AccessSpreaderBase10initializeERNS1_11GlobalStateERFPFiPjS4_PvEvERFRKNS_13CacheLocalityEvE
+0000577f _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeImmEENS_22__unordered_map_hasherImS2_NS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSI_IJOmEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+000058d7 posix_memalign
+000058e6 _ZN5folly8coreFreeEPv
+000058fc _ZN5folly6detail19coreMallocFromGuardEm
+00005924 _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeImmEENS_22__unordered_map_hasherImS2_NS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb1EEEvm
+000059ee _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeImmEENS_22__unordered_map_hasherImS2_NS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE11__do_rehashILb1EEEvm
+00005abc _ZN5folly18CoreAllocatorGuardC1Emm
+00005adf _ZN5folly18CoreAllocatorGuardD1Ev
+00005b01 syscall
+00005b09 _ZN5folly13getOSThreadIDEv
+00005b24 _ZN5folly6AtFork15registerHandlerEPKvNS_8FunctionIFbvEEENS3_IFvvEEES7_
+00005b6b _ZNSt6__ndk16__treeINS_12__value_typeIPKvNS_15__list_iteratorIN5folly10AtForkList4TaskEPvEEEENS_19__map_value_compareIS3_SA_NS_4lessIS3_EELb1EEENS_9allocatorISA_EEE25__emplace_unique_key_argsIS3_JRS3_RS9_EEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_S8_EElEEbEERKT_DpOT0_
+00005c86 _ZN5folly18parking_lot_detail6Bucket9bucketForEm
+00005cb7 __memset_chk
+00005cc4 __vsnprintf_chk
+00005cd4 __wrap__ZNSt11logic_errorC1ERKS_
+00005cf5 __wrap__ZNSt13exception_ptrD1Ev
+00005d15 _ZN5folly10closeNoIntENS_13NetworkSocketE
+00005d3f fdatasync
+00005d49 _ZN5folly13shutdownNoIntENS_13NetworkSocketEi
+00005d77 _ZN5folly9readNoIntEiPvm
+00005d90 read
+00005d95 write
+00005d9b pthread_setname_np
+00005dae __wrap__ZnwmRKSt9nothrow_t
+00005dc9 __wrap__ZNSt13runtime_errorC1ERKS_
+00005dec __wrap__ZSt7nothrow
+00005e00 __wrap__ZTVN10__cxxabiv121__vmi_class_type_infoE
+00005e31 getauxval
+00005e3b __system_property_get
+00005e51 strncmp
+00005e59 libm.so
+00005e61 LIBC
+00005e66 libc.so
+00005e6e LIBC_R
+00005e75 libxplat_proxygen_proxygen-lib-dns-resolver.so
+00005ea4 libxplat_proxygen_proxygen-trace.so
+00005ec8 libxplat_mobilenetwork_fbdomains.so
+00005eec libxplat_folly_executor.so
+00005f07 libdouble-conversion.so
+00005f1f libc++_shared.so
+00005f30 libxplat_proxygen_proxygen-lib-dns-cache.so
+00005f60 APS2
+000087e0 N8proxygen22DNSFilePersistentCacheE
+00008804 N6wangle15PersistentCacheINSt6__ndk14pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtEENS1_6vectorIN8proxygen11DNSResolver6AnswerENS6_ISD_EEEEEE
+000088a8 invalid format argument {
+000088c2 Infinity
+000088cb unrecognized address family
+000088e7 CoreAllocator::Guard cannot be used recursively
+00008917 cannot provide value arg index without width arg index
+0000894e cannot provide width arg index without value arg index
+00008989 scontent.xx.fbcdn.net
+0000899f address
+000089a7 bad expected access
+000089bb folly::format: may not have both default and explicit arg indexes
+000089fd opt.narenas
+00008a09 vector
+00008a10 ' specifier
+00008a1c argument index must be integer
+00008a3b xplat/folly/concurrency/CacheLocality.cpp
+00008a65 xplat/wangle/client/persistence/FilePersistenceLayer.cpp
+00008a9e xplat/proxygen/facebook/httpclient/dns/DNSPersistentCacheResolver.cpp
+00008ae4 xplat/folly/detail/MemoryIdler.cpp
+00008b07 Caught non-std exception
+00008b20 folly::format: invalid precision
+00008b41 b-graph.facebook.com
+00008b5a mallctl
+00008b62 rehashImpl
+00008b6d dynamic field width argument must be integral
+00008b9b folly::format: invalid width
+00008bb8 thread.tcache.flush
+00008bcc ro.arch
+00008bd4 xplat/proxygen/facebook/httpclient/dns/DNSPersistentCacheResolver.h
+00008c18 xplat/wangle/client/persistence/LRUInMemoryCache-inl.h
+00008c4f xplat/wangle/client/persistence/LRUPersistentCache-inl.h
+00008c88 xplat/folly/container/detail/F14Table.h
+00008cb0 basic_string
+00008cbd int/double/bool/string
+00008cd4 folly::format: single '}' in format string
+00008cff folly::format: '}' at end of format string
+00008d2a setTag
+00008d31 clearTag
+00008d3a argument index must be non-negative
+00008d5e at-fork: append: duplicate
+00008d79 resolver_type
+00008d87 start_time
+00008d92 name
+00008d97 arena.0.purge
+00008da5 index out of range
+00008db8 CoreAllocator::allocator called without an active Guard
+00008df0 basic_fbstring: null pointer initializer not valid
+00008e23 Unimplemented
+00008e31 integer key expected
+00008e46 integer key required
+00008e5b condition_variable timed_wait failed
+00008e80 thread constructor failed
+00008e9a mallctl* weak link failed
+00008eb4 condition_variable::timed wait: mutex not locked
+00008ee5 lru-sync-thread
+00008ef5 mallctl: not using jemalloc
+00008f11 thread.arena
+00008f26 <unknown>
+00008f30 <none>
+00008f37 argument index out of range, max=
+00008f5b exynos9810
+00008f66 cbs.numInflight > 0
+00008f7a tags_[index] == 0
+00008f8c queries.size() == 0
+00008fa0 (tags_[index] & 0x80) != 0
+00008fbb DNSResolver::ResolutionCallback::insertQuery must be called with non-null query.
+0000900c Failed to convert cache for serialization.
+00009037 mallctl[{}] {}: {} ({})
+0000904f (null)
+00009056 hp.second == srcChunk->tag(srcI)
+00009077 array (size 2) or object (size 1)
+0000909b folly::format: missing ending '}'
+000090bd unmatched ']'
+000090cb invalid specifier '
+000090df base prefix not allowed with '
+000090fe thousands separator (',') not allowed with '
+0000912b cannot use ',' with the '
+00009145 Caught 
+0000914d Check failed: gCoreAllocatorGuard == nullptr 
+0000917b Check failed: gCoreAllocatorGuard != nullptr 
+000091a9 Failed to write to 
+000091bd write failed with errno 
+000091d6 : errno 
+000091df Failed to close 
+000091f0 Deserialization of cache file 
+0000920f Check failed: callbackValidationMap_[key] == expected 
+00009246 Failed to sync 
+0000925a Load cache failed with key error: 
+0000927d Load cache failed with error: 
+0000929c Converting cache to folly::dynamic failed with error: 
+000092d3 Serializing to JSON failed with error: 
+000092fb Load cache failed with type error: 
+0000931f failed: 
+0000932b Check failed: pthread_equal(pthread_self(), origThread_) 
+00009365 Check failed: ele != vec.end() 
+00009385 Check failed: it != cacheResolver_->cbMap_.end() 
+000093b7 Check failed: it != cbMap_.end() 
+000093d9 N6wangle19FilePersistentCacheINSt6__ndk14pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEElEENS1_6vectorIN8proxygen11DNSResolver6AnswerENS6_ISD_EEEENS1_5mutexEEE
+0000948c N6wangle15PersistentCacheINSt6__ndk14pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEElEENS1_6vectorIN8proxygen11DNSResolver6AnswerENS6_ISD_EEEEEE
+00009530 NSt6__ndk120__shared_ptr_emplaceIN6wangle18LRUPersistentCacheINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_6vectorIN8proxygen11DNSResolver6AnswerENS7_ISE_EEEENS_5mutexEEENS7_ISI_EEEE
+00009603 N6wangle18LRUPersistentCacheINSt6__ndk14pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEElEENS1_6vectorIN8proxygen11DNSResolver6AnswerENS6_ISD_EEEENS1_5mutexEEE
+000096b5 NSt6__ndk123enable_shared_from_thisIN6wangle18LRUPersistentCacheINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEElEENS_6vectorIN8proxygen11DNSResolver6AnswerENS7_ISE_EEEENS_5mutexEEEEE
+000097a0 NSt6__ndk120__shared_ptr_pointerIPN6wangle16CachePersistenceENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE
+0000980c NSt6__ndk114default_deleteIN6wangle16CachePersistenceEEE
+00009845 N5folly9TypeErrorE
+0000985b N5folly17BadExpectedAccessIvEE
+0000987a N5folly15ConversionErrorE
+00009894 N5folly19ConversionErrorBaseE
+000098b2 N5folly17BadExpectedAccessINS_14ConversionCodeEEE
+000098e5 long
+000098ea N8proxygen26DNSPersistentCacheResolver12DNSCallbacksE
+00009920 N5boost9intrusive14list_base_hookIJNS0_9link_modeILNS0_14link_mode_typeE2EEEEEE
+00009970 N5boost9intrusive12generic_hookILNS0_10algo_typesE0ENS0_16list_node_traitsIPvEENS0_7dft_tagELNS0_14link_mode_typeE2ELNS0_14base_hook_typeE1EEE
+000099ff N5boost9intrusive11node_holderINS0_9list_nodeIPvEENS0_7dft_tagELj1EEE
+00009a45 N5boost9intrusive9list_nodeIPvEE
+00009a66 N5boost9intrusive17hook_tags_definerINS0_12generic_hookILNS0_10algo_typesE0ENS0_16list_node_traitsIPvEENS0_7dft_tagELNS0_14link_mode_typeE2ELNS0_14base_hook_typeE1EEELj1EEE
+00009b13 N8proxygen18TraceEventObserverE
+00009b33 N8proxygen26DNSPersistentCacheResolverE
+00009b5b N8proxygen26DNSPersistentCacheResolver17DNSCacheQueryBaseE
+00009b96 N8proxygen11DNSResolver9QueryBaseE
+00009bb9 N8proxygen15TimeUtilGenericINSt6__ndk16chrono12steady_clockEEE
+00009bf9 N6wangle20FilePersistenceLayerE
+00009c19 N6wangle16CachePersistenceE
+00009c35 N5folly12BadFormatArgE
+0000d979 zPLR
+0000fa25 #@9h
+0000fac4 h2@y
+0000fb25 #@9h
+00010b95 B@9h
+00010c74 hbA9h
+00010c7b 6`6@
+00010c8b 6`*@
+00010cbc hbA9h
+00010cc3 6`6@
+00010cd3 6`*@
+00010e3f T`"@
+00010f72 	kh>
+0001144b ThB@
+000117c9 #@9h
+0001197b 6h.@
+00011a37 Tu:@
+00011b40 h"A9*
+00011b6c h"A9i"@
+00011bdc h?@9
+00011d09 #@9h
+00012146 @9	ii8
+00012152 _8I!	
+0001251d B@9	
+00012579 B@9(!
+000125c4 	i{8
+000128f5 hh8L
+000128fd h(8K
+000129d3 Rl[h
+00012af5 #@9h
+00012b28 .hh8
+00012b40 *h(8(In8
+00012b4f *#i!8*	
+00012b58 (9@9@A
+00012b7c .=@9
+00012ba4 .hh8
+00012cb5 i"8	9@9?A
+00012cf0 /=@9
+00012d09 @@9I!
+00012d2f **9@9H
+00012da9 B@9*
+00012dd5 B@9(!
+00012e48 H?@9
+00012f20 iB@9
+000130ec hB@9h
+000136a4 nynxNi/x
+000136bc Jyaxa
+00013818 ?i(8
+00013860 ?i(8
+000138ff RKyi
+00013a28 hB@9
+00013ad0 h"@9
+00013ed9 #@9h
+00014265 #@9h
+000143df Rlyh
+00014527 Th&@
+000145a3 *		@
+00014761 #A9h
+00014833 =h6@
+0001484b <hr@
+00014ed9 `@9H
+00015050 h"@9
+00015084 	 @9
+0001519c h"@9
+0001529d #@9h
+0001570b Tu"A
+00015823 Tu"A
+000159a3 Tv"A
+00015caf 7		@
+00015cdb 7		@
+00015d43 6`*@
+00016448 hb@9
+0001691f 6hB@
+00016c11 #@9h
+000170c4 hBC9
+00017123 7h:A
+00017167 *hBC9
+0001766b T`Z@
+00017b99 CA9h
+00017c2d CA9h
+00017cc9 CA9h
+000188c3 5h[@y
+00019057 6`.@
+000190d7 6`6@
+00019409 BA9H
+00019fd7 T{zx
+0001a000 hcA9
+0001a1c8 H\@9I(@
+0001a62c HcA9
+0001a73b Th&@
+0001ad0f 6`>@
+0001afdd c@9h
+0001b119 Z@y(
+0001b47b 6`*@
+0001b4a3 6`6@
+0001b56b 6`*@
+0001b593 6`6@
+0001b5fd cB9h
+0001b893 6`b@
+0001b8b3 6`>@
+0001b953 6`b@
+0001b973 6`>@
+0001ba94 hbA9h
+0001ba9b 6`6@
+0001bab4 hB@9h
+0001bb60 hbA9h
+0001bb67 6`6@
+0001bb80 hB@9h
+0001bc94 hb@9
+0001bcf0 hb@9h
+0001c45f =H7@
+0001c477 <Hs@
+0001cebc h2@y
+0001cee8 (a@9
+0001ceef 7(	@
+0001d1a8 h^@9k*@
+0001d21c h^@9i
+0001d2bf 6h^@9
+0001d354 ?i(8h
+0001d6bf r)!F
+0001d7db r)-F
+0001d89b r)1F
+0001e038 ?i38
+0001e203 TH	@
+0001e210 La@9_
+0001e250 -`@9
+0001e275 a@9L
+0001e2e0 Ka@9
+0001e2f4 la@9
+0001e30f THa@9
+0001e378 Ka@9
+0001e38c la@9
+0001e39f 9Ha@9
+0001e3b3 TH	@
+0001e3f8 ia@9?
+0001e455 a@9*a
+0001e467 9(	@
+0001e4b0 Ia@9
+0001e509 a@9*a
+0001e51b 9(	@
+0001eb79 `@9H
+0001ee93 =h6@
+0001eeab <hr@
+0001efcf 6`*@
+0001eff7 6`6@
+0001f08f 6`*@
+0001f0b7 6`6@
+0001f21b TjM@
+0001f3ff <hr@
+0001f43b 6`*@
+0001f45f 6`6@
+0001f4c9 cA9h
+0001f835 #@9h
+0001fba1 #@9h
+0001fd1b Rlyh
+0001ff5d #@9h
+000200d7 Rlyh
+000203ff =(0@y?
+0002040f y( @
+000205a1 #@9h
+00020723 Zmyi
+0002073b TH}H
+00020bd8 hB@9i
+00020c84 hB@9j
+00020d4c hB@9j
+00020dd4 hB@9j
+00021361 @@9	
+00021380 	@@9
+000213b4 	@@9
+00021d0b T	yx
+00024cce ?60`
+00025ce9 80.	
+0002730c HLB8(
+0002739c HLB8h
+00027497 T`:@
+000274af TtZD
+0002762b TI @
+000276b9 F@9		
+000280ef 7lJ@9
+0002816b TiN@9?
+00028177 TiR@9?
+000281bf TjR@9_
+000281f8 M	@9
+00028227 9hN@9
+00028253 TiR@9?
+0002828b R+ih8
+000282b3 TiN@9?
+000282d8 hR@9
+000282fc jR@9_
+0002833f 9hN@9
+00028354 iN@9?
+0002835f TiR@9?
+00028388 jR@9_
+000283cb 9hN@9
+000283ef RiN@9
+00028598 hD@9
+000286a8 .in8
+000286ad h*8J
+000286c8 )ij8	
+0002872b 7iJ@9?
+000287a7 ThN@9
+000287b3 ThR@9
+000287ff ThR@9
+00028824 hN@9
+00028853 ThR@9
+00028878 hN@9
+00028889 3@9	
+000288ab ThN@9
+000288d0 hR@9
+000288f4 hR@9
+00028924 hN@9
+0002892f ThR@9
+00028958 hR@9
+0002899f SMYmx)	
+000289b7 5KE"
+000289d2 @9*	
+000289dc (i*8hN@9
+00028a13 SMYmx)	
+00028a2b 5KE"
+00028a46 @9*	
+00028a50 (i*8hN@9
+00028b63 S)E)
+00028b7b 8J|	S,	@9)
+00028b9f qkA*
+00028bac l	@9
+00028bb1 h(8#
+00028bba @9(	
+00028c11 ha8!
+00028c2f R	h(8
+00028ef7 Rlyi
+00029435 Bv9p
+000294c8 (A69h
+000294f5 Bv9p
+00029507 *@|_
+00029525 Bv9p
+00029555 Bv9p
+00029585 Bv9p
+000295b5 Bv9p
+000295e5 Bv9p
+0002b3e1 .init_array
+0002b3ed .fini_array
+0002b3f9 .text
+0002b3ff .got
+0002b404 .note.android.ident
+0002b418 .got.plt
+0002b421 .rela.plt
+0002b42b .tbss
+0002b431 .bss
+0002b436 .dynstr
+0002b43e .eh_frame_hdr
+0002b44c .gnu.version_r
+0002b45b .data.rel.ro
+0002b468 .relr.dyn
+0002b472 .rela.dyn
+0002b47c .gnu.version
+0002b489 .dynsym
+0002b491 .gnu.hash
+0002b49b .relro_padding
+0002b4aa .eh_frame
+0002b4b4 .gcc_except_table
+0002b4c6 .note.gnu.build-id
+0002b4d9 .dynamic
+0002b4e2 .shstrtab
+0002b4ec .rodata
+0002b4f4 .data

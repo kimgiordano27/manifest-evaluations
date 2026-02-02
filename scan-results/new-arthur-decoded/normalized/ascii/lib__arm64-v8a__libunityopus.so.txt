@@ -1,0 +1,2981 @@
+00001689 I*A@
+000016b0 *R3B
+000016ce *@`B
+00001731 V	YU
+00001779  E(@
+000017d8 a@@H0
+0000180b 'h`a
+000021aa ;Tq!
+0000227c BUYb^J(
+000022bc s@5}
+000022c2 ]d=d
+000022ff @0qW
+0000239b gvl,
+000023d2 +]f$5
+0000245d x[6"
+000024e1 ~86TCP
+000024f6 Zfti
+00002598 nh*c
+00002669 m"fv
+000026af B8[t
+00002888 uh2)
+00002975 #H2	
+000029f7 lUeA
+00007311 __cxa_finalize
+00007320 __cxa_atexit
+0000732d _ZN5debug3logERKNSt6__ndk112basic_stringIwNS0_11char_traitsIwEENS0_9allocatorIwEEEE
+00007381 _ZN5debugC1EPFvPKwE
+00007395 _ZN5debugC2EPFvPKwE
+000073a9 OpusDecode
+000073b4 OpusDecodeFloat
+000073c4 OpusDecoderCreate
+000073d6 OpusDecoderDestroy
+000073e9 OpusEncode
+000073f4 OpusEncodeFloat
+00007404 OpusEncoderCreate
+00007416 OpusEncoderDestroy
+00007429 OpusEncoderSetBitrate
+0000743f OpusEncoderSetComplexity
+00007458 OpusEncoderSetSignal
+0000746d OpusPcmSoftClip
+0000747d SetDebugLogFunc
+0000748d _ZdlPv
+00007494 _Znwm
+0000749a __gxx_personality_v0
+000074af opus_decode
+000074bb opus_decode_float
+000074cd opus_decoder_create
+000074e1 opus_decoder_destroy
+000074f6 opus_encode
+00007502 opus_encode_float
+00007514 opus_encoder_create
+00007528 opus_encoder_ctl
+00007539 opus_encoder_destroy
+0000754e opus_pcm_soft_clip
+00007561 _ZN13runtime_errorC1ERKNSt6__ndk112basic_stringIwNS0_11char_traitsIwEENS0_9allocatorIwEEEE
+000075bc _ZN13runtime_errorC2ERKNSt6__ndk112basic_stringIwNS0_11char_traitsIwEENS0_9allocatorIwEEEE
+00007617 _ZN13runtime_errorD0Ev
+0000762e _ZN13runtime_errorD2Ev
+00007645 _ZNK13runtime_error11get_messageEv
+00007668 _ZNKSt13runtime_error4whatEv
+00007685 _ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv
+000076c8 _ZNSt11logic_errorC2EPKc
+000076e1 _ZNSt12length_errorD1Ev
+000076f9 _ZNSt13runtime_errorC2EPKc
+00007714 _ZNSt13runtime_errorD2Ev
+0000772d _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC2ERKS5_
+00007778 _ZSt9terminatev
+00007788 _ZTI13runtime_error
+0000779c _ZTISt12length_error
+000077b1 _ZTISt13runtime_error
+000077c7 _ZTS13runtime_error
+000077db _ZTV13runtime_error
+000077ef _ZTVN10__cxxabiv120__si_class_type_infoE
+00007818 _ZTVSt12length_error
+0000782d __cxa_allocate_exception
+00007846 __cxa_begin_catch
+00007858 __cxa_free_exception
+0000786d __cxa_throw
+00007879 wmemcpy
+00007881 encode_size
+0000788d opus_packet_get_samples_per_frame
+000078af opus_packet_parse
+000078c1 opus_packet_parse_impl
+000078d8 __stack_chk_fail
+000078e9 celt_decode_with_ec
+000078fd celt_decoder_get_size
+00007913 celt_decoder_init
+00007925 celt_fatal
+00007930 ec_dec_bit_logp
+00007940 ec_dec_init
+0000794c ec_dec_uint
+0000795c free
+00007961 malloc
+00007968 memset
+0000796f opus_custom_decoder_ctl
+00007987 opus_decode_native
+0000799a opus_decoder_ctl
+000079ab opus_decoder_get_nb_samples
+000079c7 opus_decoder_get_size
+000079dd opus_decoder_init
+000079ef opus_packet_get_bandwidth
+00007a09 opus_packet_get_nb_channels
+00007a25 opus_packet_get_nb_frames
+00007a3f opus_packet_get_nb_samples
+00007a5a silk_Decode
+00007a66 silk_Get_Decoder_Size
+00007a7c silk_InitDecoder
+00007a8d celt_encode_with_ec
+00007aa1 celt_encoder_get_size
+00007ab7 celt_encoder_init
+00007ac9 compute_stereo_width
+00007ade downmix_float
+00007aec downmix_int
+00007af8 ec_enc_bit_logp
+00007b08 ec_enc_done
+00007b14 ec_enc_init
+00007b20 ec_enc_shrink
+00007b2e ec_enc_uint
+00007b3a frame_size_select
+00007b4c is_digital_silence
+00007b5f memmove
+00007b67 opus_custom_encoder_ctl
+00007b7f opus_encode_native
+00007b92 opus_encoder_get_size
+00007ba8 opus_encoder_init
+00007bba opus_packet_pad
+00007bca opus_repacketizer_cat
+00007be0 opus_repacketizer_init
+00007bf7 opus_repacketizer_out_range_impl
+00007c18 run_analysis
+00007c25 silk_Encode
+00007c31 silk_Get_Encoder_Size
+00007c47 silk_InitEncoder
+00007c58 silk_lin2log
+00007c65 silk_log2lin
+00007c72 tonality_analysis_init
+00007c89 tonality_analysis_reset
+00007ca1 opus_multistream_packet_pad
+00007cbd opus_multistream_packet_unpad
+00007cdb opus_packet_unpad
+00007ced opus_repacketizer_create
+00007d06 opus_repacketizer_destroy
+00007d20 opus_repacketizer_get_nb_frames
+00007d40 opus_repacketizer_get_size
+00007d5b opus_repacketizer_out
+00007d71 opus_repacketizer_out_range
+00007d8d compute_dense
+00007d9b compute_gru
+00007da7 layer0
+00007dae layer1
+00007db5 layer2
+00007dbc log10
+00007dc2 opus_fft_c
+00007dcd tonality_get_info
+00007ddf ec_dec_icdf
+00007deb silk_LBRR_flags_iCDF_ptr
+00007e04 silk_decode_frame
+00007e16 silk_decode_indices
+00007e2a silk_decode_pulses
+00007e3d silk_decoder_set_fs
+00007e51 silk_init_decoder
+00007e63 silk_resampler
+00007e72 silk_stereo_MS_to_LR
+00007e87 silk_stereo_decode_mid_only
+00007ea3 silk_stereo_decode_pred
+00007ebb check_control_input
+00007ecf ec_enc_icdf
+00007edb ec_enc_patch_initial_bits
+00007ef5 silk_HP_variable_cutoff
+00007f0d silk_Quantization_Offsets_Q10
+00007f2b silk_control_SNR
+00007f3c silk_control_encoder
+00007f51 silk_encode_do_VAD_FLP
+00007f68 silk_encode_frame_FLP
+00007f7e silk_encode_indices
+00007f92 silk_encode_pulses
+00007fa5 silk_init_encoder
+00007fb7 silk_stereo_LR_to_MS
+00007fcc silk_stereo_encode_mid_only
+00007fe8 silk_stereo_encode_pred
+00008000 silk_LTP_gain_iCDF_ptrs
+00008018 silk_LTP_per_index_iCDF
+00008030 silk_LTPscale_iCDF
+00008043 silk_NLSF_EXT_iCDF
+00008056 silk_NLSF_interpolation_factor_iCDF
+0000807a silk_NLSF_unpack
+0000808b silk_delta_gain_iCDF
+000080a0 silk_gain_iCDF
+000080af silk_pitch_delta_iCDF
+000080c5 silk_pitch_lag_iCDF
+000080d9 silk_type_offset_VAD_iCDF
+000080f3 silk_type_offset_no_VAD_iCDF
+00008110 silk_uniform4_iCDF
+00008123 silk_uniform8_iCDF
+00008136 silk_encode_signs
+00008148 silk_lsb_iCDF
+00008156 silk_max_pulses_table
+0000816c silk_pulses_per_block_BITS_Q5
+0000818a silk_pulses_per_block_iCDF
+000081a5 silk_rate_levels_BITS_Q5
+000081be silk_rate_levels_iCDF
+000081d4 silk_shell_encoder
+000081e7 silk_shell_code_table0
+000081fe silk_shell_code_table1
+00008215 silk_shell_code_table2
+0000822c silk_shell_code_table3
+00008243 silk_shell_code_table_offsets
+00008261 silk_shell_decoder
+00008274 silk_LTP_gain_BITS_Q5_ptrs
+0000828f silk_LTP_vq_gain_ptrs_Q7
+000082a8 silk_LTP_vq_ptrs_Q7
+000082bc silk_LTP_vq_sizes
+000082ce silk_LTPScales_table_Q14
+000082e7 silk_Transition_LP_A_Q28
+00008300 silk_Transition_LP_B_Q28
+00008319 silk_stereo_only_code_mid_iCDF
+00008338 silk_stereo_pred_joint_iCDF
+00008354 silk_stereo_pred_quant_Q13
+0000836f silk_uniform3_iCDF
+00008382 silk_uniform5_iCDF
+00008395 silk_uniform6_iCDF
+000083a8 silk_pitch_contour_10_ms_NB_iCDF
+000083c9 silk_pitch_contour_10_ms_iCDF
+000083e7 silk_pitch_contour_NB_iCDF
+00008402 silk_pitch_contour_iCDF
+0000841a silk_sign_iCDF
+00008429 silk_stereo_find_predictor
+00008444 silk_stereo_quant_pred
+0000845b silk_VAD_Init
+00008469 silk_NLSF_CB_NB_MB
+0000847c silk_NLSF_CB_WB
+0000848c silk_control_audio_bandwidth
+000084a9 silk_resampler_init
+000084bd silk_Resampler_1_2_COEFS
+000084d6 silk_Resampler_1_3_COEFS
+000084ef silk_Resampler_1_4_COEFS
+00008508 silk_Resampler_1_6_COEFS
+00008521 silk_Resampler_2_3_COEFS
+0000853a silk_Resampler_3_4_COEFS
+00008553 silk_resampler_private_IIR_FIR
+00008572 silk_resampler_private_down_FIR
+00008592 silk_resampler_private_up2_HQ_wrapper
+000085b8 silk_resampler_private_AR2
+000085d3 silk_resampler_frac_FIR_12
+000085ee silk_resampler_private_up2_HQ
+0000860c silk_Resampler_2_3_COEFS_LQ
+00008628 silk_inner_prod_aligned_scale
+00008646 silk_sum_sqr_shift
+00008659 __sF
+0000865e abort
+00008664 comb_filter
+00008670 init_caps
+0000867a opus_get_version_string
+00008692 opus_strerror
+000086a0 resampling_factor
+000086b2 tf_select_table
+000086c2 amp2Log2
+000086cb celt_preemphasis
+000086dc clt_compute_allocation
+000086f3 clt_mdct_forward_c
+00008706 compute_band_energies
+0000871c eMeans
+00008723 ec_enc_bits
+0000872f ec_tell_frac
+0000873c haar1
+00008742 hysteresis_decision
+00008756 opus_custom_mode_create
+0000876e pitch_downsample
+0000877f pitch_search
+0000878c quant_all_bands
+0000879c remove_doubling
+000087ac spreading_decision
+000087bf _celt_autocorr
+000087ce _celt_lpc
+000087d8 anti_collapse
+000087e6 celt_fir_c
+000087f1 celt_iir
+000087fa celt_lcg_rand
+00008808 clt_mdct_backward_c
+0000881c denormalise_bands
+0000882e ec_dec_bits
+0000883a renormalise_vector
+0000884d unquant_coarse_energy
+00008863 unquant_energy_finalise
+0000887b unquant_fine_energy
+0000888f validate_celt_decoder
+000088a5 ec_dec_update
+000088b3 ec_decode
+000088bd ec_decode_bin
+000088cb ec_encode
+000088d5 ec_encode_bin
+000088e3 opus_fft_impl
+000088f1 opus_ifft_c
+000088fd celt_pitch_xcorr_c
+00008910 ec_laplace_decode
+00008922 ec_laplace_encode
+00008934 alg_quant
+0000893e alg_unquant
+0000894a exp_rotation
+00008957 op_pvq_search_c
+00008967 stereo_itheta
+00008975 __memcpy_chk
+00008982 silk_LP_variable_cutoff
+0000899a silk_NSQ_wrapper_FLP
+000089af silk_VAD_GetSA_Q8_c
+000089c3 silk_find_pitch_lags_FLP
+000089dc silk_find_pred_coefs_FLP
+000089f5 silk_gains_ID
+00008a03 silk_gains_dequant
+00008a16 silk_gains_quant
+00008a27 silk_noise_shape_analysis_FLP
+00008a45 silk_process_gains_FLP
+00008a5c silk_LPC_analysis_filter_FLP
+00008a79 silk_apply_sine_window_FLP
+00008a94 silk_autocorrelation_FLP
+00008aad silk_bwexpander_FLP
+00008ac1 silk_k2a_FLP
+00008ace silk_pitch_analysis_core_FLP
+00008aeb silk_schur_FLP
+00008afa exp2
+00008aff silk_LTP_analysis_filter_FLP
+00008b1c silk_LTP_scale_ctrl_FLP
+00008b34 silk_find_LPC_FLP
+00008b46 silk_find_LTP_FLP
+00008b58 silk_process_NLSFs_FLP
+00008b6f silk_quant_LTP_gains_FLP
+00008b88 silk_residual_energy_FLP
+00008ba1 silk_scale_copy_vector_FLP
+00008bbc silk_energy_FLP
+00008bcc silk_warped_autocorrelation_FLP
+00008bec silk_residual_energy_covar_FLP
+00008c0b silk_A2NLSF
+00008c17 silk_A2NLSF_FLP
+00008c27 silk_NLSF2A
+00008c33 silk_NLSF2A_FLP
+00008c43 silk_NSQ_c
+00008c4e silk_NSQ_del_dec_c
+00008c61 silk_process_NLSFs
+00008c74 silk_quant_LTP_gains
+00008c89 silk_inner_product_FLP
+00008ca0 __memset_chk
+00008cad silk_CB_lags_stage2
+00008cc1 silk_CB_lags_stage2_10_ms
+00008cdb silk_CB_lags_stage3
+00008cef silk_CB_lags_stage3_10_ms
+00008d09 silk_Lag_range_stage3
+00008d1f silk_Lag_range_stage3_10_ms
+00008d3b silk_insertion_sort_decreasing_FLP
+00008d5e silk_nb_cbk_searchs_stage3
+00008d79 silk_resampler_down2
+00008d8e silk_resampler_down2_3
+00008da5 silk_decode_signs
+00008db7 silk_CNG_Reset
+00008dc6 silk_PLC_Reset
+00008dd5 silk_CNG
+00008dde silk_PLC
+00008de7 silk_PLC_glue_frames
+00008dfc silk_decode_core
+00008e0d silk_decode_parameters
+00008e24 silk_NLSF_decode
+00008e35 silk_bwexpander
+00008e45 silk_decode_pitch
+00008e57 silk_biquad_alt_stride1
+00008e6f silk_NLSF_stabilize
+00008e83 silk_LPC_analysis_filter
+00008e9c silk_LPC_inverse_pred_gain_c
+00008eb9 silk_ana_filt_bank_1
+00008ece silk_sigm_Q15
+00008edc silk_VQ_WMat_EC_c
+00008eee silk_NLSF_VQ_weights_laroia
+00008f0a silk_NLSF_encode
+00008f1b silk_interpolate
+00008f2c silk_LSFCosTab_FIX_Q12
+00008f43 silk_bwexpander_32
+00008f56 silk_biquad_alt_stride2_c
+00008f70 silk_LPC_fit
+00008f7d silk_insertion_sort_increasing_all_values_int16
+00008fad silk_insertion_sort_increasing
+00008fcc bitexact_cos
+00008fd9 bitexact_log2tan
+00008fea isqrt32
+00008ff2 silk_burg_modified_FLP
+00009009 silk_corrMatrix_FLP
+0000901d silk_corrVector_FLP
+00009031 silk_scale_vector_FLP
+00009047 silk_NLSF_VQ
+00009054 silk_NLSF_del_dec_quant
+0000906c libm.so
+00009074 _ZNSt9bad_allocC1Ev
+00009088 _ZNSt9bad_allocD1Ev
+0000909c _ZSt15get_new_handlerv
+000090b3 _ZSt17__throw_bad_allocv
+000090cc _ZSt7nothrow
+000090d9 _ZTISt9bad_alloc
+000090ea _ZdaPv
+000090f1 _ZdaPvRKSt9nothrow_t
+00009106 _ZdaPvSt11align_val_t
+0000911c _ZdaPvSt11align_val_tRKSt9nothrow_t
+00009140 _ZdaPvm
+00009148 _ZdaPvmSt11align_val_t
+0000915f _ZdlPvRKSt9nothrow_t
+00009174 _ZdlPvSt11align_val_t
+0000918a _ZdlPvSt11align_val_tRKSt9nothrow_t
+000091ae _ZdlPvm
+000091b6 _ZdlPvmSt11align_val_t
+000091cd _Znam
+000091d3 _ZnamRKSt9nothrow_t
+000091e7 _ZnamSt11align_val_t
+000091fc _ZnamSt11align_val_tRKSt9nothrow_t
+0000921f _ZnwmRKSt9nothrow_t
+00009233 _ZnwmSt11align_val_t
+00009248 _ZnwmSt11align_val_tRKSt9nothrow_t
+0000926b __cxa_end_catch
+0000927b posix_memalign
+0000928a _ZNSt11logic_errorC1EPKc
+000092a3 _ZNSt11logic_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+000092fe _ZNSt11logic_errorC1ERKS_
+00009318 _ZNSt11logic_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00009373 _ZNSt11logic_errorC2ERKS_
+0000938d _ZNSt11logic_erroraSERKS_
+000093a7 _ZNSt13runtime_errorC1EPKc
+000093c2 _ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+0000941f _ZNSt13runtime_errorC1ERKS_
+0000943b _ZNSt13runtime_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+00009498 _ZNSt13runtime_errorC2ERKS_
+000094b4 _ZNSt13runtime_erroraSERKS_
+000094d0 _ZNSt9exceptionD2Ev
+000094e4 _ZTVSt11logic_error
+000094f8 _ZTVSt13runtime_error
+0000950e strlen
+00009515 _ZN10__cxxabiv119__getExceptionClassEPK17_Unwind_Exception
+00009550 _ZN10__cxxabiv119__setExceptionClassEP17_Unwind_Exceptionm
+0000958b _ZN10__cxxabiv121__isOurExceptionClassEPK17_Unwind_Exception
+000095c8 _ZSt13get_terminatev
+000095dd _ZSt14get_unexpectedv
+000095f3 __cxa_allocate_dependent_exception
+00009616 __cxa_call_unexpected
+0000962c __cxa_current_exception_type
+00009649 __cxa_current_primary_exception
+00009669 __cxa_decrement_exception_refcount
+0000968c __cxa_free_dependent_exception
+000096ab __cxa_get_exception_ptr
+000096c3 __cxa_get_globals
+000096d5 __cxa_get_globals_fast
+000096ec __cxa_increment_exception_refcount
+0000970f __cxa_rethrow
+0000971d __cxa_rethrow_primary_exception
+0000973d __cxa_uncaught_exception
+00009756 __cxa_uncaught_exceptions
+00009770 pthread_getspecific
+00009784 pthread_key_create
+00009797 pthread_once
+000097a4 pthread_setspecific
+000097b8 _ZSt10unexpectedv
+000097ca _ZSt15set_new_handlerPFvvE
+000097e5 __cxa_new_handler
+000097f7 __cxa_terminate_handler
+0000980f __cxa_unexpected_handler
+00009828 _ZNSt13bad_exceptionD1Ev
+00009841 _ZTISt13bad_exception
+00009857 _ZTVSt13bad_exception
+0000986d calloc
+00009874 pthread_mutex_lock
+00009887 pthread_mutex_unlock
+0000989c _ZNSt9type_infoD2Ev
+000098b0 _ZTIDh
+000098b7 _ZTIDi
+000098be _ZTIDn
+000098c5 _ZTIDs
+000098cc _ZTIDu
+000098d3 _ZTIN10__cxxabiv116__enum_type_infoE
+000098f8 _ZTIN10__cxxabiv116__shim_type_infoE
+0000991d _ZTIN10__cxxabiv117__array_type_infoE
+00009943 _ZTIN10__cxxabiv117__class_type_infoE
+00009969 _ZTIN10__cxxabiv117__pbase_type_infoE
+0000998f _ZTIN10__cxxabiv119__pointer_type_infoE
+000099b7 _ZTIN10__cxxabiv120__function_type_infoE
+000099e0 _ZTIN10__cxxabiv120__si_class_type_infoE
+00009a09 _ZTIN10__cxxabiv121__vmi_class_type_infoE
+00009a33 _ZTIN10__cxxabiv123__fundamental_type_infoE
+00009a5f _ZTIN10__cxxabiv129__pointer_to_member_type_infoE
+00009a91 _ZTIPDh
+00009a99 _ZTIPDi
+00009aa1 _ZTIPDn
+00009aa9 _ZTIPDs
+00009ab1 _ZTIPDu
+00009ab9 _ZTIPKDh
+00009ac2 _ZTIPKDi
+00009acb _ZTIPKDn
+00009ad4 _ZTIPKDs
+00009add _ZTIPKDu
+00009ae6 _ZTIPKa
+00009aee _ZTIPKb
+00009af6 _ZTIPKc
+00009afe _ZTIPKd
+00009b06 _ZTIPKe
+00009b0e _ZTIPKf
+00009b16 _ZTIPKg
+00009b1e _ZTIPKh
+00009b26 _ZTIPKi
+00009b2e _ZTIPKj
+00009b36 _ZTIPKl
+00009b3e _ZTIPKm
+00009b46 _ZTIPKn
+00009b4e _ZTIPKo
+00009b56 _ZTIPKs
+00009b5e _ZTIPKt
+00009b66 _ZTIPKv
+00009b6e _ZTIPKw
+00009b76 _ZTIPKx
+00009b7e _ZTIPKy
+00009b86 _ZTIPa
+00009b8d _ZTIPb
+00009b94 _ZTIPc
+00009b9b _ZTIPd
+00009ba2 _ZTIPe
+00009ba9 _ZTIPf
+00009bb0 _ZTIPg
+00009bb7 _ZTIPh
+00009bbe _ZTIPi
+00009bc5 _ZTIPj
+00009bcc _ZTIPl
+00009bd3 _ZTIPm
+00009bda _ZTIPn
+00009be1 _ZTIPo
+00009be8 _ZTIPs
+00009bef _ZTIPt
+00009bf6 _ZTIPv
+00009bfd _ZTIPw
+00009c04 _ZTIPx
+00009c0b _ZTIPy
+00009c12 _ZTISt9type_info
+00009c23 _ZTIa
+00009c29 _ZTIb
+00009c2f _ZTIc
+00009c35 _ZTId
+00009c3b _ZTIe
+00009c41 _ZTIf
+00009c47 _ZTIg
+00009c4d _ZTIh
+00009c53 _ZTIi
+00009c59 _ZTIj
+00009c5f _ZTIl
+00009c65 _ZTIm
+00009c6b _ZTIn
+00009c71 _ZTIo
+00009c77 _ZTIs
+00009c7d _ZTIt
+00009c83 _ZTIv
+00009c89 _ZTIw
+00009c8f _ZTIx
+00009c95 _ZTIy
+00009c9b _ZTSDh
+00009ca2 _ZTSDi
+00009ca9 _ZTSDn
+00009cb0 _ZTSDs
+00009cb7 _ZTSDu
+00009cbe _ZTSN10__cxxabiv116__enum_type_infoE
+00009ce3 _ZTSN10__cxxabiv116__shim_type_infoE
+00009d08 _ZTSN10__cxxabiv117__array_type_infoE
+00009d2e _ZTSN10__cxxabiv117__class_type_infoE
+00009d54 _ZTSN10__cxxabiv117__pbase_type_infoE
+00009d7a _ZTSN10__cxxabiv119__pointer_type_infoE
+00009da2 _ZTSN10__cxxabiv120__function_type_infoE
+00009dcb _ZTSN10__cxxabiv120__si_class_type_infoE
+00009df4 _ZTSN10__cxxabiv121__vmi_class_type_infoE
+00009e1e _ZTSN10__cxxabiv123__fundamental_type_infoE
+00009e4a _ZTSN10__cxxabiv129__pointer_to_member_type_infoE
+00009e7c _ZTSPDh
+00009e84 _ZTSPDi
+00009e8c _ZTSPDn
+00009e94 _ZTSPDs
+00009e9c _ZTSPDu
+00009ea4 _ZTSPKDh
+00009ead _ZTSPKDi
+00009eb6 _ZTSPKDn
+00009ebf _ZTSPKDs
+00009ec8 _ZTSPKDu
+00009ed1 _ZTSPKa
+00009ed9 _ZTSPKb
+00009ee1 _ZTSPKc
+00009ee9 _ZTSPKd
+00009ef1 _ZTSPKe
+00009ef9 _ZTSPKf
+00009f01 _ZTSPKg
+00009f09 _ZTSPKh
+00009f11 _ZTSPKi
+00009f19 _ZTSPKj
+00009f21 _ZTSPKl
+00009f29 _ZTSPKm
+00009f31 _ZTSPKn
+00009f39 _ZTSPKo
+00009f41 _ZTSPKs
+00009f49 _ZTSPKt
+00009f51 _ZTSPKv
+00009f59 _ZTSPKw
+00009f61 _ZTSPKx
+00009f69 _ZTSPKy
+00009f71 _ZTSPa
+00009f78 _ZTSPb
+00009f7f _ZTSPc
+00009f86 _ZTSPd
+00009f8d _ZTSPe
+00009f94 _ZTSPf
+00009f9b _ZTSPg
+00009fa2 _ZTSPh
+00009fa9 _ZTSPi
+00009fb0 _ZTSPj
+00009fb7 _ZTSPl
+00009fbe _ZTSPm
+00009fc5 _ZTSPn
+00009fcc _ZTSPo
+00009fd3 _ZTSPs
+00009fda _ZTSPt
+00009fe1 _ZTSPv
+00009fe8 _ZTSPw
+00009fef _ZTSPx
+00009ff6 _ZTSPy
+00009ffd _ZTSa
+0000a003 _ZTSb
+0000a009 _ZTSc
+0000a00f _ZTSd
+0000a015 _ZTSe
+0000a01b _ZTSf
+0000a021 _ZTSg
+0000a027 _ZTSh
+0000a02d _ZTSi
+0000a033 _ZTSj
+0000a039 _ZTSl
+0000a03f _ZTSm
+0000a045 _ZTSn
+0000a04b _ZTSo
+0000a051 _ZTSs
+0000a057 _ZTSt
+0000a05d _ZTSv
+0000a063 _ZTSw
+0000a069 _ZTSx
+0000a06f _ZTSy
+0000a075 _ZTVN10__cxxabiv116__enum_type_infoE
+0000a09a _ZTVN10__cxxabiv116__shim_type_infoE
+0000a0bf _ZTVN10__cxxabiv117__array_type_infoE
+0000a0e5 _ZTVN10__cxxabiv117__class_type_infoE
+0000a10b _ZTVN10__cxxabiv117__pbase_type_infoE
+0000a131 _ZTVN10__cxxabiv119__pointer_type_infoE
+0000a159 _ZTVN10__cxxabiv120__function_type_infoE
+0000a182 _ZTVN10__cxxabiv121__vmi_class_type_infoE
+0000a1ac _ZTVN10__cxxabiv123__fundamental_type_infoE
+0000a1d8 _ZTVN10__cxxabiv129__pointer_to_member_type_infoE
+0000a20a __cxa_pure_virtual
+0000a21d __dynamic_cast
+0000a22c strcmp
+0000a233 _ZNKSt13bad_exception4whatEv
+0000a250 _ZNKSt20bad_array_new_length4whatEv
+0000a274 _ZNKSt9bad_alloc4whatEv
+0000a28c _ZNKSt9exception4whatEv
+0000a2a4 _ZNSt13bad_exceptionD0Ev
+0000a2bd _ZNSt13bad_exceptionD2Ev
+0000a2d6 _ZNSt20bad_array_new_lengthC1Ev
+0000a2f6 _ZNSt20bad_array_new_lengthC2Ev
+0000a316 _ZNSt20bad_array_new_lengthD0Ev
+0000a336 _ZNSt20bad_array_new_lengthD1Ev
+0000a356 _ZNSt20bad_array_new_lengthD2Ev
+0000a376 _ZNSt9bad_allocC2Ev
+0000a38a _ZNSt9bad_allocD0Ev
+0000a39e _ZNSt9bad_allocD2Ev
+0000a3b2 _ZNSt9exceptionD0Ev
+0000a3c6 _ZNSt9exceptionD1Ev
+0000a3da _ZTISt20bad_array_new_length
+0000a3f7 _ZTISt9exception
+0000a408 _ZTSSt13bad_exception
+0000a41e _ZTSSt20bad_array_new_length
+0000a43b _ZTSSt9bad_alloc
+0000a44c _ZTSSt9exception
+0000a45d _ZTVSt20bad_array_new_length
+0000a47a _ZTVSt9bad_alloc
+0000a48b _ZTVSt9exception
+0000a49c _ZNKSt11logic_error4whatEv
+0000a4b7 _ZNSt11logic_errorD0Ev
+0000a4ce _ZNSt11logic_errorD1Ev
+0000a4e5 _ZNSt11logic_errorD2Ev
+0000a4fc _ZNSt11range_errorD0Ev
+0000a513 _ZNSt11range_errorD1Ev
+0000a52a _ZNSt11range_errorD2Ev
+0000a541 _ZNSt12domain_errorD0Ev
+0000a559 _ZNSt12domain_errorD1Ev
+0000a571 _ZNSt12domain_errorD2Ev
+0000a589 _ZNSt12length_errorD0Ev
+0000a5a1 _ZNSt12length_errorD2Ev
+0000a5b9 _ZNSt12out_of_rangeD0Ev
+0000a5d1 _ZNSt12out_of_rangeD1Ev
+0000a5e9 _ZNSt12out_of_rangeD2Ev
+0000a601 _ZNSt13runtime_errorD0Ev
+0000a61a _ZNSt13runtime_errorD1Ev
+0000a633 _ZNSt14overflow_errorD0Ev
+0000a64d _ZNSt14overflow_errorD1Ev
+0000a667 _ZNSt14overflow_errorD2Ev
+0000a681 _ZNSt15underflow_errorD0Ev
+0000a69c _ZNSt15underflow_errorD1Ev
+0000a6b7 _ZNSt15underflow_errorD2Ev
+0000a6d2 _ZNSt16invalid_argumentD0Ev
+0000a6ee _ZNSt16invalid_argumentD1Ev
+0000a70a _ZNSt16invalid_argumentD2Ev
+0000a726 _ZTISt11logic_error
+0000a73a _ZTISt11range_error
+0000a74e _ZTISt12domain_error
+0000a763 _ZTISt12out_of_range
+0000a778 _ZTISt14overflow_error
+0000a78f _ZTISt15underflow_error
+0000a7a7 _ZTISt16invalid_argument
+0000a7c0 _ZTSSt11logic_error
+0000a7d4 _ZTSSt11range_error
+0000a7e8 _ZTSSt12domain_error
+0000a7fd _ZTSSt12length_error
+0000a812 _ZTSSt12out_of_range
+0000a827 _ZTSSt13runtime_error
+0000a83d _ZTSSt14overflow_error
+0000a854 _ZTSSt15underflow_error
+0000a86c _ZTSSt16invalid_argument
+0000a885 _ZTVSt11range_error
+0000a899 _ZTVSt12domain_error
+0000a8ae _ZTVSt12out_of_range
+0000a8c3 _ZTVSt14overflow_error
+0000a8da _ZTVSt15underflow_error
+0000a8f2 _ZTVSt16invalid_argument
+0000a90b _ZNKSt10bad_typeid4whatEv
+0000a925 _ZNKSt8bad_cast4whatEv
+0000a93c _ZNSt10bad_typeidC1Ev
+0000a952 _ZNSt10bad_typeidC2Ev
+0000a968 _ZNSt10bad_typeidD0Ev
+0000a97e _ZNSt10bad_typeidD1Ev
+0000a994 _ZNSt10bad_typeidD2Ev
+0000a9aa _ZNSt8bad_castC1Ev
+0000a9bd _ZNSt8bad_castC2Ev
+0000a9d0 _ZNSt8bad_castD0Ev
+0000a9e3 _ZNSt8bad_castD1Ev
+0000a9f6 _ZNSt8bad_castD2Ev
+0000aa09 _ZNSt9type_infoD0Ev
+0000aa1d _ZNSt9type_infoD1Ev
+0000aa31 _ZTISt10bad_typeid
+0000aa44 _ZTISt8bad_cast
+0000aa54 _ZTSSt10bad_typeid
+0000aa67 _ZTSSt8bad_cast
+0000aa77 _ZTSSt9type_info
+0000aa88 _ZTVSt10bad_typeid
+0000aa9b _ZTVSt8bad_cast
+0000aaab _ZTVSt9type_info
+0000aabc android_set_abort_message
+0000aad6 closelog
+0000aadf fputc
+0000aae5 openlog
+0000aaed syslog
+0000aaf4 vasprintf
+0000aafe vfprintf
+0000ab07 _ZSt13set_terminatePFvvE
+0000ab20 _ZSt14set_unexpectedPFvvE
+0000ab3a __cxa_demangle
+0000ab49 __memmove_chk
+0000ab57 __strlen_chk
+0000ab64 __vsnprintf_chk
+0000ab74 islower
+0000ab7c isxdigit
+0000ab85 realloc
+0000ab8d __cxa_deleted_virtual
+0000aba3 pthread_create
+0000abb2 dl_iterate_phdr
+0000abc2 libdl.so
+0000abcb libc.so
+0000abd3 _edata
+0000abda __bss_start
+0000abe6 __bss_start__
+0000abf4 __bss_end__
+0000ac00 __end__
+0000ac08 _end
+0000ac0d libunityopus.so
+0000ac1d LIBC
+00016f9d @@9)-G
+00016fdd @@9)-G
+0001718b *K|~
+0001721b T0~@
+00017233 T` !
+0001743f r(|(
+000174a3 r(|(
+000176e3 T(|@
+00017d0e 	ka&
+000182df ThB@
+00018347 TiF@
+000185cf RI}	
+000185ef 4h2@
+000186bf Tg.@
+00018980 +ih8J	
+000189cf 5b2@
+00018b17 4hF@
+00018b83 ThF@
+00018c6b R@{i|+
+00018f57 k	}@
+0001911f r@]@
+0001949f R	}	
+000195ec mz)x)
+00019798 mij8
+00019870 h&A)
+00019877 R)}@
+00019e6f ri}	
+00019eb0 ij*xh~7
+00019ecb Rhz7
+0001a183 Tj|@
+0001a1cc  jm|
+0001a23f Tj|@
+0001a26f Th|@
+0001a2ed jd|!jd|
+0001a30a !^@( 
+0001a35a !^ ( 
+0001a394  jm|
+0001a3b2 !^@( 
+0001a402 !^ ( 
+0001a41b rH|(
+0001a53f q!( 
+0001a563 -pA@
+0001a607 T` "
+0001a6ab ~c(&
+0001ac3d 2E)	
+0001ac59 2E)*
+0001ac77 rO}/
+0001af27 rJ}-
+0001b337 r	})
+0001b3ab Ri}	
+0001bc67 RJ},
+0001bd23 rFkh
+0001be0f qb8!
+0001c21f r)}+
+0001c23f RB}~
+0001c2ff T   
+0001c337 Tk}@
+0001c3cb Tl}@
+0001c45b T+}@
+0001c723 =mu~
+0001c942 ?-k!
+0001c954 IA3y
+0001cffc I		*	
+0001d01b Ji	)
+0001d36b R@]@
+0001d4cb r)}*
+0001d567 rk},
+0001d6eb Rk}~
+0001d72f kj}	
+0001d7f3 Rk}~
+0001d847 Tj}@
+0001d9fc N{)x)
+0001daa8 N{)x)
+0001dca2 	Kj}
+0001dda3 <lu~
+0001ddfe @M0<
+0001e253 RI|	
+0001e263 RI|	
+0001e273 RI|	
+0001e287 RO|	
+0001e35f q)}@
+0001e3f1 xj|a
+0001e46f *	}	
+0001e4f7 RI|	
+0001e507 RI|	
+0001e517 RI|	
+0001e527 RI|	
+0001e563 RI|	
+0001e650 Lyhxk	
+0001e6a7 5in@
+0001e97f Tir@
+0001e986 	k-E
+0001ecc2  q!,
+0001edd2 .Q?	
+0001ee8b Rhr7
+0001ee93 yj~7
+0001eeb3 *hz7
+0001f8f7 9(}*
+0001f90b qI}H
+0001f9c9 /@)_
+0001f9e3 T(!	K
+0002007f rk},
+000201b7 R  "
+00020373 qbx"
+000204df T)}*
+0002061f NJA#
+000206af Nn	"
+00020797 R\-@
+000207ba 	kB1-
+00020b03 nRZ n
+00020b0f nT[ n
+00020b69 xaNgxaN
+00020c97 T` '
+00020e4f ~c($
+000210ab ~c($
+00021303 ~B($
+0002158b Q))!
+000216af T !)
+00021767 Rc(f
+000219ab NkA#
+00021a4f Rjkh
+00021b6c Zmx-\uy-z::
+00021b98 [qz-
+00021bb4 ]m{-<8<
+00021bd0 \u|-{8;
+00021bec [q}-
+00021c14 [q~-
+00021c3e ;.Z+;
+00021c47 ^Z+;
+00021c52 ;.Z+;
+00021c5b ^Z+;
+00021da7 RB<'
+00021e77 Rd	&
+00021fe8 8e|-:m}-
+00022008 9i~-
+00022030 :m@-
+00022044 9iA-
+00022058 ;eB-
+0002206c :mC-Y
+0002231f rG:'
+00022373 _v*6
+0002237f _W;7
+0002257a 3NcA
+0002277b rJ}+
+00022a2f 7Js}
+00022b3e  .c("
+00022bab q(}@
+00022c07 T xl
+00022e77 qi}@
+00022f3b 9!F@
+00022f83 9!D@
+000230de ?-c 
+0002314f T$xp
+00023163 9eD@
+0002317f T$x0
+000231a7 9eD@
+000231c3 T$x0
+000232af q1~@
+000232f2 ?-c 
+000233fb T$zp
+0002342b T$z0
+0002379f R	g	
+000237eb Tz.@
+0002387b TIcI
+00023957 Th.@
+00023973 4i.@
+00023a43 5IgI
+00023a6b Ti.@
+00023a8b T|.@
+00023bd7 Tin@
+00023c23 RIk(8(
+00023d77 7h.@
+00023d8f TiV@
+00023e04 vfA)
+00023e1f T|:@
+00023f5b Th&@
+00023f75 {ix)
+00023f9f T\{v
+00023fbf Th6@
+00023fc7 6h:@
+00024005 {ix)
+000240bf RJ#$
+00024166 @yk	
+00024bdb S-k,x
+00024c58 jE@x)
+00024d0e 	*J	
+00024d14 LE@x)
+00025021 iz8K
+00025094 i"C)k
+000251c9 jh8	
+000251d8 ?i(80
+00025270 	m)9
+000252d0 )ih8
+000252e0 !ih8
+00025393 Ti:@
+000253a7 rJ}+
+000255d4 h.C)J
+000255e7 r)}+
+00025666 ?o (a
+0002566c `(aN
+00025aeb Th2I
+00025b03 y)}A
+00025cc5 7@yb.I
+00025cd4 h:-y
+00025ce7 9BLG
+00025d47 9BhG
+00025d6f 9B8G
+0002610b k%{(
+0002616f *)|A
+000261ac 1jh8
+000262eb 5!{t
+0002638f T({t
+000264e8 ($@i*,Ai,4Bi.<Ci0DDi 
+00026ba3 K)}@
+00026bbf K)=@
+00026c0b RI}	
+00026c13 R)}*
+00026d0e l8N}
+00026f78 Oh-x0k-xA
+00026fb7 k)}	
+0002703f qjAC
+0002709f KJ}@
+00027142 	KkA@
+00027153 Sk}@
+000271bb Kk}@
+00027258 g dNc d
+00027319 >@y*s
+00027644 *h,x
+0002779d T)OG
+00027902 ?os4
+000279d7 S?@@1
+00027bf5 WpOZ
+00027c02 POZWpO9
+00027c1e POQ?
+00027c2e  oZWpO9WpOZ
+00027c3e POE?
+00027c6e  OI?
+00027cda  o9WpOZWpO
+00027cee POk}
+00027d2f N{W)O9W)O
+00027dba poh~
+00027e3e po9+
+00027ea0 :+aN
+00027f90 ~t@)
+0002809f S?A@1
+000280c4 hh*x+
+000281aa  Ob>
+000281e9 T)O8>
+000282d6 ?oS4
+000282e2 ?oR4
+0002838b S?A@1
+00028516  /9WpO
+00028525 VpO9
+00028586  /{WpOZWpO
+000285b5 WpO{
+000285ee POT?
+0002878e bNF cNB c
+000287b3 Nc(a
+000287bb NB(a
+000287c1 (aN#
+000287c9 (aNb
+0002885e 	ka	
+00028b03 rJ}+
+00028c0b 4iJR
+00028ce3 Tz.	
+00028d7f Tu.	
+00028dae 	j`!
+00028e40 	o)9j~
+00029364 ?"@11
+000293a7 Rayh
+000293d0 -y(x
+000294f8 @yh|
+0002950a !^ y(
+00029517 ThV@
+0002961e 	K+}
+00029646 	K+}
+00029772 	k(|
+00029963 SI|@
+0002996f QK|+
+00029d5a pok}
+00029efd A@i1
+0002a0b3 KH}@
+0002a243 n`Y@
+0002a300 	(@)
+0002a53e 	Kh&
+0002a746 	KI)
+0002aa07 ZI}	
+0002ad77 T(  
+0002adb6 @-d	@
+0002adfb q,~@
+0002ae2b */J/
+0002ae64 xd@-
+0002aeeb *(  
+0002af17 *(  
+0002afc3 Q-%@x
+0002c52f *"zb
+0002c667 T#ym
+0002c69b Tc(,
+0002ca7d .H)(#@
+0002cebf ~` (
+0002cee7 T@ (
+0002cf5f ~  (
+0002d0ab *?y<
+0002d1e9 ip8)ip8
+0002d2c6 ?)k!
+0002d37f r(}(
+0002da8b rB(#
+0002da9b rH  
+0002de1b RI}	
+0002de43 RI}	
+0002de8f rI}	
+0002edcf T+!@y
+0002ef73 *aE@
+0002f313 R)?@
+0002f36b 4!)@
+0002f3eb r  #
+0002f43f R@ #
+0002f4ef R)1@
+0002f76b */|~
+0002f903 Rqyz
+0002f9bf RB@b
+0002f9cb RA(!
+0002f9db r H 
+0002fca7 T3}@
+0002fe43 R*u~
+0002fed9 yj|N
+0003020e @-!( 
+0003037f *Ms}
+00030423 qB}	
+00030547 T` &
+00030587 T` %
+00030597 T` &
+000305ea @-BL#
+0003060a @-$	@
+000308ee cn$k
+0003091e !n"k
+00030b40  haN
+00030cdf T {i
+00030d13 T {i
+00030d6b T (!
+00030e5b R@ii<,
+00030ea7 S.}*
+00030ef0 0%@xL
+00031113 q 8 
+0003133f Q(y*
+00031473 q,2	
+0003159b qix8
+00031698 +yhxJ	
+0003171c +yhxJ	
+00031ed7 Th*@
+00031ee3 5h6@
+00031efb 5hB@
+00031f13 5hF@
+00031f2b 5hR@
+00031f3b 7hV@
+00032424 cTBO
+000326b3 4(#@
+00032b81 i|8)i|8
+00032c8f Th"@
+00032e1b **yu
+000331dc (%E)
+00033f3c cTBO
+00033f9f TkNA
+0003401f 4<}@
+0003425b TvVA
+0003429b ThfA
+000342ba 	K7!
+000342c3 qx}@
+000342cb TirA
+0003460f Kh^A
+0003463b Kh^A
+0003467f Kh^A
+00034687 RJ}@
+00034693 Kh^A
+000346a7 Kh^A
+000346b3 RJ}@
+000346bb Kh^A
+000346cf Kh^A
+000346e3 Kh^A
+000346f7 Kh^A
+0003470b Kh^A
+0003471f Kh^A
+00034733 Kh^A
+00034747 Kh^A
+0003475b Kh^A
+0003476f Kh^A
+00034783 Kh^A
+00034797 Kh^A
+000347ab Kh^A
+000347bf Kh^A
+000347e3 Kh^A
+000349ef 4|2A
+00034a72 0npJ
+00034a8a 0npF
+00034aa2 0npB
+00034aba 0np>
+00034ada 'ng:
+00034ba7 ThFA
+00034bdb TirA
+00034c3f Th*A
+00034d9b TirA
+00034dc7 r|:A
+00034ddb TnnA
+00034df3 ThNA
+00034e13 ThNA
+00034e2f 7h"@
+00034e3f Th&B
+00034e57 *kNA
+00034e9b Th:@
+00034eae 	*hn@
+00034ebb 7h2@
+00034ee7 Th:@
+00034eff TjVA
+00034f3f qhfA
+00034f87 ThrA
+00034f9b TjrA
+00035003 qtjA
+00035017 ThBA
+00035037 *jBA
+00035117 7i>@
+0003516b ThBA
+00035197 NiVA
+000351c6 $n)!
+000351d3 ThNA
+0003523b T	(@
+00035377 T#G@
+000355e6 	*C%@
+00035a3c +yhxJ	
+00035aa4 +yhxJ	
+00035b5c vVAi	
+00036030 )Hh8
+00036078 *Hh8
+000360c0 (Hh8
+00036119 $D)*
+0003617e `q	 
+00036205 (D)i%
+00036226 `q	 
+0003638d 4D)k
+000363fc !Ho8
+0003644d ,D)L	
+00036508 	0B)
+000365bd $B)?
+000366a3 T	$@
+000366fd ,A)k
+00036754 ji,8
+000367ef T	$@
+00036849 ,A)k
+000368a0 ji,8
+00036923 T	$@
+0003697d ,A)k
+000369d4 ji,8
+00036a77 T	$@
+00036ad1 ,A)k
+00036b28 ji,8
+00036bcb 4h&B)
+00036c01 I,8l2@
+00036c24 m2A)
+00036cc5 $B)*
+00036d11 ,A)j
+00036e03 K(](
+00036ee7 5h.@
+00036ef4 k&A))
+00036f14 hi*8H
+00036f63 Tm.@
+00036f74 o2A)
+00036fcd i-8l*@
+00036fd7 *n2@
+00036ff4 o:A)
+0003701f Qh.@
+00037027 6h*@
+00037042 	*i2
+00037060 	i*8h*@
+0003706b *k2@
+00037088 l.A)k
+000370a4 uZB)
+000370cd I*8j2@
+000370e2 	*i2
+000370f0 k*A)I
+00037124 j.A)
+00037143 Th&A)?
+00037188 Iih8)
+0003718f *Ii(8
+000371ff xoE@xJ	
+000372a5 ih8)	
+000372cf T!	@-#
+000372da A-'AB-1I~-3QC-k
+000372eb Ru8!
+0003731b -!	<-a
+00037413 ^!("
+0003742b nB('
+0003748e @-y}}
+000374a3 *'~}
+00037565 X@-1*7
+000375db -Y+9
+00037652 ?-{#
+00037773 -B8$
+000378ef -B8&
+0003790b q%*!
+000379c6 !.Ax+
+00037a3f T(}@
+00037caf kZ}@
+00037df3 -bkn
+00038391 	@-B
+00038497 NQ*3
+000385a0 0F@-
+000385d0 %BA-
+0003877b *(H(
+00038923 T(}@
+00038c4f rD8!
+00038c7f r!8 
+00038e5f RB(!
+00038fdb Tw:7
+00038fef TW:7
+00039087 Tl}@
+0003913f Z  "
+0003946e 	*+0
+00039602 @-G@A-
+00039663 Nc(%
+000397ff T`K)
+00039942 	*iK)
+00039ab3 TIw~
+00039fd7 R()(
+0003a0b1 +C)	
+0003a4a4 (ih8)ij8
+0003a4ee 	kbi*
+0003a4ff Z@{5
+0003a55b 6 8 
+0003a703 T"{{
+0003a7b7 k 8 
+0003a8b2 	KI!
+0003a8eb k 8 
+0003a987 Rb))
+0003a98e 	KI!
+0003a9c3 k 8 
+0003ab77 Th"@
+0003af1b *J|@
+0003b17a bn!ha
+0003b243 TH|@
+0003b24d ih8(
+0003b399 Z nS
+0003b3c1 V#OsF
+0003b3d6 2N4d
+0003b52d yixJ
+0003b563 xhjz8*?
+0003b620 y&@x
+0003b68e 9Kl}
+0003b6a3 T*hb8
+0003bb7b ." b
+0003bbba  K!<
+0003bc5f T`jp
+0003c06f Q#@!
+0003c57e 4NVk
+0003c80f Kjj)
+0003c8c3 T)}~
+0003d05b r$( 
+0003d204 (i*8
+0003d34d zj|L
+0003d413 RL!,
+0003d54f R	U	
+0003d5bf RHqi9H
+0003d5c9 ji8i
+0003d723 R@E@
+0003d7e2 C9)q)
+0003dbaf Rpz-
+0003dc73 Tpzm
+0003de56 ?)J!
+0003debf Tjzh
+0003e1d3 4h:R
+0003e26a !^M3
+0003e3ff Rhjh8
+0003e41e 	KI	
+0003e660 +yhxJ	
+0003e772 @M,`
+0003e77a @M-p
+0003e89e A-PM@
+0003e8a4 2LB-u
+0003e8b4 6\C-c
+0003e8ec 6\E-
+0003e99e @M,P
+0003e9a6 @M-`
+0003e9ae @M.p
+0003ea6e @-DM@
+0003ea7a A-2LB-!
+0003ea96 C- ( 
+0003eb46 @M,P
+0003ebf2 @-BM@
+0003ecb6 @M,`
+0003ecbe @M-p
+0003edb2 @-a	@
+0003edb8 %@A-FM@
+0003eddc 5@C-
+0003edf4 1HD-
+0003eea6 @M,`
+0003eeae @M-p
+0003f022 A-pEA-2LB-!
+0003f038 6\C-
+0003f050 :lD-1
+0003f080 6\F-9
+0003f157 *L}~
+0003f177 T.		
+0003f26a h|)V
+0003f3f3 T@gg
+0003f433 qB9)
+0003f51b RACR
+0003f59b NO9 
+0003f6cb ShK(
+0003f72f T!(*
+0003f7f3 R)}@
+0003fc5b R*q}
+0003fccb T@kR
+0003fde7 RBgg
+000402d6 @9?	
+00040398 #yh|
+0004042b rl|~
+0004043b *i|@
+00040467 qB("
+0004049f T!(!
+0004076f Tj|@
+000407b7 T"xi
+000407e6 @me8b
+00040942  nCxaNBxa
+00040b87 R@yi|a
+00040c27 R`yi|
+00040cef Tfq@
+00040d26 "ndxaNcxa
+00040d4f Nc(a
+00040d80 tx'x
+00041207 RcE@
+0004122b TIt@9B
+00041243 9JIG
+00041301 y+xk
+00041456 "ndxaNcxa
+000414a7 RBE@
+00041536 "ndxaNcxa
+0004163f R@yh|a
+000417ba bn!(b
+000417c3 ^!(b
+0004186e bn!(c
+00041877 ^!(b
+00041923 T xj
+00041a33 Ti|@
+00041a94 ?"@11
+00041ad7 R!yh
+00041b00 my(x
+00041bbc @yh|
+00041bce !^ y(
+00041bef Ti|@
+00041c50 ?"@11
+00041c93 R!yh
+00041cbc my(x
+00041d7c @yh|
+00041d8e !^ y(
+00041e1c ?"@11
+00041e63 R!yh
+00041e8c my(x
+00041f6c @yh|
+00041f7e !^ y(
+00041fcf T@yi
+00041fe7 r ( 
+00042375 y/xa
+000423c0 lABymIBy
+0004267f Rm/C
+00042767 T`{(
+000427bb q`9 
+000429d3 S)}@
+00042c1b 8h~A
+000431cb TI|@
+00043252 ?mkA
+000432af kCh`
+000432d3 qd(d
+000433a7 =(q}
+000433db T(x(
+000435e3 Thzw
+000435fc (Kh8
+000436fb Thzw
+00043714 (Kh8
+0004374d j{x	x
+00043b30 c aN
+00043c43 8oF)
+00043ca3 9)IG
+00043d9c `"+9
+00043dbf Sh"+9!
+00043dd8 h"k9
+00043de0 h"+9h
+00043e0c `j88h
+00043e23 ThbE
+00043e3b y)}A
+00043e4c `B+9
+00043ead k98hbE
+00043f3f ThjI
+00044018 `2+9
+0004403c `j88h
+000441d7 q k4
+00044203 q {;
+000442e3 *Ii(
+00044633 R	}	
+00044643 9)]P
+00044655 j78(
+000446a5 j78_
+000446c9 j78J
+000446d2 @9)y
+00044890 J)	K_
+000448a9 !@qb
+000448c3 Rl1-
+000448d6 @mJ=@
+00044977 Rj),
+000449ab Rl1-
+000449be @mJ=@
+00044b10 Ny-x
+00044b1b Tqim8
+00044b7d ii8)
+00044b9d j-xm
+00044c58 I|@9
+00044c64 ^t@9?
+00044d63 Rk}@
+00044dd3 xH=@
+00044f44 >u@9
+000450ee 0O1"
+000452fb KJ}@
+000453f7 TO}@
+000454f3 TarH
+000455b2  Ok<
+000458cb q	>@
+000459a0 -}	S
+000459ab S-h+8m
+00045aa2 |i(}
+00045ab6 {i!|
+00045b46 zin+
+00045b52 yib3
+00045b67 y	~	
+00045ee5 u@9(}@
+00046207 T-zk
+00046417 SBE(
+0004642f T(zf
+0004648b qI}@
+00046655 B@10
+000466c6 	KJ%
+00046817 q!|A
+000469f3 TH}@
+00046d4e 	KK	
+00046d5f Tl}@
+000470cb NJ}	
+000473fa  O:~
+00047c53 T)}@
+00047cd3 QC|-
+0004825c 			K
+0004847e ziL+
+00048496 yi[7
+0004856c +1@)&
+000487c7 r	}+
+0004886f q }@
+000488e7 TNA^
+0004896f Ri1	
+000489a3 T,A^
+00048ac4 J}	SJ
+00048afb S_A@1
+00048ec2  yi}
+00048f46  yI}
+00048f4e  yi}
+00048f66  yh&
+00048f8b RhR!y(	
+000491a0 _53q
+0004933f QM}@
+0004947e `y)=
+00049543 Nv<@
+000495c3 S	{$
+00049693 xN=@
+00049764 ?B@1q
+00049794 /z,x
+000498cb kOyg
+00049c1f RI}@
+00049c4f S?A@
+00049ce3 qh~@
+00049cf3 Q)}@
+00049e1f Qk}@
+0004a173 qpi 
+0004a17b T/~B
+0004a372 @mc 
+0004a3ea @mc 
+0004a466 @m1"
+0004a527 K)}@
+0004a5ab KJ}@
+0004a6b7 Kk}@
+0004a75b S)}@
+0004a787 THk|
+0004a7ce Dq5U	
+0004a7fe 	Kj#
+0004a8e8 h*L)
+0004a8f0 k2M)-
+0004a8f9 #k)i
+0004a91f K.		
+0004a948 k!@Q_
+0004aa06 	khN
+0004ac13 5*@@
+0004ac63 T*@@
+0004ace6 	K(8
+0004ad9b *)ih
+0004b188 5iz8
+0004b192 	K)}
+0004b1b3 R)iz8
+0004b303 q)}	
+0004b3c4 ni-x
+0004b513 Rk}~
+0004b6df TK		
+0004b73f TK		
+0004b79f q+}|
+0004b997 6!	C)#~@
+0004ba73 *q}@
+0004bac4 >UB)
+0004bae0 'UA)
+0004bb00 5y@)
+0004bb9f Z?A@q	
+0004bc53 qxk(
+0004bfd3 Tjzk
+0004c051 y*xJ
+0004c0a3 Tl}@
+0004c0f3 T,,@)
+0004c1a4 Fh%x`h%x
+0004c1c3 TM8@)
+0004c2cb TO@@)
+0004c47f qI|@
+0004c487 TJ@@Q
+0004c4e3 TI@@Q
+0004c4f3 yM|	
+0004c527 xI|	
+0004c537 S	h(x
+0004c7dd h'x@	
+0004cd0e 	K)})
+0004cedb Tpyl
+0004cfcb TPyk
+0004d0e6 ?m)A
+0004d26f Kmz7x
+0004d307 x-~@
+0004d377 NBT0
+0004d423 Knz0x
+0004d434 nj-xj
+0004d4c7 qjj)x
+0004d706 ~iL}@
+0004d791 A@1m
+0004d8c4 "x(x
+0004d9f3 =(q}
+0004da27 T(x(
+0004deaf *jzi
+0004dee5 !@qJ
+0004dfe4 _ @q
+0004e0d5 !@qJ
+0004e111 !@qj
+0004e125 !@1j
+0004e167 NBT?O
+0004e263 Ti|~
+0004e283 Ti|~
+0004e2df R	)	
+0004e2ef S)!@
+0004e326 	K)E
+0004e3ba @y1}@
+0004e6df Raii
+0004ebb7 N6~@
+0004f476 	K[!
+0004f48b KV}~
+0004f55b xlz@
+0004f6f7 Tjf@
+0004f6ff *xF\
+0004f82b xjz@
+0004f83b Tjz@
+0004f843 K)}@
+0004f89b xjv@
+0004fa4b =)	@
+0004fa67 =aM,
+0004fb7f ={f@
+0004fb9b =`6@
+0004fc57 <iZ@
+0004fcca 	KI!
+0004fd3b xjv@
+0004fd6b xjv@
+0004fe67 TtzA
+0004fe9b =zf@
+0004feab =a6@
+00050118 ,il8-
+00050573 TVIv8?}
+000507ed #P)B
+00050bd6 @- ( 
+00050c2b R!( 
+00050c37 r ("
+00050c4f r!8"
+00050e3f *O|}
+00050f03 *P|}
+00051033 *+	@
+00051078 Mil8
+00051098 Nil8
+000510b4 Nil8
+000510d0 Nil8
+0005112b TLik8
+0005120f *l*@
+00051240 Kim8
+000512f3 Tj:@
+0005152f Th:@
+000516db *P|}
+00051846 	KJ5
+000518a2 IKI)
+00051af9 =JKK=K
+00051ec9 =OK1
+00052093 R	u~
+000525de 	J)=
+0005261e 	KK}
+000526d6 	JL}
+00052788 ?!@q
+00052890 ? @q"
+000528ad !@q	
+00052936 	K)}
+00052b07 4h:R
+00052b1b Td"R
+00052b8b Td"R
+00052c07 T@! 
+00052c1b Tb"R
+00052c3f 4h:R
+00052cf3 *{~~
+00052f57 q!(b
+0005319b =d}~
+0005353a ?mJA
+0005369c A	?-C
+0005375b =*m|
+00053797 NQ(a
+00053883 =Km|
+000538bf NQ(a
+00053994 a`dNA
+00053ad6 HqI}@
+00053f04 U#}iG}
+00053f4a |is~
+00053f9f kS#@
+00054157 Q0y(
+00054167 Z0y(
+0005418f q0y(
+00054393 Kk}@
+00054446  Oo}
+0005445e  OB<
+0005448a  Oq}
+00054573 Tc{s
+00054597 5_A@q
+000545ab TH}@
+0005461a 	K9	
+0005488f Tm9Ci
+000548c0 gU@i
+0005494b Tm9~i
+00054a5a  /!TpO!
+00054a93 Q!h1
+00054ad7 Rn}~
+00054b0b Q.k-
+00054bf1 %@x)
+00054c57 7*m|
+00054faf K ~@
+00055160 3hexDhd8eh
+00055170 Ghq84hfxd
+00055394 <if8
+00055465 h-8I
+0005547b y9x3x
+000554aa @9	#
+00055508 -i(8)A
+000556ff R_k.
+000562a7 Th2@
+0005661b Th2@
+00056c82 ?77}@
+00056ee9 kv8K
+00057187 6hB]
+000572bd jx8K
+0005738d jy8K
+000573b3 4i{x
+000574f0 Mih8
+00057574 H%@x,
+00057723 yh*(
+00057bbb T(<@
+00057c2b T(<@
+00057ca7 T(<@
+00057d97 Th>@
+00057e34 h:A9
+000580a9 B@9h
+00058437 ThB@9
+000585ff q 	Az@	Az`
+000586d3 T(<@
+00058703 T(H@
+00058753 T(4@
+000587ef ThF@
+0005889f 7i>@
+000588af Rh:A9
+000588e7 Th:A9
+00058913 Th6@
+00058974 h:A9
+0005897b 5h6A9H
+00058983 4h2A9(
+0005898b 4h2@
+00058999 B@98
+000589ad B@9h
+00058a07 Th:A9
+00058a0f 5h>@
+00058a1b Th2@
+00058a6b Th:A9
+00058a73 5h>@
+00058aeb Th2@
+00058c0b ThF@
+00058c44 h6A9
+00058c4b 4h2A9i
+00058cbb Th6@
+00058d03 Th2@
+00058dce G)t:
+00058de7 Th2@
+00058e13 Th6@
+00058ec7 Th>@
+00058eef Ty2A9|6A9
+00058f40 h2A9i6A9
+00058f64 j:A9
+00058f9c h2A9i6A9
+00058fb3 Tj:A9
+00058fc3 Th2@
+00059073 ThJ@
+00059153 Th>@
+000591a3 ThJ@
+00059243 Th>@
+00059293 ThJ@
+00059d9e @9_}
+0005a099 h(8t
+0005a196 @9_Q
+0005a1e4 myjx
+0005a243 9hRA
+0005a287 Tl&A
+0005a2af TOyo
+0005a2c3 Tj.@
+0005a3be @9?I
+0005a48f TvrI
+0005a649 c@9H
+0005a6da @9?}
+0005abdb 4trI
+0005afca 	ja$
+0005afe4 hBK9
+0005afeb 4h&@
+0005b193 Tl	@9
+0005b56c Lyixk	
+0005b63d &@9	
+0005b839 &@9j
+0005b996 @9?}
+0005b9ca @9?}
+0005b9f4 hBK9
+0005b9fb 4h&@
+0005ba9b TwrI
+0005bb2f Th	@9
+0005c102 @9?}
+0005c1ba @9_}
+0005c1df TtrI
+0005c362 @9?1
+0005c57f 9trI
+0005c6c3 9trI
+0005c81f TurI
+0005c8de @9_1
+0005c8fa @9_5
+0005c921 kj8k	
+0005cc6a @9_}
+0005d708 +ih8J	
+0005d9ce @9_}
+0005d9f3 TTyh
+0005da56 @9_%
+0005da77 6j"A
+0005dacf 5h&@
+0005dbab <i*A
+0005dbd7 T{rI
+0005dc48 k)@9
+0005dc74 k-@9
+0005dc98 )%@9?
+0005dcc7 T{"A
+0005df0a @9?Q
+0005df38 hJK9)
+0005df47 4trI
+0005e00b TN	@9J
+0005e024 hFK9(
+0005e02b 4vrI
+0005e087 9hRA
+0005e097 TwNA
+0005e1be @9?Q
+0005e24c 	!@9?
+0005e4e9 .@9U
+0005e503 9i"@
+0005e516 @9_	
+0005e5af TzrI
+0005e8cf TwJK9
+0005ea07 TtrI
+0005ea93 TvrI
+0005ebf7 TzrI
+0005f0fc myjx
+0005f134 Lyixk	
+0005f174 Lyixk	
+0005f254 Lyixk	
+0005f334 Lyixk	
+0005f3b6 @9?=
+0005f420 Lyixk	
+0005f464 Lyixk	
+0005f4a4 Lyixk	
+0005f4e4 myjx
+0005f5f8 myjx
+0005f638 myjx
+0005f678 Lyixk	
+0005fc4b TtBK9
+0005fc7e @9_}
+0005fdae @9?}
+0005ff92 @9?}
+000607b7 Tj.A
+000609b7 T{rI
+00060d58 +yhxJ	
+00060ebf 4wrI
+00061009 "@9-
+00061015 &@9*
+00061021 *@9'
+0006102d .@9$
+00061039 2@9!
+0006109b TurI
+0006114f TurI
+00061243 TurI
+00061317 TtrI
+0006146b TtrI
+00061586 @9_Y
+000615a2 @9_-
+00061722 @9_Y
+0006173e @9_-
+000617cf TvrI
+000618c4 Lyixk	
+00062b43 4trI
+00062bd3 4trI
+00062d96 @9?a
+00063901 i*8J
+0006396f np(aN
+0006398b nc(!
+00063991 *!NP*a
+0006399f OP(aN
+000639b9 *!Nc
+000639c2 gnbT
+00063a03 9Li)8K
+00063c1b R	h(8
+00063ccb R	h(8
+00063d23 R	h(8
+00063d9f R	h(8h
+00063deb R	h(8
+00063e7b R	h(8h
+00063ec7 R	h(8
+00063f23 R	h(8
+00063fb3 R	h(8h
+00063fff R	h(8
+00064083 R	h(8
+000640db R	h(8
+0006414b o7`C) 
+00064a5d f@9H
+00064f33 TtrI
+00065138 myjx
+00065170 Lyixk	
+000651e3 TtrI
+00065260 Lyixk	
+000652e8 Lyixk	
+0006536c Lyixk	
+000653db TtrI
+0006543f TtrI
+000654bc Lyixk	
+00065540 Lyixk	
+000655c8 Lyixk	
+000656a6 @9?=
+000656bf TtrI
+0006572f TtrI
+0006578a @9?I
+000657a3 TtrI
+0006581c Lyixk	
+00065c5c xFK9
+00065c64 wBK9h
+00065ca7 9urI
+000667f3 R	h(8
+00066877 R	h(8
+000668af R	h(8
+000669df R	h(8
+00066abf R	h(8
+00066bfb R	h(8
+00066ec3 R	h(8
+0006760c +ih8J	
+000676c0 +ih8J	
+00067a8b R	h(8
+00067ca4 +ih8J	
+00067d58 +ih8J	
+0006855d $@9(
+00068982 @9_Y
+000689a2 @9?-
+00068a0b TtrI
+00068b07 TurI
+00068c9a @9?e
+00068f5e @9_U
+0006900a @9_Y
+00069053 4vrI
+000691a7 T)		
+00069483 TwrI
+000699cb R	h(8
+00069fd9 (@9H
+0006a0d9 (@9H
+0006a1d7 R	h(8
+0006a274 	!@9?)
+0006a284 	!@9?
+0006a385 (@9H
+0006a440 	!@9?)
+0006a450 	!@9?
+0006a4c1 (@9H
+0006a591 p@9h
+0006a609 *@9(
+0006a655 *@9h
+0006a67d .@9(
+0006a789 *@9h
+0006a7b1 .@9(
+0006a951 Ha8a
+0006ab14 c|J9
+0006ab6c chb8
+0006ab78 @`M9`
+0006abc3 5`~@
+0006abf0 B`M9B
+0006ac08 c`M9
+0006ac19 jb8_ 
+0006ac48 Bht8
+0006ace0 c`M9c
+0006ae67 T`2C
+0006aeb3 Ta[axc
+0006b481 *@9?
+0006b499 "@9?
+0006b4a6 @9? 
+0006b4e5 "@9_
+0006b624  H`8a
+0006b656 Y9Bx
+0006bb09 J`8a
+0006bb89 Jz8d
+0006bdc0  H`8a
+0006bdf9 ja8? 
+0006be73 9`z4
+0006c8af Ta~}
+0006ca08  H`8a
+0006cb4d Ha8a
+0006cca0 b"@9
+0006cccc `&@9
+0006ccf8 b"@9_
+0006cd26 @9?H
+0006cf13 4C(@
+0006cf37 TitA
+0006d01d 0@y	
+0006d431 B@y 
+0006d8c4 `B@y
+0006da67 7`B@y
+0006dcbc  @@y
+0006df84 `B@y
+0006e050 Runtime error.
+0006e05f allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+0006e0a3 13runtime_error
+0006e0eb wassertion failed: pcm_count == frame_size
+0006e116 ../../../../../../libopus/src/src/opus_decoder.c
+0006e147 assertion failed: ret==frame_size-packet_frame_size
+0006e17b assertion failed: ret==packet_frame_size
+0006e1a4 assertion failed: st->channels == 1 || st->channels == 2
+0006e1dd assertion failed: st->Fs == 48000 || st->Fs == 24000 || st->Fs == 16000 || st->Fs == 12000 || st->Fs == 8000
+0006e24a assertion failed: st->DecControl.API_sampleRate == st->Fs
+0006e284 assertion failed: st->DecControl.internalSampleRate == 0 || st->DecControl.internalSampleRate == 16000 || st->DecControl.internalSampleRate == 12000 || st->DecControl.internalSampleRate == 8000
+0006e346 assertion failed: st->DecControl.nChannelsAPI == st->channels
+0006e384 assertion failed: st->DecControl.nChannelsInternal == 0 || st->DecControl.nChannelsInternal == 1 || st->DecControl.nChannelsInternal == 2
+0006e40e assertion failed: st->DecControl.payloadSize_ms == 0 || st->DecControl.payloadSize_ms == 10 || st->DecControl.payloadSize_ms == 20 || st->DecControl.payloadSize_ms == 40 || st->DecControl.payloadSize_ms == 60
+0006e4df assertion failed: st->arch >= 0
+0006e4ff assertion failed: st->arch <= OPUS_ARCHMASK
+0006e52b assertion failed: st->stream_channels == 1 || st->stream_channels == 2
+0006e572 assertion failed: 0
+0006e586 assertion failed: (opus_custom_decoder_ctl(celt_dec, 10012, (((void)((endband) == (opus_int32)0)), (opus_int32)(endband)))) == OPUS_OK
+0006e60d assertion failed: (opus_custom_decoder_ctl(celt_dec, 10008, (((void)((st->stream_channels) == (opus_int32)0)), (opus_int32)(st->stream_channels)))) == OPUS_OK
+0006e6ac assertion failed: (opus_custom_decoder_ctl(celt_dec, 10010, (((void)((0) == (opus_int32)0)), (opus_int32)(0)))) == OPUS_OK
+0006e727 assertion failed: (opus_custom_decoder_ctl(celt_dec, 4031, ((&redundant_rng) + ((&redundant_rng) - (opus_uint32*)(&redundant_rng))))) == OPUS_OK
+0006e7b8 assertion failed: (opus_custom_decoder_ctl(celt_dec, 10010, (((void)((start_band) == (opus_int32)0)), (opus_int32)(start_band)))) == OPUS_OK
+0006e845 assertion failed: (opus_custom_decoder_ctl(celt_dec, 4028)) == OPUS_OK
+0006e88c assertion failed: (opus_custom_decoder_ctl(celt_dec, 10015, ((&celt_mode) + ((&celt_mode) - (const OpusCustomMode**)(&celt_mode))))) == OPUS_OK
+0006ea2c assertion failed: st->mode == MODE_HYBRID || curr_bandwidth == OPUS_BANDWIDTH_WIDEBAND
+0006ea83 ../../../../../../libopus/src/src/opus_encoder.c
+0006eab4 assertion failed: st->silk_mode.internalSampleRate == 16000
+0006eba4 assertion failed: ret > 0 && ret <= len
+0006ebcc ../../../../../../libopus/src/src/repacketizer.c
+0006ec21 Z48wN39
+0006ec41 %c;w.
+0006ec62 I<OXb<^
+0006ec97 =aP&=
+0006eca9 4S=?8_=i
+0006ecb2 k=E.x=i
+0006ed17 >Tt$>
+0006ed1d g)>3j.>
+0006ed25 {3>R
+0006ed32 C>YPH>z
+0006ed4d $i>%
+0006ed52 n>${t>
+0006ee61 $)?(
+0006ee6e -?rn/?
+0006eea1 rA?7
+0006eea6 B?wMD?
+0006eec6 M?y>O?
+0006eed5 !S?seT?
+0006eee6 X?/QY?s
+0006eefe _?K<`?
+0006ef05 Ta?jib?
+0006ef0d yc?<
+0006ef31 @l?O#m?
+0006ef45 }p?IGq?|
+0006ef65 Av??
+0006ef79 5y?4
+0006ef89 1{?w
+0006ef9d 3}?e
+0006f082 *>40
+0006f0b3 >`#I>
+0006f0df =`#I>
+0006f1bc `#I>
+0006f1d7 >`#I>`#I
+0006f245 %q>4
+0006f269 |	?I
+0006f2a1 /R?jjU?
+0006f2b2 ]?K[`?n
+0006f2e1 ar?Mgs?
+0006f2fd !x?b
+0006f305 Gy?K
+0006f30a y?$Cz?
+0006f319 y{? 
+0006f321 #|?7o|?
+0006f349 B~?Nd~?
+0006f89f "O7v
+0006fcc7 &J;'@
+0006fcd8 346$Z\
+000701e0 #Qn/"
+000702c2 "#'#
+0007041a D,?b
+00070592 23#"
+000705c2 E&'bB
+000708e0 assertion failed: decControl->nChannelsInternal == 1 || decControl->nChannelsInternal == 2
+0007093b ../../../../../../libopus/src/silk/dec_API.c
+00070998 ../../../../../../libopus/src/silk/enc_API.c
+000709c5 assertion failed: !ret
+000709dc assertion failed: encControl->nChannelsInternal == 1 || psEnc->state_Fxx[ 0 ].sCmn.fs_kHz == psEnc->state_Fxx[ 1 ].sCmn.fs_kHz
+00070a5b assertion failed: encControl->nChannelsAPI == 1 && encControl->nChannelsInternal == 1
+00070ab1 assertion failed: psEnc->state_Fxx[ 0 ].sCmn.inputBufIx == psEnc->state_Fxx[ 0 ].sCmn.frame_length
+00070b14 assertion failed: encControl->nChannelsInternal == 1 || psEnc->state_Fxx[ 1 ].sCmn.inputBufIx == psEnc->state_Fxx[ 1 ].sCmn.frame_length
+00070b9d assertion failed: typeOffset >= 0 && typeOffset < 6
+00070bd1 ../../../../../../libopus/src/silk/encode_indices.c
+00070c05 assertion failed: encode_LBRR == 0 || typeOffset >= 2
+00070c3b assertion failed: psEncC->psNLSF_CB->order == psEncC->predictLPCOrder
+00070c81 assertion failed: frame_length == 12 * 10
+00070cab ../../../../../../libopus/src/silk/encode_pulses.c
+00070cfa G2*&#!
+00070d2d |m`TG=3* 
+00070d44 {ri`XPH@92,&!
+00070d62 E]sv
+00070eac ZW][Rbmxv
+00070eb6 qsuwc;Wo?opP~|}|
+00070ed8 ~V|x{w
+00070f00 J B'
+00070f12 R;876.
+00070fd8 xnbUH<1( 
+00070ff9 hJ4%
+0007100b |obXOF>82,'#
+0007102b waC+
+00071033 wP=/#
+0007106b tS;+ 
+000710a5 gSB5*!
+000710ca wU9%
+000710de |bK7(
+0007110b E/Co
+0007111d RJO_m
+0007112f }J;Ea
+00071142 sUIL\s
+00071155 qfefkv}
+00071168 eSOUax
+0007117b xe\Y]fv
+0007118f vmhfjov
+000711b6 _c[}]L{s{
+00071427 #,6AMZhw
+00071431 1CMR]c
+0007143f .BNW^h
+00071448  *3B
+0007144d ^hmpsv
+00071454 5EPX_f
+00071470 assertion failed: encControl != NULL
+00071495 ../../../../../../libopus/src/silk/check_control_input.c
+000714d0 '4=DJOTX\_cfiloruwz|~
+0007153c +4;AFJNQUWZ]_bdfikmoqstvxz{}
+000715d9 )18>BFJMPSVX[]_acegiklnpqstvwyz{}~
+000716e8 assertion failed: fs_kHz == 8 || fs_kHz == 12 || fs_kHz == 16
+00071726 ../../../../../../libopus/src/silk/control_codec.c
+00071759 assertion failed: psEnc->sCmn.nb_subfr == 2 || psEnc->sCmn.nb_subfr == 4
+000717a2 assertion failed: ( psEnc->sCmn.subfr_length * psEnc->sCmn.nb_subfr ) == psEnc->sCmn.frame_length
+00071804 assertion failed: Complexity >= 0 && Complexity <= 10
+0007183a assertion failed: psEncC->pitchEstimationLPCOrder <= MAX_FIND_PITCH_LPC_ORDER
+000718a8 ../../../../../../libopus/src/silk/resampler.c
+000718d7 assertion failed: inLen >= S->Fs_in_kHz
+000718ff assertion failed: S->inputDelay <= S->Fs_in_kHz
+0007194d ../../../../../../libopus/src/silk/resampler_private_down_FIR.c
+000719da 3$EE
+00071af0 assertion failed: n < 25
+00071b09 ../../../../../../libopus/src/silk/stereo_encode_pred.c
+00071b41 assertion failed: ix[ n ][ 0 ] < 3
+00071b64 assertion failed: ix[ n ][ 1 ] < STEREO_QUANT_SUB_STEPS
+00071b9c Fatal (internal) error in %s, line %d: %s
+00071bc7 ../../../../../../libopus/src/celt/celt.c
+00071bf1 success
+00071bf9 invalid argument
+00071c0a buffer too small
+00071c1b internal error
+00071c2a corrupted stream
+00071c3b request not implemented
+00071c53 invalid state
+00071c61 memory allocation failed
+00071c7a unknown error
+00071c88 libopus 1.1.0
+00071daa assertion failed: st->signalling==0
+00071dce ../../../../../../libopus/src/celt/celt_encoder.c
+00071e00 assertion failed: !celt_isnan(freq[0]) && (C==1 || !celt_isnan(freq[N]))
+00071e49 assertion failed: count>0
+00071e63 assertion failed: !celt_isnan(tmp[0])
+00071e89 assertion failed: !celt_isnan(norm)
+00071f5b A~|wmW)
+00071f6a nVF;3-(%!
+00071f8f 						
+0007208e assertion failed: st->mode == opus_custom_mode_create(48000, 960, NULL)
+000720d6 ../../../../../../libopus/src/celt/celt_decoder.c
+00072108 assertion failed: st->overlap == 120
+0007212d assertion failed: st->downsample > 0
+00072152 assertion failed: st->start == 0 || st->start == 17
+00072186 assertion failed: st->start < st->end
+000721ac assertion failed: st->end <= 21
+000721cc assertion failed: st->last_pitch_index <= PLC_PITCH_LAG_MAX
+00072208 assertion failed: st->last_pitch_index >= PLC_PITCH_LAG_MIN || st->last_pitch_index == 0
+00072261 assertion failed: st->postfilter_period < MAX_PERIOD
+00072296 assertion failed: st->postfilter_period >= COMBFILTER_MINPERIOD || st->postfilter_period == 0
+000722f4 assertion failed: st->postfilter_period_old < MAX_PERIOD
+0007232d assertion failed: st->postfilter_period_old >= COMBFILTER_MINPERIOD || st->postfilter_period_old == 0
+00072393 assertion failed: st->postfilter_tapset <= 2
+000723c0 assertion failed: st->postfilter_tapset >= 0
+000723ed assertion failed: st->postfilter_tapset_old <= 2
+0007241e assertion failed: st->postfilter_tapset_old >= 0
+0007244f assertion failed: accum==0
+00072471 ~|wmW)
+000724b0 assertion failed: _ft>1
+000724c8 ../../../../../../libopus/src/celt/entdec.c
+00072520 ../../../../../../libopus/src/celt/entenc.c
+0007254c assertion failed: _bits>0
+00072566 assertion failed: _nbits<=EC_SYM_BITS
+0007258c assertion failed: _this->offs+_this->end_offs<=_size
+000725c3 9gassertion failed: fin != fout
+000725e3 In-place FFT not supported
+000725fe ../../../../../../libopus/src/celt/kiss_fft.c
+0007262c assertion failed: m==4
+00072685 ZPKE?81("
+0007269a ndZTNGA:3-' 
+000726af vng]VPKFA;5/(
+000726c4 ~wph_YSNHB<6/' 
+000726db xrga[UNHB<6/)#
+000726f1 |qke_XRLF@93-'!
+00072707 {uoib\VPJC=71+$
+0007271e yslf`ZTMGA;5.
+00072734 }vpjd^WQKE?8-
+000727ee 8>0RF>
+00072866 '?t|+??Z/?
+00072889 :H?'mK?
+0007289d 8W?i
+000728aa ^?sYa?
+000728c2 k?n_m?P
+000728ee y?srz?''{?
+000728fd ^|?5
+0007291a ~?&)
+00072a0e }?tt}?
+00072a62 z?Mbz?H5z?
+00072a76 y?Zzy?
+00072a8e x?sMx?
+00072a9e w?:ww?
+00072ab2 v?/\v?
+00072ab9 !v?<
+00072ac5 mu?B0u?A
+00072ad2 t?;tt?74t?
+00072ae2 s?&ps?v-s?
+00072af2 r?dar?
+00072b15 $p?b
+00072b1e o? Bo?
+00072b2a n?SZn?
+00072b52 k?P+k?@
+00072b5e j?2*j?5
+00072b69 {i?M#i?d
+00072b7e g?``g?H
+00072b8a f?3Jf?6
+00072b96 e?W.e?w
+00072bbe a?wSa?\
+00072bdd {^?p
+00072bf1 a\?Y
+00072c05 8Z?.
+00072c0a Y?'WY?
+00072c12 X?OsX?
+00072c26 V?V/V?
+00072c2e U?:CU?K
+00072c99 tH?$
+00072ca1 hG?)
+00072cb6 D?28D?/
+00072cd5 f@?(
+00072cf1 {<?\
+00072cf6 ;?uX;?
+00072d0a 9?Gw8?Q
+00072d1a 6?k 6?t
+00072d31 (3?0
+00072d51 O.?2
+00072d5a -?'v,?k
+00072d62 +?78+?
+00072d7a (?3s'?
+00072d85 -&?y
+00072d8e $?aB$?
+00072da6 !?[_ ?
+00072e31 9	?I
+00072fb9 gx>/'u>
+00072fc6 n>sak><
+00072fe5 }T>k6Q>]
+00073011 M0>B
+0007301a )>Bd&>
+0007309a |=Fvo=]
+000730b2 ,=@"
+000730e2 ;;.}
+000738a9 d~?i3~?A
+000738ca |?MD|?
+000738d9 \{?C
+000738f9 zx?L
+00073905 9w?O
+00073915 eu?u
+0007391a t?Dlt?e
+0007392d Xr?9
+00073932 q?	?q?4
+00073961 uj?I
+0007396d eh?o
+00073976 f?|>f?
+00073986 d?Z<c?
+0007398d ub?L
+00073a16 B?:oA?4U@?
+00073a39 d8?":7?
+00073a5e -?Vb,?H$+?Z
+00073a71 ^'?q
+00073a7e #?#>"?u
+00073b9a g>M-a>Y
+00073bae F>F_@>
+00073c23 ;=zV
+00074009 -~??
+0007400e }?RJ}?H
+00074016 |?(;|?
+00074025 Qz?H
+00074035 +w?FFv?
+0007403d Vu?N\t?8Ws?vGr?
+0007405a m?@Zl?~
+00074071 ie?>
+0007407e `?m'_?&~]?(
+0007408e Z?SHX?
+000740ba D?AdB?
+000740ca ;?Bh9?
+000740d9 U2?)
+000740e1 w-?e
+000740e6 *?5z(?
+00074179 oz>!km>
+00074181 \`>)CS>
+00074189  F> 
+000743f2 `?NH]?E
+000743fd >V?+
+0007440d kF?j
+0007441d m4?2
+0007442a %??t ?m-
+00074476 Q>0P7>
+00074684 "$&')*+,-.//123456779:;<=>??ABCDEFGG(
+000746aa !)059=@BEGIKLNPRUWY[\^`begiklnpruwy{|~
+000746d3 '3<CIOSW[^adfikosvy|~
+000746fc 1ANYckrx~
+0007471f !:Oap}
+00074735 #?Vj{
+00074748 7K[iu
+00074761 $AYn
+0007477d 	+On
+00074788 'Gc{
+00074794 	,Qq
+00074c6b ?:^V
+00074c82 ~?3e
+00074c91 9~?s
+00074caa |?\0 
+00074cb0 gM|?
+00074cf0 wcv?>
+00074cf8 6uu?uj
+00074d00 0|t?L
+00074d08 qxs?z7
+00074d20 O-p?A6
+00074d6a d?qq
+00074d7a `?'N
+00074d99 FZ?w
+00074daa V?wm
+00074dfa B?:B&
+00074e09 >>?%L+
+00074e21 _7?e
+00074e39 80?"
+00074e48 %L+?
+00074e58 :B&?
+00074f33 >O-p
+00074f4b >qxs
+00074f53 >0|t
+00074f5b >6uu
+00074f63 >wcv
+00074fa1 i->gM|
+00074fa8 \0 >%
+00074fe8 :^V=/
+00075001 uV<c
+000753ec :^V=
+0007542c \0 >gM|
+0007546f >wcv
+00075477 >6uu
+0007547f >0|t
+00075487 >qxs
+0007549f >O-p
+0007557c :B&?
+0007558c %L+?
+000755c6 ;?%L+
+000755d5 x@?:B&
+00075626 T?wm
+00075655 [_?'N
+00075666 b?qq
+000756ae n?A6
+000756b4 O-p?
+000756c5 jr?z7
+000756cc qxs?L
+000756d4 0|t?uj
+000756dc 6uu?>
+000756e4 wcv?
+00075724 gM|?\0 
+0007574e ~?3e
+00075767 ?:^V
+00075791 uV<c
+000757a7 ?:^V=/
+000757e5 Y}?\0 >%
+000757f1 i->gM|?
+0007582d Fw?>
+00075833 >wcv?uj
+0007583b >6uu?L
+00075843 >0|t?z7
+0007584b >qxs?
+0007585d Pq?A6
+00075863 >O-p?
+000758a6 e?qq
+000758b6 b?'N
+000758e6 X?wm
+00075936 D?:B&?
+00075945 x@?%L+?
+00075959 80?"
+00075971 _7?e
+00075989 >>?%L+?
+0007599a B?:B&?
+000759ea V?wm
+000759f9 FZ?w
+00075a1a `?'N
+00075a2a d?qq
+00075a6f >O-p?A6
+00075a87 >qxs?z7
+00075a8f >0|t?L
+00075a97 >6uu?uj
+00075a9f >wcv?>
+00075ade :>gM|?
+00075ae5 i->%
+00075aea |?\0 >
+00075b01 9~?s
+00075b12 ~?3e
+00075b2b ?:^V=y
+00075e9f =fff?(\O?
+00075eae '?assertion failed: max_pitch>0
+00075ece ../../../../../../libopus/src/celt/pitch.c
+00075ef9 assertion failed: len>0
+00075f11 assertion failed: len>=3
+00075f2a ../../../../../../libopus/src/celt/pitch.h
+00075f98 assertion failed: x != y
+00075fb1 ../../../../../../libopus/src/celt/celt_lpc.c
+00075fdf assertion failed: (ord&3)==0
+00075ffc assertion failed: n>0
+00076012 assertion failed: overlap>=0
+000760a4 \N\O\NZOt)s(r(
+000760ce =rF`JXKXWJYB[Cd;l2x(z%a+N2SNTQXKVJWGZI]J]Jm(r$u"u"
+00076114 6s?fBbEcJYG[I[NYVP\B]@f;g<h<u4{,
+00076138 a&M-=Z]<i*k)n-t&q&p&|
+00076168 ;nGVKUTS[BXIWH\KbHi:k6s4r7p8
+0007618c b#M**y`Bl+o(u,{ x$w!
+000761bc ?rJRTS\Rg>`H`CeIkHq7v4}4v4u7
+000761e0 a!M(
+00076215   !""#$$%%assertion failed: codedBands > start
+00076244 ../../../../../../libopus/src/celt/rate.c
+0007626e assertion failed: bits[j] >= 0
+0007628d assertion failed: ebits[j] >= 0
+000762ad assertion failed: C*ebits[j]<<BITRES == bits[j]
+000762ec assertion failed: K>0
+00076302 alg_quant() needs at least one pulse
+00076327 ../../../../../../libopus/src/celt/vq.c
+0007634f assertion failed: N>1
+00076365 alg_quant() needs at least two dimensions
+0007638f assertion failed: K>0
+000763a5 alg_unquant() needs at least one pulse
+000763cc assertion failed: N>1
+000763e2 alg_unquant() needs at least two dimensions
+0007640e assertion failed: sRangeEnc_copy2.offs <= 1275
+0007643d ../../../../../../libopus/src/silk/float/encode_frame_FLP.c
+00076479 assertion failed: psRangeEnc->offs <= 1275
+000764a4 assertion failed: buf_len >= psEnc->sCmn.pitch_LPC_win_length
+000764e2 ../../../../../../libopus/src/silk/float/find_pitch_lags_FLP.c
+00076521 assertion failed: psEnc->sCmn.ltp_mem_length - psEnc->sCmn.predictLPCOrder >= psEncCtrl->pitchL[ 0 ] + LTP_ORDER / 2
+00076596 ../../../../../../libopus/src/silk/float/find_pred_coefs_FLP.c
+000765ec assertion failed: Order <= length
+0007660e ../../../../../../libopus/src/silk/float/LPC_analysis_filter_FLP.c
+0007665f @assertion failed: D >= 0
+00076679 ../../../../../../libopus/src/silk/float/residual_energy_FLP.c
+000766b8 assertion failed: ( order & 1 ) == 0
+000766dd ../../../../../../libopus/src/silk/float/warped_autocorrelation_FLP.c
+00076734 MbP?assertion failed: Fs_kHz == 8 || Fs_kHz == 12 || Fs_kHz == 16
+00076776 ../../../../../../libopus/src/silk/float/pitch_analysis_core_FLP.c
+000767b9 assertion failed: complexity >= SILK_PE_MIN_COMPLEX
+000767ed assertion failed: complexity <= SILK_PE_MAX_COMPLEX
+00076821 assertion failed: Fs_kHz == 8
+0007683f assertion failed: target_ptr + sf_length_8kHz <= frame_4kHz + frame_length_4kHz
+0007688f assertion failed: basis_ptr >= frame_4kHz
+000768b9 assertion failed: basis_ptr + sf_length_8kHz <= frame_4kHz + frame_length_4kHz
+00076908 assertion failed: 3 * length_d_srch <= PE_D_SRCH_LENGTH
+00076940 assertion failed: length_d_srch > 0
+00076964 assertion failed: *lagIndex >= 0
+00076985 assertion failed: nb_subfr == PE_MAX_NB_SUBFR >> 1
+000769bf >assertion failed: order >= 0 && order <= SILK_MAX_ORDER_LPC
+000769fc ../../../../../../libopus/src/silk/float/schur_FLP.c
+00076a31 assertion failed: K > 0
+00076a49 ../../../../../../libopus/src/silk/float/sort_FLP.c
+00076a7d assertion failed: L > 0
+00076a95 assertion failed: L >= K
+00076aae assertion failed: L > 0 && L <= MAX_FRAME_LENGTH
+00076adf ../../../../../../libopus/src/silk/decode_frame.c
+00076b11 assertion failed: psDec->prevSignalType >= 0 && psDec->prevSignalType <= 2
+00076b5c assertion failed: psDec->ltp_mem_length >= psDec->frame_length
+00076b9b assertion failed: psDec->psNLSF_CB->order == psDec->LPC_order
+00076bd9 ../../../../../../libopus/src/silk/decode_indices.c
+00076c0d ../../../../../../libopus/src/silk/decode_pulses.c
+00076c40 ../../../../../../libopus/src/silk/decoder_set_fs.c
+00076c74 assertion failed: psDec->nb_subfr == MAX_NB_SUBFR || psDec->nb_subfr == MAX_NB_SUBFR/2
+00076ccb assertion failed: start_idx > 0
+00076ceb ../../../../../../libopus/src/silk/NSQ.c
+00076d14 assertion failed: ( shapingLPCOrder & 1 ) == 0
+00076d43 assertion failed: lag > 0 || signalType != TYPE_VOICED
+00076d7a ../../../../../../libopus/src/silk/NSQ_del_dec.c
+00076dab assertion failed: nStatesDelayedDecision > 0
+00076de9 ~3sassertion failed: idx > 0
+00076e06 ../../../../../../libopus/src/silk/PLC.c
+00076e2f assertion failed: psDec->LPC_order >= 10
+00076e59 #<Sl
+00076e63  7Me}
+00076e6d *BYr
+00076e78 2Hax
+00076e81 ,EZr
+00076e96 ,@Zs
+00076ea0 >Rdx
+00076eaa 2Ogx
+00076eb4 -Aj|
+00076ebd 1Kay
+00076ec8 4F]t
+00076ed1 ">Kav
+00076edb !8F[q
+00076ee5 "3Hau
+00076ef0 2CZu
+00076efa 0B_u
+00076f03 !3Mt
+00076f0e FWj|
+00076f17 !5@Su
+00076f21 "A_l
+00076f34 "+=N]r
+00076f49 &8Yv
+00076f54 1?Uo
+00076f67 /Jc|
+00076f70 !*=L]y
+00076f8e %0@Thv
+00076fb0 Z	?	
+00076fc1 	$	$	
+00076fcb 	$	$	?	2	
+00076fd8 $	$	
+00076feb 	?	Z	Z	Z	Z	?	g	
+00077031 	Z	?	
+00077057 	2	?	
+00077060 2	t	
+00077065 	?	Z	t	t	t	
+000770b6 ?	g	2	
+0007710b 	?	Z	$	O
+00077132 2	t	
+00077147 	Z	?	
+000771c0 $	t	/
+000771d7 	2	L	
+0007721c l`UROM=;98310-*)(&$"
+00077246 }rf[QG<4+#
+00077261 tCR;\HdY\
+0007726f cB$$"$""""SE$4"tfFDD
+00077284 fDD"AUDT$t
+0007729c hfdDD
+000772ef df"DDdD
+00077378 ~I+9
+00077381 }G0:
+0007738a nI9>h
+00077393 {A7Dd
+000773b2 &6EUdt
+000773c2 )7ESbp
+000773d2 "3=N\j~
+000773e2 $2?O_n~
+000773f2 %3;NYk{
+00077402  3CQ`p
+00077412 %3AObq~
+00077422 "7?NWlv
+00077432  $8O[lv
+00077442 +:JYix
+00077452 !.<K\k{
+00077463 ,9JYiy
+00077473 .9GXdx
+00077482 #.8M\j{
+00077492 -5?KYks
+000774a3 (8GXgw
+000774b2 $09LWiv
+000774c3 6GQ^h~
+000774d2 />Oas
+000774e3 ->N^o
+000774f2 1>O\kw
+00077502 $-=L[ly
+00077513 -<L[k{
+00077523 +5FSgr
+00077532 #*:N]n}
+00077542 "2CScs
+00077552 )BIV_o
+00077562 %4?K\fw
+00077572 1ASdu
+00077582 4DXgu~
+00077592 /=LZjw
+000775a2 #2=IVanw
+000779ba wsqnmcb_OD420-+ 
+000779dd |nhZNLFE9-"
+000779ff D>B<HuUZv
+00077a16 dffDD$"`
+00077a25 f@B$""
+00077a46 PmNk
+00077a68 {wwgEbDgxvvfGb
+00077a84 yk 1"""
+00077a9e dFDFBB"
+00077ab0 fD""B
+00077aba kkWfd
+00077ae9 vWewe
+00077af1 $$BD#`
+00077b06 dkxw$
+00077b7c yM+7
+00077b8f B2Bk
+00077b97 tL75}
+00077c00 assertion failed: MAX_FRAME_LENGTH >= psEncC->frame_length
+00077c3b ../../../../../../libopus/src/silk/VAD.c
+00077c64 assertion failed: psEncC->frame_length == 8 * silk_RSHIFT( psEncC->frame_length, 3 )
+00077cb9 assertion failed: psEncC->useInterpolatedNLSFs == 1 || psEncC->indices.NLSFInterpCoef_Q2 == ( 1 << 2 )
+00077d20 ../../../../../../libopus/src/silk/process_NLSFs.c
+00077d53 assertion failed: NLSF_mu_Q20 > 0
+00077d75 assertion failed: psEncC->predictLPCOrder <= MAX_LPC_ORDER
+00077db0 ../../../../../../libopus/src/silk/decode_pitch.c
+00077de2 assertion failed: d >= 6
+00077dfb ../../../../../../libopus/src/silk/LPC_analysis_filter.c
+00077e34 assertion failed: (d & 1) == 0
+00077e53 assertion failed: d <= len
+00077f8a assertion failed: d==10 || d==16
+00077fab ../../../../../../libopus/src/silk/NLSF2A.c
+00077fd7 assertion failed: D > 0
+00077fef ../../../../../../libopus/src/silk/NLSF_VQ_weights_laroia.c
+0007802b assertion failed: ( D & 1 ) == 0
+00078188 ../../../../../../libopus/src/silk/sort.c
+000781c0 assertion failed: start <= end
+000781df ../../../../../../libopus/src/celt/bands.c
+0007820a assertion failed: end>0
+00078222 assertion failed: nbBands>0
+0007823e assertion failed: sum>=0
+00078257 assertion failed: N > 0
+0007826f assertion failed: stride>0
+0007828a assertion failed: itheta>=0
+000782a6 assertion failed: qn <= 256
+000782d6 03<?
+0007836c assertion failed: _k>0
+00078383 ../../../../../../libopus/src/celt/cwrs.c
+000783ad assertion failed: _n>=2
+000783c5 assertion failed: _n>1
+0007936f 		x-
+00079418 AI	 	
+00079429 *0#)
+00079504 qH,	;`
+0007956a 79]%
+00079616 		9w
+0007964a 9=aA\E
+000796cd b"Iq
+0007974b 	3l0
+00079782 4 uH
+00079787 8}WW`
+000797ba 	Tassertion failed: fl+fs<=32768
+000797db ../../../../../../libopus/src/celt/laplace.c
+00079808 assertion failed: fs>0
+0007981f assertion failed: fl<32768
+0007983a assertion failed: fl<=fm
+00079853 assertion failed: fm<IMIN(fl+fs,32768)
+0007987a assertion failed: win_type == 1 || win_type == 2
+000798ab ../../../../../../libopus/src/silk/float/apply_sine_window_FLP.c
+000798ec assertion failed: ( length & 3 ) == 0
+00079912 assertion failed: psEncC->indices.NLSFInterpCoef_Q2 == 4 || ( psEncC->useInterpolatedNLSFs && !psEncC->first_frame_after_reset && psEncC->nb_subfr == MAX_NB_SUBFR )
+000799b7 ../../../../../../libopus/src/silk/float/find_LPC_FLP.c
+000799f7 >assertion failed: subfr_length * nb_subfr <= MAX_FRAME_SIZE
+00079a34 ../../../../../../libopus/src/silk/float/burg_modified_FLP.c
+00079a80 assertion failed: psDec->LPC_order == 10 || psDec->LPC_order == 16
+00079ac3 ../../../../../../libopus/src/silk/CNG.c
+00079aec ../../../../../../libopus/src/silk/decode_core.c
+00079b1d assertion failed: ifact_Q2 >= 0
+00079b3d ../../../../../../libopus/src/silk/interpolate.c
+00079b6e assertion failed: ifact_Q2 <= 4
+00079b8e assertion failed: signalType >= 0 && signalType <= 2
+00079bc3 ../../../../../../libopus/src/silk/NLSF_encode.c
+00079bf4 assertion failed: ( LPC_order & 1 ) == 0
+00079c1d ../../../../../../libopus/src/silk/NLSF_VQ.c
+00079c4b cannot allocate __cxa_eh_globals
+00079c6c std::__libcpp_tls_set failure in __cxa_get_globals()
+00079ca1 execute once failure in __cxa_get_globals_fast()
+00079cd2 cannot create thread specific key for __cxa_get_globals()
+00079d0c cannot zero out thread value for __cxa_get_globals()
+00079d41 unexpected_handler unexpectedly returned
+00079d6a terminate_handler unexpectedly returned
+00079d92 terminate_handler unexpectedly threw an exception
+00079dc9 EEEE';@
+00079e98 N10__cxxabiv116__shim_type_infoE
+00079eb9 N10__cxxabiv117__class_type_infoE
+00079edb N10__cxxabiv117__pbase_type_infoE
+00079efd N10__cxxabiv119__pointer_type_infoE
+00079f21 N10__cxxabiv120__function_type_infoE
+00079f46 N10__cxxabiv129__pointer_to_member_type_infoE
+00079f90 N10__cxxabiv123__fundamental_type_infoE
+00079fc8 PKDn
+0007a05b PKDh
+0007a08b PKDu
+0007a097 PKDs
+0007a0a3 PKDi
+0007a0a8 N10__cxxabiv117__array_type_infoE
+0007a0ca N10__cxxabiv116__enum_type_infoE
+0007a0eb N10__cxxabiv120__si_class_type_infoE
+0007a110 N10__cxxabiv121__vmi_class_type_infoE
+0007a136 std::exception
+0007a145 std::bad_exception
+0007a158 std::bad_alloc
+0007a167 bad_array_new_length
+0007a17c St9exception
+0007a189 St13bad_exception
+0007a19b St9bad_alloc
+0007a1a8 St20bad_array_new_length
+0007a1c1 St12domain_error
+0007a1d2 St11logic_error
+0007a1e2 St16invalid_argument
+0007a1f7 St12length_error
+0007a208 St12out_of_range
+0007a219 St11range_error
+0007a229 St13runtime_error
+0007a23b St14overflow_error
+0007a24e St15underflow_error
+0007a262 std::bad_cast
+0007a270 std::bad_typeid
+0007a280 St9type_info
+0007a28d St8bad_cast
+0007a299 St10bad_typeid
+0007a2a8 libc++abi
+0007a2b2 terminating with %s exception of type %s: %s
+0007a2df terminating with %s exception of type %s
+0007a308 terminating with %s foreign exception
+0007a32e terminating
+0007a33a uncaught
+0007a343 unexpected
+0007a45a zzzz
+0007a45f zzzzzzzzz/T
+0007aaba ____Z
+0007aac0 _block_invoke
+0007aace invocation function for block in 
+0007aaf0 Ua9enable_ifI
+0007aafe VTT for 
+0007ab07 typeinfo for 
+0007ab15 typeinfo name for 
+0007ab28 covariant return thunk to 
+0007ab43 thread-local wrapper routine for 
+0007ab65 thread-local initialization routine for 
+0007ab8e non-virtual thunk to 
+0007aba4 guard variable for 
+0007abb8 reference temporary for 
+0007abd1 construction vtable for 
+0007abea -in-
+0007abf6 auto
+0007abfb decltype(
+0007ac08 alignof (
+0007ac12 const_cast
+0007ac1d dynamic_cast
+0007ac2d noexcept (
+0007ac38 reinterpret_cast
+0007ac49 static_cast
+0007ac55 sizeof (
+0007ac5e sizeof... (
+0007ac6a typeid (
+0007ac73 throw
+0007ac79 u8__uuidoft
+0007ac85 u8__uuidofz
+0007ac91 wchar_t
+0007aca1 unsigned char
+0007acaf unsigned short
+0007acc5 unsigned __int128
+0007acd7 true
+0007acdc false
+0007ace9 %LaL
+0007ad48  ...
+0007ad67 _GLOBAL__N
+0007ad72 (anonymous namespace)
+0007ad8b operator&&
+0007ad96 operator&
+0007ada0 operator&=
+0007adab operator=
+0007adb5 operator()
+0007adc0 operator,
+0007adca operator~
+0007add4 operator delete[]
+0007ade6 operator*
+0007adf0 operator delete
+0007ae00 operator/
+0007ae0a operator/=
+0007ae15 operator^
+0007ae1f operator^=
+0007ae2a operator==
+0007ae35 operator>=
+0007ae40 operator>
+0007ae4a operator[]
+0007ae55 operator<=
+0007ae60 operator<<
+0007ae6b operator<<=
+0007ae77 operator<
+0007ae81 operator-
+0007ae8b operator-=
+0007ae96 operator*=
+0007aea1 operator--
+0007aeac operator new[]
+0007aebb operator!=
+0007aec6 operator!
+0007aed0 operator new
+0007aedd operator||
+0007aee8 operator|
+0007aef2 operator|=
+0007aefd operator->*
+0007af09 operator+
+0007af13 operator+=
+0007af1e operator++
+0007af29 operator->
+0007af34 operator?
+0007af3e operator%
+0007af48 operator%=
+0007af53 operator>>
+0007af5e operator>>=
+0007af6a operator<=>
+0007af76 operator"" 
+0007af89  ... 
+0007af98 ::operator 
+0007afa4 ) ? (
+0007afaa ) : (
+0007afb0 sizeof...(
+0007afbb throw 
+0007afc2 __uuidof(
+0007afcc std::allocator
+0007afdb std::basic_string
+0007afed std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+0007b034 std::basic_istream<char, std::char_traits<char> >
+0007b066 std::basic_ostream<char, std::char_traits<char> >
+0007b098 std::basic_iostream<char, std::char_traits<char> >
+0007b0cb basic_istream
+0007b0d9 basic_ostream
+0007b0e7 basic_iostream
+0007b0f6 [abi:
+0007b10b 'block-literal'
+0007b11b 'unnamed
+0007b124 'lambda
+0007b12f string literal
+0007b13e std::string
+0007b14a std::istream
+0007b157 std::ostream
+0007b164 std::iostream
+0007b176 std::
+0007b17c  [enable_if:
+0007b189  const
+0007b190  volatile
+0007b19a  restrict
+0007b1ab void
+0007b1b0 bool
+0007b1b5 unsigned int
+0007b1c2 unsigned long
+0007b1d0 unsigned long long
+0007b1e3 float
+0007b1e9 long double
+0007b1f5 __float128
+0007b200 decimal64
+0007b20a decimal128
+0007b215 decimal32
+0007b21f decimal16
+0007b229 char32_t
+0007b232 char16_t
+0007b23b char8_t
+0007b243 decltype(auto)
+0007b252 std::nullptr_t
+0007b261  complex
+0007b26a  imaginary
+0007b278 noexcept
+0007b290 noexcept(
+0007b29a throw(
+0007b2a1 objcproto
+0007b2ae pixel vector[
+0007b2c3 struct
+0007b2cd union
+0007b2d6 enum
+0007b2df objc_object
+0007b2eb N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+0007b31b N12_GLOBAL__N_116itanium_demangle4NodeE
+0007b343 N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+0007b37d N12_GLOBAL__N_116itanium_demangle8NameTypeE
+0007b3a9 N12_GLOBAL__N_116itanium_demangle10NestedNameE
+0007b3d8 N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+0007b415 N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+0007b448 N12_GLOBAL__N_116itanium_demangle8BoolExprE
+0007b474 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+0007b4ac N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+0007b4e4 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+0007b51c N12_GLOBAL__N_116itanium_demangle15IntegerCastExprE
+0007b550 N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+0007b582 N12_GLOBAL__N_116itanium_demangle8FoldExprE
+0007b5ae N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+0007b5e9 N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+0007b618 N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+0007b647 N12_GLOBAL__N_116itanium_demangle8CastExprE
+0007b673 N12_GLOBAL__N_116itanium_demangle8CallExprE
+0007b69f N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+0007b6d2 N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+0007b701 N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+0007b733 N12_GLOBAL__N_116itanium_demangle8DtorNameE
+0007b75f N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+0007b79a N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+0007b7ce N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+0007b806 N12_GLOBAL__N_116itanium_demangle10MemberExprE
+0007b835 N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+0007b86c N12_GLOBAL__N_116itanium_demangle10BracedExprE
+0007b89b N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+0007b8cf N12_GLOBAL__N_116itanium_demangle12InitListExprE
+0007b900 N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+0007b930 N12_GLOBAL__N_116itanium_demangle7NewExprE
+0007b95b N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+0007b98d N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+0007b9c1 N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+0007b9f9 N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+0007ba2b N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+0007ba58 N12_GLOBAL__N_116itanium_demangle10UUIDOfExprE
+0007ba87 N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+0007bac7 N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+0007baf8 N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+0007bb27 N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+0007bb5b N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+0007bb8f N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+0007bbc9 N12_GLOBAL__N_116itanium_demangle9LocalNameE
+0007bbf6 N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+0007bc2e N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+0007bc60 N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+0007bc91 N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+0007bcca N12_GLOBAL__N_116itanium_demangle16StdQualifiedNameE
+0007bcff N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+0007bd38 N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+0007bd69 N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+0007bd9e N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+0007bdcb N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+0007bdfc N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+0007be35 N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+0007be66 N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+0007be98 N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+0007bece N12_GLOBAL__N_116itanium_demangle8QualTypeE
+0007befa N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+0007bf2e N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+0007bf5d N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+0007bf8a N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+0007bfc2 N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+0007bffd N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+0007c02d N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+0007c05f N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+0007c098 Pure virtual function called!
+0007c0b6 Deleted virtual function called!
+0007da09 zPLR
+000842b0 Android
+000842bc r21b
+000842fc 6352462
+00089028 Android (6317467 based on r365631c1) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project e0caee08e5f09b374a27a676d04978c81fcb1928) (based on LLVM 9.0.8svn)
+000890dd GCC: (GNU) 4.9.x 20150123 (prerelease)
+00089105 .init_array
+00089111 .fini_array
+0008911d .text
+00089123 .got
+00089128 .comment
+00089131 .note.android.ident
+00089145 .rela.plt
+0008914f .bss
+00089154 .dynstr
+0008915c .eh_frame_hdr
+0008916a .gnu.version_r
+00089179 .data.rel.ro
+00089186 .rela.dyn
+00089190 .gnu.version
+0008919d .dynsym
+000891a5 .gnu.hash
+000891af .eh_frame
+000891b9 .gcc_except_table
+000891cb .note.gnu.build-id
+000891de .dynamic
+000891e7 .shstrtab
+000891f1 .rodata
+000891f9 .data

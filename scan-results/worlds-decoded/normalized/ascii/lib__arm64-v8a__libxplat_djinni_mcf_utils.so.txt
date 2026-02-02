@@ -1,0 +1,72 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+000002ea HVPT
+00000665 __cxa_finalize
+00000674 __cxa_atexit
+00000681 __register_atfork
+00000693 MCFGetTypeID
+000006a0 _ZNKSt6__ndk112__hash_tableImNS_4hashImEENS_8equal_toImEENS_9allocatorImEEE4findImEENS_21__hash_const_iteratorIPNS_11__hash_nodeImPvEEEERKT_
+0000072d __stack_chk_fail
+0000073e MCFStringGetTypeID
+00000751 MCFArrayGetTypeID
+00000763 MCFArrayGetCount
+00000774 MCFArrayGetValueAtIndex
+0000078c MCFSetGetTypeID
+0000079c MCFSetGetCount
+000007ab MCFArrayCreateMutable
+000007c1 MCFDictionaryGetTypeID
+000007d8 MCFDictionaryGetCount
+000007ee MCFCopyDescription
+00000801 DJCopyDescription
+00000813 __MCFCastToClassNotNull
+0000082b MCFStringCopyToHeapOrStackAsCString
+0000084f MCFStringCreateWithFormat
+00000869 MCFStringDeallocateCharArray
+00000886 MCFStringCreateMutable
+0000089d MCFCopyFormatDescription
+000008b6 MCFRelease
+000008c1 MCFStringAppend
+000008d1 MCFSetApplyFunction
+000008e5 MCFStringCreateByCombiningStrings
+00000907 MCFDictionaryApplyFunction
+00000922 MCFArrayAppendValue
+00000936 __wrap___gxx_personality_v0
+00000952 libc.so
+0000095a LIBC
+0000095f libc++_shared.so
+00000970 libxplat_mcf_mcfDirect.so
+0000098a libxplat_djinni_mcf_utils.so
+000009a8 APS2
+00000c6c <MCFString %p>{contents = %s}
+00000c8a <MCFArray %p>{count = %d, values = (%s%s)}
+00000cb5 <MCFDictionary %p>{count = %d,
+00000cd4 entries =>
+00000ce4 <MCFSet %p>{count = %d,
+00000cfc entries =>
+00000d0c 	%s = %s
+00000d16 	%d : %s
+00000eb9 zPLR
+00000f49 80.	
+00001ac1 .fini_array
+00001acd .text
+00001ad3 .note.android.ident
+00001ae7 .got.plt
+00001af0 .rela.plt
+00001afa .dynstr
+00001b02 .eh_frame_hdr
+00001b10 .gnu.version_r
+00001b1f .data.rel.ro
+00001b2c .relr.dyn
+00001b36 .rela.dyn
+00001b40 .gnu.version
+00001b4d .dynsym
+00001b55 .gnu.hash
+00001b5f .relro_padding
+00001b6e .eh_frame
+00001b78 .gcc_except_table
+00001b8a .note.gnu.build-id
+00001b9d .dynamic
+00001ba6 .shstrtab
+00001bb0 .rodata
+00001bb8 .data

@@ -1,0 +1,5929 @@
+00000244 Android
+00000290 12077973
+00001255 hZ(Y>U
+000016e5 __cxa_finalize
+000016f4 __cxa_atexit
+00001701 strcmp
+00001708 OrtGetApiBase
+00001716 OrtSessionOptionsAppendExecutionProvider_CPU
+00001743 malloc
+0000174a abort
+00001750 strlen
+00001757 memcmp
+0000175e __memcpy_chk
+0000176b strncmp
+00001773 wmemchr
+0000177b localtime_r
+00001787 strftime
+00001790 fprintf
+00001798 fwrite
+0000179f __sF
+000017a4 posix_memalign
+000017b3 free
+000017b8 strnlen
+000017c0 strtol
+000017c7 memchr
+000017ce _ZTH15ThreadedBufSize
+000017e4 __android_log_print
+000017f8 getauxval
+00001802 syscall
+0000180a vsnprintf
+00001814 gmtime_r
+0000181d difftime
+00001826 mktime
+0000182d __errno
+00001835 pthread_self
+00001842 dirname
+0000184a strerror_r
+00001855 pthread_attr_init
+00001867 pthread_attr_setstacksize
+00001881 pthread_create
+00001890 pthread_join
+0000189d sysconf
+000018a5 nanosleep
+000018af __open_2
+000018b8 close
+000018be fstat
+000018c4 lseek
+000018ca read
+000018cf mmap
+000018d4 munmap
+000018db stat
+000018e0 mkdir
+000018e6 nftw
+000018eb remove
+000018f2 open
+000018f7 realpath
+00001900 getpid
+00001907 dlerror
+0000190f dlopen
+00001916 dlclose
+0000191e dlsym
+00001924 getenv
+0000192b clock_gettime
+00001939 gettimeofday
+00001946 pthread_key_create
+00001959 pthread_getspecific
+0000196d pthread_setspecific
+00001981 __memmove_chk
+0000198f strerror
+00001998 __read_chk
+000019a3 __android_log_write
+000019b7 fflush
+000019be fputs
+000019c4 strtof
+000019cb strtod
+000019d2 __vsnprintf_chk
+000019e2 calloc
+000019e9 sched_yield
+000019f5 dl_iterate_phdr
+00001a05 __android_log_vprint
+00001a1a pthread_once
+00001a27 qsort
+00001a2d __system_property_get
+00001a47 logf
+00001a4c llroundl
+00001a59 expf
+00001a5e pthread_mutex_lock
+00001a71 pthread_cond_wait
+00001a83 pthread_mutex_unlock
+00001a98 pthread_cond_broadcast
+00001aaf memmove
+00001ab7 memcpy
+00001abe memset
+00001ac5 wcslen
+00001acc snprintf
+00001ad5 vfprintf
+00001ade vasprintf
+00001ae8 android_set_abort_message
+00001b02 openlog
+00001b0a syslog
+00001b11 closelog
+00001b1a pthread_cond_timedwait
+00001b31 pthread_mutex_destroy
+00001b47 realloc
+00001b4f fopen
+00001b55 fseek
+00001b5b fclose
+00001b62 fread
+00001b68 fseeko
+00001b6f ftello
+00001b76 ungetc
+00001b7d getc
+00001b82 ungetwc
+00001b8a getwc
+00001b90 fputwc
+00001b97 newlocale
+00001ba1 uselocale
+00001bab vsscanf
+00001bb3 strftime_l
+00001bbe mbsrtowcs
+00001bc8 sscanf
+00001bcf freelocale
+00001bda iswlower_l
+00001be5 wcsnrtombs
+00001bf0 wcrtomb
+00001bf8 mbsnrtowcs
+00001c03 mbrtowc
+00001c0b mbtowc
+00001c12 __ctype_get_mb_cur_max
+00001c29 mbrlen
+00001c30 strtoll_l
+00001c3a strtoull_l
+00001c45 strtold_l
+00001c4f fputc
+00001c55 __assert2
+00001c5f __cxa_thread_atexit_impl
+00001c78 pthread_key_delete
+00001c8b pthread_rwlock_wrlock
+00001ca1 pthread_rwlock_unlock
+00001cb7 pthread_rwlock_rdlock
+00001ccd __stack_chk_fail
+00001cde strncpy
+00001ce6 __emutls_v.ThreadedBufHolder
+00001d03 __emutls_v.ThreadedBufSize
+00001d1e libonnxruntime.so
+00001d30 VERS_1.20.1
+00001d3c libdl.so
+00001d45 LIBC
+00001d4a libm.so
+00001d52 libc.so
+00001d5a $ORIGIN
+00001d62 liblog.so
+0001d720 unspecified system_category error
+0001d749 0123456789
+0001d754 locale not supported
+0001d769 Pure virtual function called!
+0001d787 (base != 0) && "DW_EH_PE_datarel is invalid with a base of 0"
+0001d7c9 initial_growth_chunk_size_bytes
+0001d7e9 !to.affinity_str.empty()
+0001d802 to.custom_join_thread_fn
+0001d81b  but received a sparse tensor
+0001d839 Replaying the captured 
+0001d851 GetModelOutputs
+0001d861 /workspace/onnxruntime/onnxruntime/core/session/IOBinding.cc
+0001d89e execution_mode is not valid
+0001d8ba Params absent
+0001d8c8 inter-op
+0001d8d1 helper.HaveTwoTensorInputs()
+0001d8ee p != nullptr || size == 0
+0001d908 false
+0001d90e const T *onnxruntime::Tensor::Data() const [T = std::string]
+0001d94b void onnxruntime::StridedCopy(concurrency::ThreadPool *, T *, const TensorShapeVector &, const TensorShape &, const T *, const TensorShapeVector &) [T = unsigned int]
+0001d9f2 void onnxruntime::StridedCopy(concurrency::ThreadPool *, T *, const TensorShapeVector &, const TensorShape &, const T *, const TensorShapeVector &) [T = unsigned short]
+0001da9b auto onnxruntime::StridedCopy(concurrency::ThreadPool *, unsigned char *, const TensorShapeVector &, const TensorShape &, const unsigned char *, const TensorShapeVector &)::(anonymous class)::operator()(std::ptrdiff_t, std::ptrdiff_t) const
+0001db8c Input count of Tile OP mismatch, the second one is empty
+0001dbc5 DoTransposeInt4
+0001dbd5 gsl::span<T> onnxruntime::Tensor::MutableDataAsSpan() [T = onnxruntime::Int4x2Base<true>]
+0001dc2f Axes input is null
+0001dc42 'axes' has a duplicate axis
+0001dc5e  bytes. 
+0001dc67 void onnxruntime::BFCArena::RemoveFreeChunkIterFromBin(BFCArena::Bin::FreeChunkSet *, const BFCArena::Bin::FreeChunkSet::iterator &)
+0001dcec onnxruntime::BFCArena::AllocationRegion::AllocationRegion(void *, size_t, int64_t)
+0001dd3f Tensor size mismatch
+0001dd54 utils::HasElemType(thisProto->tensor_type())
+0001dd81 thisProto->value_case() == TypeProto::ValueCase::kSequenceType
+0001ddc0 proto != nullptr
+0001ddd1 Unloading DSO 
+0001dde3  kernel is not supported in 
+0001de00 If type constraint names are available, 
+0001de29 nullptr != type_proto
+0001de3f . Validate usage of dim_value (values should be > 0) and dim_param (all values with the same string should equate to the same size) in shapes in the model.
+0001dedb ort_value_index >= 0 && static_cast<size_t>(ort_value_index) < alloc_plan.size()
+0001df2c ReleaseMLValueImpl
+0001df3f /workspace/onnxruntime/onnxruntime/core/framework/execution_frame.h
+0001df87 SetGraphAndCreateKernels must be called prior to GetExecutionInfo.
+0001dfca Using cached version of pre-packed weight for constant initializer: 
+0001e00f Should not have entry in kernel create info with nullptr for kernel_def
+0001e057 OrtValueIndex onnxruntime::PlannerImpl::Index(const OrtValueName &)
+0001e09b SessionState should have saved the KernelCreateInfo prior to this running. NodeIndex:
+0001e0f1 /workspace/onnxruntime/onnxruntime/core/framework/op_kernel_context_internal.h
+0001e140 /workspace/onnxruntime/onnxruntime/core/framework/prepacked_weights_container.cc
+0001e191  from initializer_allocation_order not found among initialized tensors
+0001e1d8 Destination must have a CPU allocator set
+0001e202 Must have the same shape
+0001e21b  offset: 
+0001e225 Unexpected number of packed int4 pairs
+0001e24c /workspace/onnxruntime/onnxruntime/core/framework/transpose_helper.cc
+0001e292 Default logger already set. 
+0001e2af /workspace/onnxruntime/onnxruntime/core/common/profiler.cc
+0001e2ea "ts" :
+0001e2f1 " : 
+0001e2f6 onnx.NodeProto
+0001e305 onnx.TensorShapeProto.Dimension
+0001e325 libprotobuf-native
+0001e338 tegra132
+0001e344 September
+0001e34e file_size
+0001e358 %s failed to release mutex
+0001e373 %s:%d: %s
+0001e37d libunwind: %s - %s
+0001e391 DW_EH_PE_funcrel pointer encoding not supported
+0001e3c9 Strings can only reside in CPU memory
+0001e3ef static void SafeIntExceptionHandler<onnxruntime::OnnxRuntimeException>::SafeIntOnOverflow()
+0001e44b Integer overflow
+0001e45c void onnxruntime::InferenceSession::ConstructorCommon(const SessionOptions &, const Environment &)
+0001e4bf session_env.EnvCreatedWithGlobalThreadPools()
+0001e4ed This build doesn't support ORT format models older than version 5. See: https://github.com/microsoft/onnxruntime/blob/rel-1.14.0/docs/ORT_Format_Update_in_1.13.md
+0001e590 This session will use the allocator registered with the environment.
+0001e5d5 session_initialization
+0001e5ec  index: 
+0001e5f5 fetch
+0001e5fb Invalid 
+0001e604  with name: '
+0001e612  config_options: { 
+0001e626 Unknown provider name. Currently supported values are 'OPENVINO', 'SNPE', 'XNNPACK', 'QNN', 'WEBNN' and 'AZURE'
+0001e696 AzureExecutionProvider
+0001e6ad virtual std::shared_ptr<KernelRegistry> onnxruntime::CPUExecutionProvider::GetKernelRegistry() const
+0001e714 T *onnxruntime::Tensor::MutableData() [T = double]
+0001e747 axis == 1 || axis == largest
+0001e764 transBatchB
+0001e770 mlas.enable_gemm_fastmath_arm64_bfloat16
+0001e799 , D=
+0001e79e gsl::span<const T> onnxruntime::Tensor::DataAsSpan() const [T = onnxruntime::Int4x2Base<true>]
+0001e7fd gsl::span<const T> onnxruntime::Tensor::DataAsSpan() const [T = long]
+0001e843 Specified device is not supported.
+0001e866 utils::HasElemType(thisProto->sequence_type())
+0001e895 uint8
+0001e89b void onnxruntime::data_types_internal::DataTypeRegistry::RegisterDataType(MLDataType)
+0001e8f1 /workspace/onnxruntime/onnxruntime/core/framework/graph_partitioner.cc
+0001e93c type_proto is not of optional type
+0001e95f virtual OrtValue *onnxruntime::OpKernelContext::GetOrCreateOutputMLValue(int)
+0001e9ad Status onnxruntime::IExecutionFrame::GetOrCreateNodeOutputMLValue(const int, int, const TensorShape *, OrtValue *&, const Node &)
+0001ea2f Received nullptr for name
+0001ea49 const NodeIndexInfo &onnxruntime::SessionState::GetNodeIndexInfo() const
+0001ea92  against size 
+0001eaa1  bytes for 
+0001eaad string tensor is not supported for copying between allocators
+0001eaeb common::Status onnxruntime::session_state_utils::ExtDataTensorProtoToTensor(const Env &, const std::basic_string<PATH_CHAR_TYPE> &, const onnx::TensorProto &, Tensor &, OrtCallback &, Tensor *)
+0001ebad SparseTensor::CooMutator onnxruntime::SparseTensor::MakeCooData(size_t, size_t)
+0001ebfd CopyData
+0001ec06 Trace
+0001ec0e GetExtDataFromTensorProto
+0001ec28  does not match the tensor size: 
+0001ec4a Element_size of: 
+0001ec5c /workspace/onnxruntime/onnxruntime/core/framework/endian_utils.cc
+0001ec9e node_info_vec[i].stream_index < 0
+0001ecc0 input index: 
+0001ecce /workspace/onnxruntime/onnxruntime/core/graph/op_identifier_utils.cc
+0001ed13 CPUIDInfo
+0001ed1d INVALID_GRAPH
+0001ed2b MapFileIntoMemory
+0001ed3d LoadValueInfoOrtFormat
+0001ed54 opset import domain is null. Invalid ORT format model.
+0001ed8b cpuinfo_get_%s called before cpuinfo is initialized
+0001edbf Actions
+0001edc7 getSavedFloatRegister
+0001ede1 OrtStatusPtr OrtApis::FillSparseTensorCsr(OrtValue *, const OrtMemoryInfo *, const int64_t *, size_t, const void *, const int64_t *, size_t, const int64_t *, size_t)
+0001ee87 FillSparseTensorBlockSparse
+0001eea3 Use GetStringTensor*() API to retrieve strings
+0001eed2 offsets buffer is not equal to tensor size
+0001eefd initial_chunk_size_bytes
+0001ef16 Invalid key found: 
+0001ef2c Expecting all elements to be tensors. Got: 
+0001ef58 Invalid session log severity level. Not a valid onnxruntime::logging::Severity value: 
+0001efaf session.load_model_format
+0001efc9  has 
+0001efcf memory.enable_memory_arena_shrinkage
+0001eff4 const logging::Logger &onnxruntime::InferenceSession::CreateLoggerForRun(const RunOptions &, std::unique_ptr<logging::Logger> &)
+0001f075 Invalid run log severity level. Not a valid onnxruntime::logging::Severity value: 
+0001f0c8  session_log_verbosity_level:
+0001f0e6 Maximum string length for a provider options key/value is 1024.
+0001f126 Expecting on device allocator for LoraAdapter
+0001f154 const T *onnxruntime::Tensor::Data() const [T = long]
+0001f18a void onnxruntime::BroadcastIterator::Init(ptrdiff_t, ptrdiff_t)
+0001f1ca num_dims_with_pad - 2 != num_output_dims
+0001f1f3 Status onnxruntime::DispatchStridedCopy(concurrency::ThreadPool *, Tensor &, std::ptrdiff_t, const TensorShapeVector &, const TensorShape &, const Tensor &, std::ptrdiff_t, const TensorShapeVector &) [EnabledDataTypes = onnxruntime::TypeList<int, long, float, double, unsigned long, unsigned int, short, unsigned short, signed char, unsigned char, onnxruntime::MLFloat16, onnxruntime::BFloat16, bool, std::string>]
+0001f392 Tile doesn't have an implementation yet for the type: 
+0001f3c9 'axes' has an out of range axis
+0001f3e9 AllocatorPtr onnxruntime::CreateAllocator(const AllocatorCreationInfo &)
+0001f432 auto onnxruntime::BFCArena::Extend(size_t)::(anonymous class)::operator()(const size_t) const
+0001f490 virtual bool onnxruntime::SparseTensorTypeBase::IsCompatible(const onnx::TypeProto &) const
+0001f4ec Failed to find kernel for 
+0001f507  (node:'
+0001f510 tensor_data_type != nullptr
+0001f52c onnxruntime::SparseTensor *OrtValue::GetMutable()
+0001f55e /workspace/onnxruntime/onnxruntime/core/framework/execution_frame.cc
+0001f5a3 Failed to get allocator for 
+0001f5c0 VerifyOutputSizes
+0001f5d2  does not match actual shape of 
+0001f5f3 session.disable_prepacking
+0001f60e void onnxruntime::AccumulateAllNestedSubgraphsInfo(const SessionState &, const std::string &, size_t, SubgraphsKernelCreateInfoMaps &)
+0001f695 static size_t onnxruntime::PlannerImpl::GetElementSize(const DataType &)
+0001f6de static SparseTensor &onnxruntime::SparseTensor::GetSparseTensorFromOrtValue(OrtValue &)
+0001f736 Format() == SparseFormat::kUndefined
+0001f75b Invalid dimension of 
+0001f771  size to read: 
+0001f781 feed_locations.size() == copy_info.size()
+0001f7ab node_info.stream_index < 0
+0001f7c6 LoadFromOrtFormat
+0001f7d8 Node index is out of range
+0001f7f3 String data type is not supported for on-device training
+0001f82c /workspace/onnxruntime/onnxruntime/core/graph/graph_viewer.cc
+0001f86a graph_->GetNode(idx) != nullptr
+0001f88a /workspace/onnxruntime/onnxruntime/core/graph/model.cc
+0001f8c1 void onnxruntime::math::Gemm(CBLAS_TRANSPOSE, CBLAS_TRANSPOSE, ptrdiff_t, ptrdiff_t, ptrdiff_t, double, const double *, const double *, double, double *, ThreadPool *)
+0001f969 /workspace/onnxruntime/onnxruntime/core/flatbuffers/flatbuffers_utils.cc
+0001f9b2 Null value type info in fbs::SequenceType. Invalid ORT format model.
+0001f9f7 onnx.TypeProto.SparseTensor
+0001fa17 Tegra SL
+0001fa20 condition_variable::timed wait: mutex not locked
+0001fa54 libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+0001fa9b RunAsync() active adapters specified, but won't have an effect
+0001fada custom join thread function not set for inter op thread pool
+0001fb17 Failed to create the inter-op thread pool for the parallel executor, setting ExecutionMode to SEQUENTIAL
+0001fb80 input
+0001fb86  elements.
+0001fb91 ' expected to be of type: 
+0001fbac Provided type is not an optional sequence tensor
+0001fbdd FeedsFetchesInfo
+0001fbee OrtMemoryInfo:[
+0001fbfe name:
+0001fc04 BindInput
+0001fc0e Received invalid value for arena extend strategy. Valid values can be either 0, 1 or -1.
+0001fc67 OpenVINO
+0001fc70 InvokeOp is not implemented for minimal build.
+0001fc9f left_num_dims > 2 && left_num_dims == right_num_dims
+0001fcd4 Data type mismatch
+0001fce7 auto onnxruntime::StridedCopy(concurrency::ThreadPool *, unsigned short *, const TensorShapeVector &, const TensorShape &, const unsigned short *, const TensorShapeVector &)::(anonymous class)::operator()(std::ptrdiff_t, std::ptrdiff_t) const
+0001fdda requested_shape[i] >= -1
+0001fdf3 The input tensor cannot be reshaped to the requested shape. Input shape:
+0001fe3c An axes tensor must be a scalar or a 1-D tensor.
+0001fe6d  max_dead_bytes_per_chunk: 
+0001fe89 Reserve
+0001fe91 void *onnxruntime::BFCArena::AllocateRawInternal(size_t, bool, Stream *, bool, WaitNotificationFn)
+0001fef4 !c->in_use() && (c->bin_num == kInvalidBinNum)
+0001ff23 void onnxruntime::BFCArena::RemoveFreeChunkFromBin(BFCArena::ChunkHandle)
+0001ff6d /workspace/onnxruntime/onnxruntime/core/framework/data_types.cc
+0001ffad static void onnxruntime::data_types_internal::SequenceTypeHelper::Set(const onnx::TypeProto *, onnx::TypeProto &)
+0002001f Duplicate entry for op id: 
+0002003b  for output 
+00020048 offset >= 0 && static_cast<size_t>(offset) < node_values_size_
+00020089 entry != kernel_create_info_map.cend()
+000200b0 Can not trace string tensor
+000200cc [Memory] SessionStateInitializer statically allocates 
+00020103 Values size 
+00020110 SparseTensor::CooView onnxruntime::SparseTensor::AsCoo() const
+0002014f std::vector<int64_t> onnxruntime::SparseTensor::GetCooIndexDims(size_t, size_t) const
+000201a5 values_count == index_size
+000201c0 Expecting inner index size: 
+000201dd Expecting fully sparse tensors to have value shape {0}
+00020214 This instance should not be empty
+00020236 tensor size overflow
+0002024b Argument is not a tensor
+00020264 UnpackTensor: the pre-allocated size does not match the size in proto
+000202aa tensor can't contain negative dims
+000202cd cur_index == indices_data.end()
+000202ed void onnxruntime::math::Gemv(CBLAS_TRANSPOSE, int, int, float, const T *, const T *, float, T *, Provider *) [T = double, Provider = onnxruntime::CPUMathUtil]
+0002038c Received invalid value for allow_spinning. Valid values are 0 or 1
+000203cf std::unique_ptr<ThreadPool> onnxruntime::concurrency::CreateThreadPoolHelper(Env *, OrtThreadPoolParams)
+00020438 void onnxruntime::profiling::Profiler::Initialize(const logging::Logger *)
+00020483 session_logger != nullptr
+000204a0 ENGINE_ERROR
+000204ad UnmapFile
+000204b7 Failed to get symbol 
+000204cd optional(
+000204d7 sparse_tensor(
+000204e6 onnx.TypeProto.Sequence
+000204fe CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - SerialArena::kBlockHeaderSize): 
+00020562 hi6250
+00020569 ro.board.platform
+0002057b std::bad_cast
+00020589 libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+000205ef CIE version is not 1 or 3
+00020609 RegisterCustomOps
+0002061b Map type is not supported in this build.
+00020644 session_options.session_log_severity_level >= 0 && session_options.session_log_severity_level <= static_cast<int>(logging::Severity::kFATAL)
+000206d1 ConstructorCommon
+000206e3 When the session is not configured to use per session threadpools, the env must be created with the the CreateEnvWithGlobalThreadPools API.
+0002076f  name: 
+00020777 intra op thread pool must have at least one thread for RunAsync
+000207b7  session_logid:
+000207c7 Provided type is not an optional tensor
+000207ef provider.name.size() <= kMaxExecutionProviderNameLen
+00020824 VSINPUExecutionProvider
+0002083c RknpuExecutionProvider
+00020853 left operand cannot broadcast on dim 
+00020879 /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/transpose.cc
+000208c3 (local_source >= source) && (local_source < source + sizeof(T) * num_blocks)
+00020910 gsl::span<T> onnxruntime::Tensor::MutableDataAsSpan() [T = onnxruntime::Int4x2Base<false>]
+0002096b c2->prev == h1
+0002097a AddConfigEntry
+00020989 /workspace/onnxruntime/onnxruntime/core/framework/data_transfer.cc
+000209cc Error mapping feeds: 
+000209e2 onnxruntime::KernelLookup::KernelLookup(ProviderType, gsl::span<const gsl::not_null<const KernelRegistry *>>, const IKernelTypeStrResolver &)
+00020a70 op_id is null.
+00020a7f onnxruntime::OpKernelContext::OpKernelContext(IExecutionFrame *, const OpKernel *, Stream *, concurrency::ThreadPool *, const logging::Logger &)
+00020b10  Requested shape:
+00020b22 onnxruntime::ExecutionFrame::ExecutionFrame(gsl::span<const int>, gsl::span<const OrtValue>, gsl::span<const int>, gsl::span<const OrtValue>, const std::unordered_map<size_t, IExecutor::CustomAllocator> &, const SessionState &)
+00020c06 p_kernel_def
+00020c13 invalid value index: 
+00020c29 _kernel_time
+00020c36 activation_size
+00020c46 Format() == SparseFormat::kCoo
+00020c65 SparseTensor::BlockSparseMutator onnxruntime::SparseTensor::MakeBlockSparseData(const TensorShape &, const TensorShape &)
+00020cdf Unable to convert strings tensor to a sparse tensor that is not on CPU
+00020d26 /workspace/onnxruntime/onnxruntime/core/framework/tensorprotoutils.cc
+00020d6c  are out of bounds or can not be read in full.
+00020d9b TensorProto type 
+00020dad Initialized tensor with unexpected type: 
+00020dd7 Sparse indices int32 data size does not match expected
+00020e0e parsing 
+00020e17 exec_plan_ptr
+00020e25 CopyInputsAcrossDevices
+00020e3d  is not the same as this node's index:
+00020e64 ' the model will use the latest encountered initializer
+00020e9c Graph is null. Invalid ORT format model.
+00020ec5 CblasNoTrans Unexpected CBLAS_TRANSPOSE for TransB of 
+00020efc not available for minimal build
+00020f1c open
+00020f21 dim_param value with no name. Invalid ORT format model.
+00020f59 Invalid data type 
+00020f6c onnx.AttributeProto
+00020f80 mu not held on entry to nsync_cv_wait_with_deadline()
+00020fb7 processor
+00020fc1 failed to allocate %zu bytes for %u logical processor mapping entries
+00021007 HiSilicon
+00021011 Kirin 
+00021018 clock_gettime(CLOCK_MONOTONIC) failed
+0002103e bad_array_new_length
+00021053 _Unwind_Resume() can't return
+00021071 libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+000210b3 Can't binary search on variable length encoded data.
+000210f0 not enough space: expected 
+0002110c RegisterCustomOpsLibrary: Failed to load library
+0002113d non_tensor_base != nullptr
+00021158 Opaque type is not a non_tensor type!!!
+00021180 location dimensions do not match shape size
+000211ac invalid location range
+000211c3 1.20.1
+000211ca utils::IsPrimitiveDataType<T>(dtype_)
+000211f0 T *onnxruntime::Tensor::MutableData() [T = std::string]
+00021228 LoadOrtModelWithLoader
+0002123f InferenceSession is null. Invalid ORT format model.
+00021273 SetEpDynamicOptions
+00021287 input name cannot be empty
+000212a2  combination is not an arena based allocator: 
+000212d1 PartitionOrtFormatModel
+000212e9 ' was not found.
+000212fa CopyKernelInfo is not implemented for minimal build.
+0002132f QNNExecutionProvider
+00021344 ArmNNExecutionProvider
+0002135b const T *onnxruntime::Tensor::Data() const [T = float]
+00021395 Status onnxruntime::MatMulComputeHelper::Compute(const TensorShape &, const TensorShape &, bool, bool, bool, bool, bool)
+0002140e dst_strides.size() == src_strides.size() && src_strides.size() == copy_shape.size() && !copy_shape.empty()
+00021479 total_num_elements_to_copy >= 0
+00021499 info.GetAttr<int64_t>("axis", &axis_).IsOK()
+000214c6 /workspace/onnxruntime/onnxruntime/lora/adapter_format_utils.cc
+00021506 Unsupported lora format version
+00021526 Creating BFCArena for 
+0002153d p_int >= base_int
+0002154f /workspace/onnxruntime/onnxruntime/core/framework/feeds_fetches_manager.cc
+0002159a virtual OrtValue *onnxruntime::OpKernelContext::OutputMLValue(int, const TensorShape &)
+000215f2 void onnxruntime::IExecutionFrame::Init(gsl::span<const int>, gsl::span<const OrtValue>, const std::unordered_map<int, OrtValue> &, const std::function<bool (const std::string &)> &, gsl::span<const OrtValue>)
+000216c4 existing_entries.find(attribute_name) == existing_entries.cend()
+00021705 The op type of a node cannot be empty
+0002172b ForEachWithIndex
+0002173c NodeIndex: 
+00021748 _fence_after
+00021755 SequentialExecutor::Execute
+00021771 /workspace/onnxruntime/onnxruntime/core/framework/prepacked_weights.cc
+000217b8  failed.
+000217c1 DeserializeTensorProto() takes either pre-allocated buffer or an allocator!
+0002180d  must be less than total buffer size: 
+00021834 Expecting two indices. Got: 
+00021851 MakeCsrData
+0002185d SparseTensor::BlockSparseView onnxruntime::SparseTensor::AsBlockSparse() const
+000218ac Src and Dst must be of the same type
+000218d1 void onnxruntime::RunSince(size_t, StreamExecutionContext &, SessionScope &, const bool &, size_t)
+00021934 TensorProtoToTensor() tensor shape mismatch!
+00021961 CopyOutputsAcrossDevices
+0002197a . Please, fix your model.
+00021994 Null strings attribute. Invalid ORT format model.
+000219c6 Mismatch between Graph and IndexedSubGraph. Input not found:
+00021a03 onnxruntime::(anonymous namespace)::PosixThread::PosixThread(const char *, int, unsigned int (*)(int, Eigen::ThreadPoolInterface *), Eigen::ThreadPoolInterface *, const ThreadOptions &)
+00021abd ReadFileIntoBuffer - unexpected end of file. 
+00021aeb Null sequence type info. Invalid ORT format model.
+00021b1e float8e5m2fnuz
+00021b2d nsync_mu not held in some mode when calling nsync_mu_wait_with_deadline()
+00021b78 /proc/cpuinfo
+00021b86 sailfish
+00021b8f song
+00021b97 cluster
+00021ba1 unspecified generic_category error
+00021bc7 filesystem error: %s ["%s"] ["%s"]
+00021bea %s failed to acquire mutex
+00021c05 ro.arch
+00021c0d getULEB128
+00021c1e tried creating tensor with negative value in shape
+00021c51 input array doesn't equal tensor size
+00021c77 Not able to find appropriate IDataTransfer to copy sparse data
+00021cb6 feed
+00021cbb Session was not initialized
+00021cd7  with graph annotation id: 
+00021cf3 Start another run for necessary memory allocation or graph capture.
+00021d37  execution_mode:
+00021d48  max_num_graph_transformation_steps:
+00021d6d MLDataType onnxruntime::utils::GetElementTypeFromOptionalSeqTensor(MLDataType)
+00021dbc  OrtMemType:
+00021dc9  OrtAllocatorType:
+00021ddc session.use_ort_model_bytes_directly
+00021e01 RegisterOnnxOperatorKernels
+00021e1d RegisterCPUKernels
+00021e30 Can broadcast 0 by 0 or 1. 
+00021e4c offset % span_size_ == 0
+00021e65 /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/concat.cc
+00021eac Tind
+00021eb1 X != nullptr
+00021ebe . bin_num:
+00021ec9  The total allocated bytes is now 
+00021eec bool
+00021ef1  is not supported
+00021f03 /workspace/onnxruntime/onnxruntime/core/framework/ex_lib_loader.cc
+00021f46  kernel start version: 
+00021f5e type_proto is not of type sequence!
+00021f82 For ort_value with index: 
+00021f9d AllocateReusedOrtValueIfNotAllocatedHelper
+00021fc8 for node '
+00021fd3 Unable to write the provided PrePackedWeights instance into the container
+0002201d p_provider
+00022028 Only tensors are supported for external outputs for now.
+00022061 void onnxruntime::PlannerImpl::Reuse(OrtValueIndex, OrtValueIndex, AllocKind)
+000220af reused != reused_for
+000220c4 ' Status Message: 
+000220d7 SaveInitializedTensors
+000220ee ExtDataTensorProtoToTensor
+00022109 Expecting indices to have 2-D shape . Got: 
+00022135 Tensor shape.Size() must be >= 0
+00022156 elt_type != nullptr
+0002216a ReadExternalDataForTensor
+00022184 const OrtDevice &onnxruntime::utils::FindDeviceForValue(const SessionState &, std::string_view)
+000221e4 void onnxruntime::TensorSeq::Add(OrtValue &&)
+00022212  auto_set_affinity: 
+00022227 /workspace/onnxruntime/onnxruntime/core/util/thread_utils.cc
+00022264 EndTimeAndRecordEvent
+00022281 realpath
+0002228a Got null library handle
+000222a2 Null value type info in fbs::MapType. Invalid ORT format model.
+000222e2 complex128
+000222ed Can't happen
+000222fa failed to parse both lists of possible and present processors
+00022338 flounder
+00022341 dragon
+00022348 NovaThor
+00022351 Renesas
+00022359 /sys/devices/system/cpu/kernel_max
+0002237f : no conversion
+0002238f libc++
+00022396 ios_base::clear
+000223ad actions & (_UA_SEARCH_PHASE | _UA_FORCE_UNWIND)
+000223dd libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+00022427 FDE has zero length
+0002243b Can not use strings in pre-allocated memory. Use CreateSparseTensorAsOrtValue() to allocate memory inside and copy
+000224ae SparseTensor &(anonymous namespace)::ValidateFillInputArgs(OrtValue *, const TensorShape &, const OrtMemoryInfo *)
+00022523 Serialized version info is null. Invalid ORT format model.
+0002255e  Please fix either the inputs/outputs or the model.
+00022594 OrtKernelContext API is not enabled in this build
+000225c6 Env is null
+000225d2 OrtStatusPtr OrtApis::SessionOptionsAppendExecutionProvider(OrtSessionOptions *, const char *, const char *const *, const char *const *, size_t)
+00022663 WebGPU
+0002266a Attribute name and type don't match for '
+00022694 Status onnxruntime::ConcatBase::PrepareForCompute(OpKernelContext *, const InlinedTensorsVector &, Prepare &) const
+00022708 Unsupported input data type of 
+00022728 , requested shape:
+0002273b Input count of Tile OP mismatch, the first one is empty
+00022773 virtual Status onnxruntime::Tile::Compute(OpKernelContext *) const
+000227b6 (local_source >= source) && (local_source < source + num_blocks * num_elts_in_block)
+0002280b bool onnxruntime::TypedDoTransposeEltWise(int64_t, gsl::span<const int64_t>, size_t, const gsl::span<const size_t> &, const uint8_t *, uint8_t *) [T = unsigned long]
+000228b1 bool onnxruntime::TypedDoTransposeEltWise(int64_t, gsl::span<const int64_t>, size_t, const gsl::span<const size_t> &, const uint8_t *, uint8_t *) [T = unsigned char]
+00022957 axes_tensor->Shape().NumDimensions() == 0 || axes_tensor->Shape().NumDimensions() == 1
+000229ae OpenVINO_RT_NPU
+000229be CopyTensorAsync
+000229ce virtual bool onnxruntime::TensorTypeBase::IsCompatible(const onnx::TypeProto &) const
+00022a24 utils::HasElemType(thisProto->optional_type())
+00022a53 Int4x2
+00022a5a /workspace/onnxruntime/include/onnxruntime/core/framework/data_types.h
+00022aa1 ONNX models are not supported in this build.
+00022ace !provider_type_.empty()
+00022ae6 Op with name (
+00022af5 ' for node type '
+00022b07 /workspace/onnxruntime/onnxruntime/core/framework/mldata_type_utils.cc
+00022b4e static std::unique_ptr<OrtOptionalTypeInfo> OrtOptionalTypeInfo::FromTypeProto(const onnx::TypeProto &)
+00022bb6 node_offsets_index < node_offsets_size_
+00022bde shape && tensor.Shape() == *shape
+00022c00  but the actual size is: 
+00022c1a alloc && alloc.get() != nullptr
+00022c3a Allocation of tensor types requires a shape.
+00022c67  size=
+00022c6e ort_value_index >= 0 && static_cast<size_t>(ort_value_index) < all_values_size_
+00022cbe ' ('
+00022cc3  Attribute:
+00022ccf void onnxruntime::PlannerImpl::ProcessDef(OrtValueIndex, const onnxruntime::NodeArg *)
+00022d26 There is no location for this node arg in the outer scope location map
+00022d70 DeserializeTensorProto
+00022d87 DenseTensorToSparseCoo
+00022d9e void onnxruntime::StreamExecutionContext::RecycleNodeInputs(onnxruntime::NodeIndex)
+00022df2 Exiting due to terminate flag being set to true.
+00022e23 int64_t onnxruntime::TensorShape::SizeToDimension(size_t) const
+00022e63 corrupted protobuf data: tensor shape size(
+00022e8f /workspace/onnxruntime/onnxruntime/core/framework/utils.cc
+00022eca fetch_alloc_info.size() == copy_info.size()
+00022ef6 ExecuteGraphImpl
+00022f07 ] op_type [
+00022f13 size_t onnxruntime::fbs::utils::GetSizeInBytesFromFbsTensor(const fbs::Tensor &)
+00022f64 OrtThreadPoolParams {
+00022f7a INVALID_ARGUMENT
+00022f8b Failed to load library 
+00022faa checking a waiter condition while unlocked
+00022fd6 attempt to nsync_mu_unlock() an nsync_mu held in read mode
+00023012 failed to allocate %zu bytes for descriptions of %u ARM logical processors
+0002305d hi3650
+00023064 Qualcomm
+00023070 ro.chipname
+0002307c /sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq
+000230b7 terminate_handler unexpectedly returned
+000230df void __cxxabiv1::scan_eh_tab(scan_results &, _Unwind_Action, bool, _Unwind_Exception *, _Unwind_Context *)
+0002314a truncated uleb128 expression
+00023167 libunwind: unsupported .eh_frame_hdr version: %u at %lx
+000231b0 , got 
+000231b7 tried Filling sparse tensor with negative value in block sparse indices shape
+00023205 this API does not support strings
+00023227 Execution providers must be registered before the session is initialized. 
+00023272 Parallel execution mode does not support the DML Execution Provider. 
+000232b8 ONNX format model is not supported in this build.
+000232ea Model was not loaded
+000232ff  combination in the memory arena shrink list: 
+0002332e  bytes were able to be read.
+0002334b common::Status onnxruntime::IOBinding::BindInput(const std::string &, const OrtValue &)
+000233a3 mapped_output_names_.size() == output_names_.size()
+000233db AZURE
+000233e1 XnnpackExecutionProvider
+000233fa Broadcast Output range [
+00023413 . N=
+00023418 dst.DataType() == src.DataType()
+00023439 auto onnxruntime::StridedCopy(concurrency::ThreadPool *, unsigned int *, const TensorShapeVector &, const TensorShape &, const unsigned int *, const TensorShapeVector &)::(anonymous class)::operator()(std::ptrdiff_t, std::ptrdiff_t) const
+00023528 StreamAwareArena should be transparent to minimal build.
+00023561  memory limit: 
+00023571  bins of max chunk size 
+0002358a  size: 
+00023592 void onnxruntime::BFCArena::RegionManager::RemoveAllocationRegion(void *)
+000235dc CopySparseTensors
+000235ee bfloat16
+000235f7 Compiling capabilities is not supported in this build.
+0002362e  node_version: 
+0002363e kernel_type_str is null.
+00023657 MLDataType onnxruntime::utils::GetMLDataType(const onnxruntime::NodeArg &)
+000236a2 This TypeProto does not have ValueCase set
+000236cd null
+000236d2 Status onnxruntime::ExecutionFrame::AllocateMLValueTensorSelfOwnBufferHelper(OrtValue &, int, MLDataType, const OrtDevice &, const TensorShape &)
+00023764 /workspace/onnxruntime/onnxruntime/core/framework/mem_pattern_planner.h
+000237ac output_size
+000237b8 format_data_.size() == 1U
+000237d2 Expecting one index. Got: 
+000237ed FinalizePlan
+000237fa Mem pattern for initializer 
+00023817  is not found
+00023825 UnpackTensorWithRawData
+0002383d , external_data.length: 
+00023856 CalculateStaticCopyInfoForFeed
+00023875 Missing values for sparse initializer. Invalid ORT format model.
+000238b6 ISink must be provided.
+000238d2 SystemError
+000238de FAIL
+000238e3 NO_MODEL
+000238ec EP_FAIL
+000238f4 n >= 0
+000238fb  error msg: 
+00023908 NONE
+0002390d unique_lock::lock: references null mutex
+00023936 MediaTek
+0002393f Telechips
+00023952 /sys/devices/system/cpu/cpu%u/topology/physical_package_id
+0002398d failed to parse the list of possible processors in %s
+000239c3 condition_variable wait failed
+000239e2 a+be
+000239e7 __cxa_guard_release
+000239fb uncaught
+00023a04 exynos9810
+00023a0f unsupported arm64 register
+00023a2a unsupported restore location for register
+00023a54 getTableEntrySize
+00023a66 tried Filling sparse tensor with negative value in values shape
+00023aa6 length_error was thrown in -fno-exceptions mode with message "%s"
+00023ae8 std::unique_ptr<IDataTransfer> (anonymous namespace)::GetDataTransfer(const OrtDevice &, const OrtDevice &)
+00023b54 Trying to get a TensorSeq, but got: 
+00023b79 TraceSessionOptions
+00023b8d  for the following indices
+00023ba9 At least one output should be requested.
+00023bd2 run_options.run_log_severity_level >= 0 && run_options.run_log_severity_level <= static_cast<int>(logging::Severity::kFATAL)
+00023c4f  enable_mem_reuse:
+00023c62 IsOptionalTensor(type)
+00023c79 Provided OrtMemoryInfo is null
+00023c98 GetDataTransfer
+00023ca8 intra-op
+00023cb1 CANNExecutionProvider
+00023cc7 transBatchA
+00023cd3 /workspace/onnxruntime/onnxruntime/core/providers/common.h
+00023d0e int64_t onnxruntime::HandleNegativeAxis(int64_t, int64_t)
+00023d48 MemoryMapAdapterFile
+00023d5d std::pair<Env::MappedMemoryPtr, size_t> onnxruntime::adapters::utils::MemoryMapAdapterFile(const std::filesystem::path &)
+00023dd7 thisProto->value_case() == TypeProto::ValueCase::kTensorType
+00023e14 string
+00023e1b int32
+00023e21 Error mapping output names: 
+00023e3e bad_variant_access was thrown in -fno-exceptions mode
+00023e74 Map types are not supported in this build
+00023e9e virtual int onnxruntime::OpKernelContext::NumVariadicInputs(size_t) const
+00023ee8 OrtValue shape verification failed. Current shape:
+00023f1b Allocation of memory pattern buffer for 
+00023f44 current <= buffer_size_
+00023f5c p_op_kernel
+00023f68 ComputeReuseCount
+00023f7a Status onnxruntime::PlannerImpl::ComputeSingleStreamReusePlan(size_t)
+00023fc0 This method should follow a call to constructor that supplies the allocator
+0002400c Expecting fully sparse tensors to have indices shape {0}
+00024045 frame_.ReleaseMLValue(static_cast<int>(execution_plan->release_actions[idx].value_index)).IsOK()
+000240a6 /workspace/onnxruntime/onnxruntime/core/framework/stream_execution_context.h
+000240f3 /workspace/onnxruntime/onnxruntime/core/framework/tensor.cc
+0002412f Invalid TensorProto
+00024143  type: 
+0002414b Unsupported type: 
+0002415e model format error! Need a value for the external data info
+0002419a CopyOneInputAcrossDevices
+000241b4 LoadInitializerOrtFormat
+000241cd Null ints attribute. Invalid ORT format model.
+000241fc Writing profiler data to file 
+0002421b " : "
+00024221 void onnxruntime::concurrency::ThreadPool::ParallelFor(std::ptrdiff_t, const TensorOpCost &, const std::function<void (std::ptrdiff_t, std::ptrdiff_t)> &)
+000242bc /workspace/onnxruntime/include/onnxruntime/core/platform/EigenNonBlockingThreadPool.h
+00024312  file "
+0002431a length > buffer.size()
+00024331  with error: 
+0002433f Failed to get error message
+0002435b onnx.ValueInfoProto
+0002436f onnx.TensorProto
+00024380 onnx.TypeProto.Tensor
+00024396 foster_e_hdd
+000243a3 w+xe
+000243a8 std::bad_alloc
+000243b7 truncated sleb128 expression
+000243d4 DW_OP_piece not implemented
+000243fa string buffer allocation failed
+0002441c OrtStatusPtr OrtApis::GetOpaqueValue(const char *, const char *, const OrtValue *, void *, size_t)
+0002447f Number of values should be at least 1.
+000244a6 Invalid rank for 
+000244b8  Got: 
+000244bf Got invalid dimensions for 
+000244db GetModelInputs
+000244ea EndProfiling
+000244f7  profile_file_prefix:
+0002450d /workspace/onnxruntime/onnxruntime/core/framework/mldata_type_utils.h
+00024553 /workspace/onnxruntime/onnxruntime/core/session/lora_adapters.cc
+00024594 Dnnl execution provider is not enabled in this build.
+000245ca ACLExecutionProvider
+000245df DmlExecutionProvider
+000245f4 auto onnxruntime::GetAvailableExecutionProviderNames()::(anonymous class)::operator()() const
+00024652 M_ == 1 && N_ == 1 was false
+0002466f /workspace/onnxruntime/include/onnxruntime/core/framework/allocator.h
+000246b5 A dimension cannot be less than -1, got 
+000246de unknown_dim == -1
+000246f0 i < input_shape.NumDimensions()
+00024710 A shape tensor must be a vector tensor.
+00024738 Failed to allocate memory for requested buffer of size 
+00024770 Extended allocation by 
+00024788 AllocateRawInternal
+0002479c Kernel not found
+000247ad Init
+000247b2 ExecutionFrame
+000247c1 We don't expect custom allocators for non-tensor types, so a shape is mandatory here.
+00024817 Received nullptr for OrtValue
+00024835 const KernelCreateInfo &onnxruntime::SessionState::GetNodeKernelCreateInfo(NodeIndex) const
+00024891  doesn't have an implementation that can cache computed pre-packed weights
+000248dc !op_type.empty()
+000248ed ) node with name '
+00024900 auto onnxruntime::PlannerImpl::ComputeValueLocation()::(anonymous class)::operator()(const NodeArg &, size_t) const
+00024974 found_in_outer_scope_location_map
+0002499b Unsupported device allocator in the context of pre-packed weights caching: 
+000249e7 unordered_map::at: key not found
+00024a08 HashValue onnxruntime::PrePackedWeights::GetHash() const
+00024a41 /workspace/onnxruntime/onnxruntime/core/framework/node_index_info.cc
+00024a86 MakeCooData
+00024a92 onnxruntime::Tensor::Tensor(MLDataType, const TensorShape &, void *, const OrtMemoryInfo &, ptrdiff_t, gsl::span<const int64_t>)
+00024b13  for SizeFromDimension. Tensor has 
+00024b37 /workspace/onnxruntime/onnxruntime/core/framework/tensor_type_and_shape.cc
+00024b82 GetFileContent
+00024b91 indices_shape[1] > 0 && static_cast<size_t>(indices_shape[1]) == dims.size()
+00024bde void onnxruntime::Graph::RemoveInitializedTensor(const std::string &)
+00024c24 Null floats attribute. Invalid ORT format model.
+00024c55 LoadOpIdentifierOrtFormat
+00024c6f /workspace/onnxruntime/onnxruntime/core/graph/op_identifier.h
+00024cad /workspace/onnxruntime/onnxruntime/core/common/cpuid_info.cc
+00024cea "tid" :
+00024cf2 virtual void onnxruntime::concurrency::ThreadPoolTempl<onnxruntime::Env>::RunInParallel(std::function<void (unsigned int)>, unsigned int, std::ptrdiff_t) [Environment = onnxruntime::Env]
+00024dad VIWEF
+00024db3 fstat
+00024db9 ReadFileIntoBuffer
+00024dcc read
+00024dd1 mmap
+00024dd6 Model must have opset imports. Invalid ORT format model.
+00024e0f failed to parse processor information from /proc/cpuinfo
+00024e48 failed to allocate %zu bytes for %u uarch index mapping entries
+00024e8b failed to parse file %s: "%.*s" is not an unsigned number
+00024ec5 wbxe
+00024ecf terminating due to %s exception of type %s
+00024efa evaluateExpression
+00024f10 UseCsrIndices
+00024f23 Session has already been initialized.
+00024f49 Running with tag: 
+00024f5c output name cannot be empty
+00024f78 /workspace/onnxruntime/onnxruntime/core/framework/execution_providers.h
+00024fc0  failed. Only 
+00024fcf An allocator for this device has already been registered for sharing.
+00025015 /workspace/onnxruntime/onnxruntime/core/session/provider_registration.cc
+0002505e CreateOp is not implemented for minimal build.
+0002508d T *onnxruntime::Tensor::MutableData() [T = long]
+000250be /workspace/onnxruntime/onnxruntime/core/providers/cpu/math/matmul.cc
+00025103 /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/concatbase.h
+0002514d /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/tile.cc
+00025192 gsl::span<T> onnxruntime::Tensor::MutableDataAsSpan() [T = unsigned char]
+000251dc virtual void *onnxruntime::BFCArena::Reserve(size_t)
+00025211 void onnxruntime::BFCArena::DeallocateRawInternal(void *)
+0002524b BinFromIndex(c->bin_num)->free_chunks.erase(h) > 0
+0002527e !c->in_use()
+0002528b tensor type 
+00025298 Duplicate entry for kernel type str: 
+000252be  entries which doesn't match the number of fetches the frame was initialized with of 
+00025314 ort_value_idx >= 0 && static_cast<size_t>(ort_value_idx) < alloc_plan.size()
+00025361 SaveMLValueNameIndexMapping
+0002537d removed 
+00025386 int &onnxruntime::PlannerImpl::UseCount(OrtValueIndex)
+000253bd GenerateDeallocationPlan
+000253d6 ExecuteKernel
+000253e4 Internal error. The preallocated buffer is too small. Requires 
+00025424 session.use_device_allocator_for_initializers
+00025452 AllocateBufferUsingDeviceAllocatorFromShapeAndType
+00025485  the same as values size: 
+000254a0 onnxruntime::Tensor::Tensor(MLDataType, const TensorShape &, std::shared_ptr<IAllocator>)
+000254fa Failed to get allocator for location: 
+00025521 /workspace/onnxruntime/onnxruntime/core/graph/node_attr_utils.cc
+00025562 LoadFromString
+00025571 CblasTrans Unexpected CBLAS_TRANSPOSE for TransB of 
+000255a6  affinity_str: 
+000255b6 Maximum number of events reached, could not record profile event.
+000255fb Invalid fd was supplied: 
+00025615 DeleteFolder
+00025622 close
+00025628 LoadTensorShapeOrtFormat
+00025641 Unsuported type proto value case.
+00025663 float8e4m3fnuz
+00025672 onnx.TypeProto.Map
+00025685 /workspace/build/intermediates/arm64-v8a/Release/_deps/protobuf-src/src/google/protobuf/parse_context.h
+000256ed terminating.
+000256fb Samsung
+0002570d filesystem error: %s ["%s"]
+00025729 unwind_phase2
+00025737 malformed uleb128 expression
+00025754 unsupported restore location for float register
+0002578b no imputs were passed
+000257a1 The requested API version [%u] is not available, only API versions [1, %u] are supported in this build. Current ORT Version is: %s
+00025825 const onnxruntime::SparseTensor &OrtValue::Get() const
+0002585c onnxruntime_profile_
+00025871 void onnxruntime::TensorSeq::SetType(MLDataType)
+000258a2 So making the execution mode sequential for this session since it uses the DML Execution Provider.
+00025905 ORT model verification failed.
+00025924  names has 
+00025930 model_run
+0002593a Did not find an arena based allocator registered for device-id 
+0002597a Load model from 
+0002598b .json
+00025991 Provided allocator is null
+000259ac env_ptr == p_instance_.get()
+000259c9  is not implemented in CreateAndRegisterAllocatorV2()
+000259ff BroadcastLooper requires two tensors as input.
+00025a2e /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/reshape_helper.h
+00025a7c The input tensor must not have any dynamic (-1) dimensions. Input shape:
+00025ac5  != 
+00025aca UnpackInt4Tensor
+00025adb gsl::span<const T> onnxruntime::Tensor::DataAsSpan() const [T = onnxruntime::Int4x2Base<false>]
+00025b3b gsl::span<const T> onnxruntime::Tensor::DataAsSpan() const [T = unsigned char]
+00025b8a HipPinned
+00025b94 /workspace/onnxruntime/onnxruntime/core/framework/config_options.cc
+00025bd8 uint32
+00025bdf int64
+00025be5 Only ONNX MLDataType can be registered
+00025c0c  domain (
+00025c16 This op has been implemented only for the following types (
+00025c52 Could not find OrtValue with idx '
+00025c75 auto onnxruntime::SessionState::PrepackConstantInitializedTensors(InlinedHashMap<std::string, size_t> &, const std::unordered_map<std::string, const OrtValue *> &)::(anonymous class)::operator()(bool) const
+00025d44 Can not find the execution provider 
+00025d69 OrtValueIndex &onnxruntime::PlannerImpl::Buffer(OrtValueIndex)
+00025dac auto onnxruntime::NodeIndexInfo::Init(const onnxruntime::ConstGraphNodes &, NodeIndex, const OrtValueNameIdxMap &)::(anonymous class)::operator()(const onnxruntime::NodeArg &, bool) const
+00025e68 Must contain Csr format. Contains: 
+00025e8c This method does not expect allocator to be set
+00025ebc Expecting index blocks: 
+00025ed5 Use MakeBlockSparseStrings
+00025ef0  dst_size: 
+00025efc static void SafeIntExceptionHandler<onnxruntime::OnnxRuntimeException>::SafeIntOnDivZero()
+00025f57 Unsupported element size: 
+00025f72  dimensions.
+00025f7f External data type cannot be UNDEFINED or STRING.
+00025fb1 model format error! Need a key for the external data info
+00025feb InitializeFeedFetchCopyInfo
+00026007 void onnxruntime::TensorSeq::Add(Tensor &&)
+00026033 /workspace/onnxruntime/onnxruntime/core/graph/graph.cc
+0002606a Missing indicies for sparse initializer: 
+00026094 "dur" :
+0002609c "name" :"
+000260a6 Spreadtrum
+000260b1 WonderMedia
+000260bd ro.mediatek.platform
+000260db libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+0002611c DW_EH_PE_aligned pointer encoding not supported
+0002614c getSavedRegister
+00026161 OrtStatusPtr OrtApis::UseBlockSparseIndices(OrtValue *, const int64_t *, size_t, int32_t *)
+000261bd Trying to get a Tensor, but got: 
+000261e2 -intra-op
+000261ec CPUExecutionProvider
+00026201 NULL input supplied for input 
+00026220 Profiler is disabled.
+0002623a AddExternalInitializersFromFilesInMemory is not supported in this build
+00026282 WEBNN
+00026288 CUDA execution provider is not enabled in this build.
+000262be JsExecutionProvider
+000262d2 Memory allocation failed. Size=
+000262f2 Must have 1 or more inputs
+0002630d copy shape must have non-negative size
+00026334 last >= first
+00026342 'repeat' input tensor must have the same length as the 'input' tensor
+00026388 Total allocated bytes: 
+000263a0 BFCArena::Chunk *onnxruntime::BFCArena::FindChunkPtr(BinNum, size_t, size_t, Stream *, bool, WaitNotificationFn)
+00026411 c->in_use() && (c->bin_num == kInvalidBinNum)
+0002643f Config key is empty or longer than maximum length 128
+00026475 CopyTensors
+00026481 virtual bool onnxruntime::OptionalTypeBase::IsCompatible(const onnx::TypeProto &) const
+000264d9 double
+000264e0 int8
+000264e5 static void onnxruntime::data_types_internal::OptionalTypeHelper::Set(const onnx::TypeProto *, onnx::TypeProto &)
+00026557 kernel def can't be NULL
+00026570 kernel_type_str_args is null.
+0002658e int onnxruntime::NodeIndexInfo::GetNodeOffset(NodeIndex) const
+000265cd TraceAllocate
+000265db Attribute name and type don't match
+000265ff  removable attributes 
+00026616  is used by node 
+0002662b OrtValue indexes should have been populated.
+00026658 allocator_ != nullptr
+0002666e Outer index count must be rows + 1 or zero. Got: 
+000266a0 void onnxruntime::StreamExecutionContext::CountDownBarrier::Set(int32_t)
+000266e9 ' failed
+000266f2 int64_t onnxruntime::TensorShape::SizeFromDimension(size_t) const
+00026734 TransposeSingleAxisOutwards
+00026750 common::Status onnxruntime::utils::CopyInputsAcrossDevices(const SessionState &, gsl::span<const OrtValue>, std::vector<OrtValue> &, gsl::span<const MLValueCopyInfo>)
+000267f7 Missing raw data for initializer. Invalid ORT format model.
+00026833 IndexedSubGraph contains values not present in the Graph
+0002686c default_logger_id must be provided if instance_type is InstanceType::Default
+000268b9 Null tensor type info. Invalid ORT format model.
+000268ea Type:
+000268f0 (cannot determine missing fields for lite message)
+00026923 Unisoc
+0002692a /sys/devices/system/cpu/cpu%u/topology/core_siblings_list
+00026968 getRegister
+0002697c FDE is really a CIE
+00026990 /workspace/onnxruntime/onnxruntime/core/session/onnxruntime_c_api.cc
+000269d5 UseCooIndices
+000269e3 UseBlockSparseIndices
+000269f9 the ort_value must contain a constructed tensor
+00026a29 RunAsync
+00026a32 /workspace/onnxruntime/include/onnxruntime/core/common/logging/logging.h
+00026a7b const OrtValue &onnxruntime::TensorSeq::GetAt(size_t) const
+00026ab7 Received nullptr for exec provider
+00026ada gpu_graph_id
+00026ae7  CUDA Graph for this model with tag: 
+00026b0d The registered allocator for device-id 
+00026b35  use_deterministic_compute:
+00026b51  id:
+00026b56 Flush-to-zero and denormal-as-zero are 
+00026b7e OrtMemoryInfo is null
+00026b94  execution provider is not enabled in this build. 
+00026bc7 onnxruntime::ConcatBase::ConcatBase(const OpKernelInfo &, bool)
+00026c07 src and dst types must match
+00026c24 allowzero
+00026c2e  bytes.
+00026c36 int onnxruntime::BFCArena::AllocationRegion::IndexFor(const void *) const
+00026c80 /workspace/onnxruntime/onnxruntime/core/framework/data_transfer_manager.cc
+00026ccb  is not currently registered or supported
+00026cf5 Validating no unexpected access using an invalid node_index. Got:
+00026d37  Version mismatch.
+00026d4a node_index_info_.GetMaxMLValueIdx() == ort_value_idx_map.MaxIdx()
+00026d8c  returned nullptr
+00026d9e Status onnxruntime::PlannerImpl::BuildExecutionPlan(const ExecutionProviders &)
+00026dee Using user supplied initializer with name (
+00026e1a utils::HasExternalData(tensor_proto)
+00026e3f MakeCooStrings
+00026e4e shape.Size() must >=0
+00026e64 ) in proto
+00026e6f Status onnxruntime::utils::LoadExtDataToTensorFromTensorProto(const Env &, const std::filesystem::path &, const onnx::TensorProto &, const IExternalDataLoader &, Tensor &)
+00026f1b UnpackInitializerData
+00026f31 Sparse indices int64 data size does not match expected
+00026f68 Invalid SparseTensor indices. INT16 indices must be in the raw data of indices tensor
+00026fbe Unsupported OrtValue type to copy between device.
+00026ff0 string_view::substr
+00027004  allow_spinning: 
+00027016 void onnxruntime::logging::LoggingManager::CreateDefaultLogger(const std::string &)
+0002706a , offset: 
+00027075 ERROR
+0002707b darcy
+00027081 hi3751
+00027088 MStar
+0002708e Exynos 
+0002709a filesystem error: %s
+000270af terminating due to %s foreign exception
+000270d7  was false.
+000270e3 Sparse Tensor does not contain sparse data
+0002710e /workspace/onnxruntime/include/onnxruntime/core/framework/tensor.h
+00027151 Unsupported input type
+00027168 -inter-op
+00027172 session.use_env_allocators
+0002718d GetOverridableInitializers
+000271aa Cached EP instance for graph replay is not set yet before calling ReplayGraph()
+000271fa /workspace/onnxruntime/onnxruntime/core/providers/get_execution_providers.cc
+00027247 MIGraphXExecutionProvider
+00027261 T *onnxruntime::Tensor::MutableData() [T = int]
+00027291 ) are not at boundary of span with size:
+000272ba axis 
+000272c0 Cannot concatenate scalars
+000272db input_rank == reference_rank
+000272f8  has mismatched dimensions of 
+00027317 ComputeImpl
+00027323 Transpose not implemented for empty tensors.
+00027350 (local_source >= source) && (local_source < source + num_blocks * blocksize)
+000273a1 BFCArena
+000273aa BFCArena::Chunk *onnxruntime::BFCArena::ChunkFromHandle(ChunkHandle)
+000273ef tried to allocate 0 bytes
+00027409 !chunk->in_use()
+0002741a uint64
+00027421 /workspace/onnxruntime/onnxruntime/core/framework/kernel_lookup.h
+00027463 shape && sp_tensor.DenseShape() == *shape
+0002748d Shape mismatch attempting to re-use buffer. 
+000274ba const OrtValue &onnxruntime::IExecutionFrame::GetMLValue(int) const
+000274fe An OrtValue for this name has already been added: 
+00027531 failed at retrieving the removable attributes
+0002755f /workspace/onnxruntime/onnxruntime/core/framework/session_state_utils.cc
+000275a8 AllocateTensorOnDeviceOrMemory
+000275c7  input with name 
+000275d9 ' is not found
+000275e8 Unsupported indices_format passed
+0002760a UnpackTensor: the pre-allocate size does not match the size in proto
+0002764f data overflow
+0002765d External initializer: 
+00027674 SparseTensorProtoToDenseTensorProto
+00027698 CopyLittleEndian
+000276a9 ], could not find NodeArg 
+000276c4 Missing dimensions for initializer. Invalid ORT format model.
+00027702 Mismatch between Graph and IndexedSubGraph. Node not found: 
+0002773f "args" : {
+0002774e SUCCESS
+00027756 Null type info for 
+0002776a . Invalid ORT format model.
+00027786 LoadTensorDimensionOrtFormat
+000277a3 onnx.ModelProto
+000277b3 panic: 
+000277bb failed to allocate %zu bytes for descriptions of %u cores
+000277f5 Leadcore
+000277fe mutex lock failed
+00027810 %.0Lf
+00027816 posix_stat
+00027821 terminate_handler unexpectedly threw an exception
+00027853 unexpected
+0002785e actions & _UA_SEARCH_PHASE
+00027879 libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+000278bf OrtStatusPtr OrtApis::FillSparseTensorCoo(OrtValue *, const OrtMemoryInfo *, const int64_t *, size_t, const void *, const int64_t *, size_t)
+0002794c Stacktrace:
+0002795b onnxruntime::Tensor *OrtValue::GetMutable()
+00027987 Tensor sequence must contain only primitive types
+000279b9 TensorSeq: tensor to be added has a different data type.
+000279f2 session.dynamic_block_base
+00027a0d Missing Model. Invalid ORT format model.
+00027a36  but received a tensor
+00027a4d GetModelMetadata
+00027a5e Session Options { 
+00027a71  MemoryType:
+00027a7e Provider options key/value cannot be empty
+00027aa9 OpenVINOExecutionProvider
+00027ac3 SoftmaxCPU inputs N, D and N * D must be < 
+00027aef  and 
+00027af5 auto onnxruntime::StridedCopy(concurrency::ThreadPool *, unsigned long *, const TensorShapeVector &, const TensorShape &, const unsigned long *, const TensorShapeVector &)::(anonymous class)::operator()(std::ptrdiff_t, std::ptrdiff_t) const
+00027be6 void onnxruntime::StridedCopy(concurrency::ThreadPool *, T *, const TensorShapeVector &, const TensorShape &, const T *, const TensorShapeVector &) [T = unsigned char]
+00027c8e onnxruntime::ReshapeHelper::ReshapeHelper(const TensorShape &, TensorShapeVector &, bool)
+00027ceb gsl::span<const T> onnxruntime::Tensor::DataAsSpan() const [T = signed char]
+00027d38 Status onnxruntime::UnsqueezeBase::PrepareCompute(OpKernelContext *, Prepare &) const
+00027d8e The buffer does not appear to be a valid lora parameter format
+00027dcd WebNN_Tensor
+00027dda  initial_growth_chunk_size_bytes: 
+00027dfd  max_power_of_two_extend_bytes: 
+00027e1e reserved_chunks_.find(ptr) == reserved_chunks_.end()
+00027e53 utils::HasElemType(thisProto->sparse_tensor_type())
+00027e87 Float8E4M3FNUZ
+00027e96 p.second
+00027e9f  Max:
+00027ea5 static_cast<size_t>(first_arg_idx) < actual_inputs.size()
+00027edf found duplicated provider 
+00027efa arg_num < arg_counts.size()
+00027f16 Invalid arg_num of 
+00027f2a AllocateMLValueTensorPreAllocateBuffer
+00027f51  expected to be of type: 
+00027f6b AddInitializer
+00027f7a CreateGraphInfo
+00027f8a '), 
+00027f8f among attributes: 
+00027fa2 Release_State_
+00027fb1 The kernel corresponding to the node 
+00027fd7  doesn't have an implementation that can consume provided pre-packed weights
+00028024 onnxruntime::Status onnxruntime::ExecuteKernel(StreamExecutionContext &, NodeIndex, size_t, const bool &, SessionScope &)
+0002809e /workspace/onnxruntime/onnxruntime/core/framework/sparse_tensor.cc
+000280e1 SparseTensor::CsrMutator onnxruntime::SparseTensor::MakeCsrData(size_t, size_t, size_t)
+00028139 Copy
+0002813e CalculateTensorStorageSize
+00028159 static size_t onnxruntime::Tensor::CalculateTensorStorageSize(MLDataType, const TensorShape &)
+000281b8 Tensor type is undefined
+000281d1 UnpackTensor
+000281de  given file_length: 
+000281f3  can not be written into Tensor type 
+00028219 GetExternalDataInfo
+0002822d Status onnxruntime::DispatchStridedCopy(concurrency::ThreadPool *, Tensor &, std::ptrdiff_t, const TensorShapeVector &, const TensorShape &, const Tensor &, std::ptrdiff_t, const TensorShapeVector &) [EnabledDataTypes = onnxruntime::TypeList<float, double, long, unsigned long, int, unsigned int, short, unsigned short, signed char, unsigned char, onnxruntime::MLFloat16, onnxruntime::BFloat16, bool, std::string>]
+000283cc CalculateStaticCopyInfoForFeeds
+000283ec Failed to find allocator for device 
+00028414 pthread_attr_init failed, error code: 
+0002843b pthread_create failed, error code: 
+0002845f , path: 
+00028468 complex64
+00028472 failed to allocate %zu bytes for %u core mapping entries
+000284ab Snapdragon 
+000284b7 /sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq
+000284ee _Unwind_Reason_Code __cxxabiv1::__gxx_personality_v0(int, _Unwind_Action, uint64_t, _Unwind_Exception *, _Unwind_Context *)
+0002856a actions & _UA_CLEANUP_PHASE
+00028586 libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+000285d7 RunWithBinding
+000285e6 max_power_of_two_extend_bytes
+00028604 Trying to get a SparseTensor, but got: 
+0002862c At least one element in the sequence is of a type different from others.
+00028675 /workspace/onnxruntime/onnxruntime/core/session/inference_session.cc
+000286ba logging::Severity onnxruntime::GetSeverity(const SessionOptions &)
+000286ff Dynamic block base set to 
+0002871a Initialize
+00028725  enable_profiling:
+00028738 MEMORY_EFFICIENT
+00028749  has already been registered.
+00028769 SynchronizeInputs
+0002877b Cuda
+00028780 SessionOptionsAppendExecutionProvider
+000287a6  execution provider is not supported in this build. 
+000287db NnapiExecutionProvider
+000287f2 CoreMLExecutionProvider
+0002880a onnxruntime::ElementWiseKernel<onnxruntime::functors::Elu<float>>::ElementWiseKernel(const OpKernelInfo &) [F = onnxruntime::functors::Elu<float>]
+0002889d  by 
+000288a2 static void onnxruntime::IAllocator::ValidateAllocation(void *, size_t)
+000288ea auto onnxruntime::StridedCopy(concurrency::ThreadPool *, std::string *, const TensorShapeVector &, const TensorShape &, const std::string *, const TensorShapeVector &)::(anonymous class)::operator()(std::ptrdiff_t, std::ptrdiff_t) const
+000289d7 Missing/Invalid 'axes' attribute value
+000289fe Failed to find a free memory block despite calling Extend. rounded_bytes=
+00028a48 void onnxruntime::BFCArena::InsertFreeChunkIntoBin(BFCArena::ChunkHandle)
+00028a92 0 == memory_size % kMinAllocationSize
+00028ab8 entry != regions_.end()
+00028ad0 sparse tensor type 
+00028ae4 Partition
+00028aee Invalid ORT format model.
+00028b08 /workspace/onnxruntime/onnxruntime/core/framework/onnxruntime_optional_type_info.cc
+00028b5c node_index_info and ort_value_idx_map are out of sync and cannot be used
+00028ba5 Get feed size: 
+00028bb5 output_names_to_nodeinfo.empty()
+00028bd6 Could not find an implementation for 
+00028bfc !IsNonTensor(*node_output)
+00028c17 nullptr != tensor_type_base
+00028c33 /workspace/onnxruntime/onnxruntime/core/framework/sequential_executor.cc
+00028c7c common::Status onnxruntime::session_state_utils::SaveInitializedTensors(const Env &, const std::basic_string<PATH_CHAR_TYPE> &, const GraphViewer &, const AllocatorPtr &, const OrtValueNameIdxMap &, const std::vector<OrtValueIndex> &, ITensorAllocator &, const SaveTensorFunction &, const logging::Logger &, const DataTransferManager &, const ExternalDataLoaderManager &, const ExecutionPlanBase &, const SessionOptions &, const MemoryProfileFunction &, std::unordered_map<std::string, std::unique_ptr<Tensor>> &)
+00028e7e OrtValue index: 
+00028e8f Skipping entry for missing optional value at idx 
+00028ec1 Expecting to contain one index, got: 
+00028ee7 ValidateCsrIndices
+00028efa ) does not match the data size(
+00028f1a Unsupported sparse tensor data type of 
+00028f42 Status onnxruntime::utils::BatchOrCopyMLValue(const SessionState &, const MLValueCopyInfo &, const OrtValue &, OrtValue &, Stream *, std::vector<IDataTransfer::SrcDstPair> *, std::vector<IDataTransfer::SparseSrcDstPair> *)
+00029021 sparse_tensor_names_ not in sync with name_to_initial_tensor_
+0002905f AttributeProto must have a name.
+00029080 Only one instance of LoggingManager created with InstanceType::Default can exist at any point in time.
+000290e7 n <= num_threads_ + 1
+000290fd Negative thread index is not allowed
+00029122 pthread_attr_setstacksize failed, error code: 
+00029151 LoadMapTypeOrtFormat
+00029166 Invalid tensor data type 
+00029180 onnx.StringStringEntryProto
+0002919c onnx.OperatorSetIdProto
+000291b4 WARNING
+000291bc uarchs_count
+000291c9 failed to allocate %zu bytes for descriptions of %u core clusters
+0002920b Amlogic
+00029213 package
+0002921b out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+0002924e unknown pointer encoding
+00029267 getSLEB128
+00029272 DW_OP_deref_size with bad size
+00029298 index is out of bounds
+000292af out_of_range was thrown in -fno-exceptions mode with message "%s"
+000292f1 Creating and using per session threadpools since use_per_session_threads_ is true
+00029343 Failed to parse the cuda graph annotation id: 
+00029372  execution_order:
+00029384 %Y-%m-%d_%H-%M-%S
+00029396 External initializers are not supported in this build
+000293cc XNNPACK
+000293d4 No attribute with name:'
+000293ed onnxruntime::Broadcaster::Broadcaster(gsl::span<const int64_t>, gsl::span<const int64_t>)
+00029447 void onnxruntime::BroadcastLooper(TBroadcastHelper &, const ProcessBroadcastSpanFuncs &) [TBroadcastHelper = onnxruntime::BroadcastHelper]
+000294d2 Two inputs should have same rank and rank >= 3 if transBatchA or transBatchB is true
+00029527 Must have valid 'axis' attribute
+00029548 const Adapter *onnxruntime::adapters::utils::ValidateAndGetAdapterFromBytes(gsl::span<const uint8_t>)
+000295ae Extend
+000295b5 virtual common::Status onnxruntime::CPUDataTransfer::CopyTensor(const Tensor &, Tensor &) const
+00029615 src.SizeInBytes() == dst.SizeInBytes()
+0002963c Float8E5M2FNUZ
+0002964b (unknown type)
+0002965a expected a registered ONNX type
+0002967a bool onnxruntime::(anonymous namespace)::MatchKernelDefTypes(const Node &, const std::unordered_map<std::string, std::vector<MLDataType>> &, const IKernelTypeStrResolver &, std::string &)
+00029739 OrtValue is TensorSequence type but has no element Tensor DataType.
+0002977d Status onnxruntime::ExecutionFrame::AllocateAsPerAllocationPlan(OrtValue &, int, const TensorShape *)
+000297e3  failed: 
+000297ed void onnxruntime::SessionState::AddSubgraphSessionState(onnxruntime::NodeIndex, const std::string &, std::unique_ptr<SessionState>)
+00029871 n >= 0 && static_cast<size_t>(n) < ort_value_info_.size()
+000298ab Saving initialized tensors.
+000298c7 dense shape must 2-D. Got: 
+000298e3 Divide by zero
+000298f2 onnxruntime::Tensor::Tensor(MLDataType, const TensorShape &, void *, std::shared_ptr<IAllocator>, ptrdiff_t, gsl::span<const int64_t>)
+00029979 Memory address tag is not supported by custom external data loader.
+000299bd TensorProtoToTensor
+000299d1 Invalid SparseTensor indices. Should one of the following types: int8, int16, int32 or int64
+00029a2e model format error! Missing 'location'
+00029a55 Mismatch between Graph and IndexedSubGraph. Output not found:
+00029a93 ::onnxruntime::TimePoint onnxruntime::profiling::Profiler::Start()
+00029ad6 Null map type info. Invalid ORT format model.
+00029b04 opaque(
+00029b15 clock_gettime(CLOCK_REALTIME) failed
+00029b3a uintptr_t __cxxabiv1::readEncodedPointer(const uint8_t **, uint8_t, uintptr_t)
+00029b89 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00029bec libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+00029c54 OrtStatusPtr OrtApis::CreateOpaqueValue(const char *, const char *, const void *, size_t, OrtValue **)
+00029cbb Invalid build with no providers available
+00029ce5 Adding default CPU execution provider.
+00029d0c output
+00029d13  inter_op_param:
+00029d29  it.second=
+00029d35 SynchronizeOutputs
+00029d48 /workspace/onnxruntime/onnxruntime/core/session/ort_env.cc
+00029d83 Make the EP:
+00029d90  name shorter
+00029d9e const T *onnxruntime::Tensor::Data() const [T = int]
+00029dd3  is invalid.
+00029de0 start_offset % span_size == 0 && real_end % span_size == 0
+00029e1b /workspace/onnxruntime/onnxruntime/core/providers/cpu/math/softmax.cc
+00029e61 void onnxruntime::StridedCopy(concurrency::ThreadPool *, T *, const TensorShapeVector &, const TensorShape &, const T *, const TensorShapeVector &) [T = std::string]
+00029f07 virtual Status onnxruntime::Reshape::Compute(OpKernelContext *) const
+00029f4d void onnxruntime::IncrementIndexAndComputeOffsetSetup(MultiIndex &, size_t, gsl::span<const int64_t>, const gsl::span<const size_t> &, size_t)
+00029fdc Failed to pack 8-bit Tensor into 4-bit Tensor
+0002a00a nullptr != p.output_tensor
+0002a025 Received invalid value of arena_extend_strategy 
+0002a056  to 
+0002a05b Available memory of 
+0002a070 h != kInvalidChunkHandle
+0002a089  (requested) num_bytes: 
+0002a0a2 !c1->in_use() && !c2->in_use() && c1->stream == c2->stream
+0002a0dd p_int < base_int + memory_size_
+0002a0fd The node is not placed on any Execution Provider. 
+0002a130 ensure that they are used in the kernel def type constraints instead of op input or output names. Not doing so will result in this error.
+0002a1ba value_case == ONNX_NAMESPACE::TypeProto::kOptionalType
+0002a1f1 void onnxruntime::ExecutionFrame::TraceFree(int)
+0002a222 Buffer containing the initializer must be owned by the user.
+0002a25f  Index:
+0002a267 ComputeValueLocation
+0002a27c const KernelCreateInfo &onnxruntime::GetKernelCreateInfo(const KernelCreateInfoMap &, NodeIndex)
+0002a2dd Failed to copy tensor to 
+0002a2f7 Done saving initialized tensors
+0002a317 SaveInputOutputNamesToNodeMapping
+0002a339 Subgraph
+0002a342  is not used by any node.
+0002a35c the ort_value must contain a constructed sparse tensor
+0002a393 Index size: 
+0002a3a0 Calculation for Tensor storage size overflowed
+0002a3cf Tensor is expected to contain one of the primitive data types. Got: 
+0002a414 void onnxruntime::TransposeSingleAxisOutwards(gsl::span<const size_t>, const Tensor &, Tensor &, size_t, size_t, const TensorShape *, concurrency::ThreadPool *)
+0002a4b5 Unsupported OrtValue type.
+0002a4d0 Gemv found an unexpected CBLAS_TRANSPOSE input of
+0002a502 Setting thread affinity is not implemented in this build.
+0002a53c Session
+0002a547 onnx.TypeProto.Opaque
+0002a55d /workspace/build/intermediates/arm64-v8a/Release/_deps/protobuf-src/src/google/protobuf/arena.cc
+0002a5be mu held in reader and writer mode simultaneously on entry to nsync_cv_wait_with_deadline()
+0002a61a hi3635
+0002a621 Tegra T
+0002a629 Surge S
+0002a631 unsupported locale for standard input
+0002a65b __cxa_guard_abort
+0002a66d setRegister
+0002a67d FillSparseTensorCoo
+0002a691 OrtStatusPtr OrtApis::UseCooIndices(OrtValue *, int64_t *, size_t)
+0002a6d4 buffer size is too small for string element
+0002a700 max_dead_bytes_per_chunk
+0002a71b custom join thread function not set for intra op thread pool
+0002a758 session.inter_op.allow_spinning
+0002a778 So disabling it for this session since it uses 
+0002a7a8  error message: 
+0002a7b9 ORTM
+0002a7be MLDataType onnxruntime::utils::GetElementTypeFromOptionalTensor(MLDataType)
+0002a80a onnxruntime::FeedsFetchesInfo::FeedsFetchesInfo(gsl::span<const std::string>, gsl::span<const std::string>, const OrtValueNameIdxMap &)
+0002a892 Size mismatch:
+0002a8a1 VitisAIExecutionProvider
+0002a8ba ComputeAsync
+0002a8c7 right operand cannot broadcast on dim 
+0002a8ee allocator != nullptr
+0002a903 onnxruntime::GatherBase::GatherBase(const OpKernelInfo &)
+0002a93d indices element out of data bounds, idx=
+0002a966 Transpose of element size not supported in this build. Size=
+0002a9a3 void onnxruntime::DoTransposeEltWise(int64_t, gsl::span<const int64_t>, size_t, const gsl::span<const size_t> &, const std::string *, std::string *)
+0002aa38 CreateAllocator
+0002aa48  with following configs: initial_chunk_size_bytes: 
+0002aa7c Allocated memory at 
+0002aa91 There's no data transfer registered for copying tensors from 
+0002aacf uint16
+0002aad6 value_case == ONNX_NAMESPACE::TypeProto::kSequenceType
+0002ab0d TempSpace allocator not found
+0002ab2b  is defined.
+0002ab38 !using_counters_
+0002ab49 PopulateKernelCreateInfo
+0002ab62 entry != node_to_subgraph_ss.second.cend()
+0002ab8d  used in the node: 
+0002aba1 Rerunning with verbose output on a non-minimal build will show node assignments.
+0002abf2 specific_subgraph_kernel_create_info_map != subgraphs_kernel_create_info_maps_.end()
+0002ac47 onnxruntime::OpKernelContextInternal::OpKernelContextInternal(const SessionState &, IExecutionFrame &, const OpKernel &, const logging::Logger &, const bool &, Stream *)
+0002acf1 All implicit inputs should have OrtValue instances by now. 
+0002ad30 entry != initialized_tensors_to_allocate.end()
+0002ad5f Cannot use user supplied initializer with name: (
+0002ad91  rows: 
+0002ad99  to device type: 
+0002adab size overflow
+0002adb9  is not supported.
+0002adcc  external data size mismatch. Computed size: 
+0002adfa ExecuteGraph
+0002ae07 IsSameDataType(tensor)
+0002ae1e Unexpected CBLAS_TRANSPOSE for TransA of 
+0002ae48 Failed to initialize PyTorch cpuinfo library. May cause CPU EP performance degradation due to undetected CPU features.
+0002aebf "pid" :
+0002aec7 Node
+0002aecc GENERAL ERROR
+0002aeda Failed to close file descriptor 
+0002aefb remove() failed. Error code: 
+0002af19 LoadOpsetImportOrtFormat
+0002af32 INFO
+0002af37 failed to allocate %zu bytes for descriptions of %u logical processors
+0002af7e chipset detection failed: could not disambiguate different chipsets reported in different system properties
+0002afea Broadcom
+0002aff3 Texas Instruments
+0002b009 Tegra AP
+0002b012 OMAP
+0002b017 condition_variable timed_wait failed
+0002b03e libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+0002b086 DW_EH_PE_textrel pointer encoding not supported
+0002b0b6 DWARF opcode not implemented
+0002b0de input array is too short
+0002b0f7 Loading config from ONNX models is not supported in this build.
+0002b137 IsTensor()
+0002b142 Input is not of type sequence or map.
+0002b168 const onnxruntime::TensorSeq &OrtValue::Get() const
+0002b19c session.set_denormal_as_zero
+0002b1b9 session.intra_op.allow_spinning
+0002b1d9 Using global/env threadpools since use_per_session_threads_ is false
+0002b21e This session already contains a loaded model.
+0002b24c The ORT format model version [
+0002b26b disable_synchronize_execution_providers
+0002b293 operator()
+0002b29e SyncProviders
+0002b2ac No allocator for this device has been registered for sharing.
+0002b2ea WebGpuExecutionProvider
+0002b302 'is defined.
+0002b30f  must be within the inclusive range [
+0002b335 /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/unsqueeze.h
+0002b37e onnxruntime::UnsqueezeBase::UnsqueezeBase(const OpKernelInfo &)
+0002b3be info.GetAttrs("axes", axes_).IsOK()
+0002b3e2 Float8E4M3FN
+0002b3ef GetElementType
+0002b3fe input_copy_needed != DeviceCopyCheck::Unknown && output_copy_needed != DeviceCopyCheck::Unknown
+0002b45e PartitionOrtFormatModelImpl
+0002b47a Failed to add kernel for 
+0002b494  kernel_end_version: 
+0002b4aa  but the node in the model has the following type (
+0002b4de ' ep:'
+0002b4e5 entry != kernel_create_info_map_.cend()
+0002b50d Entry exists in node 
+0002b523 Status onnxruntime::SessionState::FinalizeSessionStateImpl(const std::basic_string<PATH_CHAR_TYPE> &, const KernelRegistryManager &, const Node *, const SessionOptions &, bool, InlinedHashMap<std::string, size_t> &, const InlinedHashMap<OrtValueName, OrtDevice> &, bool)
+0002b632  which is of op type: 
+0002b649 Use MakeCsrStrings
+0002b65c Format() == SparseFormat::kBlockSparse
+0002b683 Status onnxruntime::utils::GetExtDataFromTensorProto(const Env &, const std::filesystem::path &, const onnx::TensorProto &, void *&, SafeInt<size_t> &, OrtCallback &, Tensor *)
+0002b734 Tensor does not have external data to read from.
+0002b765 /workspace/onnxruntime/onnxruntime/core/graph/graph_flatbuffers_utils.cc
+0002b7ae LoadSparseInitializerOrtFormat
+0002b7cd nodearg
+0002b7d5  stack_size: 
+0002b7e3 /workspace/onnxruntime/onnxruntime/core/common/logging/logging.cc
+0002b827 munmap failed. error code: 
+0002b843 onnx.TypeProto.Optional
+0002b85b FATAL
+0002b861 Marvell
+0002b86b Unknown error %d
+0002b880 __cxa_guard_acquire
+0002b894 actions & (_UA_SEARCH_PHASE | _UA_HANDLER_FRAME | _UA_FORCE_UNWIND)
+0002b8d8 libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+0002b937 ORT_LOAD_CONFIG_FROM_MODEL
+0002b952 const onnxruntime::Tensor &OrtValue::Get() const
+0002b983 session.use_ort_model_bytes_for_initializers
+0002b9b0 The session already has a PrePackedWeightsContainer instance
+0002b9ed Initializing session.
+0002ba03 ShrinkMemoryArenas
+0002ba16 Unable to shrink arena: 
+0002ba2f  DeviceId:
+0002ba3a CUDA provider is not enabled in this build
+0002ba65 GetKernelRegistry
+0002ba77 largest <= 1
+0002ba84 /workspace/onnxruntime/onnxruntime/core/providers/cpu/math/matmul_helper.h
+0002bacf Ranks of input data are different, cannot concatenate them. expected rank: 
+0002bb1b  got: 
+0002bb22 Gather Tind type not supported in this build.
+0002bb50 The dimension with value zero exceeds the dimension size of the input tensor.
+0002bba1 elem_proto != nullptr
+0002bbb7  (node_version: 
+0002bbc8 Failed to find op_id: 
+0002bbdf OpKernel was null
+0002bbf1 buffers_.find(location) == buffers_.end()
+0002bc1b , fall back to default allocation behavior
+0002bc46 /workspace/onnxruntime/onnxruntime/core/framework/session_options.cc
+0002bc8b FinalizeSessionStateImpl
+0002bca4 Missing session state for subgraph. Node:'
+0002bccf allocator_for_caching.get() != nullptr
+0002bcf6 n >= 0 && static_cast<size_t>(n) < plan_.allocation_plan.size()
+0002bd36 Non-zero status code returned while running 
+0002bd63 , Got 
+0002bd6a size_t onnxruntime::Tensor::SizeInBytes() const
+0002bd9a OrtStatusPtr OrtApis::GetTensorTypeAndShape(const OrtValue *, OrtTensorTypeAndShapeInfo **)
+0002bdf6 CopySparseData
+0002be05 bool onnxruntime::utils::FinalizeCopyInfoForFetches(gsl::span<const OrtDevice *const> &, std::vector<MLValueCopyInfo> &)
+0002be7e Missing dims for sparse initializer: 
+0002bea4 onnxruntime::logging::LoggingManager::LoggingManager(std::unique_ptr<ISink>, Severity, bool, const InstanceType, const std::string *, int)
+0002bf2f More work items than threads
+0002bf4c custom_create_thread_fn returned invalid handle.
+0002bf7d Received negative size from stat call
+0002bfa3 lseek
+0002bfa9 DeleteFolder(): nftw() failed with error: 
+0002bfd4 failed to allocate %zu bytes for descriptions of %u L3 caches
+0002c012 chipset detection failed: different chipset vendors reported in different system properties
+0002c06e /sys/devices/system/cpu/possible
+0002c093 w+bxe
+0002c099 vector
+0002c0a0 Wednesday
+0002c0b4 unknown register
+0002c0c5 EnableOrtCustomOps: Custom operators in onnxruntime-extensions are not enabled
+0002c114 element index is out of bounds
+0002c133 ml_type != nullptr
+0002c146 /workspace/onnxruntime/include/onnxruntime/core/framework/ort_value.h
+0002c18c i < tensors_.size()
+0002c1a2 Execution providers must be registered before the session is initialized.
+0002c1ec Having memory pattern enabled is not supported while using 
+0002c228  elements, but 
+0002c238 Status onnxruntime::InferenceSession::Run(const RunOptions &, gsl::span<const char *const>, gsl::span<const OrtValue *const>, gsl::span<const char *const>, gsl::span<OrtValue *>)
+0002c2eb Unsupported device id in the memory arena shrink list: 
+0002c327 Unexpected 
+0002c336 LoadOrtModelBytes
+0002c348 common::Status onnxruntime::IOBinding::BindOutputImpl(const std::string &, const OrtValue &, OrtDevice)
+0002c3b0 Custom operator API is not enabled in this build
+0002c3e1 Unsupported device allocator
+0002c3fe CUDAExecutionProvider
+0002c414 /workspace/build/intermediates/arm64-v8a/Release/op_reduction.generated/onnxruntime/core/providers/cpu/cpu_execution_provider.cc
+0002c495 /workspace/onnxruntime/onnxruntime/core/providers/cpu/element_wise_ranged_transform.h
+0002c4eb  is not implemented
+0002c4ff void onnxruntime::InputBroadcaster::AdvanceBy(size_t)
+0002c535 /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/reshape.h
+0002c57c num_axes > 0
+0002c589 (local_source >= source) && (local_source < source + num_blocks)
+0002c5ca Method IncrementIndexAndComputeOffset assumes this value is strictly positive.
+0002c619  arena_extend_strategy: 
+0002c632 BFCArena::ChunkHandle onnxruntime::BFCArena::Coalesce(ChunkHandle)
+0002c675 Could not find Region for 
+0002c690 ]. It will be overwritten
+0002c6aa node_index < nodes_.size()
+0002c6c5  in the supported version range
+0002c6e5 '). 
+0002c6ea args is null.
+0002c6f8 static std::unique_ptr<OrtTypeInfo> OrtTypeInfo::FromOrtValue(const OrtValue &)
+0002c748 Tensor types should have been handled already
+0002c776 frame != nullptr
+0002c787 . Num args is 
+0002c796  but expected feed size: 
+0002c7b0 , block in memory pattern size is: 
+0002c7d4 TraceAllocation for ort_value_idx=
+0002c7f7 No attribute with name: 
+0002c810  for attribute 
+0002c820 Can not find the node 
+0002c837  does not.
+0002c842 output_type_shape
+0002c854 Format() == SparseFormat::kCsrc
+0002c874 Destination should be empty
+0002c890 Must have the same size. Got src_size: 
+0002c8b8 dtype_ != nullptr
+0002c8ca duplicated location
+0002c8de /workspace/onnxruntime/onnxruntime/core/framework/tensor_shape.cc
+0002c920 Null tensor attribute. Invalid ORT format model.
+0002c951 custom join thread function not set
+0002c975 onnxruntime
+0002c981 INVALID_PROTOBUF
+0002c992 /workspace/onnxruntime/onnxruntime/core/platform/posix/env.cc
+0002c9d0 onnx.TensorShapeProto
+0002c9ea : out of range
+0002c9f9 iostream
+0002ca02 terminating due to %s exception of type %s: %s
+0002ca31 DW_EH_PE_datarel is invalid with a datarelBase of 0
+0002ca65 Unknown DWARF encoding for search table.
+0002ca92 output buffer is too small. Use GetStringTensorDataLength.
+0002cacd narrowing error
+0002cade OrtStatus *OrtCreateValueImplSeqHelper(const OrtValue *const *, size_t, OrtValue **)
+0002cb33 void onnxruntime::TensorSeq::Add(const OrtValue &)
+0002cb68 RegisterExecutionProvider
+0002cb82 sparse_tensor
+0002cb90  session_log_severity_level:
+0002cbad UNKNOWN
+0002cbb5 /workspace/onnxruntime/onnxruntime/core/framework/feeds_fetches_manager.h
+0002cbff No requested allocator available
+0002cc20 Adapter is not loaded yet.
+0002cc3b InitializeParamsValues
+0002cc52 Only CPU devices are supported. Please call CreateAndRegisterAllocatorV2() for other device.
+0002ccaf CreateOpAttr is not implemented for minimal build.
+0002cce2 ROCMExecutionProvider
+0002ccf8 /workspace/onnxruntime/onnxruntime/core/providers/cpu/math/element_wise_ops.h
+0002cd46 At most one dimension can be -1.
+0002cd67 naxes > 0
+0002cd71 bool onnxruntime::TypedDoTransposeEltWise(int64_t, gsl::span<const int64_t>, size_t, const gsl::span<const size_t> &, const uint8_t *, uint8_t *) [T = unsigned int]
+0002ce16 bool onnxruntime::TypedDoTransposeEltWise(int64_t, gsl::span<const int64_t>, size_t, const gsl::span<const size_t> &, const uint8_t *, uint8_t *) [T = unsigned short]
+0002cebd  BFC Arena shrunk by 
+0002ced3 Float8E5M2
+0002cede GetDeleteFunc
+0002ceec void onnxruntime::FeedsFetchesManager::SetDeviceCopyChecks(DeviceCopyCheck, DeviceCopyCheck)
+0002cf49 MatchKernelDefTypes
+0002cf5d kernel != nullptr
+0002cf6f fetches.empty() || fetches.size() == fetch_mlvalue_idxs_.size()
+0002cfaf ) because the ORT planned memory location device 
+0002cfe1  ) is different from what is supplied (
+0002d009 static const SparseTensor &onnxruntime::SparseTensor::GetSparseTensorFromOrtValue(const OrtValue &)
+0002d06d format_data_.size() == 2U
+0002d087 MakeBlockSparseData
+0002d09b TensorProto: 
+0002d0a9 Node::LoadFromOrtFormat, input_arg_counts is missing
+0002d0de sparse_tensor_names_.count(tensor_name) == 0
+0002d10b !found
+0002d112 /workspace/onnxruntime/onnxruntime/core/util/math_cpu.cc
+0002d14b /workspace/onnxruntime/onnxruntime/core/common/threadpool.cc
+0002d188 File: 
+0002d18f float8e4m3fn
+0002d19c attempt to nsync_mu_runlock() an nsync_mu held in write mode
+0002d1da failed to allocate %zu bytes for descriptions of %u L1I caches
+0002d219 foster_e
+0002d222 hi3660
+0002d229 Allwinner
+0002d233 basic_string
+0002d240 w+be
+0002d245 libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+0002d299 RunWithBinding() has active adapters specified, but won't have an effect
+0002d2e2 in[idx]->IsTensor()
+0002d2f6 Session successfully initialized.
+0002d318 fetch_unique_ptrs[i] != nullptr
+0002d338 NewIOBinding
+0002d345 static const Logger &onnxruntime::logging::LoggingManager::DefaultLogger()
+0002d390  intra_op_param:
+0002d3a1 Could not find OrtValue with name '
+0002d3c5 IsOptionalSeqTensor(type)
+0002d3df mapped_feed_names_.size() == feed_names_.size()
+0002d40f graph_optimization_level is not valid
+0002d435 Output buffer is not large enough for session config entry
+0002d470 Please register the allocator as OrtDeviceAllocator even if the provided allocator has arena logic built-in. OrtArenaAllocator is reserved for internal arena logic based allocators only.
+0002d52e VitisAI
+0002d536 CANN execution provider is not enabled in this build.
+0002d56c InputBroadcaster can only start at span boundary!
+0002d59e MatMul dimension mismatch
+0002d5b8 Mismatched data types between input and output Tensors. 
+0002d5f1 /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/unsqueeze.cc
+0002d63b axes_tensor != nullptr
+0002d652 Could not find chunk in bin
+0002d66e virtual bool onnxruntime::SequenceTensorTypeBase::IsCompatible(const onnx::TypeProto &) const
+0002d6cc bool onnxruntime::data_types_internal::IsCompatible(const onnx::TypeProto &, const onnx::TypeProto &)
+0002d732 Failed to unload DSO: 
+0002d749 : Conflicting with a registered kernel with op versions. the since version is: 
+0002d799 ResolveKernelTypeStr
+0002d7ae onnxruntime::IExecutionFrame::IExecutionFrame(const OrtValueNameIdxMap &, const NodeIndexInfo &, gsl::span<const int>)
+0002d825 Tried to allocate without valid type information, ort_value index=
+0002d868 Expected shape from model of 
+0002d886 TraceFree
+0002d890 TraceFree for ort_value_idx=
+0002d8ad void onnxruntime::MemPatternPlanner::TraceAllocation(int, size_t)
+0002d8ef /workspace/onnxruntime/onnxruntime/core/framework/session_state.cc
+0002d932 duplicated ort_value index:
+0002d94e Only one node should produce an output. Existing entry for 
+0002d98a /workspace/onnxruntime/onnxruntime/core/framework/allocation_planner.cc
+0002d9d2 _fence_before
+0002d9e0 parameter_size
+0002d9ef AllocatorPtr onnxruntime::PrepackedWeightsContainer::GetOrCreateAllocator(const std::string &)
+0002da4e ort_value_name_idx_map.MaxIdx() > -1
+0002da73 Deserialize tensor 
+0002da87 Must contain Coo format. Got: 
+0002daa6 Not expecting an allocator set
+0002dac5 MakeCsrStrings
+0002dad4 the ort_value must contain a constructed tensor or sparse tensor
+0002db15 LoadExtDataToTensorFromTensorProto
+0002db38 string tensor can not have raw data
+0002db5c UnpackTensor: the pre-allocated size does not match the raw data size, expected 
+0002dbad  failed
+0002dbb5 FindDeviceForValue
+0002dbc8 copy_info.size() == num_feeds
+0002dbe6 Serialization error. Graph attribute was serialized without Graph instance
+0002dc31 Duplicate initializer (dense, sparse or ConstantNode): '
+0002dc6a Missing string data for initializer. Invalid ORT format model.
+0002dca9 utils::HasName(attribute)
+0002dcc3  thread_pool_size: 
+0002dcd7 "ph" : "X",
+0002dce3  - error code: 
+0002dcf3  is not supported currently
+0002dd0f onnx.TrainingInfoProto
+0002dd26 onnx.TensorProto.Segment
+0002dd3f failed to allocate %zu bytes for descriptions of %u microarchitectures
+0002dd86 %s %s%u%.*s
+0002dd92 Nvidia
+0002dd99 __next_prime overflow
+0002ddaf out/llvm-project/libcxxabi/src/cxa_personality.cpp
+0002dde2 libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0002de22 libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+0002de6e OrtStatusPtr OrtApis::UseCsrIndices(OrtValue *, int64_t *, size_t, int64_t *, size_t)
+0002dec4 ORT Build Info: git-branch=HEAD, git-commit-id=5c1b7ccbf, build type=Release, cmake cxx flags: -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -ffunction-sections -fdata-sections -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -DCPUINFO_SUPPORTED
+0002e046 ] is not supported in this build 
+0002e068  Expected: 
+0002e074 DEFAULT
+0002e07c PRIORITY_BASED
+0002e08b Device:[
+0002e094 static void OrtEnv::Release(OrtEnv *)
+0002e0be DnnlExecutionProvider
+0002e0d4 virtual Status onnxruntime::ElementWiseKernel<onnxruntime::functors::Elu<float>>::Compute(OpKernelContext *) const [F = onnxruntime::functors::Elu<float>]
+0002e16f Attempting to broadcast an axis by a dimension other than 1. 
+0002e1ad ) for tensor of length:
+0002e1c5 ComputeImplOpset13
+0002e1d8 Missing/Invalid 'axis' attribute value
+0002e1ff Failed to unpack Int4x2 Tensor to an int8_t Tensor
+0002e232  is smaller than requested bytes of 
+0002e257  (actual) rounded_bytes:
+0002e270 Incorrect arena extend strategy.
+0002e291 Config with key [
+0002e2a3 float
+0002e2a9 int16
+0002e2af ~ExLibLoader
+0002e2bc /workspace/onnxruntime/onnxruntime/core/framework/onnxruntime_sequence_type_info.cc
+0002e310 feeds.size() == feed_mlvalue_idxs.size()
+0002e339  but is of type: 
+0002e34b Done saving OrtValue mappings.
+0002e36a PruneRemovableAttributes
+0002e383 node_index_info_.has_value()
+0002e3a0 session.node_partition_config_file
+0002e3c3 KernelUseSharedPrePackedBuffers
+0002e3e3 VerifyEachNodeIsAssignedToAnEp
+0002e402 Async Kernel Support is not implemented yet.
+0002e42f entry != nullptr
+0002e440 Use MakeCooStrings
+0002e453 ValidateBlockSparseShapes
+0002e46d /workspace/onnxruntime/onnxruntime/core/framework/tensor_allocator_with_mem_pattern.h
+0002e4c3 Get preallocated buffer for initializer '
+0002e4ed dimension <= num_dims
+0002e503 const Tensor &(anonymous namespace)::GetIndicesTensor(const OrtValue &, OrtSparseIndicesFormat)
+0002e563 Status onnxruntime::utils::CopySparseData(size_t, const onnx::TensorProto &, const std::filesystem::path &, gsl::span<const int64_t>, std::function<void (size_t, size_t)>)
+0002e60f fbs_node_arg_names cannot be null
+0002e631 Null string attribute. Invalid ORT format model.
+0002e662 Null graph attribute. Invalid ORT format model.
+0002e692 Failed to parse since_version from 
+0002e6b6 NO_SUCHFILE
+0002e6c2 Failed to unload library with error: 
+0002e6ec LoadTensorTypeAndShapeOrtFormat
+0002e70c DataTypeUtils::FromDataTypeString - Received invalid data type string '
+0002e754 onnx.FunctionProto
+0002e767 failed to allocate %zu bytes for descriptions of %u L2 caches
+0002e7a5 ro.product.board
+0002e7b6 system
+0002e7c1 __cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+0002e854 _Unwind_Resume
+0002e863 libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+0002e8a7 CIE ID is not zero
+0002e8ba RegisterCustomOpsLibrary: Entry point RegisterCustomOps not found in library
+0002e907 Output buffer allocation failed
+0002e927 Specified provider is not supported.
+0002e94c Attempt to use DefaultLogger but none has been registered.
+0002e98a out of index
+0002e997 /workspace/onnxruntime/onnxruntime/core/framework/TensorSeq.h
+0002e9d5 Sequences must have tensors of the same data type. There was at least one tensor in the input that was different.
+0002ea4b Unsupported device specified in the memory arena shrink list: 
+0002ea8a  enable_mem_pattern:
+0002ea9f  thread_pool_allow_spinning:
+0002eabc Size mismatch
+0002eaca Session config entry '
+0002eae1 void onnxruntime::lora::LoraAdapter::InitializeParamsValues()
+0002eb1f left_num_dims and right_num_dims must be >= 1
+0002eb4d static void onnxruntime::IAllocator::ValidateAllocator(const T &) [T = std::shared_ptr<onnxruntime::IAllocator>]
+0002ebbe Non concat axis dimensions must match: Axis 
+0002ebeb counter.current_offset == last
+0002ec0a /workspace/onnxruntime/onnxruntime/core/providers/cpu/tensor/gatherbase.h
+0002ec54 shapeTensor->Shape().NumDimensions() == 1
+0002ec7e The buffer fails lora adapter format verification
+0002ecb0 h < chunks_.size()
+0002ecc3 void onnxruntime::BFCArena::SplitChunk(BFCArena::ChunkHandle, size_t)
+0002ed09 void onnxruntime::BFCArena::Merge(BFCArena::ChunkHandle, BFCArena::ChunkHandle)
+0002ed59 We do not expect duplicate registration of types for: 
+0002ed90 Kernel found kernel
+0002eda4  However the types are incompatible. 
+0002edca  and type (
+0002edd6  in KernelRegistryManager
+0002edf0 /workspace/onnxruntime/onnxruntime/core/framework/kernel_type_str_resolver.cc
+0002ee3e static std::unique_ptr<OrtSequenceTypeInfo> OrtSequenceTypeInfo::FromTypeProto(const onnx::TypeProto &)
+0002eea6 /workspace/onnxruntime/onnxruntime/core/framework/op_kernel.cc
+0002eee5 invalid index 
+0002eef4 Fetches vector passed to GetOutputs contains 
+0002ef22 Invalid allocation kind: 
+0002ef3c VerifyEachNodeIsAssignedToAnEpImpl
+0002ef5f void onnxruntime::PlannerImpl::GeneratePlanForWeightsHelper(const GraphViewer &, const InitializedTensorSet &, const KernelCreateInfoMap &, const std::string &, size_t, std::vector<std::vector<OrtDevice>> &)
+0002f02f num_logic_streams_ == 1 && !stream_nodes_[0].empty()
+0002f064 buffers_.size() == buffer_sizes_.size()
+0002f08c this tensor already has populated sparse_indices
+0002f0bd  must be equal to or twice the values size: 
+0002f0ea SparseTensor::CsrView onnxruntime::SparseTensor::AsCsr() const
+0002f129 Inner and Outer indices must either be both zero or non-zero
+0002f166  for SizeToDimension. Tensor has 
+0002f188 const OrtDevice &onnxruntime::utils::FindDeviceForValue(const OrtValueNameIdxMap &, const SequentialExecutionPlan &, std::string_view)
+0002f20f bool onnxruntime::utils::FinalizeCopyInfoForFeeds(gsl::span<const OrtDevice>, std::vector<MLValueCopyInfo> &)
+0002f27d BatchOrCopyMLValue
+0002f290 Duplicate initializer (dense or ConstantNode): '
+0002f2c1 LoadAttributeOrtFormat
+0002f2d8 Null tensors attribute. Invalid ORT format model.
+0002f30a enabled_
+0002f313 {"cat" : "
+0002f31e /workspace/onnxruntime/onnxruntime/core/common/status.cc
+0002f357 onnxruntime::common::Status::Status(StatusCategory, int, const char *)
+0002f39e [ONNXRuntimeError]
+0002f3b1 RUNTIME_EXCEPTION
+0002f3c3 LoadTypeInfoOrtFormat
+0002f3d9 LoadSequenceTypeOrtFormat
+0002f3f3 map(
+0002f3f8 onnx.GraphProto
+0002f408 onnx.SparseTensorProto
+0002f41f failed to allocate %zu bytes for descriptions of %u L1D caches
+0002f45e /sys/devices/system/cpu/cpu%u/topology/cluster_cpus_list
+0002f497 failed to parse file %s: file is empty
+0002f4c1 condition_variable::wait: mutex not locked
+0002f4ec unspecified iostream_category error
+0002f510 %s failed to broadcast
+0002f527 std::__libcpp_tls_create() failed in __cxa_thread_atexit()
+0002f562 CIE start does not match
+0002f57b This API supports Tensors or SparseTensors
+0002f5a6 /workspace/onnxruntime/onnxruntime/core/common/safeint.h
+0002f5df index out of range
+0002f5f2 IsTensorSequence()
+0002f605 elem_type_ != nullptr
+0002f61b bad_function_call was thrown in -fno-exceptions mode
+0002f650 session.intra_op_thread_affinities
+0002f673 Model was not loaded.
+0002f689 )) , expected: (
+0002f69a DeviceType:
+0002f6a6  index=
+0002f6ae SNPE
+0002f6b3 onnxruntime::OutputBroadcaster::OutputBroadcaster(size_t, Tensor &, ptrdiff_t, ptrdiff_t)
+0002f70d start_offset >= 0 && real_end >= 0 && start_offset <= real_end && real_end <= len
+0002f75f IsAxisInRange(axis, tensor_rank)
+0002f780 input != nullptr
+0002f791 src and dst must have same shape and not be rank 0.
+0002f7c5 shape
+0002f7cb input_shape_size != -1
+0002f7e2 size != 0 && (input_shape_size % size) == 0
+0002f80e input_shape_size == size
+0002f827 the tensor to be tiled using Tile OP must be atleast 1 dimensional
+0002f86a void onnxruntime::DoTransposeImpl(int64_t, gsl::span<const int64_t>, size_t, size_t, const gsl::span<const size_t> &, const uint8_t *, uint8_t *, size_t)
+0002f904 gsl::span<T> onnxruntime::Tensor::MutableDataAsSpan() [T = signed char]
+0002f94c TORT
+0002f951 /workspace/onnxruntime/onnxruntime/core/framework/bfc_arena.cc
+0002f990 !c->in_use() && (c->bin_num != kInvalidBinNum)
+0002f9bf RegionFor
+0002f9c9 ] already exists with value [
+0002f9e7 thisProto->value_case() == TypeProto::ValueCase::kSparseTensorType
+0002fa2a  Encountered following errors: (
+0002fa4b type_proto != nullptr
+0002fa61 This OrtValue is neither Tensor, SparseTensor, Map or Sequence type
+0002faa5 static std::unique_ptr<OrtTypeInfo> OrtTypeInfo::FromTypeProto(const onnx::TypeProto &)
+0002fafd /workspace/onnxruntime/onnxruntime/core/framework/node_index_info.h
+0002fb41 AllocateAsPerAllocationPlan
+0002fb5d Using an input in multiple nodes on different devices is not supported currently. Input:
+0002fbb6 CreateSubgraphSessionState
+0002fbd1 Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.
+0002fc96 AllocPlanPerValue &onnxruntime::PlannerImpl::AllocPlan(OrtValueIndex)
+0002fcdc Status onnxruntime::PlannerImpl::ComputeValueLocation()
+0002fd14 id >= 0 && static_cast<size_t>(id) < ort_value_info_.size()
+0002fd50 ComputeReusePlan
+0002fd61 input_type_shape
+0002fd72 since == end
+0002fd7f v >= 0
+0002fd86 Weight buffer for initializer '
+0002fda6 graph_proto_ is not in sync with name_to_initial_tensor_.
+0002fde0 onnxruntime::GraphViewer::GraphViewer(const Graph &, const IndexedSubGraph *)
+0002fe2e Received null OrtThreadingOptions
+0002fe50 code != static_cast<int>(common::OK)
+0002fe75 index >= 0
+0002fe80 CleanUp
+0002fe88 float8e5m2
+0002fe93 onnx.TensorAnnotation
+0002fea9 [libprotobuf 
+0002feb7 unique_lock::unlock: not locked
+0002fed7 tegra210_dragon
+0002fee7 Pinecone
+0002fef4 failed to determine attributes for the specified path
+0002ff2a libc++abi
+0002ff41 OrtStatusPtr OrtApis::FillSparseTensorBlockSparse(OrtValue *, const OrtMemoryInfo *, const int64_t *, size_t, const void *, const int64_t *, size_t, const int32_t *)
+0002ffe7 max_mem
+0002ffef internal error
+0002fffe Each element of the sequence should be either tensor or map.
+0003003b session.force_spinning_stop
+00030057  but received a tensor sequence
+00030077  use_per_session_threads:
+00030094 TensorrtExecutionProvider
+000300ae TvmExecutionProvider
+000300c3 ElementWiseKernel
+000300d5 T *onnxruntime::Tensor::MutableData() [T = float]
+00030107 Invalid start/ending offset [
+00030125 PrepareForCompute
+00030137 input count mismatch
+0003014c WebGPU_Buffer
+0003015a /workspace/onnxruntime/onnxruntime/core/framework/allocator_utils.cc
+0003019f Reserving memory in BFCArena for 
+000301c1 Shrink
+000301c8 /workspace/onnxruntime/onnxruntime/core/framework/bfc_arena.h
+00030206 Could not find Region for: 
+00030222 MLDataType for: 
+00030233 provider_type must be specified.
+00030254 Node *onnxruntime::Graph::NodeAtIndexImpl(NodeIndex) const
+0003028f /workspace/onnxruntime/onnxruntime/core/framework/kernel_registry.cc
+000302d4 Failed to find args for kernel type string '
+00030301 AllocateMLValueTensorSelfOwnBufferHelper
+0003032a Received OrtValue is not a tensor. Only tensors are supported.
+00030369 . Do you have duplicated calls to SessionState::AddInitializedTensor function?
+000303b8 Failed to find input name in the mapping: 
+000303e3 void onnxruntime::SessionState::AddOutputNameToNodeInfoMapping(const std::string &, const NodeInfo &)
+00030449 FinalizeSessionState
+0003045e Create_State_
+0003046c CreatePlan
+00030477 ExecuteThePlan
+00030486 AllocateBuffer
+00030495 Sparse format must not be set. Already contains format: 
+000304ce Expecting data type to be set as string
+000304f6 Expecting to have at lest 3-D shape. Got:
+00030520 Sparse Indices raw data size does not match expected.
+00030556 Invalid SparseTensor indices. INT8 indices must be in the raw data of indices tensor
+000305ab Invalid SparseTensor indices. Should be rank 0 or 1. Got:
+000305e5 LoadEdgesFromOrtFormat
+000305fc Unsupported tensor data type for tensor 
+00030625 Tensor has external data but a data reader was not provided.
+00030662 std::pair<NodeAttributes::iterator, bool> onnxruntime::utils::SetNodeAttribute(AttributeProto, NodeAttributes &)
+000306d3 Invalid OpIdentifier string: 
+000306f4 Kernel
+000306fb onnxruntime::common::Status::Status(StatusCategory, int, const std::string &)
+00030749 NOT_IMPLEMENTED
+00030759 " failed: 
+00030764 file_path == nullptr
+00030779 %s %s
+0003077f BEETHOVEN
+00030789 Nuclun 
+00030794 ro.hardware.chipname
+000307a9 failed to read file %s: insufficient buffer of size %zu
+000307e1 r+be
+000307e6 libc++abi: 
+000307f2 results.reason == _URC_HANDLER_FOUND
+00030817 libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+0003085c getEncodedP
+00030868 DW_OP_fbreg not implemented
+00030890 FillSparseTensorCsr
+000308a4 Custom operator libraries are not supported in this build
+000308de lengths allocation failed
+000308f8 arena_extend_strategy
+0003090e static void onnxruntime::logging::LoggingManager::SetDefaultLoggerSeverity(Severity)
+00030963 IsSparseTensor()
+00030974 OrtValue should contain a Tensor or a Sparse Tensor
+000309a8 gsl::span<const T> onnxruntime::Tensor::DataAsSpan() const [T = std::string]
+000309f5 Tensor type mismatch. 
+00030a0c session-
+00030a15 Invalid output name:
+00030a2a  optimized_model_filepath:
+00030a45  enable_cpu_mem_arena:
+00030a5c  graph_optimization_level:
+00030a77 Provider 
+00030a81 params != nullptr
+00030a93  is not in valid range [-
+00030aad void onnxruntime::StridedCopy(concurrency::ThreadPool *, T *, const TensorShapeVector &, const TensorShape &, const T *, const TensorShapeVector &) [T = unsigned long]
+00030b55 void onnxruntime::DoTransposeImpl(int64_t, gsl::span<const int64_t>, size_t, size_t, const gsl::span<const size_t> &, const std::string *, std::string *)
+00030bef Extending BFCArena for 
+00030c07 Config value is longer than maximum length: 
+00030c34 UInt4x2
+00030c3c MapNamesToMLValueIdxs
+00030c52 com.microsoft
+00030c60 The type is not tensor, sparse tensor, sequence, map or optional type
+00030ca6 Execution frame was null
+00030cbf Attribute: 
+00030ccb ) and node 
+00030cd7 ' OpType:
+00030ce1 OrtDevice onnxruntime::PlannerImpl::GetLocationForNodeInput(size_t, const Node &, const KernelCreateInfoMap &)
+00030d50  node. Name:'
+00030d5e node_index
+00030d69 thread_scheduling_stats
+00030d81 Graph
+00030d87 With buffered tensor, tensor proto must use external location and point to buffered tensor
+00030de2  to be equal to values blocks: 
+00030e02 MakeBlockSparseStrings
+00030e19 X-device copy of strings not supported
+00030e40 /workspace/onnxruntime/onnxruntime/core/framework/sparse_utils.cc
+00030e82 void onnxruntime::Tensor::Init(MLDataType, const TensorShape &, void *, AllocatorPtr, ptrdiff_t, gsl::span<const int64_t>)
+00030eff source and destination buffer size mismatch
+00030f2b LoadNodeArgsFromOrtFormat: Node [
+00030f4d Empty graph proto from deserialization of ORT format model
+00030f88  dynamic_block_base_: 
+00030f9f  set_denormal_as_zero: 
+00030fb7 MODEL_LOADED
+00030fc4 virtual void onnxruntime::concurrency::ThreadPoolTempl<onnxruntime::Env>::RunInParallelSection(ThreadPoolParallelSection &, std::function<void (unsigned int)>, unsigned int, std::ptrdiff_t) [Environment = onnxruntime::Env]
+000310a3 nsync_mu_wait woke but condition not true
+000310ce Unknown
+000310d6 Rockchip
+000310e3 /sys/devices/system/cpu/present
+00031103 failed to parse the list of present processors in %s
+00031138 generic
+00031140 money_get error
+00031150 terminating
+0003115c libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+000311a6 Specified domain and type names combination does not refer to a registered opaque type
+000311fd bad_array_new_length was thrown in -fno-exceptions mode
+00031235 shape is invalid
+00031246 IsSameDataType(tensor.Get<Tensor>())
+0003126b Affinity string must not be empty
+0003128d This session has already been initialized.
+000312b8 Loading anything other than ORT format models is not enabled in this build.
+00031304 ValidateInputsOutputs
+0003131a Session not initialized.
+00031333 Could not write a profile because no model was loaded.
+0003136a session.save_model_format
+00031384  data type. Actual: (
+0003139e DML provider is not enabled in this build
+000313c8 WebNNExecutionProvider
+000313df input_size < std::numeric_limits<std::ptrdiff_t>::max()
+00031417 const T *onnxruntime::Tensor::Data() const [T = double]
+0003144f void onnxruntime::BroadcastIterator::Append(ptrdiff_t, ptrdiff_t)
+00031491 Compute
+00031499 num_dims_with_pad - 1 != num_output_dims
+000314c2 /workspace/onnxruntime/onnxruntime/core/framework/copy.h
+000314fb 'repeat' input tensor must be 1 dimensional
+00031527 OpenVINO_GPU
+00031534 CudaPinned
+0003153f Creating 
+00031549 void onnxruntime::BFCArena::FreeAndMaybeCoalesce(BFCArena::ChunkHandle)
+00031591 thisProto->value_case() == TypeProto::ValueCase::kOptionalType
+000315d0 (null)
+000315d7 float16
+000315df /workspace/onnxruntime/include/onnxruntime/core/graph/graph.h
+0003161d ai.onnx
+00031625 op_kernel_type_str_args is null.
+00031646 /workspace/onnxruntime/onnxruntime/core/framework/onnxruntime_typeinfo.cc
+00031690 status.IsOK()
+0003169e int onnxruntime::NodeIndexInfo::GetMLValueIndex(int) const
+000316d9 CreateKernels
+000316e7 weights_to_be_filled_in.buffers_.size() > 0
+00031713 subgraphs_kernel_create_info_maps.find(local_subgraph_kernel_create_info_map_key) == subgraphs_kernel_create_info_maps.end()
+00031790 OuterScopeNodeArgLocationAccumulator
+000317b5 LaunchKernel - 
+000317c5 entry->second->data_type() != ONNX_NAMESPACE::TensorProto_DataType_STRING
+0003180f Must contain BlockSparse format. Got: 
+00031836 Indices shape must have dim[0] == 2
+0003185a Unable to find a data transfer for copying from device type: 
+00031898 Currently do not support dims higher than 2 dimensions: 
+000318d1 /workspace/onnxruntime/onnxruntime/core/framework/stream_execution_context.cc
+0003191f Missing name for SparseTensor initializer. Invalid ORT format model.
+00031964 node
+00031969 offset < 0
+00031974 , length: 
+0003197f nftw_remove
+0003198b onnx.TypeProto
+0003199a attempt to nsync_mu_unlock() an nsync_mu not held in write mode
+000319db hi6210sft
+000319e5 marlin
+00031b6c NSt6__ndk114__shared_countE
+00031b88 NSt6__ndk119__shared_weak_countE
+00031bd3 ;00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00031d2b ]xEc
+00031fb8  $(,048<
+000321c0 NSt6__ndk112system_errorE
+000321da NSt6__ndk112__do_messageE
+000321f4 NSt6__ndk124__generic_error_categoryE
+0003221a NSt6__ndk123__system_error_categoryE
+0003223f NSt6__ndk114error_categoryE
+0003225b NSt6__ndk18ios_baseE
+00032270 NSt6__ndk18ios_base7failureE
+0003228d NSt6__ndk119__iostream_categoryE
+000322cb <<<<<<<<<<<<<<<<<<><<<
+000322e2 <<<8<<<4<<<<<<<<<<<<<<<<<<<
+00032302 <<<<<<<<<<<<<<<<<<<<<<<<<<<
+00032322 <<< <<<
+0003232a NSt6__ndk19basic_iosIcNS_11char_traitsIcEEEE
+00032357 NSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEE
+0003238b NSt6__ndk113basic_istreamIcNS_11char_traitsIcEEEE
+000323bd NSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEEE
+000323ef NSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEEE
+00032422 NSt6__ndk19basic_iosIwNS_11char_traitsIwEEEE
+0003244f NSt6__ndk115basic_streambufIwNS_11char_traitsIwEEEE
+00032483 NSt6__ndk113basic_istreamIwNS_11char_traitsIwEEEE
+000324b5 NSt6__ndk113basic_ostreamIwNS_11char_traitsIwEEEE
+000324e7 NSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0003252c NSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00032574 NSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000325bd NSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00032606 NSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE
+00032639 NSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE
+0003266c NSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEE
+0003269e NSt6__ndk110__stdinbufIcEE
+000326b9 NSt6__ndk111__stdoutbufIcEE
+000326d5 NSt6__ndk110__stdinbufIwEE
+000326f0 NSt6__ndk111__stdoutbufIwEE
+000329f0 0123456789abcdefABCDEFxX+-pPiInN
+00032a11 %I:%M:%S %p%
+000335e4 NSt6__ndk16locale5facetE
+000335fd NSt6__ndk15ctypeIwEE
+00033612 NSt6__ndk110ctype_baseE
+0003362a NSt6__ndk17codecvtIcc9mbstate_tEE
+0003364c NSt6__ndk112codecvt_baseE
+00033666 NSt6__ndk17codecvtIDsc9mbstate_tEE
+00033689 NSt6__ndk17codecvtIDsDu9mbstate_tEE
+000336ad NSt6__ndk17codecvtIDic9mbstate_tEE
+000336d0 NSt6__ndk17codecvtIDiDu9mbstate_tEE
+000336f4 NSt6__ndk17codecvtIwc9mbstate_tEE
+00033716 NSt6__ndk16locale5__impE
+0003372f NSt6__ndk17collateIcEE
+00033746 NSt6__ndk17collateIwEE
+0003375d NSt6__ndk15ctypeIcEE
+00033772 NSt6__ndk18numpunctIcEE
+0003378a NSt6__ndk18numpunctIwEE
+000337a2 NSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+000337e9 NSt6__ndk19__num_getIcEE
+00033802 NSt6__ndk114__num_get_baseE
+0003381e NSt6__ndk17num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00033865 NSt6__ndk19__num_getIwEE
+0003387e NSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+000338c5 NSt6__ndk19__num_putIcEE
+000338de NSt6__ndk114__num_put_baseE
+000338fa NSt6__ndk17num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00033941 NSt6__ndk19__num_putIwEE
+0003395a NSt6__ndk18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+000339a2 NSt6__ndk19time_baseE
+000339b8 NSt6__ndk120__time_get_c_storageIcEE
+000339dd NSt6__ndk18time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00033a25 NSt6__ndk120__time_get_c_storageIwEE
+00033a4a NSt6__ndk18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00033a92 NSt6__ndk110__time_putE
+00033aaa NSt6__ndk18time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00033af2 NSt6__ndk110moneypunctIcLb0EEE
+00033b11 NSt6__ndk110money_baseE
+00033b29 NSt6__ndk110moneypunctIcLb1EEE
+00033b48 NSt6__ndk110moneypunctIwLb0EEE
+00033b67 NSt6__ndk110moneypunctIwLb1EEE
+00033b86 NSt6__ndk19money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00033bcf NSt6__ndk111__money_getIcEE
+00033beb NSt6__ndk19money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00033c34 NSt6__ndk111__money_getIwEE
+00033c50 NSt6__ndk19money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE
+00033c99 NSt6__ndk111__money_putIcEE
+00033cb5 NSt6__ndk19money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE
+00033cfe NSt6__ndk111__money_putIwEE
+00033d1a NSt6__ndk18messagesIcEE
+00033d32 NSt6__ndk113messages_baseE
+00033d4d NSt6__ndk18messagesIwEE
+00033d65 NSt6__ndk120__shared_ptr_emplaceINS_4__fs10filesystem16filesystem_error8_StorageENS_9allocatorIS4_EEEE
+00033dd8 NSt6__ndk14__fs10filesystem16filesystem_errorE
+00033e07 St9exception
+00033e14 St20bad_array_new_length
+00033e2d St9bad_alloc
+00033e3a St11logic_error
+00033e4a St16invalid_argument
+00033e5f St12length_error
+00033e70 St12out_of_range
+00033e81 St13runtime_error
+00033e93 St14overflow_error
+00033ea6 St9type_info
+00033eb3 St8bad_cast
+00033ebf N10__cxxabiv116__shim_type_infoE
+00033ee0 N10__cxxabiv117__class_type_infoE
+00033f02 N10__cxxabiv120__si_class_type_infoE
+00033f27 N10__cxxabiv121__vmi_class_type_infoE
+000342d0 */_ORT_MEM_ADDR_/*
+000342e4 CPUExecutionProvider
+000342fc Unsqueeze
+0003435b `-+)' 
+0003437b DDDD
+00034391 GGGG
+0003457a FLOATFLOATSGRAPHGRAPHSINTINTSSPARSE_TENSORSPARSE_TENSORSSTRINGSTRINGSTENSORTENSORSTYPE_PROTOTYPE_PROTOSUNDEFINED
+0003462d j?$Dsp
+0003463b )"8	
+000346b0 XNNPACK
+000346c6 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+00034784 gxbaby
+0003c8c1 zPLR
+00040e21 K!N!K!N
+00040e2c BK!NcK!N
+00041611 K!N!K!N
+0004161c BK!NcK!NC
+00041d6d *!.!*!.B*!.c*!.
+00041d7d +!n!+!n
+00041d88 B+!nc+!n#
+00042064 Ph`N
+00042070 qh`N
+00042078 Ri`N
+00042084 si`N
+000420e8 Xh`N
+000420f4 yh`N
+00042100 Zi`N
+0004210c {i`N
+00042131 i`N)$@
+00042145 i`NB
+00042180 Ph`N
+0004218c qh`N
+00042194 Ri`N
+0004219c si`N%
+000421dd i`N%
+00042200 Xh`N
+00042208 yh`N
+00042210 Zi`N
+00042218 {i`N
+000422d0  HaNBHa
+000422d8 bHaN
+000422ec @H!N
+00042344 Ph`N
+00042350 qh`N
+00042358 Ri`N
+00042364 si`N
+0004238c Xh`N
+00042394 yh`N
+0004239c Zi`N
+000423a4 {i`N!
+000423b9 i`N)
+0004250c Ph`N
+00042518 qh`N
+00042520 Ri`N
+0004252c si`N
+00042590 Xh`N
+0004259c yh`N
+000425a8 Zi`N
+000425b4 {i`N
+000425d9 i`N)$@
+0004263c Ph`N
+00042648 qh`N
+00042650 Ri`N
+00042658 si`N%
+00042699 i`N%
+000426bc Xh`N
+000426c4 yh`N
+000426cc Zi`N
+000426d4 {i`N
+00042790  HaNBHa
+00042798 bHaN
+000427a9 (!.@(!n
+0004280c Ph`N
+00042818 qh`N
+00042820 Ri`N
+0004282c si`N
+00042854 Xh`N
+0004285c yh`N
+00042864 Zi`N
+0004286c {i`N!
+00042881 i`N)
+0004297a $NDi
+000429ea $NDi
+000429fa &Nfi
+00042a2a lN!p
+00042a56 &Nfi
+00042b07 N p@L
+00042b8a $NDi
+00042b96 &N p@Lfi
+00042d30 8KaNzKaN
+00042d54 0JaNrJaN
+00042d90 XK!N
+00042da0 PJ!N
+00042dff Nfie
+00042eb6 lN!p
+00042f3f N p@
+00042f47 NDie
+00042f4f Nfie
+00043078 8KaN
+00043088 0JaN
+000431ae (nDi
+0004322e (nDi
+0004323e &Nfi
+00043246 (n p
+00043276 lN!p
+000432a2 &Nfi
+0004336b N p@L
+000433fa (nDi
+00043406 &N p@Lfi
+000435b8 8KaNzKaN
+000435dc 0JaNrJaN
+00043615 +!.X+!n
+00043625 *!.P*!n
+0004368f Nfie
+000436e2 (.fie
+00043742 (. p
+00043766 lN!p
+00043807 N p@
+0004380f NDie
+00043817 Nfie
+0004386e (.fie
+00043960 8KaN
+00043970 0JaN
+00043abe %n.p
+00043b0e %n*p
+00043b32 7N+p
+00043b5e {N6k
+00043b76 }N.p
+00043b92 %n/p
+00043bbe 7NTk
+00043c26 zNuj
+00043cfc 0JaNrJaN
+00043d05 HaN(IaN
+00043d1d *!.P*!n
+00043d29 )!nph
+00043ea2 3N*p
+00043ec6 7N+p
+00043ef2 {N6k
+00043f0a }N.p
+00043f16 ~N/p
+00043f42 7NTk
+00043f9a zNuj
+00044068 0JaNrJaN
+00044071 HaN(IaN
+0004408c PJ!N
+00044095 I!Nph
+00044def 6Dx@L
+00044e33 6Dx@
+0004511f 6Dx@L
+00045143 6Dx@
+00045303 6Dx@L
+00045317 6Dx@
+000453fe  N$ 
+00045406  N%$
+0004540e  N&(
+00045416  N',
+0004541e  N$0
+00045426  N%4
+0004542e  N&8
+00045436  N'<
+00045466  NRL
+0004546e  NTT
+00045476  NV\
+000455da (6PD
+000455ee  6Xd
+00045705 (Bo!
+00045719 (Co p
+00045720 0 R/1 Ro2(R/3(Ro
+00045733 /4 S/5 So6(S/7(So!p
+0004575d (bo!
+00045775 (co p
+0004577c 0 r/1 ro2(r/3(ro
+00045794 4 s/5 so6(s/7(so
+000457ad  boJ
+000457b9 (bo!
+000457cd (coK	
+000457d4 0 r/1 ro2(r/3(ro4 s/5 sol	
+000457f0 6(s/7(so
+000458b7 6@x@LAy@Lby@L
+000458fb 6@x@
+000459e9 (Bo!
+000459f4 0 R/1 Ro2(R/3(Ro
+00045a21 (bo!
+00045a30 0 r/1 ro2(r/3(ro
+00045a4d  boJ
+00045a59 (bo!
+00045a5f /0 r/1 ro2(r/3(ro
+00045ae7 6@x@LAy@L
+00045b0b 6@x@
+00045ba1  Bo!
+00045bac 0 R/1 Ro
+00045bc9  bo!
+00045bd8 0 r/1 ro
+00045bed  bo!
+00045bf3 /0 r/1 ro
+00045c4f 6@x@L
+00045c63 6@x@
+00045cdb O%$}m
+00045ce7 O&(~m
+00045d4d i`Nc
+00045dbd i`N,
+00045ddc %$}mn
+00045de4 &(~mo
+00045e19 x@LL
+00045e3d i`N,
+00045f24 @x@LAy@Lby@L
+00045fb3 6@x@
+000460a5 k`N<
+00046115 k`N<
+000461ac @x@LAy@L
+0004620b 6@x@
+000462bd j`N'l
+00046334 @x@L
+0004637b 6@x@
+000463f3 O%$}m
+000463ff O&(~m
+0004646d i`Nc
+000464dd i`N,
+000464fc %$}mn
+00046504 &(~mo
+00046511 i`N!
+00046559 i`N,
+000466c5 k`N<
+000466f9 k`N!
+00046731 k`N<
+00046841 j`N'l
+00046ce3 6@x@LAy@Lby@L
+00046cf5 x@Lex@L
+00046d67 6@x@
+00047097 6@x@LAy@Lby@L
+000470db 6@x@
+00047297 6@x@LAy@L
+000472bb 6@x@
+000473e7 6@x@L
+000473fb 6@x@
+00047833 6@x@LAy@Lby@L
+00047845 x@Lex@L
+000478b7 6@x@
+00047be7 6@x@LAy@Lby@L
+00047c2b 6@x@
+00047de7 6@x@LAy@L
+00047e0b 6@x@
+00047f37 6@x@L
+00047f4b 6@x@
+00052312 'NH(
+000523a2 'NH*
+000525aa 2N[=
+000525ea 6N[=
+0005262a :N[=
+0005266a >N[=
+00053046 'NH(
+000531e6 2N[=
+00053226 6N[=
+000537f2 'NH(
+00053916 2N[=
+00053d12 'NH(
+00053e26 2N[=
+00054b2d ij8J
+00054d03 R.yj
+00054d0f Rnim
+00056ae3 SJYi
+00056c13 SJYi
+00056ce9 yhx-=
+00056d1f y(=@
+00056f69 yhx-=
+00056f9f y(=@
+000573b0 *yjx
+000573cc *Ykx
+000573d8 (yhx
+00057434 *Yjx
+00057440 (yhx
+000574d1 yjx(
+00057523 9(=@
+00057530 (yhx
+00057571 Yix	
+00057579 yjxj}
+0005758d Yjx	
+000575cc hYhxJ}
+000575dc iYjx	
+000575e8 hyhx
+00057651 yjx)}
+00057661 Yix	
+000576a4 HYhx
+000576ab y(=@
+000576b0 Hyhx
+00057ad5 c@9h
+00057c05 #@9h
+00057d09 c@9h
+00058058 ( @9
+000580a8 ( @9h
+000589f0 	$@9
+0005aa6c ?i(8
+0005ad3b 4`B@
+0005af0b 4`"@
+0005af1f 4`6@
+0005b05c +ih8J	
+0005b2a3 Rc>@
+0005b2d7 T`"@
+0005b387 Th"@
+0005b4ca  7h2@
+0005b4e7 4v"@
+0005b597 4c>@
+0005b62f Rc>@
+0005b6e3 4`"@
+0005b6f7 4`6@
+0005b72a B9hb
+0005b857 *`>@
+0005b9d3 T`B@
+0005ba2f T`>@
+0005ba9f T`B@
+0005badb *`>@
+0005bbb3 4`"@
+0005bbef 4`2@
+0005bc27 T`2@
+0005bcdf 6`*@
+0005bd65 `A9)A
+0005bd77 6`6@
+0005bde5 `A9)A
+0005bdf7 6`6@
+0005be6d  A9)A
+0005be7f 6`.@
+0005bef9  A9)A
+0005c018 ibA9h*
+0005c023 6`6@
+0005c0a3 6`.@
+0005c119 "A9i
+0005c198 k"A9
+0005c1ab 6`.@
+0005c22f 6`2@
+0005c2ab 6`2@
+0005c325 BA9h
+0005c3a8 jBA9
+0005c3bb 6`2@
+0005cf9b 4`^@
+0005cfbf 4`"@
+0005d04f Th*@
+0005d05f T`"@
+0005d0b9 C_8`^
+0005d0e1 jh8a"@
+0005d657 4`^@
+0005d67b 4`"@
+0005d707 Th*@
+0005d717 T`"@
+0005d795 jh8a"@
+0005de4c h @9
+0005e7cd #_8?
+0005e7f4 ?i(8
+0005e809 3_8?
+0005e8c0 ?i(8
+0005e8e8 (ih8
+0005e928 (ih8
+0005ee2d #_8?
+0005ee54 ?i(8
+0005ee69 3_8?
+0005ef20 ?i(8
+0005ef48 (ih8
+0005ef88 (ih8
+0005f48d #_8?
+0005f4b4 ?i(8
+0005f4c9 3_8?
+0005f580 ?i(8
+0005f5a8 (ih8
+0005f5e8 (ih8
+0005faed #_8?
+0005fb14 ?i(8
+0005fb29 3_8?
+0005fbe0 ?i(8
+0005fc08 (ih8
+0005fc48 (ih8
+0006014d #_8?
+00060174 ?i(8
+00060189 3_8?
+00060240 ?i(8
+00060268 (ih8
+000602a8 (ih8
+000607ad #_8?
+000607d4 ?i(8
+000607e9 3_8?
+000608a0 ?i(8
+000608c8 (ih8
+00060908 (ih8
+00060d65 i)8)
+00060e50 ?i(8
+000612a9 i)8)
+00061394 ?i(8
+000617ed i)8)
+000618d8 ?i(8
+00061ecc ?i(8
+00061f3c ?i(8
+00061fc9 C@9h
+000620d9 C@9h
+000621c0 h @9
+00062c20 ?i(8
+00062c48 (ih8
+00062c88 (ih8
+00063268 ?i(8
+00063290 (ih8
+000632d0 (ih8
+000638b0 ?i(8
+000638d8 (ih8
+00063918 (ih8
+00063ef8 ?i(8
+00063f20 (ih8
+00063f60 (ih8
+00064540 ?i(8
+00064568 (ih8
+000645a8 (ih8
+00064b88 ?i(8
+00064bb0 (ih8
+00064bf0 (ih8
+00065045 i)8)
+0006512c ?i(8
+00065581 i)8)
+00065668 ?i(8
+00065abd i)8)
+00065ba4 ?i(8
+000661b0 ?i(8
+00066220 ?i(8
+000662f5 #@9h
+000663b9 #@9h
+00066c88 (ij8
+00066f3c H @9
+00067186 X6J	
+000673d6 X6J	
+0006879c ?k78i
+000687b7 r(1@
+00068878 H @9
+00068a9a X6J	
+00068cea X6J	
+0006a083 r(1@
+0006a3ac Jih8
+0006a3c0 )ih8
+0006a7bd jv8h
+0006a8e4 Jih8
+0006a8f8 )ih8
+0006addc Jih8j
+0006adf0 )ih8
+0006b201 jv8h
+0006b330 Jih8j
+0006b344 )ih8
+0006b753 *)%@
+0006b78f *)%@
+0006c024 +yhxJ	
+0006c4be @9	`@9
+0006cebb *(5@
+0006cef7 *(5@
+0006d7f0 +yhxJ	
+0006dc7a @9	`@9
+0006ebc0 iki8	
+0006f0c9 3D9_
+0006f296 @9H	860
+0006f3bd ]87	
+0006fb50 h 87
+0006fdb0 )it8
+0006fddc )it8
+0006ff75 CB9h
+00070089 CB9h
+000700a1 cC9(
+000700e1 cC9(
+0007023d c@9(
+00070a78 hkh8
+00071e41 CB9h
+00071f65 CB9h
+00071f7d cC9(
+00071fbd cC9(
+0007211d c@9(
+00072c55 CC9(
+00072c95 CC9H
+000733dd ii8_
+00073b4d CH9(
+00073bad CH9(
+000741b7 NKm}
+000742c8 )ih8
+00074328 *ih8_
+000777fb T	yi
+0007784b T	yi
+00077887 T	yi
+00077ee0 	`@9
+00079017 9+}F
+000790a7 T+}F
+000790d7 T+}L
+00079113 TK-@xl
+00079136 	*m%@
+000791c4 ?9@q
+00079619 	@9_
+00079661 	@9_
+000796fb TJ	n
+00079a9f T		@9?
+00079c45 	@9N
+00079c6b Tk	n
+00079ec7 TJ	n
+0007a143 R)yF
+0007a1a0 	`@9
+0007a21c 	`@9
+0007a2cf =)	@
+0007a2ff =)	@
+0007a570 (ae9
+0007a60c (!f9
+0007a6f0 (Ag9
+0007a7e9 !i9h	
+0007a816 i9H	
+0007a842 i9(	
+0007af0d aq9H
+0007b0a8 (As9
+0007b1c1 !u9h
+0007b321 !x9h
+0007b441 Av9H
+0007bc35 ab9h
+0007bd6c )!c9i
+0007c86c h"D9
+0007ca09 !i9(
+0007ca69 !f9(	
+0007cac9 !i9(
+0007caf9 ah9h
+0007cb41 Ag9H
+0007cb89 !f9(
+0007cbb9 ae9h
+0007cbfd !o9h
+0007cc15 an9(
+0007cc39 Am9H
+0007cc5d !l9h
+0007cc75 ak9(	
+0007cc99 Aj9H
+0007ccd5 an9(
+0007cd95 ak9(
+0007ce09 !x9(	
+0007ce69 !u9(
+0007cec9 !r9(
+0007cf59 aw9h
+0007cfa1 Av9H
+0007cfe9 !u9(
+0007d019 at9h
+0007d061 As9H
+0007d0a9 !r9(
+0007d0d9 aq9h
+0007d121 Ap9H
+0007d17d !A9(	
+0007d1dd !~9(
+0007d23d !{9(
+0007d2cd a@9h
+0007d35d !~9(
+0007d38d a}9h
+0007d3d5 A|9H
+0007d41d !{9(
+0007d44d az9h
+0007d495 Ay9H
+0007d4e9 ab9(
+0007d535 !c9(
+0007ddf7 R @ 
+0007df23 R @`
+0007e18a @Q*}
+0007e1a4 Iii8
+0007e355 C@9h
+0007eb3d c@9h
+0007eb99 c@9(
+0007ebb9 c@9(
+0007eda3 7hb@9
+0007edcb 6`"@
+0007edd4 hb@9
+0007ee5d #@9h
+0007f2a9 a@9?
+00080078  	Az@	Az
+0008017b T(<@
+000801fb T(<@
+000802af Th>@
+0008035c h:A9h
+000803c4 h:A9(
+0008048f ThF@
+0008053f 7i>@
+0008057f Th:A9
+000805ab Th6@
+000805d5 B@9h
+0008062c h:A9
+00080633 5h6A9H
+0008063b 4h2A9
+00080643 4h2@
+00080651 B@9H	
+0008069b Th:A9(
+000806a3 5h>@
+000806af Th2@
+000806ff Th:A9
+00080707 5h>@
+00080763 Th2@
+0008083f ThF@
+00080878 h6A9
+0008087f 4h2A9i
+00080977 Th2@
+00080a5e G)t:
+00080a77 Th2@
+00080ab7 Th6@
+00080b87 Th>@
+00080ba7 Tz2A9{6A9
+00080bf8 i6A9h2A9*
+00080c5c h2A9j
+00080c64 i6A9K
+00080c8b Tj:A9
+00080c9b Th2@
+00080d27 ThJ@
+00080e47 T(<@
+00080e8b T(H@
+00080f5f T(<@
+00080fab T(H@
+0008131f Th:@
+00081742 @yM	
+000819a3 <h&?
+00081b92 ?77}@
+00081ca8 @1Nz)
+00081e11 1NzJ
+000820fc h%@xJ
+0008313b 0s.C
+00083207 0s.C
+000838a6 @9	{
+00083925 1Mzk
+00083abf 0s.C
+00083bfb 0s.C
+00083ce3 0s.C
+0008430b 4h~@
+0008465b 0s.C
+0008468f 0s.C
+000846c3 0s.C
+000847b9 zjxk	
+000847c9 b@9`
+00084858 `1Jz
+00084866 	*H}
+000848e8 `1Nz
+00084b4b *i}	
+00084bbf <	|	
+00084c81 q@9h
+00084ef4 `1Nz
+0008502b <	|	
+0008543f 0s.C
+0008561b 0s.C
+0008564f 0s.C
+00085791 1KzJ
+000857e9 %@x(
+0008588b 0s.C
+000858cf 0s.C
+0008590b 0s.C
+0008593f 0s.C
+00085973 0s.C
+000859a7 0s.C
+000859db 0s.C
+00085b6f 0s.C
+00085ba3 0s.C
+00085c78 M{kx
+00085d3f QhN(
+00085d8f ThN+
+00085e11 1Kz)
+00085f51 1KzJ
+00086016 @9I	
+000860a6 @9I	
+000862f3 ThN 
+0008631b TjN 
+0008637f 0s.C
+000863b3 0s.C
+000863e7 0s.C
+0008641b 0s.C
+00086453 0s.C
+0008648b 0s.C
+000864c3 0s.C
+000864f7 0s.C
+0008652b 0s.C
+0008655f 0s.C
+000868e7 Tl	@
+00086b2f TIC@
+00086e73 0s.C
+00086eb3 0s.C
+0008712c h"@9
+000871d0 h"@9
+00087270 h"@9
+00087314 h"@9
+00087a3d "@9h
+000880ed R@9	
+0008830c ?k78v
+00088446 A9	@@
+00088483 6`B@
+0008852b 7h"@9H
+00088550 h"@9
+00089d09 "@9h
+00089d75 c@9h
+0008a057 <)m@
+0008a147 <A}D
+0008a308 h"@9
+0008a79d "@9h
+0008a94c h"@9
+0008adad CA9h
+0008adc8 h"@9
+0008ae40 hC@9j
+0008af83 6`.@
+0008afa4 h"@9
+0008afed B@9h
+0008b2e1 #A9h
+0008b364 h"@9
+0008b44d k68u
+0008b850 h"@9
+0008b901 "@9h
+0008ba6d #@9h
+0008ba98 h"@9
+0008bba9 #@9h
+0008bbd4 h"@9
+0008bd30 h"@9
+0008c488 h"@9
+0008c5fc h"@9
+0008d070 h"@9
+0008d11c h"@9
+0008d1c8 h"@9
+0008d2f4 h"@9
+0008d404 h"@9
+0008d514 h"@9
+0008d723 7		@
+0008d73f 7		@
+0008d75b 7		@
+0008d777 7		@
+0008d7b0 h"@9h
+0008ddb5 #@9t
+0008de2b 7hB@9
+0008de40 hB@9h
+0008e084 HC@9I
+0008e0a8 HC@9J
+0008e0cc HC@9I
+0008e305 j(8t
+0008e338 h"@9
+0008e44d j(8t
+0008e480 h"@9
+0008e595 j(8t
+0008e5c8 h"@9
+0008f323 6`B@
+0008ffbd B@9(
+0009007d B@9H
+00090533 7h"A9
+00090543 7hb@9
+00090595 B@9h
+000905b0 h"A9H
+000905b7 6`.@
+000905c7 6`"@
+000905d0 hb@9
+00090743 7		@
+00090c2c ?k78i
+00090c4f r(1@
+00090d5c +ij8J
+00091028 ( @9)
+0009104b 7		@
+00091072 @9hR
+00091087 7		@
+000910cb 7		@
+000910f7 7		@
+00091143 7		@
+00091229 RBy`
+00091335 B@9h
+00091374 hBC9
+00091383 7h"A9(
+00091393 7hB@9
+000913bb 6`J@
+000913c4 h"A9(
+000913cb 6`.@
+000913db 6`"@
+000913e4 hB@9
+00091815 ji8JE@9_
+000918ad ji8JE@9_
+00091f56 _8(hh8(!
+00093435 ji8JE@9_
+000934cd ji8JE@9_
+00093891 #@9h
+00094171 80.	
+0009422c ljj8kE@9
+000942dc ljj8kE@9
+0009485b *@|_
+0009489b * |_
+00094b2c ) @9!@
+00094cdf 7		@
+00094e6d RBy`B
+00094ebb Tx&A
+000950b3 7		@
+00095141 #@9h
+000956a6 @9?p
+00096077 6`FB
+0009609e Q9jFB
+00096513 Rj:A
+00096542 Z8	@
+000965fd CC9h
+00096821 cF9)
+0009687b ThnB
+00096b14 hBR9vB
+00096b1f 6`RB
+00096b44 hBR9jRB
+00096c23 7i2A
+00097055 CC9h
+0009713f oiBD9hC
+00097269 CC9h
+000972ff 6`ZC
+000977bc h"@9h
+00097ba6 	kl!
+00097caf 6`ZC
+00097dd3 Tt~B
+00097e89 B@9(
+00097f8c hBR9
+00097f9b 7t:B
+00097fcd "@9h
+00098077 6`FB
+00098199 B@9h
+00098340 	 Z9	
+00098911 &Z9h
+00098c91 "D9H
+00098d25 cA9h
+00098fa9 cA9h
+0009922d cA9h
+0009994d cA9HW
+000999d7 T)C@9"
+00099a6f T)C@9"
+00099dd7 T	C@9
+00099e08 Kki8JE@9_
+00099e77 T	C@9
+00099ea8 Kki8JE@9_
+0009a529 B@9h
+0009a6d9 	@9?
+0009a979 	@9?
+0009b265 "@9h
+0009b2fd CC9h
+0009b706 @y?-
+0009bb5e A8Wd@
+0009bb85 C@9H
+0009bba9 C@9h
+0009bbe1 C@9H
+0009bc05 C@9h
+0009bc3d C@9H
+0009bc61 C@9h
+0009bc99 C@9H
+0009bcbd C@9h
+0009bd6f T(kh
+0009c39d CB9h
+0009c3f5 &Z9h
+0009ca61 CB9h
+0009caad CB9h
+0009cc31 CB9h
+0009d055 CB9h
+0009d265 CB9h
+0009d43d 	@9?
+0009d579 #@9h
+0009d7ec lAA9l
+0009d7f3 4k%@
+0009d88f =)	@
+0009d8b7 7		@
+0009d8eb =)	@
+0009dbfd CB9h
+0009dcc1 "@9(
+0009dcf7 7		@
+0009e485 c@94
+0009e823 9IQ@
+0009e851 cB9h
+0009e8d5 cB9h
+0009e99f TiUA
+0009eac9 cB9h
+0009eb3d cB9h
+0009ec0b 9IQ@
+0009ec39 cB9h
+0009f029 "@9h
+0009f198 h#@9h
+0009f934 	$Z9I
+0009f9a8 (#@9
+0009f9df 7		@
+0009f9f3 =(#@9H
+0009fccd #@9h
+0009fe0d CM9h
+0009fe35 CM9h
+000a0179 "@9h
+000a03ec 	A@9
+000a0815 CM9h
+000a0928 (#@9h
+000a0a5d CM9h
+000a0bb1 CM9h
+000a0d5b =)	@
+000a0dac (#@9)
+000a0dd8 (#@9)
+000a10b4 h"@9h
+000a112e S9()
+000a12c5 CG9h
+000a1535 GG9	}
+000a15df 7		@
+000a15f5 "@9h
+000a1921 #@9h
+000a1dcc (ih8
+000a1ed5 #B9h
+000a1fa0 hkh8
+000a1fed 	@9?
+000a20d0 ?k788
+000a2569 #B9h
+000a2c8d #@9(
+000a38e4 	 H9
+000a5235 #@9h
+000a5414 	A@9	
+000a5718 (@@9*
+000a594f TiC@9b
+000a5a1f TiC@9b
+000a5b14 iC@9w
+000a5c20 JA@9
+000a6021 80.	
+000a60dc ljj8kE@9
+000a618c ljj8kE@9
+000a671c ,`@9
+000a67ac /inx
+000a6817 4(iq
+000a68b7 T(ic8
+000a68ef 4(ik
+000a6977 T(`@9
+000a699b Thij
+000a69d3 6(8@
+000a69fe @y?!"k
+000a6a07 TI<@
+000a6a0d iixH
+000a6a27 T*`@9
+000a6a5b T)ih
+000a6b18 +`@9
+000a6bb0 Oinx
+000a6c5b 4Him
+000a6d53 T(`@9
+000a6d77 Thij
+000a6dea @y_-
+000a6e4a @y_5
+000a6ec2 @y?E
+000a6f16 @y?M
+000a6f62 @y?U
+000a6fb6 @y?]
+000a6fc1 -@y(
+000a7027 6h:@
+000a7076 @y?!"k
+000a707f TI<@
+000a7085 iixH
+000a709f T)`@9
+000a741c *`@9
+000a74e5 	@yq
+000a758d im8(
+000a75e8 ,`@9
+000a7680 oiix
+000a76f3 4hin
+000a77dc ,`@9
+000a780f Thim
+000a78e6 @y_%
+000a7972 @y_5
+000a79ee @y?=
+000a7a56 @y?E
+000a7a61 !@y(
+000a7abe @y?M
+000a7ac9 %@y(
+000a7b26 @y?U
+000a7b4f 6h:@
+000a7bfb Thv~
+000a7c8f Tqipx
+000a7cff 4hic
+000a7d7f Thie8H
+000a7db7 4hic
+000a7e37 Thie8
+000a7e6f 4hii
+000a804b Tikhx
+000a80bb 4jkh
+000a813b Thkj8h
+000a8173 4jkh
+000a81f3 Thkj8
+000a822b 4jkh
+000a82ab Thkj8
+000a8343 4jkh
+000a83c3 Thkj8(u
+000a83d5 "@y(
+000a8405 &@yi
+000a842b 4jkh
+000a84ab Thkj8
+000a84e3 4jki
+000a859b 4jki
+000a865f 4kkj
+000a86e5 b@9i
+000a8706 @z![
+000a87c5 	@yp
+000a8925 iq8/J
+000a8aee @y?M
+000a8b37 TJii
+000a8b83 Th*@y(
+000a8ba1 b@9K6
+000a8bc3 TJii
+000a8bfd b@9j3
+000a8c53 Th.@y(
+000a8c93 TJii
+000a8d23 Th2@yH
+000a8d41 b@9K)
+000a8d63 TJii
+000a8d9d b@9i&
+000a8e07 Th6@yh
+000a8e25 b@9+"
+000a8e47 TJii
+000a8e81 b@9I
+000a8f1e @y?u
+000a8f29 9@y(
+000a8f45 b@9+
+000a8f67 TJii
+000a8fa1 b@9I
+000a905a @y?m
+000a9065 5@y*
+000a9081 b@9M
+000a90dd b@9l
+000a9135 9@yH
+000a9173 TJii
+000a929e @y?!"k
+000a92a7 TI<@
+000a92ad iixH
+000a92c7 T)`@9
+000a9705 `@9	
+000a9773 T0iq80
+000a97df T0iq8
+000a9a7f TJii
+000a9add b@9(
+000a9b0f TNil
+000a9bb8 ,`@9
+000a9c4c /inx
+000a9c91 	@yq
+000a9cb7 4(ip
+000a9d37 T(ib8h
+000a9d6f 4(ip
+000a9df3 T(ic8
+000a9e2f 4(ik
+000a9ee6 @y_5
+000a9f52 @y_=
+000a9fc3 6h:@
+000aa07e @y?!"k
+000aa087 TI<@
+000aa08d iixH
+000aa0a7 T)`@9
+000aa148 ,`@9
+000aa1d8 /inx
+000aa21d 	@yq
+000aa243 4(ip
+000aa2c3 T(ib8(
+000aa347 4(ik
+000aa383 4	hp8?
+000aa3ef 6(8@
+000aa419 `@9+
+000aa4b8 /inx
+000aa501 	@yN
+000aa527 4(ik
+000aa55f 6h:@
+000aa5a1 `@9+
+000aa640 /inx
+000aa689 	@y(
+000aa6df 4(ik
+000aa754 ,`@9
+000aa7e4 /inx
+000aa82d 	@y(
+000aa883 4(ik
+000aa8b7 6h:@
+000aa900 +`@9
+000aa912 @za	
+000aa998 Oinx
+000aa9e1 	@yo
+000aaa07 4Him
+000aaae7 T(8@
+000aab14 ,`@9
+000aaba4 /inx
+000aac0f 4(ik
+000aac68 ,`@9
+000aac9b T(im
+000aad1b T(in8
+000aad67 T(8@
+000aada0 +`@9
+000aae23 T/inx
+000aaef3 4(im
+000aaf73 T(ik8H
+000aaf8c +`@9
+000aaf9e @za	
+000ab024 Oinx
+000ab06d 	@yo
+000ab093 4Him
+000ab173 T(8@
+000ab1a0 +`@9
+000ab1b2 @zA	
+000ab238 Oinx
+000ab2a3 4Hiq
+000ab367 THic8
+000ab3a7 4Aim
+000ab48c ,`@9
+000ab520 /inx
+000ab565 	@yq
+000ab58b 4(ip
+000ab60b T(ib8H
+000ab643 4(ik
+000ab6d7 T(`@9
+000ab6fb Thij
+000ab776 @y?-
+000ab7f4 +`@9	
+000aba94 +`@9
+000abaa6 @za	
+000abb2c Oinx
+000abb75 	@yo
+000abb9b 4Him
+000abc7b T(8@
+000abca8 +`@9
+000abcba @zA	
+000abd40 Oinx
+000abdab 4Hiq
+000abe6f THic8
+000abeaf 4Aim
+000abf94 +`@9
+000abfa6 @zA	
+000ac02c Oinx
+000ac097 4Hiq
+000ac15b THic8
+000ac19b 4Aim
+000ac280 *`@9	
+000ac4bf T(ih
+000ac620 hc@9
+000ac65b TH'D
+000ac670 Hc@9
+000ac6e4 hb@9
+000ac814 (c@9
+000acc4b S+}@
+000acc50 )hi8,
+000acc56 @9(hh8Jq}
+000ad083 7		@
+000ad487 TH/@
+000ad4cb 4@/@
+000ad5dd i+8)	@
+000ada2f TH,@
+000ada97 4@,@
+000adc1b 7		@
+000adc53 7		@
+000adc99 B@9h
+000adcf0 (@@9*
+000adf27 TiC@9b
+000adff7 TiC@9b
+000ae0ec iC@9w
+000ae1f8 JA@9
+000aed97 TtjA
+000aeedb ThbB
+000aeee7 TtfB
+000aef2d B@9h
+000aefb3 ThVA
+000af138 hbA9
+000af1ac hbA9
+000af1b3 6`6@
+000af1c3 6`*@
+000af36d B@9h
+000af494 (c@9
+000af4f3 T(ih
+000af5e7 Thkh
+000afa03 Th&I
+000afe9b rk	J
+000b0115 k:8(
+000b0230 ,i*8k	@
+000b0240 ,i+8
+000b0457 rk	J
+000b04b5 1JJK
+000b06e0 	!@9
+000b0774 	!@9
+000b097b Th&I
+000b0a7c La@9_
+000b0ab4 La@9_
+000b0aec La@9_
+000b0b24 -`@9
+000b0b61 a@9L
+000b0be4 Ka@9k
+000b0bf4 ja@9
+000b0c0b THa@9
+000b0c64 ja@9*
+000b0c74 La@9,
+000b0c83 9Ha@9
+000b0cbc ia@9I
+000b0d15 a@9	
+000b0d60 ia@9I
+000b0db9 a@9	
+000b0ecf r)%@
+000b1425 "@9h
+000b1b53 6`b@
+000b1b7b 7hbA9
+000b1b8b 7hb@9
+000b1bdd B@9h
+000b1bf8 hbA9H
+000b1bff 6`6@
+000b1c0f 6`*@
+000b1c18 hb@9
+000b2369 k78b
+000b2523 TI#@
+000b28d4 h"@9h
+000b2962  6i"@
+000b298e A9i&@
+000b3010 	!@9)
+000b30f7 Ti"@
+000b34a7 T:lA
+000b377c (a@9
+000b3783 5(	@
+000b3b17 RyR@
+000b3f87 Th^@
+000b4095 80.	
+000b4150 ljj8kE@9
+000b4200 ljj8kE@9
+000b43dd ki8JE@9_
+000b4489 ki8JE@9_
+000b4df5 j68*
+000b4f29 j68J
+000b5018 h"@9
+000b50cd j683
+000b5341 "@9h
+000b5568 h"@9
+000b594b Tu*@
+000b5aa5 j48G-
+000b6048 	!@9
+000b6070 h"@9
+000b6248 	!@9
+000b6275 "@9h
+000b6364 	!@9
+000b638c h"@9
+000b64d6 @9H	
+000b66b9 B@9h
+000b6734 	!@9
+000b6761 "@9h
+000b69c5 ji8JE@9_
+000b6a5d ji8JE@9_
+000b6d32 @y_-
+000b6e3b T	O@
+000b6f67 TIC@9B
+000b7003 TIC@9B
+000b7a91 #@9h
+000b7e44 hB@9
+000b8261 "@9h
+000b8291 #@9h
+000b82af *s>C
+000b82eb *B<C
+000b83ad #@9h
+000b846f *s>C
+000b84cf *B<C
+000b8ce5 C@9h
+000b91a0 )P@9
+000b94c7 =	)@
+000b952f T9`A):
+000b9b0d k;8b	
+000b9c38 	C@9
+000b9e93 7hB@9
+000b9ea8 hB@9h
+000ba089 #@9H
+000bae63 T	A@9	
+000baedd #B9`
+000bb117 Tu*@
+000bb3bb 7		@
+000bb507 T	kw
+000bb545 "@9h
+000bb605 "@9h
+000bb714 h"@9h
+000bb738 h"@9h
+000bb8b1 "@9h
+000bb9d0 iB@9
+000bba90 iB@9
+000bbd29 "@9h
+000bc39f *)9@
+000bc9f7 =`"@
+000bcf91 80.	
+000bd04c ljj8kE@9
+000bd0fc ljj8kE@9
+000bd36b TtZ\
+000bd62b <)IC
+000bd84b <)IC
+000bda6b <)IC
+000bdc8b <)IC
+000bdeab <)IC
+000be0cb <)IC
+000be2eb <)IC
+000be50b <)IC
+000be72b <)IC
+000be94b <)IC
+000beb6b <)IC
+000bed8b <)IC
+000befab <)IC
+000bf1cb <)IC
+000bf3eb <)IC
+000bf60b <)IC
+000c00e1 CI9(
+000c00e9 CH9h
+000c0650 	!D9
+000c0813 =h*@
+000c0a23 =)	@
+000c125f =)	@
+000c1a2b =)	@
+000c2273 =)	@
+000c2a47 =)	@
+000c3283 =)	@
+000c3a4f =)	@
+000c3d8a 	KdD
+000c4297 =)	@
+000c4a6b =)	@
+000c528f =)	@
+000c5a43 =)	@
+000c628b =)	@
+000c6733 =)	@
+000c6f6f =)	@
+000c773b =)	@
+000c778b T	(@
+000c77db T	(@
+000c782b T	(@
+000c798f =)	@
+000c79df T	(@
+000c7a2f T	(@
+000c7a7f T	(@
+000c8623 R+y*
+000c983b =)	@
+000c9cd5 #K9(
+000c9cdd #J9h
+000ca157 <)IC
+000ca383 <)IC
+000ca5c7 <)IC
+000ca88b <)IC
+000cb26f *)9@
+000cb583 q\})
+000cc11f Tnyl
+000cc2bd #A9H
+000cc72d #A9h;
+000cc892 C9(3
+000ccfc9 #A9H
+000cd141 #A9(
+000cd209 #A9h
+000cd5e7 *)9@
+000cd7e9 T`O)ih
+000cda69 "@9h
+000cdad5 "@9h
+000cdb3d "@9h
+000cdbb5 "@9h
+000cdc29 "@9h
+000cdd4d #A9	
+000cdfd3 *)9@
+000ce1d5 T`O)ih
+000ce493 *)9@
+000ce695 T`O)ih
+000cffeb <)IC
+000d021b <)IC
+000d0343 *)9@
+000d03f4 hc@9
+000d075b T6/@
+000d0bad #@9h
+000d1449 "@9h
+000d1533 *)9@
+000d1927 T:/@
+000d1d81 #@9h
+000d2321 "@9h
+000d28df NZWtO
+000d2906 xn9WtOX
+000d2deb <)IC
+000d32ad CF9h
+000d3501 CF9h
+000d3512 E9Hf
+000d361f TH{u
+000d3674 *a@9
+000d3707 Txzw
+000d371b T*yw
+000d39ca Q8( 
+000d3a36 X8(=
+000d3d99 a@9(
+000d3ea3 =K	@
+000d40a1 CF9H
+000d40fb Rkyu
+000d4681 a@9H
+000d4cd9 "@9h
+000d58d7 Rj&A
+000d5907 Ti"@
+000d5957 Ti"A
+000d5983 Ti"@
+000d59a3 Rj&A
+000d665b Ti*A
+000d6697 Tj&A
+000d7213 Ti*A
+000d724f Tj&A
+000d7dc3 Ti*A
+000d7dff Tj&A
+000d897f Th&A
+000d89b7 Th&A
+000d938f <)IC
+000da775 "@9h
+000dad6f <)IC
+000db22d #@9h
+000db281 #@9h
+000db429 #@9h
+000db58d "@9h
+000db693 R)9@
+000dc03b <)IC
+000dc23d #@9h
+000dc259 #@9h
+000dc2ad "@9h
+000dc3bf *)9@
+000dc84b <)IC
+000dcd38 h"@9
+000dcef8 i"@9
+000dd0d4 h"@9
+000dd2ac i"@9h
+000dd4d7 *)9@
+000de01b T*y,
+000de047 T,yk
+000de1ab o)AC
+000de37d "@9h
+000de3c7 o)AC
+000de795 im8.
+000de7a8 mi*8J
+000deb2f Slil8
+000deb3c Li)8)
+000dec2d #@9h
+000dec69 CA9H
+000deccd #@9h
+000ded09 CA9H
+000df0c7 T)hi8)
+000df1d3 T)hi8)
+000df2dd cC9h
+000df903 T*xh
+000df90f TL{j
+000dfa1b T+xj
+000dfb43 R+yh
+000dfb67 Tkzh
+000dfb87 Tkzk
+000dfd8b QL}}
+000e00a3 QL}}
+000e022b qkjj
+000e0d5f TOyi
+000e199f <)IC
+000e1abb *)9@
+000e24d5 "@9h
+000e2647 r)%@
+000e267b r)1@
+000e293f 7njmx.	
+000e2b1d 	@yh
+000e2cf7 Tk	@y+
+000e2ec6 @y?-
+000e2f66 @y?-
+000e3bb1 bA9I
+000e3bc3 R:Yh
+000e3ee9 cA9h
+000e4461 #@9h
+000e4749 #@9h
+000e5511 #B9h
+000e5545 #B9h
+000e58d9 #B9h
+000e5b71 #B9h
+000e5e15 #B9h
+000e667d cC9h
+000e6b35 cA9h
+000e789c h"@9
+000e7a1d 80.J
+000e8781 CC9h
+000e9c00 (a@9
+000e9c07 5(	@
+000ea5fd 80.	
+000ea6b8 ljj8kE@9
+000ea768 ljj8kE@9
+000ea85b Tk2@
+000ea91b Tk2@
+000ea95b Tj.@
+000eb565 c@9H
+000eb7fb T*CG
+000eb925 c@9(
+000eb9a5 c@9(
+000ebbf7 T*CG
+000ebd21 c@9H
+000ec0a3 TuZ@
+000ec453 Tm	@
+000ec50b =)YD
+000ec5d7 Ti*@
+000ec7b3 Th*@
+000ec9db =)YD
+000eca57 Th*@
+000ecd3b Th*@
+000ecf43 =)YD
+000ecfef =)YD
+000ed097 =)YD
+000ed143 =)YD
+000ed1ef =)YD
+000ed29f =)YD
+000ed34b =)YD
+000ed3f7 =)YD
+000ed4a3 =)YD
+000ed54f =)YD
+000ed5fb =)YD
+000ed6a7 =)YD
+000ed757 =)YD
+000ed807 =)YD
+000ed8b7 =)YD
+000ed967 =)YD
+000eda5f =)YD
+000edb0f =)YD
+000edbbf =)YD
+000edc6f =)YD
+000edd1b =)YD
+000eddcb =)YD
+000ede7f =)YD
+000edf2f =)YD
+000edfdf =)YD
+000ee08f =)YD
+000ee13f =)YD
+000ee1ef =)YD
+000ee29f =)YD
+000ee34f =)YD
+000eeef3 =)YD
+000eefbb =)YD
+000ef083 =)YD
+000ef14b =)YD
+000efcd7 =)YD
+000efd9b =)YD
+000efe5f =)YD
+000eff23 =)YD
+000effe7 =)YD
+000f00ab =)YD
+000f016f =)YD
+000f0233 =)YD
+000f02f7 =)YD
+000f03bb =)YD
+000f047f =)YD
+000f0543 =)YD
+000f0607 =)YD
+000f06a7 Rh:	
+000f06cb =)YD
+000f076b Rh*	
+000f078f =)YD
+000f082f Rh:	
+000f0853 =)YD
+000f08f3 RhB	
+000f0917 =)YD
+000f09b7 RhZ	
+000f09db =)YD
+000f0a7b Rhr	
+000f0a9f =)YD
+000f0b63 =)YD
+000f3100 Lyixk	
+000f373c Lii8k	
+000f464d 80.	
+000f4d89 80.k
+000f4fb7 R@mD
+000f5153 R YD
+000f5223 R AD
+000f56f7 R qD
+000f5897 R ED
+000f5967 R MD
+000f5bd7 R UD
+000f5c9f R@mD
+000f5e3b R YD
+000f5f0b R AD
+000f63df R qD
+000f657f R ED
+000f664f R MD
+000f6b0b R qD
+000f6f0b R@mD
+000f717b R ED
+000f724b R YD
+000f731b R AD
+000f73eb R MD
+000f765b R UD
+000f9aad #A9h
+000f9b18 h#@9h
+000f9d8d #A9h
+000fa2ec 	@@9
+000fa310 	@@9
+000fa387 6`^@
+000fa401 B@9(
+000fa518 hb@9h
+000fa6a7 TuZ@
+000fab39 "@9h
+000fab5d "@9h
+000fab91 #@9H
+000fabd9 #@9(
+000fabf9 #@9(
+000fac19 #@9(
+000fac34 h"@9h
+000fad03 6($D
+000fb17f TlN_
+000fb69d B@9K
+000fba11 "@9h
+000fbeed 80.	
+000fbfa8 ljj8kE@9
+000fc058 ljj8kE@9
+000fc185 "@9h
+000fc21b T ya
+000fc427 Tk&@
+000fc48d &C)h*C)
+000fc4d3 TkB@
+000fc4df T-9@)
+000fc5bb TkN@
+000fc5c7 T-9@)
+000fc8cd j58t
+000fccb1 80.	
+000fcd6c ljj8kE@9
+000fce1c ljj8kE@9
+000fcfa3 T	@@9
+000fcfd5 ji8JE@9_
+000fd05f T	@@9
+000fd091 ji8JE@9_
+000fd123 <a"@
+000fd2dd 80.	
+000fd5b2 @9K+D
+000fd7b7 T5MA
+000fd9b2 C9hZ
+000fd9c8 hB@9mF
+000fda26 [8KCH
+000fda93 T@yq
+000fdab4  BA9
+000fdabb 4(&@
+000fde00 ?k:8
+000fde1b r(1@
+000fde96 	*ki
+000fdfdc _k98
+000fdff7 r(1@
+000fe5e4 H#@9J'A
+000fe62a @9J'D
+000fec17 R?k88
+000ff1f9 C@94
+000ff29c hB@9j
+000ff310 iB@9k
+000ff4a7 =I	@
+000ff5bb T	C@9
+000ff657 T	C@9
+000ffc9d "@9h
+000ffcc1 "@9h
+000ffcd9 c@9h
+000ffd59 "@9h
+000ffd7d "@9h
+000ffd95 c@9h
+000ffe19 c@9t
+000ffef4 h"@9h
+001000d0 	!@9
+00100140 	!@9
+00100243 =(	@
+001003fe Iz`<
+001009ed CB9h
+00100af9 cC9(
+00100b59 cC9(
+00100e33 T4	@y
+0010109b =4O@
+001010b7 TI	@yI_
+001010ca @yV`
+001011ab TI	@y
+00101360 _k78 
+00101499 CE9h
+001014f5 #F9H
+00101599 CE9(
+001015bd CE9H
+00101657 7(	@
+00101731 CE9K
+00101817 5	c@9
+001019f1 CG9)
+00101a4d CE9H
+00101b83 9)Q@
+00101bc9 "@9h
+00101d98 .`@9
+00101dd3 r-0@
+00102058 	i+8J	@
+00102068 	i*8
+001022eb <(0@
+001024ad b@9H
+001025f9 i+8J	@
+00102659 b@9H
+0010295c H`@9
+00102a43 r)	S
+0010334c h"@9
+0010342d  @9	
+00103445  @9	
+00103abf R	A@9
+00103baf R	A@9
+00104763 T@ya
+00104cd4 	@A9
+00105199 #@9h
+0010529b T6|@
+001058e7 T*E@
+00105a03 T	!@
+00105bbf ThBA9i.@
+00105bcf rhB@9)
+00105e60 hB@9i
+001060c7 = /@
+0010629f ThB@9i
+0010650f T;yh
+00106806 Q9H=
+0010682f T*	@
+001073d0 iBA9
+001073df 6`.@
+001076e7 7(H@
+00107919 "@9h
+00108311 cB9(
+001084fd "@9h
+001086a1 cB9h
+00108929 cB9J
+00108a61 CC9h
+00108b03 rk	J
+00108e55 "@9h
+001091b7 R)mC
+001091f7 =)YD
+001094ef T+!@
+001095e4 	A@9) 
+00109ec1 "@9h
+0010a819 "@9h
+0010a86b TiUA
+0010ab1b T-il
+0010ab68 -i,8
+0010ab80 -i.8(
+0010ae68 	 @9
+0010af45 i 8!
+0010b298 h"@9h
+0010b5c3 T	,@
+0010b821 #@9t
+0010be34 (i`8
+0010be55 i 8v
+0010be69 i*8h
+0010beec J1KJi
+0010bfe3 T*i`
+0010c23e A9('
+0010c3a7 T3#A
+0010c4ff Tk!*
+0010d2d0 (i`8
+0010d6b0 	 @9
+0010dab7 TNim
+0010db00 Ki-8
+0010db14 Ki,8
+0010db57 rp	@
+0010db79 h"8c
+0010db89 h08J
+0010dd91 k:8(
+0010df75  @9	
+0010dff8 h"@9
+0010e52b TjC@9b
+0010e5db TjC@9b
+0010e9d3 9(Q@
+0010e9f3 9(a@
+0010ed7c (a@9(
+0010ed83 5(	@
+0010efe3 T+!@
+0010f0af T+!@
+0010f167 R3;B
+0010f16f 9h"@
+0010f3c9 #B9h
+0010f427 T(k@
+0010f483 7(k@
+0010f5d4 (i`8
+0010f5f5 i 8i
+0010f609 i)8h
+0010f7b7 T*i`
+0010f858 	AA9	
+0010f96b S+}@
+0010f970 )hi8,
+0010f976 @9(hh8Jq}
+0010faf4 (i`8
+0010fb15 i 8i
+0010fb29 i)8h
+0010fcd7 T*i`
+0010fd80 	AA9I
+0010fe87 S+}@
+0010fe8c )hi8,
+0010fe92 @9(hh8Jq}
+00110010 (i`8
+00110031 i 8i
+00110045 i)8h
+001101f3 T*i`
+0011029c 	AA9I
+001103a3 S+}@
+001103a8 )hi8,
+001103ae @9(hh8Jq}
+001104f0 	AA9i
+00110769 #B9h
+00110897 rH1[
+00110c95 #@9h
+00110cb9 #@9h
+00110cfd 80.	
+00110fb9 "@9h
+0011111f 7		@
+0011119c h"@9h
+00111333 Tl	@
+00111383 Tl	@
+0011150b T yz
+0011153f ThR@
+001115ef ThR@
+0011163b 4u:B
+001118f5 cI9h
+00111921 "@9h
+00111c51 CA9h
+00111d39 #B9h
+00111f94 	AA9
+00111ff4 h"@9
+00112263 ThKA
+001122e3 TsCA
+001124db T+"@
+001125b2 E9(@
+001128c9 CF9h
+001129ff S+}@
+00112a04 )hi8,
+00112a0a @9(hh8Jq}
+00112bff S+}@
+00112c04 )hi8,
+00112c0a @9(hh8Jq}
+0011306c h"@9j&A
+00113121 CF9h
+00113d1e Q9ib
+00113f27 9hb@
+0011437c H#@9J'A
+0011454d c@9h
+00114643 RH1Z
+00114fa1 80.	
+00115079 80.	
+00115633 TIC@9B
+001156cf TIC@9B
+001163a5 CA9h
+00116444 (C@94
+001169f4 hBA9h
+00116b07 S+}@
+00116b0c )hi8,
+00116b12 @9(hh8Jq}
+00116ea1 BA9h
+001170b5 "@9(
+001173a7 7		@
+001174c4 h"@9h
+0011766b T	!@
+0011793f T*	@
+00118117 T!yu
+0011811c *@A9J
+0011830b T!yx
+00118310 *@A9J
+00118535 CE9h
+001185d8 hB@9
+00118b8b TiC@9b
+00118c27 TiC@9b
+00118f55 80.	
+00119e98 	 @9
+0011a020 	i+8
+0011a030 	i*8
+0011a120 	 @9
+0011a1f9 i 8 
+0011a665 "@9h
+0011a9b9 80.	
+0011aa74 ljj8kE@9
+0011ab24 ljj8kE@9
+0011abfc 	 @9
+0011ad84 	i+8
+0011ad94 	i*8
+0011b599 "@9h
+0011b5b1 C@9(
+0011b705 ji8JE@9_
+0011b79d ji8JE@9_
+0011bde8 	A@9i
+0011be74 	 @9
+0011bffc 	i+8
+0011c00c 	i*8
+0011c249 c@9(
+0011c6c1 c@9(
+0011cd0c 	 @9
+0011d059 1JJK
+0011d1cb T-il
+0011d214 *i,8
+0011d224 *i+8
+0011d281 i081
+0011d291 i/8Myi
+0011d2b7 7Myi
+0011d589 1JJK
+0011d703 TNim
+0011d74c Ki-8
+0011d760 Ki,8
+0011d7bc  j!8B
+0011d7cc  j/8J
+0011d81b T"ja
+0011dcb5 i+8)	@
+0011e005 80.	
+0011e0c0 ljj8kE@9
+0011e170 ljj8kE@9
+0011e62f RioA
+0011e6fb 4`_@
+0011e947 TIg@
+0011ece3 TU+F
+0011ef57 =	A@
+0011f10c J1KJi
+0011f1b7 rH1S
+0011f46b T	I@
+0011f477 T	M@
+0011f5ff T!ys
+0011f604 *@A9J
+0011f73f T!ys
+0011f744 *@A9J
+0011f8a4 hBA9H
+0011ff03 Th2@
+0011ff3b r*A@
+0011ff57 T(I@
+0011ff67 T*M@
+00120019 cD9H
+00120111 cD9h
+00120227 6@/@
+00120291 "@9h
+001202a9 cD9h
+001204e3 r(1@
+001204ff 6 5@
+001205cf 6@/@
+0012093f TuO@
+00120a05 cG9IC@
+00120d29 cG9IC@
+00120ef3 R	)@
+0012113b T	I@
+00121147 T	M@
+00121263 T!yx
+00121268 *@A9J
+00121373 T!yx
+00121378 *@A9J
+00121478 	AA9I
+001217e5 "@9h
+001219b3 Thr@
+00121a53 T*I@
+00121a63 T*M@
+00121b43 T9yh
+00121bd7 T([@
+00121be1 CA9(
+00121ec4 lAA9l
+00121f23 T)+H
+00121f33 T+yh
+00121f38 hAA9
+00121fa3 7)+H
+00121fb3 T:yh
+00121fb8 HCA9H
+0012202b THCA9
+00122039 AA9H
+00122163 T	)@
+001222eb R)}*
+001223e4 	AA9i
+00122498 	AA9i
+00122553 54WK
+0012256c 	AA9i
+00123563 T	I@
+00123573 T	M@
+0012368f T!yt
+00123694 *@A9J
+00123793 T!yt
+00123798 *@A9J
+0012393f T*k@
+00123a1b T5+L
+0012420b T`^@
+00124227 Th&J
+00124293 T	!A
+001242b7 Th&H
+0012439b T	!A
+0012492f TL	@
+0012497f TK	@
+00124a83 TaVA
+00124ab7 Ji"@
+00124bc4 	i+8
+00124bd4 	i*8
+00124c30 	i+8
+00124c40 	i*8
+00124e41 k:8(
+001259d3 *6}@
+00125d27 T-il
+00125d70 *i,8
+00125d80 *i+8
+00126013 ThC@
+0012601c 	AA9I
+001261c3 1(a@
+001261ef TZ[9
+0012669c Kki8JE@9_
+00126734 Kki8JE@9_
+0012684c (C@94
+001268cc (C@93
+00126af5 80.	
+00126bb0 ljj8kE@9
+00126c60 ljj8kE@9
+00126f8b 9h.@
+00126fcc <a@9
+001270b0 Mim8
+001272d8 iB@9J
+0012730b RvbA
+001273a7 T-ik
+001273f0 *i+8
+00127401 #@9*i,8
+00127491 i/8)
+001274a9 ki8n
+00127661 k:8(
+00127c4f T(!@
+00127cbf T*)@
+00127f68 )@A9)
+0012851f T5yv
+00128837 7		@
+00128ed5 CF9h
+00128fcd A@9(_
+00129339 CF9h
+001293b2 A9Ki(
+001294e3 7+	@
+0012953f 7i	@
+001295d3 9(q@
+0012980c hb@9
+0012981e P9H	
+001298bd CF9H
+00129971 cO9H
+001299f1 cL9H
+00129b27 R(	@
+00129b89 CK9h
+00129ca0 h"@9j&A
+00129e42 A9hZ
+0012a04d CF9h
+0012a0a9 #@9h
+0012a33d @@9h
+0012a38f 7		@
+0012a62c hB@9H
+0012a6a4 h"@9h
+0012a733 T*	@
+0012adbd ji8JE@9_
+0012ae61 ji8JE@9_
+0012af1d 	@9?
+0012b0a5 ki8JE@9_
+0012b13d ki8JE@9_
+0012b833 TIC@9B
+0012b8cf TIC@9B
+0012bb13 Th*@
+0012bb73 Tx"@
+0012bee5 80.	
+0012bfa0 ljj8kE@9
+0012c050 ljj8kE@9
+0012c143 T iu
+0012c319 FX*<
+0012c329 BZ*{
+0012c334 9?\*
+0012c3bc \ky8{
+0012c3f0 @9@9
+0012c3f7 SD5@9
+0012c3ff *@1@9
+0012c41f J@-@9
+0012c427 S@)@9
+0012c42f *@%@9
+0012c437 J@!@9D
+0012c493 SO	@9
+0012c4b4 )EL*(}
+0012c519 AHJ)AIJ
+0012c532 0/)5IJ
+0012c545 AHJ)AIJ
+0012ce38 (@A9(
+0012d105 C@9t
+0012d4c8 	!@9
+0012d5f8 h"@9h
+0012d641 #@9H
+0012d67f R)eC
+0012d6bf =)YD
+0012da67 T(C@
+0012dcd0 (C@9*
+0012dd15 "@9h
+0012ddfc J1KJ)
+0012e0b8 (C@9*
+0012e375 iq8q
+0012e37d h08"h/8
+0012e42e 	k@	A
+0012e590 Wi+8
+0012e5a0 Wi+8
+0012e614 Xi+8
+0012e620 Xi+8x
+0012e63d iq8B
+0012ead8 Ah#8B
+0012eae0 Ah-8
+0012eb43 TDhc
+0012ebc9 ia8a
+0012ebd0 Dh18dh-8
+0012ed5b Th#@
+0012fcb3 T	C@9
+0012fce5 ji8JE@9_
+0012fd53 T	C@9
+0012fd85 ji8JE@9_
+0012ff4d C@9h
+00130094 3S@9
+001303e6 @9)	@
+001306a6 @9)	@
+001309d5 cK9)
+00130a21 "@9h
+00131343 T!yt
+00131348 *@A9J
+0013153b T!yt
+00131540 *@A9J
+00131b95 cB9h
+00132177 T-il
+001321c0 *i,8
+001321d0 *i+8
+001323bd CB9h
+00133da3 R)iC
+00133de3 =)YD
+00133f67 R)iC
+00133fa7 =)YD
+00134411 #A9(
+00134b0f =h:@
+00134e39 C@9H
+00134f45 C@9H
+00134fb1 CA9h
+001352dd c@9h
+00135427 5h*@
+001360b1 #@9(
+00136129 #@9h
+0013669d cA9(
+0013673d cA9(
+001368b9 cA9H
+00136979 cA9H
+001369f9 cA9H
+00136bef =h:@
+00137125 #@9H
+0013744d CC9t
+001374b1 CA9h
+00137f25 CA9t
+001387ad #@9t
+00138809 #@9t
+0013890d #@9t
+00138a39 #@9t
+00138aa9 #@9t
+00138b19 cB9h
+00138bf9 #@9h
+00138cbb =h:@
+00139119 #@9h
+0013945d c@9h
+0013973b Th&@
+00139ff9 #@9(
+0013a071 #@9h
+0013a3d5 "@9h
+0013a411 #D9H
+0013a475 "@9h
+0013a4b1 #D9H
+0013a649 "@9h
+0013a685 #D9H
+0013a6e9 "@9h
+0013a725 #D9H
+0013a84d "@9h
+0013a889 #D9H
+0013a8ed #F9(
+0013a92d #F9(
+0013a9cd #D9h
+0013ab4b TI?@
+0013baab T6-@
+0013bb31 "@9h
+0013bc59 "@9h
+0013bcf9 cF9h
+0013be6d "@9h
+0013c81f RT-@
+0013c8ee (*4-@
+0013e5fe A9iU
+0013e84d "@9h
+0013e931 !@9h
+0013ebe5 #@9h
+0013f8ab R)eC
+0013f8eb =)YD
+0013fa43 R)eC
+0013fa83 =)YD
+0013fba3 R)eC
+0013fbe3 =)YD
+0013ff17 =h>@
+0014001b RJ}C
+00140263 RJ}C
+00140ad8 k1LJJ
+00140e5c 	@B9i
+001413cc 	@B9)
+001417e7 rk	J
+00141a3c ,i*8k	@
+00141a4c ,i+8
+00141b4f <K	@
+00141c37 rk	J
+00141d0b rk	J
+00141d73 T-il
+00141dbc *i,8
+00141dcc *i+8
+00141e29 i 8!
+00143102 @9L	@
+001431fc ?k78
+0014323c ?k78
+00143d4e D9iB@
+0014411b 7		@
+0014444b RiR@
+0014448b Tt&@
+001449f3 4( @
+001449ff 8) @
+00144b9f 4( @
+00144bab 8) @
+00145153 4( @
+00145717 4(L@
+00145956 BN!X n!(!
+00145a25 y)x)
+00145ae5 y)x)
+00146390 +ih8J	
+00146577 TKih
+001469ad CC9h
+00146a95 CC9h
+00146b90 k!@y
+00146bb2 Lz )
+00146c77 r)1@
+00146d13 r)-@
+0014703d "@9h
+00147579 "@9h
+00147695 "@9h
+0014772d CA9h
+00147988 +ih8J	
+00147b99 #@9h
+00147dd4 ?k(8
+00147e5a A9h"
+00147f88 k!@y
+00148249 "@9h
+00148269 c@9H
+00148289 #B9h
+00148880 myjx
+00148a95 "@9h
+00148aae @9h#
+00149117 6`.@
+0014926d "C)?
+001494f5 #B9h
+00149579 j98W
+00149947 7		@
+00149a2d "@9h
+00149a5d "@9h
+00149a75 #B9h
+00149e9c Lyixk	
+00149f7d #A9h
+0014a239 B@9(+
+0014a2a9 B@9h7
+0014a2bd B@9h=
+0014a891 "@9h
+0014b3a1 #A9H_
+0014c9e5 "@9h
+0014d0d5 "@9h
+0014d0ed cB9H
+0014d11d "@9h
+0014d165 "@9h
+0014d17d cB9H
+0014d2b5 "@9h
+0014d2cd cB9H
+0014d2fd "@9h
+0014d345 "@9h
+0014d35d cB9H
+0014d6df R*y(
+0014f195 #@9t
+0014f720 (ih8Hi+8
+0014f794 (yhxHy+x
+0014fa89 	@y?
+0014fa9d 	@y?
+0014faaa Iz!	
+0014fb4b 7		@
+0014ff55 #@9(
+0014fff5 #@9(
+00150e05 "@9h
+00150e41 cA9H
+00150f45 "@9h
+00150f81 cA9H
+00150fed #@9H
+001510a7 T5O@
+001512a1 "@9h
+00151695 "@9h
+00151f8f R)mC
+00151fcf =)YD
+00152324 B`@9
+00152b4f 7		@
+00152d00 h"@9h
+00152fe6 Q9hi
+00152fee _8k*@
+0015317f 7		@
+001531d3 T5O@
+00153244 	!@)
+001533c7 7		@
+001534f8 h"@9h
+0015363c h"@9h
+00153a88 h"@9h
+00153b1d "@9h
+00153dbb 7		@
+00154473 Tv"A
+00154a45 cC9h
+00154b90 ?k88
+00154bd8 ?k88
+00154cc0 ?k88f
+00155089 cA9h
+00155121 cA9h
+001551ed C@9h
+0015524d B@9h
+001553fc (@A9h
+00155434 (@A9h
+0015546c (@A9h
+0015567c *ih8j
+00155687 R*i(8
+00155921 jh8H
+00155c31 ji8JE@9_
+00155cdd ji8JE@9_
+00156255 B@9h
+00156c9d B@9h
+00156ff3 T(	@yH
+0015704b T(%@y
+00157207 Th/@
+001573ab TiC@9b
+001573dc Kki8JE@9_
+00157443 TiC@9b
+00157474 Kki8JE@9_
+00157d2b TiC@9b
+00157d5c Kki8JE@9_
+00157dc3 TiC@9b
+00157df4 Kki8JE@9_
+001584b1 80.	
+0015882b ThCA
+00158ad5 	@y(
+00158c0b T)C@9"
+00158c3c kki8JE@9_
+00158ca3 T)C@9"
+00158cd4 kki8JE@9_
+00158d47 =hCA
+00158e1f ThCA
+00158e9f Tw;A
+00158fa2 @y?-
+00159067 T*	@
+001590db TwOU
+0015911f *s_U
+00159306 @y?5
+001593d3 TJ	@y
+0015940a @9_k88h
+001594ce @9_k88
+0015950e F8_k88h
+001595be C8_k88h
+0015967e B8_k88h
+001596c4 *!@yJ
+001596db T()@y
+0015978b TJ1@y
+0015980f <)YD
+00159a1b TiB@9b
+00159aa4 (#@9h
+00159b9b TiB@9b
+0015a167 <)YD
+0015a253 <)YD
+0015a496 B8_k88h
+0015a562 @y_-
+0015a5ba @y?m
+0015a730 (#@9h
+0015aac3 TLE@
+0015ab4e @y?]
+0015ae1e @yj0
+0015aec7 TK	@yK
+0015af2f TK	@y
+0015af99 	@yh
+0015b301 "@9h
+0015b623 Tuc]
+0015b62f Ty#_
+0015b812 @y?E
+0015b9bd "@9h
+0015c2a7 T	C@9
+0015c343 T	C@9
+0015c7a0 ?k78
+0015cabd 80.	
+0015cb78 ljj8kE@9
+0015cc28 ljj8kE@9
+0015cf39 B@9(
+0015cfdf 6`>@
+0015d00f 7h"@9
+0015d044 h"@9
+0015d129 80.	
+0015d1e4 ljj8kE@9
+0015d294 ljj8kE@9
+0015d67d ji8JE@9_
+0015d715 ji8JE@9_
+0015ee41 80.	
+0015f7bc mij8
+0015fc13 TJ	@y*
+0015fc78 _k88
+0015fd30 _k88
+0015fece @y?=
+0016004e @y_5
+001600d7 THO@
+0016014f TI}@
+001601bd "@9H
+0016029b T(!@y
+00160546 [8h	
+001608b5 j582
+00160bd9 	@yH
+00160ce9 "@9h
+00160d25 C@9H
+00161005 "@9h
+00161041 C@9H
+001610a5 "@9h
+001610e1 C@9H
+0016121e @y_%
+001613ad C@9h
+00161587 TJ	@y
+001617c2 @y?m
+00161972 @y_5
+001619a6 @y_E
+001619af T)!@y
+00161a7a @y?U
+00161af6 @y_-
+00161b22 @y?=
+00161b2e @y(-
+00161b6e @y?]
+00161b79 -@yy/
+00161c7a @y_M
+00161c83 T)%@y
+00161d8e @y?e
+00161d99 1@yH,
+00161e03 T(O@
+00161e73 TI}@
+001623e1 "@9h
+00162481 "@9h
+00162521 "@9h
+001625c1 "@9h
+00162661 "@9h
+00162701 "@9h
+001627a1 "@9h
+00162fb7 THs@
+00163554 J1KJ)
+001641bf 7		@
+00164247 7		@
+001647ff T-il
+00164848 *i,8
+00164858 *i+8
+001648b5 i081
+001648c5 i/8Myi
+001648eb 7Myi
+00164a33 TiI@
+00164e6f TIC@9B
+00164f0b TIC@9B
+0016525e @y?]
+001652db ThR@
+001653b3 T)	@y
+00165434 _k88
+001654c3 9)1@
+0016563f T)C@9"
+001656db T)C@9"
+001659f6 @y_%
+00165a33 5_k88h
+00165a6e @y_-
+00165aab 5_k88h
+00165ae6 @y_5
+00165b23 5_k88h
+00165b2f 6`*@
+00165b5e @y_E
+00165b67 T)!@y)
+00165b9b 5_k88h
+00165ba7 6`6@
+00165bd6 @y_U
+00165bdf T))@y
+00165c13 5_k88h
+00165c1f 6`B@
+00165c46 @y?=
+00165cb6 @y?M
+00165de5 	@yK
+00165ef8 hB@9t
+00165f3c _k88h
+00165f78 _k88h
+00165fb4 _k88h
+00165ff0 _k88h
+0016602c _k88h
+00166051 "@9h
+00166217 7		@
+001662ff TiB@9b
+00166331 ji8JE@9_
+00166397 TiB@9b
+001663c9 ji8JE@9_
+001668f7 T*/@
+0016690b <(+@
+0016693f T6+@
+0016694f T3/@
+00166df3 6 /@
+00167473 Ok}~
+001674f7 TJ}A
+00167537 ^!(b
+00167542 bn!(d
+0016754b ^!(b
+001675c7 ^!(b
+001675d2 bn!(d
+001675db ^!(b
+001682d2 aN`k
+00168682 aN@k
+00168be2 aN!ja
+001696a2 cnBh
+00169b67 T)|@
+00169dc7 TE{`
+0016a34b TK{t
+0016a8ef Rm}@
+0016b68b Nym@
+0016b69f Nyq@
+0016b6ab N}y@
+0016c673 T+<@
+0016ceaf =2N@
+0016d082 @Mv]C
+0016d092 @MhA
+0016d13b NuYF
+0016d1fe @Mv]I
+0016d212 @MhA	
+0016d26e @Mw]
+0016d7f7 NtWA
+0016d83b Nt[B
+0016d87f NtWC
+0016d90b Nv_E
+0016d953 NuOF
+0016deee @MqS
+0016df86 @MUgB
+0016dfd2 @M9#
+0016e331 b@mR
+0016e47d fCmU
+0016ea73 TE{`
+0016ee47 TK{w
+0016f273 Rm}@
+0016f5f3 NpF@
+0016f84f Nk}	
+0016f87b N	|	
+0017185c `S@m"
+00171958 bSBm]
+00171a50 bSDm
+00171b4c bSFm
+00171c4c bSHm
+00171d40 bSJm
+00171e97 N":I
+001721cf N)B	
+0017220f N`wNmI
+0017235f NtkOm
+001724bf N	}	
+001725dc `S@m)
+00172ef5 O@m*>
+00172f0d GAm-}
+00172fb1 GCmW}	
+00172fcf NN}	
+001730ed OFm	
+00173101 GGmK}	
+0017319d OHm	
+001731b5 GImK}	
+001737ed GAmN>
+00173a4e BmY<
+00173e29 FAm9}
+00173e69 JBm	
+00173e7d FCmK}	
+00173ee1 FEmX}	
+00173f45 FGmD}	
+00173fe1 JJm@}
+00174031 rMm=
+00174135 rOmY
+00174426 BmQ|
+00174eb7 ^!(b
+00174ec2 dn!(c
+00174ecb ^!(b
+00175497 =B(w
+001754ce ~nB(w
+00175503 ^!({
+0017550b ^B(|
+00175847 ^c(g
+0017585b ^!(e
+0017586a snc(w
+0017587b ^!(y
+0017588b ^c(f
+00175a63 ^B(d
+00175a6b ^!(c
+00175a7a gnB(e
+00175a8b ^B(d
+001760e7 R+}@
+001768c3 T+<@
+00176f8b =7b@
+0017709f O:fF
+001770f3 =*B	
+00177127 O:bI
+0017758b OgS@
+0017769b OR[A
+001776c7 OSKB
+001776eb OT[C
+00177717 OUSD
+0017773f OVWE
+00177767 OT[F
+0017778f OSWG
+00177f2f ^!(e
+00177f4e sn!(y
+00177f6f ^!(p
+00177fb4 0GAm9
+00178167 ^!(b
+00178172 dn!(c
+0017817b ^!(b
+00178d27 T. @
+00178d53 =0 @
+00178d7f T0 @
+00178dc3 T6D@
+0017919b 6" @
+0017924f T,4@
+001792e7 T(,@
+00179603 Tm}	
+00179d67 T,8@
+0017a363 Tm}	
+0017aa1b T@{`
+0017ad2b T`x-
+0017ad6b =bzk
+0017ade3 T@{u
+0017afa2 `nA	
+0017b7b7 =)	@
+0017b94d C@9h
+0017bc57 7hB@9H
+0017bc7c hB@9
+0017c21b =$	@
+0017c257 =$	@
+0017d13b TH  
+0017d15b 4H  
+0017e230 !hl8c
+0017e23a 	Ko<
+0017e4c4 !hl8c
+0017ec8b )6^@)
+0017f02f 9&j"8
+0017f110 ni-8
+0017f145 hc8_
+0017f155 hi8_
+0017f165 hj8_
+0017f175 hk8_
+0017f185 hm8_
+0017f251 j"8`
+0017f449 i/8t
+0017f469 i&8]
+0017f6b6 !NJ!
+0017f6cb T!	@
+0017f6fa 4NcT7O
+0017f8ce 4N!T7O!
+0017f94a 4NBT7OB
+0017f9cb T!	@
+0017fac3 T	 @
+0017fb52  nVi
+0017fc2a zNzj
+0017fd42 3Nsk
+0017fe7e !N1Ja
+0017fe9d (!ngh
+0017ff4f T	 @
+0017ffea 4N2i
+0018014a &N9k
+00180182 qN|k
+001802c9 H!Nfh
+00180479 i*8J
+00180656 @9)	@
+0018068c )a@9
+0018074b 2Ki@9Ie@9j
+00180b01 i)8)
+00180cf4 )a@9
+00180d7a 3nc@
+00180d86 3n%8
+00180dad ( ng
+00180db4 "( nd
+00180dc1 j`n`h`n
+00180dc9 ( n`h`n@h`nH
+00180e5c !( n h`n
+00180e8d he8g
+00180e9b 9&he8
+00180ea7 9Fhe8
+00180eb3 9fhe8
+00180ecf <!( n h`n
+00180f75 ( ng
+00180f7c "( nd
+00180f89 j`n`h`n
+00180f91 ( n`h`n@h`n
+00181013 =!( n h`n(
+00181045 he8g
+0018104f 9&he8
+00181057 9Fhe8
+0018105f 9fhe8
+00181077 <!( n h`n
+001810d0 !( . h`.
+0018112c !( . h`.
+0018115d ip8`
+00181188 !( . h`.
+001811c2 3n"( na
+001811cb <@h`n(
+00181239 ip8`
+0018125c !( . h`.
+00181294 "( na
+0018129b <@h`nH
+0018130b TNim8ni-8
+0018131c Nim8ni-8
+00181333 =!( n h`n
+0018158b /B2bn@2`n
+0018159b /D2dnA2anc
+0018160b /@2`n!
+0018165f /A2an@2`n
+0018166f /D2dnB2bnc
+001816db /@2`n!
+001818b2 @9H|
+001818ca @9+	@
+001818f7 R)a@9?
+00181d8c )a@9
+00181e12 3nc@
+00181e1e 3n%8
+00181e45 ( ng
+00181e4c "( nd
+00181e59 j`n`h`n
+00181e61 ( n`h`n@h`nH
+00181ef4 !( n h`n
+00181f25 he8g
+00181f33 9&he8
+00181f3f 9Fhe8
+00181f4b 9fhe8
+00181f67 <!( n h`n
+0018200d ( ng
+00182014 "( nd
+00182021 j`n`h`n
+00182029 ( n`h`n@h`n
+001820ab =!( n h`n(
+001820dd he8g
+001820e7 9&he8
+001820ef 9Fhe8
+001820f7 9fhe8
+0018210f <!( n h`n
+00182168 !( . h`.
+001821c4 !( . h`.
+001821f5 ip8`
+00182220 !( . h`.
+0018225a 3n"( na
+00182263 <@h`n(
+001822d1 ip8`
+001822f4 !( . h`.
+0018232c "( na
+00182333 <@h`nH
+0018239f TNim8ni-8
+001823b0 Nim8ni-8
+001823c7 =!( n h`n
+00182623 /B2bn@2`n
+00182633 /D2dnA2anc
+001826a3 /@2`n!
+001826f7 /A2an@2`n
+00182707 /D2dnB2bnc
+00182773 /@2`n!
+00182c11 iu85	
+00182c19 ie85
+00182c21 ia85
+00182c29 il85
+00182c31 if85
+00182c39 in85
+00182c41 i`85!
+00182c49 io85%
+00182c51 iq85)
+00182c59 ik85-
+00182c61 ig851
+00182c69 is855
+00182c71 it859
+00182c79 ip85=
+00182c82 @95A
+00182c8d iu85E
+00182c99 iu85I
+00182ca5 iu85M
+00182cad id85Q
+00182cb9 iu85U
+00182cc1 ic85Y
+00182ccd iu85]
+00182cd9 iu85a
+00182ce5 iu85e
+00182cf1 iu85i
+00182cfd iu85m
+00182d09 iu85q
+00182d15 iu85u
+00182d21 iu85y
+00182d2d iu85}
+00182d35 	@9%
+00182d4d iu85
+00182d61 h`N5
+00182d6d iu85
+00182d79 iu85
+00182d85 iu85
+00182d91 iu85
+00182d9d iu85
+00182da9 iu85
+00182db5 iu85
+00182dc1 iu85
+00182dcd iu85
+00182dd9 iu85
+00182de5 iu85
+00182df1 iu85
+00182dfd iu85
+00182e11 iu85
+00182e1d iu85
+00182e29 iu85
+00182e35 iu85
+00182e41 iu85
+00182e4d iu85
+00182e59 iu85
+00182e65 iu85
+00182e71 iu85
+00182e7d iu85
+00182e89 iu85
+00182e95 iu85
+00182ea1 iu85
+00182ead iu85
+00182f1d iy89
+00182f25 j*8J
+00183174 !( NB( Nc( N
+00183181 ( N!(`NB(`Nc(`N
+00183191 (`N!
+001832b9 ib8l!
+0018358d a@9ma
+0018361c ki@9
+00183a05 h`N#j`NBj`Naj`N
+00183aa7 TsD@
+00183d01 j`N#j`NBj`Naj`N
+00183d9d j`N#j`NBj`Naj`NH
+00183e3f TsD@
+00184080 D( Ne( N
+001840f6 5nD( Ne( N
+00184174 B( Nc( N@h`Nah`N
+001841bc "( N
+001841c3 <@h`NH
+0018424b =!( N h`Np
+00184322 5nD( Ne( N
+00184372 5n"( N
+0018437b <@h`N(
+00184406 5n"( N
+0018440f =@h`N
+001846b1 2bNc
+00184719 2`N!
+00184960 !2aN 2`N
+00184970 $2dN"2bNc
+001849dc  2`N!
+00184cda @9;	@
+00184d08 )a@9
+00184dbc li@9k
+001851f9 h`N#j`NBj`Naj`N
+001854bd j`N#j`NBj`Naj`N
+00185559 j`N#j`NBj`Naj`NH
+001857f4 D( Ne( N
+00185856 5nD( Ne( N
+001858d0 B( Nc( N@h`Nah`N
+00185914 "( N
+0018591b <@h`NH
+0018599f =!( N h`Nm
+00185a72 5nD( Ne( N
+00185abe 5n"( N
+00185ac7 <@h`N(
+00185b4e 5n"( N
+00185b57 =@h`N
+00185e15 2bNc
+00185e79 2`N!
+00186170 !2aN 2`N
+00186180 $2dN"2bNc
+001861e8  2`N!
+001865e9 * ng* n
+001865f7 Ne( n
+00186608 !k`n
+00186620 Bk`n
+00186625 h`n'* n
+0018662d j`nP* n
+00186641 h`nh
+00186708 c( n
+0018670d ( nah`n
+0018676d hy8	
+00186779 hy8(
+0018677f 9hjy8(!
+00186789 jy8(1
+00186791 jy8(A
+00186799 jy8(Q
+001867a1 jy8(a
+001867a9 ky89
+001867c0 c( n
+001867c5 ( nah`n
+00186860 "( n
+0018686d j`n`h`n
+00186875 ( n`h`n@h`n
+001868f7 =!( n h`n(
+0018692b =hio8
+00186939 io8(
+00186941 io8("
+0018695f ="( n
+00186967 <@h`n
+001869c0 !( . h`.
+001869f8 him8
+00186a1c "( .
+00186a24 @h`.
+00186a60 "( n
+00186a67 <@h`nH
+00186adf ="( n
+00186ae7 =@h`n
+00186ec6  ne8
+00186ed9 ( nf( n
+00186ee9 h`n3
+00187032 @9H`
+001870b7 R j@9
+00187108 )f@9
+00187415 e@9*
+001874c5 ( n%
+00187541 ( n%
+0018773a @8* 
+00187742 @8*@
+0018774a @8*`
+0018777a  ne8
+0018778d ( nf( n$
+00187a8b /"2bn 2`n
+00187a9b /$2dn!2anc
+00187b0f / 2`n!
+00187b63 /!2an 2`n
+00187b73 /$2dn"2bnc
+00187be3 / 2`n!
+00187d72 @9hJ
+001880cd e@9h
+00188481 2anc
+001884e9 2`n!
+0018854d 2bnc
+001885b1 2`n!
+00188815 * Ng* N
+00188823 Ne( N
+00188834 !k`N
+0018884c Bk`N
+00188851 h`N'* N
+00188859 j`NP* N
+0018886d h`Nh
+00188934 c( N
+00188939 ( Nah`N
+00188999 hy8	
+001889a5 hy8(
+001889ab 9hjy8(!
+001889b5 jy8(1
+001889bd jy8(A
+001889c5 jy8(Q
+001889cd jy8(a
+001889d5 ky89
+001889ec c( N
+001889f1 ( Nah`N
+00188a8c "( N
+00188a99 j`N`h`N
+00188aa1 ( N`h`N@h`N
+00188b23 =!( N h`N(
+00188b57 =hio8
+00188b65 io8(
+00188b6d io8("
+00188b8b ="( N
+00188b93 <@h`N
+00188c24 him8
+00188c8c "( N
+00188c93 <@h`NH
+00188d0b ="( N
+00188d13 =@h`N
+00188e11 ( Nf( N
+00188e21 h`NH
+00188e8d ( Nf( N
+00188f5d KAm'
+00188f6f N0:GN'zGN
+00188f84  j`NAj`N
+0018920e @9HV
+001892fc pj@9
+0018962b Nd8BNbxBN
+00189635 ( NE( N$	
+00189640 ah`N
+00189645 h`NH
+001896a3 Nd8BNbxBN
+001896ad ( NE( N$	
+001896b8 ah`N
+001896bd h`N1
+0018974d xBNd( NE( N#	
+00189761 h`NQ
+0018980e CNB(!
+001898e6 @8j 
+001898ee @8j@
+001898f6 @8j`
+00189bdd 2bNc
+00189c41 2`N!
+00189e0a @9H]
+00189ed0 kj@9
+0018a43d 2bNc
+0018a4a1 2`N!
+0018a7a0 !2aN 2`N
+0018a7b0 $2dN"2bNc
+0018a818  2`N!
+0018ab2f NA8@N@x@N
+0018ab3c !( N
+0018ab5f n1h`N
+0018ab65 h`ND8
+0018ab75 xBNd( NE( N
+0018ab8d h`Nh
+0018ac0f NA8CNBxCN
+0018ac43 o!( NB( N
+0018ac4f n1h`NPh`Nd8
+0018ac65 x@Nd( N
+0018adbf N0:GN'zGN
+0018add8 5j`NTj`N>
+0018b735 ii8kii8
+0018b73d ii8M}
+0018b7ba @M)	
+0018b88d 8a.R8a.58a.t8a.
+0018b89d 8anB8an!8an
+0018b8c3 Nc8an
+0018b941 8anf
+0018b951 8an{
+0018bd35 8a.R8a.58a.t8a.
+0018bd45 8anB8an!8an
+0018bd6a 9Nc8an
+0018bdc5 8a.C
+0018bde9 8anf
+0018bdf9 8an|
+0018bfb2  Nk	
+0018c134 )ih8
+0018c1a7 /"8a.!8an
+0018c1c1 8anB
+0018c37e  Nk	
+0018c523 /"8a.!8an
+0018c53d 8anB
+0018ca89 C4-gxn
+0018cabd K5-.
+0018cac7 /qxp
+0018cadd K7-rxm
+0018cc1f Srxm
+0018cc51 S6-1*#
+0018cc6e !npxt
+0018cc85 G0-J}
+0018cd8d :a.9
+0018ce45 ;anZ{
+0018ce4b N;;a.9;an
+0018d31b /d8a.
+0018d323 Nc8an
+0018d32d 8a.c
+0018d52a 2-cxh
+0018d542 3-cxh
+0018d55e 4-cxh
+0018d57a 5-cxh
+0018d592 6-cxh
+0018d5ae 7-exi
+0018d5c6 8-cxh
+0018d6b5 8an2NA-
+0018d6ff N?;a.
+0018d70f NV;an
+0018d729 :an9;an
+0018d732 !N};
+0018d73b N\;a.
+0018d767 =}8a.c8an
+0018d873 N )A
+0018d9d3 /C8a.
+0018d9db NB8anc
+0018d9e5 8a.B
+0018dc8e !N!(a
+0018dca7 nb(!
+0018dcb3 nb(!
+0018e04a "n)|
+0018e056 0~b("
+0018e151 kl86
+0018e2fe 0~1C
+0018e307 -%{/
+0018e4c6 #n)|
+0018e692 !N3	3
+0018e6ba !N)	*
+0018e9b2 !n)|
+0018e9be 0~A(!
+0018eabd kl8)
+0018eca3 -d{/
+0018f0e3 orP@
+0018f250 !	@-
+0018f306 @95hm
+0018f3cf N!I@
+0018f517 OP}	
+0018f6ae 0~b("
+0018f743 ,'$@
+0018f7ba 0~b("
+0018f84f ,'$@
+0018f8c2 0~b("
+0018f94f ,'$@
+0018f9c2 0~b("
+00190175 	@- 
+001901b4 !	@- 
+0019030b N35@
+00190526 @9F@
+0019056e 0~B(#
+0019066e 'n%A
+001906c2 @9Cx
+0019071a 0~!("
+001908fe 0~c($
+00190a04 &A@-G$@
+00190a7a 0~B(#
+00190c02 0~!#
+00190e62 0~!("
+00191236 0~B(#
+001913d3 nc( N
+001913e1 ( Ng(`N
+00191403 Ngh`N
+001914a9 ( Ns:
+001914c4 8* N
+001914cc t( N
+001914d1 *`Ny* N
+001914e4 R*`N
+001914fd k`N4k`NVk`N
+001915f5 ( N)!
+001915fd * N1* NR* N
+00191611 *`N5*`NV*`Ns
+00191631 j`N5j`NVj`Ng
+00191909 ( N'( N
+00191911 ( Np( N
+00191924 B(`N
+00191931 j`NG
+001919b0 !( Nc( N%(`Nf(`N
+001919c7 N%h`Nfh`N
+00191a43 n!( Nb( N#(`ND(`Nc
+00191a5b N#h`NDh`Na
+00191aaf Nb( N$( N
+00191abc B(`N
+00191ac1 h`ND
+00191b13 n!( N#(`Nc
+00191b1f N#h`Na@
+00191b77 n!( N"(`NB
+00191b83 N"h`NA@
+00191bc4 "( N
+00191bcb <@h`NH
+00191c43 ="( N
+00191c4b =@h`N
+00191d8e ?mc 
+00191e75 ( Nr( N
+00191e8d *`N5*`NV*`Ns
+00191ead j`N5j`NVj`Nd
+00191f89 ( Nr( N
+00191fa1 *`N5*`NV*`Ns
+00191fc1 j`N5j`NVj`Nd
+001921dd xANs8ENcxEND:
+001921fd ( NT* N:( N
+00192214 {(`N|*`N
+0019221d *`N^+`N{
+00192233 N{h`N|j`N
+0019223d j`N^k`Nc
+00192436 (Nd@
+00192522 (N#@
+00192856 @9(S
+00192914 mj@9
+00192e0b o		{
+00192e51 2bNc
+00192eb8 @0`N!
+001930ec !2aN 2`N
+001930fc $2dN"2bNc
+00193164  2`N!
+001933ea @9(e
+001934ef Rkj@9
+00193a8b o		{
+00193ad1 2bNc
+00193b38 @0`N!
+00193e2c !2aN 2`N
+00193e3c $2dN"2bNc
+00193ea4  2`N!
+00194177 nc( n
+00194185 ( ng(`n
+001941a7 Ngh`n
+0019424d ( ns:
+00194268 8* n
+00194270 t( n
+00194275 *`ny* n
+00194288 R*`n
+001942a1 k`n4k`nVk`n
+00194399 ( n)!
+001943a1 * n1* nR* n
+001943b5 *`n5*`nV*`ns
+001943d5 j`n5j`nVj`ng
+001946ad ( n'( n
+001946b5 ( np( n
+001946c8 B(`n
+001946d5 j`nG
+00194754 !( nc( n%(`nf(`n
+0019476b N%h`nfh`n
+001947e7 n!( nb( n#(`nD(`nc
+001947ff N#h`nDh`na
+00194853 Nb( n$( n
+00194860 B(`n
+00194865 h`nD
+001948b7 n!( n#(`nc
+001948c3 N#h`na@
+0019491b n!( n"(`nB
+00194927 N"h`nA@
+00194968 "( n
+0019496f <@h`nH
+001949e7 ="( n
+001949ef =@h`n
+00194b32 ?mc 
+00194c1d xDN&:
+00194c4d (`n5*`nV*`nw*`n
+00194c6d h`n5j`nVj`nwj`n
+00194d71 (`n5*`nV*`nw*`n
+00194d91 h`n5j`nVj`nwj`n
+00194dff T'@`
+00194e1f T'@`
+00194f9e  nF8
+00194fb5 xBNs8DNcxDN
+00194fd9 ( nY( n
+00194fec z(`n{*`n
+00194ff5 *`n=+`nZ
+0019500b Nzh`n{j`n
+00195015 j`n=k`nC
+0019520e (Nd@
+001952f2 (NC@
+001956d0 .j@9
+00195704 (f@9k	
+00195c87 o		{
+00195cd5 2anc
+00195d43 /@0`n!
+00195d67 o		{
+00195dad 2bnc
+00195e17 /@0`n!
+00195fa2 @9HM
+001962f1 e@9h
+001966f7 /"2bn 2`n
+00196707 /$2dn!2anc
+00196773 / 2`n!
+001967c3 /!2an 2`n
+001967d3 /$2dn"2bnc
+0019683b / 2`n!
+00197dba @yij(x
+0019813d #@9h
+00198156 A9H%
+00198392 A9	P
+001983bd $	S@
+00198727 6`f@
+0019879f 6`*@
+00198a0c x2@9
+00198e05 "@9h
+001990dd @@9H
+001994b3 TiC@9b
+0019954f TiC@9b
+00199627 7		@
+001997d3 =(	@
+00199885 B@9h
+00199967 5h"@
+00199d1f 7hB@9
+00199d34 hB@9h
+00199f29 CA9h
+00199fbc 	@@9
+0019a2e7 T('Y
+0019a575 CB9H
+0019a698 ?k38
+0019a6b3 r(1@
+0019aa95 CB9HV
+0019acc8 ?k38
+0019ace3 r(1@
+0019ad4c ?k38
+0019ad67 r(1@
+0019af4f r(1@
+0019afe9 CB9h
+0019b110 ?k38
+0019b12b r(1@
+0019b317 r(1@
+0019b3b1 CB9h
+0019b4c0 ?k38
+0019b4db r(1@
+0019b586 B9hz
+0019b60a E9?C
+0019b65e E9?C
+0019b760 hB@9
+0019b7a9 B@9h
+0019b869 "@9h
+0019b9d5 j68t
+0019b9e5 "@9h
+0019ba51 j68t
+0019bd94 	!@9
+0019c276 0*k%
+0019c3ce 1*J!
+0019c47a 1*)!
+0019cbfb <`&@
+0019ce59 `A9(
+0019ce79 %@9(
+0019cfc6 @9H	
+0019d200 H(@m
+0019d3bf T`@`
+0019d5db ShC@
+0019d9f3 Tvks
+0019e0ef r9](
+0019eebb Td>@
+0019f1e6 @9hD
+0019f5ef rH%(
+0019f6cb R(i(
+0019fdf3 rLyk
+001a015b T({@
+001a0592 C9?	
+001a06c7 6i:@
+001a0876 C9?	
+001a089b Thc:
+001a08af Txc:
+001a0ff3 Txju
+001a1073 Txju
+001a118b Txjv
+001a11e3 Txjt
+001a225c (ih8
+001a23bd c@9h
+001a2409 c@9h
+001a2db5 #@9(
+001a2e59 #@9H
+001a3039 #@9H
+001a3095 #@9(
+001a30f1 #A9(
+001a3131 #A9(
+001a315d #@9(
+001a3441 #A9h
+001a37e5 #@9h
+001a38b9 #@9H
+001a3b3c ?k88
+001a3bb0 ?k78
+001a3f1d CA9h
+001a42f1 #@9h
+001a4439 j58C
+001a4495 #@9u
+001a44b9 #@9u
+001a4659 #@9h
+001a47ad #@9H
+001a4831 #@9h
+001a50e1 cA9h
+001a5641 cA9h
+001a59cd cA9h
+001a5d9f TJ	@y*
+001a628b TJ	@y
+001a6321 #B9h
+001a6358 *hj8_
+001a6589 "@9h
+001a65a1 cA9h
+001a67b1 "@9h
+001a6851 "@9h
+001a68f1 "@9h
+001a6b21 	@yh
+001a6c95 	@yh
+001a6e61 #B9H
+001a6ecd #B9H
+001a7048 _k88
+001a70a5 	@y(
+001a70cb T+	@y
+001a71f5 c@9H
+001a727d #B9H
+001a72c8 _k88
+001a733d #B9h
+001a7379 #B9h}
+001a7710 		@y?
+001a780c 		@y?
+001a7880 		@y?
+001a7c65 ji8JE@9_
+001a7cfd ji8JE@9_
+001a80ad ji8JE@9_
+001a8145 ji8JE@9_
+001a8197 7		@
+001a866d ji8JE@9_
+001a8705 ji8JE@9_
+001a92f5 j78g
+001a9661 jh8?
+001a96b3 T*iv8_
+001a96d0 jB@9?
+001a9700 jB@9?
+001a977d j58{
+001a978b 7h*@
+001a982d j58O
+001a98ed j48h*@
+001a9920 	kv8?
+001a996d j48h*@
+001a99aa @y*,
+001a9aa7 T	kh8?
+001a9b65 j48h*@
+001a9c69 j48	
+001a9cb1 j48	
+001a9d1d ji8_
+001a9e3d j48h*@
+001a9e95 j48h*@
+001aa0e9 j48 
+001aa577 T		@
+001aa783 T+ij8
+001aa7ff T+ij8
+001aa85b Tlih8
+001aa890 +ij8
+001aa8c3 T+ih8
+001aaa77 TIC@9B
+001aab13 TIC@9B
+001ab823 Th"@
+001abafd 80.	
+001abbb8 ljj8kE@9
+001abc68 ljj8kE@9
+001abd7f Rj),
+001ac20f Ttj@
+001ac2d7 Ti&@
+001ac2ff 6K	@
+001ac327 Th2@
+001ac34f Th>@
+001ac377 ThJ@
+001ac395 B@9(
+001ac46f 6h^@
+001ac49b 6hb@
+001ac4c7 6hf@
+001ac4f2 '6`j@
+001ac4fe /6`n@
+001ac50a 06tr@
+001ac54a 86tv@
+001ac613 Ti2@
+001ac63b 6K	@
+001ac68f 6`z@
+001ac6e3 6hr@
+001ac70f 6hv@
+001ac7b7 Th"@
+001ac7df Th.@
+001ac807 Th:@
+001ac82f ThF@
+001ac857 ThR@
+001ac8ff 6in@
+001ac917 6hr@
+001acb61 yixJ	
+001ad0d9 *86G
+001ad119 (867
+001ad1b0 *U@8_
+001ad2d8 v"E)
+001ad35c v"E)
+001ad3a4 v"E)
+001ad540 v"E)
+001ad900 (#@9
+001ae01b 7)s	
+001ae194 	#@9
+001ae3c8 *!@9
+001aefbc 	!@9
+001af137 TjB@
+001af14f Ti&@
+001af197 Tj2@
+001af1e7 Ti>@
+001af237 TiJ@
+001af302 86`v@
+001af33a @6hz@
+001af3eb 6h^@
+001af42f 6hb@
+001af473 6hf@
+001af4b6 '6`j@
+001af4e6 /6`n@
+001af516 76`r@
+001af550 	!@9
+001af6b6 	K|i
+001afbfa 	K]~
+001afd22 	Kih
+001afd7e 	KRh
+001b001e 	K"g
+001b00d6 	Koh
+001b0132 	KXh
+001b018e 	Kch
+001b0246 	K g
+001b0324 (@@9
+001b037f Th*@
+001b03bb Th*@
+001b05ad B@9(
+001b097f =	 N
+001b0af3 Tt"@
+001b0bab 6t"@
+001b0d2c W9	*
+001b1103 Tw^@
+001b15ac 	!@9
+001b1733 6`"@
+001b180c 	!@9
+001b1d33 6K	@
+001b1d5b Ti"@
+001b1d83 6K	@
+001b1dab Th.@
+001b1dee  6hN@
+001b1e43 6iB@
+001b1e6f 6iF@
+001b1e9b 6iJ@
+001b1fa8 Y9	*
+001b22a4 (#@9
+001b25b6 @8(086x
+001b2654 (#@9
+001b28aa 	kH,
+001b2c4b Ty^@
+001b348c 	!@9
+001b3537 Ti:@
+001b355f Tj"@
+001b35a7 Tj.@
+001b35f7 Th:@
+001b373a  6hN@
+001b37db 6iB@
+001b381f 6iF@
+001b3863 6iJ@
+001b38b0 	!@9
+001b39e6 	KZY
+001b3a42 	K!Y
+001b3c33 9Ia@
+001b3d2f Tt&@
+001b3dff 6`&@
+001b3e0b 6`*@
+001b3ee0 V9	*
+001b43f7 Tw^@
+001b4880 	!@9
+001b4b1f 6`&@
+001b4b4f 6`*@
+001b4ba0 	!@9
+001b50bb TsN@
+001b51cf Th.@
+001b51f7 Th:@
+001b5232  6`N@
+001b52a3 6hB@
+001b52cf 6hF@
+001b52fb 6hJ@
+001b53d0 W9	*H^
+001b6a70 	!@9
+001b6dba 06hV@
+001b6e3b 6hB@
+001b6e7f 6hF@
+001b6ec3 6hJ@
+001b6f06 '6`N@
+001b6f36 /6hR@
+001b6f60 	!@9
+001b70f2 	K$L
+001b730f 9Iq@
+001b763c V9	*
+001b76fa @8H	87i
+001b778f Tv^@
+001b7a74 	!@9
+001b7b94 *!@9)	@
+001b7e08 hB@9
+001b7efc W9	*
+001b8213 Tw^@
+001b8558 	!@9
+001b86b4 	A@9
+001b8718 *!@9)	@
+001b87b1 B@9h
+001b8d24 W9	*
+001b91d2 @8HT86
+001b9eef Tw^@
+001ba88c 	!@9
+001ba993 Ti.@
+001ba9e3 Ti:@
+001baa33 TiF@
+001baa83 TiR@
+001baad3 Ti^@
+001bac57 6in@
+001bac9b 6hr@
+001bacfc 	!@9
+001bad47 9Iq@
+001baea0 U9	*
+001bb1c4 *!@9
+001bb1dc *!@9
+001bb438 	!@9
+001bb4e4 *!@9)	@
+001bb723 T`"@
+001bb79f T`:@
+001bb7bb T`F@
+001bb7d7 T`N@
+001bb923 Tsz@
+001bba38 Y9	*
+001bba65 {hx)	
+001bba98 v"C)
+001bbb1c v"C)
+001bbb64 v"C)
+001bbcd4 	'@9
+001bbd18 v"C)
+001bca2c B9	*
+001bca48 B9	*H
+001bdcd0 	!@9
+001be02b 4Jq}
+001be55c *!@9)	@
+001be78c V9	*( 
+001bead3 Tw^@
+001beef8 	!@9
+001bf088 	!@9
+001bf410 V9	*
+001bf581 	87i
+001bf63f Tv^@
+001bf9d5 B@9h
+001bfa80 	!@9
+001bfaec 	@@9
+001bfbcc *!@9)	@
+001bfc00 (@@9
+001bfc4b Th*@
+001bfccb RJYD
+001c0008 V9	*
+001c0273 Tw^@
+001c04d0 	!@9
+001c059c 	!@9
+001c061a 	Kb'
+001c07e9 @@9h
+001c08c0 U9	*
+001c0d30 	!@9
+001c0e6c 	!@9
+001c0e8c 	!@9
+001c12f4 U9	*
+001c1367 Tv^@
+001c1564 	!@9
+001c15f4 	!@9
+001c1628 (@@9
+001c197c U9	*
+001c1dec 	!@9
+001c1eb0 	!@9
+001c2284 U9	*
+001c22f7 Tv^@
+001c24f4 	!@9
+001c2584 	!@9
+001c25b8 (@@9
+001c27d9 @@9h
+001c28b0 U9	*
+001c2d20 	!@9
+001c2e54 	!@9
+001c2e74 	!@9
+001c3250 V9	*
+001c330e @8H	87i
+001c33a3 Tv^@
+001c3688 	!@9
+001c37a8 *!@9)	@
+001c3d4c V9	*H
+001c3fff Tv^@
+001c44d8 	!@9
+001c49a4 	!@9
+001c49d8 *!@9)	@
+001c49f8 K!@9J	@
+001c4a33 9Ia@
+001c4bfc V9	*h
+001c5138 	!@9
+001c5200 *!@9)	@
+001c577f 6K	@
+001c57a7 Ti"@
+001c57cf 6K	@
+001c57f7 Ti.@
+001c581f 6K	@
+001c5847 Th:@
+001c586f ThF@
+001c5903 ThR@
+001c592b Th^@
+001c596b 6hz@
+001c59bf 6ir@
+001c59eb 6iv@
+001c5af8 Y9	*
+001c5bcc (#@9
+001c6331 g864
+001c65dc (#@9
+001c6832 	kHR
+001c6afc (#@9
+001c6d52 	kH)
+001c70b3 Ty^@
+001c7b44 	!@9
+001c7be7 Ti:@
+001c7c0f Tj"@
+001c7c57 TiR@
+001c7c67 Tj.@
+001c7caf Tj:@
+001c7cff ThF@
+001c7e4f Ti^@
+001c7e9f Thj@
+001c7fdf 6hz@
+001c807f 6ir@
+001c80c3 6iv@
+001c8110 	!@9
+001c99c5 "@9h
+001c9aa1  @9H
+001cade0 L @9
+001cb018 H @9
+001cb138 ( @9
+001cb9ae _8+}
+001cbb06 _8+}
+001cbf2f 7+|@
+001cc77f TIp	
+001cce73 T)s	
+001cd194 U9	*
+001cd269 "@)?
+001cd291 "@)?
+001cd2ac X9	*(
+001cd2c1 "@)?
+001cd52c U9	*
+001cd72c h"@9
+001cd914 U9	*
+001cdb14 h"@9
+001ce916 	kj	
+001ceedb S+}@
+001ceee9 jh8Jq}
+001cefd7 TK1@
+001cf01f TK)@
+001cf1bc 	ib8
+001cf1f8 Ki"8I
+001cf200 +i(8
+001cf3b7 TI3@
+001cf413 THk|8
+001cf4c9 i<8*
+001cf4f0 Jkk8
+001cf50d i)8!
+001cf540 +i<8
+001cf54c +i(8
+001cf567 THk{8
+001cf69b *@|_
+001cf84f 2tRA
+001cf923 4h*A
+001cf9ab 4hRA
+001cffcf RD	@z
+001d0057 6k!@
+001d007a 	*K'@
+001d160f Tl6@
+001d1aef ThR@
+001d236b 4h*A
+001d23cb 4h*A
+001d2477 Th*A
+001d247f 4hRA
+001d2699 C@9H
+001d2717 ThZ@
+001d2807 ThZ@
+001d28bb ThZ@
+001d2957 ThZ@
+001d29f3 ThZ@
+001d2a47 ThZ@
+001d2a55 C@9H
+001d2e92 g6lU
+001d2f21 f@9h
+001d2fee '6k!@
+001d302e '6l!@
+001d333f Thj|
+001d36b7 4h#@
+001d373a 	*X-
+001d3843 4i#@
+001d39f3 o C_
+001d3d6f *JA!
+001d3dc8 _1Ik
+001d3dd8  1HK
+001d430c Lih8k	
+001d43a3 T?	 q@
+001d43e6  q`	
+001d473e LQJQ
+001d47a8 `	Dz
+001d4cb8 @	Dz
+001d513f R_U,q
+001d544a _8?%
+001d54b4 I4B)
+001d5e27 4I4@
+001d5f23 *cYn
+001d6167 6A	@
+001d6263 6M	@
+001d62f6 @9(A
+001d630a 	*	][Q?
+001d6331 =@8_
+001d6355 =@8_
+001d64a5 !@9K
+001d64d5 %@9K
+001d6505 )@9K
+001d6535 -@9	
+001d6594 	-@8*y
+001d65af T	<@8
+001d65d5 	@9k
+001d674d !@9K
+001d677d %@9K
+001d67ad )@9K
+001d67e5 -@9	
+001d684e @9Iy
+001d6865 0@x)
+001d695b T	 @9*
+001d697f T	$@9*
+001d69a3 T	(@9*
+001d69c7 T	,@9*
+001d69eb T	0@9*
+001d6a11 4@9	
+001d6a6a @9HA
+001d7042 _8?1
+001d7199 "@9J
+001d71a9 &@9k
+001d724d *@9)
+001d725d .@9J
+001d726d 2@9k
+001d73dc 	USQ?5
+001d740a 	k 	
+001d787f *J!	*_
+001d78c3 TI#	*j
+001d79da @9)!
+001d7b57 5(kw8h
+001d7b7b 5(kw8H
+001d7b9f 5(kw8(#
+001d7c29 *@9)
+001d7c39 .@9J
+001d7c49 2@9k
+001d7cb3 TK	@9k
+001d7d49 "@9J
+001d7d89 &@9k
+001d7da9 *@9k
+001d7dc5 .@9k
+001d7e74  	Dz
+001d7f93 5(kw8
+001d7fb7 5(kw8
+001d7fdb 5(kw8(
+001d7fff 5(kw8H
+001d8048 	)@9
+001d804e @yJYi
+001d80e9 *A9)
+001d80f9 .A9J
+001d8109 2A9k
+001d837d ~B9)
+001d849d nE9)
+001d84ad rE9J
+001d84bd vE9k
+001d858f 5hkz8( 
+001d85b3 5hkz8H
+001d85d7 5hkz8
+001d85fb 5hkz8
+001d861f 5hkz8(
+001d8643 5hkz8h
+001d8667 5hkz8
+001d868b 5hkz8(
+001d86af 5hkz8
+001d86d3 5hkz8
+001d86fa @yJ,
+001d874f 5hkz8h
+001d8773 5hkz8
+001d8797 5hkz8
+001d87bb 5hkz8h
+001d87df 5hkz8
+001d8803 5hkz8(
+001d8827 5hkz8H
+001d884b 5hkz8h
+001d8a7a @y(-@9))@9
+001d8a8f RJYi
+001d8ad8 	)@9
+001d8ade @yJYi
+001d8e8a 	kA	
+001d9363 ThY3
+001d97b8 Iii8?
+001da4c7 TH$B)K
+001da4e2 	*mI*
+001da7a8 	kz8?
+001da7dd kj8l#
+001da812 _8m#
+001da92a @9j#
+001da966 _8l#
+001e51e9 %m/%d/%y
+001e5201 %H:%M:%S
+001e5218 (%a %b %d %H:%M:%S %Y
+001e5231 %I:%M:%S %p
+001e59e9 Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+001e5aa0 Linker: LLD 18.0.1
+001e5ab4 .note.android.ident
+001e5ac8 .note.gnu.build-id
+001e5adb .dynsym
+001e5ae3 .gnu.version
+001e5af0 .gnu.version_d
+001e5aff .gnu.version_r
+001e5b0e .gnu.hash
+001e5b18 .hash
+001e5b1e .dynstr
+001e5b26 .rela.dyn
+001e5b30 .rela.plt
+001e5b3a .gcc_except_table
+001e5b4c .rodata
+001e5b54 .eh_frame_hdr
+001e5b62 .eh_frame
+001e5b6c .text
+001e5b72 .plt
+001e5b77 .data.rel.ro
+001e5b84 .fini_array
+001e5b90 .init_array
+001e5b9c .dynamic
+001e5ba5 .got
+001e5baa .got.plt
+001e5bb3 .relro_padding
+001e5bc2 .data
+001e5bc8 .bss
+001e5bcd .comment
+001e5bd6 .shstrtab

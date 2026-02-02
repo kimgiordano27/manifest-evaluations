@@ -1,0 +1,154 @@
+{
+  "apk": "virtual-book-reader-decoded",
+  "timestamp_utc": "2026-02-02T16:50:06.354992+00:00",
+  "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\virtual-book-reader-decoded\\normalized\\ascii",
+  "summary": {
+    "txt_files_scanned": 9,
+    "files_with_hits": 4,
+    "total_term_hits": 7
+  },
+  "matches": [
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__lib_burst_generated.so.txt",
+      "hits": [
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "00008e04 UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance+GetAssistedVelocityInternal_00000F26$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_e641ea973152916bd389d6aef8fcc1fc from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libil2cpp.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "00959460 UnityFoveation_GetUseFoveatedRenderingLegacyMode",
+            "0095c943 GetEyeTrackedFoveatedRenderingEnabled",
+            "0095e35c GetEyeTrackedFoveatedRenderingSupported",
+            "0095e384 SetEyeTrackedFoveatedRenderingEnabled",
+            "0095e3aa OculusFoveation_GetUsedApi",
+            "009641fc UnityEngine.Rendering.CommandBuffer::ConfigureFoveatedRendering_Injected(System.IntPtr,System.IntPtr)",
+            "00972954 OculusFoveation_SetUsedApi",
+            "00972986 UnityFoveation_SetUseFoveatedRenderingLegacyMode",
+            "00976f17 UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode_Injected(System.IntPtr,UnityEngine.Rendering.FoveatedRenderingMode)",
+            "009793aa UnityFoveation_intercept_xrGetInstanceProcAddr",
+            "00980d52 OculusFoveation_GetHasEyeTrackingPermissions",
+            "0098284f OculusFoveation_HasRequestedEyeTrackingPermissions",
+            "00982f78 UnityEngine.SystemInfo::GetFoveatedRenderingCaps()",
+            "00988eba OculusFoveation_SetHasEyeTrackingPermissions"
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "0095c943 GetEyeTrackedFoveatedRenderingEnabled",
+            "0095e35c GetEyeTrackedFoveatedRenderingSupported",
+            "0095e384 SetEyeTrackedFoveatedRenderingEnabled"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libunity.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "000e0f1e Foveation Image YFlip",
+            "000f19d0 UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode_Injected",
+            "000fd701 FoveatedRenderingInfo struct size mismatch.",
+            "000fd881 SetFoveatedRenderingMode",
+            "001006b8 Missing Vulkan framebuffer attachment foveation image?",
+            "0011f4b3 FoveatedRenderingTexture - Can not load YFlip ComputeShader, %s",
+            "00124a3a Internal-CreateFoveatedShadingRateTextureArray.compute",
+            "00124e36 ConfigureFoveatedRendering",
+            "00129afa FoveationMap_NativePtr_%s%s",
+            "0012df6f UnityEngine.SystemInfo::GetFoveatedRenderingCaps",
+            "0012ebe0 FoveatedRenderingTexture - Can not load Foveation image generator ComputeShader, %s",
+            "0012ef92 FoveatedRenderingInfo struct platform mismatch.",
+            "00134b1e FoveationMap_%s",
+            "00134b3d FoveationMap_YFlip_%s%s",
+            "0013f182 UnityEngine.Rendering.CommandBuffer::ConfigureFoveatedRendering_Injected",
+            "0013fcb9 FoveatedRenderingInfo struct version mismatch.",
+            "0013fcf8 Setting Foveation Offset compatible texture of already created render texture is not supported!",
+            "0014505b CreateFoveatedShadingRateTextureCS",
+            "0014a0f3 FoveationMap_YFlip_%s",
+            "0014fc94 Foveated Rendering disabled. Exceeded max sample count: %d MSAA samples * %d shading rate samples > %d samples.",
+            "00152790 IVRDeviceCallback_GetFoveationImage",
+            "0015adac CreateFoveatedShadingRateTexture",
+            "00160627 FoveatedRenderingTexture - Can not find YFlip kernel '%s' in ComputeShader, %s",
+            "0016590f Internal-CreateFoveatedShadingRateTextureNoArray.compute",
+            "00165948 Internal-YFlipFoveatedShadingTexture.compute"
+          ]
+        },
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "001d342e gazEF"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libUnityOpenXR.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "00013978 FBGetFoveationDynamic",
+            "0001398e FBGetFoveationLevel",
+            "000139a2 FBSetFoveationLevel",
+            "000139b6 MetaGetEyeTrackedFoveationSupported",
+            "000139da MetaGetFoveationEyeTracked",
+            "000139f5 MetaSetFoveationEyeTracked",
+            "00013a10 OculusFoveation_GetHasEyeTrackingPermissions",
+            "00013a3d OculusFoveation_GetUsedApi",
+            "00013a58 OculusFoveation_HasRequestedEyeTrackingPermissions",
+            "00013a8b OculusFoveation_SetHasEyeTrackingPermissions",
+            "00013ab8 OculusFoveation_SetUsedApi",
+            "00013b69 UnityFoveation_GetUseFoveatedRenderingLegacyMode",
+            "00013b9a UnityFoveation_SetUseFoveatedRenderingLegacyMode",
+            "00013bcb UnityFoveation_intercept_xrGetInstanceProcAddr",
+            "0010a673 XR_FB_foveation",
+            "0010a683 xrCreateFoveationProfileFB",
+            "0010a69e xrDestroyFoveationProfileFB",
+            "0010a6eb XR_META_foveation_eye_tracked",
+            "0010a709 xrGetFoveationEyeTrackedStateMETA",
+            "0010cad7 XR_VIEW_CONFIGURATION_TYPE_PRIMARY_STEREO_WITH_FOVEATED_INSET",
+            "0010cf86 NSt6__ndk110__function6__funcIZN21OpenXRDisplayProvider36GfxThread_UpdateFoveationOffsetStateEP14UnityXRVector2iiE3$_3NS_9allocatorIS5_EEFvNS_10shared_ptrI26IPrimarySwapchainExtensionEEEEE",
+            "0010d095 ZN21OpenXRDisplayProvider36GfxThread_UpdateFoveationOffsetStateEP14UnityXRVector2iiE3$_3",
+            "00116056 NativePlugin/Source/extensions/ext_oculus_foveation.cpp:94",
+            "00116091 Failed to update swapchain foveation profile.",
+            "001160bf NSt6__ndk120__shared_ptr_emplaceI15OculusFoveationNS_9allocatorIS1_EEEE"
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "000139b6 MetaGetEyeTrackedFoveationSupported",
+            "000139da MetaGetFoveationEyeTracked",
+            "000139f5 MetaSetFoveationEyeTracked",
+            "0010a709 xrGetFoveationEyeTrackedStateMETA"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+00000180 Android
+0000018c r26b
+000001cc 10909125
+0000054d __cxa_finalize
+0000055c __cxa_atexit
+00000569 __register_atfork
+0000057b _ZN8facebook10perflogger20HealthCountersFacade4bumpENS0_16HealthCounterKeyEii
+000005c9 _ZN8facebook10perflogger8internal15QplReleaseFlags21sEnableHealthCountersE
+00000614 _ZN8facebook10perflogger8internal15QplReleaseFlags19sHealthCountersSizeE
+0000065d _ZN8facebook10perflogger20HealthCountersFacade19getAndClearCountersEv
+000006a3 __stack_chk_fail
+000006b4 __stack_chk_guard
+000006c6 malloc
+000006cd free
+000006d2 aligned_alloc
+000006e0 __strlen_chk
+000006ed __tls_get_addr
+000006fc pthread_mutex_lock
+0000070f pthread_cond_wait
+00000721 pthread_cond_broadcast
+00000738 pthread_mutex_unlock
+0000074d fwrite
+00000754 vfprintf
+0000075d fputc
+00000763 vasprintf
+0000076d android_set_abort_message
+00000787 openlog
+0000078f syslog
+00000796 closelog
+0000079f abort
+000007a5 stderr
+000007ac strcmp
+000007b3 fprintf
+000007bb fflush
+000007c2 dladdr
+000007c9 dl_unwind_find_exidx
+000007de __vsnprintf_chk
+000007ee memcpy
+000007f5 memset
+000007fc libdl.so
+00000805 LIBC
+0000080a libc.so
+00000812 LIBC_P
+00000819 LIBC_Q
+00000820 libxplat_perflogger_safe_rollout_qpl_safe_rollout.so
+00000855 libxplat_perflogger_health_counters_health_counters.so
+0000088c APS2
+00000fbc %s failed to release mutex
+00000fd7 %s failed to acquire mutex
+00000ff2 %s failed to broadcast
+00001009 uncaught
+00001012 _Unwind_VRS_Set
+00001022 unsupported register class
+0000103d ProcessDescriptors
+00001050 index inlined table detected but pr function requires extra words
+00001092 terminating due to %s exception of type %s
+000010bd terminating due to %s exception of type %s: %s
+000010ec %s:%d: %s
+000010f6 vector
+00001100 Unknown ARM float register
+0000111b unknown register
+0000112c unsupported arm register
+00001145 setRegister
+00001151 getRegister
+0000115d setFloatRegister
+0000116e getFloatRegister
+00001182 third-party\llvm-project\19.x-android\llvm-project\libcxxabi\src\private_typeinfo.cpp
+000011d8 third-party\llvm-project\19.x-android\llvm-project\libcxxabi\src\fallback_malloc.cpp
+0000122d _Unwind_VRS_Pop
+0000123d _Unwind_Resume() can't return
+0000125b terminating due to %s foreign exception
+00001283 terminate_handler unexpectedly threw an exception
+000012b5 getInfoFromEHABISection
+000012cd _Unwind_VRS_Get_Internal
+000012e6 libc++abi
+000012f0 bad_array_new_length
+00001305 terminating
+00001311 __cxa_guard_release
+00001325 __cxa_guard_acquire
+00001339 during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+0000139c unknown personality routine
+000013b8 _Unwind_Resume
+000013c7 Type matching not implemented
+000013e5 unexpected
+000013f0 terminate_handler unexpectedly returned
+0000141b std::bad_alloc
+0000142a catching a class without an object?
+00001503 unwind_phase2
+00001572 Invalid descriptor kind found.
+00001591 libc++abi: 
+0000159d libunwind: %s - %s
+000015b1 St9exception
+000015be St20bad_array_new_length
+000015d7 St9bad_alloc
+000015e4 N10__cxxabiv116__shim_type_infoE
+00001605 N10__cxxabiv117__class_type_infoE
+00001627 N10__cxxabiv120__si_class_type_infoE
+0000164c St11logic_error
+0000165c St12length_error
+0000166d St9type_info
+0000170b HxD'
+000017e9 #]FvF
+00001939 #uF^F
+00001a39 #uFVF
+00001a43 $"C'
+00001ab5 C2DT	J,8
+00001b60 AF"F
+00001b9a -HxD
+00001ba4 "FAF
+00001bb6 IFBF
+00001bf4 BFIF
+00001c08 IFRF
+00001c46 RFIF=
+00001c60 \IyD	h	x
+00001c6c ZIyD	h
+00001c78 XIyD	x
+00001c86 YIyD
+00001cac PIyD
+00001cba OIyD
+00001cc8 LIyD
+00001cd6 KIyD
+00001cfd !|D F
+00001d2a /HxD
+00001d4d Q}D(F
+00001d9d 1}D(F
+00001e77 5s@M@+C
+00001e8f 5s@M@+C
+00001ebf 5K@E@+C
+00001ed5 5K@E@+C
+00001f1d 5K@e@+C
+00001f33 5K@e@+C
+00001fcb 0K@h@
+00001fe2 H@k@
+000020aa UQXC
+000020f7 FHF)F
+0000215a QF"F
+00002199 IyD	h	h
+00002277 5s@M@+C
+0000228f 5s@M@+C
+000022bf 5K@E@+C
+000022d5 5K@E@+C
+0000231d 5K@e@+C
+00002333 5K@e@+C
+000023cb 0K@h@
+000023e2 H@k@
+000024aa UQXC
+000024f7 FHF)F
+0000255a QF"F
+00002599 IyD	h	h
+00002677 5s@M@+C
+0000268f 5s@M@+C
+000026bf 5K@E@+C
+000026d5 5K@E@+C
+0000271d 5K@e@+C
+00002733 5K@e@+C
+000027cb 0K@h@
+000027e2 H@k@
+000028aa UQXC
+000028f7 FHF)F
+0000295a QF"F
+00002999 IyD	h	h
+00002a2f JxDzD
+00002a59 IyD	h
+00002a79 JyDzD	h
+00002aa5 JyDzD	h
+00002af1 f(FAF
+00002afa e` F]
+00002b30 NB@h
+00002b48 CqH@
+00002b52 @	pG
+00002b6a (F!F
+00002bdb 9A``jp
+00002c40 +2yDF
+00002c8a Ah"F
+00002c8f 1A`0F)F
+00002cce NCbh
+00002ce6 CrQ@
+00002d52 CsZ@"C
+00002ddf F"HxD
+00002e09 NxD~D
+00002e1a `p@F1F
+00002e2b  `phF
+00002e57 IxDyD
+00002e9f JxDyDzD
+00002eba hFfxep
+00002ed5 IyD	h	h
+00002eef IxDyD
+00002efb IxDyD
+00002f73 "4h;a#F
+00002f82 0h)F
+00003000 	HxD
+0000308c $HxD
+000030ac L2Q@B
+000030b6 +2P@
+000030eb H)F"FxD
+000030f9 HyDxD	h
+00003109 HyDxD	h
+0000313b IxDyD
+000031ab !BF#F
+0000323c BF#F
+00003258  F)F
+00003286  F)F
+00003292 	JzD
+000033d2 PF)F
+000033db FPF)F
+000033e5 FPF)F
+000034b8 L2Q@B
+000034c2 +2P@
+00003524 L2Q@B
+0000352e +2P@
+0000355d (XFO
+00003594 2C?+
+000035d6 L2Q@B
+000035e0 +2P@
+00003631 IyD	h	h
+00003698 	h	h
+000036eb IyD	h	h
+0000372f eeee
+00003783 @ +8
+000037e7 `pF]
+00003803 IyD	h	h
+0000381b F&F5h]
+00003822 `YJF
+0000383d IyD	h	h
+000038a9 F9HxD
+000038b2 8JzD
+000038b7 h7M}D!
+00003937 KxDyD{D
+0000396d KxDyD{D
+000039e5 F%HxD
+000039ee $HxD
+00003a29 %cF^
+00003a91 IyD	h
+00003ab5 HxDpG
+00003ac1 IyD	h
+00003ad1 HxDpG
+00003b08 Ihhh
+00003b1f &xDzD
+00003b83 IyD	h	h
+00003ba5 KxDyD{D
+00003be4 8hQhP
+00003c3b  0FBF
+00003cea FiPF
+00003d25 IyD	h	h
+00003db2 1F*F#F]
+00003de5 h*FCF
+00003df9 @`G1F*FCF]
+00003e10 oFHhO
+00003e94 uhAh(F
+00003eaa Ahuh
+00003eba  hAh
+00003ecb hJFCF
+00003ede `hHE<
+00003ef0  iHE
+00003ef6 `iHE
+00003f03   b*
+00003f84 AhHF
+00003f94 AhHF
+00003f9a Ahmh
+00003faa  hAh
+00004028 Ah`h
+0000402e Ah`h
+0000403d hJFCF
+00004043 hLi1F
+0000405a 1FJFCF
+00004088 Ih@h
+0000408e Ih@h
+000040a3 `1F*FCF]
+00004110 @hpG
+000041a8  FBF
+000041d3 rLZ+
+00004296 2].|||
+000042c6  FBF
+00004326  FBF
+000043d4 (F1F
+0000440f q(F"F
+0000442d J	KyD
+00004433 hzD{D h
+00004478 2h F)F
+000044a2 2h F
+000044d5 J	KyD
+000044db hzD{D h
+00004551 h@F!F
+000045bc @F"F
+0000464d hzD{D h
+0000479b hzD{D h
+000047bd hzD{D h
+0000481d F3Hl
+00004849 &@F)F
+00004858 mF(F)F	
+000048a7  !e!FBF
+000048b4 (F)F
+000048c1 `@F	
+00004940 *i FO
+00004972  FAF
+0000498a 0F)e)F"F
+000049c4 (a F
+000049cf IyD	h	h
+000049fb hzD{D h
+00004a75 J	KyD
+00004a7b hzD{D h
+00004acf $HFIF
+00004aea #IyD	h	h
+00004b0d !*F+F
+00004b2a 	 )e)F2F
+00004b44 HFIF
+00004b67 !*F+F
+00004b89 $yD	h	h
+00004bdd $yD	h	h
+00004d00 0h)F
+00004d44  h)F2F
+00004d60 JjiF
+00004d79 !Bk F
+00004d7f G(hh
+00004d97 D Fo
+00004ddf FBi0F
+00004de8 0h)F
+00004e19 FBi F
+00004e22  h1F*FCF
+00004e53 hJj!F
+00004ecd H	IxD	J	KyD
+00004ed9 hzD{D h
+00004f1e BdpG
+00004f2e ! pG
+00004f45 J	KyD
+00004f4b hzD{D h
+00004f7c @	pG
+00004fed J	KyD
+00004ff3 hzD{D h
+00005091 J	KyD
+00005097 hzD{D h
+000050db !Bk(F
+000050fb  HbA
+00005155 FyD	h	h
+000051af IyD	h	h
+00005218 jF F)F
+0000522d IyD	h	h
+000052f7 KyD{D
+00005319 IyD	h	h
+0000543e l!!D
+0000545b hzD{D h
+0000547d hzD{D h
+00005595 HxDpG
+000055e7 HxDpG
+000055ed HxDpG
+000055f3 HxDpG
+000055f9 HxDpG
+000055ff HxDpG~HxDpG|HxDpGyHxDpG
+00005617 HxDpG
+0000561d HxDpG
+00005623 HxDpG
+00005629 HxDpGlHxDpG
+00005635 HxDpGlHxDpGdHxDpGtHxDpGtHxDpGeHxDpGtHxDpGeHxDpG_HxDpGoHxDpGVHxDpG^HxDpGTHxDpGmHxDpGSHxDpGxHxDpG[HxDpGbHxDpGNHxDpGZHxDpGVHxDpGrHxDpG]HxDpGAHxDpGdHxDpGPHxDpGRHxDpGZHxDpG[HxDpGXHxDpGTHxDpGQHxDpGTHxDpG[HxDpGVHxDpGyHxDpGlHxDpGiHxDpGdHxDpG\HxDpGbHxDpG^HxDpGlHxDpGjHxDpGRHxDpG^HxDpGPHxDpGSHxDpGKHxDpGhHxDpGXHxDpGZHxDpGIHxDpGXHxDpGNHxDpGFHxDpGPHxDpGGHxDpGCHxDpGXHxDpGNHxDpGJHxDpGJ
+000057ac KHxDpGOHxDpGNHxDpGJHxDpG9
+00005951 D`GO
+0000595d D`GO
+00005969 D`G@
+00005975 D`G@
+000059cd F F)F
+00005f19 aeabi
+00005f24 C2.09
+00005f51 .fini_array
+00005f5d .ARM.exidx
+00005f68 .text
+00005f6e .got
+00005f73 .note.android.ident
+00005f87 .got.plt
+00005f90 .rel.plt
+00005f99 .tbss
+00005f9f .bss
+00005fa4 .ARM.attributes
+00005fb4 .dynstr
+00005fbc .gnu.version_r
+00005fcb .data.rel.ro
+00005fd8 .relr.dyn
+00005fe2 .rel.dyn
+00005feb .gnu.version
+00005ff8 .dynsym
+00006000 .gnu.hash
+0000600a .relro_padding
+00006019 .ARM.extab__lcxx_override
+00006033 .note.gnu.build-id
+00006046 .dynamic
+0000604f .ARM.extab
+0000605a .shstrtab
+00006064 .rodata
+0000606c .data

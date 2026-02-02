@@ -1,0 +1,2009 @@
+0000027c Android
+00000288 r26c
+000002c8 11394342
+000022e5 __cxa_finalize
+000022f4 __cxa_atexit
+00002301 av_codec_iterate
+00002312 pthread_once
+0000231f avcodec_find_encoder
+00002334 av_codec_is_encoder
+00002348 __stack_chk_fail
+00002359 avcodec_find_decoder
+0000236e av_codec_is_decoder
+00002382 avcodec_find_encoder_by_name
+0000239f strcmp
+000023a6 avcodec_find_decoder_by_name
+000023c3 avcodec_default_execute
+000023db avcodec_default_execute2
+000023f4 avcodec_open2
+00002402 av_log
+00002409 av_frame_alloc
+00002418 av_packet_alloc
+00002428 av_mallocz
+00002433 av_opt_set_defaults
+00002447 av_opt_set_dict
+00002457 av_match_list
+00002465 av_image_check_size2
+0000247a av_image_check_sar
+0000248d av_channel_layout_uninit
+000024a6 av_channel_layout_from_mask
+000024c2 av_channel_layout_check
+000024da avcodec_descriptor_get
+000024f1 abort
+000024f7 avcodec_close
+00002505 avcodec_is_open
+00002515 pthread_mutex_lock
+00002528 pthread_mutex_unlock
+0000253d av_get_bits_per_sample
+00002554 av_freep
+0000255d av_frame_free
+0000256b av_packet_free
+0000257a av_buffer_unref
+0000258a av_opt_free
+00002596 avcodec_flush_buffers
+000025ac av_frame_unref
+000025bb av_packet_unref
+000025cb avsubtitle_free
+000025db avcodec_string
+000025ea av_bprint_init_for_buffer
+00002604 av_get_media_type_string
+0000261d avcodec_get_name
+0000262e av_bprintf
+00002639 av_log_get_level
+0000264a av_fourcc_make_string
+00002660 av_get_pix_fmt_name
+00002674 av_channel_layout_describe_bprint
+00002696 av_get_sample_fmt_name
+000026ad av_get_bytes_per_sample
+000026c5 av_gcd
+000026cc av_bprint_chars
+000026dc av_pix_fmt_desc_get
+000026f0 av_color_range_name
+00002704 av_color_space_name
+00002718 av_color_primaries_name
+00002730 av_color_transfer_name
+00002747 av_chroma_location_name
+0000275f av_reduce
+00002769 avcodec_receive_frame
+0000277f avcodec_alloc_context3
+00002796 avcodec_free_context
+000027ab av_tx_init
+000027b6 av_free
+000027be av_tx_uninit
+000027cb av_rdft_init
+000027d8 av_malloc
+000027e2 av_rdft_calc
+000027ef memcpy
+000027f6 av_rdft_end
+00002802 av_init_packet
+00002811 av_packet_free_side_data
+0000282a av_new_packet
+00002838 av_buffer_realloc
+0000284a av_shrink_packet
+0000285b av_grow_packet
+0000286a av_buffer_alloc
+0000287a av_buffer_is_writable
+00002890 av_packet_from_data
+000028a4 av_buffer_default_free
+000028bb av_buffer_create
+000028cc av_realloc
+000028d7 av_packet_new_side_data
+000028ef av_packet_get_side_data
+00002907 av_packet_side_data_name
+00002920 av_packet_pack_dictionary
+0000293a av_dict_iterate
+0000294a strlen
+00002951 av_packet_unpack_dictionary
+0000296d av_dict_set
+00002979 av_packet_shrink_side_data
+00002994 av_packet_copy_props
+000029a9 av_buffer_replace
+000029bb av_packet_ref
+000029c9 av_buffer_ref
+000029d7 av_packet_move_ref
+000029ea av_packet_rescale_ts
+000029ff av_rescale_q
+00002a0c av_dynarray_add_nofree
+00002a23 av_opt_next
+00002a2f av_opt_set_from_string
+00002a46 av_opt_set_dict2
+00002a57 av_get_token
+00002a64 av_strtok
+00002a6e av_bprint_init
+00002a7d av_bprint_finalize
+00002a90 bsearch
+00002a98 avcodec_descriptor_next
+00002ab0 avcodec_descriptor_get_by_name
+00002acf avcodec_get_type
+00002ae0 memset
+00002ae7 av_channel_layout_copy
+00002afe av_calloc
+00002b08 av_memdup
+00002b12 avcodec_send_packet
+00002b26 av_frame_move_ref
+00002b38 av_frame_apply_cropping
+00002b50 av_channel_layout_compare
+00002b6a avcodec_decode_subtitle2
+00002b83 avcodec_default_get_format
+00002b9e avcodec_get_hw_config
+00002bb4 av_frame_new_side_data
+00002bcb av_pix_fmt_count_planes
+00002be3 av_strerror
+00002bef av_frame_get_side_data
+00002c06 av_frame_remove_side_data
+00002c20 av_samples_copy
+00002c30 av_fast_padded_malloc
+00002c46 avcodec_send_frame
+00002c59 av_frame_ref
+00002c66 av_frame_get_buffer
+00002c7a av_frame_copy_props
+00002c8e av_samples_set_silence
+00002ca5 avcodec_receive_packet
+00002cbc av_get_planar_sample_fmt
+00002cd5 av_channel_layout_describe
+00002cf0 avcodec_default_get_buffer2
+00002d0c av_crc_get_table
+00002d1d av_crc
+00002d24 memcmp
+00002d2b av_samples_get_buffer_size
+00002d46 av_fast_malloc
+00002d55 av_samples_fill_arrays
+00002d6c av_sample_fmt_is_planar
+00002d84 av_default_item_name
+00002d99 av_hwframe_get_buffer
+00002daf avcodec_align_dimensions2
+00002dc9 av_image_fill_linesizes
+00002de1 av_buffer_pool_init
+00002df5 av_image_fill_plane_sizes
+00002e0f av_buffer_allocz
+00002e20 av_buffer_pool_get
+00002e33 av_buffer_pool_uninit
+00002e49 opus_multistream_decoder_create
+00002e69 opus_multistream_decoder_ctl
+00002e86 opus_strerror
+00002e94 opus_multistream_decode
+00002eac opus_multistream_decode_float
+00002eca opus_multistream_decoder_destroy
+00002eeb vorbis_info_init
+00002efc vorbis_comment_init
+00002f10 vorbis_synthesis_headerin
+00002f2a vorbis_synthesis_init
+00002f40 vorbis_block_init
+00002f52 vorbis_synthesis
+00002f63 vorbis_synthesis_blockin
+00002f7c vorbis_synthesis_pcmout
+00002f94 vorbis_synthesis_read
+00002faa vorbis_block_clear
+00002fbd vorbis_dsp_clear
+00002fce vorbis_info_clear
+00002fe0 vorbis_comment_clear
+00002ff5 frexp
+00002ffb avpriv_request_sample
+00003011 memmove
+00003019 ff_mpa_freq_tab
+00003029 ff_mpa_bitrate_tab
+0000303c av_opt_set_defaults2
+00003051 av_opt_set
+0000305c avcodec_get_class
+0000306e avcodec_get_subtitle_rect_class
+0000308e av_parser_init
+0000309d av_parser_parse2
+000030ae av_parser_close
+000030be avpriv_float_dsp_alloc
+000030d5 pthread_mutex_destroy
+000030eb pthread_cond_destroy
+00003100 pthread_mutex_init
+00003113 pthread_cond_init
+00003125 pthread_cond_wait
+00003137 pthread_cond_signal
+0000314b pthread_cond_broadcast
+00003162 pthread_join
+0000316f av_cpu_count
+0000317c av_opt_copy
+00003188 pthread_create
+00003197 vsnprintf
+000031a1 avpriv_slicethread_free
+000031b9 avpriv_slicethread_execute
+000031d4 avpriv_slicethread_create
+000031ee av_fast_mallocz
+000031fe av_fast_padded_mallocz
+00003215 avcodec_align_dimensions
+0000322e avcodec_enum_to_chroma_pos
+00003249 av_chroma_location_enum_to_pos
+00003268 avcodec_chroma_pos_to_enum
+00003283 av_chroma_location_pos_to_enum
+000032a2 avcodec_fill_audio_frame
+000032bb av_get_profile_name
+000032cf av_get_exact_bits_per_sample
+000032ec av_get_pcm_codec
+000032fd av_get_audio_frame_duration
+00003319 av_xiphlacing
+00003327 avcodec_version
+00003337 avcodec_configuration
+0000334d avcodec_license
+0000335d av_codec_ffversion
+00003370 av_malloc_array
+00003380 av_realloc_f
+0000338d av_vorbis_parse_frame_flags
+000033a9 av_vorbis_parse_frame
+000033bf av_vorbis_parse_reset
+000033d5 av_vorbis_parse_free
+000033ea av_vorbis_parse_init
+000033ff av_get_cpu_flags
+00003410 getauxval
+0000341a __system_property_get
+00003430 strncmp
+00003438 libmozavcodec.so
+00003449 libgkcodecs.so
+00003458 libmozavutil.so
+00003468 libm.so
+00003470 LIBC
+00003475 libc.so
+0000347d liblog.so
+00003487 libdl.so
+0000de16 T>1cb
+0000de1f =1cb
+0000de31 NEJ(~
+0000de3e U?IUUUUU
+0000de77 ?UUUUUU
+0000df0b ri7f>
+0000df47 @IUUUUU
+0000df57 =LUUUUU
+0000df71 33333
+0000df8f ?1cb
+0000dfe7 ?>UUUUU
+0000dfef ?1cb
+0000e061 	No codec provided to avcodec_open2()
+0000e088 Encoder
+0000e090 Assertion %s failed at %s:%d
+0000e0ae %s: %s
+0000e0b5 , pass 1
+0000e0be CPB properties
+0000e0cd rawvideo
+0000e0d6 truemotion1
+0000e0e2 kmvc
+0000e0e7 image/x-targa
+0000e0f5 sanm
+0000e0fa fits
+0000e103 pcm_mulaw
+0000e10d adpcm_ea_r2
+0000e119 wady_dpcm
+0000e123 dvaudio
+0000e12b truespeech
+0000e136 binkaudio_dct
+0000e144 metasound
+0000e14e sonicls
+0000e15a Buffer returned by get_buffer2() did not zero unused plane pointers
+0000e19f Failed to allocate packet of size %d
+0000e1c5 extradata too small.
+0000e1db Decoding error: %s
+0000e1ef NULL
+0000e1f4 use four motion vectors per macroblock (MPEG-4)
+0000e224 qscale
+0000e22b autodetect
+0000e236 dc_clip
+0000e23e ignore_err
+0000e249 minrate
+0000e251 simplearmv5te
+0000e25f threading operations
+0000e274 me_range
+0000e27d sub-pel ME compare function
+0000e299 sum of absolute Hadamard transformed differences
+0000e2ca smpte431
+0000e2d3 arib-std-b67
+0000e2e0 skip_alpha
+0000e2eb hwaccel_flags
+0000e2f9 ignore level even if the codec level used is unknown or higher than the maximum supported level reported by the hardware driver
+0000e379 unknown_codec
+0000e387 Invalid VLC (length %u)
+0000e3a0 needed %d had %d
+0000e3b2 idcin
+0000e3b8 qtrle
+0000e3be avs2
+0000e3c3 adpcm_4xm
+0000e3cd adpcm_g726le
+0000e3da adpcm_mtaf
+0000e3e5 adpcm_ima_moflex
+0000e3f6 twinvq
+0000e401 msnsiren
+0000e40e dvd_subtitle
+0000e41b timed_id3
+0000e425 Character encoding subtitles conversion needs a libavcodec built with iconv support for this codec
+0000e489 PARAM_CHANGE side data too small.
+0000e4ac No buffer returned by get_encode_buffer()
+0000e4d7 emulate old buggy lavc behavior
+0000e4f7 underread: %d orig size: %d
+0000e514 Invalid number of wasted bits > available bits (%d) - left=%d
+0000e553 Inconsistent channel mapping.
+0000e572 noout
+0000e578 chunks
+0000e57f export motion vectors through frame side data
+0000e5ad very
+0000e5b2 i_qfactor
+0000e5c0 thread_ops
+0000e5cb nomc
+0000e5d0 skip_bottom
+0000e5dc vsse
+0000e5e1 keyint_min
+0000e5ec reference frames to consider for motion compensation
+0000e621 Unspecified
+0000e62d SMPTE 170 M
+0000e639 ycocg
+0000e642 set pixel format
+0000e653 video_size
+0000e65e unsafe_output
+0000e66c Codec type or id mismatches
+0000e689 , padding %d
+0000e696 xan_wc4
+0000e69e rv30
+0000e6a3 wmv3
+0000e6a8 indeo2
+0000e6af image/x-ms-bmp
+0000e6be flashsv
+0000e6c6 image/x-pcx
+0000e6d2 sunrast
+0000e6da motionpixels
+0000e6e7 mss1
+0000e6ec paf_video
+0000e6f6 hq_hqa
+0000e6fd yuv4
+0000e702 rasc
+0000e707 argo
+0000e710 pcm_f16le
+0000e71a adpcm_ms
+0000e723 adpcm_thp
+0000e72d sol_dpcm
+0000e736 qdm2
+0000e73b aac_latm
+0000e74c dvd_nav_packet
+0000e75b skip %d/%d samples
+0000e76f Specified bit depth %d not possible with the specified pixel formats depth %d
+0000e7be Supported sample formats:
+0000e7d9 Unable to set phase inversion: %s
+0000e7fc incomplete frame
+0000e80e unaligned
+0000e818 use loop filter
+0000e828 psnr
+0000e82d ilme
+0000e832 allow non-spec-compliant speedup tricks
+0000e85a export film grain parameters through frame side data
+0000e88f strict
+0000e896 aggressive
+0000e8a1 auto
+0000e8a6 lumi_mask
+0000e8b0 tcplx_mask
+0000e8bb p_mask
+0000e8c2 floating point AAN IDCT
+0000e8da debug
+0000e8e0 green_metadata
+0000e8ef startcode
+0000e8f9 nssew
+0000e8ff msad
+0000e904 mblmax
+0000e90b skip decoding for the selected frames
+0000e931 nointra
+0000e939 BT.470 BG
+0000e943 color_trc_type
+0000e952 Log square root
+0000e962 bt1361e
+0000e96a Center
+0000e971 topleft
+0000e979 Bottom-left
+0000e985 set the log level offset
+0000e99e apply_cropping
+0000e9ad codec_whitelist
+0000e9bd max_samples
+0000e9c9 %s%s
+0000e9ce progressive
+0000e9da IAMF Demixing Info Parameter Data
+0000e9fc jpegls
+0000ea03 wmv1
+0000ea08 msrle
+0000ea12 avrp
+0000ea17 hymt
+0000ea1c lscr
+0000ea21 simbiosis_imx
+0000ea2f pcm_s32le_planar
+0000ea40 adpcm_g726
+0000ea4b adpcm_ima_apc
+0000ea59 ilbc
+0000ea5e paf_audio
+0000ea6c dsd_lsbf_planar
+0000ea7c dvb_subtitle
+0000ea8d sami
+0000ea92 Error applying parameter changes.
+0000eab5 Reconstructed frame output requested from an encoder not supporting it
+0000eaff invalid sync code
+0000eb12 use frame durations
+0000eb26 error[?] variables will be set during encoding
+0000eb55 Show all frames before the first keyframe
+0000eb7f do not reset ASS ReadOrder field on flush
+0000eba9 QP offset between P- and B-frames
+0000ebcb verify embedded CRCs
+0000ebe0 bitstream
+0000ebea accurate integer
+0000ebfb faani
+0000ec01 dct_coeff
+0000ec0b global_quality
+0000ec1a lowres
+0000ec21 noise preserving sum of squared differences
+0000ec4d iec61966-2-1
+0000ec5e jpeg
+0000ec63 , lossless
+0000ec6e JP Dual Mono
+0000ec7b Metadata Update
+0000ec8b Spherical Mapping
+0000ec9d %s (%d) 
+0000eca6 image/jpeg
+0000ecb5 dxtory
+0000ecbc msa1
+0000eccd pcm_u16be
+0000ecd7 pcm_f64le
+0000ece1 pcm_vidc
+0000ecea adpcm_ima_dk3
+0000ecf8 adpcm_psx
+0000ed02 ra_288
+0000ed09 smackaudio
+0000ed14 truehd
+0000ed1b g723_1
+0000ed22 comfortnoise
+0000ed2f /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/options.c
+0000ed79 set number of audio channels
+0000ed96 maximum video quantizer scale (VBR)
+0000edba set error detection flags
+0000edd4 intra_dc_precision
+0000ede7 level
+0000eded skip IDCT/dequantization for the selected frames
+0000ee1e discard no frame
+0000ee2f discard all frames except I frames
+0000ee52 color_primaries_type
+0000ee67 BT.709
+0000ee6e log316
+0000ee75 IEC 61966-2-4
+0000ee83 BT.1361
+0000ee8b bt2020_10bit
+0000ee98 BT.2020 NCL
+0000eea7 log_level_offset
+0000eeb8 codec ids mismatch
+0000eecf , q=%d-%d
+0000eed9 , Closed Captions
+0000eeeb A non-NULL packet sent after an EOF.
+0000ef11 cljr
+0000ef16 zlib
+0000ef1b vixl
+0000ef20 dirac
+0000ef26 v410
+0000ef2b tdsc
+0000ef30 012v
+0000ef35 pcm_s32be
+0000ef3f pcm_bluray
+0000ef4a adpcm_ima_alp
+0000ef58 flac
+0000ef5d dsd_msbf_planar
+0000ef6d dvb_teletext
+0000ef7a   %s
+0000ef80 illegal pred order %d
+0000ef97 Invalid number of channels %d, defaulting to stereo
+0000efcc %d. vorbis header damaged
+0000efe7 invalid old backstep %d
+0000f000 use internal 2-pass ratecontrol in first  pass mode
+0000f034 interlaced motion estimation
+0000f051 venc_params
+0000f05d trunc
+0000f063 consider all spec non compliancies as errors
+0000f090 temporal complexity masking
+0000f0ac sum of absolute differences, fast
+0000f0ce rate distortion optimal, slow
+0000f0ec skip_loop_filter
+0000f0fd p_dst->hwaccel_threadsafe || (!dst->hwaccel && !dst->internal->hwaccel_priv_data)
+0000f14f Invalid packet signature in Id header
+0000f176 Invalid framing bit in Id header
+0000f198 Too many channels: %d
+0000f1af /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/avcodec.c
+0000f1f6  (%d bit)
+0000f200 /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/avpacket.c
+0000f248 8bps
+0000f259 ansi
+0000f25e a64_multi
+0000f26c avui
+0000f271 apng
+0000f276 pcm_s24be
+0000f280 pcm_s24daud
+0000f28c pcm_lxf
+0000f294 pcm_s8_planar
+0000f2a2 wmav2
+0000f2a8 dsd_msbf
+0000f2b1 bonk
+0000f2ba application/octet-stream
+0000f2d3 !frame->buf[0]
+0000f2e2 skip %d / discard %d samples due to side data
+0000f311 !avpkt->data && !avpkt->side_data
+0000f333 invalid block type
+0000f347 overread, skip %d enddists: %d %d
+0000f36a bits_left=%d
+0000f378 set bitrate (in bits/s)
+0000f390 icc_profiles
+0000f39d set cutoff bandwidth
+0000f3b2 ump4
+0000f3b7 direct_blocksize
+0000f3c8 detect improper bitstream length
+0000f3e9 ignore errors
+0000f3f7 spatial complexity masking
+0000f412 simpleneon
+0000f41d iterative motion vector (MV) search (slow)
+0000f448 set the number of threads
+0000f462 number of macroblock rows at the top which are skipped
+0000f499 ildctcmp
+0000f4a6 skip_frame
+0000f4b1 rate-distortion optimal quantization
+0000f4d6 ch_layout
+0000f4e0 rc_max_vbv_use
+0000f4f3 bt2020_cl
+0000f4fd Top-left
+0000f506 List of decoders that are allowed to be used
+0000f533 allow_high_depth
+0000f544 ro.arch
+0000f54c The %s '%s' is experimental but experimental codecs are not enabled, add '-strict %d' if you want to use it.
+0000f5ba unknown
+0000f5c3 mdec
+0000f5c8 cinepak
+0000f5d0 jpeg2000
+0000f5e5 r210
+0000f5ea kgv1
+0000f5ef prores
+0000f5f6 fmvc
+0000f603 adpcm_aica
+0000f60e cbd2_dpcm
+0000f618 speex
+0000f61e anull
+0000f624 Supported sample rates:
+0000f640 loop
+0000f645 pass2
+0000f64b xvid_ilace
+0000f656 strictly conform to all the things in the spec no matter what the consequences
+0000f6a5 i_qoffset
+0000f6b3 pict
+0000f6b8 memory management control operations (H.264)
+0000f6e5 threads
+0000f6ed number of bits needed for the block
+0000f711 bt2020
+0000f718 AVSubtitleRect
+0000f727 hwaccel->update_thread_context
+0000f746 Wrong packet type in Id header
+0000f766 Setup header is too short
+0000f781 Codec '%s' (%d) is not supported by the bitstream filter '%s'. Supported codecs are: 
+0000f7d7 null
+0000f7dc bsf_list(
+0000f7e6 h263i
+0000f7ec mmvideo
+0000f7fc escape124
+0000f806 iff_ilbm
+0000f813 vble
+0000f818 avrn
+0000f821 imm5
+0000f826 mobiclip
+0000f82f pcm_u24be
+0000f839 adpcm_dtk
+0000f84b cook
+0000f850 musepack8
+0000f85a wavarc
+0000f861 Invalid UTF-8 in decoded subtitles text; maybe missing -sub_charenc option
+0000f8ad gray decoding requested but not enabled at configuration time
+0000f8ec Bitrate %ld is extremely low, maybe you mean %ldk
+0000f91f Invalid video pixel format: %d
+0000f93f Invalid audio sample format: %d
+0000f960 illegal sample rate code %d
+0000f97d /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/flacdec.c
+0000f9c4 invalid frame header
+0000f9da blocksize %d > %d
+0000f9ed qlevel %d not supported, maybe buggy stream
+0000fa1a Unable to create decoder: %s
+0000fa40 codec_tag
+0000fa4a experimental
+0000fa57 abort decoding on minor error detection
+0000fa7f fast integer
+0000fa8c bits
+0000fa91 color space
+0000fa9d Skip processing alpha
+0000fab3 attempt to decode anyway if HW accelerated decoder's supported profiles do not exactly match the stream
+0000fb1b !avctx->hwaccel
+0000fb2b Invalid Setup header
+0000fb41 Invalid block align: %d
+0000fb5c %s%dx%d
+0000fb64 rv20
+0000fb69 mjpegb
+0000fb70 pgmyuv
+0000fb7b zerocodec
+0000fb85 webp
+0000fb8a brender_pix
+0000fb96 rscc
+0000fb9b pixlet
+0000fbaa pcm_s24le_planar
+0000fbbb adpcm_ima_cunning
+0000fbcd ralf
+0000fbd6 xma1
+0000fbdb fastaudio
+0000fbe5 xsub
+0000fbea hdmv_pgs_subtitle
+0000fbfc broken stream, invalid padding
+0000fc1c invalid coeff precision
+0000fc35 pic->data[*]!=NULL in avcodec_default_get_buffer
+0000fc67 default_get_buffer called on pic %p
+0000fc8c cgop
+0000fc91 showall
+0000fc99 truncated frames
+0000fcaa aspect
+0000fcb1 mmco
+0000fcb6 avctx.profile
+0000fcc4 avdiscard
+0000fcce BT.470 M
+0000fcd7 unspecified
+0000fce3 color_trc
+0000fced iec61966-2-4
+0000fcfa dump_separator
+0000fd09 Invalid sample_size
+0000fd1e av_packet_ref() failed in submit_packet()
+0000fd49 exynos9810
+0000fd54 %d Hz, 
+0000fd5e rv10
+0000fd63 wmv2
+0000fd6c utvideo
+0000fd74 mts2
+0000fd7d xface
+0000fd83 mvdv
+0000fd88 pcm_f32le
+0000fd92 adpcm_ima_ws
+0000fd9f adpcm_ima_ea_eacs
+0000fdb1 adpcm_g722
+0000fdc0 realtext
+0000fdcd CRC error at PTS %ld
+0000fde3 bps not found in STREAMINFO or frame header
+0000fe10 switching bps mid-stream is not supported
+0000fe3b illegal residual coding method %d
+0000fe5e CRC mismatch %X!
+0000fe70 frame_duration
+0000fe82 cutoff
+0000fe89 allow unofficial extensions
+0000fea5 inter masking
+0000feb3 simple
+0000feba deprecated, for compatibility only
+0000fedd use best rate distortion
+0000fef6 main10
+0000fefd encoding level, usually corresponding to the profile level, codec-specific
+0000ff48 cmp_func
+0000ff51 subcmp
+0000ff58 chroma
+0000ff5f discard all non-reference frames
+0000ff80 refs
+0000ff85 request_channel_layout
+0000ff9c full
+0000ffa1 set the number of slices, used in parallelized encoding
+0000ffd9 Invalid number of channels
+0000fff5 Too long VLC (%u) in vlc_init
+00010014 Decoder
+0001001c Ignoring attempt to flush encoder that doesn't support it
+00010057 IAMF Mix Gain Parameter Data
+00010076 ws_vqa
+0001007d targa
+00010083 mvha
+00010088 wbmp
+0001008d vmix
+00010092 pcm_s64be
+0001009c adpcm_yamaha
+000100a9 adpcm_xmd
+000100b3 vorbis
+000100ba wmavoice
+000100c7 wrapped_avframe
+000100d7 skip whole frame, skip left: %d
+000100f8 avpkt->{data,buf} != NULL in avcodec_default_get_encode_buffer()
+0001013a !avpkt->data || avpkt->buf
+00010155 sample/frame number invalid; utf8 fscked
+0001017f overread: %d
+0001018d invalid predictor order: %i > %i
+000101af /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/get_buffer.c
+000101f9 AVCodecContext
+00010208 iedge
+0001020e err_detect
+00010219 set ratecontrol buffer size (in bits)
+0001023f select IDCT implementation
+0001025a slice_count
+00010266 deblock
+0001026e bugs
+00010273 sub-pel motion estimation quality
+00010295 slice_flags
+000102a1 discard all frames except keyframes
+000102c5 minimum interval between IDR-frames
+000102e9 log_sqrt
+000102f2 MPEG (219*2^(n-8))
+00010305 JPEG (2^n-1)
+00010312 Hearing Impaired
+00010323 Commentary
+0001032e do_nothing
+00010339 Overdetermined VLC tree
+00010352 encoder
+0001035a , %dx%d
+00010362 , %ld kb/s
+0001036d Audio Service Type
+00010380 h263
+00010385 cyuv
+0001038a vcr1
+0001038f vmdvideo
+00010398 ffvhuff
+000103a0 tiertexseqvideo
+000103b0 flashsv2
+000103b9 image/x-xpixmap
+000103c9 pcm_u32le
+000103d3 adpcm_ima_dk4
+000103e1 adpcm_sbpro_2
+000103ef roq_dpcm
+000103f8 text
+000103fd Codec '%s' is bitmap-based, subtitles character encoding will be ignored
+00010447 Set video bitrate tolerance (in bits/s). In 1-pass mode, bitrate tolerance specifies how far ratecontrol is willing to deviate from the target average bitrate value. This is not related to minimum/maximum bitrate. Lowering tolerance too much has an adverse effect on quality.
+0001055b gray
+00010560 place global headers at every keyframe instead of in extradata
+0001059f export Producer Reference Time through packet side data
+000105d7 qpel_chroma2
+000105e7 last_pred
+000105f1 limit motion vectors range (1023 for DivX player)
+00010623 interlaced DCT compare function
+00010643 smpte240m
+0001064d Linear
+00010654 SMPTE 2085
+0001065f frame
+00010665 extra_hw_frames
+00010675 Wrong packet type in Setup header
+00010698  (%dx%d)
+000106a8 aura2
+000106ae cdxl
+000106b7 m101
+000106c0 image/jxl
+000106ca pcm_u32be
+000106d4 adpcm_ea_r3
+000106e0 adpcm_ima_iss
+000106ee nellymoser
+000106f9 aptx
+000106fe misc4
+00010704 application/x-truetype-font
+00010720 video_get_buffer: image parameters invalid
+0001074c nb_samples (%d) > frame_size (%d)
+0001076f vorbis extradata absent
+00010788 vorbis initial header len is wrong: %d
+000107b0 use only bitexact functions (except (I)DCT)
+000107dc qdiff
+000107e2 work around not autodetected encoder bugs
+0001080c b_qoffset
+00010816 skip
+0001081b diamond type & size for motion estimation
+00010845 full-pel ME compare function
+00010862 mblmin
+00010869 bits_per_raw_sample
+0001087d SMPTE 240 M
+00010889 SMPTE 431-2
+00010895 EBU 3213-E
+000108a0 gamma28
+000108a8 chroma sample location
+000108bf discard_damaged_percentage
+000108da /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/vlc.c
+0001091d %d bpc, 
+00010926 Display Matrix
+00010935 Mastering display metadata
+00010950 Encryption info
+00010960 Active Format Description data
+0001097f mjpeg
+00010985 msmpeg4v1
+0001098f huffyuv
+0001099b vp6f
+000109a0 image/x-tga
+000109ac tiff
+000109b1 mvc1
+000109b6 media100
+000109c3 pcm_u24le
+000109cd adpcm_sbpro_3
+000109db adpcm_ima_apm
+000109ed alac
+000109f6 bmv_audio
+00010a00 dss_sp
+00010a0b hcom
+00010a10 hdmv_text_subtitle
+00010a23 Character encoding is only supported with subtitles codecs
+00010a5f consumed != (-(11))
+00010a73 !avpkt->data && !avpkt->buf
+00010a8f The encoder timebase is not set.
+00010ab1 The copy_opaque flag is set, but the encoder does not support it.
+00010af4 Specified channel layout '%s' is not supported by the %s encoder
+00010b36 apply_phase_inv
+00010b46 Error while decoding MPEG audio frame.
+00010b6e recon_frame
+00010b7a bitexact
+00010b83 drop_changed
+00010b90 ignore cropping information from sps
+00010bb5 skip_manual
+00010bc1 qcomp
+00010bc7 Xvid interlacing bug (autodetected if FOURCC == XVIX)
+00010bfd qpel_chroma
+00010c09 old standard qpel (autodetected per FOURCC/version)
+00010c3d idct
+00010c42 simplemmx
+00010c4c amount of motion predictors from the previous frame
+00010c80 macroblock decision algorithm (high quality mode)
+00010cb2 skip_idct
+00010cbc nokey
+00010cc2 discard all frames
+00010cd5 JEDEC P22
+00010ce7 Voice Over
+00010cf2 set input text subtitles character encoding
+00010d1e pixel_format
+00010d2b ignore_level
+00010d38 Id header is too short
+00010d50 H263 MB Info
+00010d5d Encryption initialization data
+00010d7c image/gif
+00010d8e y41p
+00010d93 clearvideo
+00010d9e jpegxl
+00010da5 adpcm_ima_oki
+00010db3 adpcm_agm
+00010dbd sipr
+00010dc2 acelp.kelvin
+00010dcf subviewer
+00010dd9 application/MP2T
+00010dea vnull
+00010df0 Invalid cropping information set by a decoder: %zu/%zu/%zu/%zu (frame size %dx%d). This is a bug, please report it
+00010e64   Max Framesize: %d
+00010e79 ret >= 0
+00010e82 closed GOP
+00010e8d Export metadata as side data
+00010eaa video quantizer scale blur (VBR)
+00010ecb autoselect a good one
+00010ee1 simplearm
+00010eeb use strong deblock filter for damaged MBs
+00010f15 picture info
+00010f22 buffers
+00010f2a vsad
+00010f2f mv0_threshold
+00010f3d film
+00010f42 BT.2020 CL
+00010f4d slices
+00010f54 Dialogue
+00010f5d pre_decoder
+00010f69 /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/parser.c
+00010faf !avctx->hwaccel || (ffhwaccel(avctx->hwaccel)->caps_internal & (1 << 1))
+00010ff8 Strings Metadata
+0001100b svq1
+00011014 mscc
+0001101d lead
+00011022 pcm_s64le
+0001102c adpcm_xa
+00011035 adpcm_adx
+0001103f adpcm_vima
+0001104a adpcm_ima_acorn
+0001105a wmapro
+00011061 interplayacm
+0001106e dolby_e
+00011076 aptx_hd
+0001107e invalid packet: NULL data, size != 0
+000110a4 Invalid media type for subtitles
+000110c6 invalid channel mode: %d
+000110e0   Bits: %d
+000110ec invalid coding type
+00011101 Drop frames whose parameters differ from first decoded frame
+0001113e fast
+00011143 film_grain
+0001114e QP factor between P- and B-frames
+00011170 edge padding bug (autodetected per FOURCC/version)
+000111a7 sample aspect ratio
+000111be use fewest bits
+000111ce sum of squared quantization errors (avoid, low quality)
+00011206 YCGCO
+0001120c center
+00011216 sub_charenc
+00011222 ignore
+0001122b Invalid PCM packet, data has size %d but at least a size of %d was expected
+00011278 Ignoring invalid width/height values
+0001129e  (%s / 0x%04X)
+000112ad , %d/%d
+000112b5 Producer Reference Time
+000112cd h263p
+000112d3 zmbv
+000112d8 mimic
+000112de cdgraphics
+000112ed screenpresso
+000112fa imm4
+000112ff atrac1
+00011306 codec2
+0001130d application/x-font
+00011320 dropped changed frame #%ld pts %ld drop count: %d 
+00011354 codec->cb_type == FF_CODEC_CB_TYPE_ENCODE
+0001137e force low delay
+0001138e ass_ro_flush_noop
+000113a0 generate/parse embedded ICC profiles from/to colorimetry tags
+000113de frame_number
+000113eb direct-qpel-blocksize bug (autodetected per FOURCC/version)
+00011427 edge
+0001142c allow non-standardized experimental things
+00011457 crccheck
+00011460 fastint
+00011468 set error concealment strategy
+00011487 sum of absolute DCT transformed differences
+000114b3 sum of absolute vertical differences
+000114d8 sum of absolute differences, median predicted
+00011506 bidir_refine
+00011513 mpeg
+00011518 thread_type
+00011527 pkt_timebase
+00011534 max_pixels
+0001153f !p->avctx->hwaccel || p->hwaccel_threadsafe
+0001156b Error propagating hwaccel state
+0001158c Ignoring packet with unknown type %u
+000115b2 Replay Gain
+000115be theora
+000115c5 wnv1
+000115ce indeo4
+000115dd hnm4video
+000115e7 msp2
+000115ec targa_y216
+000115f7 sheervideo
+00011606 prosumer
+0001160f mv30
+00011618 rtv1
+0001161d adpcm_ea
+0001162a eac3
+00011633 dsd_lsbf
+0001163c atrac3al
+00011645 apac
+0001164a ttml
+0001164f bintext
+00011657 discard %d/%d samples
+0001166e invalid bps: %d
+0001167f FLAC decoder
+0001168c skipping flac header packet 1
+000116ab decode_frame() failed
+000116c2   Samplerate: %d
+000116d4 No channel mapping for %d channels.
+000116f9 qpel
+000116fe use fixed qscale
+0001170f use internal 2-pass ratecontrol in second pass mode
+00011743 do not skip samples and export skip information as frame side data
+00011786 set the group of picture (GOP) size
+000117ad QP offset between P- and I-frames
+000117cf compresses dark areas stronger than medium ones
+000117ff simpleauto
+0001180a guess_mvs
+00011817 dia_size
+00011820 default
+00011828 color_primaries
+00011838 Film
+0001183d jedec-p22
+00011847 chroma-derived-nc
+00011859 Chroma-derived CL
+0001186b chroma_sample_location
+00011882 left
+0001188b bottomleft
+00011896 bottom
+0001189d slice
+000118a6 Percentage of damaged samples to discard a frame
+000118d7 index > -0x20000000
+000118eb Multiple ff_thread_finish_setup() calls
+00011914 ignoring invalid SAR: %u/%u
+00011931 Alternatively use the non experimental %s '%s'.
+00011962 Stereo 3D
+0001196c WebVTT Settings
+0001197c msmpeg4v3
+00011992 frwu
+00011997 alias_pix
+000119a5 adpcm_ea_maxis_xa
+000119b7 mace3
+000119bd shorten
+000119c5 musepack7
+000119cf mpegh_3d_audio
+000119de arib_caption
+000119eb scte_35
+000119f3 xbin
+000119f8 frame->data[i]
+00011a08 FLAC
+00011a0d invalid rice order: %i blocksize %i
+00011a32 discarding ID3 tag
+00011a4a propagate opaque values
+00011a62 ildct
+00011a68 ignorecrop
+00011a73 export_mvs
+00011a7e export video encoding parameters through frame side data
+00011ab7 delay
+00011abd qblur
+00011ac3 detect bitstream specification deviations
+00011aed careful
+00011af5 block_align
+00011b01 rc_override_count
+00011b13 xvidmmx
+00011b1b pre_dia_size
+00011b2c compression_level
+00011b3e BT.2020 - 12 bit
+00011b4f audio service type
+00011b62 Main Audio Service
+00011b75 sample format audio decoders should prefer
+00011ba0 fctx->async_lock
+00011bb1 Invalid packet
+00011bc1 Out of memory
+00011bd0 decoder
+00011bd8 %s, 
+00011be1 dvvideo
+00011be9 msvideo1
+00011bf2 image/png
+00011bfc aura
+00011c04 arbc
+00011c09 cdtoons
+00011c19 pcm_f24le
+00011c23 adpcm_ct
+00011c2c adpcm_ea_xas
+00011c39 8svx_exp
+00011c42 Invalid sample rate
+00011c56 (frame->private_ref && frame->private_ref->size == sizeof(FrameDecodeData)) || !(avctx->codec->capabilities & (1 << 1))
+00011cce Could not update timestamps for skipped samples.
+00011d00 header crc mismatch
+00011d15 extradata NULL or too small.
+00011d33 extradata contains %d bytes too many.
+00011d5a invalid max blocksize: %d
+00011d75 sample rate not found in STREAMINFO or frame header
+00011daa invalid subframe padding
+00011dc4 Header missing
+00011dd4 incorrect frame size - multiple frames in buffer?
+00011e07 s->frame
+00011e10 place global headers in extradata instead of every keyframe
+00011e4c flags2
+00011e53 frame_size
+00011e5e std_qpel
+00011e67 unofficial
+00011e72 consider things that a sane encoder should not do as an error
+00011eb0 favor predicting from the previous frame
+00011ed9 macroblock (MB) type
+00011eee zero
+00011ef3 dctmax
+00011efa minimum macroblock Lagrange factor (VBR)
+00011f23 log100
+00011f2a bt2020_ncl
+00011f35 set information dump field separator
+00011f5a !p->hwaccel_serializing
+00011f72 Invalid code %x for %d in vlc_init
+00011f96 Unsupported mode count: %d
+00011fb2 none
+00011fb7 HDR10+ Dynamic Metadata (SMPTE 2094-40)
+00011fe7 dnxhd
+00011fed indeo5
+00011ff4 bmv_video
+00012006 adpcm_ea_r1
+00012016 8svx_fib
+00012023 atrac9
+0001202a eia_608
+00012036 Could not update timestamps for discarded samples.
+0001206a An invalid frame was output by a decoder. This is a bug, please report it.
+000120b6 s->stream_info.max_blocksize
+000120d3 switch point in 8khz
+000120e8 low_delay
+000120f6 qmin
+000120fb no_padding
+00012106 padding bug (autodetected)
+00012121 buffer
+00012128 DCT algorithm
+00012136 altivec
+0001213e floating point AAN DCT
+00012155 xvid
+0001215a satd
+00012163 rc_min_vbv_use
+00012172 colorspace
+0001217d bt2020c
+00012185 Chroma-derived NCL
+0001219b Palette
+000121a3 Subtitle Position
+000121b5 A53 Closed Captions
+000121c9 sp5x
+000121ce ffv1
+000121d3 dsicinvideo
+000121df vp6a
+000121e4 smvjpeg
+000121ec cfhd
+000121f1 speedhq
+000121f9 adpcm_zork
+00012204 interplay_dpcm
+00012213 derf_dpcm
+0001221d vmdaudio
+00012226 dsicinaudio
+00012232 gsm_ms
+0001223d mpegts
+00012244 /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/decode.c
+0001228a av_codec_is_decoder(avctx->codec)
+000122ac pic->data[*]!=NULL in get_buffer_internal
+000122d7 Invalid channel count
+000122ed frame->buf[0]
+000122fb requesting subtitles recoding without iconv
+00012327 avpkt->buf
+00012332 Mismatching AVCodecContext.pix_fmt and AVHWFramesContext.format
+00012373 H.263 advanced intra coding / MPEG-4 AC prediction
+000123a6 skip bitstream encoding
+000123be local_header
+000123cb set maximum number of B-frames between non-B-frames
+000123ff compliant
+0001240d per-block quantization parameter (QP)
+00012433 skip motion compensation
+0001244f skip loop filtering process for the selected frames
+00012483 trellis
+0001248b bt470m
+00012492 SMPTE 2084
+0001249d colorspace_type
+000124ad color range
+000124b9 audio_service_type
+000124cc Emergency
+000124d6 allow potentially unsafe hwaccel frame output that might require special care to process successfully
+0001253c This AVCodecContext was allocated for %s, but %s passed to avcodec_open2()
+00012588 Codec (%s) not on whitelist '%s'
+000125aa %s requires channel layout to be set
+000125d0 bottom first
+000125dd Fallback track
+000125ec Matroska BlockAdditional
+00012605 MPEGTS Stream ID
+00012616 Content light level metadata
+00012633 svq3
+00012638 tscc
+0001263d image/x-portable-pixmap
+00012659 truemotion2
+00012665 cscd
+0001266a smackvideo
+00012679 v210
+0001267e a64_multi5
+00012689 r10k
+0001268e v408
+00012693 photocd
+0001269b pcm_s16be
+000126a5 pcm_s8
+000126ac adpcm_ima_smjpeg
+000126bd adpcm_swf
+000126c7 adpcm_ima_amv
+000126d5 mp3on4
+000126e0 evrc
+000126e5 mov_text
+000126ee webvtt
+000126f7 invalid sample size code (%d)
+00012716 libopusdec
+00012721 /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/mpegaudiodec_template.c
+00012776 Frame data might be split into multiple chunks
+000127a5 hpel_chroma
+000127b1 has_b_frames
+000127be rc_init_occupancy
+000127d0 avctx.level
+000127dc maximum macroblock Lagrange factor (VBR)
+00012805 bt2020-12
+0001280f limited
+0001281b Effects
+00012823 request_sample_fmt
+00012836 Number of extra hardware frames to allocate for the user
+0001286f forced
+00012876 Extradata corrupt.
+0001288a Param Change
+00012897 ICC Profile
+000128a3 msmpeg4v2
+000128ad mszh
+000128ba mvc2
+000128bf magicyuv
+000128cc pcm_u16le
+000128d6 adpcm_thp_le
+000128e3 adpcm_ima_mtf
+000128f1 amr_nb
+000128fc wavesynth
+00012906 application/vnd.ms-opentype
+00012922 /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/encode.c
+00012968   Max Blocksize: %d
+0001297d Failed to set gain: %s
+00012995 big_values too big
+000129a9 explode
+000129b1 faan
+000129b6 simplearmv6
+000129c2 favor_inter
+000129ce autodetect a suitable number of threads to use
+00012a01 BT.2020
+00012a09 linear
+00012a14 chroma-derived-c
+00012a25 thread_get_buffer() failed
+00012a41 get_buffer() cannot be called after ff_thread_finish_setup()
+00012a7f , Film Grain
+00012a90 mpeg1video
+00012a9b interplayvideo
+00012ab2 lagarith
+00012abb vc1image
+00012ac8 cllc
+00012acd escape130
+00012ad7 hevc
+00012ae4 image/svg+xml
+00012af2 pcm_f32be
+00012afc s302m
+00012b02 adpcm_ima_wav
+00012b10 adpcm_ima_dat4
+00012b1f amr_wb
+00012b2a wmav1
+00012b30 mace6
+00012b36 mp3adu
+00012b3d g729
+00012b42 dfpwm
+00012b4c subrip
+00012b53 samples per frame %d, exceeds max_samples %ld
+00012b82 Error parsing decoder bitstream filters '%s': %s
+00012bb4 flags
+00012bba use 1/4-pel motion compensation
+00012bda time_base
+00012be4 normal
+00012beb QP factor between P- and I-frames
+00012c0d bits_per_coded_sample
+00012c23 nsse
+00012c28 smpte432
+00012c31 color transfer characteristics
+00012c50 ycgco
+00012c56 bt2020nc
+00012c5f chroma_sample_location_type
+00012c7e allow_profile_mismatch
+00012c95 type
+00012c9a !p->parent->stash_hwaccel
+00012cb4 symbols_size <= 2 || !symbols
+00012cd2 %s/%s/%s, 
+00012cdd mpeg4
+00012ce3 asv1
+00012ce8 ulti
+00012ced rv40
+00012cf9 binkvideo
+00012d03 image/x-xbitmap
+00012d13 v308
+00012d18 truemotion2rt
+00012d26 pcm_alaw
+00012d2f pcm_f64be
+00012d39 adpcm_ima_qt
+00012d46 adpcm_ima_rad
+00012d54 adpcm_ima_ssi
+00012d62 ra_144
+00012d69 sdx2_dpcm
+00012d73 qcelp
+00012d79 atrac3p
+00012d81 binkaudio_rdft
+00012d90 celt
+00012d95 opus
+00012d9a xma2
+00012d9f mpl2
+00012da8 This decoder does not support parameter changes, but PARAM_CHANGE side data was sent to it.
+00012e05 Too many errors when draining, this is a bug. Stop draining and force EOF.
+00012e51 get_encode_buffer() failed
+00012e6d Invalid audio sample rate: %d
+00012e8c libopus
+00012e94 vorbis header sizes damaged
+00012eb1 output_corrupt
+00012ec0 b_qfactor
+00012eca print specific debug info
+00012ee7 number of macroblock rows at the bottom which are skipped
+00012f21 decode at 1= 1/2, 2=1/4, 3=1/8 resolutions
+00012f4c sum of squared vertical differences
+00012f70 discard all bidirectional frames
+00012f91 refine the two motion vectors used in bidirectional macroblocks
+00012fd1 IEC 61966-2-1
+00012fdf smpte2084
+00012fe9 iec61966_2_1
+00012ffe Invalid packet signature in Setup header
+00013028  (%s)
+0001302e , %s
+00013033 , pass 2
+0001303c (unsigned)pkt->size <= 2147483647 - 64
+00013063 New Extradata
+00013071 DOVI configuration record
+0001308b IAMF Recon Gain Info Parameter Data
+000130af h264
+000130b4 rpza
+000130b9 v210x
+000130c7 pcm_s16le
+000130d1 pcm_sga
+000130d9 atrac3
+000130e0 wmalossless
+000130ec mp4als
+000130f3 qdmc
+000130f8 sonic
+000130fe jacosub
+00013106 Specified pixel format %s is not supported by the %s encoder.
+00013145 ticks_per_frame %d too large for the timebase %d/%d.
+0001317a invalid residual
+0001318c default_get_buffer called on frame %p
+000131b2 Apply intensity stereo phase inversion
+000131d9 invalid new backstep %d
+000131f2 set audio sampling rate (in Hz)
+00013212 (autodetected if FOURCC == UMP4)
+00013233 consider things that violate the spec, are fast to check and have not been seen in the wild as errors
+00013299 maxrate
+000132a1 macroblock compare function
+000132bd discard useless frames
+000132d4 bt709
+000132da Left
+000132e5 Karaoke
+000132ed set input text subtitles character encoding mode
+0001331e set video size
+0001332f %d modes (either a false positive or a sample from an unknown encoder)
+00013376 Invalid sample rate: %d
+0001338f Invalid channel layout
+000133a7 bottom coded first (swapped)
+000133c4 Skip Samples
+000133d1 WebVTT ID
+000133db flv1
+000133e0 indeo3
+000133e7 asv2
+000133ec fraps
+000133f2 image/jp2
+000133fc vmnc
+00013405 image/tiff
+00013410 mxpeg
+00013416 image/x-xwindowdump
+0001342a mss2
+0001342f ayuv
+00013434 cpia
+00013439 mwsc
+0001343e adpcm_argo
+00013449 xan_dpcm
+00013452 gremlin_dpcm
+0001345f get_buffer() failed
+00013474 Supported pixel formats:
+0001348e   %d
+00013494 Supported channel layouts:
+000134b0 invalid header
+000134c0 frame->nb_extended_buf == 0
+000134dc vorbis extradata too small
+000134f8 use interlaced DCT
+0001350b qmax
+00013510 work around various bugs in Microsoft's broken decoders
+00013548 scplx_mask
+00013553 error recognition
+00013565 subq
+0001356e number of bits which should be loaded into the rc buffer before decoding starts
+000135be profile
+000135c6 pre motion estimation compare function
+000135ed noref
+000135f3 smpte428
+000135fc smpte428_1
+00013607 iec61966_2_4
+00013614 smpte2085
+0001361e ictcp
+00013624 ICtCp
+0001362a color_range
+00013636 color_range_type
+00013647 Maximum number of pixels
+00013660 /Users/occlusion/wolv/firefox-125.0.3/media/ffvpx/libavcodec/pthread_frame.c
+000136ad --disable-all --enable-avcodec --enable-decoder='mp3,flac' --disable-static --enable-shared --disable-autodetect --enable-small --target-os=linux --arch=aarch64 --enable-cross-compile --cc=/Users/padenot/.mozbuild/android-ndk-r21d/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang
+000137dd  [SAR %d:%d DAR %d:%d]
+000137f4 , max. %ld kb/s
+00013804 SMPTE ST 12-1:2014 timecode
+00013820 bsf_list
+0001382d loco
+00013832 aasc
+00013837 cavs
+00013840 tscc2
+00013846 sgirle
+0001384d avs3
+00013852 daala
+00013858 srgc
+00013861 pcm_s32le
+0001386b pcm_s16be_planar
+0001387c adpcm_sbpro_4
+0001388a adpcm_ima_ea_sead
+0001389c adpcm_afc
+000138ae smpte_2038
+000138b9 The maximum value for lowres supported by the decoder is %d
+000138f6 The dropchanged flag is deprecated.
+0001391b frame_size (%d) was not respected for a non-last frame
+00013953 Specified sample rate %d is not supported by the %s encoder
+00013990 use_buggy_lpc
+0001399e libvorbis
+000139a8 export reconstructed frames
+000139c4 Output even potentially corrupted frames
+000139ed export_side_data
+000139fe maximum bitrate (in bits/s). Used for VBV together with bufsize.
+00013a3f minimum bitrate (in bits/s). Most useful in setting up a CBR encode. It is of little use otherwise.
+00013aa3 rate control
+00013ab0 diamond type & size for motion estimation pre-pass
+00013ae3 nsse weight
+00013aef mbcmp
+00013af5 ticks_per_frame
+00013b05 color primaries
+00013b15 bt470bg
+00013b1d SMPTE 428-1
+00013b29 gamma22
+00013b31 bt2020-10
+00013b3b bt2020_12bit
+00013b4e sub_charenc_mode
+00013b5f Field order
+00013b6b dst->hwaccel == src->hwaccel
+00013b88 , %d reference frame%s
+00013b9f top first
+00013ba9 Quality stats
+00013bb7 AVBSFContext
+00013bc4 mpeg2video
+00013bcf h261
+00013bd4 ljpeg
+00013bda xan_wc3
+00013be2 qdraw
+00013be8 qpeg
+00013bed bethsoftvid
+00013bf9 wmv3image
+00013c07 image/webp
+00013c12 wcmv
+00013c17 pcm_u8
+00013c1e pcm_s24le
+00013c28 pcm_s16le_planar
+00013c39 atrac3pal
+00013c4b subviewer1
+00013c56 ret <= 0
+00013c5f Specified sample format %s is not supported by the %s encoder
+00013c9e reserved blocksize code: 0
+00013cba skipping vorbis comment
+00013cd3 global_header
+00013ce3 minimum video quantizer scale (VBR)
+00013d07 strictly conform to a older more strict version of the spec or reference software
+00013d59 bufsize
+00013d65 dark_mask
+00013d6f mb_type
+00013d77 picture buffer allocations
+00013d92 sum of squared errors
+00013da8 bidir
+00013db2 ebu3213
+00013dba bt1361
+00013dc1 Visually Impaired
+00013dd3 field_order
+00013de2 allow to output YUV pixel formats with a different chroma sampling than 4:2:0 and/or other than 8 bits per component
+00013e59 Application has requested %d threads. Using a thread count greater than %d is not recommended.
+00013eb9 Codec 0x%x is not in the full list.
+00013ede libavcodec license: LGPL version 2.1 or later
+00013f0c incorrect codes
+00013f1d Invalid mode in packet
+00013f35 *(const AVClass **)avctx->priv_data == codec->priv_class
+00013f6e top coded first (swapped)
+00013f88 , delay %d
+00013f93 flic
+00013fa0 pictor
+00013fab snow
+00013fb0 scpr
+00013fb5 bitpacked
+00013fbf notchlc
+00013fc7 pcm_dvd
+00013fcf westwood_snd1
+00013fdd wavpack
+00013fe5 siren
+00013fef microdvd
+00013ff8 vplayer
+00014004 bin_data
+0001400d dimensions not set
+00014021 Mismatching AVCodecContext.sw_pix_fmt (%s) and AVHWFramesContext.sw_format (%s)
+00014072   Channels: %d
+00014082 allow decoders to produce unaligned output
+000140ad copy_opaque
+000140b9 pass1
+000140bf only decode/encode grayscale
+000140dc prft
+000140e1 video quantizer scale compression (VBR). Constant of ratecontrol equation. Recommended range for default rc_eq: 0.0-1.0
+00014159 maximum difference between the quantizer scales (VBR)
+00014193 how strictly to follow the standards
+000141b8 compresses bright areas stronger than medium ones
+000141ed use mbcmp
+000141f7 skip_top
+00014200 precmp
+00014207 channel_layout
+00014216 smpte170m
+00014220 SMPTE 422-1
+0001422c BT.2020 - 10 bit
+0001423d ARIB STD-B67
+0001424e Bottom
+00014255 select multithreading type
+00014270 Maximum number of samples
+0001428a av:%.7s:df%d
+00014297 nb_codes <= 1500
+000142a8 strange codes
+000142b6 Vorbis parser
+0001449a ,?&y
+00014a60 				
+00014af4 "*26L
+00014b0a "(.66
+00014b1f &.8DTf
+00014b34  &.4<D:6
+00014b4a  &.6>FL$
+00014b60  &.4<D:6
+00014b76  &.4<D:6
+00014b8c  &.4<D:6
+00014b9e  (08@LZ
+00014c61 3#21
+00014c81 UETS5D%R
+00014c8c 4PC3$B
+00014ca5 UTES5D%R
+00014caf Q4CP3$B
+00014cc9 UE5ST
+00014cd3 Q4CP
+00014cd8 $B3@
+00014ced wgvWufGtVe7sFUTc'rd
+00014d01 pbE5
+00014d09 q6&%R
+00014d16 P$B3
+00014d1c A@#2
+00014d2d wgvufGtWUVe7sFET5S'rd
+00014d45 p6c`D%R
+00014d52 aQ4PC3$B
+00014d6d wgvWufGteV7sU'rFd
+00014d81 p6cETD
+00014d8d `5S%R
+00014d93 Q4CP
+00014d9b 3A#2@
+00014e66 fGtVes
+00014e72 rFd(
+00014e7e p6cET&b5
+00014e8c `SD%R
+00014e93 Q4CP$B3
+00014f75 Ve7sF'rd
+00014f81 p6cET&b
+00014f8a `5aSD%R
+00014f94 P4C$B3A
+00015075 V7seF'rdU
+00015080 qp6cET&b
+0001508b `S5D%RQ
+00015094 4CP$B3
+000150fc N.>m
+00015179 ps7'rFdUq6cET&b
+0001518b `5SD%R
+00015193 PQ4C$B3
+000151e7 				
+00015212 				
+00015277 						
+000152ab 				
+000152d1 							
+000153e9 						
+000153f6 						
+000154ae 							
+000154b7 						
+000154bf 						
+000154c6 										
+000154d4 								
+00015524 				
+000155f4 								
+000156b1 																																				
+00015714 ###???
+00015cd2 5?D)_?
+000160ac ?MffF
+00016114 FFmpeg version N-111736-gd9d5695390
+00016d34 -Dt>
+00016d53 @ %z8
+00016d66 i5]=
+00016e85 @ =3
+00017015 h%=!ov
+00017065 \5=[
+000170c6 	='.J
+00017438 hmg$9e
+000174ca k7+%
+000174e7 <$En[vP
+00017699 ]9#;
+00017737 <81O
+00017798 f]7X&
+00017855 4+=#
+00017869 aunz8
+000178c6 1=>c
+00017ab7 =FF	'
+00017c15 <H=k
+00017c66 M='TH
+00017ce7 =1U:
+0001aba3 Rib@
+0001acbb Th~@
+0001accb 4iv@
+0001acd3 4iz@
+0001ad0b 4bz@
+0001ad23 7h~@
+0001ad4b 5hz@
+0001adc3 Taz@
+0001adcf Tbn@
+0001ae07 7cvA
+0001af31 f@9h
+0001af7b Thf@
+0001af83 4hj@
+0001af8f RibA
+0001b087 ThrB
+0001b2ab 4	|@
+0001b479 i@9h
+0001b6b7 Tb>A
+0001b730 +ih8J	
+0001b7c3 T`jA
+0001b7d3 TbvB
+0001b863 4cz@
+0001b87b 4hN@
+0001b94d #H)?
+0001b957 TvvB
+0001b97b TbvB
+0001b9bf ThFA
+0001b9cb ThJA
+0001ba67 Rh^A
+0001ba88 +ih8J	
+0001badb T`VA
+0001bb14 ?I(8
+0001bb40 ?I(8
+0001bb5f qdz@
+0001bb83 Thv@
+0001bb93 Thz@
+0001bbd3 R"}(
+0001bd7b R }~
+0001ca13 THyi
+0001ccf7 4hB@
+0001da08 *,@)/
+0001da0e G)(J
+0001da27 R+4O)
+0001da3b R'`D)
+0001daab r/,L)4
+0001db2b Kn|$
+0001db47 r+}9
+0001db57 S)}#
+0001db60 (lN)
+0001db78 :$A)7pF)5
+0001db8f KY}9
+0001dbbb RJ}#
+0001dbe7 rc|5
+0001dbec 7xB)&$M)5@J)m}(
+0001dbfc $ E)
+0001dc2f KK|+
+0001dd2a 	KJy
+0001dda7 rJ}1
+0001dde3 RJ},
+0001de47 RJ}1
+0001dedb Kk}-
+0001e087 S1~3
+0001e1e7 rL}:
+0001e293 )O|+
+0001e375 8	)n
+0001e3ec 'pL-
+0001e3f3 -E(#
+0001e3fa G-B8#
+0001e40c >DK-
+0001e420 2tD-
+0001e448 :(F-P('
+0001e4ec '$N-(HA-+\I-
+0001e518 -hM- 0B-
+0001e528 .XE-1
+0001e53c ?<J-
+0001e926 C-":"
+0001ea49 s@-")"
+0001ea67 -'+1
+0001ea86 	-d+2
+0001ec3b T!;@
+0001edd7 * ;@
+0001ef17 r	i@
+0001ef73 =hr@
+0001f0e7 5hr@
+0001f22f 4h>A
+0001f26f 7h>A
+0001f350 )a@9
+0001f4db 7hr@
+0001f4fb 5hj@
+0001f507 Thn@
+0001f557 Tgj@
+0001f611 2A9	
+0001f693 5hj@
+0001f7c4 	a@9i
+0001f8af 4hnA
+0001f957 Tpim8
+0001fc47 T!kx
+0001fca3 T!kx
+0001fd29 2A9h
+0001fe5f 4an@
+0001fe67 4bB@
+0001ff23 Thv@
+0001ff4f 7hn@
+0002014f 7hj@
+0002015b Thn@
+000202bb *`v@
+000203c7 Thzv
+00020449 q@9hzB
+00020471 q@9hz
+0002048b ThnA
+00020490 	i@9
+0002050c i6A9
+0002051e (6hnA
+00020540 hNA9
+00020580 h2A9
+00020730 	!@9
+00020759 NA9J
+0002078b T`2@
+0002079b *fv@
+0002092b 4wr@
+00020ba7 4h>A
+00020bbb 4h>A
+00020bcf 4h>A
+00020bf8 	0A9
+00020c2b 7hZ@
+00020d2f ThF@
+00020d9d a@9h
+00020ec3 4cnA
+00020f39 a@9h
+00020f47 5hnA
+00020f77 7h6A9H
+0002104b KdjA
+000210cf 4	i@
+00021153 5w'@
+00021171 a@9h
+00021176 (7h#@
+000213cf Thj@
+000213db Th2A9v
+0002162b Thz@
+00021637 Tcn@
+0002163f 4df@
+00021657 Tej@
+00021757 4hvB
+0002175f 5`jA
+00021941 a@9h
+00021970 h2A9
+00021dcb kjij8+	
+0002222f Th^@
+000222c6 @9+	@9,
+0002238f Th^@
+000225fb 4i"H)
+00022753 TiZ@
+00022abc K%@)k
+00022af7 Thv@
+00022cfb qKYi
+0002305b 7hR@
+00023083 q(	Az)}@
+000230ef Tk2@
+000231ab Tk2F
+000231d7 Tl.F
+0002346f kjij8+	
+00023a8b QI|@
+00023b1b T,hj
+00023b4b **}~
+00023bfb T+0@
+00023c3b T+0@
+00023c7b T+0@
+00023d07 T*,@
+00023d4f T*,@
+00023d97 T*,@
+00023e2f T+0@
+00023e77 T+0@
+00023ebf T+0@
+00023f2d y(xM
+00023f4f T*,@
+00023f69 y(xJ!
+00023f74 jy(x
+00023f93 T*,@
+00023fad y(xj!
+00023fb8 jy(x
+00023fd7 T*,@
+00024000 jy(x
+00024087 T`v@
+00024097 5v~A
+00024103 Thr@
+00024147 5h&M)
+0002426b TH{w
+0002463f Th.@
+000246df Th.@
+00024797 T,ih8
+0002479d hl8li(8
+000248fb 7hjA
+00024a13 4v.@
+00024aab kny*
+00024b03 Zmb@
+00024d5b T.yh
+00024d7c ?"@11
+00024f27 *Ky(x
+00024f67 Tikv8
+00024f7d jh8*
+00024f8a @zJ}
+00024f9a 	*){(x
+000250b7 Toin8
+0002510b TNyh
+00025133 Toyh
+000251a3 Th~B
+000251db K(k38
+0002531b Tijv8
+0002534b Tijv
+000254d3 TH#@
+00025587 *IcD
+00025596 	kI1
+00025607 TH#@
+0002584f Rvk(8Z
+000258ab RIcD
+000258b3 RJkD
+000258d6 	kI1
+0002593a 	*	[
+00025b82 @yji)
+00025b88 		@y
+00025c71 ii8H
+00025e7c 3ih8	
+00025ea5 ii86
+0002602a @9;ys
+000262ab rH;B
+000262e3 TI+B
+00026434 `j48
+000264bb Thju8H
+000265c3 T3kw8
+0002665f *)mA
+0002668f R	1@
+00026703 S:}@
+0002681f RIgD
+00026833 KJ+B
+000268a7 RHCD
+0002697f KIgD
+00026a77 TH'@
+00026ae1 Q@9I
+00026af2 @9;A@9	X
+00026b40  i58
+00026b6b TI#@
+00026c2b 4Hiy8Z
+00026c38 (i989
+00026c73 Q i98
+00026c8f Q?i98
+00026e5b RJgD
+00026e6f *	ii
+00026eef *J}@
+00026f06 @9tyi
+00026f53 TibD
+00026f5a 	*l*B
+00026f92 	kI1
+00026fd2 	kI1
+00027006 	kI1
+0002713b R	i*
+0002720b Z(y6
+0002745b RIcD
+000275c3 R	}	
+000275cc *		KH
+000275ef R	}	
+00027600 *		KH
+0002761b RHi)
+00027671 k78Z
+00027689 k78Z
+000276e8 _i(8
+0002774b T?i(8
+0002777b T?i(8
+0002779b RH#@
+00027957 rN}.
+000279bb K.EAi
+000279cc /A~i--?)K
+00027a5c 1A}i.
+00027a62 Bi-->)
+00027a9b S-|-
+00027b0b S/ECi.A|i+1
+00027b1f r-)=)
+00027ba4 --<)
+00027d2f 5"|@
+00027d47 4tz"
+00027d5c Bhv8
+00027e48 KIl8
+000280cf TDyn
+000280e7 Zoy.
+00028315 	@9)=
+000283c3 R)YbxJ
+0002841f q)yl
+0002845f kjij8+	
+000284f8 $T@9%P@9
+0002851f S	hi
+000287db R,$@
+00028813 Rk}(
+0002881f KH}(
+000289be H1C	
+00028a11 Ymxb
+00028a88 ($	S
+00028a9f Ri}	
+00028abb ri}	
+00028c93 T@A`
+00028cd7 q,<`
+00028d79 9@)k	
+00028f67 y`]@
+0002922c ?!@1)
+00029313 Tlyi
+0002949b TPXo
+00029507 S1~-
+0002966f K-~-
+00029759 #P)J3
+00029caf Re\D
+00029cbb R$FD
+00029cf9 8@z4
+00029d3b TRXw
+00029e95 SA-R*2
+00029f65 KJ-u6@
+0002a049 &B)t
+0002a0a7 R)yG
+0002a728 	A@Q)
+0002a925 A@Q_e
+0002aa14 )A@Q?
+0002aa52 @8({hx
+0002acbb 3IML
+0002acc4 	ii8
+0002acc9 ij8)!
+0002acf6 	*kyh
+0002ad87 *Jyi
+0002adcb *Jyi
+0002ae37 *Jyi
+0002ae82 `6j:A9
+0002ae8b 7jFA9_
+0002ae9f *c~B
+0002b0d0 )a@9)
+0002b92c 	!A9I
+0002b984 *!A9*
+0002bd63 5h~B
+0002bfaf T }@
+0002c251 !A9(
+0002c257 6h&A
+0002c4f7 Thz@
+0002c667 *)	@
+0002c8ee 	Kk)
+0002c940 	$@9
+0002c948 	(@9	!
+0002c974 mij8
+0002ca63 Tij(
+0002cbb1 +A)?
+0002cbc2 	kj!
+0002ccf3 Ti2@
+0002ce3c +ih8J	
+0002ce9d 	Dz"
+0002cf3c +ih8J	
+0002d059 W@QJa
+0002d099 K@q 
+0002d0c1 W@q 
+0002d154 mij8
+0002d4d0 +ih8J	
+0002d570 	G@Q)
+0002d58c Lii8k	
+0002d5b6 	*)}@
+0002d6b3 **M3
+0002d76b q`+CzC
+0002d7e3 q`+Dz
+0002d821 i)8)
+0002d99f TH|}
+0002d9a7 q#k(8
+0002da0c <j|8;j{8(jh8#jc8{
+0002dccb TH|}
+0002dcd3 q#k(8
+0002dd38 :jz8'jg8(jh8#jc8
+0002e067 TQ|}
+0002e06d j18W
+0002e0df T)A1
+0002e322 @9jM@
+0002e3bf *L=H
+0002e3dd ij8)
+0002e473 *K=H
+0002e491 il8)
+0002e4d1  @qh
+0002e617 4	$A
+0002e80d r@9)
+0002eafb kjij8+	
+0002eb89 $@xk
+0002f07f T A`
+0002f0fb 4 A`
+0002f53b 5B8a
+0002f59b K!8b
+0002f7f7 T 	i
+0002f943 Kk}@
+0002fbaf Th9h
+0002fc23 4	}@
+0002fdef Taym
+0002ff17 T@ii
+0002ff53 T!yh
+00030220 kIBQ
+00030386 	K?E
+000304e7 K!@a
+0003062b 3BYi
+00030643 R!8b
+0003099c kIBQ
+00030b02 	K?E
+00030c67 K!@a
+00031437 *(D;
+0003179a X7-@
+0003f599 .init_array
+0003f5a5 .fini_array
+0003f5b1 .text
+0003f5b7 .got
+0003f5bc .note.android.ident
+0003f5d0 .got.plt
+0003f5d9 .rela.plt
+0003f5e3 .bss
+0003f5e8 .dynstr
+0003f5f0 .eh_frame_hdr
+0003f5fe .gnu.version_r
+0003f60d .data.rel.ro
+0003f61a .rela.dyn
+0003f624 .gnu.version
+0003f631 .dynsym
+0003f639 .hash
+0003f63f .eh_frame
+0003f649 .note.gnu.build-id
+0003f65c .gnu.version_d
+0003f66b .dynamic
+0003f674 .shstrtab
+0003f67e .rodata
+0003f686 .data

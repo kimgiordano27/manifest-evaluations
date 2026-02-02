@@ -1,0 +1,164 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+000008f4 QkL'
+000008f9 __cxa_finalize
+00000908 __cxa_atexit
+00000915 __register_atfork
+00000927 _ZN7moxygen13MoQTokenCache13registerTokenEmNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+00000996 __stack_chk_fail
+000009a7 _ZN7moxygen13MoQTokenCache13registerTokenEmmNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+00000a17 _ZN5folly13XlogLevelInfoILb0EE13loadLevelFullENS_5RangeIPKcEEbPNS_17XlogFileScopeInfoE
+00000a6e _ZN5folly18LogStreamProcessorC2EPNS_17XlogFileScopeInfoENS_8LogLevelENS_5RangeIPKcEEjS7_NS0_10AppendTypeE
+00000ad8 _ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00000b3b _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEm
+00000b72 _ZN5folly18LogStreamProcessorD1Ev
+00000b94 _ZN7moxygen13MoQTokenCache16getAliasForTokenEmRKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+00000c08 memcmp
+00000c0f _ZN7moxygen13MoQTokenCache11deleteTokenEm
+00000c39 _ZN5folly16LogStreamVoidifyILb1EEanERNSt6__ndk113basic_ostreamIcNS2_11char_traitsIcEEEE
+00000c91 _ZN5folly18LogStreamProcessorC2EPNS_17XlogFileScopeInfoENS_8LogLevelENS_5RangeIPKcEEjS7_NS0_12InternalTypeEONSt6__ndk112basic_stringIcNS9_11char_traitsIcEENS9_9allocatorIcEEEE
+00000d41 _ZN7moxygen13MoQTokenCache16getTokenForAliasEm
+00000d70 _ZN7moxygen13MoQTokenCache8evictLRUEv
+00000d96 _ZN7moxygen13MoQTokenCache8evictMRUEv
+00000dbc memmove
+00000dc4 _ZN5folly6detail21safe_assert_terminateILb0EEEvPKNS0_15safe_assert_argEz
+00000e0d memset
+00000e14 _ZN5folly3f146detail12F14LinkCheckILNS1_17F14IntrinsicsModeE1EE5checkEv
+00000e5c _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+00000ea9 strlen
+00000eb0 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00000eff _ZN5folly7logging6detail19appendRawObjectInfoERNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEPKSt9type_infoPKhm
+00000f84 _ZN5folly6detail15to_ascii_powersILm10EmE4dataE
+00000fb4 _ZN5folly6detail14to_ascii_tableILm10ENS_17to_ascii_alphabetILb0EEEE4dataE
+00000fff _ZN5folly12exceptionStrERKSt9exception
+00001026 free
+0000102b __wrap___gxx_personality_v0
+00001047 __wrap__Unwind_Resume
+0000105d __wrap__ZTISt12length_error
+00001079 __wrap__ZNSt9bad_allocC1Ev
+00001094 __wrap___cxa_begin_catch
+000010ad __wrap___cxa_allocate_exception
+000010cd __wrap__ZdlPv
+000010db __wrap__ZTVSt9bad_alloc
+000010f3 __wrap___cxa_end_catch
+0000110a __wrap__ZTVSt12length_error
+00001126 __wrap___cxa_throw
+00001139 __wrap___cxa_free_exception
+00001155 __wrap__ZNSt9bad_allocD1Ev
+00001170 __wrap__ZTISt9bad_alloc
+00001188 __wrap__Znwm
+00001195 __wrap__ZSt9terminatev
+000011ac __wrap__ZTISt9exception
+000011c4 __wrap__ZNSt11logic_errorC2EPKc
+000011e4 __wrap__ZNSt12length_errorD1Ev
+00001203 __wrap__ZTIm
+00001210 getauxval
+0000121a __system_property_get
+00001230 strncmp
+00001238 libc.so
+00001240 LIBC
+00001245 libxplat_folly_logging_logging.so
+00001267 libc++_shared.so
+00001278 libxplat_ti_experimental_moxygen_moq_token_cache.so
+000012b0 APS2
+00001880 evictHelper
+0000188c xplat/ti/experimental/moxygen/MoQTokenCache.cpp
+000018bc registerToken
+000018ca deleteToken
+000018d6 rehashImpl
+000018e1 ro.arch
+000018e9 xplat/folly/container/detail/F14Table.h
+00001911 basic_string
+0000191e setTag
+00001925 clearTag
+0000192e totalSize_ >= size
+00001941 evictMRU
+0000194a evictLRU
+00001953 exynos9810
+0000195e tags_[index] == 0
+00001970 (tags_[index] & 0x80) != 0
+0000198b totalSize_ >= cachedSize(tokenIt->second.tokenValue)
+000019c0 hp.second == srcChunk->tag(srcI)
+000019e4 Removing alias: 
+000019f5 Inserting alias: 
+00001a07 Deleting alias: 
+00001a18 , TokenValue: 
+00001a27 error constructing log message: 
+00001a48 Check failed: 
+00001a57  vs. 
+00001a5d Check failed: !lru_.empty() 
+00001a7a Check failed: it != lru_.end() 
+00001a9a Check failed: tokenIt != aliasToToken_.end() 
+00002281 zPLR
+000028ae  n <
+00002913 rh"@
+000029e9 C@9h
+00002b7d C@9i"
+00002d36  n0<
+00002dab ThC@9i
+00002e13 RkB@9
+00002e6a  n.<
+00002f98 hC@9j
+000031e5 C@9h
+000032ba  n <
+0000334f 7*	@
+000034a3 RkB@9,
+000034ee  n/<
+0000355c hC@9i
+000035a3 ThC@9i
+000035af Rk"@
+000035b4 mB@9.
+0000362e  n/<
+00003950 hC@9j
+00003ab1 C@9h
+00003b79 C@9h
+00003d41 C@9h
+00003ffd B@9	
+00004059 B@9(!
+000040a5 ii8j	
+00004152  n <
+00004479 hh8,
+00004481 h(8K
+00004699 C@9h
+000047cc .hh8
+000047e4 *h(8(In8
+000047f3 *#i!8*	
+000047fc (9@9@A
+00004820 .=@9
+00004848 .hh8
+00004a19 i"8	9@9?A
+00004a54 /=@9
+00004a6d @@9I!
+00004a93 **9@9H
+00004ecc nynxNi/x
+00004ee4 Jyaxa
+00005134 (\@9)
+000051b0 h^@9i*@
+0000527d B@9h
+000059c5 "D9p
+000060f9 .init_array
+00006105 .fini_array
+00006111 .text
+00006117 .got
+0000611c .note.android.ident
+00006130 .got.plt
+00006139 .rela.plt
+00006143 .bss
+00006148 .dynstr
+00006150 .eh_frame_hdr
+0000615e .gnu.version_r
+0000616d .data.rel.ro
+0000617a .relr.dyn
+00006184 .rela.dyn
+0000618e .gnu.version
+0000619b .dynsym
+000061a3 .gnu.hash
+000061ad .relro_padding
+000061bc .eh_frame
+000061c6 .gcc_except_table
+000061d8 .note.gnu.build-id
+000061eb .dynamic
+000061f4 .shstrtab
+000061fe .rodata
+00006206 .data

@@ -1,0 +1,578 @@
+0000027c Android
+00000288 r25c
+000002c8 9519653
+00000c3d __cxa_finalize
+00000c4c __cxa_atexit
+00000c59 mmap
+00000c5e getpagesize
+00000c6a munmap
+00000c71 printf
+00000c78 __errno
+00000c80 mprotect
+00000c89 fwrite
+00000c90 __sF
+00000c95 abort
+00000c9b calloc
+00000ca2 free
+00000ca7 memcmp
+00000cae MOZ_CrashPrintf
+00000cbe gMozCrashReason
+00000cce _ZN7mozilla15RLBoxSoundTouchC2Ev
+00000cef _ZN7mozilla15RLBoxSoundTouchD2Ev
+00000d10 _ZN7mozilla15RLBoxSoundTouch13setSampleRateEj
+00000d3e _ZN7mozilla15RLBoxSoundTouch11setChannelsEj
+00000d6a _ZN7mozilla15RLBoxSoundTouch8setPitchEd
+00000d92 _ZN7mozilla15RLBoxSoundTouch10setSettingEii
+00000dbe _ZN7mozilla15RLBoxSoundTouch8setTempoEd
+00000de6 _ZN7mozilla15RLBoxSoundTouch7setRateEd
+00000e0d _ZN7mozilla15RLBoxSoundTouch11numChannelsEv
+00000e39 _ZN7mozilla15RLBoxSoundTouch10numSamplesEv
+00000e64 _ZN7mozilla15RLBoxSoundTouch21numUnprocessedSamplesEv
+00000e9a _ZN7mozilla15RLBoxSoundTouch10putSamplesEPKfj
+00000ec8 _ZN7mozilla15RLBoxSoundTouch14receiveSamplesEPfj
+00000ef9 _ZN7mozilla15RLBoxSoundTouch18resizeSampleBufferEj
+00000f2c _ZN7mozilla15RLBoxSoundTouch5flushEv
+00000f51 _ZN7mozilla15RLBoxSoundTouchC1Ev
+00000f72 _ZN7mozilla15RLBoxSoundTouchD1Ev
+00000f93 _ZNSt6__ndk118shared_timed_mutexC1Ev
+00000fb8 moz_xmalloc
+00000fc4 _ZNSt6__ndk118shared_timed_mutex4lockEv
+00000fec _ZNSt6__ndk118shared_timed_mutex6unlockEv
+00001016 _ZNSt6__ndk15mutexD1Ev
+0000102d _ZNSt6__ndk111__call_onceERVmPvPFvS2_E
+00001054 _ZNKSt6__ndk120__vector_base_commonILb1EE20__throw_length_errorEv
+00001096 _ZNSt6__ndk118condition_variableD1Ev
+000010bb _ZNSt6__ndk118condition_variable10notify_oneEv
+000010ea _ZNSt6__ndk118condition_variable10notify_allEv
+00001119 _ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE
+0000115e _ZNSt6__ndk15mutex4lockEv
+00001178 _ZNSt6__ndk15mutex6unlockEv
+00001194 __emutls_get_address
+000011a9 __aarch64_cas4_acq_rel
+000011c0 _ZNSt6__ndk119__shared_mutex_baseC2Ev
+000011e6 _ZNSt6__ndk119__shared_mutex_base4lockEv
+0000120f _ZNSt6__ndk119__shared_mutex_base8try_lockEv
+0000123c _ZNSt6__ndk119__shared_mutex_base6unlockEv
+00001267 _ZNSt6__ndk119__shared_mutex_base11lock_sharedEv
+00001298 _ZNSt6__ndk119__shared_mutex_base15try_lock_sharedEv
+000012cd _ZNSt6__ndk119__shared_mutex_base13unlock_sharedEv
+00001300 _ZNSt6__ndk118shared_timed_mutexC2Ev
+00001325 __stack_chk_fail
+00001336 _ZNSt6__ndk118shared_timed_mutex8try_lockEv
+00001362 _ZNSt6__ndk118shared_timed_mutex11lock_sharedEv
+00001392 _ZNSt6__ndk118shared_timed_mutex15try_lock_sharedEv
+000013c6 _ZNSt6__ndk118shared_timed_mutex13unlock_sharedEv
+000013f8 _ZNSt6__ndk119__shared_mutex_baseC1Ev
+0000141e memcpy
+00001425 memmove
+0000142d memset
+00001434 libmozglue.so
+00001442 libc.so
+0000144a LIBC
+0000144f libm.so
+00001457 liblog.so
+00001461 libdl.so
+0000146a liblgpllibs.so
+00003550 os_munmap error addr:%p, size:0x%lx, errno:%d
+0000357f Malloc tried to allocate 0 bytes
+000035a0 MOZ_CRASH(wasm2c memory grow failed)
+000035c5 MOZ_RELEASE_ASSERT(mSampleBuffer)
+00003608 Out-of-bounds access in linear memory or a table
+00003639 Integer overflow on divide or truncation
+00003683 Unexpected state. Destroying a sandbox that was never initialized.
+000036c6 Conversion from NaN to integer
+000036e5 MOZ_RELEASE_ASSERT(written <= aMaxSamples) (Number of samples exceeds max samples)
+00003759 Performing memory operation memset/memcpy on a null pointer
+00003795 Integer divide by zero
+000037ee destroy_sandbox called without sandbox creation/is being destroyed concurrently
+0000383e Malloc returned pointer outside the sandbox memory
+00003871 RLBox crash: %s
+00003881 Attempting to malloc more than the heap size
+000038ae Invalid call_indirect
+000038c4 invalid trap code
+000038d6 MOZ_RELEASE_ASSERT(numCopyElements.isValid() && numCopyElements.value() <= maxElements.value()) (Bad number of written elements)
+00003957 Call stack exhausted
+00003998 LcNb
+000039ae create_sandbox called when sandbox already created/is being created concurrently
+000039ff Unreachable instruction executed
+00003a41 Uncaught exception
+00003a54 Called memcpy for memory larger than the sandbox
+00003ac7 wasm2c crash: %s
+00003ad8 MOZ_RELEASE_ASSERT(ch == numChannels) (Number of channels changed)
+00003b1b No error
+00003b28 tg]g*
+00003b66 MOZ_RELEASE_ASSERT(maxElements.isValid()) (Max number of elements overflow)
+00003bf7 A1cb
+00003bff =1cb
+00003c07 =1cb
+00003c0f =IUUUUU
+00003c5d @D@|
+00003cff @IUUUUU
+00003d0f =LUUUUU
+00003d4f @1cb
+00003d7e 5@1cb
+0000437f ;Y)w
+000043c7 N10soundtouch16FIFOSampleBufferE
+000043e8 N10soundtouch14FIFOSamplePipeE
+0000443b N10soundtouch9FIRFilterE
+0000448f N10soundtouch16InterpolateCubicE
+0000451f N10soundtouch24InterpolateLinearIntegerE
+00004557 N10soundtouch22InterpolateLinearFloatE
+000045bb N10soundtouch18InterpolateShannonE
+0000464f N10soundtouch14RateTransposerE
+0000466e N10soundtouch13FIFOProcessorE
+000046a7 N10soundtouch14TransposerBaseE
+000046cf -+   0X0x
+000046d9 -0X+0X 0X-0x+0x 0x
+000046ec std::bad_cast
+000046fa std::bad_exception
+0000470d std::exception
+00004720 bad_array_new_length
+00004739 std::bad_typeid
+00004749 terminate_handler unexpectedly returned
+00004771 unexpected_handler unexpectedly returned
+0000479a std::bad_alloc
+000047b7 (null)
+000047be Pure virtual function called!
+000047dc Deleted virtual function called!
+000047fd libc++abi: 
+00004809 SoundTouch Version: %s
+00004821 Support for formatting long double values is currently disabled.
+00004862 To enable it, add -lc-printscan-long-double to the link command.
+000048db N10soundtouch10SoundTouchE
+00004957 N10soundtouch9TDStretchE
+000049f3 N10soundtouch12TDStretchSSEE
+00004a1f N10soundtouch12FIRFilterSSEE
+00004a87 St9exception
+00004ab3 St13bad_exception
+00004ad3 St9bad_alloc
+00004aef St20bad_array_new_length
+00004b4f St9type_info
+00004b67 St8bad_cast
+00004b7f St10bad_typeid
+00004b9b N10__cxxabiv116__shim_type_infoE
+00004bcb N10__cxxabiv117__class_type_infoE
+00004bfb N10__cxxabiv117__pbase_type_infoE
+00004c2b N10__cxxabiv119__pointer_type_infoE
+00004c5b N10__cxxabiv120__function_type_infoE
+00004c8f N10__cxxabiv129__pointer_to_member_type_infoE
+00004d0f N10__cxxabiv123__fundamental_type_infoE
+00004d97 PKDn
+000050db PKDh
+000051e3 PKDu
+0000521b PKDs
+00005253 PKDi
+00005287 N10__cxxabiv117__array_type_infoE
+000052ef N10__cxxabiv116__enum_type_infoE
+0000536f N10__cxxabiv120__si_class_type_infoE
+000053cb N10__cxxabiv121__vmi_class_type_infoE
+00005f3f -Dt>
+00005f5e @ %z8
+00005f9a ?<TUUUU
+000060a5 /*RV
+000060eb {Q}<
+00006122 ?`/:>
+0000616a <8bunz8
+00006172 ?}Ht
+000061d9 n<V/>
+00006222 ?hPK
+00006262 ?mL*
+00006274 i(z`
+000062a8 cC<-
+000062e9 v<'*6
+0000636a <)TH
+000063c2 ?XXVx
+000063e2 ?("^
+00006424 >Z~d
+00006489 e<bN
+000064a2 ?47;
+000064c2 ?nWr
+00006509 {<6w
+00006579 m<##
+00006582 ?c"b"
+0000659a <3-J
+000066a6 l,kg<i
+00006772 ?}t#
+0000678a <'Za
+000067aa <@En[v
+000067eb Success
+000067f3 Illegal byte sequence
+00006809 Domain error
+00006816 Result not representable
+0000682f Not a tty
+00006839 Permission denied
+0000684b Operation not permitted
+00006863 No such file or directory
+0000687d No such process
+0000688d File exists
+00006899 Value too large for data type
+000068b7 No space left on device
+000068cf Out of memory
+000068dd Resource busy
+000068eb Interrupted system call
+00006903 Resource temporarily unavailable
+00006924 Invalid seek
+00006931 Cross-device link
+00006943 Read-only file system
+00006959 Directory not empty
+0000696d Connection reset by peer
+00006986 Operation timed out
+0000699a Connection refused
+000069ad Host is unreachable
+000069c1 Address in use
+000069d0 Broken pipe
+000069dc I/O error
+000069e6 No such device or address
+00006a00 No such device
+00006a0f Not a directory
+00006a1f Is a directory
+00006a2e Text file busy
+00006a3d Exec format error
+00006a4f Invalid argument
+00006a60 Argument list too long
+00006a77 Symbolic link loop
+00006a8a Filename too long
+00006a9c Too many open files in system
+00006aba No file descriptors available
+00006ad8 Bad file descriptor
+00006aec No child process
+00006afd Bad address
+00006b09 File too large
+00006b18 Too many links
+00006b27 No locks available
+00006b3a Resource deadlock would occur
+00006b58 State not recoverable
+00006b6e Previous owner died
+00006b82 Operation canceled
+00006b95 Function not implemented
+00006bae No message of desired type
+00006bc9 Identifier removed
+00006bdc Link has been severed
+00006bf2 Protocol error
+00006c01 Bad message
+00006c0d Not a socket
+00006c1a Destination address required
+00006c37 Message too large
+00006c49 Protocol wrong type for socket
+00006c68 Protocol not available
+00006c7f Protocol not supported
+00006c96 Not supported
+00006ca4 Address family not supported by protocol
+00006ccd Address not available
+00006ce3 Network is down
+00006cf3 Network unreachable
+00006d07 Connection reset by network
+00006d23 Connection aborted
+00006d36 No buffer space available
+00006d50 Socket is connected
+00006d64 Socket not connected
+00006d79 Operation already in progress
+00006d97 Operation in progress
+00006dad Stale file handle
+00006dbf Quota exceeded
+00006dce Multihop attempted
+00006de1 Capabilities insufficient
+00007073 0123456789ABCDEF
+00009c04 	A[9
+00009d2d C@9h
+0000a011 C@9h
+0000a292 @9h	
+0000b73f TI|	
+0000ba00 )Ic8
+0000ba10 II58
+0000baa2 	kkIl8
+0000bac0 kIm8
+0000bae4 kIm8
+0000bb00 kIl8
+0000bb2c 	Ic8
+0000bb3f rIi58
+0000bb84 *	@9
+0000bbf8 )Ij8
+0000bc04 II+8
+0000bc24 )Ij8
+0000bc30 II+8
+0000bc50 )Ij8
+0000bc5c II+8 
+0000bc84 (I*8H
+0000bca4 )Ic8
+0000bcb0 II58
+0000bce0 )	@9
+0000c168 kIi8
+0000c1e8 k=@9
+0000c2a4 jI(x+	
+0000c31f SjI(8J}
+0000c3c4 jI(8+
+0000c484 kIix
+0000c4a8 IIi8I
+0000c5a8 kIix
+0000c5cc IIi8
+0000c5d8 II(8
+0000c8eb *!kh
+0000cad3 *Bi)
+0000cb01 I38h
+0000cb14 "I*8#
+0000cb50 BI+8
+0000cb60 BI+8
+0000cb88 "I(8
+0000d137 q)A!
+0000d39f Q!@b
+0000e072 	kb	
+0000e383 k0j+
+0000e4bb k0j+
+0000e7d7 T` d
+0000e81b kB8c
+0000e9e3 T` d
+0000ea27 kB8c
+0000eb33 T#8b
+0000eb3f T@ b
+0000eb47 Tc@b
+0000ebeb T` d
+0000ec2b kB8c
+0000ee8b m @`
+0000eeb7 m @`
+0000eedf T`!+
+0000eee7 T !)
+0000ef2f T`JF
+0000f02f T !)
+0000f037 T`!+
+0000f07d KBmc
+0000f13b T  b
+0000f397 m @`
+0000f3c7 m @`
+0000f3ef T`!+
+0000f3f7 T !)
+0000f47b T`JF
+0000f5da Gm@!*
+0000f5eb T !)
+0000f5f3 T`!+
+0000f70b T` #
+0000f7bb T  b
+0000fc91 fA9q
+0000fcc9 iA9p
+00011c66 	k"G
+00012006 	k"*
+0001213e 	kb 
+000129bf kHi7
+00012d0e 	kB$
+00013487 *Akh
+00013890 KiA9
+00013c78 JaA9
+00014760 	il8
+00014b9f T  b
+00014eeb T  !
+000151ea #NCI
+000151f2 "NBI
+000151fa %NEI
+0001634f R	i<
+0001740b R*i(8
+0001761c 5i(8
+00017638 ?i(8i
+00017644 (ih8w"
+00017d6b R(i9
+00017f7f 4kih
+00017fab kJih
+0001880c (i88
+00018894 (i88h
+000188d5 i)8h
+000188e1 ii8u"
+000189ab R*i(8i
+000189b8 (ih8v"
+00018b30 ?i(8
+00018b83 *!iu
+00018c77 4*iz
+00018cf7 4*iz
+00018d3c  i(8
+00018fcc *i(8
+00018fe4 ?i(8
+000190db *!iw
+00019113 R*i(8
+00019134 ?i(8i
+00019140 (ih8t"
+000191ab 4!ih
+00019258  i(8
+000193a7 R*i(8
+000193b8 ?i(8i
+000193c4 (ih8t"
+000194f3 R*i(8i
+00019500 (ih8u"
+000195a4 ?i(8
+0001966b R	 @
+0001974f 4kih
+0001977b kJih
+00019d61 i98h
+00019da1 i:8h
+00019ec5 i:8h
+00019efd i98h
+00019f79 iz8i
+00019f8b R)iv
+0001a2b8 &i98	
+0001a3b1 iy8h
+0001a4f8 %i88	
+0001a5e9 ix8h
+0001a8b9 i{8h
+0001a98d i+8h
+0001a9c5 i)8h
+0001aa3d i{8h
+0001ab15 i*8h
+0001ab44 	i+8h
+0001ab51 ij8i
+0001ab63 R)iy
+0001b058 (i<8h
+0001b084 (i=8h
+0001b160 )i|8j
+0001b174 (i<8h
+0001b19c )i}8j
+0001b1b0 (i=8h
+0001b328 )i|8j
+0001b33c (i<8h
+0001b364 )i}8j
+0001b378 (i=8h
+0001b3b5 i|8i
+0001b3e1 i}8i
+0001b57d iz8h
+0001b6c0 &i(8	
+0001b6db *)iy
+0001b6f8 (ih8
+0001b8fc )IBQ?
+0001b9a3 R!9F
+0001ba62 	K?E
+0001c707 K)-L
+0001cbd3 q!i6
+0001ceb8 I@DQ?
+0001cee8 	I!8	
+0001cf64 	I!8
+0001cfb0 	I!8	
+0001d15b *JIw
+0001d31f *ji(
+0001d441 Ii8h
+0001d493 k)	A
+0001d7f8 )Ij8?)
+0001dd24 #i*8	
+0001dd30 +ij8	
+0001dd4f 7h"@
+0001de31 I`8i
+0001de3c )It8	
+0001de5d Ik8i
+0001de6c )Ij8J
+0001de94 (i*8h
+0001dea1 ij8u"
+0001e04b rMi,
+0001e0ab rbh 
+0001e8d6 Kzh0
+0001e8ec kim8K/
+0001ea6f r }C
+0001ef17 1		@
+0001f047 r }C
+0001f1ef *KA,
+0001f6ef k`1Mz
+0001fb6f rji(
+0001fc2e JK_}
+0001fcd3 rIA)
+00020287 RkA,
+000203e3 Kkim
+000206f3 kk	A
+00020813 riA)
+00020ef9 Is8HZ
+00020f68 )	@9?
+00020f9d ii8h
+000210b5 	@z,
+0002124c JIi8_
+0002133b kkA)
+000213b6 9*U}
+00021400 Bii8I
+00021664 o*h7
+0002173f r	it
+00021757 qji4
+00021848 ii(8
+000218a8 jIjxK
+000218bb QiA)
+00021940 KI)8)
+000219c0 kin8L
+000219d1 I)8)
+00021a70 LIs8
+00021a76 	*L?
+00021cb5 ii8h
+00021cfd ii8h
+00022157 2lI)8)
+00022197 2KI38
+00022298 kIj8
+0002234d ii8h
+00022395 ii8h
+000223d1 ii8h
+00022459 ii8h
+000224a1 ii8h
+00022529 ii8h
+00022571 ii8h
+000225ad ii8h
+000225e6 XzJO
+000226d9 I*8J
+00022704 Li+8J
+00022738 KI#8 
+00022758 LI-8
+0002276f T  b
+000227ad Ik8L
+000228b9 ii8(
+000228f9 ii8(
+000229a9 ii8(
+000229e9 ii8(
+00022a1d ii8(
+00022a91 ii8(
+00022ad1 ii8(
+00022b05 ii8(
+00022b91 ii8h
+00022bdd i(6V
+00022c59 ii8h
+00022ca1 ii8h
+00022d35 ii8H
+00022dc5 ii8h
+00022e0d ii8h
+00022f3e ?Q/|
+00022f70  H`8
+00022fc7 T!@a
+00023077 KkIy
+0002322f 2lI(8
+00023298 7I,8I
+000232b0 +I*8
+000232c6 	kL;
+0002349f 2mI,8
+00023581 ii8(
+000235ff 2KI!8
+000236dd I)8)
+00023761 ii8H
+000238c1 ii8h
+00023909 ii8h
+00023994 6i(x
+000239b8 6i(8
+00023e34 (ihx_
+00023e90 (ih8H
+0002419b RJaB
+000244e7 qhzB
+0002454b RJaB
+0002461f 4ivB
+00024be3 RJaB
+00024f0f RJaB
+00024f33 RJaB
+00024f57 RJaB
+00025003 RJaB
+00026619 .init_array
+00026625 .fini_array
+00026631 .text
+00026637 .got
+0002663c .note.android.ident
+00026650 .got.plt
+00026659 .rela.plt
+00026663 .bss
+00026668 .dynstr
+00026670 .eh_frame_hdr
+0002667e .gnu.version_r
+0002668d .data.rel.ro
+0002669a .rela.dyn
+000266a4 .gnu.version
+000266b1 .dynsym
+000266b9 .hash
+000266bf .eh_frame
+000266c9 .note.gnu.build-id
+000266dc .dynamic
+000266e5 .shstrtab
+000266ef .rodata
+000266f7 .data

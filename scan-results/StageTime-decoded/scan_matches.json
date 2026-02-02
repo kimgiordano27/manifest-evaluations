@@ -1,0 +1,352 @@
+{
+  "apk": "StageTime-decoded",
+  "timestamp_utc": "2026-02-02T16:50:02.279299+00:00",
+  "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\StageTime-decoded\\normalized\\ascii",
+  "summary": {
+    "txt_files_scanned": 71,
+    "files_with_hits": 8,
+    "total_term_hits": 20
+  },
+  "matches": [
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__lib_burst_generated.so.txt",
+      "hits": [
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "00015281 UnityEngine.XR.Interaction.Toolkit.XRGazeAssistance+GetAssistedVelocityInternal_00000691$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_12c7e86a46ddb89f316f5ef5fef6de9e from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "00082104 UnityEngine.XR.Interaction.Toolkit.XRGazeAssistance+GetAssistedVelocityInternal_00000691$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_12c7e86a46ddb89f316f5ef5fef6de9e from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libil2cpp.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "0153537a UnityFoveation_GetUseFoveatedRenderingLegacyMode",
+            "01540961 OculusFoveation_GetUsedApi",
+            "0154a853 ovrp_SetFoveationEyeTracked",
+            "0155e304 UnityEngine.Rendering.CommandBuffer::ConfigureFoveatedRendering(System.IntPtr)",
+            "01563ad9 FBGetFoveationLevel",
+            "01563aed FBGetFoveationDynamic",
+            "0156ad6f MetaGetFoveationEyeTracked",
+            "0156b36d OculusFoveation_SetUsedApi",
+            "0156b3d7 UnityFoveation_SetUseFoveatedRenderingLegacyMode",
+            "0156e9d1 FBSetFoveationLevel",
+            "01572813 MetaSetFoveationEyeTracked",
+            "01579cef UnityFoveation_intercept_xrGetInstanceProcAddr",
+            "01584a56 ovrp_GetFoveationEyeTracked",
+            "01588621 OculusFoveation_GetHasEyeTrackingPermissions",
+            "0158bf94 OculusFoveation_HasRequestedEyeTrackingPermissions",
+            "0158d030 UnityEngine.SystemInfo::GetFoveatedRenderingCaps()",
+            "01592e20 MetaGetEyeTrackedFoveationSupported",
+            "015980e5 UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode(UnityEngine.Rendering.FoveatedRenderingMode)",
+            "01599b8e ovrp_GetFoveationEyeTrackedSupported",
+            "01599fd5 OculusFoveation_SetHasEyeTrackingPermissions"
+          ]
+        },
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "0157d423 ovrp_GetEyeGazesState"
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "0154a853 ovrp_SetFoveationEyeTracked",
+            "0156ad6f MetaGetFoveationEyeTracked",
+            "01572813 MetaSetFoveationEyeTracked",
+            "01584a56 ovrp_GetFoveationEyeTracked",
+            "01592e20 MetaGetEyeTrackedFoveationSupported",
+            "01599b8e ovrp_GetFoveationEyeTrackedSupported"
+          ]
+        },
+        {
+          "term": "eyeTrackingSupported",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "0157d406 ovrp_GetEyeTrackingSupported"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeGazesState",
+          "category": "raw_state_data_collection",
+          "category_confidence": "high",
+          "examples": [
+            "0157d423 ovrp_GetEyeGazesState"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeTrackingEnabled",
+          "category": "raw_state_data_collection",
+          "category_confidence": "medium",
+          "examples": [
+            "0153c987 ovrp_GetEyeTrackingEnabled"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libngfx.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "0005b07a GLAD_GL_QCOM_framebuffer_foveated",
+            "0005b197 GLAD_GL_QCOM_texture_foveated",
+            "0005b1b5 GLAD_GL_QCOM_texture_foveated2",
+            "0005b1d4 GLAD_GL_QCOM_texture_foveated_subsampled_layout",
+            "0005c8d6 glad_glFramebufferFoveationConfigQCOM",
+            "0005c8fc glad_glFramebufferFoveationParametersQCOM",
+            "0005c9a1 glad_glTextureFoveationParametersQCOM",
+            "000aa6ee GL_QCOM_texture_foveated2",
+            "000ab4ed GL_QCOM_framebuffer_foveated",
+            "000ae0ae GL_QCOM_texture_foveated_subsampled_layout",
+            "000b9b4f glTextureFoveationParametersQCOM",
+            "000bc5b4 GL_QCOM_texture_foveated",
+            "000c34da glFramebufferFoveationConfigQCOM",
+            "000c34fb glFramebufferFoveationParametersQCOM",
+            "0087b216 GLAD_GL_QCOM_texture_foveated",
+            "0088d021 load_GL_QCOM_texture_foveated",
+            "008f0aae load_GL_QCOM_framebuffer_foveated",
+            "00912394 PFNGLFRAMEBUFFERFOVEATIONPARAMETERSQCOMPROC",
+            "00934f7c PFNGLFRAMEBUFFERFOVEATIONCONFIGQCOMPROC",
+            "00955d59 glad_glTextureFoveationParametersQCOM",
+            "0099a367 PFNGLTEXTUREFOVEATIONPARAMETERSQCOMPROC",
+            "009a95c0 GLAD_GL_QCOM_texture_foveated2",
+            "009cd3e6 glad_glFramebufferFoveationParametersQCOM",
+            "00a11036 GLAD_GL_QCOM_framebuffer_foveated",
+            "00a11058 GLAD_GL_QCOM_texture_foveated_subsampled_layout"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libopenxr_loader.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "00007df6 xrDestroyFoveationProfileFB",
+            "00007e12 xrCreateFoveationProfileFB"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libOVRPlugin.so.txt",
+      "hits": [
+        {
+          "term": "eye tracking",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "0008e152 OpenXR eye tracking system properties:",
+            "0008e179   eye tracking supported %d"
+          ]
+        },
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "00026239 ovrp_GetLayerTextureFoveation",
+            "0002647c ovrp_UpdateFoveation",
+            "00027176 ovrp_GetFoveationEyeTrackedSupported",
+            "0002719b ovrp_GetFoveationEyeTracked",
+            "000271b7 ovrp_SetFoveationEyeTracked",
+            "000271d3 ovrp_GetFoveationEyeTrackedCenter",
+            "000836b3 GetFoveationEyeTrackedCenter() failed: %s",
+            "00083f8c GetFoveationEyeTracked() failed: null pointer",
+            "00085b6c XR_FB_foveation_configuration",
+            "00085d31 XR_FB_foveation",
+            "000861c2 XR_FB_foveation_vulkan",
+            "0008cd9a XR_META_foveation_eye_tracked",
+            "0008d26f CreateFoveationProfile() failed: eye tracked foveation not supported: XR_META_foveation_eye_tracked extension %d, system property %d",
+            "0008d86f CreateFoveationProfile() failed: required extensions not enabled: XR_FB_foveation %d",
+            "0008db02 UpdateMotionVectorFoveationProfile() failed: required extensions not enabled: XR_FB_foveation %d, XR_FB_swapchain_update_state %d",
+            "0008db84 UpdateFoveationProfile() failed: required extensions not enabled: XR_FB_foveation %d, XR_FB_swapchain_update_state %d",
+            "0008e007 OpenXR eye tracked foveation system properties:",
+            "0008e037   eye tracked foveation supported %d",
+            "0008e5a0 GetFoveationEyeTrackedCenter() failed: eye tracked foveation not in use: XR_META_foveation_eye_tracked extension %d, supported %d, enabled %d",
+            "0008ec51     ... foveationImage = %p, width = %d, height = %d",
+            "0008ec86     ... motionVectorFoveationImage = %p, width = %d, height = %d",
+            "0009094a XR_VIEW_CONFIGURATION_TYPE_PRIMARY_STEREO_WITH_FOVEATED_INSET",
+            "00092b0f xrDestroyFoveationProfileFB",
+            "00092b2b xrCreateFoveationProfileFB",
+            "00093593 xrGetFoveationEyeTrackedStateMETA"
+          ]
+        },
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "000284ce ovrp_GetEyeGazesState",
+            "00091626 ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
+            "000925fe xrGetEyeGazesFB",
+            "0009d2b5 xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
+            "000a469e ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
+            "000a48a2 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "00027176 ovrp_GetFoveationEyeTrackedSupported",
+            "0002719b ovrp_GetFoveationEyeTracked",
+            "000271b7 ovrp_SetFoveationEyeTracked",
+            "000271d3 ovrp_GetFoveationEyeTrackedCenter",
+            "000836b3 GetFoveationEyeTrackedCenter() failed: %s",
+            "00083f8c GetFoveationEyeTracked() failed: null pointer",
+            "0008e5a0 GetFoveationEyeTrackedCenter() failed: eye tracked foveation not in use: XR_META_foveation_eye_tracked extension %d, supported %d, enabled %d",
+            "00093593 xrGetFoveationEyeTrackedStateMETA",
+            "000a03b5 xrGetFoveationEyeTrackedStateMETA(m_xrSession, &state)"
+          ]
+        },
+        {
+          "term": "eyeTrackingSupported",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "000284b1 ovrp_GetEyeTrackingSupported",
+            "0008e3ef ovrInputDebug: m_isEyeTrackingSupported %d"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeGazesState",
+          "category": "raw_state_data_collection",
+          "category_confidence": "high",
+          "examples": [
+            "000284ce ovrp_GetEyeGazesState"
+          ]
+        },
+        {
+          "term": "ovrp_GetEyeTrackingEnabled",
+          "category": "raw_state_data_collection",
+          "category_confidence": "medium",
+          "examples": [
+            "00028496 ovrp_GetEyeTrackingEnabled"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libunity.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "000fc25e SetFoveatedRenderingMode",
+            "000fecec Missing Vulkan framebuffer attachment foveation image?",
+            "0010e3b5 UnityEngine.Rendering.CommandBuffer::ConfigureFoveatedRendering",
+            "00127bc9 Internal-CreateFoveatedShadingRateTextureArray.compute",
+            "00127e88 ConfigureFoveatedRendering",
+            "0013238f UnityEngine.SystemInfo::GetFoveatedRenderingCaps",
+            "0013378d Foveation Image",
+            "0014d192 FoveatedRenderingManager - Can not load Foveation image generator ComputeShader, ",
+            "0014d1e4 CreateFoveatedShadingRateTextureCS",
+            "001585ae UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode",
+            "0015bd2a IVRDeviceCallback_GetFoveationImage",
+            "001662a2 CreateFoveatedShadingRateTexture",
+            "001727aa Internal-CreateFoveatedShadingRateTextureNoArray.compute"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libUnityOpenXR.so.txt",
+      "hits": [
+        {
+          "term": "foveat",
+          "category": "foveated_rendering",
+          "category_confidence": "high",
+          "examples": [
+            "00013978 FBGetFoveationDynamic",
+            "0001398e FBGetFoveationLevel",
+            "000139a2 FBSetFoveationLevel",
+            "000139b6 MetaGetEyeTrackedFoveationSupported",
+            "000139da MetaGetFoveationEyeTracked",
+            "000139f5 MetaSetFoveationEyeTracked",
+            "00013a10 OculusFoveation_GetHasEyeTrackingPermissions",
+            "00013a3d OculusFoveation_GetUsedApi",
+            "00013a58 OculusFoveation_HasRequestedEyeTrackingPermissions",
+            "00013a8b OculusFoveation_SetHasEyeTrackingPermissions",
+            "00013ab8 OculusFoveation_SetUsedApi",
+            "00013b69 UnityFoveation_GetUseFoveatedRenderingLegacyMode",
+            "00013b9a UnityFoveation_SetUseFoveatedRenderingLegacyMode",
+            "00013bcb UnityFoveation_intercept_xrGetInstanceProcAddr",
+            "0010a673 XR_FB_foveation",
+            "0010a683 xrCreateFoveationProfileFB",
+            "0010a69e xrDestroyFoveationProfileFB",
+            "0010a6eb XR_META_foveation_eye_tracked",
+            "0010a709 xrGetFoveationEyeTrackedStateMETA",
+            "0010cad7 XR_VIEW_CONFIGURATION_TYPE_PRIMARY_STEREO_WITH_FOVEATED_INSET",
+            "0010cf86 NSt6__ndk110__function6__funcIZN21OpenXRDisplayProvider36GfxThread_UpdateFoveationOffsetStateEP14UnityXRVector2iiE3$_3NS_9allocatorIS5_EEFvNS_10shared_ptrI26IPrimarySwapchainExtensionEEEEE",
+            "0010d095 ZN21OpenXRDisplayProvider36GfxThread_UpdateFoveationOffsetStateEP14UnityXRVector2iiE3$_3",
+            "00116056 NativePlugin/Source/extensions/ext_oculus_foveation.cpp:94",
+            "00116091 Failed to update swapchain foveation profile.",
+            "001160bf NSt6__ndk120__shared_ptr_emplaceI15OculusFoveationNS_9allocatorIS1_EEEE"
+          ]
+        },
+        {
+          "term": "EyeTracked",
+          "category": "capability_enablement",
+          "category_confidence": "high",
+          "examples": [
+            "000139b6 MetaGetEyeTrackedFoveationSupported",
+            "000139da MetaGetFoveationEyeTracked",
+            "000139f5 MetaSetFoveationEyeTracked",
+            "0010a709 xrGetFoveationEyeTrackedStateMETA"
+          ]
+        }
+      ]
+    },
+    {
+      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libxul.so.txt",
+      "hits": [
+        {
+          "term": "gaze",
+          "category": "unknown",
+          "category_confidence": "low",
+          "examples": [
+            "01430bf0 gaze",
+            "015ae94f pico-gaze",
+            "017b3583 gazEF",
+            "018e742b Ugaze",
+            "019043d9 gazet",
+            "0191f443 33gazeta",
+            "019b8862 pasagazet",
+            "019bd31f 1igaze",
+            "01ade2dc ASCIIAnyageASCII_Hex_DigitAlphabeticalphabeticasciihexdigitbcBidi_ClassbidicBidi_ControlbidiclassbidicontrolbidimBidi_MirroredbidimirroredbidimirroringglyphBidi_Mirroring_GlyphbidipairedbracketBidi_Paired_BracketbidipairedbrackettypeBidi_Paired_Bracket_TypeblkBlockblockbmgbpbbptcanonicalcombiningclassCanonical_Combining_ClasscasedCasedcasefoldingCase_FoldingcaseignorableCase_IgnorablecccceComposition_ExclusionchangeswhencasefoldedChanges_When_CasefoldedchangeswhencasemappedChanges_When_CasemappedchangeswhenlowercasedChanges_When_LowercasedchangeswhennfkccasefoldedChanges_When_NFKC_CasefoldedchangeswhentitlecasedChanges_When_TitlecasedchangeswhenuppercasedChanges_When_UppercasedcicjkaccountingnumerickAccountingNumericcjkcompatibilityvariantkCompatibilityVariantcjkiicorekIICorecjkirggsourcekIRG_GSourcecjkirghsourcekIRG_HSourcecjkirgjsourcekIRG_JSourcecjkirgkpsourcekIRG_KPSourcecjkirgksourcekIRG_KSourcecjkirgmsourcekIRG_MSourcecjkirgssourcekIRG_SSourcecjkirgtsourcekIRG_TSourcecjkirguksourcekIRG_UKSourcecjkirgusourcekIRG_USourcecjkirgvsourcekIRG_VSourcecjkothernumerickOtherNumericcjkprimarynumerickPrimaryNumericcjkrsunicodekRSUnicodecompexFull_Composition_ExclusioncompositionexclusioncwkcfcwlcwtcwudecompositionmappingDecomposition_MappingdecompositiontypeDecomposition_TypedefaultignorablecodepointDefault_Ignorable_Code_PointdepDeprecateddeprecateddidiaDiacriticdiacriticdmdteaeastasianwidthebaseEmoji_Modifier_BaseecompEmoji_ComponentEmoji_ModifieremojiEmojiemojicomponentemojimodifieremojimodifierbaseemojipresentationEmoji_PresentationepresequideoEquivalent_Unified_IdeographequivalentunifiedideographexpandsonnfcExpands_On_NFCexpandsonnfdExpands_On_NFDexpandsonnfkcExpands_On_NFKCexpandsonnfkdExpands_On_NFKDextendedpictographicExtended_PictographicextpictfcnfkcFC_NFKC_ClosurefcnfkcclosurefullcompositionexclusiongcgcbgeneralcategorygraphemebaseGrapheme_BasegraphemeclusterbreakgraphemeextendGrapheme_ExtendgraphemelinkGrapheme_LinkgrbasegrextgrlinkhangulsyllabletypeHangul_Syllable_TypehexHex_DigithsthyphenHyphenidcID_ContinueidcontinueIdeographicideographicidsIDS_Binary_OperatoridsbinaryoperatorIDS_Trinary_OperatoridstartidstrinaryoperatorindicpositionalcategoryIndic_Positional_CategoryindicsyllabiccategoryIndic_Syllabic_CategoryiscISO_CommentjamoshortnameJamo_Short_NamejgJoining_GroupjoincJoin_ControljoincontroljoininggroupjoiningtypeJoining_TypejsnjtkaccountingnumerickcompatibilityvariantkiicorekirggsourcekirghsourcekirgjsourcekirgkpsourcekirgksourcekirgmsourcekirgssourcekirgtsourcekirguksourcekirgusourcekirgvsourcekothernumerickprimarynumerickrsunicodelbLine_BreakLowercase_MappinglinebreakloeLogical_Order_ExceptionlogicalorderexceptionLowercaselowercasenana1Unicode_1_NamenamealiasName_AliasncharNoncharacter_Code_PointnfcqcNFC_Quick_ChecknfcquickchecknfdqcNFD_Quick_ChecknfdquickchecknfkccasefoldNFKC_CasefoldnfkccfnfkcqcnfkcquickchecknfkdqcnfkdquickchecknoncharactercodepointNumeric_TypenumerictypenumericvalueNumeric_ValuenvoalphaOther_Default_Ignorable_Code_PointogrextOther_Grapheme_ExtendOther_ID_ContinueOther_ID_StartolowerOther_LowercaseomathOther_MathotheralphabeticotherdefaultignorablecodepointothergraphemeextendotheridcontinueotheridstartotherlowercaseothermathotheruppercaseOther_UppercaseoupperpatsynPattern_SyntaxpatternsyntaxpatternwhitespacePattern_White_SpacepatwspcmPrepended_Concatenation_MarkprependedconcatenationmarkqmarkQuotation_MarkquotationmarkradicalRadicalregionalindicatorRegional_IndicatorrisbscfSimple_Case_FoldingscxsdSoft_DottedsentencebreakSentence_TerminalsfcsimplecasefoldingsimplelowercasemappingSimple_Lowercase_MappingsimpletitlecasemappingSimple_Titlecase_MappingsimpleuppercasemappingSimple_Uppercase_MappingslcsoftdottedWhite_SpacestermsuctcTitlecase_MappingTerminal_PunctuationterminalpunctuationucUppercase_MappinguideoUnified_Ideographunicode1nameunicoderadicalstrokeUppercaseuppercaseursvariationselectorVariation_SelectorverticalorientationVertical_OrientationvovswbwhitespacewordbreakwspaceXID_ContinuexidcontinueXID_Startxonfcxonfdxonfkcxonfkd1.1V10_0V11_0V12_0V12_1V13_0V14_0V15_02.02.13.03.13.24.04.15.05.15.26.06.16.26.37.08.09.0Unassignedunassignedv11v20v21v30v31v32v40v41v50v51v52v60v61v62v63v70v80v90casedletterCased_LetterControlClose_PunctuationcncoPrivate_UsecombiningmarkconnectorpunctuationConnector_PunctuationcontrolSurrogatecurrencysymbolCurrency_SymboldashpunctuationdecimalnumberDecimal_NumberenclosingmarkEnclosing_MarkFinal_PunctuationformatinitialpunctuationInitial_PunctuationlLetterletterletternumberLetter_NumberlineseparatorLine_SeparatorlllmModifier_LetterOther_LetterlowercaseletterltlumathsymbolMath_SymbolmcSpacing_MarkmnNonspacing_MarkmodifierlettermodifiersymbolModifier_SymbolNumberndnlnoOther_NumbernonspacingmarknumberopenpunctuationotherotherletterothernumberOther_PunctuationothersymbolOther_SymbolPunctuationparagraphseparatorParagraph_SeparatorpcpdpepfpipoprivateusepunctuationSymbolseparatorSeparatorspaceseparatorSpace_SeparatorspacingmarksurrogatesymboltitlecaseletteruppercaseletterzlzpzscrCRebE_BaseE_Base_GAZebgemE_ModifieremodifierexExtendextendgazGlue_After_ZwjglueafterzwjLlfLFlvLVlvtLVTppPrependprependSpacingMarkTvVxxzwjZWJadlamAdlamCaucasian_AlbaniananatolianhieroglyphsAnatolian_HieroglyphsArabicarabicavestanAvestanBamumbamumBassa_VahbatakBatakBengalibengalibhaiksukiBhaiksukiBrahmibrahmiBraillebrailleBuhidbuhidChakmacanadianaboriginalCanadian_AboriginalCariancariancaucasianalbanianchakmachorasmianChorasmiancommonCommonCopticcopticCypro_MinoanCypriotcuneiformCuneiformcypriotcyprominoandeseretDeseretDevanagaridevanagariDives_AkurudivesakuruDogradograEgyptian_HieroglyphsegyptianhieroglyphsElbasanelbasanElymaicelymaicGlagoliticglagoliticGunjala_GondiMasaram_GondiGothicgothicGranthagranthagreekGreekgunjalagondihanHanHangulhangulhanifirohingyaHanifi_RohingyaHanunoohanunooHatranhatranHebrewhebrewPahawh_HmongNyiakeng_Puachue_HmongKatakana_Or_HiraganaOld_HungarianimperialaramaicinheritedInheritedinscriptionalpahlaviInscriptional_PahlaviinscriptionalparthianInscriptional_ParthianOld_ItalickaithiKaithikannadaKannadakatakanaorhiraganakayahliKharoshthikharoshthikhitansmallscriptKhitan_Small_ScriptkhmerKhmerKhojkikhojkikhudawadiKhudawadilaoLaolatinLatinLepchalepchaLimbulimbulinearalinearbLycianlycianLydianlydianMakasarmakasarmalayalamMalayalamMandaicmandaicManichaeanmanichaeanMarchenmarchenmasaramgondimedefaidrinMedefaidrinmeeteimayekMeetei_MayekMende_KikakuimendekikakuiMeroitic_HieroglyphsmeroiticcursivemeroitichieroglyphsMongolianmongolianmroMroMultanimultanimyanmarMyanmarnabataeanNabataeanNag_MundarinagmundariNandinagarinandinagariOld_North_ArabiannewtailueNew_Tai_LuenkoNkoNushunushunyiakengpuachuehmongOghamoghamolchikioldhungarianolditalicoldnortharabianoldpermicOld_PermicoldpersianOld_PersianoldsogdianOld_SogdianoldsoutharabianOld_South_ArabianoldturkicOld_TurkicolduyghurOld_UyghuroriyaOriyaosageOsageOsmanyaosmanyapahawhhmongPalmyrenepalmyrenePau_Cin_HaupaucinhauphagspaPsalter_PahlaviPhoenicianphoenicianpsalterpahlavirejangRejangrunicRunicsamaritanSamaritanSaurashtrasaurashtraSignWritingsharadaSharadashavianShavianSiddhamsiddhamsignwritingSinhalasinhalaSogdiansogdianSora_SompengsorasompengSoyombosoyomboSundanesesundaneseSyloti_NagrisylotinagriSyriacsyriactagalogTagalogtaileTai_LetaithamtaivietTakritakritamilTamilTanguttangsaTangsatangutTeluguteluguThaanathaanatibetanTibetanTirhutatirhutavaiVaiwanchoWanchoWarang_CitiwarangcitiYezidiyezidiyiYizanabazarsquareatATermatermclCloseclosefoleOLetterLowernunumericoletterSContinuescontinueseSepsepspSpSTermupUpperaletterALetterdoublequoteDouble_QuotedqExtendNumLetextendnumlethebrewletterHebrew_LetterhlkaMidNumLetmidletterMidLettermidnumMidNummidnumletmlnewlineNewlinesinglequoteSingle_QuotesqwsegspaceWSegSpace",
+            "01d8c55d CNControlCREBE_BaseE_Base_GAZEBGEME_ModifierEXExtendGAZGlue_After_ZwjLLFLVLVTOtherPPPrependRegional_IndicatorRISMSpacingMarkTVXXZWJ",
+            "01d8ead6 ALetterCRDouble_QuoteDQEBE_BaseE_Base_GAZEBGEME_ModifierEXExtendExtendNumLetFOFormatGAZGlue_After_ZwjHebrew_LetterHLKAKatakanaLELFMBMidLetterMidNumMidNumLetMLMNNewlineNLNUNumericOtherRegional_IndicatorRISingle_QuoteSQWSegSpaceXXZWJ",
+            "01d8f0c9 OtherControlCRExtendLLFLVLVTTVSpacingMarkPrependRegional_IndicatorE_BaseE_Base_GAZE_ModifierGlue_After_ZwjZWJ",
+            "01d90000 OtherALetterFormatKatakanaMidLetterMidNumNumericExtendNumLetCRExtendLFMidNumLetNewlineRegional_IndicatorHebrew_LetterSingle_QuoteDouble_QuoteE_BaseE_Base_GAZE_ModifierGlue_After_ZwjZWJWSegSpace"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+00000791 __cxa_finalize
+000007a0 __cxa_atexit
+000007ad __register_atfork
+000007bf calloc
+000007c6 free
+000007cb __stack_chk_fail
+000007dc memcpy
+000007e3 vsnprintf
+000007ed longjmp
+000007f5 memset
+000007fc setjmp
+00000803 __errno
+0000080b pthread_mutex_lock
+0000081e pthread_mutex_unlock
+00000833 sigmux_unregister
+00000845 realloc
+0000084d dladdr
+00000854 strcmp
+0000085b __android_log_print
+0000086f distract_hook
+0000087d sigemptyset
+00000889 sigaddset
+00000893 sigmux_register
+000008a3 __memcpy_chk
+000008b0 strerror
+000008b9 distract_init
+000008c7 malloc
+000008ce sigmux_init
+000008da abort
+000008e0 getpagesize
+000008ec mprotect
+000008f5 distract_lookup_size
+0000090a linker_initialize
+0000091c dladdr1
+00000924 rand
+00000929 prctl
+0000092f madvise
+00000937 getauxval
+00000941 __system_property_get
+00000957 strncmp
+0000095f libdl.so
+00000968 LIBC
+0000096d libc.so
+00000975 liblinkerutils.so
+00000987 libsigmux.so
+00000994 liblog.so
+0000099e libdistract.so
+00000d40 gap in overwrite insn sequence @%08x{%zu}
+00000d6a fn jumps to damage region: tgt=%08x{%u} pos=%08x{%u} cr=[%08x,%08x){%u}
+00000db2 out of memory
+00000dc0 unrecognized insn 0x%08x
+00000dd9 code underflow
+00000de8 code buffer overflow wanted:%u have:%u
+00000e0f unknown fixup type %u
+00000e25 fb-distract
+00000e31 invalid flags
+00000e3f mprotect: errno: %d, %s
+00000e57 calloc: errno: %d, %s
+00000e6d internal error
+00000e7c target function too small for absolute jump
+00000ea8 distract heap
+00000eb6 unrecognized instruction
+00000ecf Attempted to hook a killswitched function
+00000ef9 ro.arch
+00000f01 asm code too large
+00000f14 sigmux_register failed
+00000f2b Attempted to hook a function already hooked
+00000f57 distract_malloc
+00000f67 <unknown>
+00000f71 exynos9810
+00000f7c Blocking distraction of %s!%s (%p) with %s!%s (%p)
+00000faf DISTRACT AARCH64 fixup target range too large!
+00001cd0 J%@)J}@
+00001cf8 K%A)@
+0000233b 6h"@
+0000234b 4h"@
+00002543 R)hi
+0000279d j,8k
+00002871 ji8,
+00002bad kh8J
+00002bb5 k(8k
+00002be8 jih8I
+00002bee 	*ii(8
+0000335b r)h`
+000033e7 R	(@))
+000034d3 jk}@
+0000386d *@))
+000039bb 3h.@
+00003b17 Th&@
+000042c9 .init_array
+000042d5 .fini_array
+000042e1 .text
+000042e7 .got
+000042ec .note.android.ident
+00004300 .got.plt
+00004309 .rela.plt
+00004313 .bss
+00004318 .dynstr
+00004320 .eh_frame_hdr
+0000432e .gnu.version_r
+0000433d .data.rel.ro
+0000434a .relr.dyn
+00004354 .gnu.version
+00004361 .dynsym
+00004369 .gnu.hash
+00004373 .relro_padding
+00004382 .eh_frame
+0000438c .note.gnu.build-id
+0000439f .dynamic
+000043a8 .shstrtab
+000043b2 .rodata

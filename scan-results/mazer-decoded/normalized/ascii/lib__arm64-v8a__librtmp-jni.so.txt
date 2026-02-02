@@ -1,0 +1,742 @@
+000008ad  P  
+00000b39 HPkAj
+00000baf BLlx
+00000bb7 h3,q
+00000c5e x[wT<
+00000d12 eyCE
+00000d78 q~f06
+00002141 __cxa_finalize
+00002150 __cxa_atexit
+0000215d Java_io_antmedia_rtmp_1client_RTMPMuxer_close
+0000218b Java_io_antmedia_rtmp_1client_RTMPMuxer_isConnected
+000021bf Java_io_antmedia_rtmp_1client_RTMPMuxer_open
+000021ec Java_io_antmedia_rtmp_1client_RTMPMuxer_read
+00002219 Java_io_antmedia_rtmp_1client_RTMPMuxer_writeAudio
+0000224c Java_io_antmedia_rtmp_1client_RTMPMuxer_writeVideo
+0000227f free
+00002284 malloc
+0000228b rtmp_close
+00002296 rtmp_is_connected
+000022a8 rtmp_open_for_write
+000022bc rtmp_read_date
+000022cb rtmp_sender_write_audio_frame
+000022e9 rtmp_sender_write_video_frame
+00002307 Java_io_antmedia_rtmp_1client_RTMPMuxer_file_1close
+0000233b Java_io_antmedia_rtmp_1client_RTMPMuxer_file_1open
+0000236e Java_io_antmedia_rtmp_1client_RTMPMuxer_write_1flv_1header
+000023a9 Java_io_antmedia_rtmp_1client_RtmpClient_nativeAlloc
+000023de Java_io_antmedia_rtmp_1client_RtmpClient_nativeClose
+00002413 Java_io_antmedia_rtmp_1client_RtmpClient_nativeIsConnected
+0000244e Java_io_antmedia_rtmp_1client_RtmpClient_nativeOpen
+00002482 Java_io_antmedia_rtmp_1client_RtmpClient_nativePause
+000024b7 Java_io_antmedia_rtmp_1client_RtmpClient_nativeRead
+000024eb Java_io_antmedia_rtmp_1client_RtmpClient_nativeWrite
+00002520 Java_io_antmedia_rtmp_1client_RtmpClient_seek
+0000254e RTMP_Alloc
+00002559 RTMP_Close
+00002564 RTMP_Connect
+00002571 RTMP_ConnectStream
+00002584 RTMP_EnableWrite
+00002595 RTMP_Free
+0000259f RTMP_Init
+000025a9 RTMP_IsConnected
+000025ba RTMP_Pause
+000025c5 RTMP_Read
+000025cf RTMP_SetupURL
+000025dd RTMP_Write
+000025e8 flv_file_close
+000025f7 flv_file_open
+00002605 throwIllegalStateException
+00002620 write_flv_header
+00002631 AMF3CD_AddProp
+00002640 AMF3CD_GetProp
+0000264f AMF3Prop_Decode
+0000265f AMF3ReadInteger
+0000266f AMF3ReadString
+0000267e AMF3_Decode
+0000268a AMFProp_Decode
+00002699 AMFProp_Dump
+000026a6 AMFProp_Encode
+000026b5 AMFProp_GetBoolean
+000026c8 AMFProp_GetName
+000026d8 AMFProp_GetNumber
+000026ea AMFProp_GetObject
+000026fc AMFProp_GetString
+0000270e AMFProp_GetType
+0000271e AMFProp_IsValid
+0000272e AMFProp_Reset
+0000273c AMFProp_SetName
+0000274c AMF_AddProp
+00002758 AMF_CountProp
+00002766 AMF_Decode
+00002771 AMF_DecodeArray
+00002781 AMF_DecodeBoolean
+00002793 AMF_DecodeInt16
+000027a3 AMF_DecodeInt24
+000027b3 AMF_DecodeInt32
+000027c3 AMF_DecodeLongString
+000027d8 AMF_DecodeNumber
+000027e9 AMF_DecodeString
+000027fa AMF_Dump
+00002803 AMF_Encode
+0000280e AMF_EncodeArray
+0000281e AMF_EncodeBoolean
+00002830 AMF_EncodeEcmaArray
+00002844 AMF_EncodeInt16
+00002854 AMF_EncodeInt24
+00002864 AMF_EncodeInt32
+00002874 AMF_EncodeNamedBoolean
+0000288b AMF_EncodeNamedNumber
+000028a1 AMF_EncodeNamedString
+000028b7 AMF_EncodeNumber
+000028c8 AMF_EncodeString
+000028d9 AMF_GetProp
+000028e5 AMF_Reset
+000028ef RTMP_Log
+000028f8 __stack_chk_fail
+00002909 memcmp
+00002910 memcpy
+00002917 realloc
+0000291f vsnprintf
+00002929 HTTP_get
+00002932 RTMPSockBuf_Close
+00002944 RTMPSockBuf_Fill
+00002955 RTMPSockBuf_Send
+00002966 RTMP_HashSWF
+00002973 __strchr_chk
+00002980 __strncpy_chk
+0000298e __strrchr_chk
+0000299c __vsprintf_chk
+000029ab atoi
+000029b0 connect
+000029b8 gethostbyname
+000029c6 inet_addr
+000029d0 memchr
+000029d7 memset
+000029de setsockopt
+000029e9 socket
+000029f0 strchr
+000029f7 strcpy
+000029fe strncasecmp
+00002a0a strncmp
+00002a12 RTMP_LogGetLevel
+00002a23 RTMP_LogHex
+00002a2f RTMP_LogHexString
+00002a41 RTMP_LogPrintf
+00002a50 RTMP_LogSetCallback
+00002a64 RTMP_LogSetLevel
+00002a75 RTMP_LogSetOutput
+00002a87 RTMP_LogStatus
+00002a96 RTMP_debuglevel
+00002aa6 __sF
+00002aab fflush
+00002ab2 fprintf
+00002aba fputs
+00002ac0 isprint
+00002ac8 putc
+00002acd strstr
+00002ad4 RTMP_ParsePlaypath
+00002ae7 RTMP_ParseURL
+00002af5 sscanf
+00002afc strlen
+00002b03 RTMPPacket_Alloc
+00002b14 RTMPPacket_Dump
+00002b24 RTMPPacket_Free
+00002b34 RTMPPacket_Reset
+00002b45 RTMPProtocolStrings
+00002b59 RTMPProtocolStringsLower
+00002b72 RTMP_ClientPacket
+00002b84 RTMP_Connect0
+00002b92 RTMP_Connect1
+00002ba0 RTMP_DefaultFlashVer
+00002bb5 RTMP_DeleteStream
+00002bc7 RTMP_DropRequest
+00002bd8 RTMP_FindFirstMatchingProperty
+00002bf7 RTMP_FindPrefixProperty
+00002c0f RTMP_GetDuration
+00002c20 RTMP_GetNextMediaPacket
+00002c38 RTMP_GetTime
+00002c45 RTMP_IsTimedout
+00002c55 RTMP_LibVersion
+00002c65 RTMP_ReadPacket
+00002c75 RTMP_ReconnectStream
+00002c8a RTMP_SendChunk
+00002c99 RTMP_SendClientBW
+00002cab RTMP_SendCreateStream
+00002cc1 RTMP_SendCtrl
+00002ccf RTMP_SendPacket
+00002cdf RTMP_SendPause
+00002cee RTMP_SendSeek
+00002cfc RTMP_SendServerBW
+00002d0e RTMP_Serve
+00002d19 RTMP_SetBufferMS
+00002d2a RTMP_SetOpt
+00002d36 RTMP_SetupStream
+00002d47 RTMP_Socket
+00002d53 RTMP_TLS_Accept
+00002d63 RTMP_TLS_AllocServerContext
+00002d7f RTMP_TLS_FreeServerContext
+00002d9a RTMP_TLS_Init
+00002da8 RTMP_ToggleStream
+00002dba RTMP_UpdateBufferMS
+00002dce RTMP_UserInterrupt
+00002de1 RTMP_ctrlC
+00002dec __errno
+00002df4 __memcpy_chk
+00002e01 __vsnprintf_chk
+00002e11 calloc
+00002e18 rand
+00002e1d recvfrom
+00002e26 sendto
+00002e2d sleep
+00002e33 strcasecmp
+00002e3e strdup
+00002e45 strerror
+00002e4e strtod
+00002e55 strtol
+00002e5c sysconf
+00002e64 times
+00002e6a __android_log_print
+00002e7e audio_config_ok
+00002e8e fclose
+00002e95 fopen
+00002e9b fwrite
+00002ea2 rtmp
+00002ea7 send_key_frame
+00002eb6 video_config_ok
+00002ec6 liblog.so
+00002ed0 libm.so
+00002ed8 libdl.so
+00002ee1 libc.so
+00002ee9 _edata
+00002ef0 __bss_start
+00002efc __bss_start__
+00002f0a __bss_end__
+00002f16 __end__
+00002f1e _end
+00002f23 librtmp-jni.so
+00002f32 LIBC
+000056ad A@qj
+00005818 ?A@q
+00005858 ?A@qj
+00005b23 *)I1
+00005b2c +ih8J	
+00005c13 Th"@
+00006332 @8?-
+00006348 Lii8k	
+000063c9 	87V
+000065a6 	*	a
+00006606 	*(Q
+000067ee 	*)a
+00006d31 ic8)	
+00006fde @9)=
+00007270 +ih8J	
+0000779b RS )
+00007927 R_k68
+00007f84 )ki8	
+00007f8d jx8)
+00007f94 )ki8	
+00008088 hkh8
+00008090 iki8
+000080ac hkh8iki8
+000080e8 iki8jkj8
+00008153 *!h=
+000084a9 b@9?
+0000873d @@qC
+00008d67 R	hh
+00008d6f 2	h(
+00008de2 B)!L+
+00009283 =		@
+000093c9 h(8`
+000094bb T)	@
+000094cc Lih8k	
+000095a0 +ih8J	
+0000963c +ih8J	
+000096bc +ih8J	
+00009787 qj)	
+00009aad ?ByC
+00009c1b R	}	
+00009d47 R	}	
+00009ee1 2D9X
+0000a00d >ByC
+0000a0d3 6`V@
+0000a2f5 ?ByU
+0000a43f R	|	
+0000a45d j989
+0000a525 ?A9A
+0000a925 j68u
+0000ab61 jw8H
+0000ac57 Raj(
+0000acc9 'B)?
+0000af37 4i*@
+0000b185 &B)?
+0000b197 4h2@
+0000b19e @))}@
+0000b1fa @))}@
+0000b280 +ih8J	
+0000b346 @9*!
+0000b5bd iu8)	
+0000b817 Rhjh8h
+0000b81e '6h*@
+0000b83f Ti2@
+0000bd93 Rhjh
+0000bff1 &B)?
+0000c00b 4h*@
+0000c043 Rhjh
+0000c04b 4h*@
+0000c06b Ti2@
+0000c164 +yhxJ	
+0000c29b Ti"@
+0000c2f7 Tv"@
+0000c44f Tw"@
+0000c5c0 +yhxJ	
+0000c857 5h*@
+0000c98f Tv"@
+0000cc52 A9H>
+0000cc57 7H_@
+0000cc8b Tw"@
+0000cd87 Tnii8Oq
+0000ce9e @9n	@9o
+0000cf53 *,y*
+0000cf8f Ql}@
+0000cfff T yl
+0000d13f <b.@
+0000d1db RB`#
+0000d43b 4I_@
+0000d91b Rhjh8
+0000dc27 Ti2@
+0000de53 <b.@
+0000dedf <b2@
+0000e357 5hN@
+0000e368 joBy9
+0000e564 h&@)
+0000e63d 2D9(
+0000e65d 2D9H
+0000ea57 5`"@)i
+0000eac3 Rij(
+0000eae3 *B|@
+0000edfb 4aV@
+0000efe6 A9()
+0000f09b T`j@
+0000f10d Jh8?
+0000f250 (i58
+0000f282 	*)	
+0000f39f Rhjh
+0000f43f T`f@
+0000f47f T`j@
+0000f542  7?[
+0000f656 @897
+0000f73d "_)9
+0000f9a9 jh8)	
+0000fa0f Rcl>
+0000fa8b Rc0=
+0000fad0 )ih8?)
+0000fae0 ?i(8
+0000fdbb 9	}P
+0000fdc3 9	}H
+0000ff75 J)8H
+00010534 	K*8
+0001053c 	K(8
+00010859 K+8A
+00010885 K(8		
+00010b0c 	K*8
+00010b1c 	K(8
+00010b70 RTMP open called without allocating rtmp object
+00010ba0 RTMP open function has to be called before read
+00010bd0 RTMP open function has to be called before write
+00010c01 RTMP open function has to be called before pause
+00010c32 java/lang/IllegalStateException
+00010c58 TT[Th
+00010c5f 6:W]
+00010c73 dr/,
+00010c86 h%s, invalid type. %d
+00010c9c AMFProp_Encode
+00010cab %s, string reference, index: %d, not supported, ignoring!
+00010ce5 AMF3ReadString
+00010cf4 empty buffer/no buffer pointer!
+00010d14 AMF3_DATE reference: %d, not supported!
+00010d3c %s - AMF3 unknown/unsupported datatype 0x%02x, @%p
+00010d6f AMF3Prop_Decode
+00010d7f %s: Empty buffer/no buffer pointer!
+00010da3 AMFProp_Decode
+00010db2 %s: Not enough data for decoding with name, less than 4 bytes!
+00010df1 %s: Name size out of range: namesize (%d) > len (%d) - 2
+00010e2a AMF_MOVIECLIP reserved!
+00010e42 AMF_REFERENCE not supported!
+00010e5f AMF_DATE
+00010e68 AMF_RECORDSET reserved!
+00010e80 AMF_TYPED_OBJECT not supported!
+00010ea0 %s - unknown datatype 0x%02x, @%p
+00010ec2 Property: INVALID
+00010ed4 Property: NULL
+00010ee3 no-name.
+00010eec Name: %18.*s, 
+00010efb Property: <%sOBJECT>
+00010f10 Property: <%sECMA_ARRAY>
+00010f29 Property: <%sSTRICT_ARRAY>
+00010f44 NUMBER:	%.2f
+00010f51 BOOLEAN:	%s
+00010f5d TRUE
+00010f62 FALSE
+00010f68 STRING:	%.*s
+00010f75 DATE:	timestamp: %.2f, UTC offset: %d
+00010f9b INVALID TYPE 0x%02x
+00010faf Property: <%s%s>
+00010fc0 AMF_Encode - failed to encode property in index %d
+00010ff3 AMF3 Object encapsulated in AMF stream does not start with AMF3_OBJECT!
+0001103b Object reference, index: %d
+00011057 Class reference: %d
+0001106b Class name: %s, externalizable: %d, dynamic: %d, classMembers: %d
+000110ad Member: %s
+000110b8 DEFAULT_ATTRIBUTE
+000110ca Externalizable, TODO check
+000110e5 %s, failed to decode AMF3 property!
+00011109 AMF3_Decode
+00011115 class object!
+00011123 DECODING ERROR, IGNORING BYTES UNTIL NEXT KNOWN PATTERN!
+0001115c (object begin)
+0001116b (object end)
+000111b8 http
+000111c1 GET %s HTTP/1.0
+000111d2 User-Agent: %s
+000111e2 Host: %s
+000111ec Referer: %.*s
+000111fc Mozilla/5.0
+00011208 If-Modified-Since: %s
+00011220 %s, Setting socket timeout to %ds failed!
+0001124a HTTP_get
+00011253 HTTP/1
+0001125a Content-Length: 
+0001126b Last-Modified: 
+00011290 0123456789abcdef
+000112a1 no-name
+000112a9 %s: %s
+000112b1 CRIT
+000112b6 ERROR
+000112bc WARNING
+000112c4 INFO
+000112c9 DEBUG
+000112cf DEBUG2
+000112d6 Parsing...
+000112e1 RTMP URL: No :// in url!
+000112fa rtmp
+000112ff rtmpt
+00011305 rtmps
+0001130b rtmpe
+00011311 rtmfp
+00011317 rtmpte
+0001131e rtmpts
+00011325 Unknown protocol!
+00011338 Parsed protocol: %d
+0001134c No hostname in URL!
+00011360 Parsed host    : %.*s
+00011376 Hostname exceeds 255 characters!
+00011397 Invalid port number!
+000113ac No application or playpath in URL!
+000113cf slist=
+000113d6 ondemand/
+000113e0 Parsed app     : %.*s
+000113f6 .f4v
+000113fb .mp4
+00011400 .flv
+00011405 .mp3
+0001140a mp4:
+0001140f mp3:
+000114a5 &&&&&&&&&&&!<&&&`
+000114b7 &&&&&&&&&&&!:&&&>&&&&&&E
+000114d5 yhpE
+000114eb ,5[5d555555555555555555555555
+0001154f +RTMP
+00011557 RTMPT
+0001155e RTMPE
+00011565 RTMPTE
+0001156c RTMPS
+00011573 RTMPTS
+00011588 RTMFP
+0001158f rtmp
+00011596 rtmpt
+0001159d rtmpe
+000115a4 rtmpte
+000115ab rtmps
+000115b2 rtmpts
+000115c7 rtmfp
+000115ce RTMP PACKET: packet type: 0x%02x. channel: 0x%02x. info 1: %d info 2: %d. Body size: %u. body: 0x%02x
+00011634 Protocol : %s
+00011642 Hostname : %.*s
+00011652 Port     : %d
+00011660 Playpath : %s
+0001166e tcUrl    : %s
+0001167c swfUrl   : %s
+0001168a pageUrl  : %s
+00011698 app      : %.*s
+000116a8 auth     : %s
+000116b6 subscribepath : %s
+000116c9 NetStream.Authenticate.UsherToken : %s
+000116f0 flashVer : %s
+000116fe StartTime     : %d msec
+00011716 StopTime      : %d msec
+0001172e live     : %s
+00011743 timeoutInMs  : %ld sec
+0001175a Unknown option %s
+0001176c %s://%.*s:%d/%.*s
+0001177e Error %d setting SO_SNDTIMEO
+0001179b %s, failed to connect socket. %d (%s)
+000117c1 RTMP_Connect0
+000117cf %s ... SOCKS negotiation
+000117e8 %s, SOCKS negotiation failed.
+00011806 %s, failed to create socket. Error: %d
+0001182d %s, Setting socket timeout to %dms failed!
+00011858 %s, no SSL/TLS support
+0001186f RTMP_Connect1
+0001187d %s, Could not connect for handshake
+000118a1 %s, ... connected, handshaking
+000118c0 %s, handshake failed.
+000118d6 %s, handshaked
+000118e5 %s, RTMP connect failed.
+000118fe Received FLV packet before play()! Ignoring.
+0001192b %s, received: bytes read report
+0001194b RTMP_ClientPacket
+0001195d %s, flex stream send, size %u bytes, not supported, ignoring
+0001199a %s, flex shared object, size %u bytes, not supported, ignoring
+000119d9 %s, flex message, size %u bytes, not fully supported
+00011a0e %s, received: notify %u bytes
+00011a2c %s, shared object, not supported, ignoring
+00011a57 %s, received: invoke %u bytes
+00011a75 Stream corrupt?!
+00011a86 %s, unknown packet type received: 0x%02x
+00011aaf %s, %d, pauseTime=%d
+00011ac4 RTMP_SendPause
+00011ad3 sending ctrl. type: 0x%04x
+00011aee %s: fd=%d
+00011af8 RTMP_ReadPacket
+00011b08 %s, failed to read RTMP packet header
+00011b2e %s, failed to read RTMP packet header 2nd byte
+00011b5d %s, failed to read RTMP packet header 3nd byte
+00011b8c %s, m_nChannel: %0x
+00011ba0 %s, failed to read RTMP packet header. type: %x
+00011bd0 %s, failed to read extended timestamp
+00011bf6 %s, failed to allocate packet
+00011c14 %s, failed to read RTMP packet body. len: %u
+00011c41 %s: fd=%d, size=%d
+00011c54 RTMP_SendChunk
+00011c63 sanity failed!! trying to send header of type: 0x%02x.
+00011c9a RTMP_SendPacket
+00011caa Invoking %s
+00011cb6 %s, recv returned %d. GetSockError(): %d (%s)
+00011ce4 RTMPSockBuf_Fill
+00011cf5 RTMP_Write
+00011d00 Connecting via SOCKS proxy: %s:%d
+00011d22 socks
+00011d28 Use the specified SOCKS proxy
+00011d4a Name of target app on server
+00011d67 tcUrl
+00011d6d URL to played stream
+00011d82 pageUrl
+00011d8a URL of played media's web page
+00011da9 swfUrl
+00011db0 URL to player SWF file
+00011dc7 flashver
+00011dd0 Flash version string (default LNX 10,0,32,18)
+00011dfe conn
+00011e03 Append arbitrary AMF data to Connect message
+00011e30 playpath
+00011e39 Path to target media on server
+00011e58 Set playlist before play command
+00011e79 live
+00011e7e Stream is live, no seeking possible
+00011ea2 Stream to subscribe to
+00011ebd Justin.tv authentication token
+00011edc Key for SecureToken response
+00011ef9 swfVfy
+00011f00 Perform SWF Verification
+00011f19 swfAge
+00011f20 Number of days to use cached SWF hash
+00011f46 start
+00011f4c Stream start position in milliseconds
+00011f72 stop
+00011f77 Stream stop position in milliseconds
+00011f9c buffer
+00011fa3 Buffer time in milliseconds
+00011fbf timeout
+00011fc7 Session timeout in seconds
+00011fe2 pubUser
+00011fea Publisher username
+00011ffd pubPasswd
+00012007 Publisher password
+0001201a true
+0001201f Valid RTMP options are:
+00012038 %10s %-7s  %s
+00012047 string
+0001204e integer
+00012056 boolean
+00012062 Problem accessing the DNS. (addr: %s)
+00012088 %s, SOCKS returned error code %d
+000120a9 SocksNegotiate
+000120b8 connect
+000120c0 type
+000120c5 nonprivate
+000120d0 flashVer
+000120d9 fpad
+000120de capabilities
+000120eb audioCodecs
+000120f7 videoCodecs
+00012103 videoFunction
+00012111 objectEncoding
+00012120 createStream
+0001212d deleteStream
+0001213a seek
+0001213f %s, Sanity failed. no string method in invoke packet
+00012174 HandleInvoke
+00012181 %s, error decoding invoke packet
+000121a2 %s, server invoking <%s>
+000121bb %s, received result id %f without matching request
+000121ee %s, received result for method call <%s>
+00012217 rtmp server sent error
+0001222e rtmp server requested close
+0001224a %s, onStatus: %s
+0001225b Closing connection: %s
+00012272 _result
+0001227a secureToken
+00012286 secureTokenResponse
+0001229a releaseStream
+000122a8 FCPublish
+000122b2 UsherToken: %s
+000122c1 NetStream.Authenticate.UsherToken
+000122e3 FCSubscribe: %s
+000122f3 FCSubscribe
+000122ff %s, seekTime=%d, stopTime=%d, sending play: %s
+0001232e SendPlay
+00012337 play
+0001233c onBWDone
+00012345 onFCUnsubscribe
+00012355 ping
+0001235a pong
+0001235f _onbwcheck
+0001236a _onbwdone
+00012374 _checkbw
+0001237d _error
+00012384 onStatus
+0001238d level
+00012393 NetStream.Failed
+000123a4 NetStream.Play.Failed
+000123ba NetStream.Play.StreamNotFound
+000123d8 NetConnection.Connect.InvalidApp
+000123f9 NetStream.Play.Start
+0001240e NetStream.Play.PublishNotify
+0001242b NetStream.Publish.Start
+00012443 NetStream.Play.Complete
+0001245b NetStream.Play.Stop
+0001246f NetStream.Play.UnpublishNotify
+0001248e NetStream.Seek.Notify
+000124a4 NetStream.Pause.Notify
+000124bb playlist_ready
+000124ca set_playlist
+000124d7 %s, error decoding meta data packet
+000124fb HandleMetadata
+0001250a Metadata:
+00012514 onMetaData
+0001251f %.*s:
+00012525 timestamp:%.2f
+00012534   %-22.*s%s
+00012540 duration
+00012549 video
+0001254f audio
+00012555 %s, received: chunk size change to %d
+0001257b HandleChangeChunkSize
+00012591 %s, received ctrl. type: %d, len: %d
+000125b6 HandleCtrl
+000125c1 %s, Stream Begin %d
+000125d5 %s, Stream EOF %d
+000125e7 %s, Stream Dry %d
+000125f9 %s, Stream IsRecorded %d
+00012612 %s, Ping %d
+0001261e %s, Stream BufferEmpty %d
+00012638 %s, Stream BufferReady %d
+00012652 %s, Stream xx %d
+00012663 %s, SWFVerification ping received: 
+00012687 %s: SWFVerification Type %d request not supported! Patches welcome...
+000126cd %s: Ignoring SWFVerification request, no CRYPTO support!
+00012706 %s: server BW = %d
+00012719 HandleServerBW
+00012728 %s: client BW = %d %d
+0001273e HandleClientBW
+0001274d %s, No valid HTTP response found
+0001276e ReadN
+00012774 %s, RTMP socket closed by peer
+00012793 %s: Type Answer   : %02X
+000127ac %s: Type mismatch: client sent %d, server answered %d
+000127e2 %s: Server Uptime : %d
+000127f9 %s: FMS Version   : %d.%d.%d.%d
+00012819 %s, client signature does not match!
+0001283e %s, RTMP send error %d (%d bytes)
+00012860 WriteN
+00012867 %s: Type Request  : %02X
+00012880 SHandShake
+0001288b %s: Type unknown: client sent %02X
+000128ae %s: Client Uptime : %d
+000128c5 %s: Player Version: %d.%d.%d.%d
+000128e5 FCUnpublish
+000128f1 POST /%s%s/%d HTTP/1.1
+00012909 Host: %.*s:%d
+00012918 Accept: */*
+00012925 User-Agent: Shockwave Flash
+00012942 Connection: Keep-Alive
+0001295a Cache-Control: no-cache
+00012973 Content-type: application/x-fcs
+00012994 Content-length: %d
+000129ab open
+000129b0 send
+000129b5 idle
+000129ba HTTP/1.1 200 
+000129c8 Content-
+000129d1 length:
+000129d9 Got Play.Complete or Play.Stop from server. Assuming stream is complete
+00012a21 ignoring too small video packet: size: %d
+00012a4b ignoring too small audio packet: size: %d
+00012a75 Checked keyframe successfully!
+00012a94 Found keyframe with resume-keyframe timestamp!
+00012ac3 FLV Stream: Keyframe doesn't match!
+00012ae7 Non skipable packet since it doesn't end with chunk, stream corrupt!
+00012b2c First packet does not contain keyframe, all timestamps are smaller than the keyframe timestamp; probably the resume seek failed?
+00012bad Couldn't find the seeked keyframe in this chunk!
+00012bde Stream does not start with requested frame, ignoring data... 
+00012c1c Stream does not start with requested FLV frame, ignoring data... 
+00012c5e Couldn't allocate memory!
+00012c78 Wrong data size (%u), stream corrupted, aborting!
+00012caa No tagSize found, appending!
+00012cc7 @setDataFrame
+00012cd5 LNX 10,0,32,18
+00012cf4 rtmp-muxer
+00012cff Memory is not allocated...
+00012d1a video config is already set
+00012d36 No Nal after SPS
+00012d48 unexpected nal type %d
+00012d5f width
+00012d65 height
+00012d6c videocodecid
+00012d79 audiocodecid
+000146e4 Android
+000146f0 r21e
+00014730 7075529
+00016010 Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+000160c6 .fini_array
+000160d2 .text
+000160d8 .got
+000160dd .comment
+000160e6 .note.android.ident
+000160fa .rela.plt
+00016104 .bss
+00016109 .dynstr
+00016111 .eh_frame_hdr
+0001611f .gnu.version_r
+0001612e .data.rel.ro
+0001613b .rela.dyn
+00016145 .gnu.version
+00016152 .dynsym
+0001615a .gnu.hash
+00016164 .eh_frame
+0001616e .note.gnu.build-id
+00016181 .dynamic
+0001618a .shstrtab
+00016194 .rodata
+0001619c .data

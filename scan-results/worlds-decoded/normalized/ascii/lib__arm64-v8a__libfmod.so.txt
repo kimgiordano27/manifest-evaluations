@@ -1,0 +1,5960 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+00002a18  @4@
+00002a2d @@ @ 
+00002d3a fDjV
+00002d6e 2-%%r
+00002d84 PeuY
+00002e48 T7Z<
+00002e57 `A%1
+00002e79 1vzHz
+00002ea2 "i8$1
+00002ee9 %-\-M+1j5
+0000306a %!6lY
+000030c5 :An-
+000030d7 	4:w
+00003107 EPNv
+00003129 __cxa_finalize
+00003138 __cxa_atexit
+00003145 __register_atfork
+00003157 _ZN4FMOD7gGlobalE
+00003169 FMOD_Memory_GetStats
+0000317e __stack_chk_fail
+0000318f FMOD_System_Create
+000031a2 _ZN4FMOD7MemPool6callocEiPKcij
+000031c1 _ZN4FMOD7MemPool4freeEPvPKcib
+000031df _ZN4FMOD6System7releaseEv
+000031f9 _ZN4FMOD6System9setOutputE15FMOD_OUTPUTTYPE
+00003225 _ZN4FMOD6System9getOutputEP15FMOD_OUTPUTTYPE
+00003252 _ZN4FMOD6System13getDriverInfoEiPciP9FMOD_GUIDPiP16FMOD_SPEAKERMODES4_
+00003299 _ZN4FMOD6System9getDriverEPi
+000032b6 _ZN4FMOD6System19setSoftwareChannelsEi
+000032dd _ZN4FMOD6System17setSoftwareFormatEi16FMOD_SPEAKERMODEi
+00003315 _ZN4FMOD6System17getSoftwareFormatEPiP16FMOD_SPEAKERMODES1_
+00003351 _ZN4FMOD6System16setDSPBufferSizeEji
+00003376 _ZN4FMOD6System16getDSPBufferSizeEPjPi
+0000339d _ZN4FMOD6System19setAdvancedSettingsEP21FMOD_ADVANCEDSETTINGS
+000033db _ZN4FMOD6System19getAdvancedSettingsEP21FMOD_ADVANCEDSETTINGS
+00003419 _ZN4FMOD6System11setCallbackEPF11FMOD_RESULTP11FMOD_SYSTEMjPvS4_S4_Ej
+0000345f _ZN4FMOD6System13setPluginPathEPKc
+00003482 _ZN4FMOD6System10loadPluginEPKcPjj
+000034a5 _ZN4FMOD6System12unloadPluginEj
+000034c5 _ZN4FMOD6System19getNumNestedPluginsEjPi
+000034ee _ZN4FMOD6System15getNestedPluginEjiPj
+00003514 _ZN4FMOD6System13getNumPluginsE15FMOD_PLUGINTYPEPi
+00003547 _ZN4FMOD6System15getPluginHandleE15FMOD_PLUGINTYPEiPj
+0000357d _ZN4FMOD6System13getPluginInfoEjP15FMOD_PLUGINTYPEPciPj
+000035b5 _ZN4FMOD6System17createDSPByPluginEjPPNS_3DSPE
+000035e4 _ZN4FMOD6System18getDSPInfoByPluginEjPPK20FMOD_DSP_DESCRIPTION
+00003623 _ZN4FMOD6System13registerCodecEP22FMOD_CODEC_DESCRIPTIONPjj
+0000365f _ZN4FMOD6System11registerDSPEPK20FMOD_DSP_DESCRIPTIONPj
+00003697 _ZN4FMOD6System4initEijPv
+000036b1 _ZN4FMOD6System6updateEv
+000036ca _ZN4FMOD6System19setStreamBufferSizeEjj
+000036f2 _ZN4FMOD6System19getStreamBufferSizeEPjS1_
+0000371d _ZN4FMOD6System13get3DSettingsEPfS1_S1_
+00003745 _ZN4FMOD6System17set3DNumListenersEi
+0000376a _ZN4FMOD6System23set3DListenerAttributesEiPK11FMOD_VECTORS3_S3_S3_
+000037ad _ZN4FMOD6System23get3DListenerAttributesEiP11FMOD_VECTORS2_S2_S2_
+000037ef _ZN4FMOD6System12mixerSuspendEv
+0000380f _ZN4FMOD6System11mixerResumeEv
+0000382e _ZN4FMOD6System19getDefaultMixMatrixE16FMOD_SPEAKERMODES1_Pfi
+0000386c _ZN4FMOD6System22getSpeakerModeChannelsE16FMOD_SPEAKERMODEPi
+000038a9 _ZN4FMOD6System10getVersionEPjS1_
+000038cb _ZN4FMOD6System18getChannelsPlayingEPiS1_
+000038f5 _ZN4FMOD6System11getCPUUsageEP14FMOD_CPU_USAGE
+00003924 _ZN4FMOD6System12getFileUsageEPxS1_S1_
+0000394b _ZN4FMOD6System11createSoundEPKcjP22FMOD_CREATESOUNDEXINFOPPNS_5SoundE
+00003992 _ZN4FMOD6System9createDSPEPK20FMOD_DSP_DESCRIPTIONPPNS_3DSPE
+000039cf _ZN4FMOD6System15createDSPByTypeE13FMOD_DSP_TYPEPPNS_3DSPE
+00003a0a _ZN4FMOD6System18createChannelGroupEPKcPPNS_12ChannelGroupE
+00003a46 _ZN4FMOD6System14createReverb3DEPPNS_8Reverb3DE
+00003a76 _ZN4FMOD6System9playSoundEPNS_5SoundEPNS_12ChannelGroupEbPPNS_7ChannelE
+00003abe _ZN4FMOD6System7playDSPEPNS_3DSPEPNS_12ChannelGroupEbPPNS_7ChannelE
+00003b02 _ZN4FMOD6System16getDSPInfoByTypeE13FMOD_DSP_TYPEPPK20FMOD_DSP_DESCRIPTION
+00003b4d _ZN4FMOD6System21getMasterChannelGroupEPPNS_12ChannelGroupE
+00003b89 _ZN4FMOD6System24attachChannelGroupToPortE14FMOD_PORT_TYPEyPNS_12ChannelGroupEb
+00003bd9 _ZN4FMOD6System26detachChannelGroupFromPortEPNS_12ChannelGroupE
+00003c19 _ZN4FMOD6System19getRecordNumDriversEPiS1_
+00003c44 _ZN4FMOD6System19getRecordDriverInfoEiPciP9FMOD_GUIDPiP16FMOD_SPEAKERMODES4_Pj
+00003c93 _ZN4FMOD6System17getRecordPositionEiPj
+00003cba _ZN4FMOD6System11recordStartEiPNS_5SoundEb
+00003ce5 _ZN4FMOD6System10recordStopEi
+00003d03 _ZN4FMOD6System11isRecordingEiPb
+00003d24 _ZN4FMOD6System11setUserDataEPv
+00003d44 _ZN4FMOD5Sound7releaseEv
+00003d5d _ZN4FMOD5Sound15getSystemObjectEPPNS_6SystemE
+00003d8b _ZN4FMOD5Sound4lockEjjPPvS2_PjS3_
+00003dad _ZN4FMOD5Sound6unlockEPvS1_jj
+00003dcb _ZN4FMOD5Sound11setDefaultsEfi
+00003dea _ZN4FMOD5Sound11getDefaultsEPfPi
+00003e0b _ZN4FMOD5Sound11getSubSoundEiPPS0_
+00003e2e _ZN4FMOD5Sound17getSubSoundParentEPPS0_
+00003e56 _ZN4FMOD5Sound9getLengthEPjj
+00003e73 _ZN4FMOD5Sound9getFormatEP15FMOD_SOUND_TYPEP17FMOD_SOUND_FORMATPiS5_
+00003eb8 _ZN4FMOD5Sound15getNumSubSoundsEPi
+00003edb _ZN4FMOD5Sound6getTagEPKciP8FMOD_TAG
+00003f00 _ZN4FMOD5Sound12getOpenStateEP14FMOD_OPENSTATEPjPbS4_
+00003f36 _ZN4FMOD5Sound7setModeEj
+00003f4f _ZN4FMOD5Sound7getModeEPj
+00003f69 _ZN4FMOD5Sound13getLoopPointsEPjjS1_j
+00003f8f _ZN4FMOD5Sound11setUserDataEPv
+00003fae _ZN4FMOD5Sound11getUserDataEPPv
+00003fce _ZN4FMOD14ChannelControl15getSystemObjectEPPNS_6SystemE
+00004006 _ZN4FMOD14ChannelControl4stopEv
+00004026 _ZN4FMOD14ChannelControl9setPausedEb
+0000404b _ZN4FMOD14ChannelControl9getPausedEPb
+00004071 _ZN4FMOD14ChannelControl9setVolumeEf
+00004096 _ZN4FMOD14ChannelControl9getVolumeEPf
+000040bc _ZN4FMOD14ChannelControl13setVolumeRampEb
+000040e6 _ZN4FMOD14ChannelControl13getVolumeRampEPb
+00004111 _ZN4FMOD14ChannelControl13getAudibilityEPf
+0000413c _ZN4FMOD14ChannelControl8setPitchEf
+00004160 _ZN4FMOD14ChannelControl8getPitchEPf
+00004185 _ZN4FMOD14ChannelControl7setMuteEb
+000041a8 _ZN4FMOD14ChannelControl7getMuteEPb
+000041cc _ZN4FMOD14ChannelControl19setReverbPropertiesEif
+000041fd _ZN4FMOD14ChannelControl19getReverbPropertiesEiPf
+0000422f _ZN4FMOD14ChannelControl7setModeEj
+00004252 _ZN4FMOD14ChannelControl7getModeEPj
+00004276 _ZN4FMOD14ChannelControl11setCallbackEPF11FMOD_RESULTP19FMOD_CHANNELCONTROL24FMOD_CHANNELCONTROL_TYPE33FMOD_CHANNELCONTROL_CALLBACK_TYPEPvS6_E
+00004305 _ZN4FMOD14ChannelControl9isPlayingEPb
+0000432b _ZN4FMOD14ChannelControl12setMixMatrixEPfiii
+00004358 _ZN4FMOD14ChannelControl11getDSPClockEPyS1_
+00004384 _ZN4FMOD14ChannelControl8setDelayEyyb
+000043aa _ZN4FMOD14ChannelControl8getDelayEPyS1_Pb
+000043d4 _ZN4FMOD14ChannelControl12addFadePointEyf
+000043fe _ZN4FMOD14ChannelControl16setFadePointRampEyf
+0000442c _ZN4FMOD14ChannelControl16removeFadePointsEyy
+0000445a _ZN4FMOD14ChannelControl13getFadePointsEPjPyPf
+00004489 _ZN4FMOD14ChannelControl6getDSPEiPPNS_3DSPE
+000044b5 _ZN4FMOD14ChannelControl6addDSPEiPNS_3DSPE
+000044e0 _ZN4FMOD14ChannelControl9removeDSPEPNS_3DSPE
+0000450d _ZN4FMOD14ChannelControl10getNumDSPsEPi
+00004535 _ZN4FMOD14ChannelControl11getDSPIndexEPNS_3DSPEPi
+00004567 _ZN4FMOD14ChannelControl15set3DAttributesEPK11FMOD_VECTORS3_
+000045a4 _ZN4FMOD14ChannelControl15get3DAttributesEP11FMOD_VECTORS2_
+000045e0 _ZN4FMOD14ChannelControl19set3DMinMaxDistanceEff
+00004611 _ZN4FMOD14ChannelControl19get3DMinMaxDistanceEPfS1_
+00004645 _ZN4FMOD14ChannelControl17set3DConeSettingsEfff
+00004675 _ZN4FMOD14ChannelControl17get3DConeSettingsEPfS1_S1_
+000046aa _ZN4FMOD14ChannelControl20set3DConeOrientationEP11FMOD_VECTOR
+000046e8 _ZN4FMOD14ChannelControl20get3DConeOrientationEP11FMOD_VECTOR
+00004726 _ZN4FMOD14ChannelControl18set3DCustomRolloffEP11FMOD_VECTORi
+00004763 _ZN4FMOD14ChannelControl17set3DDopplerLevelEf
+00004791 _ZN4FMOD14ChannelControl11setUserDataEPv
+000047ba _ZN4FMOD14ChannelControl11getUserDataEPPv
+000047e4 _ZN4FMOD7Channel12setFrequencyEf
+00004805 _ZN4FMOD7Channel12getFrequencyEPf
+00004827 _ZN4FMOD7Channel11setPriorityEi
+00004847 _ZN4FMOD7Channel11setPositionEjj
+00004868 _ZN4FMOD7Channel11getPositionEPjj
+0000488a _ZN4FMOD7Channel15setChannelGroupEPNS_12ChannelGroupE
+000048c0 _ZN4FMOD7Channel12setLoopCountEi
+000048e1 _ZN4FMOD7Channel12getLoopCountEPi
+00004903 _ZN4FMOD7Channel9isVirtualEPb
+00004921 _ZN4FMOD7Channel15getCurrentSoundEPPNS_5SoundE
+00004950 _ZN4FMOD12ChannelGroup7releaseEv
+00004971 _ZN4FMOD12ChannelGroup8addGroupEPS0_bPPNS_13DSPConnectionE
+000049ac _ZN4FMOD12ChannelGroup12getNumGroupsEPi
+000049d4 _ZN4FMOD12ChannelGroup8getGroupEiPPS0_
+000049fb _ZN4FMOD12ChannelGroup14getParentGroupEPPS0_
+00004a28 _ZN4FMOD12ChannelGroup7getNameEPci
+00004a4b _ZN4FMOD12ChannelGroup14getNumChannelsEPi
+00004a75 _ZN4FMOD12ChannelGroup10getChannelEiPPNS_7ChannelE
+00004aa8 _ZN4FMOD3DSP7releaseEv
+00004abf _ZN4FMOD3DSP15getSystemObjectEPPNS_6SystemE
+00004aeb _ZN4FMOD3DSP8addInputEPS0_PPNS_13DSPConnectionE23FMOD_DSPCONNECTION_TYPE
+00004b34 _ZN4FMOD3DSP14disconnectFromEPS0_PNS_13DSPConnectionE
+00004b6a _ZN4FMOD3DSP13disconnectAllEbb
+00004b89 _ZN4FMOD3DSP12getNumInputsEPi
+00004ba7 _ZN4FMOD3DSP9setActiveEb
+00004bc0 _ZN4FMOD3DSP9getActiveEPb
+00004bda _ZN4FMOD3DSP9setBypassEb
+00004bf3 _ZN4FMOD3DSP9getBypassEPb
+00004c0d _ZN4FMOD3DSP12setWetDryMixEfff
+00004c2c _ZN4FMOD3DSP12getWetDryMixEPfS1_S1_
+00004c50 _ZN4FMOD3DSP16setChannelFormatEji16FMOD_SPEAKERMODE
+00004c84 _ZN4FMOD3DSP16getChannelFormatEPjPiP16FMOD_SPEAKERMODE
+00004cbb _ZN4FMOD3DSP5resetEv
+00004cd0 _ZN4FMOD3DSP11setCallbackEPF11FMOD_RESULTP8FMOD_DSP22FMOD_DSP_CALLBACK_TYPEPvE
+00004d1f _ZN4FMOD3DSP17setParameterFloatEif
+00004d42 _ZN4FMOD3DSP15setParameterIntEii
+00004d63 _ZN4FMOD3DSP16setParameterBoolEib
+00004d85 _ZN4FMOD3DSP16setParameterDataEiPvj
+00004da9 _ZN4FMOD3DSP17getParameterFloatEiPfPci
+00004dd0 _ZN4FMOD3DSP15getParameterIntEiPiPci
+00004df5 _ZN4FMOD3DSP16getParameterDataEiPPvPjPci
+00004e1e _ZN4FMOD3DSP16getNumParametersEPi
+00004e40 _ZN4FMOD3DSP16getParameterInfoEiPP23FMOD_DSP_PARAMETER_DESC
+00004e7c _ZN4FMOD3DSP21getDataParameterIndexEiPi
+00004ea4 _ZN4FMOD3DSP7getInfoEPcPjPiS3_S3_
+00004ec6 _ZN4FMOD3DSP7getTypeEP13FMOD_DSP_TYPE
+00004eec _ZN4FMOD3DSP7getIdleEPb
+00004f04 _ZN4FMOD3DSP11getUserDataEPPv
+00004f22 _ZN4FMOD3DSP18setMeteringEnabledEbb
+00004f46 _ZN4FMOD3DSP18getMeteringEnabledEPbS1_
+00004f6d _ZN4FMOD3DSP15getMeteringInfoEP22FMOD_DSP_METERING_INFOS2_
+00004fa8 _ZN4FMOD3DSP11getCPUUsageEPjS1_
+00004fc8 _ZN4FMOD13DSPConnection6setMixEf
+00004fe9 _ZN4FMOD13DSPConnection12setMixMatrixEPfiii
+00005015 _ZN4FMOD8Reverb3D7releaseEv
+00005031 _ZN4FMOD8Reverb3D15set3DAttributesEPK11FMOD_VECTORff
+00005066 _ZN4FMOD8Reverb3D15get3DAttributesEP11FMOD_VECTORPfS3_
+0000509d _ZN4FMOD8Reverb3D13setPropertiesEPK22FMOD_REVERB_PROPERTIES
+000050d9 _ZN4FMOD8Reverb3D13getPropertiesEP22FMOD_REVERB_PROPERTIES
+00005114 _ZN4FMOD8Reverb3D9setActiveEb
+00005132 _ZN4FMOD8Reverb3D9getActiveEPb
+00005151 FMOD_File_GetDiskBusy
+00005167 FMOD_Thread_SetAttributes
+00005181 FMOD_OS_CriticalSection_Enter
+0000519f FMOD_OS_CriticalSection_Leave
+000051bd FMOD_OS_Time_Sleep
+000051d0 _ZN4FMOD7SystemI9enterCritENS_16FMOD_SYSTEM_CRITE
+00005202 _ZN4FMOD7SystemI9leaveCritENS_16FMOD_SYSTEM_CRITE
+00005234 _ZN4FMOD6ThreadC1Ev
+00005248 _ZN4FMOD6Thread11closeThreadEv
+00005267 FMOD_OS_CriticalSection_Free
+00005284 FMOD_OS_CriticalSection_Create
+000052a3 memset
+000052aa FMOD_snprintf
+000052b8 _ZN4FMOD6Thread10initThreadEPKcPFvPvES3_16FMOD_THREAD_TYPEbiPNS_7SystemIEb
+00005303 _ZN4FMOD8ChannelI8validateEPNS_7ChannelEPPS0_PNS_15SystemLockScopeE
+00005347 _ZN4FMOD14FMOD_FormatArgEPcii
+00005365 _Z16FMOD_ReportError11FMOD_RESULT31FMOD_ERRORCALLBACK_INSTANCETYPEPKvPKcS4_
+000053b1 _ZN4FMOD14FMOD_FormatArgEPciPKi
+000053d1 _ZN4FMOD14FMOD_FormatArgEPcij
+000053ef _ZN4FMOD14FMOD_FormatArgEPciPKc
+0000540f _ZN4FMOD14FMOD_FormatArgEPciPKv
+0000542f _ZN4FMOD14FMOD_FormatArgEPcif
+0000544d _ZN4FMOD14FMOD_FormatArgEPciPKf
+0000546d _ZN4FMOD14FMOD_FormatArgEPciPKb
+0000548d FMOD_OS_Semaphore_Signal
+000054a6 _ZN4FMOD14FMOD_FormatArgEPcib
+000054c4 _ZN4FMOD14FMOD_FormatArgEPciy
+000054e2 _ZN4FMOD14FMOD_FormatArgEPciPK11FMOD_VECTOR
+0000550e acosf
+00005514 sincosf
+0000551c _ZN4FMOD7MemPool5allocEiPKcijbb
+0000553c FMOD_strcpy_safe
+0000554d _ZN4FMOD4File5closeEv
+00005563 memcpy
+0000556a _ZN4FMOD4File4tellEPj
+00005580 _ZN4FMOD4File4seekEii
+00005596 _ZN4FMOD4File4readEPvjjPj
+000055b0 FMOD_strncmp
+000055bd __memcpy_chk
+000055ca _ZN4FMOD7MemPool7reallocEPviPKcij
+000055ec FMOD_strlen
+000055f8 memmove
+00005600 _ZN4FMOD4DSPI8validateEPNS_3DSPEPPS0_PNS_15SystemLockScopeE
+0000563c powf
+00005641 cosf
+00005646 _ZN4FMOD10MemoryFile4initEPNS_7SystemIEjiPv
+00005672 _ZTVN4FMOD10MemoryFileE
+0000568a _ZN4FMOD4FileC2Ev
+0000569c expf
+000056a1 __memset_chk
+000056ae memcmp
+000056b5 log10f
+000056bc _ZN4FMOD7MemPool11alignedFreeEPvPKci
+000056e1 __strncpy_chk2
+000056f0 _ZN4FMOD9TimeStamp7stampInEv
+0000570d _ZN4FMOD9TimeStamp8stampOutEi
+0000572b _ZN4FMOD7MemPool12alignedAllocEiiPKcijb
+00005753 atanf
+00005759 tanf
+0000575e atan2f
+00005765 sinf
+0000576a FMOD_OS_Time_GetUs
+0000577d FMOD_strnicmp
+0000578b _ZN4FMOD4File4openEPKcjjS2_
+000057a7 FMOD_strdup
+000057b3 _ZN4FMOD4File15setFileCategoryENS_18FMOD_FILE_CATEGORYE
+000057eb atoi
+000057f0 FMOD_strcat_safe
+00005801 FMOD_stricmp
+0000580e strtoul
+00005816 FMOD_strstr
+00005822 FMOD_OS_Semaphore_Create
+0000583b FMOD_OS_Semaphore_Free
+00005852 FMOD_OS_Semaphore_Wait
+00005869 _ZN4FMOD14FMOD_FormatArgEPcic
+00005887 _ZN4FMOD14FMOD_FormatArgEPciRK11FMOD_VECTOR
+000058b3 _ZN4FMOD14FMOD_FormatArgEPciRK9FMOD_GUID
+000058dc _ZN4FMOD14FMOD_FormatArgEPciPK9FMOD_GUID
+00005905 _ZN4FMOD10getGlobalsEPPNS_6GlobalE
+00005928 FMOD_strcmp
+00005934 FMOD_OS_Time_GetMs
+00005947 setsockopt
+00005952 fcntl
+00005958 getaddrinfo
+00005964 socket
+0000596b connect
+00005973 __FD_SET_chk
+00005980 select
+00005987 getsockopt
+00005992 __errno
+0000599a close
+000059a0 freeaddrinfo
+000059ad bind
+000059b2 listen
+000059b9 accept
+000059c0 shutdown
+000059c9 sendto
+000059d0 recvfrom
+000059d9 qsort
+000059df asinf
+000059e5 logf
+000059ea vsnprintf
+000059f4 FMOD_vsnprintf
+00005a03 FMOD_tolower
+00005a10 FMOD_strchr
+00005a1c FMOD_strrchr
+00005a29 FMOD_atoi_hex
+00005a37 _ZN4FMOD7SystemI8validateEPNS_6SystemEPPS0_PNS_15SystemLockScopeE
+00005a79 _ZN4FMOD7SystemI19createClientProfileEv
+00005aa1 _ZN4FMOD7SystemI19setInternalCallbackEiPF11FMOD_RESULTP11FMOD_SYSTEMjPvS4_S4_ES4_
+00005af3 _ZN4FMOD9TimeStampC1Ev
+00005b0a _ZNK4FMOD9TimeStamp11getCPUUsageEPf
+00005b2e strncmp
+00005b36 _ZN4FMOD7SystemI16createMemoryFileEPPNS_4FileE
+00005b65 _ZN4FMOD7SystemI14createDiskFileEPKcP22FMOD_CREATESOUNDEXINFOPPNS_4FileEPb
+00005bb0 __strlen_chk
+00005bbd FMOD_OS_Thread_GetCurrentID
+00005bd9 _ZN4FMOD9TimeStamp9setPausedEb
+00005bf8 memchr
+00005c03 sincos
+00005c0a ldexp
+00005c18 Java_org_fmod_MediaCodec_fmodReadAt
+00005c3c Java_org_fmod_MediaCodec_fmodGetSize
+00005c61 fopen
+00005c67 fseek
+00005c6d ftell
+00005c73 fclose
+00005c7a fread
+00005c80 feof
+00005c85 fwrite
+00005c8c fflush
+00005c93 fdopen
+00005c9a JNI_OnLoad
+00005ca5 Java_org_fmod_FMOD_OutputAAudioHeadphonesChanged
+00005cd6 Java_org_fmod_FMOD_SetInputEnumerationChanged
+00005d04 Java_org_fmod_FMOD_SetOutputEnumerationChanged
+00005d33 clock_gettime
+00005d41 stderr
+00005d48 fprintf
+00005d50 malloc
+00005d57 realloc
+00005d5f free
+00005d64 nanosleep
+00005d6e gettid
+00005d75 setpriority
+00005d81 syscall
+00005d89 pthread_attr_init
+00005d9b pthread_attr_setdetachstate
+00005db7 pthread_attr_setstacksize
+00005dd1 pthread_create
+00005de0 pthread_attr_destroy
+00005df5 pthread_mutexattr_init
+00005e0c pthread_mutexattr_settype
+00005e26 pthread_mutex_init
+00005e39 pthread_mutexattr_destroy
+00005e53 pthread_mutex_destroy
+00005e69 pthread_mutex_lock
+00005e7c pthread_mutex_unlock
+00005e91 sem_init
+00005e9a sem_destroy
+00005ea6 sem_wait
+00005eaf sem_post
+00005eb8 dlopen
+00005ebf dlsym
+00005ec5 dlclose
+00005ecd __assert2
+00005ed7 pthread_once
+00005ee4 __open_2
+00005eed read
+00005ef2 dlerror
+00005efa __read_chk
+00005f05 __wrap___cxa_begin_catch
+00005f1e __wrap__ZTVN10__cxxabiv120__si_class_type_infoE
+00005f4e __wrap__ZTVN10__cxxabiv117__class_type_infoE
+00005f7b __wrap___cxa_guard_release
+00005f96 __wrap__ZdlPv
+00005fa4 __wrap___cxa_pure_virtual
+00005fbe __wrap___gxx_personality_v0
+00005fda __wrap__Unwind_Resume
+00005ff0 __wrap__ZSt9terminatev
+00006007 __wrap___cxa_guard_acquire
+00006022 __wrap__ZTVN10__cxxabiv121__vmi_class_type_infoE
+00006053 getauxval
+0000605d __system_property_get
+00006073 libdl.so
+0000607c LIBC
+00006081 libm.so
+00006089 libc.so
+00006091 libc++_shared.so
+000060a2 libfmod.so
+000060b0 APS28
+000062ba UUUUUU#
+000062c8 UEEDDDUD
+000062d8 QUUUUUUU
+000062e8 UUUUUUUU
+000062f8 UUUUUUUU
+00008e90 %p:{%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x}
+00008ec6 %p:{%g,%g,%g}
+00008eda Use Proxy
+00008ee4 Duty
+00008ee9 Density
+00008ef1 Channel::setPriority
+00008f06 ChannelControl::getAudibility
+00008f24 Moved Permanently
+00008f36 Channel::setFrequency
+00008f4c Channel::getFrequency
+00008f62 Lower Frequency
+00008f72 Upper Frequency
+00008f82 Low Shelf Frequency
+00008f96 supportsLowLatency
+00008fa9 Bad Gateway
+00008fb5 Max delay
+00008fbf RightDelay
+00008fca LeftDelay
+00008fd4 ChannelControl::setDelay
+00008fed ChannelControl::getDelay
+00009006 PanDelay
+0000900f Early Delay
+0000901b Late Delay
+00009026 content-security-policy: sandbox
+00009047 System::getDefaultMixMatrix
+00009063 DSPConnection::setMixMatrix
+0000907f ChannelControl::setMixMatrix
+0000909c DSP::setWetDryMix
+000090ae DSP::getWetDryMix
+000090c0 DSPConnection::setMix
+000090d6 Early/Late Mix
+000090e5 DSP::getDataParameterIndex
+00009100 ChannelControl::getDSPIndex
+0000911c FMODGetOutputDescriptionEx
+00009137 FMODGetCodecDescriptionEx
+00009151 FMODGetDSPDescriptionEx
+00009169 FMODStudio/%x.%02x.%02x
+00009181 response low
+0000918e Skew
+00009193 fmodoutput.wav
+000091a2 %p:%llu
+000091aa %p:%u
+000091b0 Android audio output
+000091c5 Audio Track output
+000091d8 System::setOutput
+000091ea System::getOutput
+000091fc FMOD WavWriter Output
+00009212 FMOD AAudio Output
+00009225 FMOD Audio Track Output
+0000923d FMOD Software Output
+00009252 FMOD NoSound Output
+00009266 FMOD OpenSL ES Output
+0000927c Android audio input
+00009290 DSP::addInput
+0000929e Gateway Time-out
+000092af Request Time-out
+000092c0 High Cut
+000092c9 AAudioStream_getFramesPerBurst
+000092e8 FMODGetPluginDescriptionList
+00009305 System::attachChannelGroupToPort
+00009326 System::detachChannelGroupFromPort
+00009349 AAudioStream_requestStart
+00009363 System::recordStart
+00009377 Channel::setLoopCount
+0000938d Channel::getLoopCount
+000093a3 AAudioStream_getXRunCount
+000093bd AAudioStream_getChannelCount
+000093da Channel Count
+000093e8 ChannelControl::addFadePoint
+00009405 Surround pan extent
+00009419 3D Min Extent
+00009427 Surr. Extent
+00009434 /sys/devices/system/cpu/present
+00009454 Independent
+00009460 DSP::setParameterInt
+00009475 DSP::getParameterInt
+0000948a Default
+00009492 FMOD Mixer unit
+000094a2 System::init
+000094af checkInit
+000094b9 Transmit
+000094c2 AAudioStreamBuilder_setInputPreset
+000094e5 androidRecordingPreset
+000094fc DSP::reset
+00009507 Temporary Redirect
+0000951a ChannelControl::getSystemObject
+0000953a Sound::getSystemObject
+00009551 DSP::getSystemObject
+00009566 fact
+0000956b DSP::setParameterFloat
+00009582 DSP::getParameterFloat
+00009599 32 bit Float
+000095a6 AAudioStream_getFormat
+000095bd Sound::getFormat
+000095ce DSP::setChannelFormat
+000095e4 DSP::getChannelFormat
+000095fa System::setSoftwareFormat
+00009614 System::getSoftwareFormat
+0000962e Output Format
+0000963c fmodReadAt
+00009647 Show Delays
+00009653 ReturnBus
+0000965d DSP::getNumInputs
+0000966f Sound::getLoopPoints
+00009684 ChannelControl::getFadePoints
+000096a2 ChannelControl::removeFadePoints
+000096c3 Sound::setDefaults
+000096d6 Sound::getDefaults
+000096e9 Weights
+000096f1 Channel weightings for loudness
+00009711 Loudness
+0000971a DSP::setBypass
+00009729 DSP::getBypass
+00009738 All-pass
+00009741 Band-pass
+0000974b System::getRecordNumDrivers
+00009767 DSP::getNumParameters
+0000977d System::set3DNumListeners
+00009797 ChannelGroup::getNumGroups
+000097b2 System::getNumPlugins
+000097c8 System::getNumNestedPlugins
+000097e7 Max channels
+000097f4 ChannelGroup::getNumChannels
+00009811 System::setSoftwareChannels
+0000982d System::getSpeakerModeChannels
+0000984c Stereo-To-Surround Stereo Axis
+0000986b Surr. Stereo Axis
+0000987d ChannelControl::set3DConeSettings
+0000989f ChannelControl::get3DConeSettings
+000098c1 System::setAdvancedSettings
+000098dd System::getAdvancedSettings
+000098f9 System::get3DSettings
+0000990f Octaves
+00009917 Accept-Ranges: bytes
+0000992c Content-Range: bytes
+00009941 System::set3DListenerAttributes
+00009961 System::get3DListenerAttributes
+00009981 ChannelControl::set3DAttributes
+000099a1 Reverb3D::set3DAttributes
+000099bb ChannelControl::get3DAttributes
+000099db Reverb3D::get3DAttributes
+000099f5 AAudioStreamBuilder_setBufferCapacityInFrames
+00009a23 AAudioStream_getBufferCapacityInFrames
+00009a4a AAudioStream_setBufferSizeInFrames
+00009a6d AAudioStream_getBufferSizeInFrames
+00009a90 Reverb3D::setProperties
+00009aa8 Reverb3D::getProperties
+00009ac0 ChannelControl::setReverbProperties
+00009ae4 ChannelControl::getReverbProperties
+00009b08 getDevices
+00009b13 Sound::getNumSubSounds
+00009b2a seconds
+00009b32 ChannelControl::getNumDSPs
+00009b4d %p:%s
+00009b53 Quality factor
+00009b62 Internal Server Error
+00009b78 AAudioStreamBuilder_setSpatializationBehavior
+00009ba6 Low Crossover
+00009bb4 High Crossover
+00009bc3 System::getDriver
+00009bd5 NoSound Driver
+00009be4 Receiver or transmitter
+00009bfc FMOD master
+00009c08 See Other
+00009c12 8 bit Integer
+00009c20 16 bit Integer
+00009c2f 24 bit Integer
+00009c3e 32 bit Integer
+00009c4d getAssetManager
+00009c5d AAudio_createStreamBuilder
+00009c78 ChanGroup Fader
+00009c88 Channel Fader
+00009c96 icy-br
+00009c9d Center freq
+00009ca9 Cutoff freq
+00009cb5 Band Start Freq
+00009cc5 Band Stop Freq
+00009cd4 icy-icq
+00009cdc ice-icq
+00009ce4 ftyp
+00009ce9 ChannelGroup::getParentGroup
+00009d06 ChannelGroup::getGroup
+00009d1d Channel::setChannelGroup
+00009d36 System::getMasterChannelGroup
+00009d54 System::createChannelGroup
+00009d6f ChannelGroup::addGroup
+00009d86 C) Gain make-up
+00009d96 B) Gain make-up
+00009da6 A) Gain make-up
+00009db6 third-party/fmod/2.03.06/engine/core_api/src/fmod_pluginfactory.cpp
+00009dfa third-party/fmod/2.03.06/engine/core_api/src/fmod_memory.cpp
+00009e37 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_delay.cpp
+00009e77 third-party/fmod/2.03.06/engine/core_api/src/fmod_downmix.cpp
+00009eb5 third-party/fmod/2.03.06/engine/core_api/src/fmod_codec_wav.cpp
+00009ef5 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_convolutionreverb_cpu.cpp
+00009f45 third-party/fmod/2.03.06/engine/core_api/src/fmod_output.cpp
+00009f82 third-party/fmod/2.03.06/engine/core_api/src/fmod_output_wavwriter_nrt.cpp
+00009fcd third-party/fmod/2.03.06/engine/core_api/src/fmod_output_nosound_nrt.cpp
+0000a016 third-party/fmod/2.03.06/engine/core_api/src/fmod_profile_client.cpp
+0000a05b third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_pitchshift.cpp
+0000a0a0 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_fft.cpp
+0000a0de third-party/fmod/2.03.06/engine/core_api/src/fmod_systemi_fft.cpp
+0000a120 third-party/fmod/2.03.06/engine/core_api/src/fmod_fft.cpp
+0000a15a third-party/fmod/2.03.06/engine/core_api/src/fmod_file_net.cpp
+0000a199 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_chorus.cpp
+0000a1da third-party/fmod/2.03.06/engine/core_api/src/fmod_profile_stats.cpp
+0000a21e third-party/fmod/2.03.06/engine/core_api/src/fmod_codec_oggvorbis.cpp
+0000a264 third-party/fmod/2.03.06/engine/core_api/src/fmod_codec_fsbvorbis.cpp
+0000a2aa third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_multiband_dynamics.cpp
+0000a2f7 third-party/fmod/2.03.06/engine/core_api/src/fmod_geometry_mgr.cpp
+0000a33a third-party/fmod/2.03.06/engine/core_api/src/fmod_systemi_driver.cpp
+0000a37f third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_transceiver.cpp
+0000a3c5 third-party/fmod/2.03.06/engine/core_api/src/fmod_output_wavwriter.cpp
+0000a40c third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_resampler.cpp
+0000a450 third-party/fmod/2.03.06/engine/core_api/src/fmod_systemi_speaker.cpp
+0000a496 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_multiband_eq.cpp
+0000a4dd third-party/fmod/2.03.06/engine/core_api/src/fmod_systemi_dsp.cpp
+0000a51f third-party/fmod/2.03.06/engine/core_api/src/fmod_profile_dsp.cpp
+0000a561 third-party/fmod/2.03.06/engine/core_api/platforms/android/src/fmod_output_aaudio.cpp
+0000a5b7 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_itecho.cpp
+0000a5f8 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_echo.cpp
+0000a637 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_return.cpp
+0000a678 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_pan.cpp
+0000a6b6 third-party/fmod/2.03.06/engine/core_api/src/fmod_pan.cpp
+0000a6f0 third-party/fmod/2.03.06/engine/core_api/platforms/android/src/fmod_output_opensl.cpp
+0000a746 third-party/fmod/2.03.06/engine/core_api/src/fmod_expandingpool.cpp
+0000a78a third-party/fmod/2.03.06/engine/core_api/src/fmod_systemi_channel.cpp
+0000a7d0 third-party/fmod/2.03.06/engine/core_api/platforms/android/src/fmod_output_audiotrack.cpp
+0000a82a third-party/fmod/2.03.06/engine/core_api/src/fmod_channelgroupi.cpp
+0000a86e third-party/fmod/2.03.06/engine/core_api/src/fmod_soundgroupi.cpp
+0000a8b0 third-party/fmod/2.03.06/engine/core_api/src/fmod_dspi.cpp
+0000a8eb third-party/fmod/2.03.06/engine/core_api/src/fmod_systemi.cpp
+0000a929 third-party/fmod/2.03.06/engine/core_api/src/fmod_soundi.cpp
+0000a966 third-party/fmod/2.03.06/engine/core_api/src/fmod_reverbi.cpp
+0000a9a4 third-party/fmod/2.03.06/engine/core_api/src/fmod_string.cpp
+0000a9e1 third-party/fmod/2.03.06/engine/core_api/src/fmod_codec_tag.cpp
+0000aa21 third-party/fmod/2.03.06/engine/core_api/src/fmod_codec_wav_riff.cpp
+0000aa66 third-party/fmod/2.03.06/engine/core_api/src/fmod_output_software.cpp
+0000aaac third-party/fmod/2.03.06/engine/core_api/src/fmod_sample_software.cpp
+0000aaf2 third-party/fmod/2.03.06/engine/core_api/src/fmod_profile.cpp
+0000ab30 third-party/fmod/2.03.06/engine/core_api/src/fmod_profile_remotefile.cpp
+0000ab79 third-party/fmod/2.03.06/engine/core_api/src/fmod_file.cpp
+0000abb4 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_flange.cpp
+0000abf5 third-party/fmod/2.03.06/engine/core_api/src/fmod.cpp
+0000ac2b third-party/fmod/2.03.06/engine/core_api/src/fmod_output_nosound.cpp
+0000ac70 third-party/fmod/2.03.06/engine/core_api/src/fmod_systemi_sound.cpp
+0000acb4 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_porthead.cpp
+0000acf7 third-party/fmod/2.03.06/engine/core_api/platforms/android/src/fmod_os_misc.cpp
+0000ad47 third-party/fmod/2.03.06/engine/core_api/src/fmod_async.cpp
+0000ad83 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_convolutionreverb_async.cpp
+0000add5 third-party/fmod/2.03.06/engine/core_api/src/fmod_codec.cpp
+0000ae11 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_sfxreverb.cpp
+0000ae55 third-party/fmod/2.03.06/engine/core_api/src/fmod_dsp_convolutionreverb.cpp
+0000aea1 third-party/fmod/2.03.06/engine/core_api/src/fmod_metadata.cpp
+0000aee0 third-party/fmod/2.03.06/engine/core_api/src/fmod_codec_fsb5.cpp
+0000af21 third-party/fmod/2.03.06/engine/core_api/src/fmod_downmix_dolby_pl2.cpp
+0000af69 ChannelControl::stop
+0000af7e AAudioStream_requestStop
+0000af97 System::recordStop
+0000afaa Winamp
+0000afb1 ChannelControl::setFadePointRamp
+0000afd2 ChannelControl::setVolumeRamp
+0000aff0 ChannelControl::getVolumeRamp
+0000b00e Maximum amp
+0000b01a Overlap
+0000b022 Saw Up
+0000b029 Compress Up
+0000b035 Expand Up
+0000b042 Auto
+0000b047 libaaudio.so
+0000b054 libandroid.so
+0000b062 libc.so
+0000b06a libOpenSLES.so
+0000b079 All Mono
+0000b082 HF Decay Ratio
+0000b091 supportsAAudio
+0000b0a0 /proc/cpuinfo
+0000b0ae ice-audio-info
+0000b0bd DSP::getInfo
+0000b0ca System::getDriverInfo
+0000b0e0 System::getRecordDriverInfo
+0000b0fc DSP::getParameterInfo
+0000b112 System::getPluginInfo
+0000b128 DSP::getMeteringInfo
+0000b13d All Stereo
+0000b148 Saw Down
+0000b151 Compress Down
+0000b15f Expand Down
+0000b16b ice-description
+0000b17b FMODGetOutputDescription
+0000b194 FMODGetCodecDescription
+0000b1ac FMODGetDSPDescription
+0000b1c2 Stereo pan position
+0000b1d6 Channel::setPosition
+0000b1eb Channel::getPosition
+0000b200 System::getRecordPosition
+0000b21a Stereo Position
+0000b22a 3D Position
+0000b236 Surround pan direction
+0000b24d AAudioStreamBuilder_setDirection
+0000b26e Surr. Direction
+0000b27e Surround pan rotation
+0000b294 Surr. Rotation
+0000b2a3 ChannelControl::set3DConeOrientation
+0000b2c8 ChannelControl::get3DConeOrientation
+0000b2ed Stereo-To-Surround Stereo Separation
+0000b312 Surr. Stereo Separation
+0000b32a Diffusion
+0000b334 System::getVersion
+0000b347 System::getDSPInfoByPlugin
+0000b362 System::createDSPByPlugin
+0000b37c System::getNestedPlugin
+0000b394 System::unloadPlugin
+0000b3a9 System::loadPlugin
+0000b3bc Use sidechain
+0000b3ca Frequency gain
+0000b3d9 Make up gain
+0000b3e6 Receiving or transmitting gain
+0000b405 Low Gain
+0000b40e Output Gain
+0000b41a Maximizer Gain
+0000b429 Overall Gain
+0000b436 Channel Gain
+0000b443 High Gain
+0000b44d Low Shelf Gain
+0000b45c Mid Gain
+0000b465 AAssetManager_open
+0000b478 Forbidden
+0000b482 DSP::disconnectFrom
+0000b496 icy-aim
+0000b49e ice-aim
+0000b4a6 AAudioStreamBuilder_openStream
+0000b4c5 icy-url
+0000b4cd ice-url
+0000b4d5 smpl
+0000b4da DSP::setParameterBool
+0000b4f0 DSP::disconnectAll
+0000b503 Loudness info and maximum true peak level
+0000b52d Surround pan LFE level
+0000b544 DryLevel
+0000b54d WetLevel
+0000b556 ChannelControl::set3DDopplerLevel
+0000b578 Dry Level
+0000b582 Wet Level
+0000b58c Send Level
+0000b597 Surr. LFE Level
+0000b5a7 Transmit channel
+0000b5b8 ChannelGroup::getChannel
+0000b5d1 labl
+0000b5d6 getauxval
+0000b5e0 Channel::isVirtual
+0000b5f3 supportsSpatial
+0000b603 AAudioStreamBuilder_setChannelMask
+0000b626 AAsset_seek
+0000b632 Sound::unlock
+0000b640 ChannelControl::getDSPClock
+0000b65c Sound::lock
+0000b668 Attack
+0000b66f System::setCallback
+0000b683 ChannelControl::setCallback
+0000b69f DSP::setCallback
+0000b6b0 AAudioStreamBuilder_setErrorCallback
+0000b6d5 AAudioStreamBuilder_setDataCallback
+0000b6f9 Feedback
+0000b702 fileDescriptorFromUri
+0000b718 Depth
+0000b71e AAsset_getLength
+0000b72f Sound::getLength
+0000b740 System::setPluginPath
+0000b756 response high
+0000b764 Notch
+0000b76a ChannelControl::setPitch
+0000b783 ChannelControl::getPitch
+0000b79c ro.arch
+0000b7a4 third-party/fmod/2.03.06/engine/core_api/src/fmod_array.h
+0000b7de third-party/fmod/2.03.06/engine/core_api/src/fmod_autocleanup.h
+0000b81e System::getChannelsPlaying
+0000b839 ChannelControl::isPlaying
+0000b853 Analysing
+0000b85d Channel Mapping
+0000b86d Target speaker mode for surround panning
+0000b896 Ceiling
+0000b89e Non Blocking
+0000b8ab Peaking
+0000b8b3 System::isRecording
+0000b8c7 Sound::getTag
+0000b8d5 %p:%g
+0000b8db Low-shelf
+0000b8e5 High-shelf
+0000b8f0 ChannelControl::set3DCustomRolloff
+0000b913 3D Rolloff
+0000b91e %.02f
+0000b924 %.1f
+0000b92c FFT size
+0000b935 fmodGetSize
+0000b941 System::setStreamBufferSize
+0000b95d System::getStreamBufferSize
+0000b979 System::setDSPBufferSize
+0000b992 System::getDSPBufferSize
+0000b9ab getOutputBlockSize
+0000b9be 3D Sound Size
+0000b9cc DSP::setActive
+0000b9db Reverb3D::setActive
+0000b9ef DSP::getActive
+0000b9fe Reverb3D::getActive
+0000ba12 Receive
+0000ba1a dB/8ve
+0000ba21 true
+0000ba26 ChannelControl::setMute
+0000ba3e ChannelControl::getMute
+0000ba56 write
+0000ba5c AAudioStreamBuilder_delete
+0000ba77 ice-private
+0000ba83 Integration state
+0000ba95 AAudioStream_getState
+0000baab Sound::getOpenState
+0000babf ice-bitrate
+0000bacb System::update
+0000bada getOutputSampleRate
+0000baee AAudioStream_getSampleRate
+0000bb09 AAsset_close
+0000bb16 AAudioStream_close
+0000bb29 Impulse Response
+0000bb3a false
+0000bb40 Noise
+0000bb46 Phase
+0000bb4c ChannelGroup::release
+0000bb62 System::release
+0000bb72 Sound::release
+0000bb81 DSP::release
+0000bb8e Reverb3D::release
+0000bba0 Release
+0000bba8 icy-genre
+0000bbb2 ice-genre
+0000bbbc Square
+0000bbc3 Oscillator type
+0000bbd3 Significant frequency for the filter type
+0000bbfd Select a waveform type
+0000bc14 System::getDSPInfoByType
+0000bc2d System::createDSPByType
+0000bc45 DSP::getType
+0000bc52 androidPlaybackStreamType
+0000bc6c getDeviceType
+0000bc7a Slope
+0000bc80 Shape
+0000bc86 Show None
+0000bc90 slCreateEngine
+0000bc9f Sine
+0000bca4 ChannelControl::setVolume
+0000bcbe ChannelControl::getVolume
+0000bcd8 FMOD WavWriter Output - Non real-time
+0000bcfe FMOD NoSound Output - Non real-time
+0000bd22 Fade in time
+0000bd2f Decay Time
+0000bd3a Release Time
+0000bd47 icy-name
+0000bd50 ice-name
+0000bd59 ChannelGroup::getName
+0000bd6f getDeviceName
+0000bd7d Triangle
+0000bd86 System::getPluginHandle
+0000bd9e DSP::getIdle
+0000bdab /sys/devices/system/cpu/possible
+0000bdcc Service Unavailable
+0000bde0 Octave range
+0000bded Attenuation Range
+0000bdff Override Range
+0000be0e AAudioStreamBuilder_setUsage
+0000be2b System::getFileUsage
+0000be40 System::getCPUUsage
+0000be54 DSP::getCPUUsage
+0000be65 Downmix mode
+0000be72 Transmit mode
+0000be80 Output speaker mode
+0000be94 Speaker mode
+0000bea1 Linked mode
+0000bead Refer to error code
+0000bec1 ChannelControl::setMode
+0000bed9 Sound::setMode
+0000bee8 ChannelControl::getMode
+0000bf00 Sound::getMode
+0000bf0f DelayChangeMode
+0000bf1f AAudioStreamBuilder_setPerformanceMode
+0000bf46 3D Extent Mode
+0000bf55 Output Speaker Mode
+0000bf69 Input Speaker Mode
+0000bf7c Panning Mode
+0000bf89 Immediate Mode
+0000bf98 Stereo-Surround Mode
+0000bfad Stereo-To-Surround Mode
+0000bfc5 Method of smoothing delay value changes. Fade = For large delay changes. Lerp = For small delay changes. None = No smoothing. Default = Fade
+0000c052 HF Reference
+0000c05f ChannelControl::set3DMinMaxDistance
+0000c083 ChannelControl::get3DMinMaxDistance
+0000c0a7 3D Max Distance
+0000c0b7 3D Min Distance
+0000c0c7 Resonance
+0000c0d1 org/fmod/AudioDevice
+0000c0e6 Surround
+0000c0ef System::playSound
+0000c101 Channel::getCurrentSound
+0000c11a System::createSound
+0000c12e Sound::getSubSound
+0000c141 Not Found
+0000c14b System::mixerSuspend
+0000c160 Surround pan height blend
+0000c17a Height Blend
+0000c187 3D Pan Blend
+0000c194 Threshold
+0000c19e %p:%lld
+0000c1a6 Centroid
+0000c1af response mid
+0000c1bc Unauthorized
+0000c1c9 HTTP Version not supported
+0000c1e4 Not Implemented
+0000c1f4 Type of filter, affects how all other parameters are interpreted
+0000c235 ChannelControl::setPaused
+0000c24f ChannelControl::getPaused
+0000c269 Proxy Authentication Required
+0000c287 Disabled
+0000c290 DSP::setMeteringEnabled
+0000c2a8 DSP::getMeteringEnabled
+0000c2c0 LFE Upmix Enabled
+0000c2d2 Surround Speakers Enabled
+0000c2ec Surr. Speakers Enabled
+0000c303 Transfer-Encoding: chunked
+0000c31e Linked
+0000c325 OutputAAudioHeadphonesChanged
+0000c343 SetOutputEnumerationChanged
+0000c35f SetInputEnumerationChanged
+0000c37a All Quad
+0000c383 Spread
+0000c38a FMOD mixer thread
+0000c39c FMOD feeder thread
+0000c3af FMOD Convolution thread
+0000c3c7 FMOD stream thread
+0000c3da FMOD file thread
+0000c3eb AAsset_read
+0000c3f7 AAudioStream_read
+0000c409 Output Port Head
+0000c41a AAudioStreamBuilder_setDeviceId
+0000c43a AAudioStream_getDeviceId
+0000c453 %p:%d
+0000c459 icy-irc
+0000c461 ice-irc
+0000c469 ice-public
+0000c474 System::registerCodec
+0000c48a org/fmod/MediaCodec
+0000c49e FMOD Raw Codec
+0000c4ad FMOD Wav Codec
+0000c4bc FMOD Ogg Vorbis Codec
+0000c4d2 FMOD Vorbis Codec
+0000c4e4 FMOD User Reader Codec
+0000c4fb FMOD Tag Reader Codec
+0000c511 MediaCodec Codec
+0000c522 FMOD FADPCM Codec
+0000c534 FMOD FSB Codec
+0000c546 icy-pub
+0000c551 DSPI::RunJob
+0000c55e AAssetManager_fromJava
+0000c575 spectrum data
+0000c583 DSP::setParameterData
+0000c599 DSP::getParameterData
+0000c5af System::setUserData
+0000c5c3 ChannelControl::setUserData
+0000c5df Sound::setUserData
+0000c5f2 ChannelControl::getUserData
+0000c60e Sound::getUserData
+0000c621 DSP::getUserData
+0000c632 Spectrum Data
+0000c640 Boost or attenuation [high/low shelf and peaking only]
+0000c677 %s [%llu %llu]
+0000c686 https:\\
+0000c68f mms:\\
+0000c696 http:\\
+0000c69e (J)Z
+0000c6a3 (IIII)Z
+0000c6b3 SL_IID_PLAY
+0000c6d3 ([SI)V
+0000c6da (I)V
+0000c6e7 ARTIST
+0000c6ee LIST
+0000c6f3 SDK_INT
+0000c6fb COMMENT
+0000c706 OggS
+0000c717 YEAR
+0000c71c System::playDSP
+0000c72c ChannelControl::getDSP
+0000c743 System::registerDSP
+0000c757 ChannelControl::removeDSP
+0000c771 System::createDSP
+0000c783 ChannelControl::addDSP
+0000c79a Virtual DSP
+0000c7a6 SL_IID_ANDROIDCONFIGURATION
+0000c7c2 android/os/Build$VERSION
+0000c7de ALBUM
+0000c7e8 TRACK
+0000c7ee (J)J
+0000c7f7 (I)[I
+0000c801 (JJ[BII)I
+0000c80b ([BI)I
+0000c812 (I)I
+0000c817 (Ljava/lang/String;)I
+0000c841 RIFF
+0000c846 AIFF
+0000c84b WAVE
+0000c850 TRUE = Channels are mixed to mono, Default = TRUE
+0000c882 SL_IID_ANDROIDSIMPLEBUFFERQUEUE
+0000c8a2 FALSE
+0000c8a8 GENRE
+0000c8ae SL_IID_ENGINE
+0000c8bc NONAME
+0000c8c3 TITLE
+0000c8c9 All LFE
+0000c8d1 SL_IID_RECORD
+0000c8df org/fmod/FMOD
+0000c8f1 Return ID
+0000c8fb System::createReverb3D
+0000c912 FLAC
+0000c917 Low-pass 48dB
+0000c925 High-pass 48dB
+0000c934 Low-pass 6dB
+0000c941 High-pass 6dB
+0000c94f Low-pass 24dB
+0000c95d High-pass 24dB
+0000c96c Low-pass 12dB
+0000c97a High-pass 12dB
+0000c989 Gain in dB
+0000c994 %.1f dB
+0000c9ac <init>
+0000c9b3 ()Landroid/content/res/AssetManager;
+0000c9d8 (I)Ljava/lang/String;
+0000c9ee icy-metaint:
+0000c9fb icy-br:
+0000ca03 icy-icq:
+0000ca0c icy-aim:
+0000ca15 icy-url:
+0000ca1e Content-Length:
+0000ca2e icy-genre:
+0000ca39 icy-name:
+0000ca43 icy-irc:
+0000ca4c icy-pub:
+0000ca55 icy-notice2:
+0000ca62 icy-notice1:
+0000ca6f Delay ch9
+0000ca7d Delay ch8
+0000ca87 Delay ch7
+0000ca91 Delay ch6
+0000ca9b Delay ch5
+0000caa5 FSB5
+0000caaa Delay ch15
+0000cab5 Delay ch4
+0000cac3 FSB4
+0000cac8 Delay ch14
+0000cad3 All 7.1.4
+0000cadd Delay ch3
+0000caef Delay ch13
+0000cafa Delay ch2
+0000cb04 icy-notice2
+0000cb14 TIT2
+0000cb1d Delay ch12
+0000cb28 Device channel count. Default = 2
+0000cb4a Delay ch1
+0000cb54 icy-notice1
+0000cb60 Delay ch11
+0000cb6b All 7.1
+0000cb73 All 5.1
+0000cb7b HTTP/1.1
+0000cb84 Delay ch0
+0000cb8e Gain in dB. -80 to 10. Default = -80
+0000cbb3 Delay ch10
+0000cbbe exynos9810
+0000cbc9 HTTP/1.0
+0000cbd2 Lowpass resonance Q value. 0.0 to 127.0.  Default = 1.0
+0000cc0a Echo decay per delay.  0 to 100.  100.0 = No decay, 0.0 = total decay.  Default = 50.0
+0000cc61 Lowpass cutoff frequency in hz.  1.0 to 22000.0.  Default = 5000.0
+0000cca4 Highpass cutoff frequency in hz.  10.0 to 22000.0.  Default = 1000.0
+0000cce9 Gain in dB. -80 to 10. Default = 0
+0000cd0c fmod:///remote/
+0000cd1c https://
+0000cd25 mms://
+0000cd2c http://
+0000cd34 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+0000cd75 Chorus modulation rate in Hz.  0.0 to 20.0.  Default = 0.8 Hz.
+0000cdb4 Ratio that levels above threshold will be attenuated by.
+0000cded Maximum amplification allowed.  1.0 to 100000.0.  Default = 20.0.  1.0 = no amplifaction, higher values allow more boost.
+0000ce67 Maximum amplification allowed in dB.  0.0 to 12.0.  Default = 0.0. 0.0 = no amplifaction, higher values allow more boost.
+0000cee1 Output Format.
+0000cef0 Compressor attack time. [0.1ms,500ms]  Default = 20ms.
+0000cf27 Compressor release time. [10ms,5000ms]  Default = 200ms.
+0000cf60 Delay for right channel, in milliseconds, in the range from 1.0 through 2000.0. The default value is 500 ms.
+0000cfcd Delay for left channel, in milliseconds, in the range from 1.0 through 2000.0. The default value is 500 ms.
+0000d039 Whether to apply gain envelope per-channel, or linked to all channels.
+0000d080 Lower volume range threshold to ignore.  0.0 to 1.0.  Default = 0.1.  Raise higher to stop amplification of very quiet signals.
+0000d100 FFT window size.  256, 512, 1024, 2048, 4096.  Default = 1024.  Increase this to reduce 'smearing'.  This effect is a warbling sound similar to when an mp3 is encoded at very low bitrates.
+0000d1bd ID of this Return DSP (read-only). Used for connecting sends.
+0000d1fb Crossover frequency between bands.
+0000d21e Channel Gain.
+0000d22c Analyse the sidechain signal instead of the input signal.
+0000d266 Pitch value.  0.5 to 2.0.  Default = 1.0. 0.5 = one octave down, 2.0 = one octave up.  1.0 does not change the pitch.
+0000d2dc Post-gain to apply after filtering.
+0000d300 Channel Mapping.
+0000d311 Deg.
+0000d316 Whether to use an external signal to trigger the gain envelope.
+0000d356 Attack time of the gain envelope.
+0000d378 Release time of the gain envelope.
+0000d39b Window overlap.  1 to 32.  Default = 4.  Increase this to reduce 'tremolo' effect.  Increasing it by a factor of 2 doubles the CPU usage.
+0000d425 Dynamic compression or expansion mode.
+0000d44c Pre-gain to apply to frequency band.
+0000d471 Signal RMS in analysis band.
+0000d48e Start frequency of analysis band.
+0000d4b0 Stop frequency of analysis band.
+0000d4d1 Spectral centroid of analysis band.
+0000d4f5 The per-channel dynamic response of this band.
+0000d524 Decibel level at which compression/expansion will be applied.
+0000d562 Spectrum data.
+0000d571 ID of the Return DSP this send is connected to (integer values only). -1 indicates no connected Return DSP.
+0000d5dd Input signal channels [TRUE = summed together, FALSE = use each channel separately].  Default = TRUE.
+0000d643 Input signal channels [TRUE = summed together, FALSE = use each channel separately].  Default = FALSE.
+0000d6aa Immediate rendering [FALSE = data requests will have a delay on first time use, TRUE = data requests will have no delay on first time use].  Default = FALSE.
+0000d748 Compressor make up gain [-30dB, 30dB]  Default = 0dB.
+0000d77e Compressor threshold [-60dB, 0dB]  Default = 0dB.
+0000d7b0 Compressor ratio. [1,50]  Default = 2.5.
+0000d7d9 LFO on-time.  0 to 1.  Default = 0.5.
+0000d7ff Distortion value.  0.0 to 1.0.  Default = 0.5.
+0000d82e LFO frequency in Hz.  0.01 to 20.  Default = 5.
+0000d85e FFT window shape. 0 = rect, 1 = tri, 2 = hamming, 3 = hanning, 4 = blackman, 5 = blackman harris.  Default = 2.
+0000d8ce Flange speed in Hz.  0.0 to 20.0.  Default = 0.1.
+0000d900 Channel to analyze. Default = -1.
+0000d922 Tremolo depth.  0 to 1.  Default = 1.
+0000d948 Percentage of output fed back into input, in the range from 0.0 through 100.0. The default value is 50.
+0000d9b0 Ratio of wet (processed) signal to dry (unprocessed) signal. Must be in the range from 0.0 through 100.0 (all wet). The default value is 50.
+0000da3d Maximum delay in ms.  1  to 10000.  Default = 10.
+0000da6f Echo delay in ms.  1 to 5000.  Default = 500.
+0000da9d Volume of original signal to pass to output.  0.0 to 100.0. Default = 100.
+0000dae8 Chorus modulation depth.  0.0 to 100.0.  Default = 3.0.
+0000db20 Octave range around the center frequency to filter.  0.2 to 5.0.  Default = 1.0.
+0000db71 Flange depth.  0.01 to 1.0.  Default = 1.0.
+0000db9d Frequency Gain.  -30.0 to 30.0.  Default = 1.0.
+0000dbcd Lowpass resonance Q value. 1.0 to 10.0.  Default = 1.0.
+0000dc05 Highpass resonance Q value. 1.0 to 10.0.  Default = 1.0.
+0000dc3e Percentage of wet signal in mix.  0.0 to 100.0. Default = 50.0.
+0000dc7e Playback frequency of tone, for example music note A above middle C is 440.0.
+0000dccc Time to return the gain reduction to full in ms.  0.0 to 1000.0. Default = 10.0.
+0000dd1d Low-to-mid crossover frequency in Hz.  10.0 to 22000.0.  Default = 400.0.
+0000dd67 Frequency center.  20.0 to 22000.0.  Default = 8000.0.
+0000dd9e Time to ramp the signal to full gain in ms.  0.0 to 20000.0. Default = 5000.0.
+0000dded Lowpass cutoff frequency in hz.   1.0 to output 22000.0.  Default = 5000.0.
+0000de39 Highpass cutoff frequency in hz.   10.0 to 22000.0.  Default = 5000.0.
+0000de80 Mid-to-high crossover frequency in Hz.  10.0 to 22000.0.  Default = 4000.0.
+0000decc Volume of echo delay signal to pass to output.  -80.0f to 10.0f. Default = 0.0.
+0000df1c Volume of original signal to pass to output.  -80.0f to 10.0f. Default = 0.0.
+0000df6a Maximum level of the output signal in dB.  -12.0 to 0.0.  Default = 0.0.
+0000dfb3 Downmix applied before FFT. 0 = no downmix, 1 = downmix to mono. Default = 0.
+0000e001 Low frequency gain in dB.  -80.0f to 10.0f.  Default = 0.
+0000e03b High frequency gain in dB.  -80.0f to 10.0f.  Default = 0.
+0000e076 Mid frequency gain in dB.  -80.0f to 10.0f.  Default = 0.
+0000e0b0 Rotation / auto-pan effect.  -1 to 1.  Default = 0.
+0000e0e4 Time-skewing of LFO cycle.  -1 to 1.  Default = 0.
+0000e117 Instantaneous LFO phase.  0 to 1.  Default = 0.
+0000e147 Flatness of the LFO shape.  0 to 1.  Default = 0.
+0000e179 LFO shape morph between triangle and sine.  0 to 1.  Default = 0.
+0000e1bb Channel #9 delay in ms.  0  to 10000.  Default = 0.
+0000e1ef Channel #8 delay in ms.  0  to 10000.  Default = 0.
+0000e223 Channel #7 delay in ms.  0  to 10000.  Default = 0.
+0000e257 Channel #6 delay in ms.  0  to 10000.  Default = 0.
+0000e28b Channel #15 delay in ms.  0  to 10000.  Default = 0.
+0000e2c0 Channel #5 delay in ms.  0  to 10000.  Default = 0.
+0000e2f4 Channel #14 delay in ms.  0  to 10000.  Default = 0.
+0000e329 Channel #4 delay in ms.  0  to 10000.  Default = 0.
+0000e35d Channel #13 delay in ms.  0  to 10000.  Default = 0.
+0000e392 Channel #3 delay in ms.  0  to 10000.  Default = 0.
+0000e3c6 Channel #12 delay in ms.  0  to 10000.  Default = 0.
+0000e3fb Channel #2 delay in ms.  0  to 10000.  Default = 0.
+0000e42f Channel #11 delay in ms.  0  to 10000.  Default = 0.
+0000e464 Channel #1 delay in ms.  0  to 10000.  Default = 0.
+0000e498 Channel #10 delay in ms.  0  to 10000.  Default = 0.
+0000e4cd Channel #0 delay in ms.  0  to 10000.  Default = 0.
+0000e501 Crossover Slope.  0 = 12dB/Octave, 1 = 24dB/Octave, 2 = 48dB/Octave.  Default = 1 (24dB/Octave).
+0000e562 Value that specifies whether to swap left and right delays with each successive echo. The default value is zero, meaning no swap. Possible values are defined as 0.0 (equivalent to FALSE) and 1.0 (equivalent to TRUE).
+0000e63b FMOD profiler thread (recv)
+0000e657  (Default Output)
+0000e669  (Default Input)
+0000e67a %s PCM wave writer (default filename = %s)
+0000e6a5 (null)
+0000e6ac Android audio input (Voice)
+0000e6c8 FMOD profiler thread (send)
+0000e6e4 %s (%d)
+0000e6ec FMOD nonblocking thread (%d)
+0000e709 StreamUrl='
+0000e715 StreamTitle='
+0000e725 Maximum channels supported.  0 to 16.  0 = same as fmod's default output polyphony, 1 = mono, 2 = stereo etc.  See remarks for more.  Default = 0.  It is suggested to leave at 0!
+0000e7d8 fmt 
+0000e7dd cue 
+0000e7e2 Proxy-Authorization: Basic 
+0000e7fe FFT Window size. 128, 256, 512, 1024, 2048, 4096, 8192, 16384.  Default = 
+0000e849 ice-icq: 
+0000e853 ice-audio-info: 
+0000e864 ice-description: 
+0000e876 Location: 
+0000e881 ice-aim: 
+0000e88b ice-url: 
+0000e895 ice-private: 
+0000e8a3 ice-bitrate: 
+0000e8b1 ice-genre: 
+0000e8bd ice-name: 
+0000e8c8 ice-irc: 
+0000e8d2 ice-public: 
+0000e8e6 FMOD: FMOD_OS_Time_GetMs : clock_gettime failed, errno = %d
+0000e923 Range: bytes=%d-%d
+0000e938 GET %s HTTP/1.1
+0000e949 Host: %s
+0000e953 User-Agent: %s
+0000e963 Icy-MetaData:1
+0000e974 Connection: close
+0000e9e3 >y]?<
+0000ec33 ?(knN
+0000edad $tIN4FMOD11ChannelRealE
+0000edcd .eB&
+0000ede0 fff?X
+0000ee09 r1?`
+0000ee60 33s?
+0000ef2f ;N4FMOD15ChannelSoftwareE
+0000ef49 N4FMOD13ChannelStreamE
+0000ef60 N4FMOD14LinkedListNodeE
+0000ef78 N4FMOD15ChannelControlIE
+0000f000 A) Release
+0000f010 C) Response
+0000f030 E) Q
+0000f050 B) Ratio
+0000f060 B) Response
+0000f090 A) Attack
+0000f0a0 C) Filter
+0000f0cf EB) Gain
+0000f0e0 B) Frequency
+0000f120 D) Frequency
+0000f160 B) Attack
+0000f170 B) Q
+0000f180 D) Filter
+0000f1d0 C) Mode
+0000f200 Linked
+0000f210 E) Gain
+0000f250 A) Ratio
+0000f260 D) Gain
+0000f27f >A) Frequency
+0000f2c0 Sidechain
+0000f2d0 C) Ratio
+0000f2f0 D) Q
+0000f300 E) Frequency
+0000f340 B) Threshold
+0000f350 C) Gain
+0000f360 B) Filter
+0000f38f ?C) Frequency
+0000f3c0 A) Threshold
+0000f3e0 C) Threshold
+0000f3f0 C) Attack
+0000f400 B) Release
+0000f440 C) Release
+0000f490 A) Filter
+0000f4c0 A) Mode
+0000f4d0 A) Q
+0000f510 E) Filter
+0000f530 C) Q
+0000f540 A) Gain
+0000f550 B) Mode
+0000f5af ?A) Response
+0000f5c0 N4FMOD13ChannelGroupIE
+0000f5d7 N4FMOD8ChannelIE
+0000f5e8 N4FMOD11DSPEmulatedE
+0000f629 <zsb
+0000f6d9 vorbis
+0000f6e0 vorbis
+0000f6f0 cT)F
+0000f729 KI%t
+0000f76c $dLBH)
+0000f777 SNBH5
+0000f781 sRRjA
+0000f7d5 DQU}
+0000f7e4 u 4d%
+0000f848 b,-f
+0000f877 !sNA
+0000f88c sR:'
+0000f8b3 =STUO
+0000f8bf LSU=
+0000f8c4 TUSU]
+0000f8d6 4UU4U
+0000f8f2 uOUe
+0000f8f7 T]Y7UW
+0000f90c u=Su]
+0000f912 uu[u]
+0000f919 TSvM
+0000f925 e[weY
+0000f92b 5Sue
+0000f933 teYwe
+0000f950 _t][WeY
+0000f964 <QU=Uu]
+0000f96c T]Wu]
+0000f99a u[t]_7eY
+0000f9cd u]Xf
+0000fa06 Wn]X
+0000fa10 mey}
+0000fa48 ^[V~Y
+0000fa51 ~aYm[
+0000fa63 u_XV
+0000fa9e 1'%sNJ)
+0000fab6 TJI%
+0000fac0 PJk)
+0000faca RZ+%
+0000facf VJj-
+0000fae9 9G)sPR
+0000faf2 TRi%
+0000fb0b RRk%
+0000fb33 VRi-sNR
+0000fb43 SI)V
+0000fb83 Vc(%
+0000fbc2 =wRZ+
+0000fbd3 PJk%
+0000fc29  4J9
+0000fca7 FUu]
+0000fcad m[Gu]
+0000fd72 dTRJ)
+0000fd8c LJJ)
+0000fd92 RJ)e
+0000fdf3 gXI:+
+0000fdfa .4d%
+0000fe20 PRI-
+0000fe34 RB)!
+0000fe53 B	)t
+0000fe66 RJ))
+0000fe89 RJ*)
+0000fe93 PJ*)
+0000feca TJJ!
+0000fecf VJ)%
+0000fee8 TJJ)
+0000feed RZJ)
+0000fef2 PRJ-
+0000ff06 RR()
+0000ff26 #pD!
+0000ff70 vorbis
+0000ff80 cT)F
+0000ffb9 KI%t
+0000fffc $dLBH)
+00010007 SNBH5
+00010011 sRRjA
+00010065 DQU}
+00010074 u 4d%
+000100db dRBi
+000100ea tR2)
+00010100 B(4dE
+0001012a  DJ)
+00010134 !cP1
+0001015e EQU-
+0001016a MU5U
+0001016f uMUue
+0001017c LQUMUu]SU]WTU[6]
+000101a0 uSum
+000101a6 e[we
+000101c0 4]WT]
+000101d0 u]3M
+000101dc mWvm
+000101fa uUvu]
+00010291 e_WeY
+000102c7 t]]7]Y
+000102d5 ct]]We
+00010307 }_9~]
+00010353 !sLB
+0001035f VB)-
+00010383 9'%sLB)
+0001039b VJj-sNJ
+000103b9 Vjk-
+000103be PJk!
+000103f4 dTJ*
+0001043b PJk%
+000104df BH)s
+00010506 6hJ,
+00010568  dR:)
+00010574 TR,1f
+0001057e FJh-
+00010607 9))5J1
+00010774 9))5
+0001077c sRJ*
+000107aa XRJ-
+00010866 RJ	!
+00010870 RJ)!
+0001087a RJ)%
+000108a7 RB	!
+000108fa @DD4s
+00010920 vorbis
+00010930 cT)F
+00010969 KI%t
+000109ac $dLBH)
+000109b7 SNBH5
+000109c1 sRRjA
+00010a15 DQU}
+00010a24 u 4d%
+00010a33 J$DbH1GA
+00010af5 U@TU
+00010b5e E@TU@4U
+00010e82 (4d%
+00010ee0 MSUU
+00010f09 4MSUU
+00010f54 6@UU
+00010fe2 B(%d
+00011004 PJ*)
+0001107c MSV]
+000111cc sRB(
+000111dc RRJ%
+000111eb PJJ)
+0001120e PJJ)
+00011213 RRK-
+0001121d PJ(%
+00011227 RJJ)
+00011254 RJj)
+0001125e VR)%
+00011263 RJ(%
+00011281 RRI-
+000112c7 RJ	%
+000112ff ! F@
+00011314 38@HPX`hpx
+00011340 vorbis
+00011350 cT)F
+00011389 KI%t
+000113cc $dLBH)
+000113d7 SNBH5
+000113e1 sRRjA
+00011435 DQU}
+00011444 u 4d%
+00011483 SJ1(
+00011515 L@4M
+0001157e E@4M
+000118a2 (4d%
+00011900 MSU]
+00011914 4MUu]
+00011929 4MSU]W
+0001193b PUQ4M
+00011962 20MUUU
+00011974 2@U]
+00011a32 sNJ)
+00011a7a EQ4U
+00011a8a EQ4ESUU
+00011a9b EQ4MUu]
+00011aba \WU]W
+00011ad0 VG8)
+00011ad6 ,4d%
+00011b12 bNJ)
+00011b89 Rk1V
+00011baa sNJJ1
+00011bb0 XkP)
+00011c3f RJ)%
+00011c67 RJ))
+00011c8f RJI)
+00011ca8 RJ)%
+00011cb7 RJK-
+00011cd0 RJI)
+00011cdf TRJ)
+00011d11 RJ)%
+00011d45 Qi!v
+00011d72 DD3gp
+00011d90 vorbis,BCV
+00011da0 cT)F
+00011dd9 KI%t
+00011e1c $dLBH)
+00011e27 SNBH5
+00011e31 sRRjA
+00011e85 DQU}
+00011e94 u 4d
+00011eca f9h*
+00011ee7 rf1h&
+00011ef2 f)h&
+00011f39 spN8
+00011f4d {sB8
+00012013 sDGtDGtDGtDGtD
+00012074 PB 4d
+00012086 q$Gr$
+0001209e TEWtE
+00012197 R,Gs4I
+000121a7 UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+000121cd 4M 4d%
+00012261 !sNA
+0001229d <QTUO
+000122a9 LSU=
+000122ae TUS5eWTMY
+000122c0 4UU4U
+000122cf UuYtU
+000122dc nOUe[T][7UW
+000122f6 u=Uu]
+00012303 TUvM
+0001230e ue[WeY
+0001234e DQU=U
+00012354 ]QU]
+00012359 t][W]
+00012368 T]YVeY
+00012372 uMUe
+00012384 u[t]]7eY
+000123ae }Sv}
+000123d1 s]_Wm
+000123ee ~a8n
+000123f6 -tu[X^
+0001247c DQ4EU
+00012482 EQU-M3MM
+00012490 4MSuE
+000124a8 4eS4M
+000124b8 eYu]]
+000124c6 T]Yu]WV]W
+000124d0 %M3M
+000124df MSu]
+000124eb DQUUSU]SUeW
+000124fa DO5=QTU
+00012505 TUY6U
+0001251e eS5]
+00012536 <O5MSu]SU]
+00012545 DQU5O4UUU]
+00012556 T=QTUM
+0001255f t]YVUSVE
+00012569 eUUu
+0001256e 4UYve
+00012577 ueSU]
+0001257d T]Y6USv]W
+00012640 >[WuU
+000126b6 DQUe
+000126c5 u4QTUY
+000126d5 }]82UU
+00012715 VG8)
+0001271b ,4d%
+000127b1 qPJ)
+0001285f RZ)%
+000128b4 NR)-
+00012909 VZk)
+00012996  dL!
+00012a2a B(4dE
+00012a3d PBJ!
+00012abf  Lk5
+00012b3c  Dk9
+00012b5f  s-B
+00012c1c 1&%sNJ
+00012c69 5bLJ
+00012dc5 $TJ1
+00012e96 	*4d%
+00012ea3 sRZk
+00012eaa BK56
+00012f5b 	*4d%
+00013070 RJ)!
+000130a0 gXI:+
+000130a7 .4d%
+00013140 TR*)
+00013154 PB))
+000131f3 @BDFHJLNPRTVX
+00013248 vorbis%BCV
+000132d8 $5HP
+000133a7 4CS<G
+000134ba qRJ'
+000134fe RSm5
+0001355f SEUue
+000135d0 ]Q7mQ6e
+000135d8 5]S6]UVmW
+0001360d $I@h
+00013684 t$Gr$GR$ER$Gr
+0001369e 1$Er,
+000136b0 SEWt
+000136ce R-US-
+000136d7 SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM
+00013706 @LB*9
+00013744 { 4dE
+00013760 sR:)
+0001376c b*-F
+00013775 LJi-
+000137f3 KJ1V
+0001380b \KK5
+00013827 (uRZ
+00013865 Vsj-
+00013980 T1&!c
+0001398a RJi!
+000139db KI-V
+00013a52 RJl-
+00013a57 \[,5uRZ+
+00013b19 9'%s
+00013b7c PJ))
+00013baf j,1v
+00013bd7 B(4d%
+00013c9c 	*4d%
+00013d9e gXI:+
+00013da5 .4d%
+00013dbb tNB)
+00013dc6 RJ)%
+00013dcb RJ)!
+00013dd0 RJ)!tPJ	
+00013e65 J))D
+00013eaa TJ)!
+00013eaf TB()t
+00013eba RI!t
+00013edc RB(!
+00013ef5 TR	%
+00013f38 CLI&
+00013f47 Sb\(!
+00014010 vorbis+BCV
+00014054 s 4d
+000140b7 PB	)
+0001411e R5S3=UTE
+00014127 TUWU]]wm
+0001414f m 4d
+000141f6 r,Gs4
+000141fc s<GtD
+0001421b ,ES<
+0001422a MQ4M
+00014266 a 4d
+0001431d 	BCV
+000143eb 2-S3=UTUWvmY
+00014417 e	BCV
+00014459 EQ4MS
+00014465 eS6]
+00014489 u 4d
+00014514 @Gr$Gr$ER$Er$
+0001453f 3=UtE
+0001455b $QR-
+00014563 R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+000145c6 BJj)%t
+00014636 9'%sNJ)
+0001464e TJi-
+00014667 VJi-
+000146cb VJj-sNJ
+000146db KI-f
+000146ee PJk%
+0001471b Vk(%
+0001476b PJl%
+000147e6 RRI)
+000147eb PJI)
+0001484a PJJ)
+0001485e PJ))
+00014868 RJ))
+0001487c RRJ)
+00014886 RJJ)
+000148e2 sLB&!r
+000148ec dRBh
+00014911 B(4d%
+0001498a B))5J1
+000149b1 RRj-
+000149f0 VG8)
+000149f6 ,4d%
+00014b4c ZC))
+00014c12 RJ	!
+00014c2b RJ)%
+00014c53 RJ)!
+00014c94 RJ)%
+00014d5e @]f8
+00014dca tRRj
+00014ec1 ,4d%
+00014ed6 "2H9I1
+00014f26 (00..m
+00014f35 AbB5PTL
+00014f62 	78A
+00014f77 DD33
+00014f81 "2BRbr
+00014f9c qtx|
+00014fc8 vorbis-BCV
+00014fd8 cT)F
+00015011 KI%t
+00015054 $dLBH)
+0001505f SNBH5
+00015069 sRRjA
+000150bd DQU}
+000150cc u 4d
+00015102 f9h*
+0001511f rf1h&
+0001512a f)h&
+00015171 spN8
+00015185 {sB8
+0001524b sDGtDGtDGtDGtD
+000152ac PB 4d
+000152be q$Gr$
+000152d6 TEWtE
+000153cf R,Gs4I
+000153df UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+00015405 4M 4d%
+000154d2 @3M@
+00015542 tU@4]
+00015864 (4d%
+000158eb 4MSU]
+000158fe EQ4M
+00015924 60MSUU
+00015936 6@U]W
+00015982 TJ%%
+0001599a UPR)-
+000159a0 JB*%
+00015a3c DQ4M
+00015a5f 3EWvmx
+00015ab9 (4dE
+00015b0c RJ)%SJ))
+00015b1a RJI(
+00015b24 sPJ)
+00015bd7 PRK-
+00015c13 TR*)
+00015c2c TJI%
+00015c36 RJ*)
+00015c3b TR))
+00015c40 RB))
+00015c45 PJ)%
+00015c59 RRI%
+00015c6d TR)%
+00015c7c RR*)
+00015c95 RJ))
+00015c9a RJJ)
+0001615f 0MQ4M 
+00016199 EQ4MUu]x
+000161b0 4UUu]
+000161c5 4MUu]Y
+00016251 R*))
+00016256 TJ%!
+0001626b JI)URJ*)
+000162c4 RJ)!t
+000162df 	*4d%
+00016322 eQ4M
+0001641d RJ)	
+00016427 BJIh1
+0001650c RJI)
+0001651b RRJ)
+00016534 TRJ)
+000165f7 "3DBa
+00016643 *,.02468:<>@
+000166bb *,.02468:<>@
+000166db *,.02468:<>@
+000166fb *,.02468:<>@
+0001671b *,.02468:<>@
+0001673b *,.02468:<>@
+0001675b *,.02468:<>@
+0001677b *,.02468:<>@
+00016790 vorbis$BCV
+00016820 $5HP
+000168ef 4CS<G
+00016a02 qRJ'
+00016a46 RSm5
+00016aa7 SEUue
+00016b18 ]Q7mQ6e
+00016b20 5]S6]UVmW
+00016b55 $I@h
+00016bcc t$Gr$GR$ER$Gr
+00016be6 1$Er,
+00016bf8 SEWt
+00016c16 R-US-
+00016c1f SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM
+00016c55 	p b
+00016c8b Pb 4d
+000170e0 6hJ,
+00017127 <Q4M
+00017151 Q4MUu]
+00017164 LS5U
+000171c2 RII)
+000171c7 R*	)
+000171cc TJ%%
+000171e0 RRI)
+00017218 9)%c
+0001727a EQ4MU%
+0001728c 4MSU]
+000172ac VMUu]
+00017441 TZJ1e
+00017464 RJ)%
+0001747d RJJ)
+00017496 PJ*)
+000174be VRJ)
+00017565 bPJs
+0001756f "K2H1
+000175bf A%@DL
+000175ea 	78A
+00017621 adhlptx|
+00017648 vorbis+BCV
+0001768c s 4d
+000176ef PB	)
+00017756 R5S3=UTE
+0001775f TUWU]]wm
+00017787 m 4d
+0001782e r,Gs4
+00017834 s<GtD
+00017853 ,ES<
+00017862 MQ4M
+0001789e a 4d
+00017955 	BCV
+00017a23 2-S3=UTUWvmY
+00017a4f e	BCV
+00017a91 EQ4MS
+00017a9d eS6]
+00017ac1 u 4d
+00017b4c @Gr$Gr$ER$Er$
+00017b77 3=UtE
+00017b93 $QR-
+00017b9b R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+00017d32 ASbq
+00017d87 MSUU
+00017dc6 (4dE
+00017ded Zk1VTJk
+00017e42 AH)u
+00017e51 YJ)u
+00017e84 EQTU
+00017f08 PJ*-U
+00017f3d QJSJI
+00017f4d F)}N
+00017f56 RJ)ck1
+00017f6f VG8)
+00017f75 ,4d%
+00018041 RRi)
+00018076 gXI:+
+0001807d .4d%
+0001809f BI%c
+000180df RJI)
+000180f8 RJ)%
+00018107 RJJ)
+00018120 RJ))
+0001812f RRJ)
+00018148 RJI)
+00018161 RJ)%
+00018170 RJJ)
+00018189 RJ))
+000181a9 #pD!
+000181b8 0D:)
+000181c2 TRJ)
+000182d4 RRj-
+000183a4 #6#C.
+0001845f )*u 
+00018474 qtx|
+0001848e $+@D43s
+00018499  !"#$%&'()*
+000184cb *,.02468:<>@
+00018500 vorbis
+00018510 cT)F
+00018549 KI%t
+0001858c $dLBH)
+00018597 SNBH5
+000185a1 sRRjA
+000185f5 DQU}
+00018604 u 4d
+0001863a f9h*
+00018657 rf1h&
+00018662 f)h&
+000186a9 spN8
+000186bd {sB8
+00018783 sDGtDGtDGtDGtD
+000187e4 PB 4d
+000187f6 q$Gr$
+0001880e TEWtE
+00018907 R,Gs4I
+00018917 UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+0001893d 4M 4d%
+000189a2 j,)v
+00018a0d ESt]Q4U
+00018a19 LSU=
+00018a1e TUSUe
+00018a2a 4=STU
+00018a36 5UUvEU
+00018a4c ~QUe
+00018a51 T][7U
+00018a6c um[u]
+00018a73 TSvM
+00018a7e ueYW]Y
+00018a99 u}[u]_WeW
+00018abe <OU=
+00018ac6 4]Wu]
+00018ad5 umY4]WVeY
+00018ae7 t]Y6]U
+00018af1 uWvu
+00018b0f }Uvm_
+00018b33 m_Xe
+00018b4f u[9^
+00018bd6 (4dE
+00018beb 4]U4M
+00018bfd 4UU6MU
+00018c04 -M3M
+00018c0f 4UQVM
+00018c1b TU[6MU
+00018c2a 4MW6US
+00018c34 eWvm
+00018c46 LSUUY6U
+00018c58 EUUMW
+00018c6a DSuM
+00018c9a %M3M
+00018ca3 <S5U
+00018ca8 uMUue
+00018cb7 tUUue
+00018cc4 DQU5
+00018ccc UeWuM]5U
+00018cdf eawU
+00018d09 m[TM[6MW
+00018d24 eUu]]
+00018d33 mUuu[
+00018d5b eSUe
+00018d7b Te[U]
+00018d8e ]]vuY
+00018d9a uavmYx]
+00018da6 }UV}
+00018dee TRj-
+00018ee1 TRJ)
+0001907a RJ)s
+000190a1 TSM-
+00019134 PJ)!
+0001917b SNDG
+0001919c "3DBa
+000191e7 *,.02468:<
+0001923a *,.02468:<
+00019250 vorbis
+00019260 cT)F
+00019299 KI%t
+000192dc $dLBH)
+000192e7 SNBH5
+000192f1 sRRjA
+00019345 DQU}
+00019354 u 4d
+0001938a f9h*
+000193a7 rf1h&
+000193b2 f)h&
+000193f9 spN8
+0001940d {sB8
+000194d3 sDGtDGtDGtDGtD
+00019534 PB 4d
+00019546 q$Gr$
+0001955e TEWtE
+00019657 R,Gs4I
+00019667 UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+0001968d 4M 4d%
+0001969c  !%%
+000196f2 b,-v
+00019736 sR:'
+0001973b sNJ'
+0001975d ESt]Q4]
+00019769 LSU=
+0001976e TUSUm
+00019783 TUY6UU
+0001979c vQUm
+000197bc um[u]]
+000197cf e]we
+000197ed e_WeY
+000197fe WeW7VY
+0001980e <OU=
+00019816 4]Wu]_W]
+00019828 T]Yve
+00019846 t]_WeY
+00019879 Yn]8
+00019885 XeY9~
+00019890 et]_Xm
+000198ba Yf_w
+00019905 u|_x
+0001990c tu]yf]
+00019aa6 eS5m
+00019aab TUYve
+00019ab7 4m[UU[6M
+00019ac7 ma4M
+00019c0b (4dE
+00019dbb I()b
+00019ec6 bNj3
+00019f53 *,.02468:<
+00019f78 vorbis
+00019f88 cT)F
+00019fc1 KI%t
+0001a004 $dLBH)
+0001a00f SNBH5
+0001a019 sRRjA
+0001a06d DQU}
+0001a07c u 4d
+0001a0b2 f9h*
+0001a0cf rf1h&
+0001a0da f)h&
+0001a121 spN8
+0001a135 {sB8
+0001a1fb sDGtDGtDGtDGtD
+0001a25c PB 4d
+0001a26e q$Gr$
+0001a286 TEWtE
+0001a37f R,Gs4I
+0001a38f UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+0001a3b5 4M 4d%
+0001a3c4  !%%
+0001a41a b,-v
+0001a45e sR:'
+0001a463 sNJ'
+0001a485 ESt]Q4]
+0001a491 LSU=
+0001a496 TUSUm
+0001a4ab TUY6UU
+0001a4c4 vQUm
+0001a4e4 um[u]]
+0001a4f7 e]we
+0001a515 e_WeY
+0001a526 WeW7VY
+0001a536 <OU=
+0001a53e 4]Wu]_W]
+0001a550 T]Yve
+0001a56e t]_WeY
+0001a5a1 Yn]8
+0001a5ad XeY9~
+0001a5b8 et]_Xm
+0001a5e2 Yf_w
+0001a62d u|_x
+0001a634 tu]yf]
+0001a7ce eS5m
+0001a7d3 TUYve
+0001a7df 4m[UU[6M
+0001a7ef ma4M
+0001a933 (4d%
+0001a961 z011
+0001aa55 PB(%
+0001aaae "3DBa
+0001aaf9 *,.02468:<
+0001ab48 vorbis"BCV
+0001abd8 $5HP
+0001aca7 4CS<G
+0001adba qRJ'
+0001adfe RSm5
+0001ae5f SEUue
+0001aed0 ]Q7mQ6e
+0001aed8 5]S6]UVmW
+0001af0d $I@h
+0001af84 t$Gr$GR$ER$Gr
+0001af9e 1$Er,
+0001afb0 SEWt
+0001afce R-US-
+0001afd7 SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM
+0001b0b7 B(4dE
+0001b0d6 45QTUM
+0001b0e6 %M3MM
+0001b121 45QTUM
+0001b12a TU[6U
+0001b131 5Qt]QUeYTUYve
+0001b155 u_tU]W]
+0001b170 uUvu_
+0001b179 u]X&M3MM
+0001b185 EU5U
+0001b191 ]WTUY
+0001b1ac ]Uvu
+0001b1bb uSuu]
+0001b1ca uUvua
+0001b1de t]]7]W
+0001b1eb }_TU_We
+0001b205 _ue_
+0001b20a u_Yn]
+0001b21b Ft_8
+0001b23f n]GTU_WeY
+0001b27a Wf]'
+0001b284 3~aH
+0001b2ae 9'%cNJ)%
+0001b2df XJi1
+0001b353 KI)f
+0001b366 PJl%
+0001b393 Vk(%
+0001b56f 6hJ,
+0001b596 sRJI
+0001b5a2 Rk1f
+0001b682 r,13H9
+0001b69d 4dN1d
+0001b72b 02468:<>@B
+0001b798 vorbis"BCV
+0001b828 $5HP
+0001b8f7 4CS<G
+0001ba0a qRJ'
+0001ba4e RSm5
+0001baaf SEUue
+0001bb20 ]Q7mQ6e
+0001bb28 5]S6]UVmW
+0001bb5d $I@h
+0001bbd4 t$Gr$GR$ER$Gr
+0001bbee 1$Er,
+0001bc00 SEWt
+0001bc1e R-US-
+0001bc27 SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM
+0001bd07 B(4dE
+0001bd26 45QTUM
+0001bd36 %M3MM
+0001bd71 45QTUM
+0001bd81 5Qt]QUeYTUYv]Y
+0001bda5 u_tU
+0001bdd3 DQUMW
+0001bdd9 mSum[
+0001bde5 ESueU
+0001bdeb }_ue
+0001bdf7 eQUeY
+0001bdfd e]weW
+0001be06 mUv}
+0001be0f u]Xf[
+0001be52 ]_WeY
+0001be8c PTU]We
+0001beb9 m]X~
+0001bec1 2tu[h
+0001befc sRB)
+0001bf08 9&%sNJ(
+0001bf30 [k5F
+0001bf52 X9'%
+0001bf7a X[L9
+0001bf85 9'%sNJ(
+0001bf9d XJJ1sNJ
+0001bfb1 Rb+)
+0001c02e Rb+)
+0001c042 XKJ5
+0001c0bf (4d%
+0001c0cc <Q4U
+0001c0de <Q4MU
+0001c0f0 <Q4UUu]]
+0001c0f9 DQ5U
+0001c102 =Q4UUu]Y
+0001c115 _4UWu]Y
+0001c14f VG8)
+0001c155 ,4d%
+0001c1cf :	)5
+0001c281 B(%R
+0001c2cb RJ)!
+0001c2d5 RJ)%
+0001c371 0@P0
+0001c37c A'@p
+0001c418 vorbis&BCV
+0001c45c s 4d
+0001c4bf PB	)
+0001c526 R5S3=UTE
+0001c52f TUWU]]wm
+0001c557 m 4d
+0001c5fe r,Gs4
+0001c604 s<GtD
+0001c623 ,ES<
+0001c632 MQ4M
+0001c66e a 4d
+0001c725 	BCV
+0001c7f3 2-S3=UTUWvmY
+0001c81f e	BCV
+0001c861 EQ4MS
+0001c86d eS6]
+0001c891 u 4d
+0001c91c @Gr$Gr$ER$Er$
+0001c947 3=UtE
+0001c963 $QR-
+0001c96b R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001c9c6 q 4dE
+0001ca74 DQUMW
+0001ca83 DQU5QTUQ5m
+0001ca98 mQUu[
+0001ca9e maxm
+0001caa7 mQUm
+0001caac t][wm
+0001cabf DQuMW
+0001cac5 mSum]
+0001cae3 ]Que[
+0001cb02 QUu_
+0001cb3a 5Qt]
+0001cb3f UeYtUYVe
+0001cb4c uQU}[
+0001cb60 t]]We
+0001cbc5 3~eXz
+0001cbfc x~ax
+0001cc4e JI-b
+0001cc6b Vkj-
+0001cc82 !sNJ
+0001ccda JI-V
+0001cd0b XCI-
+0001cd7e Tc))
+0001ce19 DQ5e
+0001ce6a }auU
+0001ce73 mcXU
+0001ce7c m]9n
+0001ceb6 BH)%
+0001cf74 rNJI)
+0001cfa2 ZRj-
+0001cffd !DJ1
+0001d086 RJ	!
+0001d09a RJ)%
+0001d0c6 Zl)FF1
+0001d17f "2BR
+0001d1a0 vorbis)BCV
+0001d1fd 9iN8
+0001d26e 	BCV
+0001d2ab 3ESTMUUUUu]Wve
+0001d2df } 4d
+0001d360 eY@h
+0001d36f q$ER$
+0001d386 r4Gs4
+0001d38f s<GtD
+0001d3b1 $OR-
+0001d3b6 r5Ws=
+0001d3bf u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001d3f6 a 4d
+0001d4ad 	BCV
+0001d57b 2-S3=UTUWvmY
+0001d5a7 e	BCV
+0001d5e9 EQ4MS
+0001d5f5 eS6]
+0001d619 u 4d
+0001d6a4 @Gr$Gr$ER$Er$
+0001d6cf 3=UtE
+0001d6eb $QR-
+0001d6f3 R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001d730 Bn=X
+0001d7ee B(4dE
+0001d80d 45QTU
+0001d858 45QTUM
+0001d868 5QtUQUeYTUYveY
+0001d88e tU]We
+0001d932 u!QUu
+0001d962 +?a8
+0001d979 BQU}]
+0001d9e2 !sNJ
+0001d9e9 PJj!
+0001da2b Ji-sNJ
+0001da3a KJ-V
+0001daa2 RZl1
+0001daca PJk%
+0001db73 9*	B
+0001db7b rLB))U
+0001db95 Vk))
+0001dbdb PJ*)
+0001dc01  tT2*
+0001dc36 B(4d%
+0001dcc8 Zl5v
+0001dcfb 	*4d%
+0001ddda VG8)
+0001dde0 ,4d%
+0001ddfb CJ9(%
+0001de01 PJ))sNJJ
+0001de0f sRR*%
+0001dea2 !DJ1
+0001deea RJ)%
+0001df2b RJ	!
+0001df35 RJ)!
+0001e060 vorbis)BCV
+0001e0bd 9iN8
+0001e12e 	BCV
+0001e16b 3ESTMUUUUu]Wve
+0001e19f } 4d
+0001e220 eY@h
+0001e22f q$ER$
+0001e246 r4Gs4
+0001e24f s<GtD
+0001e271 $OR-
+0001e276 r5Ws=
+0001e27f u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001e2b6 a 4d
+0001e36d 	BCV
+0001e43b 2-S3=UTUWvmY
+0001e467 e	BCV
+0001e4a9 EQ4MS
+0001e4b5 eS6]
+0001e4d9 u 4d
+0001e564 @Gr$Gr$ER$Er$
+0001e58f 3=UtE
+0001e5ab $QR-
+0001e5b3 R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001e5f0 Ko=h
+0001e609 IJ9h
+0001e6ae B(4dE
+0001e6ce 5QTU
+0001e718 45QTUM
+0001e728 5QtUQUeYTUYVe
+0001e74e tU[WeY
+0001e7bc T]]We
+0001e7d5 uSu}
+0001e7de m_8FU
+0001e825 mSUu
+0001e89b 9'%c
+0001e8c3 Sj1v
+0001e940 JI)f
+0001e953 PJk%
+0001e9cb Vcj-
+0001e9d0 PJk%
+0001e9ee ZSJ1
+0001ea7e 9'%R
+0001eaa5 6hJ,
+0001eb91 PJK-
+0001eb96 Xsj-
+0001ec31 5rPk
+0001ece5 RRJ)
+0001ecf3 uRRj-
+0001ee19 PJ(%
+0001ee32 (4d%
+0001ee47 %BJ9)
+0001ef0d DDD3
+0001ef17 "2BRbr
+0001ef38 vorbis)BCV
+0001ef95 9iN8
+0001f006 	BCV
+0001f043 3ESTMUUUUu]Wve
+0001f077 } 4d
+0001f0f8 eY@h
+0001f107 q$ER$
+0001f11e r4Gs4
+0001f127 s<GtD
+0001f149 $OR-
+0001f14e r5Ws=
+0001f157 u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001f18e a 4d
+0001f245 	BCV
+0001f313 2-S3=UTUWvmY
+0001f33f e	BCV
+0001f381 EQ4MS
+0001f38d eS6]
+0001f3b1 u 4d
+0001f43c @Gr$Gr$ER$Er$
+0001f467 3=UtE
+0001f483 $QR-
+0001f48b R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001f4c8 B0Ah
+0001f4e1 IJ=X
+0001f4ee cJi+-e
+0001f586 B(4dE
+0001f5a6 5QTU
+0001f5f0 45QTUM
+0001f600 5Qt]QUeYTUYVe
+0001f626 t]]We
+0001f6de }_9n_W
+0001f6ee o3n_7
+0001f78c B)-u
+0001f7b1 !sLJ
+0001f826 Tb+)
+0001f8c6 Xkj-
+0001f9af NJH)
+0001fa29 	*4d%
+0001fa36 sRRj
+0001fa69 \Ji-
+0001faee 	*4d%
+0001fb05 4RJ)
+0001fb38 RJ)%
+0001fb67 JJ)5J9'!
+0001fb7a X9'%
+0001fbcd VG8)
+0001fc83 "3D"b1HL
+0001fccf 8:<>@BDFHJLNP
+0001fd18 vorbis+BCV
+0001fd75 9iN8
+0001fde6 	BCV
+0001fe23 3ESTMUUUUu]Wve
+0001fe57 } 4d
+0001fed8 eY@h
+0001fee7 q$ER$
+0001fefe r4Gs4
+0001ff07 s<GtD
+0001ff29 $OR-
+0001ff2e r5Ws=
+0001ff37 u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0001ff6e a 4d
+00020025 	BCV
+000200f3 2-S3=UTUWvmY
+0002011f e	BCV
+00020161 EQ4MS
+0002016d eS6]
+00020191 u 4d
+0002021c @Gr$Gr$ER$Er$
+00020247 3=UtE
+00020263 $QR-
+0002026b R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+000202d2 2cR)
+0002033e 9'%sNJ(
+000203d4 Ji-sNJ
+000203e3 KI-f
+000203f6 PJk%
+00020473 PJk%
+00020491 \Sk5
+000204ee RRi)
+00020566 RJI)
+0002058e RJI)
+000205f4 dRBi
+000205fa LJH%
+00020603 tR2)!
+00020609 PR&%
+00020619 B(4d%
+000206ab IH%s
+000206e6 VJ))
+000206f8 VG8)
+000206fe ,4d%
+00020737 Ri)R
+00020772 ZRj)
+0002082e TZj-
+00020839 Rk1vRRj
+00020926 RB)!
+0002094e RJ	!
+00020967 RJ)%
+0002098f RJ)!
+000209b7 RJ	!
+00020a25 (4d%
+00020a31 cNA&
+00020a42 JJ15
+00020a4b RRI)
+00020aa5 RRj1
+00020b47 |BGlF
+00020b53 =RC-V
+00020b7f b,!3F9i5
+00020b91 bRcj
+00020b96 cJAl
+00020bbd (,0t
+00020bd3 !2C$"
+00020be7  Cc#
+00020c48 !)19AIQ	
+00020c68 vorbis+BCV
+00020cc5 9iN8
+00020d36 	BCV
+00020d73 3ESTMUUUUu]Wve
+00020da7 } 4d
+00020e28 eY@h
+00020e37 q$ER$
+00020e4e r4Gs4
+00020e57 s<GtD
+00020e79 $OR-
+00020e7e r5Ws=
+00020e87 u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+00020ebe a 4d
+00020f75 	BCV
+00021043 2-S3=UTUWvmY
+0002106f e	BCV
+000210b1 EQ4MS
+000210bd eS6]
+000210e1 u 4d
+0002116c @Gr$Gr$ER$Er$
+00021197 3=UtE
+000211b3 $QR-
+000211bb R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0002120f bJ9(
+00021222 :UN)
+0002128e 9'%s
+000212b0 PJj)
+000212b6 SJ-v
+00021324 JI-sNJ
+00021346 PJK%
+000213c3 PJj%
+000214d4 RJI%
+000214de RJ)%
+000214f2 RJJ)
+00021544 dRBi!
+0002154a LJH%
+00021553 tR2)
+00021559 PR&%
+00021569 B(4d%
+000215fb J)%s
+00021636 VJ)%
+00021648 VG8)
+0002164e ,4d%
+00021687 JI)R
+0002177e RRj-
+00021789 Rk-v
+000217c4 \Rj-
+00021876 RJ)!
+0002189e RJ	!
+000218b7 RJ)%
+000218df RJ)!
+00021907 RJ	!
+000219cb gXI:+
+000219d2 .4d%
+00021a0c RR*%
+00021b3b TJ9j
+00021b4a ANZk-d
+00021b89 E@@.!
+00021b91 pL8'
+00021bee !)19AIQ	
+00021c07 8:<>@BDFHJLNPRT
+00021c30 vorbis!BCV
+00021c40 cT)F
+00021c79 KI%t
+00021cbc $dLBH)
+00021cc7 SNBH5
+00021cd1 sRRjA
+00021d25 DQU}
+00021d34 u 4d
+00021d6a f9h*
+00021d87 rf1h&
+00021d92 f)h&
+00021dd9 spN8
+00021ded {sB8
+00021eb3 sDGtDGtDGtDGtD
+00021f14 PB 4d
+00021f26 q$Gr$
+00021f3e TEWtE
+00022037 R,Gs4I
+00022047 UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+0002206d 4M 4d%
+00022093 9vPK
+000224bb 6hJ,
+000224e4 EQ4M
+000224fe ASbq
+0002258b PMUu]
+000225ad \Wve
+000225d5 QJBH!4JI
+000225ef TJ&%
+00022658 PJ)%
+00022686 <QTUM
+0002268f <O4U
+000226b4 4UUua
+000226cf 6t]U]
+000226df Yv]Y
+00022717 (4dE
+000228c5 sPBJ-B
+000228d4 sPR*
+0002290c Zc)-
+0002295a B)%c
+0002299a RJI)
+000229ae RJI%
+00022a03 (4d%
+00022a53 "3DBa
+00022af8 vorbis!BCV
+00022b08 cT)F
+00022b41 KI%t
+00022b84 $dLBH)
+00022b8f SNBH5
+00022b99 sRRjA
+00022bed DQU}
+00022bfc u 4d
+00022c32 f9h*
+00022c4f rf1h&
+00022c5a f)h&
+00022ca1 spN8
+00022cb5 {sB8
+00022d7b sDGtDGtDGtDGtD
+00022ddc PB 4d
+00022dee q$Gr$
+00022e06 TEWtE
+00022eff R,Gs4I
+00022f0f UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+00022f35 4M 4d%
+00023383 6hJ,
+000233c6 ASbq
+00023430 4UUU]
+00023453 PMUUU
+00023464 TUu]
+0002349d aLB(!4
+000234ad TAH%
+0002351f sNJ)
+0002354e <Q4MM
+0002357c 4UUua
+00023588 0MQTU
+000235df (4dE
+00023822 B)%c
+00023862 RJI)
+0002386c PR))
+00023876 PBJ%
+000238b2 TJ(!
+000238cb (4d%
+000238ed AJ)d
+0002391b "3DBa
+000239b0 vorbis!BCV
+000239c0 cT)F
+000239f9 KI%t
+00023a3c $dLBH)
+00023a47 SNBH5
+00023a51 sRRjA
+00023aa5 DQU}
+00023ab4 u 4d
+00023aea f9h*
+00023b07 rf1h&
+00023b12 f)h&
+00023b59 spN8
+00023b6d {sB8
+00023c33 sDGtDGtDGtDGtD
+00023c94 PB 4d
+00023ca6 q$Gr$
+00023cbe TEWtE
+00023db7 R,Gs4I
+00023dc7 UOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU5M
+00023ded 4M 4d%
+000241ac Cq,	
+00024242 (4d%
+000242c7 DQ4M
+000242dc EQ4M
+000242f2 4MUU]W
+00024314 2@U]
+0002436f TR*%
+00024375 Rj)e
+000243d2 sNJ)%
+0002442c 4MUUU
+0002443d TUWu]
+0002445a TWU]
+00024470 VG8)
+00024476 ,4d%
+000244b2 qLJ)
+00024536 sNJJ
+0002456e VSk-
+00024624 RRJ)
+0002462e PRJ)
+00024633 RJ	!
+00024694 RLJ	-t
+000246bc !2C$
+00024708 *,.02468:<>@
+0002475b *,.02468:<>@
+0002477b *,.02468:<>@
+0002479b *,.02468:<>@
+000247bb *,.02468:<>@
+000247d0 vorbis%BCV
+00024860 $5HP
+0002492f 4CS<G
+00024a42 qRJ'
+00024a86 RSm5
+00024ae7 SEUue
+00024b58 ]Q7mQ6e
+00024b60 5]S6]UVmW
+00024b95 $I@h
+00024c0c t$Gr$GR$ER$Gr
+00024c26 1$Er,
+00024c38 SEWt
+00024c56 R-US-
+00024c5f SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM
+00024c9c $tNb
+00024ccc Z 4d
+00025176 ASbq
+00025209 4MSUU
+0002521c EQ4M
+00025232 4UUU]W
+00025254 2@U]
+000252af TR*%
+000252b5 Rj)U
+00025312 sNJ)%
+0002536c 4MUUU
+0002539a \Wue
+000253b0 VG8)
+000253b6 ,4d%
+00025467 rNB)
+00025476 sNJJ1
+000254ae ]Sj)
+000254c7  [+1
+00025537 PBI%
+00025578 RRI)
+00025582 RJ*)
+000255de RLJ	%uL)'-
+00025616 BpxP	
+00025648 )*u 
+0002565d adhlptx|
+00025675 $%@DD4s
+00025684  !"#$
+000256b3 adhlptx|
+000256d3 adhlptx|
+000256f3 adhlptx|
+00025713 adhlptx|
+00025728 vorbis%BCV
+000257b8 $5HP
+00025887 4CS<G
+0002599a qRJ'
+000259de RSm5
+00025a3f SEUue
+00025ab0 ]Q7mQ6e
+00025ab8 5]S6]UVmW
+00025aed $I@h
+00025b64 t$Gr$GR$ER$Gr
+00025b7e 1$Er,
+00025b90 SEWt
+00025bae R-US-
+00025bb7 SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUM
+00025c24 R 4d
+000260ce ASbq
+000260ff EQ4M
+00026107 *0MU
+00026136 4MSUI
+00026174 EQ4M
+00026179 TMUu] 
+0002618b MSU]
+0002619e TUUu]Y
+000261ac 2@UU
+00026207 TJ*%
+0002620d Rj)U
+0002626a sNJ)%
+000262c4 4MUU]
+000262e1 .l[UU
+00026308 VG8)
+0002630e ,4d%
+000263e8 VcQ)
+000263ed RRJ-
+0002641a ck*-
+00026424 _dl-
+0002642e #[,-
+000264c7 RB(!
+000264fe RJJ)
+00026534 R)-E
+00026592 BpxP	
+000265c4 )*u 
+000265d9 adhlptx|
+000265f1 $%@DD4s
+00026600  !"#$
+0002662b adhlptx|
+00026640 vorbis)BCV
+00026684 s 4d
+000266e7 PB	)
+0002674e R5S3=UTE
+00026757 TUWU]]wm
+0002677f m 4d
+00026826 r,Gs4
+0002682c s<GtD
+0002684b ,ES<
+0002685a MQ4M
+00026896 a 4d
+0002694d 	BCV
+00026a1b 2-S3=UTUWvmY
+00026a47 e	BCV
+00026a89 EQ4MS
+00026a95 eS6]
+00026ab9 u 4d
+00026b44 @Gr$Gr$ER$Er$
+00026b6f 3=UtE
+00026b8b $QR-
+00026b93 R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+00026bf6 sTsl!T
+000270b3 (4d%
+000270f4 6hJ,
+00027116 MSUU
+0002712c EQ4MUU]h
+00027144 MSU]
+00027158 4MUUU
+0002716c 4UUU]
+0002717d 4MUUU
+0002718e TUU]
+000271d5 aLBH!dRR*)
+000271ea R2J-
+00027215 $BJ1
+00027252 tRJ)
+00027294 MSUy
+000272a6 4MU%
+000272c4 UUU]
+000273bc RZj-
+00027473 RJi)e
+0002748c RJ)%
+0002749b RJJ-
+000274c3 RRJ)
+000274dc RJI-
+000274f5 RJ)%
+0002751d RJ))
+0002752c RZk)
+00027576 RI-E
+000275a0 !eL)
+00027620 @DD4s
+00027629  !"#$%&'(
+00027670 vorbis)BCV
+000276cd 9iN8
+0002773e 	BCV
+0002777b 3ESTMUUUUu]Wve
+000277af } 4d
+00027830 eY@h
+0002783f q$ER$
+00027856 r4Gs4
+0002785f s<GtD
+00027881 $OR-
+00027886 r5Ws=
+0002788f u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+000278c6 a 4d
+0002797d 	BCV
+00027a4b 2-S3=UTUWvmY
+00027a77 e	BCV
+00027ab9 EQ4MS
+00027ac5 eS6]
+00027ae9 u 4d
+00027b74 @Gr$Gr$ER$Er$
+00027b9f 3=UtE
+00027bbb $QR-
+00027bc3 R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+00027c2b dHA-
+00027ccd 3E@4U
+00027d37 E@4M@TM
+000280e3 (4d%
+00028124 6hJ,
+00028146 MSU]
+0002815c EQ4MUu]h
+00028173 4UUU]
+00028188 4MUu]
+000281ad 4MUU]
+000281be TUU]
+00028205 aLBH!dRR*)
+0002821a R2J-
+00028245 $BJ1
+00028282 sRJ)
+000282c4 MSUy
+000282d6 4MU%
+000282f4 UUU]
+00028438 Zc3J
+0002848d ZkRJ)#d
+00028497 ZsNJ	e
+000284fe RJ)%
+00028526 RJ))
+00028535 RRJ)
+0002854e RJI)
+00028567 RJ)%
+00028576 RJJ)
+0002858f RJ))
+0002859e RRJ)
+000285b7 RJI)
+0002860a XKe A
+00028624 b+1t
+0002864d E@@.!
+00028655 pL8'
+000286b2 !)19A
+000286c9 8:<>@BDFHJLNP
+000286f8 vorbis+BCV
+00028755 9iN8
+000287c6 	BCV
+00028803 3ESTMUUUUu]Wve
+00028837 } 4d
+000288b8 eY@h
+000288c7 q$ER$
+000288de r4Gs4
+000288e7 s<GtD
+00028909 $OR-
+0002890e r5Ws=
+00028917 u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0002894e a 4d
+00028a05 	BCV
+00028ad3 2-S3=UTUWvmY
+00028aff e	BCV
+00028b41 EQ4MS
+00028b4d eS6]
+00028b71 u 4d
+00028bfc @Gr$Gr$ER$Er$
+00028c27 3=UtE
+00028c43 $QR-
+00028c4b R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+00028c9c QP*d
+00028cc7 I"I$I
+00028d31 *Uu]
+00028d40 *Uu]
+00028d4f $OSM
+00028d5b jBU%
+00028d6b BU=St]
+00028df1 -SUY
+00028e00 lSUY
+00028e63 4QTUh
+00028e8c DQ4M
+00028ea2 EQ4M
+00028eb9 EQ4MUUUh
+00028ed0 4UUU]
+00028ee4 MSU]
+00028f1f B)%4JA	%
+00028fa1 R*%c
+00028fd7 MQ5U
+00028fe7 4Q4MUu]
+00028ffa LSU]W
+0002903c (4d%
+00029063 RkQc
+0002911f 	*4d%
+00029164 RJ)%
+00029178 TRJ)
+00029187 cl,%
+0002925c RBI)
+00029275 PJ)%
+0002927f RJ)%
+00029284 PJJ)
+00029298 RJ)%
+0002929d RJ	)
+000292ac RRJ)
+000292d4 RRJ)
+00029305 RJ)5
+00029395  tNJ)=
+000293ce PRj)
+0002947e %tL)F)
+000294c4 "3D"b1HL
+00029510 8:<>@BDFHJLNPRT
+00029560 vorbis+BCV
+000295bd 9iN8
+0002962e 	BCV
+0002966b 3ESTMUUUUu]Wve
+0002969f } 4d
+00029720 eY@h
+0002972f q$ER$
+00029746 r4Gs4
+0002974f s<GtD
+00029771 $OR-
+00029776 r5Ws=
+0002977f u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+000297b6 a 4d
+0002986d 	BCV
+0002993b 2-S3=UTUWvmY
+00029967 e	BCV
+000299a9 EQ4MS
+000299b5 eS6]
+000299d9 u 4d
+00029a64 @Gr$Gr$ER$Er$
+00029a8f 3=UtE
+00029aab $QR-
+00029ab3 R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+00029b02 bLbN
+00029b2f I"I$I
+00029b99 &Uu]
+00029ba8 *Uu]
+00029bb7 $OSM
+00029bc3 jBU%
+00029bd3 BU=St]
+00029c68 +SUY
+00029ccb 4Q4Mh
+00029d0a <Q4MUu]
+00029d21 EQ4MUu]h
+00029d4c MSU]W
+00029d85 QLJ)%4JI)%
+00029e09 RJ)c
+00029e62 MSUU
+00029ea4 (4d%
+00029eda Rk16
+00029ee8 RJk1
+00029ef6 9gkJ
+00029f87 	*4d%
+00029f9d  tNB*-U
+00029fa8 sRRj)y
+00029fe0 TRJ-
+0002a008 XcMJ)
+0002a0d3 RJI)
+0002a0e7 RJ)%
+0002a128 RB(%
+0002a16d RJ)5JQJ)
+0002a1fe sNBJ
+0002a2e4 Qj)tL)&)
+0002a2f3 [k%t
+0002a32c "3D"b1HL
+0002a378 8:<>@BDFHJLNPRT
+0002a3c8 vorbis+BCV
+0002a425 9iN8
+0002a496 	BCV
+0002a4d3 3ESTMUUUUu]Wve
+0002a507 } 4d
+0002a588 eY@h
+0002a597 q$ER$
+0002a5ae r4Gs4
+0002a5b7 s<GtD
+0002a5d9 $OR-
+0002a5de r5Ws=
+0002a5e7 u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0002a61e a 4d
+0002a6d5 	BCV
+0002a7a3 2-S3=UTUWvmY
+0002a7cf e	BCV
+0002a811 EQ4MS
+0002a81d eS6]
+0002a841 u 4d
+0002a8cc @Gr$Gr$ER$Er$
+0002a8f7 3=UtE
+0002a913 $QR-
+0002a91b R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0002a95a IYJ)
+0002a997 I"I$I
+0002a9e3 "O3E
+0002aa10 *Su]
+0002aa1f $OSM
+0002aa2b iB5%
+0002aa3c 4=St]
+0002aad0 +3UY
+0002ab33 4Q4Mh
+0002ab72 <Q4MUUU
+0002ab89 EQ4MUu]h
+0002aba0 4UUu]
+0002abb4 MSU]W
+0002abed aJJ)
+0002abf2 4JI)%
+0002ac71 RJ)c
+0002acb7 4Q4M
+0002acca MSU]
+0002ad0c (4d%
+0002ad33 RkQc
+0002ad42 Rk1F
+0002ad50 RJJ-
+0002ad5d 1J)cJ
+0002adef 	*4d%
+0002ae05  tNJJ-U
+0002ae2a PJ)%
+0002ae70 XkMJ)
+0002ae7a ZkRJ)!d
+0002af22 RJ	!
+0002af36 PJ	!
+0002af68 RJ)!
+0002afa9 RJ)%
+0002b0d6 RZk-
+0002b0e0 RJJ-
+0002b149 !|p-
+0002b190 J#n<
+0002b1ca X	vh
+0002b1ea sPbl
+0002b1ef 2H9h1
+0002b2e0 vorbis+BCV
+0002b33d 9iN8
+0002b3ae 	BCV
+0002b3eb 3ESTMUUUUu]Wve
+0002b41f } 4d
+0002b4a0 eY@h
+0002b4af q$ER$
+0002b4c6 r4Gs4
+0002b4cf s<GtD
+0002b4f1 $OR-
+0002b4f6 r5Ws=
+0002b4ff u]WUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0002b536 a 4d
+0002b5ed 	BCV
+0002b6bb 2-S3=UTUWvmY
+0002b6e7 e	BCV
+0002b729 EQ4MS
+0002b735 eS6]
+0002b759 u 4d
+0002b7e4 @Gr$Gr$ER$Er$
+0002b80f 3=UtE
+0002b82b $QR-
+0002b833 R-UT=UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+0002b8af I"I$
+0002b911 LQ5a
+0002b937 ,O3M
+0002b954 4=QTU
+0002baa1 <Q4MUu]h
+0002bab9 MSU]
+0002bacc MSU]
+0002bb07 J)%4
+0002bb89 RJ)c
+0002bbb6 EQ4M
+0002bc24 (4d%
+0002bc4e RJ9'%
+0002bc76 9'c))
+0002bc81 RRj1
+0002bd07 	*4d%
+0002bd1d  tPJJ
+0002bd29 RRj-j
+0002bd42 PJ)%
+0002bd48 Zt-tRJI
+0002be3a RJ	!
+0002be62 RJ)!
+0002be67 RJ)!
+0002bea8 RB(%
+0002bec1 RJ	!
+0002c025 PJ))
+0002c07f Zs-F
+0002c18d "3D"b1HL
+0002c1d9 8:<>@BDFHJLNPRT
+0002c283 *,.02468:<
+0002c4bb *,.02468:<>@
+0002c4db *,.02468:<>@
+0002c4fb *,.02468:<>@
+0002c51b adhlptx|
+0002c53b adhlptx|
+0002c55b adhlptx|
+0002c57b adhlptx|
+0002c59b adhlptx|
+0002c5bb adhlptx|
+0002c5db adhlptx|
+0002c5fb adhlptx|
+0002c61b adhlptx|
+0002c63b adhlptx|
+0002c65b adhlptx|
+0002c677 @DD4s
+0002c680  !"#$%&'(
+0002c69f @DD4s
+0002c6a8  !"#$%&'(
+0002c6c7 @DD4s
+0002c6d0  !"#$%&'(
+0002c6ef @DD4s
+0002c6f8  !"#$%&'(
+0002c723 !)19A
+0002c78b *,.02468:<
+0002c7ab *,.02468:<
+0002c9bb *,.02468:<>@
+0002c9db *,.02468:<>@
+0002c9fb adhlptx|
+0002ca1b adhlptx|
+0002ca3b adhlptx|
+0002ca5b adhlptx|
+0002ca7b adhlptx|
+0002ca9b adhlptx|
+0002cabb adhlptx|
+0002cadb adhlptx|
+0002cafb adhlptx|
+0002cb17 @DD4s
+0002cb20  !"#$%&'(
+0002cb3f @DD4s
+0002cb48  !"#$%&'(
+0002cb67 @DD4s
+0002cb70  !"#$%&'(
+0002cb8f @DD4s
+0002cb98  !"#$%&'(
+0002cbb7 @DD4s
+0002cbc0  !"#$%&'(
+0002cbeb !)19A
+0002cc0b *,.02468:<
+0002cd1f ,[1K6
+0002cd27 ADH~OqW/`
+0002cd78 N4FMOD7DownMixE
+0002cd88 N4FMOD10DownMixPL2E
+0002cd9c N4FMOD8DSPCodecE
+0002cdad N4FMOD12DSPWaveTableE
+0002ce09 :C'L
+0002ce15 4FY7=V\
+0002ce20 _bO-N4FMOD18FrequencyDelayLineE
+0002ce40 N4FMOD11ConvolutionE
+0002ce88 N4FMOD17ConvolutionThreadE
+0002cea3 N4FMOD6ThreadE
+0002ceb2 N4FMOD27FrequencyDelayLineCPU_AsyncE
+0002ced7 N4FMOD21FrequencyDelayLineCPUE
+0002cef6 N4FMOD6DSPFFTE
+0002cf2b 55+)
+0002cf33 55 "0.
+0002d0cf -ppp2Cp>
+0002d1d2 G;Ln^;<nv;
+0002d20b <O]'<
+0002d212 1<z/<<T
+0002d21a G<76R<	
+0002d2a5 J?=C
+0002d2ba Z=k\`=3
+0002d39d <!>D
+0002d3a6 %>m)(>
+0002d3b5 3/>T
+0002d3dd {G>u
+0002d3fe [>fX^>
+0002d40a c>_*f>*
+0002d42d z{>80~>'t
+0002d5b9 j	?	3
+0002d639 #"?B
+0002d642 #?wg$?
+0002d649 (%?F
+0002d659 &(?q
+0002d665 a*?5
+0002d672 ,?;U-?
+0002d68e 1?Un2?
+0002d6ba 9?.@:?
+0002d6d5 h>?J
+0002d6e1 s@?Y!A?
+0002d6ea A?BzB?
+0002d6f9 zD?W$E?6
+0002d702 E?huF?
+0002d711 iH?X
+0002d71d XJ?m
+0002d73a N?	^O?e
+0002d762 T?A`U?
+0002d77e X?edY?
+0002d795 )\?!
+0002d79a \?R>]?
+0002d7a5 P^?}
+0002d7b2 _?mh`?8
+0002d7cd qc?3
+0002d7d2 c?Zld?
+0002d7e2 e?=Wf?
+0002d7f2 g?X2h?
+0002d816 k?)$l?5
+0002d822 l?(bm?
+0002d841 #p?y
+0002d84d Aq?-
+0002d856 q?-Ur?
+0002d862 s?f_s?
+0002d892 v?_#w?Olw?
+0002d8a2 w?3@x?
+0002d8b1 	y?|Jy?$
+0002d8e9 )|?=Z|?L
+0002d905 b}?_
+0002d91a ~?X?~?
+0002d921 _~?9
+0002d98b ?N4FMOD12DSPResamplerE
+0002d9a7 &+ @
+0002d9b4 6>*Q
+0002d9bc N4FMOD9DSPSourceE
+0002da8f >N4FMOD4DSPIE
+0002da9d N4FMOD4FileE
+0002daaa N4FMOD8DiskFileE
+0002dabb N4FMOD10MemoryFileE
+0002dacf N4FMOD7NetFileE
+0002dafc N4FMOD8NullFileE
+0002db0d N4FMOD10RemoteFileE
+0002db21 N4FMOD8UserFileE
+0002db32 N4FMOD15OcclusionThreadE
+0002db58 N4FMOD6OutputE
+0002db67 17FMOD_OUTPUT_STATE
+0002db90 N4FMOD14OutputSoftwareE
+0002dcc4 N4FMOD7ProfileE
+0002dcd4 N4FMOD16ProfileInterfaceE
+0002dcee N4FMOD10ProfileDspE
+0002dd02 N4FMOD13ProfileModuleE
+0002dd19 N4FMOD17ProfileRemoteFileE
+0002dd34 N4FMOD12ProfileStatsE
+0002dd7c N4FMOD14SampleSoftwareE
+0002dd94 N4FMOD6SampleE
+0002dda3 N4FMOD6StreamE
+0002ddb2 N4FMOD6SoundIE
+0002ddc1 N4FMOD7SystemIE
+0002e1b7 US]CQ
+0002e1ca ^(BM
+0002e1d9 kZ;&
+0002e39a 14P;=4p
+0002e3aa d4Ums4
+0002e3ee &57{15
+0002e3f6 =5^LI5;aV5
+0002e445 u&62G16t
+0002e452 I6e"V6
+0002e49d E&7=
+0002e50a c8nPr8
+0002e53f 9FV	9
+0002e559 `H9SfU9
+0002e561 Dc9h	r9
+0002e599 .	:0
+0002e5a9 w0:|
+0002e601 C0;g
+0002e655 R%<T
+0002e6b2 /=mJ;=@vG=
+0002e6c1 :b="
+0002e6c6 p=*K
+0002e711 ;G>M.T>7
+0002e77b ?file:///android_asset/
+0002e793 N4FMOD16AndroidAssetFileE
+0002e7ad N4FMOD10OSMiscFileE
+0002e7c1 N4FMOD9FOpenFileE
+0002e7d3 file:///
+0002e7dc content://
+0002e7e7 N4FMOD7UriFileE
+0002e860 Pole_Zero_Filter
+0002e880 Pole_Zero_Filter_Phase
+0002e8a0 Biquad_Filter
+0002eac0 ../../src/pl2_encode_subroutine.c
+0002eae8 0 == dspsBlockSize % 2
+00042cd1 zPLR
+000464ad "@9?
+00046927 T)]@
+000469b7 K)-@
+00046a1b *(/@
+00046a4f S(-@
+00046b2b T)M@
+00046e2b *9CA
+00047a6b *	-@
+00047abe 	*	-
+00047c72  6(u
+00047d67 5`R@
+00047d9f 5`:@
+00047e49 U@945@
+00047eb3 5`6@
+00047f02 F)(I@
+00047f6b R	A	
+0004801b 5h6@
+00048043 5h.@
+0004807f 5`2@
+000480cf *a>@
+00048315 2Byh
+00048339 2By`
+000483bb 5`6@
+000483d7 5`.@
+000483f3 5h:@
+00048443 *a>@
+00048463 Th:@
+000484d3 yh:@
+000484df y`:@
+0004853a  7`2@
+000485eb 7i.@
+0004861b 9TIA
+0004862b 5h.@
+00048687 6h.@
+000486c8 	U@9
+000488df 7h>@
+00048a0b 7h.@
+00048a4a  7`.@
+00048ba3 *?y7
+00048d6b * @ 
+00048da6 87	!A9I
+00048e2f 6`6@
+00048e38 	)A9	
+00048ed3 TH! 
+00048f48 )!A9
+00048f6b *i.@
+00048fd7 5h>@
+00049067 T@@ 
+000490d9 *I)I
+0004929f 5h.@
+000492df 5h.@
+0004942e 	23u
+000494af 7h.@
+0004960d V@9H
+000496df 5`Z@
+00049707 Th.@
+00049984 (Y@9H
+00049997 9(	@
+00049a04 h2H*)!@
+00049af2 07`Z@
+00049b1d #@9h
+00049b9b 5h.@
+00049c2e P)a>@
+00049c47 4h.@
+00049c5f 9`Z@
+00049cca 	kB	
+00049e2b 9i"I)
+00049e42 	KhN
+00049e53 6jF@
+00049e5b 4k>@
+00049e92 	KjF
+0004a0af 7h*@
+0004a127 *h.@
+0004a18b TIi+
+0004a62f 7`Z@
+0004d593 K A 
+0004de96 S-#ij
+0004dfb9 A@9M
+0004dfdb 7aBH
+0004e00f 6	E@
+0004e12f TD8!
+0004e2d3 r#@!
+0004e333 5`z@
+0004e38f R*!*
+0004e3dc o:U-`
+0004e3ff /(  
+0004e53b ^b("
+0004e62e @9`B@
+0004e697 T`@ 
+0004e6a7 T  "
+0004e6fa  .G@!
+0004e853 4H{4
+0004e883 T`{t
+0004e8ee B-!	 
+0004e98f *y"@
+0004e9b3 Ry"@
+0004e9c1 By9?
+0004eac7 T(" 
+0004eb1b TH" 
+0004eb27 /(" 
+0004eb47 Tt*&
+0004ebe7 Ts83
+0004ee3c !	@-
+0004ef87 /(  
+0004f0a7 Rb2@
+0004f163 T`^@
+0004f1fa 	*	I
+0004f25b * L 
+0004f4a7 Ta"@
+0004f513 S(A@
+0004f98f 4u2@
+0004fb23 TKA@
+0004fb73 S)A@
+0004fd7f Tt:@
+0004fd9c H	(7h
+00050027 TKA@Qk
+00050067 Q(A@
+0005040b *	}@
+0005043f *I|@
+00050473 R5y(
+000508bf T(! 
+00050ac3 4 !(
+00050adb /hJ@
+00050aeb 2@! 
+00050da3 T(  
+00050daf T   
+00050dc7 T	H@
+00050fdb ThJ@
+000512cf r	ii
+000512f3 ThJ@
+00051312 	*hJ
+00052081  A9I
+000520cf TD8#
+000522ab rLik
+000524d3 5h&\
+00052973 ThJ@
+00052ae4 (!A9
+00052bfb ThJ@
+00052d5f 5 !(
+00052dbf *			
+00053057 5@	@
+00053283 R`:@
+0005329f 5i"@
+000536ca  6(u
+0005374f ThJ@
+000538e3 2@8 
+00053c4f T	)@
+00053d58 (UK) U@
+00053ebf 5hjB
+00053fc5 (A9(	
+00054131  A9_
+0005413b T)!A9)
+000545c3 5hJ@
+000546a7 9	)@
+00054705 3@9h
+0005470a  6h&@
+00054745 !A9h
+00054757 7hJ@
+00054767 S(-@
+0005480f TjvB
+000548af 5hJ@
+000548bf S(-@
+00054cc5 1By 9A
+00054df3 5hJ@
+00054e89 C_8h
+00054e8e  6h&@
+0005503f T`2@
+0005505b 5`2@
+00055077 5`:@
+00055237 5`2@
+000552bf r)ij
+000553ef Th*A9h
+0005547b 4ijB
+0005553f ThjB
+0005555b ThjB
+0005557f 6hjB
+000555a4 	a@y
+00055600 	a@y
+000557b0 61By
+00055907 5h*A9
+000559c2 07hJ@
+00055ad0 	U@9
+00055bf3 *(!@
+00055c3b 5hJ@
+00055cb4 )!A9)
+00055cf6  6hJ@
+00055d4f 7`2@
+00055d63 5`:@
+00055e03 5`2@
+00055ecb 5 !(
+000561e5 1By_
+00056393 r(-@
+000564bf -	H@
+0005660f T(-@
+0005699d 3@9J
+000569a7 5`6@
+00056a8d 1By(
+00056aab *	I@
+00056c7b *)a@
+00056d5f 5hJ@
+000573d7 qjF@
+00057409 _C)`
+0005764b *h:@
+00057bbf R	-@
+00057cd3 9h"@
+00057ce3 Ti*@
+00057fab 6*E@
+00057fbb q`	Dz
+00057fdf T)A+
+000582e3 R($@
+00058313 *j.@
+000583ff T($@
+0005854b )(|@
+0005859a @9jyj
+00058637 Tj5@
+000587e7 T($@
+00058b1b 4hJ@
+00058b6f 5hC<
+00058e83 R9oA
+00058ea7 T	5@
+00058fa0 *ih8Kkh8_
+0005918d #A9h
+00059387 *)AA
+000597c9 !@)!
+0005a284 	!A))
+0005a44f 4)	@
+0005a71f 4J	@
+0005a79b 4)	@
+0005a848 	!A))
+0005a95d #@)`
+0005b019 3@9`
+0005b18d c_8[
+0005b1c9 +@y`
+0005b2db *I!	*5
+0005b982 Cyk	
+0005ba0b T( @y 
+0005bb14 ( @y 
+0005bb23 =( @y
+0005bb32 @y?	
+0005bb48 *$@y)y
+0005bc04 ($@yh
+0005bd66 @y?A
+0005be6b 4J	@
+0005bf9f 4)	@
+0005c03a ix){(x
+0005c14c +!A)j	
+0005c43d %@yH
+0005c4d0 	%@y	
+0005c7e1 iv89
+0005c867 q4h+xs
+0005c8fd "@1!
+0005ca25 ia8{
+0005cac8 <ja8{
+0005cf70 +-@y_
+0005d248 aB@9
+0005d256 A)`b
+0005e043 K A 
+00060285 j)8	{
+000602ab Thv@
+000602d3 T"9@
+000602e7 5hv@
+000602fb 5 9@
+0006030f 5hv@
+0006033f *)}A
+00060627 Rij(8
+0006064f /  )
+00060674 vj48
+0006068c vj48
+00060aae !n!g
+00060af3 n @ 
+00060b2b ThV@
+00060b7b 5hv@
+00060c2b n!(1
+00060d93 =`V@
+00060f37 nc(%
+00060f72 0.P(&
+0006106c  X1x
+000610f7 5'Yd
+00061107 T$I$
+00061127 R'Yd
+0006116f ^c|@
+0006141b 6i&A
+000614db T`V@
+0006153f 4a"C
+000616ec J A)I
+0006176f 6i&A
+000617fd 0By?
+00061b8b 8Hd@
+000621b9 iv8h
+0006224b *	i68h
+0006278d 2M9?
+000628f3 T!	(
+00062a67 T(K:
+0006371b R!GH
+000638ef T`E@
+00063eba "N#@A
+00063f82 5n1H
+00063f8a 6n3P
+00063fe7 S1P@
+00064002 'N3dB
+00064022 0N5\
+000640a6 @Mh@
+00064236 "N%DA
+00064246 "N'@
+00064367 =8dAm
+0006437b N4TA
+00064390 6\Dm3
+00064428 elP-b
+00064486 0.d@A
+00064686 0Nt^@
+00064813 n[A@
+00064a6a #N2J
+00064a72 #N3*
+00064a7a #N4j
+00064cee 0~R*3
+00064d4b q4BH
+00064d56 'n6JL
+00064d6a "N3^A
+00064d7e %N5NI
+00064d86 %N4VE
+00064d92 %N6RM
+00064da6 3N6r
+00064dae &N52
+00064db6 &N4R
+00064e36 "N0FA
+0006500e 0~c($
+00065053 q5FH
+0006505e 0n7NL
+00065072 #N4bA
+00065086 &N6RI
+0006508e &N5ZE
+0006509a &N7VM
+000650a2 'N4bB
+000650b2 "N6RJ
+000650be "N5ZF
+000650ca "N7VN
+00065133 *1B@
+0006514e #N1JA
+0006515a 'N1JB
+000651bf q6JH
+000651ca 1n8RL
+000651de "N5fA
+000651f2 $N7VI
+000651fa $N6^E
+00065206 $N8ZM
+0006520e %N5fB
+0006521e 'N7VJ
+0006522a 'N6^F
+00065236 'N8ZN
+0006524a 5N8z
+00065252 0N7:
+0006525a 0N6Z
+000652bf *2F@
+000652da "N2NA
+000652e6 %N2NB
+0006530a 0~1*2
+00065356 &n5FL
+0006536a $N2ZA
+0006537e "N4JI
+00065386 "N3RE
+00065392 "N5NM
+00065416 $N'BA
+0006555c +ix8J	
+0006591c Lyxxk	
+00065e62 5n4X
+00065eef l3PA
+00065ef7 q7`@
+00065f12 'N1TB
+00065f94 elP-b
+00065ff2 0.d@A
+0006617e 3Nwb
+000662a6 3NuZ@
+000662b6 9NuR
+000664c0 h$@-
+000664c7 *j,A-
+000664d0 l4B-
+0006650e I- 	 
+00066516 F-!	!
+000665e3 q 	 
+00066650 w`@-
+00066657 *yhA-
+00066660 {pB-
+00066668 j$P-h|Q-~tR-&
+00066729 BF-'
+00066755 ND-Q
+00066761 RG-f
+00066a96 2n5L
+00066b1e 1N6HA
+00066b88 wLP-v
+00066be6 AN!X n!(!
+00067013 *q@P-
+0006730f *I}~
+00067693 yI}	
+000676c7 yj}*
+00067713 6hR@
+00067b5b *(@ 
+00067c7f yk"@
+00067d93 T A 
+00067e33 4`v@
+00067e3b qA) 
+00067eb3 4`v@
+00067ebf qA) 
+00067fe3 T!("
+0006811b T!("
+000681b3 *h*@
+0006820f y`ym
+00068243 T|n@
+00068257 4hr@
+0006825f 5`z@
+0006835f 5;o@
+00068367 4(+@
+0006839f 4(s@
+000683db k A 
+0006842f 4(o@
+0006849f 4;+@
+000684ab y(w@
+000686b7 TH+@
+0006878f TH/@
+00068996 0~cL$
+00068a93 Tayl
+00068b13 R)A@
+00068b54 ir@yhv@y
+00068c24 h6Ay
+00068cb3 6aR@
+0006914f 6`*@
+00069213 5hn@
+000693cb Sk}@
+000693eb Sc|@
+0006955f *-hi8!
+000695bb S)}@
+0006969f Sk}@
+000696bf Sc|@
+000697bf SJ}@
+00069943 S)}~
+00069a2f TH|~
+00069a7f Sk}@
+00069c93 /  "
+00069cb7 /  "
+00069e9b 4i2@
+00069eb7 Ta"@
+00069f2f 5i6@
+00069f5b Ta&@
+0006a299 Q@9H
+0006a4af R)ij
+0006a553 0JAA
+0006a5aa 7)JA
+0006a6fb *@yh
+0006ab47 /A8 
+0006abef T ( 
+0006b0b3 r<hh
+0006b163 R	%*
+0006b2e7 S)AA
+0006b3f7 R(!*
+0006b4a5 C@9h
+0006b5ab R(!*
+0006b69b RJ-,
+0006b77f R !*
+0006b91f r;hh
+0006b947 0ZCA
+0006ba24 h&B)
+0006bd43 0)AA
+0006c0ab *iV@
+0006c183 Tm&G
+0006c1d7 Tj>@
+0006c27b T`&@
+0006c2b2 "NBi
+0006c33f *j^@
+0006c36b Th"@
+0006c3df 5h*@
+0006c3f7 Th"@
+0006c453 *)@ 
+0006c5df niV@
+0006c662 #N!	@
+0006c66e &N!	
+0006c677 Tm&G
+0006c6cb Tj>@
+0006c76f T`&@
+0006c7a6 "NBi
+0006c80a _8)	
+0006cf0b 5hv@
+0006cf1f T`&B
+0006cf3f N!9A
+0006cf4a !^iF
+0006cfef =iFC
+0006d297 7` "
+0006d29f TC@ 
+0006d75b *`F@
+0006dab7 5hv@
+0006daeb T @ 
+0006e097 T%(%
+0006e147 5hv@
+0006e18b /  "
+0006e22b R 8 
+0006e423 *p8'
+0006e475 j:xZ
+0006e5ff *tD4
+0006e633 Tv*'
+0006e6e7 Tv(5
+0006e7eb TaZB
+0006e813 5hjB
+0006e81f 4c"A
+0006e877 Tc"A
+0006e957 R`"B
+0006ea73 T`&B
+0006eaff Ra6B
+0006eb37 R 8 
+0006ec07 R 8 
+0006ec6f 4h^B
+0006ec7a 	K	}
+0006ecab qybB
+0006ecc2 	KJ}
+0006ecf3 *v"A
+0006ed57 TivB
+0006ed63 q`"A
+0006ed7b *I}	
+0006ed9b *bVB
+0006ee07 Th>B
+0006ee17 T`ZB
+0006ee43 *jvB
+0006ee53 Tj"A
+0006f0df 4	yB
+0006f1d3 qE-N
+0006f227 *NE.
+0006f397 *LD,
+0006f4f7 *q|	
+0006f513 x0xt
+0006f5ef q%-N
+0006f633 TMD$
+0006f643 x0D@
+0006f72b qT-N
+0006f787 SOE/
+0006f7b7 =ZlB-
+0006f9a3 T	lB
+0006fea3 9h"A
+00070077 q)1A
+00070117 9k"A
+00070127 Th&A
+000702a3 7a:B
+0007031b 6j"A
+00070327 Tk&A
+00070527 Rmjk
+000705c7 *?A5
+0007078f RAI(
+00070837 T(  
+00070b57 4i"A
+00070b63 Tj&A
+00070cef 5 A 
+00071252 B-  "
+0007126b /*|@
+00071413 Tz~~
+000714db 4h~7
+00071763 R*AN
+000717e3 ^ 8 
+00071817 R)}~
+00071a13 *ZCA
+00071e7b 4	@@
+00071fcb *!I9
+00072c17 4	M@
+00072e16 !n!g
+00072e5b n @ 
+00072e93 ThV@
+00072e9b o	9A
+00072eaf =	a@
+00072edb 5hv@
+000732e4  X1x
+0007372b 5hv@
+0007376b ThJD
+000739fb *!Xq
+00073a8b *!D@
+00073b1b Nk}~
+00073b43 N1hm
+00073b52 %.2hl
+00073b9a @Ms:
+00073c2b =Ah-
+00073d13 T.@ 
+00073d5b T @ 
+0007409b 5hv@
+0007410f T"8#
+0007434f *byh
+00074363 *C@ 
+0007436f q!("
+0007442b =f@`
+000749bb 5hv@
+00074a97 6`V@
+00074c1b rA{|
+00074c77 Rh{<
+00074e2b 4h~B
+00074edb 4@yh
+00074f27 Tqyh
+00074f3f kqy(
+000750e3 ThV@
+00075123 R 8 
+000753b3 ThV@
+000753eb 5 9@
+0007541f 5hv@
+0007558b R`j(
+00075a5a 79hn
+00075b67 5a"A)
+00075cdb *	y5
+00075da2 	*Ayi
+00075e27 RI@ 
+00075e3f /  "
+00075ecf R !(
+00075fcb T@A 
+0007613f /  -
+00076396 	*i"
+00076453 T@A 
+00076487 R@A 
+00076503 R@A 
+00076547 T@A 
+000767fb ^!8"
+00076817 ^!8"
+00076833 ^!("
+00076847 R!8#
+0007684f ^!("
+0007685a $.!8#
+00076863 ^!("
+000768b7 ^A(!
+000768bf ^!8#
+000768db ^!(#
+000768f7 ^!(#
+00076906 #.!8"
+0007690f ^!(#
+00076963 ^A(!
+0007696b ^!8#
+00076987 ^!(#
+000769a3 ^!(#
+000769b2 #.!8"
+000769bb ^!(#
+00076a0b ^A(!
+00076a13 ^!8#
+00076a2f ^!(#
+00076a4b ^!(#
+00076a56 #.!8"
+00076a5f ^!(#
+00076d0f *B}~
+00076e47 *)AA
+00076e9b *!Yh
+00076eaf S!Y`
+00076ebf T   
+000770e3 5hv@
+000771e7 Rl	+
+0007725b TJ	 
+00077263 * {;
+0007733c !DA-
+0007738c 2TB-
+000773d4 2$C-
+00077657 q#D@
+000777e0 1LA-
+00077850 &`B-
+000779e7 -C*%
+00077d43 T@@ 
+00077d63 T!(#
+00077d7b T!8#
+00077d8b TA@ 
+00077dff Tb~|
+00077e9a $.g8
+00078167 5hv@
+000782eb Ta:C
+0007838f Tc*B
+00078423 T`*B
+000785a7 *"@ 
+00078633 qa("
+000786b1 Z@-g*C
+0007898f 5hv@
+000789eb T	U@
+00078a0b TA8#
+00078b47 T`&B
+00078bdb T`&B
+00078dab qc( 
+00079047 yI}	
+000790f3 y)}*
+000791db Tj|@
+0007921b T xm
+0007940b Q)}{
+00079523 qaX)
+0007954f Q)}|
+00079570 D	A-JA
+00079687 RB(#
+00079779 #Am`
+00079913 RI|}
+0007993b TI|@
+00079987 =c8$
+00079ac3 qbhh
+00079ae7 T  "
+00079b3b T  "
+00079c4f =hOD
+00079f07 T`!*
+00079f31 	@-&A@- 
+00079fa1 	@- 
+00079ff9 	@- 
+0007a03b T(x<
+0007a0bf - x<
+0007a187 q)) 
+0007a1ab T`!*
+0007a1d5 	@-&A@- 
+0007a251 	@- 
+0007a2b1 	@- 
+0007a35c 'A@-B
+0007a3c8 'A@-B
+0007a4a3 T`!*
+0007a712 !NA(#
+0007a726 "N#(#
+0007a9e7 R"yF
+0007aa17 R$1F
+0007bd1f 5iGD
+0007c1b7 7	'O
+0007c1c7 T	C|9
+0007c1d4 	s<9
+0007c23f = 9 
+0007c323 =K%D
+0007c48c Lii8k	
+0007c5e1 A<9)
+0007c6f1 A|9H
+0007c845 H@-B
+0007ca98 ~q?-hu
+0007cc58 A	~-k
+0007cc6c ^}@-I)A-
+0007ccff q3(3
+0007cdc3 TE(%
+0007ce93 Tp(0
+0007d15f /a8 
+0007d261 +Bma
+0007d2cf R"qE
+0007e16b 5	?E
+0007e55b <hB_
+0007e608 Lii8k	
+0007e71b T	a@
+0007e73b T	%@
+0007e99e @Mj 
+0007ea2a @-ey4
+0007ea4e C-ex4
+0007ec6f =Uyt
+0007ec97 - zt
+0007ed52 C-`x3
+0007edba /N!h3
+0007ee2a !n5h3
+0007eec6 1n4h3
+0007ef5e /N!h
+0007efc6 !n5h
+0007f05e 1n4h
+0007f0e6 /N!h3
+0007f18e !n5h3
+0007f28a 1n4h3
+0007f3db =tys
+0007f403 - zs
+0007f683 5hv@
+0007f6eb *%Xl
+0007f727 *%Xl
+0007fd57 5hv@
+0007fd6f o`V@
+0007fe73 5hBJ9
+0007feeb TazB
+0007ff47 9`V@
+0008000b =	dB
+0008002b /(  
+000800bf T @ 
+0008039f q	DJ9
+0008046f ^B(!
+000804c7 ^b("
+000804ff TC8 
+0008055b /(  
+0008071b T(! 
+00080757 T(  
+000807a4 hFJ9a6
+0008082f T	T@
+000808ff T`JB
+00080913 T`NB
+00080923 T`RB
+00080933 T`VB
+00080943 ThZB
+00080953 T`^B
+00080963 T`bB
+00080973 ThfB
+00080983 T`jB
+00080993 T`nB
+000809a3 T`~B
+00080a5b *	i*
+00080add EJ9H
+00080c2b r(A@
+00080ce3 5hv@
+00080f4f TB(!
+0008101f R!yh
+0008107f *!9A
+00081af3 5hv@
+00081bf3 T(  
+00081c47 T(  
+00081d33 THy.
+00081d8f T(  
+00081dd3 T(  
+00081faf *aVB
+00081fcf *`V@
+00081ff7 5`V@
+00082017 4`>A
+000820a3 5hV@
+000820ff 6`V@
+00082143 T`6A
+00082153 5`6A
+000821a7 5a6A
+000821bf 5a2A
+000821cb 4`:A
+00082243 5aVB
+00082307 Th2A
+00082317 /h"K9a.B
+000823a3 * @ 
+000823e7 T`V@
+0008248f ThV@
+000824e7 TH! 
+00082522 @-&A 
+00082567 ThRB
+00082577 /jNB
+0008261b Th>A
+00082637 *h:A
+0008266b TJ@!
+0008267f TA@ 
+00082733 /DA 
+00082a97 4hV@
+00082c67 7(#@
+00082caf T!k@
+00082d03 T`2By 	
+00082d1b ThV@
+00082d34 `2By
+00082d4f ThV@
+00082d8b T`V@
+00082f23 T`A 
+00082f93 T@)-
+000831bf / @ 
+00083204 +ih8J	
+000832da I9`:
+000832f3 Ta>B
+0008331e I9`>
+00083337 Ta:B
+00083397 RhV@
+0008350c ibO9_
+00083583 RhV@
+00083623 4a:B
+0008369b RhV@
+00083827 4`V@
+000838ba I9`2
+0008392b RhV@
+00083c7b 5hv@
+00083dab TjND
+00083dc3 T`*B
+00083e93 Tg2B
+00083f2b Tg2B
+00083f47 -gBC
+00084001 f@-2B 
+000840ae u-Tx
+000840f5 CD-f
+000841e9 I@-v
+000842e6 7-r^B
+0008432b 43B 
+00084335 c	-.C 
+00084411 c	-f
+00084526 G-tV
+0008453a u-of
+00084556 v-z>
+000845da v-}F
+0008460e J-k2
+00084747 5	U@
+00084ab7 TBYo
+00084b03 TCYo
+00084b2a ?-k!
+00084b47 q)	B
+00084cf7 *0yl
+00084d8f T+}~
+00084f5b q@M@
+0008504b R& @
+0008507a G-aD
+000850aa "Nb8'
+000851cc uYCmE
+000851f7 NgMBm
+0008536b -Q(#
+000853a6 ?-&("
+000853b2 ?-)!
+000853be ?-k!
+000853c6 ?-J!
+000853e3 TI|@
+00085437 -18#
+00085543 ^C@ 
+00085574 2C@-
+0008560f Tt~@
+0008565b ^C@ 
+00085689 K@-_
+00085691 G@-9#
+000857f7 *,A5
+00085827 -Q(#
+00085862 ?-&("
+0008586e ?-)!
+00085876 ?-J!
+0008588f TiJ5
+00085983 *,A5
+000859fe ?-)!
+00085a06 ?-J!
+00085a2b **I5
+00085a62 ?-J!
+00085ba6 !n!g
+00085beb n @ 
+00085c2b Rhv@
+00085c67 5hv@
+00085e4b RN}~
+00086383 =  *
+00086957 *	i<
+00086ae7 ThV@
+00086c0b T$ym
+00086c4f 7&Yn
+00086d17 R)AA
+0008700b *)U@
+00087152 @)cv
+000873f3 5`V@
+0008742b 5iV@
+00087491 2@9_
+0008769c h2By
+000876a8 `2By>
+00087728 i2By
+00087733 5iV@
+0008779d 0ByT
+00087981 #})<
+00087cf7 4`V@
+00087dcb ThbI9ifB
+00087eb3 *	=B
+00088095 (@)KH*
+00088160 GXn|2
+0008816c FXk|
+000882d1 (@)KD*
+00088375 $@)*}
+00088383 qkE+
+000883aa @9k	@9
+000883c7 *O	@9
+00088403 S)	@9J}
+00088414 ia	*
+0008857a @MIH-
+00088621 (@)KH*
+000886e9 ,@)L@+
+000887da !n1V
+00088895 (@)K@*
+000889a9 	@9c\
+000889bd 	@9J
+000889d6 @91^
+00088a05 	@9c\
+00088eb1 (@)K
+00088edc k	@9
+00088efb SJ	@9
+00089049 (@)K
+00089066 !^%8$
+000890f7 qkA)
+00089116 @9k	@9
+000893a3 qJ5B
+00089435 8PNG
+00089488 i(@)K
+00089537 N)}~
+000895cc i(@)Jy
+00089658 i(@)Ju
+00089732 !n)}
+00089742  nGh
+000897e7 Oi(@)Ju
+00089868 j,@)h
+000898ea !.H}
+000899c2 ?oKD+
+000899ca !nJD*
+00089b04 i(@)J
+00089c13 qID)
+00089cea !nKD+
+00089cfa  n0E@
+00089d27 O4U@
+00089d2e !NV]@
+00089e3b qID)
+00089f03 N)}~
+00089f16 ?oDh
+00089f64 i(@)!
+00089f73 qBXi
+0008a016 !nJ}~
+0008a026  nGh
+0008a02f <i}~
+0008a080 i(@)Jy
+0008a0db 4i(@)h
+0008a19e !nIH)
+0008a1ae  n'A@
+0008a1ff Ti(@)Ju
+0008a25b 4k0@)i
+0008a29f NAhm
+0008a2c3 nAhl
+0008a38e  nJH*
+0008a3cf =KH,
+0008a3e3 NJH*
+0008a403 =pM@
+0008a44f Ti(@)J
+0008a49b nk}~
+0008a516 ?o)q
+0008a523 qIH)
+0008a5d6 !nJH*
+0008a5e6  nGAA
+0008a603 N5Y@
+0008a60f NYi@
+0008a61f OGAA
+0008a686 ?o)q
+0008a693 qIH)
+0008a6fc i,@)
+0008a7f8 i(@)K
+0008a864 j,@)i
+0008a884 DHk|I
+0008a8e6 !.Ly
+0008a90b 9Phm|
+0008aa00 i(@)Jy
+0008aa23 9%8$
+0008aa98 i,@)
+0008aaa0 CXk|%
+0008aab8 DXl|j
+0008ab26 !n#Y@
+0008ab7c i(@)K
+0008abe8 i,@)j
+0008ac17 NDhm
+0008acce !.JX
+0008ad7c i(@)Jy
+0008aea4 i,@)
+0008af70 i(@)!
+0008af7f qBXi
+0008afd0 j$@)
+0008b02b nEhi
+0008b1bf -J}~
+0008b3aa @9)	@9J]
+0008b3b7 *Ia	*)}
+0008b5a2 	kJE*
+0008b5b2 @9J	@9k]
+0008b616 	kAXj
+0008b66a 	kJH
+0008b6b7 k@Xi
+0008b71e 	kJX
+0008b768 Axj|
+0008ba23 n]Xi
+0008ba63 n]+7
+0008ba9e >.Y+;
+0008bae3 RaUN
+0008bc4f RAUN
+0008bcc3 qJE*
+0008bcda @9NE*
+0008bd27 *O	@9
+0008bd7f S)	@9kA
+0008bd9a _8ia	*
+0008bda3 *k;:
+0008bee3 q[Xk
+0008bfeb RaUN
+0008c22e @9ZG:
+0008c4ae !^%}
+0008cb87 R iF
+0008cf3f *)(A
+0008cf5b ** 	
+0008cfd1 @	9	$
+0008d0df Th:B
+0008d0ef ThBB
+0008d157 5`V@
+0008d353 Th"@
+0008d583 *)AA
+0008d5db 5a"A)
+0008d65b *B}|
+0008d733 *h&@
+0008da83 5hv@
+0008dbd3 T	EI99
+0008dc0d EI99
+0008dc21 A	9	%
+0008dc67 T`*B
+0008dde3 ThV@
+0008df6b T	!A
+0008e14f o	eF
+0008e51b 5hV@
+0008e58b 5hv@
+0008e59f Thb 
+0008e603 T@@ 
+0008e63f T@@ 
+0008e687 T@@ 
+0008e6c3 T@@ 
+0008e70b T@@ 
+0008eaf4 +ih8J	
+0008ebc7 6`V@
+0008ec9b T @ 
+0008edd7 T @ 
+0008ef0b T @ 
+0008ef56 !^>i
+0008efb7 T @ 
+0008efd6 !^!$@
+0008f103 T Xj
+0008f1d3 T_i(8
+0008f1dc Ki(8,%@
+0008f26f 9naC
+0008f2b7 9maC
+0008f5ef R9yg
+0008f6d3 T<SA
+0008f747 T~c@
+0008f7bb T0{@
+0008fc1f TA@ 
+0008fc67 TA@ 
+0008fccf TA@ 
+0008fd17 TA@ 
+0008fdbf TA@ 
+0008fe07 T @ 
+0008fe87 T @ 
+0008ff9c +ih8J	
+0009014b /` (
+0009018f /(  
+0009034e !^"YN
+000905b5 AO*oy)
+000905ff R!("
+0009060b *!8"
+00090b5f 6`V@
+00090bde @7hV@
+00090c27 *	,B
+00090c87 rIii
+00090d4f 5hvB
+00090e40 	aI9I
+00090ea2 	kI1
+000911bf 5hv@
+00091713 /  #
+000918d7 *9GB
+00091a22 @-QI@-"
+00091a2a C-$!@
+00091a50 3AC-4!@
+00091a58 5YB-	
+00091a84 4AC-
+00091a89 M@-0
+00091a98 5IB-I
+00091aac VA@-2EC-5
+00091c6f =	$C
+00091eeb =	tD
+00091f73 =	TE
+0009201a C-%!@
+0009204e C-&!@
+00092074 2EC-4!@
+0009207c 5YB-	
+000920a8 5YB-rR
+000920b0 3EC-4!@
+000920dc 5YB-RR
+000920e4 3EC-4!@
+00092118 3EC-4!@
+0009212c 4UB-	
+00092140 8]C-9!@
+00092148 :mB-	
+00092186 C-4!@
+000921de C-%!@
+00092216 C-&!@
+0009224e C-&!@
+000922a8 2EC-4!@
+000922b0 5YB-	
+000922dc 5YB-rR
+000922e4 3EC-4!@
+00092310 5YB-RR
+00092318 3EC-4!@
+00092344 5YB-RR
+0009234c 3EC-4!@
+00092378 5YB-RR
+00092380 3EC-4!@
+000923ac 5YB-RR
+000923b4 3EC-4!@
+000923e0 5YB-RR
+000923e8 3EC-4!@
+00092414 0EC-SR
+00092430 4UB-	
+00092444 8]C-9!@
+0009244c :mB-	
+00092488 :mB-!
+00092498 8YC-9!@
+000924c4 :mB-
+000924cc 8YC-9!@
+000924fa C-4!@
+0009296f qJEB
+00092a5b *n|~
+00092b1e $nc8
+00092c1e 3NYZ
+00092c3a 3N6Z
+00092c6b *q|~
+00092cb2 2n<G
+00092cca <N>C
+00092d3b N9+;
+00092d66 0nWC
+00092fda =N)Z
+00093033 *v|~
+000931ef NB(%
+00093281 +Mm@
+000932da #Nc8
+0009333f mH@ 
+0009339e @- hf
+0009341a B-!-
+00093427 -|	@-
+00093457 - jf
+000934ce B-!=
+000934d3 -x	@-g
+000934fe B-`a
+00093564 11@-a
+0009357d hB-5E
+0009358c r9@-
+00093638 $q@-
+00093649 OP-b
+00093691 kM-)	 
+000936f1 CJ-0i
+000937a3 Tm|~
+000937b1 ]@-!hn
+000937dc PE@-
+0009380d AC-1I@-'
+00093821 AB-0
+00093926 @- hl
+00093cd0 l.@-
+00093d35 z@-@
+00093dad vB-d
+00093e24 pV@-
+00093e59 RB-c
+00093ec2 S-cD
+00093ec9 GP-$
+00093ed1 GM-%
+00093eed ?_-!
+00093f2e Q-4Q
+00093f3a N-BD
+00093f82 H-rI
+0009402f To|~
+0009404e @-9hm
+0009405a C-e @
+000940a4 PE@-r
+000940aa C-s @
+000940b0 tTB-#
+000940d3 -tTB-1N
+000940de C-0J@-
+00094100 tTB-GF
+00094108 s@C-1I@-'
+00094135 J@-'
+00094144 pPB-
+00094154 v]@-xTC-
+00094164 yhB-u @
+00094187 -pXC-q @
+000942aa @- hl
+000942b3 qRkl
+0009489a 	- kl
+00094ad6 @-z{@-
+00094b95 q@- 
+00094c24 A	@-
+00094cd0 3V@-
+00094d59 [B-a
+00094dd5 G@-a
+00094e78 rg@-VY
+00094eb1 'L-&
+00094f7f Tc|~
+00094fbe @-!hm
+00095078 PE@-
+000950a9 VB-1N
+000950d5 VB-QF
+00095101 VB-QF
+0009512d VB-GF
+00095135 BC-1I@-'
+00095159 VB-PB
+00095165 H@-'
+00095185 VB-PB
+0009518e C-QH@-'
+000951b2 @-RB
+000951b9 NC-2
+000951c9 RB-2F
+000951d8 v]@-
+000951e1 nB-fF
+00095278 uF@-
+00095674 ?i(8h
+000956eb *Hi)
+00095728 ?i(8
+00095777 5hV@
+0009586b R)UB
+000958bb Ti*B
+0009596b Tj6B
+00095977 Tj6B
+00095ac7 R)UB
+00095b87 4	(B
+00095ba3 RJUB
+00095cd9 jj8'
+00095ce9 j(8O
+00095dc7 /  "
+000965bb *sRB
+00096abb 5hv@
+000971bb T	XB
+00097227 T`Yj
+00097237 R`yj
+00097363 TI@ 
+000979d6 @9h!
+00097a2f TinB
+00097b2b TlfB
+00097b37 4j^B
+00097b63 TjfB
+00097b6b 4j^B
+00097cf3 7hfB
+00097cff 4hBB
+00097d3f 4kBB
+00097d53 Tk^B
+00097f01 2By?
+00097f83 *8@A
+00097fbf S	@@
+0009805b *		@
+00098103 r)ij
+00098353 TJ1@
+00098434 (HH9
+000984f7 T*5@
+0009850b TJ1@
+000985ef R(	@
+0009878b R(	@
+0009888c ?9Hk
+00098926 @7`V@
+00098aad 0ByH
+00098b1b Th&@
+00098b27 ThBA9
+00098b7f 9`V@
+00098c09 @A9h
+00098d0f T*	@
+00098d1f TJ-@
+00099010 	IH9?
+00099214 hVCy
+000992c3 TaV@
+000992f3 7(#@
+000993bb T`JA
+000994cf 4aV@
+000994ef 5aV@
+000996c2 @yhf
+00099813 okJA
+0009981d +U)sZ
+000998ef *hv@
+00099913 4iV@
+0009991f r)ij
+00099d84 h&A))
+00099f81 c@)h2@
+00099f8f y	iD9i
+0009a013 Th6@
+0009a203 9H$@
+0009a257 TJ%@
+0009a2bf TJ%@
+0009a504 K)E)
+0009a62f *	`@
+0009a6dd 0Byh
+0009a78b 45MA
+0009a7e2 P7	]@
+0009a887 6`V@
+0009ab6b =Hu~
+0009ac4f =Hu~
+0009addb =Hu~
+0009af1b =Hu~
+0009afeb =Hu~
+0009b0ff =Hu~
+0009b1d7 =Hu~
+0009b2b3 =Hu~
+0009b3db =Hu~
+0009b4b3 =Hu~
+0009b7d3 <$	 
+0009c0b7 q!	 
+0009c1df q!	 
+0009c44f *!	 
+0009c733 <!	 
+0009cf52 07`V@
+0009cf8f 5`V@
+0009d04b 9`V@
+0009d09a @7`V@
+0009d3eb *(ih
+0009d54b R	}@
+0009dd6b 4)TCy
+0009dda8 iRCy)
+0009ddc3 ThZCy
+0009ddcf yH|@
+0009ddd7 6hbCy
+0009ddfd VCy)
+0009de80 hRCy(
+0009dec4 hVCy(
+0009df13 qH|@
+0009df63 TH,@
+0009df93 yH|@
+0009dfb4 hRCy
+0009dfbf Th>@
+0009dfef *(ih
+0009e1ea @7`V@
+0009e23f 9`V@
+0009e2e2 @7`V@
+0009e3b6 @7`V@
+0009e58f T	9@
+0009e5d8 !	F-   
+0009e613 T	=@
+0009e62f T*%F)
+0009e67b T	A@
+0009e6fb T(7@
+0009e757 4hV@
+0009e90b T(G@
+0009e9ef T	I@
+0009eafb T	M@
+0009ec0f T	U@
+0009ef43 T`V@
+0009f057 6`V@
+0009f0c7 7hV@
+0009f190 (IH9*
+0009f408 (HH9
+0009f447 r+ij
+0009f503 oh"Dyh
+0009f618 	!@9?
+0009f69c 	!@9?
+0009f6b3 r	ii
+0009f70b T	U@
+0009f71b r+ik
+0009f733 T,A@
+0009f81b *)AA
+0009f8d7 RJAA
+000a09fe E-rZF-s^G-
+000a0a16 @-!(#
+000a0a20 pFA-tVB-C*3
+000a0a38 znC-
+000a0b32 J-gB@
+000a0b3a K-wn@
+000a0b9b -;+;
+000a0bae 	-G*'
+000a0c10 nb@-
+000a0c20 `&A-
+000a0c30 a*D-
+000a0c38 h.E-
+000a0c4a G-)((
+000a0c5c k:B-c
+000a0c62 F-s("
+000a0ca6 v-*:%
+000a0dd6 E-c(7
+000a0dfa G-jb
+000a0e39 kv-;:0
+000a0e62 H-|v
+000a0e8b -|(>
+000a0e97 -J+7
+000a0ec2 B-|v
+000a0ec7 -!8&
+000a0ed2 A-sf
+000a0ee4 aR	-
+000a0ef7 -p8>
+000a0f07 -A;7
+000a1027 -%("
+000a109e @-h|C
+000a117f R*L#
+000a1206 E-rZF-s^G-
+000a121e @-!(#
+000a1228 pFA-tVB-C*3
+000a1240 znC-
+000a1330 gBH-h
+000a133a I-aJ@
+000a1342 J-d~@
+000a1368 eVM-
+000a1376 N-H8#
+000a1392 	-`r@
+000a1418 j6@-1*8
+000a1430 h>A-
+000a1444 `&D-H9(
+000a144c {2E-
+000a1476 G-s("
+000a14d6 I-R*)
+000a15fd GD-K*'
+000a1621 OF-t
+000a165e w-l:
+000a16ab -D88
+000a16d2 B-l:
+000a16e5 G@-`
+000a1703 -@(8
+000a182b -%("
+000a197f *)AA
+000a1a8f 4hbA
+000a1b3b Th"@
+000a1b47 ThvA
+000a1b67 ri"@
+000a1b7b TjzA
+000a1c5b TivA
+000a1cc3 9hjA
+000a2278 i"D)i
+000a24c3 9"%@
+000a24e7 7hnA
+000a25bf TirA
+000a2603 4`vA
+000a2644 $	A:)
+000a26cf Ti^A
+000a26f7 5hfA
+000a2747 Rj^A
+000a27c3 Ti^A
+000a27cf Ti"@
+000a294a 	KJ-
+000a29fc )!	SJ}
+000a2b84 Jik8IaIJ
+000a2c3b ThnA
+000a2c67 ThzA
+000a2c87 4jfA
+000a2caf R$9@zA
+000a2cc3 TiRA
+000a2ccf 4jzA
+000a2d7b *	mA
+000a320d b	9h:
+000a33a4 Jks8
+000a33e5 j38Hks8
+000a345c ?I(8(
+000a3502 @9,!
+000a3d51 b	9S
+000a4421 S@9h
+000a4430 ejvxa
+000a4d87 r)ij
+000a4ef7 r	ii
+000a501f Th*@
+000a529f T(  
+000a52a7 T  "
+000a536e @yF @9G$@9H(@9I,@9J0@9K4@9L8@9M<@9
+000a550e @yg @9h$@9i(@9j,@9k0@9l4@9m8@9n<@9
+000a5cce V-"9*
+000a5cdd S@-!
+000a60a2 W-)	
+000a6136 W-`B
+000a67bf 5oim
+000a67d3 5nim
+000a6b8f 5oim
+000a6ba3 5nim
+000a6f13 Th*@
+000a7247 ThB@
+000a728b Tk6@
+000a72c3 5/im
+000a72d7 5.im
+000a736b T	4@
+000a73b3 5nil
+000a73c7 5mil
+000a7cbb T+}@
+000a7ce5 io8/h,8
+000a7cfd il8+h.8
+000a7d15 im8)
+000a7d1c -h/8
+000a7d67 TNEL
+000a7d75 in8.h-8
+000a7dc9 il8_
+000a7dcf k(h+8`
+000a7f68 hJ68
+000a8053 RE8#
+000a808b S)	H*)	I*)
+000a8096 I*)!I*)AI*
+000a817a C*c C*c@C*!
+000a81e6 Q*1"Q*1BQ*
+000a83f8 (`@9
+000a85c8 hb@9
+000a860c 	a@9)
+000a8638 	a@9)
+000a8680 (`@9
+000a86e5 AH*h
+000a8707 Rj"@
+000a892b =!8 
+000a8943 T 8 
+000a89a7 n"9(
+000a89fb = 8 
+000a8a0b T(  
+000a8a43 T(  
+000a8a4b T 8 
+000a8a53 ="9(
+000a8a7b T(  
+000a8aa7 T(  
+000a8adf T(  
+000a8ae7 T 8 
+000a8aef ="9(
+000a8b17 T(  
+000a8b33 ^ 8 
+000a8b43 T(  
+000a8b7b T(  
+000a8b83 T 8 
+000a8b8b ="9(
+000a8bb3 T(  
+000a8bd7 T 8 
+000a8c17 ="9(
+000a8c63 T 8 
+000a8ca3 ="9(
+000a8ceb ="A 
+000a8d04 hB@9
+000a8d60 (`@9
+000a8d67 7)$@
+000a8d97 T	%@
+000a8ecb r	})
+000a97f8 Iih8)
+000a97ff RIi(8
+000a9828 Hii8
+000a982f RHi)8)
+000a9910 	!A))}
+000a9b03 *)Yh
+000a9ca3 9`"@
+000a9cb5 er9h
+000a9ccf 5`"@
+000a9dca 	kh&@
+000a9de7 *h&@
+000a9e73 5i"@
+000aa097 5h"@
+000aa2ef S	@@
+000aa40c *er9
+000aa4c7 Sc#H)jKA9i
+000aa513 5hG@
+000aa6bf oi"@
+000aa6cb **ix
+000aa7bf N!(a
+000aa804 IeWyJiWy
+000aa844 c!!K
+000aa9a8 8iWy7eWy
+000aa9c8 )!8K?
+000aaa9d !8k!
+000aaca7 r*ihxJ
+000aacb0 *i(x
+000aacb8 *ihx
+000aace4 *i(xIv
+000aacf5 iixJ
+000aae0b q7Q@
+000aae6b S	@@
+000aaea3 T`"@
+000ab0b3 Th"@
+000ab23c *ar9
+000ab242 (6$qE
+000ab297 9`"@
+000ab317 r	IA
+000ab3c3 5`"@
+000ab3d3 5`"@
+000ab473 5`"@
+000ab499 iixJ
+000ab4fc *ar9
+000ab502 06$qE
+000ab5cb 5vB@
+000aba1b T	C@
+000abca7 T`"@
+000abcb8 *er9
+000abcbe  6$qE
+000abd05 6E)I
+000abdb1 (Ci	
+000abe91 i)xIv
+000abe97 Rh"@
+000abea1 i)x	v
+000abea7 Rh"@
+000abeb1 i)xh
+000abec7 5g"@
+000ac04f 5h"@
+000ac077 rh"@
+000ac273 *B|@
+000ac27f *i"E)j
+000ac297 TB|@
+000ac2d2 Bih"
+000ac6b3 r)}+
+000ac97f R 5E
+000aca49 "A)*
+000aca79 "A)I	
+000acf8f r)}+
+000ad008 )hh8)
+000ad00f R)h(8
+000ad3c0 )hh8)
+000ad3c7 R)h(8
+000ad41b *)|~
+000ad43b T(  
+000ad53b T@ !
+000ad57f T`  
+000ad6ab R@X(
+000ad783 T   
+000ad78b T 8 
+000ad8ff * ( 
+000ada17 * ( 
+000ada63 q9CA
+000add92 	*   
+000ade2a 	*   
+000aded7 4h*K
+000ae05b =A@ 
+000ae077 6@@ 
+000ae093 Th"@
+000ae0cf R.!O
+000ae183 T!()
+000ae1e7 T!()
+000ae283 ThF@
+000ae303 ThJ@
+000ae337 ^@ #
+000ae60f R)!O
+000ae74b 4h*K
+000aea4b T"xh
+000aeb07 R*@ 
+000aeb13 * ! 
+000aeb77 TH! 
+000aec13 T	()
+000aeeef T(! 
+000aef63 T(! 
+000af083 T A 
+000af1eb T A 
+000af2b7 T`zh
+000af40b RB	+
+000af4f3 *h@ 
+000af593 4L8*
+000af77b R!	,
+000af9eb ^)}@
+000af9fe !^!8"
+000afa73 T*}@
+000afac3 T():
+000afad7 T!(/
+000afc4f R"8.
+000b0123 Th  
+000b0157 T@8 
+000b01b3 TC8 
+000b038f TiJA
+000b12bb T*	@
+000b1463 T4	@
+000b165f T*	@
+000b18bf 7	EA
+000b1b8f R)AA
+000b1be3 R)AA
+000b20bd @A9h
+000b24d3 5`"@
+000b268f 5hJ@
+000b2699 C@9(
+000b26b7 T`"@
+000b2794 h#@9
+000b281f T`"@
+000b2e89 b@9h
+000b3418 uZA)s
+000b3583 =ij(8
+000b36c1 BK9)
+000b3710 *QK9_
+000b371b T)UK9?
+000b373c *QK9_
+000b38e4 hBK9)
+000b3905 QK9_
+000b3920 #UK9
+000b3a4f TKiv
+000b3a73 TKE@
+000b3b29 BK9H
+000b3b58 ,A_8
+000b3b63 T,Q_8
+000b3caa _8?)
+000b3cb5 3_8	
+000b3d3b 5hBK9(	
+000b3dc0 ( @9
+000b3de4 ($@9
+000b3ded 'E)`
+000b3e04 "4@9!0@9
+000b3f53 5hBK9
+000b40b5 @K9h
+000b486b 9hR@
+000b4a4b )	(A)
+000b4b53 TK	@
+000b4b94 H1@9
+000b4bc7 Tj"@
+000b4c50 ((@9
+000b4c6c ($@9
+000b4cc0 hR@9`
+000b4cd8 hR@9`
+000b4e07 5a"A)
+000b508a @9	1
+000b5097 *h&@
+000b5127 Th"@
+000b57f4 ($@9
+000b6a41 #A)k
+000b6a63 Ki}@
+000b7243 r@hh
+000b730b 5hR@
+000b7607 T!%O
+000b763f T"@ 
+000b7663 T @ 
+000b767b T %O
+000b7687 T @ 
+000b76af T @ 
+000b76db T"@ 
+000b76ff T @ 
+000b7727 T @ 
+000b7767 T %O
+000b7773 T @ 
+000b777f / (@
+000b77c3 T @ 
+000b77f7 T @ 
+000b788d qA9(
+000b78ca M-B8#
+000b78f7 /@ #
+000b7913 T@8!
+000b79ca A- ( 
+000b7a56 D- ( 
+000b7d4f 6ijA
+000b7daf TiR@
+000b7de3 9K	@9J
+000b7e8f TiR@
+000b7ee8 +ij8J
+000b7ef0 +i(8
+000b7f24 Kiix)	
+000b7f2c Ky(x
+000b9cf0 HS@9
+000b9cf7 6H{A
+000b9d6b QIS@
+000b9e07 Rj.@
+000b9e57 6I{A
+000b9e62 P7H/@
+000b9e6f TB7@
+000b9e83 TH'@
+000b9ec3 5h*@
+000b9f0b TH/@
+000b9f9f Th.@
+000ba034 iV@9
+000ba03b 7i.@
+000ba0da F)jR@9k.@
+000ba147 ThF@
+000ba1d7 5hR@
+000ba5eb 9h&@
+000ba8c9 T@9H
+000ba8d7 QhR@
+000ba913 o`&@
+000bab63 6hJ@
+000bab7f 7`b@
+000babc3 T`b@
+000babdb *hF@
+000babf3 o`&@
+000bad07 4`b@
+000bad3b 4`b@
+000bade3 5`&@
+000bae7d T@9H
+000bafeb Thz@
+000bb0ee (7hJ@
+000bb24b 6h&@
+000bb263 T)%@
+000bb2de 76hZ@9
+000bb2e7 7`b@
+000bb34f 4aF@
+000bb36f RiF@
+000bb3bf 6	yz
+000bb40b T_y)
+000bb41f ThF@
+000bb453 TaF@
+000bb4e3 6hR@
+000bb5ab T	D@
+000bb657 6hJ@
+000bb82b T(  
+000bb867 /H  
+000bb88f .@ !
+000bb913 T   
+000bbef8 ?%Hj
+000bc1a7 r)ij
+000bc36d *E)(
+000bc473 r)ij
+000bc9ab ThR@
+000bccbe 	*	)
+000bcea2 	ki0
+000bced3 6h6@
+000bcedb 5h:@
+000bceeb ThR@9
+000bd384 	hh8*hh8
+000bd3fc 	hh8,hh8*
+000bd57c hjt8
+000bd787 T*xhx
+000bd7b7 8H%@8
+000be203 r	ii
+000c309f ThF@
+000c31df T`j@
+000c32d7 TaF@
+000c33a3 5hB@
+000c33b3 5hB@
+000c33cf 5hF@
+000c33df 5hB@
+000c371b 5a"A)
+000c385f rhjh
+000c39db r	hix
+000c3c27 oiB@
+000c3ce3 ThB@
+000c3d03 ThB@
+000c3efb ohB@
+000c3f1f R =E
+000c4143 2)AA
+000c426b 5`j@
+000c4371  @9h
+000c43eb rbj(
+000c452f TH#@9
+000c4547 5Hk@
+000c4643 7	 @9
+000c469c 	 @9i
+000c471f 5($@y
+000c4727 5(,@y
+000c472f 5(4@yh
+000c4747 T(`@
+000c475b T 8@
+000c47a7 R  "
+000c47e3 T( @
+000c47ef T+P@
+000c47fb 5(T@
+000c4807 T*L@
+000c4813 T*\@
+000c48cb Th"@
+000c4927 *)AA
+000c4997 r`jh
+000c4e7b *	E@
+000c5239 '>)I
+000c53bf 5hB@
+000c53e3 5hB@
+000c547f T`>A
+000c5523 T`j@
+000c554b 5h:A
+000c5567 T`>A
+000c5673 5hj@
+000c5697 5hj@
+000c56bb 5hB@
+000c56df 5hB@
+000c571b 5h>A
+000c599b 5HGI
+000c59f7 7hF@
+000c5a0f 5`j@
+000c5be0 	!@9i
+000c5bf3 r	i*
+000c5c67 rijh
+000c5cc3 R(M(
+000c6093 T")@
+000c609f T -@
+000c610a  .e@!
+000c6317 Tij@
+000c6333 5ij@
+000c6377 Rhj48
+000c63e3 5hj@
+000c6403 5hj@
+000c641f 5hj@
+000c79c7 T!%O
+000c79ff T"@ 
+000c7a23 T @ 
+000c7a3b T %O
+000c7a47 T @ 
+000c7a6f T @ 
+000c7a9b T"@ 
+000c7abf T @ 
+000c7ae7 T @ 
+000c7b27 T %O
+000c7b33 T @ 
+000c7ce3 Tij@
+000c7d87 R9CA
+000c80eb *!ih
+000c81f9 R@9H
+000c8219 a@9h
+000c8243 pZCA
+000c82cb <`j@
+000c82db 4`j@
+000c85d7 *B}}
+000c870f *)AA
+000c8bc0 *ih8_
+000c8bcb Tjj@
+000c8bd0 ?i(8_!
+000c8bd7 9ij@
+000c8c09 br9		
+000c8c67 Tij@
+000c8c6c )%L9?
+000c8d49 j(8hj@
+000c8d67 5ij@
+000c8ee3 Ti"@9?
+000c8f10 h&@9
+000c8f5f 5hj@
+000c8f84 h"@9
+000c914b Th"@9
+000c916b rhjh
+000c92d8 Ha@9
+000c9336 @9	q
+000c935f T`j@
+000c94eb T`>A
+000c954a D)ij@
+000c956b Rhj@
+000c9573 9hj@
+000c95b2 I)e>A
+000c962a I)c:A
+000c9647 5`j@
+000c9667 5`j@
+000c9687 5`j@
+000c9789 fr9	
+000c978e (6ij@
+000c97ef R	h@
+000c9803 8(Q@
+000c9e33 **QA
+000c9fcb ThB@
+000c9ff9 kh8)	
+000ca1ce C)[M
+000ca21d B@9"
+000ca238 *5By
+000ca418 ?A@q
+000ca43e G9*Q
+000ca533 58[3
+000ca83f T	)@
+000cac93 5`:D
+000cad1b T`:D
+000cad4b *	-@
+000cafc3 4`:D
+000cba21 sC9_
+000cbaa1 sC9?
+000cbfbe @9Hn
+000cc28e !^HX
+000cc5b3 5h.@
+000ccd10 )ih8?q
+000cce25 X@9(
+000ccedf 5h.@
+000cd10f QhQ@
+000cd673 T(E@
+000cd717 6h"A
+000cd82f 5ij@
+000cd88b Thj@
+000cd893 R	M@
+000cd9f7 R A 
+000cdf13 TNin8n
+000cdf1b 7 @ 
+000cdf3c Ki,8
+000ce02f T(  
+000ce08f T"9"
+000ce0a7 Tb9"
+000ce117 TC8!
+000ce123 T#8"
+000ce1b7 T(  
+000ce1bf T"@!
+000ce24f /(  
+000ce257 T"@!
+000ce454 	 @9?
+000ce46f r	hi
+000ce514 	!@9?
+000ce52b r	ii
+000ce588 	!@9?
+000ce59f r	ii
+000ce5fc 	!@9?
+000ce68c 	!@9?
+000ce6a3 r	ii
+000ce700 	!@9?
+000ce717 r	ii
+000ce79f r	hh
+000ce96d "69`
+000cea05 "v9h
+000cec33 5iF@
+000cec3f K9a 
+000ced59 Fc9(
+000ced73 5h"D9
+000cee3c 	5ByI
+000cf07f Tajt
+000cf297 Rhn@
+000cf2d3 Thn@
+000cf2e7 Thj@
+000cf2ef 7ir@
+000cf317 Tbv@
+000cf34f T   
+000cf5b3 TsJA
+000cf90c hbD9
+000cf917 ThfD9
+000cf968 hbD9
+000cf9a4 hfD9(
+000cfb08 *ar9J
+000cfc0c *er9J
+000cfde7 Tj2@
+000cfedb Ti2@
+000cff2d $@)K
+000cff62 @9J%
+000cffca 	Ki!
+000cffe5  @)	
+000d0060 	,@)
+000d0140 	 @)
+000d0311 aHJ,Yl
+000d0341 aHJ,Yl
+000d0548 h&C)
+000d0609 j@9(m
+000d0628 lii8)
+000d0639 j@9?
+000d0700 )k@9
+000d071b T"}@
+000d072f 4h.@
+000d078b )hbA
+000d079f 5h&E)
+000d0877 R(y*
+000d088b 6h.@
+000d08ff 4i"A)a
+000d0930 i"A)
+000d096b T(C<
+000d0973 ql.@
+000d09f7 6h.@
+000d0b4b T,}@
+000d0c88 )(L)H
+000d0d6b 4if@
+000d0ddf 5a.@
+000d1202 	K	1
+000d13f7 5A{y
+000d14e5 1@)j*
+000d17fa Eim"
+000d1c13 q6y(
+000d1d20 i"@)6}
+000d1eb3 S+Yk
+000d2493 TH{x
+000d24c7 TH{x
+000d255b T(}~
+000d294f T.y(
+000d2d53 ql}	
+000d2d87 5KAC
+000d320d j38s
+000d3225 C_xJN
+000d32ec @k989
+000d3305 C_xJN
+000d347b q {6
+000d34ef q {6
+000d3633 T		@
+000d3931 	@qL
+000d3d1f qJ!C
+000d3de3 5.{m
+000d3deb 4){,
+000d3e47 T*{i
+000d3eeb T(~Q
+000d3f33 T(  
+000d4172 ?-OU
+000d4196 ?-{#
+000d43c2 @- 	@
+000d4448 !	@-
+000d44d0 -9@iG
+000d44e5 	@-E8!
+000d4530 -9AiG
+000d4536 A-JA
+000d454d 	@-E8!
+000d45bd 	~-`
+000d461d 	@-`
+000d464d 	A-`
+000d4786 C-a	A-$( 
+000d47ce B-a	@-$( 
+000d4816 A-a	
+000d481b -$( 
+000d485e @-a	~-$( 
+000d4952 A-$( 
+000d499a @-$( 
+000d49e7 -$( 
+000d4a36 ~-$( 
+000d4b00 A	z-
+000d4b06 	-PEB-J:3
+000d4b1f -]a{-
+000d4b27 -?80
+000d4b38 TA@-
+000d4b48 YqC-+:4
+000d4b7c PEE-
+000d4b90 FI}-T5
+000d4ba4 M9y-k
+000d4bc0 O!A-
+000d4bf4 SQG-
+000d4c9a D-!(%
+000d4ca6 C-!(%
+000d4d5e 8-a(&
+000d4d70 ^	:-s*0
+000d4daa H-g)'
+000d4dbc EU=-U:1
+000d4dec CU<-B
+000d4e2e >-f84
+000d4e77 -d(1
+000d50ef *V{9
+000d517b Tlyl
+000d52c3 RI{y
+000d54c3 4kxi
+000d57f7 4kxi
+000d58cb **{h
+000d5b13 T.{o
+000d5b27 50K-
+000d5b2f *nZ)
+000d5b4b 2!{1
+000d5b77 S0{1
+000d5e37 R	@`
+000d63fb RlF@
+000d6413 8lB@
+000d64bb RnB@
+000d69ef Ta6@
+000d6d2f 4h*@
+000d6d97 Th.@
+000d6df3 7h&@
+000d6f1f 4vB@
+000d6f33 Ri2@
+000d6f3b *4Yh
+000d71bf Ti.@
+000d72db qKik
+000d7557 TkB@
+000d75b3 3k&@
+000d7b5b qKik
+000d7ef7 q ( 
+000d7f4b 5a6@
+000d7f97 Tj.@
+000d80cf Th2@
+000d8103 Tj2@
+000d815b 7	A@
+000d8303 R(!*
+000d84e3 R-yh
+000d8563 RNyi
+000d858c ?"@11
+000d9063 *)	@
+000d9519 j68)
+000d9795 z:xZ
+000d9863 *M}@
+000d9957 Tl[m
+000d996b 5nK+
+000d998f 2q{/
+000d99c3 Sn{/
+000d9c29 jh8+
+000d9c7b *k&@
+000d9c88 jy,xj
+000d9cc3 Th*@
+000d9cd0 	y+xh
+000d9d25 i,8h
+000d9d53 R)	I
+000d9dd7 Tj"@
+000d9dfb *oY*xj
+000d9e37 Rkn@
+000d9e7b Tq"@
+000da1e3 ZiI*
+000da2f7 *H8@
+000da323 Qh*@
+000da365 Ik8h
+000da5a0 )Yvx
+000da941 DcNB
+000da975 DaNA
+000daa1f N7}A
+000daa49 DfNB
+000daae8 u{hx
+000daafc v{ix
+000dab10 w{kx
+000dab24 b{jx
+000dab33 *_!@q
+000dac47 Qh&@
+000dac54 	Yix
+000dac59 Yjx 
+000dac63 Q	Yix
+000dae9e %N@8
+000db0ae 3NpFB
+000db309 Yix	%
+000db456 0N#8
+000db45e 0N!x
+000db4f5 DfNB
+000db58a  NAX
+000db98a 	*bjo
+000dbab3 *o}}
+000dbaea 	*@hm
+000dbbbc +9@)
+000dc0ac )ij8i
+000dc19f *i"@
+000dc43f qAD@
+000dc672 !nb@
+000dca17 Qd}@
+000dcc2f Q`}@
+000dce7b Qp}@
+000dd061 i68h
+000dd0d7 R	i;8
+000dd140 )	@9_
+000dd177 Q	i<8h
+000dd184 	i|8?
+000dd1a2 @9H#
+000dd1f3 Ti*@
+000dd26b Rk*@
+000dd273 8J}9
+000dd2bb Th2@
+000dd338 (i(8
+000dd381 	@y.
+000dd389 ykx >
+000dd3d8 ji(8j
+000dd3e0 Ni(8
+000dd4c7 k/=@
+000dd4d5 j/8k
+000dd5af Tb>@
+000dd6d9 j98,
+000dd9ed jh8*)
+000dda09 ji8j
+000dda39 jh8*)
+000dda51 jj8 
+000ddbf5 	@ylzi
+000ddc00 iyixjyjx
+000ddc97 8jzi
+000ddcab 8jzi
+000ddd33 q)5C
+000ddd53 8Kxo
+000ddd5f 5*8@
+000ddd6d zoxO
+000dddbe .*nH'
+000ddebb q)5C
+000ddeeb 8Kxo
+000ddef7 5*8@
+000ddf04 Jyoxo
+000ddf2f KpH0
+000de58b T(  
+000de798 	iw8
+000debb2 _8M{l
+000debc6 @9N{m
+000debcf 4J{,
+000dec18 lij8
+000dec23 TL{j
+000deca3 q9;C
+000decf6 _8 1
+000ded4c )iw8
+000ded68 Jii8
+000def55 	@-@
+000def6d 	@-a
+000defc8 a	@-
+000defe8 a	@-
+000df03e C-!	A-$( 
+000df086 B-!	@-$( 
+000df0ce A-!	
+000df0d3 -$( 
+000df116 @-!	~-$( 
+000df1c7 R!||
+000df20a A-$( 
+000df252 @-$( 
+000df29f -$( 
+000df2ee ~-$( 
+000df44e (.=*'
+000df473 -%:'
+000df52f qiK9
+000df53c M9@i'
+000df551 	@-M9AiJA
+000df5b8 #	A-
+000df7fe !NC(
+000df9c5 i989
+000dfbf6 @9j%@
+000dfc8b *jG@
+000dfd43 **}@
+000dfddf 8)ih8?
+000dfdfc (ih8i	
+000dfe0b RJ%@
+000dfeb3 *S}@
+000dff38 -ik8n
+000dff44 Mi+8
+000e002b *j{h
+000e010c *i(8K
+000e0120 )iu8J
+000e01a3 8)ih8
+000e01d3 *(ih8
+000e045b SlN)
+000e054f S,M+
+000e081b T.	@
+000e08af T,	@
+000e0dcb RkM,
+000e0e83 Th	@
+000e103f T)	@
+000e1173 Tk	@
+000e1184 ma@9
+000e11f3 Tm=A
+000e139b TI	@
+000e1467 RmN+
+000e155b T-	@
+000e15db To	@
+000e1753 TK	@
+000e1897 Tj	@
+000e1b3b TL)A
+000e1bc3 T*	@
+000e1d4f TI	@
+000e1d7f TM	@
+000e2944 	!A))	
+000e3a0a 	Kkc
+000e3b87 p)AA
+000e456d z"0h
+000e4e10 (kz8h
+000e4e28 ?k:8
+000e4f73 R(k:8
+000e50f8 ($A)
+000e5423 7i/@
+000e5dd3 RWW3
+000e5def 5XW3
+000e62d6 A)K}
+000e637f R -F
+000e6a5b *cND
+000e6cbf kkA"
+000e72c7 5`"B
+000e732f *t"B
+000e74bf 5`"B
+000e792d 3{))}
+000e7fff 7e@ 
+000e82d7 yU$@
+000e885f *J%D
+000e8dbc *A#9
+000eae24 ykO?/
+000eb066 `6'W
+000eb104 {Ym}?f
+000eb526 dL'W
+000eb584 bBly'W
+000ede24 FMOD Channel Mix
+000ee11c FMOD Chorus
+000ee1f4 FMOD DSP Codec
+000ee32c FMOD Compressor
+000ee514 FMOD Convolution Reverb
+000ee5f3 ?9Ew?o
+000ee5fb >k+v?9
+000ee612 n?333?
+000ee61d hp?r
+000ee720   %%
+000ee728 ..44
+000ee73e BYaa
+000ee745 ,BYhh
+000ee7dc FMOD Delay
+000ee8bc FMOD Distortion
+000ee9cc FMOD Echo
+000eeaa4 FMOD Emulated Unit
+000eeb7c Gain
+000eebdc Overall Gain
+000eec4c FMOD Fader
+000eedb4 FMOD FFT
+000eeea4 FMOD Flange
+000eef8c FMOD Highpass
+000ef074 FMOD Highpass Simple
+000ef17c FMOD IT Echo
+000ef274 FMOD Limiter
+000ef364 FMOD Loudness Meter
+000ef44c FMOD Lowpass
+000ef53c FMOD IT Lowpass
+000ef624 FMOD Lowpass Simple
+000ef81c FMOD Multiband Dynamics
+000efa0c FMOD Multiband Equalizer
+000efafc FMOD Normalize
+000efbd4 FMOD 3D Object Pan
+000efd44 FMOD Oscillator
+000efe1c FMOD Pan
+000effcc FMOD ParamEQ
+000f00c4 FMOD Pitch Shifter
+000f01a4 FMOD Port Head
+000f027c FMOD Resampler
+000f042c FMOD Return
+000f0514 FMOD Send
+000f066c FMOD Reverb
+000f07a4 FMOD 3-EQ
+000f08ac FMOD Transceiver
+000f09ec FMOD Tremolo
+000f0ac4 FMOD WaveTable Unit
+000f0edd +p;X
+000f0f2d H <~
+000f0f39 t3<A
+000f0f5d hs<:
+000f1016 3=/	7=7T:=
+000f102e G=#8K=
+000f1036 N=I,R=(
+000f103e U=7=Y=s
+000f1049 j`=g
+000f1062 v=`kz=
+000f1165 0	>}
+000f11be (>20*>
+000f11c9 2->e
+000f11ce .>@;0>~
+000f11de 4>{\6>6
+000f11e6 7>Lu9>
+000f1202 B>bvD>
+000f120e G>uAI>
+000f1219 yL>#
+000f1222 O>JXQ>B
+000f1246 ^>|6`>z
+000f125e h>,Vj>6
+000f126d uo>3-q>
+000f127a t>ZZv>K
+000f14eb ?D,	?:
+000f15a7 ?w2 ?Z
+000f15dd T&?n
+000f15e5 B'?z
+000f15ea '?/0(?
+000f15fe *?l~*?
+000f1616 ,?;;-?6
+000f1621 ".?t
+000f162d |/?}
+000f1635 b0?E
+000f163a 0?HF1?
+000f1656 3?(]4?
+000f1661 <5?$
+000f167d B8?/
+000f168e 9?)c:?0
+000f1699 :;?]
+000f16a2 <?]|<?
+000f16aa <?,Q=?!
+000f16b5 $>?#
+000f16c1 _??^
+000f16c6 ??~0@?P
+000f16da A?u4B?
+000f16e6 C?@fC?
+000f16f1 0D?)
+000f16fa D?{]E?'
+000f1722 H?S3I?
+000f172e I?YSJ?
+000f173a K?MpK?
+000f1745 ,L?+
+000f174e L?YDM?
+000f1775 xP?8
+000f177a P?B+Q?
+000f1786 Q?=4R?
+000f179e S?{<T?
+000f17c2 V?S0W?y
+000f17d5 vX?e
+000f17e1 gY?5
+000f17ea Z?;UZ?
+000f17f6 Z?{?[?
+000f1802 [?a&\?
+000f1809 r\?s
+000f182e _?HX_?d
+000f183a _?~/`?{v`?
+000f184a a?3Ia?
+000f186d jc?*
+000f1879 1d?ord?r
+000f1886 d?Z4e??te?
+000f189d pf?'
+000f18a6 f? )g?
+000f18bd Vh?1
+000f18ca i?E@i?
+000f18d1 yi?*
+000f18f1 9k?4pk?5
+000f1916 m?`Im?,|m?
+000f1956 p?6Lp?uyp?]
+000f1982 r?c+r?
+000f1989 Tr?.~r?
+000f199e s?qGs?
+000f19b6 t?P.t?
+000f19c1 xt?w
+000f19d1 	u?L-u?{Pu?\su?
+000f19f2 v?@>v?
+000f19f9 _v?z
+000f1a3d _x?.{x?
+000f1a5d 4y?UNy?
+000f1a65 gy?x
+000f1a89 >z?`Uz?
+000f1ab9 >{?MR{?
+000f1ac1 e{?+y{?D
+000f1aea |?(.|?
+000f1af5 O|?A`|?
+000f1b2a }?G$}?
+000f1b45 s}?s
+000f1b82 ~?K)~?@3~?
+000f1b91 F~?3P~?
+000f1ba5 t~?x}~?
+000f1e79 f#<?dY<
+000f1ecd x/>t
+000f1ed2 ;>"tH>
+000f1ed9 oU>k
+000f1ede b>SQp>
+000f1ee5 0~>n*
+000f1f2f ?Al	?Yi
+000f1f4e $?tk(?>
+000f1f5a /?+D3?m
+000f1f65 -:?0
+000f1f91 |Z?<
+000f1faa g?!]i?
+000f1fb6 l?g\n?
+000f1ff1 6|?G
+000f1ff6 |?)+}?
+000f2005 A~?Y
+000f22e7 =#C~?x8
+000f22f7 >tt}?
+000f2319 a{?8
+000f232d 9Z>Nny?f|f>{
+000f2382 p?:q
+000f2387 >0ho?
+000f240f ?%pW?
+000f2431 dP?9
+000f2496 1?k 6?
+000f24db >*D8
+000f24eb >u3f
+000f24f3 >']|
+000f2548 &]|>
+000f2550 t3f>Y
+000f2560 (D8>
+000f2613 ?t+{
+000f2651 p~?/
+000f2658 #C~?x8
+000f2678 tt}?
+000f26a0 (;|?
+000f26b9 a{?8
+000f26e8 Nny?f|f
+000f278a p?:q
+000f2798 0ho?
+000f27a2 n?*D
+000f27d1 Kk?S
+000f27f2 h?B6
+000f2822 d?u3
+000f2830 Z<c?
+000f2850 !F`?
+000f2862 ^?']
+000f2870 S-]?
+000f28a0 SHX?
+000f28a8 %pW?
+000f28e0 =MQ?+h
+000f28e9 dP?9
+000f2962 A?V6'
+000f29a0 Bh9?
+000f29b0 ":7?
+000f29b8 k 6?
+000f29ca 3?l 6
+000f29d2 2?#:7
+000f29e2 0?Bh9
+000f29f1 ;.?;
+000f2a20 V6'?q
+000f2a49 /!?*
+000f2a93 ? zO
+000f2aa3 ?=MQ
+000f2adb ?&pW
+000f2ae3 ?SHX
+000f2b13 ?S-]
+000f2b33 >!F`
+000f2b53 >Z<c
+000f2beb >0ho
+000f2c98 c|f>Nny
+000f2cd9 @5>1
+000f2ce2 />(;|
+000f2d0b >ut}
+000f2d2b =#C~
+000f2d70 i+{=
+000f35f3 ?1\#<
+000f35fd }<<n
+000f368b ?-. =
+000f3693 ?du&=
+000f36ab ?lJ9=I
+000f36cd dR=?
+000f36e3 ?j7e=
+000f36eb ?R}k=
+000f3703 ?+N~=@{
+000f37c2 ~?bM
+000f37f7 =5v~?~,
+000f37ff =!k~?
+000f381f =F=~?
+000f3827 =m1~?|
+000f382f =m%~?
+000f383a ~?U#
+000f3862 }?e\
+000f388a }?!%
+000f389f >^m}?
+000f38bf >G3}?d
+000f38c7 >`$}?
+000f3902 |?5r#>
+000f391e (>av|?H
+000f3931 T|?6
+000f3946 />4!|?
+000f395d z4>G
+000f3982 {?v4<>
+000f398e =>S~{?
+000f3995 J?>xk{?
+000f399e @>vX{?
+000f39a5 `B>NE{?d
+000f39da z?h)M>
+000f39f6 Q>f}z?JPS>
+000f3a0d bV>|>z?
+000f3a16 W>6)z?"uY>
+000f3a42 y?= a>h
+000f3a59 yy?{
+000f3a61 by?I@g>2Ly?
+000f3a6e h>D5y?zOj>0
+000f3a92 x?(lp>`
+000f3aae u>qxx?
+000f3ab6 v>*`x?
+000f3ac6 y>)/x?
+000f3ada w?!$~>
+000f3b07 >+ew?L
+000f3b0f >@Kw?
+000f3b17 >.1w?
+000f3b57 >F[v?K4
+000f3b67 >P$v?
+000f3b72 v?ax
+000f3b99 {u?z=
+000f3b9f >G_u?<
+000f3bb1 %u?}
+000f3bdf >:ut?
+000f3be7 >OWt?
+000f3bef >>9t?
+000f3c29 bs?O
+000f3c2f >jCs?j|
+000f3c39 $s?m;
+000f3c69 dr?r
+000f3c6f >7Dr?
+000f3ca7 >?]q?<
+000f3cdf >(op?
+000f3ce9 Lp?q
+000f3d1f >^Vo?
+000f3d4a n?l]
+000f3d5f >Y4n?/
+000f3d6a n?7J
+000f3d87 >kzm?15
+000f3d9f >%	m?7d
+000f3dff >97k?
+000f3e1a j?`?
+000f3e57 >3zi?^
+000f3e67 >t'i?
+000f3e8a h?PH
+000f3e8f >"Vh?
+000f3e99 +h?D
+000f3ebf >UVg?]C
+000f3ec7 >6+g?
+000f3ee7 >U}f?*
+000f3ef1 Qf? 
+000f3f17 >Zte?
+000f3f21 Ge?	
+000f3f47 >efd?
+000f3f62 c?8Z
+000f3f77 >{Sc?zr
+000f3f7f >/%c?
+000f3fa1 jb?h
+000f3fa9 ;b?)
+000f3fc7 >[~a?
+000f3fe2 `?aw
+000f3ff7 >Y^`?
+000f401a _?bH
+000f4027 >{9_?S
+000f4049 s^?ec
+000f4079 F]?t
+000f4097 ?V{\?i
+000f409f ?/H\?
+000f40bf ?>z[?X
+000f40c7 ?nF[?~
+000f40e9 uZ?Ju
+000f40ef ?_AZ?
+000f4102 Y?Kv
+000f410f ?)nY?:!
+000f4137 ?3cX?!
+000f413f ?j-X?
+000f414d t	?u
+000f417a V?Fp
+000f417f ?wzV?
+000f41a7 ?lfU?
+000f41b1 .U?_
+000f41cf ?)OT?
+000f41ef ?smS?\W
+000f41f9 4S?W
+000f4217 ?sPR?g
+000f4237 ?*jQ?
+000f423f ?G0Q?@
+000f4252 P?_5
+000f425f ?yGP?"
+000f42a7 ?V4N?
+000f42ba M?^W
+000f42d2 M?UI
+000f42e9 SL?w:
+000f430f ?g#K?
+000f4327 ?QkJ?d
+000f433a I?.X
+000f4347 ?)tI?
+000f4369 {H?E2
+000f436f ?|<H?
+000f438a G?kl ?
+000f43ce "?3DE?
+000f43f5 ^$?Y
+000f440a C?kE%?
+000f4411 ?C?$
+000f4422 B?J+&?<|B?
+000f4442 A?c\'?
+000f4449 uA?h
+000f4451 3A?T
+000f445a @?&@(?
+000f4469 m@?|
+000f446e (?)+@?
+000f447a ??jn)?
+000f4486 )?bc??
+000f44a6 *?eW>?
+000f44b2 >?p{+?
+000f44e1 ~<?p9-?
+000f44e9 9<?h
+000f4505 `.?x(;?;
+000f451d =/?1Z:??
+000f453a 9?Pa0?
+000f4552 8?l;1?
+000f455e 1?0/8?K
+000f4575 \2?:]7?
+000f458d 43?E
+000f4592 6?U|3?
+000f45ad R4?uo5?3
+000f45b6 4?z(5?e
+000f45e3 >{*b
+000f463b >9|B
+000f464b >8}[
+000f47bb >V{B
+000f47c3 >]bE
+000f47cb >|GH
+000f4833 >c0m
+000f4b48 b0m>{
+000f4b71 (_>qg
+000f4b8a V>:k
+000f4bb0 {GH>
+000f4bb8 [bE>$6
+000f4bc0 T{B>
+000f4bf2 0>7;
+000f4c02 +>zL
+000f4c12 %>pT
+000f4d21 ut=r+
+000f4d2a g=8Z
+000f4d30 2}[=
+000f4d40 3|B=
+000f4d51 s)=I
+000f4d98 c*b<
+000f5789 .init_array
+000f5795 .fini_array
+000f57a1 .text
+000f57a7 .got
+000f57ac .note.android.ident
+000f57c0 .got.plt
+000f57c9 .rela.plt
+000f57d3 .bss
+000f57d8 .dynstr
+000f57e0 .eh_frame_hdr
+000f57ee .gnu.version_r
+000f57fd .data.rel.ro
+000f580a .relr.dyn
+000f5814 .rela.dyn
+000f581e .gnu.version
+000f582b .dynsym
+000f5833 .gnu.hash
+000f583d .relro_padding
+000f584c .eh_frame
+000f5856 .gcc_except_table
+000f5868 .note.gnu.build-id
+000f587b .dynamic
+000f5884 .shstrtab
+000f588e .rodata
+000f5896 .data

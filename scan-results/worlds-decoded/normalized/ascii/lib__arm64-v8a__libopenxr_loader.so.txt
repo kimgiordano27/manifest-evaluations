@@ -1,0 +1,889 @@
+0000027c Android
+00000288 r26b
+000002c8 10909125
+00001817 !BA@
+00001893 /(VI
+0000189a kTR!
+00001971 __cxa_finalize
+00001980 __cxa_atexit
+0000198d __register_atfork
+0000199f stat
+000019a4 __stack_chk_fail
+000019b5 access
+000019bc memset
+000019c3 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_
+00001a15 realpath
+00001a1e _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+00001a69 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+00001ab8 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00001b07 _ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcm
+00001b53 memcpy
+00001b5a opendir
+00001b62 readdir
+00001b6a closedir
+00001b73 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc
+00001bd7 memmove
+00001bdf strlen
+00001be6 _ZNSt6__ndk124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00001c49 _ZTTNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001c96 _ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001cdf _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev
+00001d18 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev
+00001d4f _ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev
+00001d81 _ZTVNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00001dce _ZNSt6__ndk18ios_base4initEPv
+00001dec _ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+00001e25 _ZNSt6__ndk112__next_primeEm
+00001e42 __android_log_print
+00001e56 dlopen
+00001e5d dlclose
+00001e65 _ZNSt6__ndk19to_stringEi
+00001e7e __strlen_chk
+00001e8b memcmp
+00001e92 dlsym
+00001e98 dlerror
+00001ea0 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEj
+00001ed7 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEt
+00001f0e _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi
+00001f45 _ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+00001fa3 xrEnumerateApiLayerProperties
+00001fc1 _ZNSt6__ndk15mutex4lockEv
+00001fdb _ZNSt6__ndk15mutex6unlockEv
+00001ff7 xrEnumerateInstanceExtensionProperties
+0000201e strcmp
+00002025 xrCreateInstance
+00002036 xrDestroyInstance
+00002048 xrGetInstanceProcAddr
+0000205e AAssetManager_fromJava
+00002075 strstr
+0000207c _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+000020cc strncpy
+000020d4 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEm
+0000210b _ZNSt6__ndk118shared_timed_mutexC1Ev
+00002130 _ZNSt6__ndk118shared_timed_mutex4lockEv
+00002158 _ZNSt6__ndk118shared_timed_mutex6unlockEv
+00002182 _ZNSt6__ndk118condition_variableD1Ev
+000021a7 _ZNSt6__ndk15mutexD1Ev
+000021be _ZNSt6__ndk118shared_timed_mutex11lock_sharedEv
+000021ee _ZNSt6__ndk118shared_timed_mutex13unlock_sharedEv
+00002220 _ZNSt6__ndk14coutE
+00002233 _ZNSt6__ndk14cerrE
+00002246 _ZNKSt6__ndk18ios_base6getlocEv
+00002266 _ZNSt6__ndk15ctypeIcE2idE
+00002280 _ZNKSt6__ndk16locale9use_facetERNS0_2idE
+000022a9 _ZNSt6__ndk16localeD1Ev
+000022c1 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+000022fa _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+00002335 _ZNSt6__ndk19to_stringEj
+0000234e __android_log_write
+00002362 _ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000023ae _ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev
+000023e6 _ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00002432 sscanf
+00002439 atoi
+0000243e _ZTTNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE
+00002475 _ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEED1Ev
+000024ac _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED2Ev
+000024e3 _ZTVNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE
+0000251a _ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEC1Ev
+00002551 _ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj
+0000258e _ZNSt6__ndk18ios_base5clearEj
+000025ac AAssetManager_openDir
+000025c2 AAssetDir_getNextFileName
+000025dc AAssetDir_close
+000025ec _ZTTNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00002639 AAssetManager_open
+0000264c AAsset_getLength
+0000265d AAsset_getBuffer
+0000266e AAsset_close
+0000267b _ZTVNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+000026c8 geteuid
+000026d0 getuid
+000026d7 getegid
+000026df getgid
+000026e6 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+00002733 xrGetInstanceProperties
+0000274b xrPollEvent
+00002757 xrResultToString
+00002768 xrStructureTypeToString
+00002780 xrGetSystem
+0000278c xrGetSystemProperties
+000027a2 xrEnumerateEnvironmentBlendModes
+000027c3 xrCreateSession
+000027d3 xrDestroySession
+000027e4 xrEnumerateReferenceSpaces
+000027ff xrCreateReferenceSpace
+00002816 xrGetReferenceSpaceBoundsRect
+00002834 xrCreateActionSpace
+00002848 xrLocateSpace
+00002856 xrDestroySpace
+00002865 xrEnumerateViewConfigurations
+00002883 xrGetViewConfigurationProperties
+000028a4 xrEnumerateViewConfigurationViews
+000028c6 xrEnumerateSwapchainFormats
+000028e2 xrCreateSwapchain
+000028f4 xrDestroySwapchain
+00002907 xrEnumerateSwapchainImages
+00002922 xrAcquireSwapchainImage
+0000293a xrWaitSwapchainImage
+0000294f xrReleaseSwapchainImage
+00002967 xrBeginSession
+00002976 xrEndSession
+00002983 xrRequestExitSession
+00002998 xrWaitFrame
+000029a4 xrBeginFrame
+000029b1 xrEndFrame
+000029bc xrLocateViews
+000029ca xrStringToPath
+000029d9 xrPathToString
+000029e8 xrCreateActionSet
+000029fa xrDestroyActionSet
+00002a0d xrCreateAction
+00002a1c xrDestroyAction
+00002a2c xrSuggestInteractionProfileBindings
+00002a50 xrAttachSessionActionSets
+00002a6a xrGetCurrentInteractionProfile
+00002a89 xrGetActionStateBoolean
+00002aa1 xrGetActionStateFloat
+00002ab7 xrGetActionStateVector2f
+00002ad0 xrGetActionStatePose
+00002ae5 xrSyncActions
+00002af3 xrEnumerateBoundSourcesForAction
+00002b14 xrGetInputSourceLocalizedName
+00002b32 xrApplyHapticFeedback
+00002b48 xrStopHapticFeedback
+00002b5d xrLocateSpaces
+00002b6c strchr
+00002b73 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+00002bc0 _ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEErsERd
+00002bf8 vsnprintf
+00002c02 _ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEPNS_15basic_streambufIcS2_EE
+00002c54 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm
+00002ca0 malloc
+00002ca7 free
+00002cac modf
+00002cb1 __vsnprintf_chk
+00002cc1 __wrap__ZTISt12out_of_range
+00002cdd __wrap__ZTISt12length_error
+00002cf9 __wrap___cxa_begin_catch
+00002d12 __wrap__ZTVN10__cxxabiv120__si_class_type_infoE
+00002d42 __wrap___cxa_thread_atexit
+00002d5d __wrap__ZTVN10__cxxabiv117__class_type_infoE
+00002d8a __wrap___cxa_allocate_exception
+00002daa __wrap___cxa_guard_release
+00002dc5 __wrap__ZdlPv
+00002dd3 __wrap__ZdaPv
+00002de1 __wrap__ZNSt12out_of_rangeD1Ev
+00002e00 __wrap__ZNSt9exceptionD2Ev
+00002e1b __wrap___cxa_guard_abort
+00002e34 __wrap__ZNSt20bad_array_new_lengthD1Ev
+00002e5b __wrap___cxa_end_catch
+00002e72 __wrap__ZNSt13runtime_errorC2EPKc
+00002e94 __wrap__ZTVSt12out_of_range
+00002eb0 __wrap__ZTVSt12length_error
+00002ecc __wrap___gxx_personality_v0
+00002ee8 __wrap__Unwind_Resume
+00002efe __wrap___cxa_throw
+00002f11 __wrap___cxa_free_exception
+00002f2d __wrap__Znam
+00002f3a __wrap__ZNKSt13runtime_error4whatEv
+00002f5e __wrap__Znwm
+00002f6b __wrap__ZSt9terminatev
+00002f82 __wrap__ZTISt9exception
+00002f9a __wrap__ZNSt11logic_errorC2EPKc
+00002fba __wrap__ZNSt12length_errorD1Ev
+00002fd9 __wrap__ZNSt20bad_array_new_lengthC1Ev
+00003000 __wrap___cxa_guard_acquire
+0000301b __wrap___cxa_rethrow
+00003030 __wrap__ZTISt20bad_array_new_length
+00003054 __wrap__ZTVN10__cxxabiv121__vmi_class_type_infoE
+00003085 __wrap__ZNSt13runtime_errorD2Ev
+000030a5 __wrap__ZTISt13runtime_error
+000030c2 getauxval
+000030cc __system_property_get
+000030e2 strncmp
+000030ea libm.so
+000030f2 LIBC
+000030f7 libdl.so
+00003100 libc.so
+00003108 libc++_shared.so
+00003119 libandroid.so
+00003127 liblog.so
+00003131 libopenxr_loader.so
+00003148 APS28
+00007270 authority
+0000727a -Infinity
+00007284 query
+0000728a VUID-xrEnumerateApiLayerProperties-propertyCapacityInput-parameter: insufficient space in array
+000072ea VUID-xrEnumerateApiLayerProperties-properties-parameter: non-zero capacity but null array
+00007344 getColumnIndex
+00007353 %u.%u.%u
+0000735c android/content/Context
+00007374 moveToNext
+0000737f moveToFirst
+0000738b  does not appear to exist
+000073a5 strictRoot
+000073b0 getCount
+000073b9 xrPollEvent
+000073c5 content
+000073cd disable_environment
+000073e1 enable_environment
+000073f4 RuntimeManifestFile::FindManifestFiles - failed to determine active runtime file path for this environment
+0000745f getInt
+00007466 stackLimit
+00007471 ApiLayerManifestFile::AddManifestFilesAndroid unable to access asset
+000074b6 xrDestroyActionSet
+000074c9 xrCreateActionSet
+000074db /product
+000074e4 xrGetReferenceSpaceBoundsRect
+00007502 xrGetActionStateFloat
+00007518 rejectDupKeys
+00007526 allowNumericKeys
+00007537 xrEnumerateViewConfigurationViews
+00007559 xrLocateViews
+00007567 Active XrInstance handle already exists
+0000758f VUID-xrCreateInstance-info-parameter: something wrong with XrInstanceCreateInfo contents
+000075e8 allowComments
+000075f6 collectComments
+00007606 xrAttachSessionActionSets
+00007620 allowSpecialFloats
+00007633 xrEnumerateSwapchainFormats
+0000764f allowDroppedNullPlaceholders
+0000766c has_functions
+0000767a xrSyncActions
+00007688 xrEnumerateViewConfigurations
+000076a6 instance_extensions
+000076ba XR_EXT_debug_utils
+000076cd xrSuggestInteractionProfileBindings
+000076f5 allowSingleQuotes
+00007707 runtimes
+00007710 ApiLayerInterface::GetApiLayerProperties - failed searching for API layer manifest files
+00007769 ApiLayerInterface::GetInstanceExtensionProperties - failed searching for API layer manifest files
+000077cb VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
+00007815 Failed querying extension properties
+0000783a unknown type in properties
+00007855 invalid properties
+00007868 Failed ApiLayerInterface::GetApiLayerProperties
+00007898 xrEnumerateApiLayerProperties
+000078b6 xrGetViewConfigurationProperties
+000078d7 xrEnumerateInstanceExtensionProperties
+000078fe xrGetSystemProperties
+00007914 xrGetInstanceProperties
+0000792c xrEnumerateSwapchainImages
+00007947 xrEnumerateEnvironmentBlendModes
+00007968 Loader does not support simultaneous XrInstances
+00007999 xrLocateSpaces
+000079a8 xrEnumerateReferenceSpaces
+000079c3 allowTrailingCommas
+000079d7 Got runtime: package: %s, so filename: %s, native lib dir: %s, has functions: %s
+00007a28 populateFunctions: Querying URI: %s
+00007a4c getActiveRuntimeCursor: Querying URI: %s
+00007a75 openxr
+00007a7c Null Value Passed to Value Constructor
+00007aa3 vector
+00007aaa Entering loader terminator
+00007ac5 Completed loader terminator
+00007ae1 android/database/Cursor
+00007af9 RuntimeInterface::LoadRuntimes - unknown error
+00007b28 /vendor
+00007b30 native_lib_dir
+00007b3f expecting another \u token to begin the second half of a unicode surrogate pair
+00007b8f nativeLibraryDir
+00007ba0 api_layer
+00007baa getContentResolver
+00007bbd android/content/ContentResolver
+00007bdd invalid messenger pointer
+00007bf7 Invalid Function pointer
+00007c10 Invalid Name pointer
+00007c25 VUID-xrEnumerateInstanceExtensionProperties-propertyCountOutput-parameter
+00007c6f VUID-XrInstanceCreateInfo-enabledExtensionNames-parameter
+00007ca9 VUID-xrEnumerateInstanceExtensionProperties-properties-parameter
+00007cea VUID-xrCreateDebugUtilsMessengerEXT-messenger-parameter
+00007d22 VUID-xrCreateInstance-info-parameter
+00007d47 VUID-XrInstanceCreateInfo-applicationInfo-parameter
+00007d7b VUID-xrSessionBeginDebugUtilsLabelRegionEXT-labelInfo-parameter
+00007dbb VUID-xrSessionInsertDebugUtilsLabelEXT-labelInfo-parameter
+00007df6 VUID-xrGetInstanceProcAddr-function-parameter
+00007e24 VUID-XrApplicationInfo-applicationName-parameter
+00007e55 VUID-XrApplicationInfo-engineName-parameter
+00007e81 VUID-xrGetInstanceProcAddr-instance-parameter
+00007eaf VUID-xrCreateInstance-instance-parameter
+00007ed8 org.khronos.openxr.system_runtime_broker
+00007f01 org.khronos.openxr.runtime_broker
+00007f23 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+00007f7b in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+00007fca android/net/Uri$Builder
+00007fe2 , OpenXR version returned not compatible with this loader
+0000801c An active instance currently exists while trying to reinitialize the loader
+00008068 OpenXR-Loader
+00008076 , negotiation did not return a valid getInstanceProcAddr
+000080af , negotiation succeeded but returned NULL getInstanceProcAddr
+000080ed xrGetInstanceProcAddr
+00008106 warn
+0000810b /active_runtime.json
+00008120 /active_runtime.aarch64.json
+0000813d description
+00008149 xrDestroyAction
+00008159 xrEnumerateBoundSourcesForAction
+0000817a xrCreateAction
+00008189 Missing ',' or ']' in array declaration
+000081b1 Missing ',' or '}' in object declaration
+000081da Failed loading layer information
+000081fb Failed loading runtime information
+0000821e xrDestroySession
+0000822f xrRequestExitSession
+00008244 xrBeginSession
+00008253 xrCreateSession
+00008263 xrEndSession
+00008270 file_format_version
+00008284 implementation_version
+0000829b extension_version
+000082ad api_version
+000082b9 , negotiation succeeded but returned invalid interface version
+000082f8 xrDestroySwapchain
+0000830b xrCreateSwapchain
+0000831d Unknown error occurred calling down chain
+00008347 xrGetActionStateBoolean
+0000835f skipBom
+00008367 /system
+0000836f xrGetSystem
+0000837b /oem
+00008380 /odm
+00008385 null
+0000838e VUID-XrInstanceCreateInfo-createFlags-zerobitmask
+000083c0 xrApplyHapticFeedback
+000083d6 xrStopHapticFeedback
+000083eb android/net/Uri
+000083ff library_path
+0000840c xrStringToPath
+0000841b appendPath
+00008426 ro.arch
+0000842e in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+0000847c basic_string
+00008489 Type is not convertible to string
+000084ab Empty escape sequence in string
+000084cb Bad escape sequence in string
+000084e9 getString
+000084f3 toString
+000084fc xrResultToString
+0000850d xrPathToString
+0000851c xrStructureTypeToString
+00008534 java/lang/String
+00008545 , skipping
+00008550 %.*g
+00008555 0123456789abcdef
+00008566 xrGetActionStateVector2f
+0000857f %.*f
+00008584 active
+0000858b in Json::Value::operator[](int index): index cannot be negative
+000085cb true
+000085d0 in Json::Value::operator[](ArrayIndex): requires arrayValue
+0000860c in Json::Value::resolveReference(key, end): requires objectValue
+0000864d in Json::Value::find(begin, end): requires objectValue or nullValue
+00008691 close
+00008697 verbose
+0000869f xrGetActionStatePose
+000086b4 false
+000086ba VUID-XrExtensionProperties-type-type
+000086df VUID-XrInstanceCreateInfo-type-type
+00008703 Entering loader trampoline
+0000871e Completed loader trampoline
+0000873a Unloading any previously loaded runtime
+00008762 RuntimeInterface::LoadRuntimes - failed to load a runtime
+0000879c scheme
+000087a3 xrWaitFrame
+000087af xrBeginFrame
+000087bc xrEndFrame
+000087c7 so_filename
+000087d3 function_name
+000087e1 symbol_name
+000087ed package_name
+000087fa Missing '}' or object member name
+0000881c Missing ':' after object member name
+00008841 getName
+00008849 xrGetInputSourceLocalizedName
+00008867 xrGetCurrentInteractionProfile
+00008886 installable
+00008892 LargestInt out of UInt range
+000088af LargestUInt out of UInt range
+000088cd double out of UInt range
+000088e6 xrWaitSwapchainImage
+000088fb xrReleaseSwapchainImage
+00008913 xrAcquireSwapchainImage
+0000892b  requires a valid instance
+00008946 xrDestroyInstance
+00008958 xrCreateApiLayerInstance
+00008971 xrCreateInstance
+00008982 Entering LoaderInstance::CreateInstance
+000089aa xrDestroySpace
+000089b9 xrCreateActionSpace
+000089cd xrLocateSpace
+000089db xrCreateReferenceSpace
+000089f2 xrNegotiateLoaderApiLayerInterface
+00008a15 xrNegotiateLoaderRuntimeInterface
+00008a37 RuntimeInterface::UnloadRuntime - Unloading RuntimeInterface
+00008a74  was not found
+00008a83 ApiLayerInterface::GetApiLayerProperties - too many API layers found
+00008ac8 build
+00008ace JNI not initialized
+00008ae2 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
+00008b2c  is not supported
+00008b3e assert json failed
+00008b51 LoaderInstance::CreateInstance chained CreateInstance call failed
+00008b93 xrCreateInstance failed
+00008bab  is disabled
+00008bb8 Could not attach JNI to thread
+00008bd7 /api_layers/explicit.d
+00008bee /api_layers/implicit.d
+00008c05 Line %d, Column %d
+00008c18 /product/etc
+00008c25 /vendor/etc
+00008c31 /system/etc
+00008c3d /oem/etc
+00008c46 /odm/etc
+00008c4f InitializeLoaderInitData
+00008c68 failIfExtra
+00008c74 arm64-v8a
+00008c7e     Object[
+00008c8a     SessionLabel[
+00008c9c Error [
+00008ca4 Info [
+00008cab Warning [
+00008cb5 Verbose [
+00008cc7 xrDestroyDebugUtilsMessengerEXT
+00008ce7 xrCreateDebugUtilsMessengerEXT
+00008d06 xrSessionBeginDebugUtilsLabelRegionEXT
+00008d2d xrSessionEndDebugUtilsLabelRegionEXT
+00008d52 xrSessionInsertDebugUtilsLabelEXT
+00008d74 xrSetDebugUtilsObjectNameEXT
+00008d91 xrSubmitDebugUtilsMessageEXT
+00008dae XR_ENABLE_API_LAYERS
+00008dc3 xrInitializeLoaderKHR
+00008ddd UNKNOWN
+00008de5 XR_RUNTIME_JSON
+00008df5 labelInfo must be non-NULL
+00008e10 VUID-XrInstanceCreateInfo-enabledApiLayerNames-parameter: enabledApiLayerCount is non-0 but array is NULL
+00008e7a enabledExtensionCount is non-0 but array is NULL
+00008eab GENERAL
+00008eb3 (I)I
+00008eb8 (Ljava/lang/String;)I
+00008ed2 XR_API_LAYER_PATH
+00008ee4 XR_LOADER_DEBUG
+00008ef4 PERF
+00008ef9 SPEC
+00008efe .  Does it exist?
+00008f10  Is it a valid layer manifest file?
+00008f34  Is it a valid runtime manifest file?
+00008f5a <init>
+00008f61 getApplicationContext()Landroid/content/Context;
+00008f92 Ljava/lang/Object;
+00008fa5 (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
+0000903b (Landroid/net/Uri;[Ljava/lang/String;Landroid/os/Bundle;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
+000090ad (Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+00009124 ()Landroid/content/ContentResolver;
+00009148 getAssets()Landroid/content/res/AssetManager;
+00009176 (Ljava/lang/String;)Landroid/net/Uri$Builder;
+000091a4 getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+000091dd ()Landroid/net/Uri;
+000091f1 (I)Ljava/lang/String;
+00009207 ()Ljava/lang/String;
+0000921c -1e+9999
+00009225 keylength >= 2^30
+00009237 exynos9810
+00009242 1.0.0
+00009248 /etc/openxr/
+00009255 openxr/1/api_layers/explicit.d/
+00009275 openxr/1/api_layers/implicit.d/
+00009295 in Json::Value::setComment(): Comments must start with /
+000092ce VUID-XrApplicationInfo-engineName-parameter: application name can not be empty.
+0000931e  is missing required fields.  Verify all proper fields exist.
+0000935c Value is not convertible to UInt.
+0000937e Non-null but empty cursor when querying content resolver for functions.
+000093c6 Null cursor when querying content resolver for functions.
+00009400  "functions" section contains non-string values.
+00009431 Unable to open any of the broker provided runtimes.
+00009465 application name missing NULL terminator.
+0000948f engine name missing NULL terminator.
+000094b4 additional six characters expected to parse unicode surrogate pair.
+000094f8  has invalid API Version.  Skipping layer.
+00009523 Non-null but empty cursor when querying %s content resolver.
+00009560 Null cursor when querying %s content resolver.
+0000958f ApiLayerInterface::LoadApiLayers got success from xrGetInstanceProcAddr for xrInitializeLoaderKHR, but output a null pointer.
+0000960d RuntimeInterface::LoadRuntime got success from xrGetInstanceProcAddr for xrInitializeLoaderKHR, but output a null pointer.
+00009688 Could access neither the installable nor system runtime broker.
+000096c8 ' is not a number.
+000096db Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
+00009715 Value is not convertible to bool.
+00009737 A valid JSON document must be either an array or an object value.
+00009779 Extra non-whitespace after JSON value.
+000097a0  is not a valid manifest file.
+000097bf No active XrInstance handle.
+000097dc ApiLayerInterface::LoadApiLayers forwarding xrInitializeLoaderKHR call to API layer after calling xrNegotiateLoaderApiLayerInterface.
+00009862 ApiLayerInterface::LoadApiLayers forwarding xrInitializeLoaderKHR call to API layer before calling xrNegotiateLoaderApiLayerInterface.
+000098e9 RuntimeInterface::LoadRuntime forwarding xrInitializeLoaderKHR call to runtime after calling xrNegotiateLoaderRuntimeInterface.
+00009969 RuntimeInterface::LoadRuntime forwarding xrInitializeLoaderKHR call to runtime before calling xrNegotiateLoaderRuntimeInterface.
+000099ea info->applicationInfo is not valid.
+00009a0e ApiLayerManifestFile::AddManifestFilesAndroid unable to add manifest files LoaderInitData not initialized.
+00009a79 RuntimeInterface being destroyed.
+00009a9b Syntax error: value, object or array expected.
+00009aca Bad unicode escape sequence in string: hexadecimal digit expected.
+00009b0d Bad unicode escape sequence in string: four digits expected.
+00009b4a RuntimeInterface::LoadRuntime cannot run because xrInitializeLoaderKHR was not successfully called.
+00009bae  because xrInitializeLoaderKHR was not yet called.
+00009be1 ApiLayerInterface::LoadApiLayers forwarded call to xrInitializeLoaderKHR failed.
+00009c32 RuntimeInterface::LoadRuntime forwarded call to xrInitializeLoaderKHR failed.
+00009c80 expected XR_TYPE_INSTANCE_CREATE_INFO.
+00009ca7 Messenger handle is XR_NULL_HANDLE.
+00009ccb Session handle is XR_NULL_HANDLE.
+00009ced Instance handle is XR_NULL_HANDLE.
+00009d10 flags must be 0.
+00009d21 Unable to open broker provided runtime at %s, checking for more records...
+00009d6c Unable to populate functions from runtime: %s, checking for more records...
+00009db8 Exceeded stackLimit in readValue().
+00009ddc Failed to find default runtime with RuntimeInterface::LoadRuntime()
+00009e23 Duplicate key: '
+00009e34  is missing "disable_environment"
+00009e56 ManifestFile::IsValidJson - JSON file missing "file_format_version"
+00009e9a , failed to load with message "
+00009ebe  library 
+00009ec8 ApiLayerManifestFile::AddManifestFilesAndroid unable to open asset 
+00009f0c .  Max supported version is 
+00009f29 isValidJson indicates 
+00009f40  due to failed negotiation with error 
+00009f67 , negotiation failed with error 
+00009f88 XR_NULL_HANDLE for instance but query for 
+00009fb3 Implicit layer 
+00009fc3 ApiLayerInterface being destroyed for layer 
+00009ff0 ApiLayerInterface::LoadApiLayers skipping layer 
+0000a021 ApiLayerInterface::LoadApiLayers succeeded loading layer 
+0000a05b ApiLayerInterface::LoadApiLayers - failed to find layer 
+0000a094 ManifestFile::ParseCommon 
+0000a0af  because negotiation function 
+0000a0ce RuntimeInterface::LoadRuntime failed to find negotiate function 
+0000a10f  using interface version 
+0000a129 xrCreateInstance called with invalid API version 
+0000a15b  and OpenXR API version 
+0000a174 failed to open 
+0000a184 LoaderInstance::CreateInstance succeeded with 
+0000a1b3 failed to parse 
+0000a1c4 RuntimeInterface::LoadRuntime succeeded loading runtime defined in manifest file 
+0000a216 ApiLayerInterface::LoadApiLayers skipping manifest file 
+0000a24f RuntimeInterface::LoadRuntime skipping manifest file 
+0000a285 RuntimeManifestFile::FindManifestFiles - using global runtime file 
+0000a2c9 RuntimeManifestFile::FindManifestFiles - using environment variable override runtime file 
+0000a324 See 
+0000a329 ApiLayerManifestFile::CreateIfValid 
+0000a34e RuntimeManifestFile::CreateIfValid 
+0000a372 RuntimeManifestFile::CreateIfValid - attempting to load 
+0000a3ab  layers enabled and runtime interface - created instance = 
+0000a3e7 Destroying LoaderInstance = 
+0000a404 ] = 
+0000a409 LoaderInstance::CreateInstance, no support found for requested extension: 
+0000a454  (Error message: 
+0000a466 ] : 
+0000a46e ManifestFile::IsValidJson - JSON "file_format_version" 
+0000a4a6  filesystem operations failed for path  
+0000a4cf  for detail.
+0000a4de N3jni5ClassE
+0000a568 17ApiLayerInterface
+0000a590 XR_EXT_debug_utils
+0000a618 14LoaderInstance
+0000a629 17LoaderLogRecorder
+0000a63d N12_GLOBAL__N_124OstreamLoaderLogRecorderE
+0000a668 N12_GLOBAL__N_121DebugUtilsLogRecorderE
+0000a690 N12_GLOBAL__N_123LogcatLoaderLogRecorderE
+0000a6ba 16RuntimeInterface
+0000a6cd N3jni23InitializationExceptionE
+0000a6ed N3jni23NameResolutionExceptionE
+0000a70d N3jni6ObjectE
+0000a71b N3jni5ArrayINSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE
+0000a76d N3jni19InvocationExceptionE
+0000a7a4 N4Json10CharReaderE
+0000a7b8 N4Json17CharReaderBuilderE
+0000a7d3 N4Json10CharReader7FactoryE
+0000a7ef N4Json13OurCharReaderE
+0000a806 N4Json13OurCharReader7OurImplE
+0000a825 N4Json10CharReader4ImplE
+0000a83f N4Json12RuntimeErrorE
+0000a855 N4Json9ExceptionE
+0000a867 N4Json10LogicErrorE
+0000e4a5 zPLR
+00010c74 *ic8c
+00010e9c )ik8?
+00010efa @9	 @
+00010f49 #@9h
+00010fa5 #@9h
+000115e4 Nin8n
+000115eb 9Mim8m
+00011877 6`.@
+000119ad C@9h
+00011b0f T,	@
+00011b38 	A@9
+00011b87 T,	@
+000124b3 TH(@
+000124ff Tl	@
+0001254f 7h&@
+0001262f 7		@
+00012743 7*	@
+00012915 B@9h
+00012975 `@9H
+00012d5f =a"@
+00013027 7		@
+00013464 jB@9h
+000137e9 80.	
+00013b7d 80.	
+000143b5 cC9h
+000143d5 #D9h
+000147fd #A9h
+00014a15 cC9h
+00014a35 #D9h
+00014b85 #A9h
+00014e11 c@9h
+00014e31 #A9h
+00015b31 c@9h
+00015ecc y#B9iK@
+00015f0b rhO@
+00016514 	!B9
+00016825 cB9h
+00016891 cB9h
+00016904 	!B9
+0001699d cB9h
+000169ae E9(<
+00016a05 cB9h
+00016ad0 *!B9+M@
+00016b1c 	!B9
+00016bc4 	!B9
+00016c5d cB9h
+00016e2c 	!B9
+00016ef1 #F9)
+00017038 	!B9
+000170d5 #F9)
+000172e5 cB9h
+00017349 #C9h
+000173b1 #C9h
+0001747d #C9h
+000176e1 cB9h
+00017b14 h"@9j&A
+00017ba8 h"@9h
+00017def 6`Z@
+00017df8 h"B9h
+00017dff 6`N@
+000182f1 #@9h
+00018871 `@9H
+00018924 hB@9t
+0001902e @9	ii8
+0001903a _8I!	
+000191f3 ThB@9
+00019f35 #A9h
+0001a021 #A9h
+0001a2fd #A9h
+0001a3a5 #A9h
+0001a4a5 #A9h
+0001b38d c@9h
+0001b429 c@9h
+0001b481 b@9h
+0001b497 T*ih8
+0001b511 rB9H
+0001b527 T*ih8
+0001b709 c@9h
+0001b841 c@9h
+0001bf65 c@9h
+0001c915 #A9h
+0001ca05 c@9h
+0001ca25 #A9h
+0001cae9 c@9h
+0001cb09 #A9h
+0001cd21 cA9h
+0001ce31 cA9h
+0001cedd cA9(
+0001d0a7 7		@
+0001d28d c@9h
+0001d305 c@9h
+0001d5a5 #@9h
+0001d611 #@9h
+0001e10b 7(	@
+0001e29b =(	@
+0001e3a4 Nin8n
+0001e3ab 9Mim8m
+0001e9e8 Nin8n
+0001e9ef 9Mim8m
+0001ea7d c@9h
+0001ed5d #@9h
+0001fe09 80.	
+0001fedf <a"@
+00020365 80.	
+0002044d 80.	
+00020d8c hb@9
+00020e11 C@9h
+00020e70 hb@9
+00020f25 C@9h
+000210c1 b@9H
+0002110c KA@9L
+0002112d b@9?
+000215cf 6`6@
+00021819 c@9h
+00021a57 <a"@
+00021f89 CA9h
+00022069 CA9h
+000222fb 7		@
+0002250e A9`"
+000228ad CC9h
+00022a99 CA9h
+00022cf1 CC9h
+00022d21 CA9h
+000232d1 #A9h
+000233e9 c@9h
+00023409 #A9h
+00023515 #A9h
+00023a49 C@9h
+00023c11 C@9h
+00023cdf 6`N@
+00023dc6 B9H$
+00023ed4 _k98
+00023fa1 #A9h
+00024099 #A9h
+00024189 #A9(
+00024215 #A9h
+00024319 #A9H
+00024395 #A9h
+000245b1 CE9h
+00024a1d CC9h
+00024c95 #J)(
+00024f3d c@9h
+00025035 c@9H
+0002521d CC9h
+000252c9 #@9h
+00025393 6`2@
+00025625 c@9h
+00025811 #@9h
+000258c9  B9	L@
+00025a31 c@9h
+00025d8d #A9h
+00025df5 c@9h
+00025ef1 #A9h
+00025f21 c@9h
+00026275 `@9H
+000265f9 #@9h
+0002661c Jii8_q
+000266f9 #@9h
+00026718 )ix8?q
+000268f8 lii8M
+0002694d #@9h
+00026e23 6`*@
+00026e86  6i"@
+00026eb6 A9i&@
+00027ad1 cB9h
+00027e5f Tyb@
+000282e9 c@9h
+0002834d c@9h
+00028f31 80.	
+00029285 80.	
+0002bbd5 j`8H
+0002be74 (`@9
+0002bf44 hb@9
+0002bf89 b@9hb
+0002ca25 #@9h
+0002ca8d #@9h
+0002ce0d c@9h
+0002d2d6 J8)c@9!
+0002d444 h&C9
+0002d477 T		@9?
+0002d505 c@9h
+0002d51c hbC9
+0002d52a B9bZ@
+0002d690 hbC9
+0002d760 +yhxJ	
+0002d77b ohF@
+0002db93 *k>@
+0002de4b RhbC9
+0002de57 TiF@
+0002e001 c@9h
+0002e3d5 c@9(
+0002e4a1 c@9h
+0002eac1 #@9h
+0002eb19 #@9h
+0002eb5e @9M!
+0002ec93 Th"C9
+0002eccd ii8Lii8)
+0002ed21 ii8Lii8)
+0002ed78 h"C9
+0002ed83 Ti"H
+0002eda9 ii8Lii8)
+0002edf4 h"C9
+0002ee1a @9?9
+0002ee65 ii8Lii8)
+0002eeb1 ii8Lii8)
+0002eee3 RhF@
+0002ef08 h"C9
+0002ef13 Ti"H
+0002ef39 ii8Lii8)
+0002ef86 @9?q
+0002efe2 @9?q
+0002f0af 6hbC9
+0002f0c7 7hJ@
+0002f0da @9_)
+0002f103 *bF@
+0002f20e @9K	
+0002f2ea @9_)
+0002f36a @9sN@
+0002f482 @8?4
+0002f566 @9?p
+0002f619 #@9h
+0002f71d #@9h
+0002fb99 #@9h
+0002fcc2 @9?q
+000300ee @9J	
+00030329 #@9h
+0003045d #@9h
+00030665 C@9`
+00030bde @)tB
+00030d51 #@9h
+0003103b 7		@
+00031147 7*	@
+00031295 B@9h
+000312f5 `@9H
+0003132f 6`f@
+0003133f 6`B@
+00031383 6`f@
+00031393 6`B@
+000314e3 T)c@9
+00032127 7		@
+0003247d b@9h
+00032bd0 (a@9
+00032bd7 7(	@
+00032eb9  @9+ @9
+00033029  @9	
+000331c8 	 @9
+0003357a @y)|@
+00033a42 @y( @9)
+00034250 	 @9?
+000343e3 T()@
+00034405  @9)
+00034c73 7		@
+00034e45 i)8+
+00036ff1 .init_array
+00036ffd .fini_array
+00037009 .text
+0003700f .got
+00037014 .note.android.ident
+00037028 .got.plt
+00037031 .rela.plt
+0003703b .tbss
+00037041 .bss
+00037046 .dynstr
+0003704e .eh_frame_hdr
+0003705c .gnu.version_r
+0003706b .data.rel.ro
+00037078 .relr.dyn
+00037082 .rela.dyn
+0003708c .gnu.version
+00037099 .dynsym
+000370a1 .gnu.hash
+000370ab .relro_padding
+000370ba .eh_frame
+000370c4 .gcc_except_table
+000370d6 .note.gnu.build-id
+000370e9 .dynamic
+000370f2 .shstrtab
+000370fc .rodata
+00037104 .data

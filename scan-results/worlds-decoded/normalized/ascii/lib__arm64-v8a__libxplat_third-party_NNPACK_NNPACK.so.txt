@@ -1,0 +1,347 @@
+00000244 Android
+00000250 r26b
+00000290 10909125
+00000651 __cxa_finalize
+00000660 __cxa_atexit
+0000066d __register_atfork
+0000067f nnp_initialize
+0000068e cpuinfo_initialize
+000006a1 pthread_once
+000006ae nnp_hwinfo
+000006b9 memcpy
+000006c0 __stack_chk_fail
+000006d1 memset
+000006d8 calloc
+000006df qsort
+000006e5 free
+000006ea __system_property_get
+00000700 strnlen
+00000708 strncmp
+00000710 strncpy
+00000718 __vsnprintf_chk
+00000728 memcmp
+0000072f getauxval
+00000739 prctl
+0000073f __open_2
+00000748 __read_chk
+00000753 memmove
+0000075b __errno
+00000763 strerror
+0000076c close
+00000772 __memmove_chk
+00000780 __android_log_vprint
+00000795 libc.so
+0000079d LIBC
+000007a2 liblog.so
+000007ac libxplat_third-party_NNPACK_NNPACK.so
+00000dd0 failed to parse file %s: file is empty
+00000df7 darcy
+00000dfd /sys/devices/system/cpu/kernel_max
+00000e20 failed to read file %s: insufficient buffer of size %zu
+00000e58 /sys/devices/system/cpu/cpu%u/topology/cluster_cpus_list
+00000e91 /sys/devices/system/cpu/cpu%u/topology/core_siblings_list
+00000ecb /sys/devices/system/cpu/present
+00000eeb hi6210sft
+00000ef5 Texas Instruments
+00000f07 failed to parse both lists of possible and present processors
+00000f45 failed to allocate %zu bytes for descriptions of %u logical processors
+00000f8c failed to allocate %zu bytes for descriptions of %u ARM logical processors
+00000fd7 failed to allocate %zu bytes for descriptions of %u core clusters
+00001019 Telechips
+00001023 Actions
+0000102b failed to allocate %zu bytes for descriptions of %u microarchitectures
+00001072 failed to allocate %zu bytes for descriptions of %u cores
+000010ac chipset detection failed: could not disambiguate different chipsets reported in different system properties
+00001118 chipset detection failed: different chipset vendors reported in different system properties
+00001174 failed to allocate %zu bytes for %u uarch index mapping entries
+000011b4 failed to allocate %zu bytes for %u logical processor mapping entries
+000011fa failed to allocate %zu bytes for %u core mapping entries
+00001233 failed to allocate %zu bytes for descriptions of %u L1I caches
+00001272 failed to allocate %zu bytes for descriptions of %u L1D caches
+000012b1 failed to allocate %zu bytes for descriptions of %u L3 caches
+000012ef failed to allocate %zu bytes for descriptions of %u L2 caches
+0000132d Renesas
+00001335 %s %s%u%.*s
+00001341 %s %s
+00001347 failed to parse the list of present processors in %s
+0000137c failed to parse the list of possible processors in %s
+000013b2 NovaThor
+000013bb cluster
+000013c3 Allwinner
+000013cd flounder
+000013d6 failed to parse file %s: "%.*s" is not an unsigned number
+00001410 MStar
+00001416 /sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq
+0000144d /sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq
+00001484 Rockchip
+0000148d failed to parse processor information from /proc/cpuinfo
+000014c6 Unknown
+000014ce tegra210_dragon
+000014de HiSilicon
+000014e8 marlin
+000014ef Spreadtrum
+000014fa ro.mediatek.platform
+0000150f ro.board.platform
+00001521 Broadcom
+0000152a Qualcomm
+00001533 Marvell
+0000153b MediaTek
+00001547 sailfish
+00001550 ro.arch
+00001558 Samsung
+00001560 song
+00001565 Leadcore
+0000156e Pinecone
+00001577 ro.chipname
+00001583 ro.hardware.chipname
+00001598 /sys/devices/system/cpu/possible
+000015b9 package
+000015c1 foster_e
+000015ca ro.product.board
+000015db /sys/devices/system/cpu/cpu%u/topology/physical_package_id
+00001616 foster_e_hdd
+00001623 Unisoc
+0000162a Amlogic
+00001632 Nvidia
+00001639 WonderMedia
+0000164e Tegra T
+0000165a Surge S
+00001669 OMAP
+0000166e Tegra AP
+00001677 BEETHOVEN
+00001690 Tegra SL
+000016b8 hi3635
+000016bf tegra132
+000016c8 hi3751
+000016cf hi3660
+000016d6 hi3650
+000016dd hi6250
+000016e4 Exynos 
+000016ec Nuclun 
+000016f4 Snapdragon 
+00001700 Kirin 
+00001788 gxbaby
+000019be XNNPACK
+00002cff R	A&
+00002d21 9Dz,}
+00003466 7N;z
+000037d2 !nR:
+000038aa &N^y
+00003d42 !nR:
+00003e1a &N^y
+000040cf *nq}
+0000477a &N{Z
+000048fa #n0z
+0000596a "n4{
+00006a7e "n4{
+000075cb *Mq}
+000077a3 NT	@
+000077b6 !Ngi@
+000078d4 4	@L
+000078d9 	@L(
+00007d1a "nqz
+00007ead T`_"@
+00007fb2 2N5i
+00008040 P	@L\d
+00008053 O$	@L
+000081bc 5	@L
+000081d0 Y	@L*
+0000823a *NDd
+0000836d T`_"@
+000084e2 2N6	@L
+00008507 nQ	@L*
+0000852e 9N3d
+000085f6 @L1"
+000086cd T`_"@
+000087d2 2N5i
+00008860 D	@L^d
+0000887c 0	@L
+0000890a +Nf@`
+00008922 ?NS@`
+00008a18 3	@L
+00008a2c W	@L*A
+00008aa6 +NEd
+00008bfd T`_"@
+00008d76 1N0	@L
+00008d90 T	@L*
+00008dba 3NSd
+00008dda &N$d
+00008e9e @L1"
+00009003 NT	@
+00009016 !Ngi@
+00009138 4	@Lf
+000091fe #NBj!
+00009222 $N$k!
+0000923f =Ck!
+0000926b Oek!
+00009662  nBj!
+000096de #nBh!
+0000979c !T`_K
+0000980a %N%d
+0000996c P	@L\d
+0000997f O$	@L
+00009ae8 5	@L
+00009afc Y	@L*
+00009b66 *NDd
+00009cb8 !T`_K
+00009d26 %N%d
+00009e88 D	@L^d
+00009ea4 0	@L
+00009f32 +Nf@`
+00009f4a ?NS@`
+0000a040 3	@L
+0000a054 W	@L*A
+0000a0ce +NEd
+0000a42a @M(	
+0000a82f oqT@m
+0000a838 RL@mT
+0000a8d2 @m0	@
+0000a8ee $Nch!
+0000a906 @mcx!
+0000a916 !NBh!
+0000aa07 qcx!
+0000aa0e "NBh!
+0000aa23 qBx!
+0000aa2a !N!h!
+0000aafe #Nch!
+0000ab12 "NBh!
+0000ab2a !N!h!
+0000ab65 L@mB
+0000abdb q1z!
+0000ac4e #Nch!
+0000ac66 "NBh!
+0000ac7a !N!h!
+0000aca7 T!h!
+0000acd3 Tch!
+0000aceb T!h!
+0000ad2b qch!
+0000ad3f TBh!
+0000ad83 oqT@
+0000ae06 $N#	
+0000b082 !N!	
+0000b133 oPD@
+0000b156 4NvHA
+0000b443 otD@
+0000b45b NYLA
+0000b5ca 2NRB
+0000b5d6 8NvF
+0000b616 0NX@
+0000b6ae 2NRB
+0000b6b6 3NsB
+0000b6da 1NG@
+0000b786 %Nd@
+0000b8b6 0N1A
+0000b8f6 "N#	
+0000ba5d `A-B
+0000bc6b ^T	@
+0000bd93 ^r	@
+0000becb ^p	@
+0000c003 ^f	@
+0000c163 ^d	@
+0000c23f ^B	@
+0000c43e `6lU
+0000cce7 )bC_
+0000d373 2	%@
+0000d3dc _1Ik
+0000d3ec  1HK
+0000d87d hk8_
+0000d8ae _8_%
+0000d917 TI4B)L
+0000e233 4I8@
+0000e276 	*Hh*
+0000e34e @9I#
+0000e405 B	*)!
+0000e41d kj8k
+0000e459 ki8J
+0000e4f1 2@9(!
+0000e5c9 ji8k
+0000e655 jj8k
+0000e7ae @9(A
+0000e7c2 	*	][Q?
+0000e7f0 H=@8
+0000e823 RNik8
+0000e869 ik8L
+0000e88b TJh+8k
+0000e8b6 @9(!
+0000e8d4 (-@8
+0000e903 R-ik8
+0000e969 ij8l
+0000e98b Tkh*8J
+0000ea02 @9)y
+0000ea5b R+hi8k
+0000eab2 @9H!
+0000eadb Rmij8
+0000ebaf RLii8
+0000ec26 @9)y
+0000ec3d 0@x)
+0000ec8f Rmii8
+0000ecdd ii8l
+0000ecf4 Kh)8)
+0000ed41 L@8K
+0000edc6 @9(A
+0000edeb RLii8
+0000ee4a @xil
+0000ee67 RLii8
+0000ee9f R YE
+0000efd1 ju8h
+0000f08e @9HA
+0000f0f2 _8?1
+0000f127 R yE
+0000f2a5 ju8(
+0000f2e1 &@9i
+0000f373 RLii8
+0000f573 RLii8
+0000f72c 	USQ?5
+0000f766 	k`	
+0000facb ThsB9
+000101ee 	k!	
+0001043f *dXq
+000107b4 +U@9
+000107e4 *U@9
+000108a7 ThY3
+000108c3 6/A_
+00010aef 6,|~
+00010b5f 4ID@
+00010c9c k0@)
+00010cd7 Rmxm
+00010d47 Rpx`
+00010f70 Lih8k	
+0001103f T?	 q
+00011185 55q`
+0001118d 95q`
+00011195 =5q!
+000112d2 LQJ	
+00011396 LQJQ
+00011400 `	Dz
+00011904 @	Dz
+00011a0b <beE
+00011d77 R_U,q
+00011eb6 	k@	
+0001271b TH$B)K
+00012736 	*mI*
+00012a19 jy8?
+00012a52 @9m"
+00012a86 _8m"
+00012b96 @9j"
+00012bd2 _8l"
+000137e9 .fini_array
+000137f5 .text
+000137fb .got
+00013800 .note.android.ident
+00013814 .got.plt
+0001381d .rela.plt
+00013827 .bss
+0001382c .dynstr
+00013834 .eh_frame_hdr
+00013842 .gnu.version_r
+00013851 .data.rel.ro
+0001385e .relr.dyn
+00013868 .gnu.version
+00013875 .dynsym
+0001387d .gnu.hash
+00013887 .relro_padding
+00013896 .eh_frame
+000138a0 .note.gnu.build-id
+000138b3 .dynamic
+000138bc .shstrtab
+000138c6 .rodata

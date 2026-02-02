@@ -1,0 +1,1005 @@
+0000020c Android
+00000218 r20b
+00000258 5948944
+000010d1 __cxa_finalize
+000010e0 LIBC
+000010e5 libc.so
+000010ed libvrapi.so
+000010f9 __register_atfork
+0000110b __cxa_atexit
+00001118 _Z26VRAPI_LOADER_API_LEVEL_V32v
+00001138 __android_log_print
+0000114c __stack_chk_fail
+0000115d __system_property_get
+00001173 abort
+00001179 memset
+00001180 ovr_GetLocalPreferenceValueForKey
+000011a2 ovr_SetLocalPreferenceValueForKey
+000011c4 snprintf
+000011cd vrapi_AnchorKeyboardOverlay
+000011e9 vrapi_BeginCaptureSection
+00001203 vrapi_BeginFrame
+00001214 vrapi_BodyConfigBodyTracking
+00001231 vrapi_BodyGetPose
+00001243 vrapi_BodyGetSkeleton
+00001259 vrapi_BodyGetState
+0000126c vrapi_BodyOverridePoseInputs
+00001289 vrapi_BodySetOffsetPoseInputs
+000012a7 vrapi_CaptureScalar
+000012bb vrapi_CloseKeyboardOverlay
+000012d6 vrapi_CreateAndroidSurfaceSwapChain
+000012fa vrapi_CreateAndroidSurfaceSwapChain2
+0000131f vrapi_CreateAndroidSurfaceSwapChain3
+00001344 vrapi_CreateSystemVulkan
+0000135d vrapi_CreateTextureSwapChain
+0000137a vrapi_CreateTextureSwapChain2
+00001398 vrapi_CreateTextureSwapChain3
+000013b6 vrapi_CreateTextureSwapChain4
+000013d4 vrapi_CreateTextureSwapChainCrossProcess
+000013fd vrapi_DestroySystemVulkan
+00001417 vrapi_DestroyTextureSwapChain
+00001435 vrapi_EndCaptureSection
+0000144d vrapi_EnterVrMode
+0000145f vrapi_EnumerateInputDevices
+0000147b vrapi_EnumerateSupportedTrackedObjectTypes
+000014a6 vrapi_EnumerateSupportedTrackedObjectTypes_V1
+000014d4 vrapi_GetBoundaryGeometry
+000014ee vrapi_GetBoundaryOrientedBoundingBox
+00001513 vrapi_GetBoundaryTriggerState
+00001531 vrapi_GetBoundaryVisible
+0000154a vrapi_GetCurrentInputState
+00001565 vrapi_GetCurrentInputState2
+00001581 vrapi_GetDeviceExtensionsVulkan
+000015a1 vrapi_GetFrameMetric
+000015b6 vrapi_GetHandMesh
+000015c8 vrapi_GetHandPose
+000015da vrapi_GetHandSkeleton
+000015f0 vrapi_GetHmdColorDesc
+00001606 vrapi_GetInputDeviceCapabilities
+00001627 vrapi_GetInputTrackingState
+00001643 vrapi_GetInstanceExtensionsVulkan
+00001665 vrapi_GetPredictedDisplayTime
+00001683 vrapi_GetPredictedTracking
+0000169e vrapi_GetPredictedTracking2
+000016ba vrapi_GetPredictedTracking3
+000016d6 vrapi_GetPropertyInt
+000016eb vrapi_GetSystemPropertyFloat
+00001708 vrapi_GetSystemPropertyFloatArray
+0000172a vrapi_GetSystemPropertyInt
+00001745 vrapi_GetSystemPropertyInt64Array
+00001767 vrapi_GetSystemPropertyString
+00001785 vrapi_GetSystemStatusFloat
+000017a0 vrapi_GetSystemStatusInt
+000017b9 vrapi_GetTextureSwapChainAndroidSurface
+000017e1 vrapi_GetTextureSwapChainBufferFoveationVulkan
+00001810 vrapi_GetTextureSwapChainBufferVulkan
+00001836 vrapi_GetTextureSwapChainHandle
+00001856 vrapi_GetTextureSwapChainLength
+00001876 vrapi_GetTextureSwapChainSamplerState
+0000189c vrapi_GetTimeInSeconds
+000018b3 vrapi_GetTrackingSpace
+000018ca vrapi_GetTrackingTransform
+000018e5 vrapi_GetVersionString
+000018fc vrapi_Initialize
+0000190d vrapi_LeaveVrMode
+0000191f vrapi_LocateTrackingSpace
+00001939 vrapi_PollEvent
+00001949 vrapi_RecenterInputPose
+00001961 vrapi_RecenterPose
+00001974 vrapi_RequestBoundaryVisible
+00001991 vrapi_ReturnToHome
+000019a4 vrapi_SendTrexTestCommand
+000019be vrapi_SetAADTLutData
+000019d3 vrapi_SetAndroidSurfaceParameters
+000019f5 vrapi_SetClientColorDesc
+00001a0e vrapi_SetClockLevels
+00001a23 vrapi_SetDisplayRefreshRate
+00001a3f vrapi_SetExtraLatencyMode
+00001a59 vrapi_SetHapticVibrationBuffer
+00001a78 vrapi_SetHapticVibrationSimple
+00001a97 vrapi_SetPerfThread
+00001aab vrapi_SetPropertyFloat
+00001ac2 vrapi_SetPropertyInt
+00001ad7 vrapi_SetRemoteEmulation
+00001af0 vrapi_SetTextureSwapChainHandle
+00001b10 vrapi_SetTextureSwapChainSamplerState
+00001b36 vrapi_SetTrackingSpace
+00001b4d vrapi_SetTrackingTransform
+00001b68 vrapi_ShowFatalError
+00001b7d vrapi_ShowKeyboardOverlay
+00001b97 vrapi_ShowSystemUI
+00001baa vrapi_ShowSystemUIWithExtra
+00001bc6 vrapi_Shutdown
+00001bd5 vrapi_StartTrackingObjectType
+00001bf3 vrapi_StartTrackingObjectType_V1
+00001c14 vrapi_StopTrackingObjectType
+00001c31 vrapi_StopTrackingObjectType_V1
+00001c51 vrapi_SubmitFrame
+00001c63 vrapi_SubmitFrame2
+00001c76 vrapi_TestPointIsInBoundary
+00001c92 vrapi_UpdateFoveation
+00001ca8 vrapi_UpdateHmdInfo
+00001cbc vrapi_WaitFrame
+00001ccc __android_log_vprint
+00001ce1 strcmp
+00001ce8 dl_iterate_phdr
+00001cf8 libdl.so
+00001d01 pthread_getspecific
+00001d15 pthread_key_create
+00001d28 pthread_once
+00001d35 pthread_setspecific
+00001d49 pthread_cond_broadcast
+00001d60 pthread_cond_wait
+00001d72 pthread_mutex_lock
+00001d85 pthread_mutex_unlock
+00001d9a pthread_create
+00001da9 calloc
+00001db0 free
+00001db5 posix_memalign
+00001dc4 malloc
+00001dcb __sF
+00001dd0 android_set_abort_message
+00001dea closelog
+00001df3 fputc
+00001df9 openlog
+00001e01 syslog
+00001e08 vasprintf
+00001e12 vfprintf
+00001e1b islower
+00001e23 isxdigit
+00001e2c memcpy
+00001e33 memmove
+00001e3b realloc
+00001e43 strlen
+00001e4a _edata
+00001e51 __bss_start
+00001e5d _end
+00001e62 liblog.so
+00001e8a t1@U0@I
+00001ee7 q!&D
+000020d7 T9&"
+00002230 J92?d
+0000925d CC9i
+0000a1cd ytx)	
+0000dc43 T`zB
+0000dcbb T`zB
+0000e21b Th2@
+0000ea86 ?77}@
+0000ed9d jj8J
+0000ef73 6hB]
+0000f127 6H3@
+0000f2d4 Mih8
+0000f358 H%@x,
+0000f50b yh*(
+0000fa46 @9?i
+0000fb5e @9?}
+0000fb73 TI	@9?
+0000fbaa @9?}
+0000fbbf TI!@9?
+0000fbcb TI%@9?
+0000fbd7 TI)@9?
+0000fbe3 TI-@9?
+0000fbef TI1@9?
+0000fd1d h(8u
+00010022 @9_Q
+000100d3 9hRA
+00010117 Tl&A
+0001013b T/yo
+0001014f Ti"@
+000101af T*	@9_
+000101f7 T*!@9_
+00010203 T*%@9_}
+0001020f T*)@9_
+0001021b T*-@9_
+00010227 T*1@9_%
+00010233 Tj.A
+0001030e @9?I
+000103fb TurI
+000106be @9?}
+00010c8b 4trI
+0001118e 	j!3
+000111a4 hBK9
+000111ab 4h&@
+0001126f Tl	@9
+00011728 myjx
+000117a5 &@9)A*
+00011dea @9?}
+00011e1e @9?}
+00011e48 hBK9
+00011e4f 4h&@
+00011f17 TtrI
+00011fb3 Th	@9
+000124fe @9?}
+000125a2 @9?}
+00012687 TtrI
+000127e6 @9?1
+0001295f 9trI
+000129df TH	@9
+00012ac3 Th&S
+00012b66 @9_=
+00012b8a @9_I
+00012bdb TurI
+00012ca2 @9_1
+00012cbe @9_5
+00012cf8 lkj8k	
+00012e6b Th&S
+0001318f 9trI
+00013262 @9_}
+0001359e @9?i
+00013c37 r	h(
+00013d18 +ih8J	
+00013e73 R`r	
+00013fd7 Th&S
+000140aa @9_}
+000140cf TTyh
+00014132 @9_%
+00014153 6j"A
+000141db Th&A
+00014433 TzrI
+000144ac J)@9_
+000144d8 J-@9_
+00014500 )%@9?
+00014533 Tz"A
+000146ea @9?Q
+00014718 hJK9)
+00014727 4trI
+000147f3 TN	@9J
+0001480c hFK9
+00014813 4trI
+0001488f TwNA
+000149ba @9?Q
+00014ad0 	!@9?
+00014d96 @9_	
+00014e76 @xj.@9H
+00014f02 @9_U
+00014fbf TuZA
+000150cf TxJK9		
+00015143 TvrI
+000153ce @9?}
+000153d7 TyrI
+000155af R	h(xh
+00015960 myjx
+0001599c myjx
+00015abb Tk6A
+00015ae2 @9?}
+00015bb7 T(	@9
+00015d54 myjx
+00015d8c myjx
+00015dc8 myjx
+00016010 myjx
+0001653b TuBK9(	
+0001656e @9_}
+00016577 Tj.A
+000178e7 TwrI
+00017af6 @9)Q
+00017b10 Lyixk	
+00017c37 4wrI
+00017d79 &@9}
+00017d85 *@9z
+00017d91 .@9w
+00017d9d 2@9t
+00017da9 6@9q
+00017db5 :@9n
+00017dc1 >@9k
+00017dcd B@9h
+00017dd9 F@9e
+00017dff TurI
+00017e8d jx88
+00017ebb TurI
+00017fbb TurI
+0001805f TurI
+0001816b TurI
+00018266 @9_Y
+00018282 @9_-
+000182ae @9?1
+000183d2 @9_Y
+000183ee @9_-
+0001847f TvrI
+00018580 mii8
+0001861e @9_9
+00018642 @9_M
+000186de @9_Y
+0001872a @9_=
+00018806 @9_M
+0001887e @9_%
+000188ca @9_1
+0001895e @9_I
+000189aa @9_1
+000189f6 @9_5
+00018afa @9?M
+00018c29 	@9_9
+00018d07 rh&@
+00018ebf rh&@
+00018faf 4urI
+00019063 4trI
+000192de @9?a
+000196b7 R	h(8h
+0001976b R	h(8h
+000197ef R	h(8h
+00019949 0@9(
+00019d7d #@9)
+00019ede @9)	
+00019f67 np(aN
+00019f83 nc(!
+00019f89 *!NP*a
+00019f97 OP(aN
+00019fb1 *!Nc
+00019fbe !NaT
+0001a0ff R	h(8h
+0001a187 R	h(8h
+0001a26b R	h(xh
+0001a377 R	h(8
+0001a41f 2	h(8
+0001a47b R	h(8
+0001a513 R	h(8h
+0001a55f 2	h(8
+0001a613 2	h(8h
+0001a65b r	h(
+0001a717 2	h(8h
+0001a763 R	h(8
+0001a7fb R	h(8h
+0001a847 R	h(8
+0001a8f7 r	h(
+0001a957 2	h(8
+0001aa0b 2	h(8
+0001aa7b o6\C) 
+0001ab41 h(xh
+0001acab R	h(8h
+0001acfb R	h(8h
+0001ad83 R	h(xh
+0001ae37 R	h(xh
+0001aebf R	h(8i
+0001af4f R	h(8h
+0001b047 R	h(8h
+0001b0cf R	h(8h
+0001b1cb 2	h(8h
+0001b22f R	h(xh
+0001b293 R	h(8h
+0001b34b R	h(8h
+0001b3a7 R	h(8h
+0001b617 R	h(8h
+0001b69f R	h(xh
+0001b6fb R	h(8h
+0001b734 	`@9(
+0001b793 R	h(xh
+0001bccf T)		
+0001bd8f TtrI
+0001bf17 R	h(xh
+0001bfd8 myjx
+0001c00c Lyixk	
+0001c093 TtrI
+0001c124 Lyixk	
+0001c1c0 Lyixk	
+0001c25c Lyixk	
+0001c2e3 TtrI
+0001c35f TtrI
+0001c3f0 Lyixk	
+0001c48c Lyixk	
+0001c528 Lyixk	
+0001c62a @9?=
+0001c643 TtrI
+0001c6c7 TtrI
+0001c73a @9?I
+0001c753 TtrI
+0001c7e4 Lyixk	
+0001cd4c wFK9
+0001cd54 vBK9h
+0001cd97 9urI
+0001d6ab 2	h(8h
+0001d8d3 R	h(xh
+0001daab R	h(8h
+0001db33 R	h(xh
+0001dbbb R	h(8h
+0001dc57 R	h(8
+0001dcdb R	h(8
+0001dd13 R	h(8
+0001de7b R	h(8
+0001df97 R	h(8
+0001e103 R	h(8
+0001e15b R	h(8
+0001e1cf R	h(8h
+0001e257 R	h(8h
+0001e42b R	h(x
+0001e483 2	h(8
+0001e4d3 R	h(8h
+0001e52f R	h(8
+0001e5c3 R	h(8h
+0001e61f R	h(8
+0001e7d3 R	h(8h
+0001e98b R	h(8h
+0001eaab R	h(8h
+0001ebe8 +ih8J	
+0001eea0 +ih8J	
+0001ef5f 2	h(8h
+0001f127 R	h(8h
+0001f267 R	h(8h
+0001f3b3 R	h(xh
+0001f40f R	h(8h
+0001f493 R	h(8
+0001f4eb R	h(8
+0001f58f R	h(xh
+0001f620 +ih8J	
+0001f8c8 +ih8J	
+0001fb93 2	h(8h
+0001fbff 2	h(8h
+0001fc4f 2	h(8h
+0001fedb R	h(8
+0001ff97 2	h(8h
+0002004b R	h(8h
+000200a7 R	h(8h
+0002027b R	h(x
+000203b3 R	h(xh
+00020467 R	h(8h
+000204f2 @9_Y
+00020512 @9_-
+00020553 TtrI
+000205ea @9_=
+00020623 TurI
+000206af Tj.A
+000207da @9?e
+00020862 @9?I
+0002087a @9?=
+00020ac6 @9?U
+00020b72 @9?Y
+00020bbb 4vrI
+00020eee @9?Q
+00020f1e @9?Q
+00020f4e @9?Q
+00020f9f TwrI
+00021117 R	h(8h
+00021203 R	h(8
+0002128b 2	h(8h
+000212ff R	h(8h
+0002135b R	h(8h
+0002152b R	h(x
+000215cf 2	h(8
+000216b3 2	h(8h
+00021767 2	h(8h
+0002181b 2	h(8h
+00021bc7 R	h(8h
+00021d7f R	h(8h
+00021df6 _8?u
+00021e4b 2	h(8h
+00021e9b R	h(8h
+00021f97 R	h(8h
+00022025 (@9H
+000221c9 (@9H
+00022253 R	h(8h
+0002235f 2	h(8
+00022420 (!@9
+0002242b T(%A
+00022507 2	h(8h
+0002251d (@9H
+000225a7 R	h(8h
+00022744 (!@9
+0002274f T(%A
+0002279d (@9H
+00022827 R	h(8
+00022895 p@9H
+0002290d *@9(
+00022973 2	h(8
+00022985 *@9h
+000229ad .@9(
+00022a13 R	h(8
+00022ad5 p@9H
+00022b29 *@9h
+00022b51 .@9(
+00022bb7 R	h(8
+00022dfb T(<@
+00022e6f T(<@
+00022f43 q 	Az@	Az`
+000230a3 ThF@
+000230dc h6A9h
+000230e3 4h2A9
+00023103 Th6@
+0002314b Th2@
+000231f2 G)t:
+0002320b Th2@
+00023237 Th6@
+00023327 Th>@
+00023377 ThJ@
+00023407 Th>@
+00023457 ThJ@
+00023525 Ha8a
+00023740 chb8
+0002374c @`M9`
+00023797 5`~@
+000237c4 B`M9B
+000237dc c`M9
+000237ed jb8_ 
+0002381c Bht8
+000238b4 c`M9c
+00023a3b T`2C
+00023a87 Ta[axc
+00024055 *@9?
+0002406d "@9?
+0002407a @9? 
+000240b9 "@9_
+000241f8  H`8a
+0002422a Y9Bx
+000246dd J`8a
+0002475d Jz8d
+00024994  H`8a
+000249cd ja8? 
+00024a47 9`z4
+00024b05 B^9 
+00025483 Ta~}
+000255dc  H`8a
+00025721 Ha8a
+00025874 b"@9
+000258a0 `&@9
+000258cc b"@9_
+000258fa @9?H
+00025ae7 4C(@
+00025bf1 0@y	
+00026005 B@y 
+00026498 `B@y
+0002663b 7`B@y
+000267c7 y \G
+00026890  @@y
+000268a7 y@\G
+00026b58 `B@y
+00026c2c VrApiLoader
+00026c38 VrApi Loader Version: %s
+00026c51 The requested API version in ovrInitParms (%d.%d.%d.%d) is not compatible with this version of VrApi Loader (%d.%d.%d.%d)!
+00026ccc vrapi_Initialize: Required System Components are not installed.
+00026d0d Oculus Update Required.
+00026d26 To learn how to update the Oculus app, visit:
+00026d55 http://support.oculus.com
+00026d6f vrapi_Initialize: Failed to load VrApi driver! %s
+00026da1 VRAPI_VERSION_BEGIN { 1.1.49.0-0-0 Jun 22 2021 16:44:19  }
+00026ddc com.oculus.systemdriver
+00026df4 com.oculus.systemdriver.DriverLoader
+00026e19 load64Ext
+00026e23 load64
+00026e2a (Landroid/content/Context;Landroid/content/Context;IIIIIJ)J
+00026e66 (Landroid/content/Context;Landroid/content/Context;IIIII)J
+00026ea1 vrapi_GetVersionString
+00026eb8 vrapi_GetTimeInSeconds
+00026ecf vrapi_Initialize
+00026ee0 vrapi_Shutdown
+00026eef vrapi_GetSystemPropertyInt
+00026f0a vrapi_GetSystemPropertyFloat
+00026f27 vrapi_GetSystemPropertyFloatArray
+00026f49 vrapi_GetSystemPropertyInt64Array
+00026f6b vrapi_GetSystemPropertyString
+00026f89 vrapi_GetSystemStatusInt
+00026fa2 vrapi_GetSystemStatusFloat
+00026fbd vrapi_EnterVrMode
+00026fcf vrapi_LeaveVrMode
+00026fe1 vrapi_GetPredictedDisplayTime
+00026fff vrapi_GetPredictedTracking
+0002701a vrapi_GetPredictedTracking2
+00027036 vrapi_GetPredictedTracking3
+00027052 vrapi_RecenterPose
+00027065 vrapi_GetTrackingTransform
+00027080 vrapi_SetTrackingTransform
+0002709b vrapi_GetTrackingSpace
+000270b2 vrapi_SetTrackingSpace
+000270c9 vrapi_LocateTrackingSpace
+000270e3 vrapi_GetBoundaryGeometry
+000270fd vrapi_GetBoundaryOrientedBoundingBox
+00027122 vrapi_TestPointIsInBoundary
+0002713e vrapi_GetBoundaryTriggerState
+0002715c vrapi_RequestBoundaryVisible
+00027179 vrapi_GetBoundaryVisible
+00027192 vrapi_ShowKeyboardOverlay
+000271ac vrapi_CloseKeyboardOverlay
+000271c7 vrapi_AnchorKeyboardOverlay
+000271e3 vrapi_CreateTextureSwapChain
+00027200 vrapi_CreateTextureSwapChain2
+0002721e vrapi_CreateTextureSwapChain3
+0002723c vrapi_CreateTextureSwapChain4
+0002725a vrapi_CreateAndroidSurfaceSwapChain
+0002727e vrapi_CreateAndroidSurfaceSwapChain2
+000272a3 vrapi_GetTextureSwapChainAndroidSurface
+000272cb vrapi_SetAndroidSurfaceParameters
+000272ed vrapi_SetTextureSwapChainSamplerState
+00027313 vrapi_GetTextureSwapChainSamplerState
+00027339 vrapi_CreateTextureSwapChainCrossProcess
+00027362 vrapi_CreateAndroidSurfaceSwapChain3
+00027387 vrapi_GetTextureSwapChainLength
+000273a7 vrapi_GetTextureSwapChainHandle
+000273c7 vrapi_GetTextureSwapChainBufferVulkan
+000273ed vrapi_GetTextureSwapChainBufferFoveationVulkan
+0002741c vrapi_SetTextureSwapChainHandle
+0002743c vrapi_DestroyTextureSwapChain
+0002745a vrapi_CreateSystemVulkan
+00027473 vrapi_DestroySystemVulkan
+0002748d vrapi_GetInstanceExtensionsVulkan
+000274af vrapi_GetDeviceExtensionsVulkan
+000274cf vrapi_WaitFrame
+000274df vrapi_BeginFrame
+000274f0 vrapi_SubmitFrame
+00027502 vrapi_SubmitFrame2
+00027515 vrapi_SetClockLevels
+0002752a vrapi_SetPerfThread
+0002753e vrapi_SetExtraLatencyMode
+00027558 vrapi_SetDisplayRefreshRate
+00027574 vrapi_BeginCaptureSection
+0002758e vrapi_EndCaptureSection
+000275a6 vrapi_CaptureScalar
+000275ba ovr_GetLocalPreferenceValueForKey
+000275dc ovr_SetLocalPreferenceValueForKey
+000275fe vrapi_EnumerateInputDevices
+0002761a vrapi_GetInputDeviceCapabilities
+0002763b vrapi_SetHapticVibrationSimple
+0002765a vrapi_SetHapticVibrationBuffer
+00027679 vrapi_GetCurrentInputState
+00027694 vrapi_GetCurrentInputState2
+000276b0 vrapi_GetInputTrackingState
+000276cc vrapi_RecenterInputPose
+000276e4 vrapi_SetRemoteEmulation
+000276fd vrapi_GetHandSkeleton
+00027713 vrapi_GetHandMesh
+00027725 vrapi_GetHandPose
+00027737 vrapi_EnumerateSupportedTrackedObjectTypes_V1
+00027765 vrapi_StartTrackingObjectType_V1
+00027786 vrapi_StopTrackingObjectType_V1
+000277a6 vrapi_EnumerateSupportedTrackedObjectTypes
+000277d1 vrapi_StartTrackingObjectType
+000277ef vrapi_StopTrackingObjectType
+0002780c vrapi_BodyConfigBodyTracking
+00027829 vrapi_BodyGetSkeleton
+0002783f vrapi_BodyGetPose
+00027851 vrapi_BodyGetState
+00027864 vrapi_BodyOverridePoseInputs
+00027881 vrapi_BodySetOffsetPoseInputs
+0002789f vrapi_SetPropertyInt
+000278b4 vrapi_SetPropertyFloat
+000278cb vrapi_GetPropertyInt
+000278e0 vrapi_ShowSystemUI
+000278f3 vrapi_ShowSystemUIWithExtra
+0002790f vrapi_ReturnToHome
+00027922 vrapi_ShowFatalError
+00027937 vrapi_GetHmdColorDesc
+0002794d vrapi_SetClientColorDesc
+00027966 vrapi_UpdateHmdInfo
+0002797a vrapi_PollEvent
+0002798a vrapi_SetAADTLutData
+0002799f vrapi_UpdateFoveation
+000279b5 vrapi_GetFrameMetric
+000279ca vrapi_SendTrexTestCommand
+000279e4 getApplicationContext
+000279fa ()Landroid/content/Context;
+00027a16 createPackageContext
+00027a2b (Ljava/lang/String;I)Landroid/content/Context;
+00027a5a java/lang/Class
+00027a6a forName
+00027a72 (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+00027ab0 getClassLoader
+00027abf ()Ljava/lang/ClassLoader;
+00027ad9 Missing Java Environment
+00027af2 Java Exception
+00027b01 Missing Entry Point
+00027b15 Missing API Function
+00027b2a **** Missing string for InitializationResult %i!
+00027b5b Unknown Error
+00027b6e 			"Command": "failMenu",
+00027b88 			"OVRVersion": "%u.%u.%u.%u",
+00027ba8 			"extraData": {
+00027bba 				"Reason": "%s",
+00027bce 				"Tag": "VrAppLoader",
+00027be8 				"Message": "%s",
+00027bfd 				"RequiresUpdate": "%s"
+00027c18 			}
+00027c24 true
+00027c29 intent_cmd
+00027c34 intent_pkg
+00027c3f DisplayErrorAndExit: Failed to launch SystemActivities
+00027c76 android/app/Activity
+00027c8b com.oculus.systemactivities/com.oculus.systemactivities.PlatformActivity
+00027cd4 ro.ovr.settings_uri
+00027ce9 <init>
+00027cf4 android/content/Intent
+00027d0b android/content/ComponentName
+00027d29 unflattenFromString
+00027d3d (Ljava/lang/String;)Landroid/content/ComponentName;
+00027d71 setComponent
+00027d7e (Landroid/content/ComponentName;)Landroid/content/Intent;
+00027db8 putExtra
+00027dc1 (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+00027e00 getPackageName
+00027e0f ()Ljava/lang/String;
+00027e24 addFlags
+00027e2d (I)Landroid/content/Intent;
+00027e49 startActivity
+00027e57 (Landroid/content/Intent;)V
+00027e73 overridePendingTransition
+00027e8d (II)V
+00027e93 finishAndRemoveTask
+00027ea7 java/lang/System
+00027eb8 exit
+00027ebd (I)V
+00027ec2 missingJavaEnv
+00027ed1 javaException
+00027edf missingPackage
+00027eee missingEntryPoint
+00027f00 missingAPIFunction
+00027f13 **** Missing reason for InitializationResult %i!
+00027f44 unknown
+00027f4c %s was called before vrapi_Initialize()!
+00027f75 JavaBase::InitJni() called with null JNIEnv!
+00027fa2 JavaBase::InitJni() called twice with a different JNIEnv!
+00027fdc GetMethodID("%s", "%s") failed to locate Method!
+0002800d GetStaticMethodID("%s", "%s") failed to locate Method!
+00028044 FindClass("%s") failed to locate Class!
+0002806c ScopedFrame: Uncaught exception
+0002808c ObjectRef did clean itself up properly!
+000280b4 NativeJava
+000280bf cannot allocate __cxa_eh_globals
+000280e0 std::__libcpp_tls_set failure in __cxa_get_globals()
+00028115 execute once failure in __cxa_get_globals_fast()
+00028146 cannot create thread specific key for __cxa_get_globals()
+00028180 cannot zero out thread value for __cxa_get_globals()
+000281b5 __cxa_guard_acquire failed to acquire mutex
+000281e1 __cxa_guard_acquire condition variable wait failed
+00028214 __cxa_guard_acquire failed to release mutex
+00028240 __cxa_guard_release failed to acquire mutex
+0002826c __cxa_guard_release failed to release mutex
+00028298 __cxa_guard_release failed to broadcast condition variable
+000282d3 __cxa_guard_abort failed to acquire mutex
+000282fd __cxa_guard_abort failed to release mutex
+00028327 __cxa_guard_abort failed to broadcast condition variable
+00028360 unexpected_handler unexpectedly returned
+00028389 terminate_handler unexpectedly returned
+000283b1 terminate_handler unexpectedly threw an exception
+000283e3 std::exception
+000283f2 std::bad_exception
+00028405 std::bad_alloc
+00028414 bad_array_new_length
+00028429 libc++abi
+00028436 terminating with %s exception of type %s: %s
+00028463 terminating with %s exception of type %s
+0002848c terminating with %s foreign exception
+000284b2 terminating
+000284be uncaught
+000284c7 unexpected
+000284d2 invocation function for block in 
+000284f4 vtable for 
+00028500 VTT for 
+00028509 typeinfo for 
+00028517 typeinfo name for 
+0002852a covariant return thunk to 
+00028545 thread-local wrapper routine for 
+00028567 thread-local initialization routine for 
+00028590 virtual thunk to 
+000285a2 non-virtual thunk to 
+000285b8 guard variable for 
+000285cc reference temporary for 
+000285e5 construction vtable for 
+00028602 auto
+00028607 decltype(
+0002861d alignof (
+00028627 const_cast
+00028636 dynamic_cast
+00028678 noexcept (
+0002869a reinterpret_cast
+000286b7 static_cast
+000286c3 sizeof (
+000286cc sizeof... (
+000286d8 typeid (
+000286e1 throw
+000286e7 wchar_t
+000286ef char
+000286f4 signed char
+00028700 unsigned char
+0002870e short
+00028714 unsigned short
+00028731 __int128
+0002873a unsigned __int128
+0002874c false
+00028759 %LaL
+00028762 delete
+0002876d (anonymous namespace)
+00028783 operator&&
+0002878e operator&
+00028798 operator&=
+000287a3 operator=
+000287ad operator()
+000287b8 operator,
+000287c2 operator~
+000287cc operator delete[]
+000287de operator*
+000287e8 operator delete
+000287f8 operator/
+00028802 operator/=
+0002880d operator^
+00028817 operator^=
+00028822 operator==
+0002882d operator>=
+00028838 operator>
+00028842 operator[]
+0002884d operator<=
+00028858 operator<<
+00028863 operator<<=
+0002886f operator<
+00028879 operator-
+00028883 operator-=
+0002888e operator*=
+00028899 operator--
+000288a4 operator new[]
+000288b3 operator!=
+000288be operator!
+000288c8 operator new
+000288d5 operator||
+000288e0 operator|
+000288ea operator|=
+000288f5 operator->*
+00028901 operator+
+0002890b operator+=
+00028916 operator++
+00028921 operator->
+0002892c operator?
+00028936 operator%
+00028940 operator%=
+0002894b operator>>
+00028956 operator>>=
+00028962 operator<=>
+0002896e operator 
+00028978 operator"" 
+00028988  ... 
+0002898e ::operator 
+0002899e ) ? (
+000289a4 ) : (
+000289aa sizeof...(
+000289b5 throw 
+000289bc std::allocator
+000289cb std::basic_string
+000289dd std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+00028a24 std::basic_istream<char, std::char_traits<char> >
+00028a56 std::basic_ostream<char, std::char_traits<char> >
+00028a88 std::basic_iostream<char, std::char_traits<char> >
+00028abb allocator
+00028ac5 basic_string
+00028ad2 basic_istream
+00028ae0 basic_ostream
+00028aee basic_iostream
+00028afd [abi:
+00028b03 'lambda
+00028b0b string literal
+00028b1a std::string
+00028b26 std::istream
+00028b33 std::ostream
+00028b40 std::iostream
+00028b4e string
+00028b55 istream
+00028b5d ostream
+00028b65 iostream
+00028b6e std::
+00028b74  [enable_if:
+00028b81  const
+00028b88  volatile
+00028b92  restrict
+00028ba0 void
+00028ba5 bool
+00028bae unsigned int
+00028bbb long
+00028bc0 unsigned long
+00028bce long long
+00028bd8 unsigned long long
+00028beb float
+00028bf1 double
+00028bf8 long double
+00028c04 __float128
+00028c0f decimal64
+00028c19 decimal128
+00028c24 decimal32
+00028c2e decimal16
+00028c38 char32_t
+00028c41 char16_t
+00028c4a decltype(auto)
+00028c59 std::nullptr_t
+00028c68  complex
+00028c71  imaginary
+00028c7c noexcept
+00028c85 noexcept(
+00028c8f throw(
+00028c96 pixel vector[
+00028ca8 struct
+00028caf union
+00028cb5 enum
+00028cbe objc_object
+00028ccf EEEE';@
+00028d98 St9exception
+00028da5 St13bad_exception
+00028ec4 iiii
+00028ec9 iiiiiiiii2^
+000294fc N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+0002952c N12_GLOBAL__N_116itanium_demangle4NodeE
+00029554 N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+0002958e N12_GLOBAL__N_116itanium_demangle8NameTypeE
+000295ba N12_GLOBAL__N_116itanium_demangle10NestedNameE
+000295e9 N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+00029626 N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+00029659 N12_GLOBAL__N_116itanium_demangle8BoolExprE
+00029685 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+000296bd N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+000296f5 N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+0002972d N12_GLOBAL__N_116itanium_demangle15IntegerCastExprE
+00029761 N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+00029793 N12_GLOBAL__N_116itanium_demangle8FoldExprE
+000297bf N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+000297fa N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+00029829 N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+00029858 N12_GLOBAL__N_116itanium_demangle8CastExprE
+00029884 N12_GLOBAL__N_116itanium_demangle8CallExprE
+000298b0 N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+000298e3 N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+00029912 N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+00029944 N12_GLOBAL__N_116itanium_demangle8DtorNameE
+00029970 N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+000299ab N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+000299df N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+00029a17 N12_GLOBAL__N_116itanium_demangle10MemberExprE
+00029a46 N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+00029a7d N12_GLOBAL__N_116itanium_demangle10BracedExprE
+00029aac N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+00029ae0 N12_GLOBAL__N_116itanium_demangle12InitListExprE
+00029b11 N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+00029b41 N12_GLOBAL__N_116itanium_demangle7NewExprE
+00029b6c N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+00029b9e N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+00029bd2 N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+00029c0a N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+00029c3c N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+00029c69 N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+00029ca9 N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+00029cda N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+00029d09 N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+00029d3d N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+00029d71 N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+00029dab N12_GLOBAL__N_116itanium_demangle9LocalNameE
+00029dd8 N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+00029e10 N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+00029e42 N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+00029e73 N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+00029eac N12_GLOBAL__N_116itanium_demangle16StdQualifiedNameE
+00029ee1 N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+00029f1a N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+00029f4b N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+00029f80 N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+00029fad N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+00029fde N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+0002a017 N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+0002a048 N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+0002a07a N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+0002a0b0 N12_GLOBAL__N_116itanium_demangle8QualTypeE
+0002a0dc N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+0002a110 N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+0002a13f N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+0002a16c N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+0002a1a4 N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+0002a1df N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+0002a20f N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+0002a241 N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+0002a27a N10__cxxabiv116__shim_type_infoE
+0002a29b N10__cxxabiv117__class_type_infoE
+0002a2bd N10__cxxabiv120__si_class_type_infoE
+0002a2e2 St9type_info
+0002ff71 zPLR
+00040390 gold 1.12
+0004039d .fini_array
+000403a9 .text
+000403af .got
+000403b4 .note.android.ident
+000403c8 .got.plt
+000403d1 .rela.plt
+000403db .bss
+000403e0 .dynstr
+000403e8 .eh_frame_hdr
+000403f6 .gnu.version_r
+00040405 .data.rel.ro
+00040412 .rela.dyn
+0004041c .gnu.version
+00040429 .note.gnu.gold-version
+00040440 .dynsym
+00040448 .gnu.hash
+00040452 .eh_frame
+0004045c .gcc_except_table
+0004046e .note.gnu.build-id
+00040481 .gnu.version_d
+00040490 .dynamic
+00040499 .shstrtab
+000404a3 .rodata
+000404ab .data
