@@ -1,33 +1,20 @@
 {
   "apk": "Neao-group-therapy-decoded",
-  "timestamp_utc": "2026-02-02T16:49:53.131242+00:00",
+  "timestamp_utc": "2026-02-04T15:39:30.223978+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\Neao-group-therapy-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 134,
-    "files_with_hits": 14,
-    "total_term_hits": 44
+    "files_with_hits": 11,
+    "total_term_hits": 32
   },
   "matches": [
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__lib_burst_generated.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00010e92 UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance+GetAssistedVelocityInternal_00000F2C$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_73738f90f8bbbd8febc2183a8a478f55 from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-          ]
-        }
-      ]
-    },
     {
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libil2cpp.so.txt",
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "01c83c82 MetaSetFoveationEyeTracked",
             "01c83c9d FBGetFoveationDynamic",
@@ -52,20 +39,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "01ca3a2f ovrAvatar2Behavior_UpdateGazeTargetPositions",
-            "01ca7a26 ovrAvatar2Behavior_DestroyGazeTargets",
-            "01caf485 ovrAvatar2Behavior_CreateGazeTargets",
-            "01ce48ab ovrp_GetEyeGazesState",
-            "01ce7b86 ovrAvatar2Behavior_GetGazePos"
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "01c83c82 MetaSetFoveationEyeTracked",
@@ -78,7 +53,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "01caf9c6 ovrp_GetEyeTrackingSupported"
@@ -86,7 +61,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "01ce48ab ovrp_GetEyeGazesState"
@@ -94,7 +69,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "01cc6955 ovrp_GetEyeTrackingEnabled"
@@ -106,41 +81,9 @@
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovravatar2.so.txt",
       "hits": [
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000062e8 ovrAvatar2Behavior_CreateEntityGazeTargets",
-            "00006313 ovrAvatar2Behavior_DestroyEntityGazeTargets",
-            "0000633f ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
-            "00006372 ovrAvatar2Behavior_CreateGazeTargets",
-            "00006397 ovrAvatar2Behavior_DestroyGazeTargets",
-            "000063bd ovrAvatar2Behavior_UpdateGazeTargetPositions",
-            "000063ea ovrAvatar2Behavior_GetGazePos",
-            "0002f656 Gaze target with id %d doesn't exist",
-            "00031b18 gazeFixup_R_lookRight",
-            "00031b2e gazeFixup_L_lookRight",
-            "00031d29 gazeFixup_R_lookLeft",
-            "00031d3e gazeFixup_L_lookLeft",
-            "00032b44 Gaze target with id %d already exists",
-            "00033071 getGazeWeights",
-            "00033080 Get Gaze Weights",
-            "00033100 ovrAvatar2Behavior_DestroyEntityGazeTargets",
-            "0003312c ovrAvatar2Behavior_CreateEntityGazeTargets",
-            "00033157 ovrAvatar2Behavior_DestroyGazeTargets",
-            "0003317d ovrAvatar2Behavior_CreateGazeTargets",
-            "000338ce ovrAvatar2Behavior_GetGazePos",
-            "00033a90 ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
-            "00033ac3 ovrAvatar2Behavior_UpdateGazeTargetPositions",
-            "0003a0a8 mixer_gazeFixerLayer",
-            "0003a0ca Gaze Fixer",
-            "0003bd6f arvr/libraries/avatar/sdk/libraries/gaze_controller/default/src/GazeControllerComponent.cpp"
-          ]
-        },
-        {
           "term": "saccade",
-          "category": "unknown",
-          "category_confidence": "low",
+          "category": "Biometric Signals & Metrics",
+          "category_confidence": "medium",
           "examples": [
             "0004a41a OnSaccade",
             "0007d8f8 N6avatar15gaze_controller6events11SaccadeInfoE"
@@ -153,7 +96,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00093701 OpenXR eye tracking system properties:",
@@ -162,8 +105,8 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00027459 ovrp_GetLayerTextureFoveation",
             "0002769c ovrp_UpdateFoveation",
@@ -193,21 +136,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000290cf ovrp_GetEyeGazesState",
-            "00096ecb ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
-            "00097eff xrGetEyeGazesFB",
-            "000a37d3 xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
-            "000ab01a ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
-            "000ab21e ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00028396 ovrp_GetFoveationEyeTrackedSupported",
@@ -223,7 +153,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000290b2 ovrp_GetEyeTrackingSupported",
@@ -232,7 +162,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "000290cf ovrp_GetEyeGazesState"
@@ -240,7 +170,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "00029097 ovrp_GetEyeTrackingEnabled"
@@ -252,17 +182,8 @@
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovrplugintracking.so.txt",
       "hits": [
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0000147d ovrp_GetEyeGazesState",
-            "0000177a ovrpGetEyeGazesState failed: %d"
-          ]
-        },
-        {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "0000147d ovrp_GetEyeGazesState"
@@ -270,23 +191,10 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "000016d4 ovrp_GetEyeTrackingEnabled"
-          ]
-        }
-      ]
-    },
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libpdfrenderer.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0017dded gazEF"
           ]
         }
       ]
@@ -296,8 +204,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000e1302 FoveatedRenderingTexture - Can not find YFlip kernel '%s' in ComputeShader, %s",
             "000e67ec UnityEngine.SystemInfo::GetFoveatedRenderingCaps",
@@ -325,14 +233,6 @@
             "001a6e40 FoveatedRenderingInfo struct version mismatch.",
             "001b4a49 Setting Foveation Offset compatible texture of already created render texture is not supported!"
           ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "001e453e gazEF"
-          ]
         }
       ]
     },
@@ -341,8 +241,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00013a76 FBGetFoveationDynamic",
             "00013a8c FBGetFoveationLevel",
@@ -373,7 +273,7 @@
         },
         {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00013ab4 MetaGetEyeTrackedFoveationSupported",
@@ -389,41 +289,10 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00008cc4 Failed to retrieve eye tracking properties"
-          ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00009944 Failed to get eye gaze",
-            "0000b657 xrGetEyeGazesFB"
-          ]
-        }
-      ]
-    },
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libxul.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "01324988 gaze",
-            "014480e8 pico-gaze",
-            "0160b13e gazEF",
-            "01754ec3 gaze",
-            "0176fb03 gazet",
-            "01788ed8 gazeta",
-            "017ebd63 gazete",
-            "01811da6 Ugazetecilercemiyeti.or",
-            "0181902c pasagazet",
-            "018fbe84 anyASCIIAnyageASCII_Hex_DigitAlphabeticalphabeticasciihexdigitbcBidi_ClassbidicBidi_ControlbidiclassbidicontrolbidimBidi_MirroredbidimirroredbidimirroringglyphBidi_Mirroring_GlyphbidipairedbracketBidi_Paired_BracketbidipairedbrackettypeBidi_Paired_Bracket_TypeblkBlockblockbmgbpbbptcanonicalcombiningclassCanonical_Combining_ClasscasedCasedcasefoldingCase_FoldingcaseignorableCase_IgnorablecccceComposition_ExclusionchangeswhencasefoldedChanges_When_CasefoldedchangeswhencasemappedChanges_When_CasemappedchangeswhenlowercasedChanges_When_LowercasedchangeswhennfkccasefoldedChanges_When_NFKC_CasefoldedchangeswhentitlecasedChanges_When_TitlecasedchangeswhenuppercasedChanges_When_UppercasedcicjkaccountingnumerickAccountingNumericcjkcompatibilityvariantkCompatibilityVariantcjkiicorekIICorecjkirggsourcekIRG_GSourcecjkirghsourcekIRG_HSourcecjkirgjsourcekIRG_JSourcecjkirgkpsourcekIRG_KPSourcecjkirgksourcekIRG_KSourcecjkirgmsourcekIRG_MSourcecjkirgssourcekIRG_SSourcecjkirgtsourcekIRG_TSourcecjkirguksourcekIRG_UKSourcecjkirgusourcekIRG_USourcecjkirgvsourcekIRG_VSourcecjkothernumerickOtherNumericcjkprimarynumerickPrimaryNumericcjkrsunicodekRSUnicodecompexFull_Composition_ExclusioncompositionexclusioncwkcfcwlcwtcwudecompositionmappingDecomposition_MappingdecompositiontypeDecomposition_TypedefaultignorablecodepointDefault_Ignorable_Code_PointdepDeprecateddeprecateddidiaDiacriticdiacriticdmdteaeastasianwidthebaseEmoji_Modifier_BaseecompEmoji_ComponentEmoji_ModifieremojiEmojiemojicomponentemojimodifieremojimodifierbaseemojipresentationEmoji_PresentationepresequideoEquivalent_Unified_IdeographequivalentunifiedideographexpandsonnfcExpands_On_NFCexpandsonnfdExpands_On_NFDexpandsonnfkcExpands_On_NFKCexpandsonnfkdExpands_On_NFKDextextendedpictographicExtended_PictographicextpictfcnfkcFC_NFKC_ClosurefcnfkcclosurefullcompositionexclusiongcgcbgeneralcategorygraphemebaseGrapheme_BasegraphemeclusterbreakgraphemeextendGrapheme_ExtendgraphemelinkGrapheme_LinkgrbasegrextgrlinkhangulsyllabletypeHangul_Syllable_TypehexHex_DigithsthyphenHyphenidcID_ContinueidcontinueIdeographicideographicidsIDS_Binary_OperatoridsbinaryoperatorIDS_Trinary_OperatoridstartidstrinaryoperatorindicpositionalcategoryIndic_Positional_CategoryindicsyllabiccategoryIndic_Syllabic_CategoryiscISO_CommentjamoshortnameJamo_Short_NamejgJoining_GroupjoincJoin_ControljoincontroljoininggroupjoiningtypeJoining_TypejsnjtkaccountingnumerickcompatibilityvariantkiicorekirggsourcekirghsourcekirgjsourcekirgkpsourcekirgksourcekirgmsourcekirgssourcekirgtsourcekirguksourcekirgusourcekirgvsourcekothernumerickprimarynumerickrsunicodelbLine_BreakLowercase_MappinglinebreakloeLogical_Order_ExceptionlogicalorderexceptionLowercaselowercasenana1Unicode_1_NamenamealiasName_AliasncharNoncharacter_Code_PointnfcqcNFC_Quick_ChecknfcquickchecknfdqcNFD_Quick_ChecknfdquickchecknfkccasefoldNFKC_CasefoldnfkccfnfkcqcnfkcquickchecknfkdqcnfkdquickchecknoncharactercodepointntNumeric_TypenumerictypenumericvalueNumeric_ValuenvoalphaodiOther_Default_Ignorable_Code_PointogrextOther_Grapheme_ExtendOther_ID_ContinueOther_ID_StartolowerOther_LowercaseomathOther_MathotheralphabeticotherdefaultignorablecodepointothergraphemeextendotheridcontinueotheridstartotherlowercaseothermathotheruppercaseOther_UppercaseoupperpatsynPattern_SyntaxpatternsyntaxpatternwhitespacePattern_White_SpacepatwspcmPrepended_Concatenation_MarkprependedconcatenationmarkqmarkQuotation_MarkquotationmarkradicalRadicalregionalindicatorRegional_IndicatorrisbscfSimple_Case_FoldingscriptscxsdSoft_DottedsentencebreakSentence_TerminalsfcsimplecasefoldingsimplelowercasemappingSimple_Lowercase_MappingsimpletitlecasemappingSimple_Titlecase_MappingsimpleuppercasemappingSimple_Uppercase_MappingslcsoftdottedWhite_SpacestcstermsuctcTitlecase_MappingTerminal_PunctuationterminalpunctuationucUppercase_MappinguideoUnified_Ideographunicode1nameunicoderadicalstrokeUppercaseuppercaseursvariationselectorVariation_SelectorverticalorientationVertical_OrientationvovswbwhitespacewordbreakwspaceXID_ContinuexidcontinueXID_Startxonfcxonfdxonfkcxonfkd1.1V10_0V11_0V12_0V12_1V13_0V14_0V15_02.02.13.03.13.24.04.15.05.15.26.06.16.26.37.08.09.0Unassignedunassignedv11v20v21v30v31v32v40v41v50v51v52v60v61v62v63v70v80v90cOthercasedletterCased_LetterccControlFormatClose_PunctuationcncoPrivate_UsecombiningmarkconnectorpunctuationConnector_PunctuationcontrolcsSurrogatecurrencysymbolCurrency_SymboldashpunctuationdecimalnumberDecimal_NumberenclosingmarkEnclosing_MarkFinal_PunctuationformatinitialpunctuationInitial_PunctuationlLetterletterletternumberLetter_NumberlineseparatorLine_SeparatorlllmModifier_LetterloOther_LetterlowercaseletterltlumathsymbolMath_SymbolmcSpacing_MarkmemnNonspacing_MarkmodifierlettermodifiersymbolModifier_SymbolnNumberndnlnoOther_NumbernonspacingmarknumberopenpunctuationotherotherletterothernumberOther_PunctuationothersymbolOther_SymbolpPunctuationparagraphseparatorParagraph_SeparatorpcpdpepfpipoprivateusepspunctuationSymbolseparatorSeparatorsksmsospaceseparatorSpace_SeparatorspacingmarksurrogatesymboltitlecaseletteruppercaseletterzzlzpzscrCRebE_BaseE_Base_GAZebgemE_ModifieremodifierexExtendextendgazGlue_After_ZwjglueafterzwjLlfLFlvLVlvtLVTppPrependprependSpacingMarktTvVxxzwjZWJadlamAdlamCaucasian_AlbaniananatolianhieroglyphsAnatolian_HieroglyphsArabicarabicavestanAvestanBamumbamumBassa_VahbatakBatakBengalibengalibhaiksukiBhaiksukiBrahmibrahmiBraillebrailleBuhidbuhidChakmacanadianaboriginalCanadian_AboriginalCariancariancaucasianalbanianchakmachorasmianChorasmiancommonCommonCopticcopticCypro_MinoanCypriotcuneiformCuneiformcypriotcyprominoandeseretDeseretDevanagaridevanagariDives_AkurudivesakuruDogradograEgyptian_HieroglyphsegyptianhieroglyphsElbasanelbasanElymaicelymaicGlagoliticglagoliticGunjala_GondiMasaram_GondiGothicgothicGranthagranthagreekGreekgunjalagondihanHanHangulhangulhanifirohingyaHanifi_RohingyaHanunoohanunooHatranhatranHebrewhebrewPahawh_HmongNyiakeng_Puachue_HmongKatakana_Or_HiraganaOld_HungarianimperialaramaicinheritedInheritedinscriptionalpahlaviInscriptional_PahlaviinscriptionalparthianInscriptional_ParthianOld_ItalickaithiKaithikannadaKannadakatakanaorhiraganakayahliKharoshthikharoshthikhitansmallscriptKhitan_Small_ScriptkhmerKhmerKhojkikhojkikhudawadiKhudawadilaoLaolatinLatinLepchalepchaLimbulimbulinearalinearbLycianlycianLydianlydianMakasarmakasarmalayalamMalayalamMandaicmandaicManichaeanmanichaeanMarchenmarchenmasaramgondimedefaidrinMedefaidrinmeeteimayekMeetei_MayekMende_KikakuimendekikakuiMeroitic_HieroglyphsmeroiticcursivemeroitichieroglyphsMongolianmongolianmroMroMultanimultanimyanmarMyanmarnabataeanNabataeanNag_MundarinagmundariNandinagarinandinagariOld_North_ArabiannewtailueNew_Tai_LuenkoNkoNushunushunyiakengpuachuehmongOghamoghamolchikioldhungarianolditalicoldnortharabianoldpermicOld_PermicoldpersianOld_PersianoldsogdianOld_SogdianoldsoutharabianOld_South_ArabianoldturkicOld_TurkicolduyghurOld_UyghuroriyaOriyaosageOsageOsmanyaosmanyapahawhhmongPalmyrenepalmyrenePau_Cin_HaupaucinhauphagspaPsalter_PahlaviPhoenicianphoenicianpsalterpahlavirejangRejangrunicRunicsamaritanSamaritanSaurashtrasaurashtraSignWritingsharadaSharadashavianShavianSiddhamsiddhamsignwritingSinhalasinhalaSogdiansogdianSora_SompengsorasompengSoyombosoyomboSundanesesundaneseSyloti_NagrisylotinagriSyriacsyriactagalogTagalogtaileTai_LetaithamtaivietTakritakritamilTamilTanguttangsaTangsatangutTeluguteluguThaanathaanatibetanTibetanTirhutatirhutaunknownUnknownvaiVaiwanchoWanchoWarang_CitiwarangcitiYezidiyezidiyiYizanabazarsquareatATermatermclCloseclosefoleOLetterLowernuNumericnumericoletterSContinuescontinueseSepsepspSpstSTermupUpperaletterALetterdoublequoteDouble_QuotedqExtendNumLetextendnumlethebrewletterHebrew_LetterhlkambMidNumLetmidletterMidLettermidnumMidNummidnumletmlnewlineNewlinesinglequoteSingle_QuotesqwsegspaceWSegSpace"
           ]
         }
       ]
@@ -433,8 +302,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "010618ca MetaSetFoveationEyeTracked",
             "0106427f ovrp_GetFoveationEyeTracked",
@@ -455,16 +324,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "010a291e ovrp_GetEyeGazesState"
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "010618ca MetaSetFoveationEyeTracked",
@@ -477,7 +338,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0107ed81 ovrp_GetEyeTrackingSupported"
@@ -485,7 +346,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "010a291e ovrp_GetEyeGazesState"
@@ -493,7 +354,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "0108e61b ovrp_GetEyeTrackingEnabled"
@@ -506,7 +367,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0011bd75 OpenXR eye tracking system properties:",
@@ -515,8 +376,8 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00056511 ovrp_GetLayerTextureFoveation",
             "00056754 ovrp_UpdateFoveation",
@@ -546,21 +407,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00058143 ovrp_GetEyeGazesState",
-            "0011fb99 ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
-            "00120df9 xrGetEyeGazesFB",
-            "0012d08c xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
-            "00136035 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
-            "00136145 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0005745f ovrp_GetFoveationEyeTrackedSupported",
@@ -576,7 +424,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00058126 ovrp_GetEyeTrackingSupported",
@@ -585,7 +433,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "00058143 ovrp_GetEyeGazesState"
@@ -593,7 +441,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "0005810b ovrp_GetEyeTrackingEnabled"
@@ -606,8 +454,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000dc115 FoveatedRenderingTexture - Can not find YFlip kernel '%s' in ComputeShader, %s",
             "000e1553 UnityEngine.SystemInfo::GetFoveatedRenderingCaps",
@@ -635,14 +483,6 @@
             "0018dcd2 Internal-CreateFoveatedShadingRateTextureNoArray.compute",
             "0018e03c FoveatedRenderingInfo struct version mismatch."
           ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "001cae66 gazEF"
-          ]
         }
       ]
     },
@@ -651,8 +491,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00013d53 FBGetFoveationDynamic",
             "00013d69 FBGetFoveationLevel",
@@ -683,7 +523,7 @@
         },
         {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00013d91 MetaGetEyeTrackedFoveationSupported",

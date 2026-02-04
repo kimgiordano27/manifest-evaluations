@@ -1,33 +1,20 @@
 {
   "apk": "Mixreal-AI-decoded",
-  "timestamp_utc": "2026-02-02T16:49:52.655099+00:00",
+  "timestamp_utc": "2026-02-04T15:39:30.094361+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\Mixreal-AI-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 18,
-    "files_with_hits": 4,
-    "total_term_hits": 6
+    "files_with_hits": 3,
+    "total_term_hits": 4
   },
   "matches": [
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__lib_burst_generated.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00040022 UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance+GetAssistedVelocityInternal_00000F67$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_c088fc27d5c64cc705cf58b5ef3e1068 from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-          ]
-        }
-      ]
-    },
     {
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libil2cpp.so.txt",
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "0124db0c UnityFoveation_GetUseFoveatedRenderingLegacyMode",
             "0125c39a OculusFoveation_GetUsedApi",
@@ -49,8 +36,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000e9ab9 Foveation Image YFlip",
             "000fb028 UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode_Injected",
@@ -78,14 +65,6 @@
             "00175b45 Internal-CreateFoveatedShadingRateTextureNoArray.compute",
             "00175b7e Internal-YFlipFoveatedShadingTexture.compute"
           ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "001bb9d2 gazEF"
-          ]
         }
       ]
     },
@@ -94,8 +73,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00013a3e FBGetFoveationDynamic",
             "00013a54 FBGetFoveationLevel",
@@ -126,7 +105,7 @@
         },
         {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00013a7c MetaGetEyeTrackedFoveationSupported",

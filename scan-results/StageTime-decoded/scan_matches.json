@@ -1,34 +1,20 @@
 {
   "apk": "StageTime-decoded",
-  "timestamp_utc": "2026-02-02T16:50:02.279299+00:00",
+  "timestamp_utc": "2026-02-04T15:39:32.749861+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\StageTime-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 71,
-    "files_with_hits": 8,
-    "total_term_hits": 20
+    "files_with_hits": 6,
+    "total_term_hits": 16
   },
   "matches": [
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__lib_burst_generated.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00015281 UnityEngine.XR.Interaction.Toolkit.XRGazeAssistance+GetAssistedVelocityInternal_00000691$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_12c7e86a46ddb89f316f5ef5fef6de9e from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "00082104 UnityEngine.XR.Interaction.Toolkit.XRGazeAssistance+GetAssistedVelocityInternal_00000691$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_12c7e86a46ddb89f316f5ef5fef6de9e from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-          ]
-        }
-      ]
-    },
     {
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libil2cpp.so.txt",
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "0153537a UnityFoveation_GetUseFoveatedRenderingLegacyMode",
             "01540961 OculusFoveation_GetUsedApi",
@@ -53,16 +39,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0157d423 ovrp_GetEyeGazesState"
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0154a853 ovrp_SetFoveationEyeTracked",
@@ -75,7 +53,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0157d406 ovrp_GetEyeTrackingSupported"
@@ -83,7 +61,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "0157d423 ovrp_GetEyeGazesState"
@@ -91,7 +69,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "0153c987 ovrp_GetEyeTrackingEnabled"
@@ -104,8 +82,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "0005b07a GLAD_GL_QCOM_framebuffer_foveated",
             "0005b197 GLAD_GL_QCOM_texture_foveated",
@@ -141,8 +119,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00007df6 xrDestroyFoveationProfileFB",
             "00007e12 xrCreateFoveationProfileFB"
@@ -155,7 +133,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0008e152 OpenXR eye tracking system properties:",
@@ -164,8 +142,8 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00026239 ovrp_GetLayerTextureFoveation",
             "0002647c ovrp_UpdateFoveation",
@@ -195,21 +173,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000284ce ovrp_GetEyeGazesState",
-            "00091626 ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
-            "000925fe xrGetEyeGazesFB",
-            "0009d2b5 xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
-            "000a469e ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
-            "000a48a2 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00027176 ovrp_GetFoveationEyeTrackedSupported",
@@ -225,7 +190,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000284b1 ovrp_GetEyeTrackingSupported",
@@ -234,7 +199,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "000284ce ovrp_GetEyeGazesState"
@@ -242,7 +207,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "00028496 ovrp_GetEyeTrackingEnabled"
@@ -255,8 +220,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000fc25e SetFoveatedRenderingMode",
             "000fecec Missing Vulkan framebuffer attachment foveation image?",
@@ -280,8 +245,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00013978 FBGetFoveationDynamic",
             "0001398e FBGetFoveationLevel",
@@ -312,38 +277,13 @@
         },
         {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000139b6 MetaGetEyeTrackedFoveationSupported",
             "000139da MetaGetFoveationEyeTracked",
             "000139f5 MetaSetFoveationEyeTracked",
             "0010a709 xrGetFoveationEyeTrackedStateMETA"
-          ]
-        }
-      ]
-    },
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libxul.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "01430bf0 gaze",
-            "015ae94f pico-gaze",
-            "017b3583 gazEF",
-            "018e742b Ugaze",
-            "019043d9 gazet",
-            "0191f443 33gazeta",
-            "019b8862 pasagazet",
-            "019bd31f 1igaze",
-            "01ade2dc ASCIIAnyageASCII_Hex_DigitAlphabeticalphabeticasciihexdigitbcBidi_ClassbidicBidi_ControlbidiclassbidicontrolbidimBidi_MirroredbidimirroredbidimirroringglyphBidi_Mirroring_GlyphbidipairedbracketBidi_Paired_BracketbidipairedbrackettypeBidi_Paired_Bracket_TypeblkBlockblockbmgbpbbptcanonicalcombiningclassCanonical_Combining_ClasscasedCasedcasefoldingCase_FoldingcaseignorableCase_IgnorablecccceComposition_ExclusionchangeswhencasefoldedChanges_When_CasefoldedchangeswhencasemappedChanges_When_CasemappedchangeswhenlowercasedChanges_When_LowercasedchangeswhennfkccasefoldedChanges_When_NFKC_CasefoldedchangeswhentitlecasedChanges_When_TitlecasedchangeswhenuppercasedChanges_When_UppercasedcicjkaccountingnumerickAccountingNumericcjkcompatibilityvariantkCompatibilityVariantcjkiicorekIICorecjkirggsourcekIRG_GSourcecjkirghsourcekIRG_HSourcecjkirgjsourcekIRG_JSourcecjkirgkpsourcekIRG_KPSourcecjkirgksourcekIRG_KSourcecjkirgmsourcekIRG_MSourcecjkirgssourcekIRG_SSourcecjkirgtsourcekIRG_TSourcecjkirguksourcekIRG_UKSourcecjkirgusourcekIRG_USourcecjkirgvsourcekIRG_VSourcecjkothernumerickOtherNumericcjkprimarynumerickPrimaryNumericcjkrsunicodekRSUnicodecompexFull_Composition_ExclusioncompositionexclusioncwkcfcwlcwtcwudecompositionmappingDecomposition_MappingdecompositiontypeDecomposition_TypedefaultignorablecodepointDefault_Ignorable_Code_PointdepDeprecateddeprecateddidiaDiacriticdiacriticdmdteaeastasianwidthebaseEmoji_Modifier_BaseecompEmoji_ComponentEmoji_ModifieremojiEmojiemojicomponentemojimodifieremojimodifierbaseemojipresentationEmoji_PresentationepresequideoEquivalent_Unified_IdeographequivalentunifiedideographexpandsonnfcExpands_On_NFCexpandsonnfdExpands_On_NFDexpandsonnfkcExpands_On_NFKCexpandsonnfkdExpands_On_NFKDextendedpictographicExtended_PictographicextpictfcnfkcFC_NFKC_ClosurefcnfkcclosurefullcompositionexclusiongcgcbgeneralcategorygraphemebaseGrapheme_BasegraphemeclusterbreakgraphemeextendGrapheme_ExtendgraphemelinkGrapheme_LinkgrbasegrextgrlinkhangulsyllabletypeHangul_Syllable_TypehexHex_DigithsthyphenHyphenidcID_ContinueidcontinueIdeographicideographicidsIDS_Binary_OperatoridsbinaryoperatorIDS_Trinary_OperatoridstartidstrinaryoperatorindicpositionalcategoryIndic_Positional_CategoryindicsyllabiccategoryIndic_Syllabic_CategoryiscISO_CommentjamoshortnameJamo_Short_NamejgJoining_GroupjoincJoin_ControljoincontroljoininggroupjoiningtypeJoining_TypejsnjtkaccountingnumerickcompatibilityvariantkiicorekirggsourcekirghsourcekirgjsourcekirgkpsourcekirgksourcekirgmsourcekirgssourcekirgtsourcekirguksourcekirgusourcekirgvsourcekothernumerickprimarynumerickrsunicodelbLine_BreakLowercase_MappinglinebreakloeLogical_Order_ExceptionlogicalorderexceptionLowercaselowercasenana1Unicode_1_NamenamealiasName_AliasncharNoncharacter_Code_PointnfcqcNFC_Quick_ChecknfcquickchecknfdqcNFD_Quick_ChecknfdquickchecknfkccasefoldNFKC_CasefoldnfkccfnfkcqcnfkcquickchecknfkdqcnfkdquickchecknoncharactercodepointNumeric_TypenumerictypenumericvalueNumeric_ValuenvoalphaOther_Default_Ignorable_Code_PointogrextOther_Grapheme_ExtendOther_ID_ContinueOther_ID_StartolowerOther_LowercaseomathOther_MathotheralphabeticotherdefaultignorablecodepointothergraphemeextendotheridcontinueotheridstartotherlowercaseothermathotheruppercaseOther_UppercaseoupperpatsynPattern_SyntaxpatternsyntaxpatternwhitespacePattern_White_SpacepatwspcmPrepended_Concatenation_MarkprependedconcatenationmarkqmarkQuotation_MarkquotationmarkradicalRadicalregionalindicatorRegional_IndicatorrisbscfSimple_Case_FoldingscxsdSoft_DottedsentencebreakSentence_TerminalsfcsimplecasefoldingsimplelowercasemappingSimple_Lowercase_MappingsimpletitlecasemappingSimple_Titlecase_MappingsimpleuppercasemappingSimple_Uppercase_MappingslcsoftdottedWhite_SpacestermsuctcTitlecase_MappingTerminal_PunctuationterminalpunctuationucUppercase_MappinguideoUnified_Ideographunicode1nameunicoderadicalstrokeUppercaseuppercaseursvariationselectorVariation_SelectorverticalorientationVertical_OrientationvovswbwhitespacewordbreakwspaceXID_ContinuexidcontinueXID_Startxonfcxonfdxonfkcxonfkd1.1V10_0V11_0V12_0V12_1V13_0V14_0V15_02.02.13.03.13.24.04.15.05.15.26.06.16.26.37.08.09.0Unassignedunassignedv11v20v21v30v31v32v40v41v50v51v52v60v61v62v63v70v80v90casedletterCased_LetterControlClose_PunctuationcncoPrivate_UsecombiningmarkconnectorpunctuationConnector_PunctuationcontrolSurrogatecurrencysymbolCurrency_SymboldashpunctuationdecimalnumberDecimal_NumberenclosingmarkEnclosing_MarkFinal_PunctuationformatinitialpunctuationInitial_PunctuationlLetterletterletternumberLetter_NumberlineseparatorLine_SeparatorlllmModifier_LetterOther_LetterlowercaseletterltlumathsymbolMath_SymbolmcSpacing_MarkmnNonspacing_MarkmodifierlettermodifiersymbolModifier_SymbolNumberndnlnoOther_NumbernonspacingmarknumberopenpunctuationotherotherletterothernumberOther_PunctuationothersymbolOther_SymbolPunctuationparagraphseparatorParagraph_SeparatorpcpdpepfpipoprivateusepunctuationSymbolseparatorSeparatorspaceseparatorSpace_SeparatorspacingmarksurrogatesymboltitlecaseletteruppercaseletterzlzpzscrCRebE_BaseE_Base_GAZebgemE_ModifieremodifierexExtendextendgazGlue_After_ZwjglueafterzwjLlfLFlvLVlvtLVTppPrependprependSpacingMarkTvVxxzwjZWJadlamAdlamCaucasian_AlbaniananatolianhieroglyphsAnatolian_HieroglyphsArabicarabicavestanAvestanBamumbamumBassa_VahbatakBatakBengalibengalibhaiksukiBhaiksukiBrahmibrahmiBraillebrailleBuhidbuhidChakmacanadianaboriginalCanadian_AboriginalCariancariancaucasianalbanianchakmachorasmianChorasmiancommonCommonCopticcopticCypro_MinoanCypriotcuneiformCuneiformcypriotcyprominoandeseretDeseretDevanagaridevanagariDives_AkurudivesakuruDogradograEgyptian_HieroglyphsegyptianhieroglyphsElbasanelbasanElymaicelymaicGlagoliticglagoliticGunjala_GondiMasaram_GondiGothicgothicGranthagranthagreekGreekgunjalagondihanHanHangulhangulhanifirohingyaHanifi_RohingyaHanunoohanunooHatranhatranHebrewhebrewPahawh_HmongNyiakeng_Puachue_HmongKatakana_Or_HiraganaOld_HungarianimperialaramaicinheritedInheritedinscriptionalpahlaviInscriptional_PahlaviinscriptionalparthianInscriptional_ParthianOld_ItalickaithiKaithikannadaKannadakatakanaorhiraganakayahliKharoshthikharoshthikhitansmallscriptKhitan_Small_ScriptkhmerKhmerKhojkikhojkikhudawadiKhudawadilaoLaolatinLatinLepchalepchaLimbulimbulinearalinearbLycianlycianLydianlydianMakasarmakasarmalayalamMalayalamMandaicmandaicManichaeanmanichaeanMarchenmarchenmasaramgondimedefaidrinMedefaidrinmeeteimayekMeetei_MayekMende_KikakuimendekikakuiMeroitic_HieroglyphsmeroiticcursivemeroitichieroglyphsMongolianmongolianmroMroMultanimultanimyanmarMyanmarnabataeanNabataeanNag_MundarinagmundariNandinagarinandinagariOld_North_ArabiannewtailueNew_Tai_LuenkoNkoNushunushunyiakengpuachuehmongOghamoghamolchikioldhungarianolditalicoldnortharabianoldpermicOld_PermicoldpersianOld_PersianoldsogdianOld_SogdianoldsoutharabianOld_South_ArabianoldturkicOld_TurkicolduyghurOld_UyghuroriyaOriyaosageOsageOsmanyaosmanyapahawhhmongPalmyrenepalmyrenePau_Cin_HaupaucinhauphagspaPsalter_PahlaviPhoenicianphoenicianpsalterpahlavirejangRejangrunicRunicsamaritanSamaritanSaurashtrasaurashtraSignWritingsharadaSharadashavianShavianSiddhamsiddhamsignwritingSinhalasinhalaSogdiansogdianSora_SompengsorasompengSoyombosoyomboSundanesesundaneseSyloti_NagrisylotinagriSyriacsyriactagalogTagalogtaileTai_LetaithamtaivietTakritakritamilTamilTanguttangsaTangsatangutTeluguteluguThaanathaanatibetanTibetanTirhutatirhutavaiVaiwanchoWanchoWarang_CitiwarangcitiYezidiyezidiyiYizanabazarsquareatATermatermclCloseclosefoleOLetterLowernunumericoletterSContinuescontinueseSepsepspSpSTermupUpperaletterALetterdoublequoteDouble_QuotedqExtendNumLetextendnumlethebrewletterHebrew_LetterhlkaMidNumLetmidletterMidLettermidnumMidNummidnumletmlnewlineNewlinesinglequoteSingle_QuotesqwsegspaceWSegSpace",
-            "01d8c55d CNControlCREBE_BaseE_Base_GAZEBGEME_ModifierEXExtendGAZGlue_After_ZwjLLFLVLVTOtherPPPrependRegional_IndicatorRISMSpacingMarkTVXXZWJ",
-            "01d8ead6 ALetterCRDouble_QuoteDQEBE_BaseE_Base_GAZEBGEME_ModifierEXExtendExtendNumLetFOFormatGAZGlue_After_ZwjHebrew_LetterHLKAKatakanaLELFMBMidLetterMidNumMidNumLetMLMNNewlineNLNUNumericOtherRegional_IndicatorRISingle_QuoteSQWSegSpaceXXZWJ",
-            "01d8f0c9 OtherControlCRExtendLLFLVLVTTVSpacingMarkPrependRegional_IndicatorE_BaseE_Base_GAZE_ModifierGlue_After_ZwjZWJ",
-            "01d90000 OtherALetterFormatKatakanaMidLetterMidNumNumericExtendNumLetCRExtendLFMidNumLetNewlineRegional_IndicatorHebrew_LetterSingle_QuoteDouble_QuoteE_BaseE_Base_GAZE_ModifierGlue_After_ZwjZWJWSegSpace"
           ]
         }
       ]

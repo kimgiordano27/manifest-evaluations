@@ -1,33 +1,20 @@
 {
   "apk": "arthur-decoded",
-  "timestamp_utc": "2026-02-02T16:49:44.691777+00:00",
+  "timestamp_utc": "2026-02-04T15:39:27.720926+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\arthur-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 92,
-    "files_with_hits": 8,
-    "total_term_hits": 21
+    "files_with_hits": 5,
+    "total_term_hits": 15
   },
   "matches": [
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__lib_burst_generated.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0000e425 UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance+GetAssistedVelocityInternal_00000F2C$BurstDirectCall, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.Invoke(UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null source, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null target, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null velocity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 gravity, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxAngle, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 requiredSpeed, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 maxSpeedPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 assistPercent, System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 epsilon, UnityEngine.Vector3&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null adjustedVelocity) -> System.Void, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089_efcc6a890cc18adb5366a77c4dd9dac2 from Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-          ]
-        }
-      ]
-    },
     {
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libil2cpp.so.txt",
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "01e48175 ovrp_GetFoveationEyeTracked",
             "01e4a0d5 UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode_Injected(System.IntPtr,UnityEngine.Rendering.FoveatedRenderingMode)",
@@ -41,16 +28,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "01e92543 ovrp_GetEyeGazesState"
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "01e48175 ovrp_GetFoveationEyeTracked",
@@ -63,7 +42,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "01e68615 ovrp_GetEyeTrackingSupported"
@@ -71,7 +50,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "01e92543 ovrp_GetEyeGazesState"
@@ -79,7 +58,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "01e7afb7 ovrp_GetEyeTrackingEnabled"
@@ -92,8 +71,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00003a1f GetEyeTrackedFoveatedRenderingEnabled",
             "00003a45 GetEyeTrackedFoveatedRenderingSupported",
@@ -120,7 +99,7 @@
         },
         {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00003a1f GetEyeTrackedFoveatedRenderingEnabled",
@@ -137,31 +116,11 @@
       ]
     },
     {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovertone.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000cc22a rulo gazete",
-            "000cc5f1 gazete",
-            "001ca60c ta gazeta",
-            "001cab5d gazeta",
-            "00e9e936 gazet",
-            "00e9eda3 gazet",
-            "01053201 gazeti lililokunjwa",
-            "010536e5 gazeti"
-          ]
-        }
-      ]
-    },
-    {
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovertoneruntime.so.txt",
       "hits": [
         {
           "term": "attentionScore",
-          "category": "attention_fixation_analytics",
+          "category": "Biometric Signals & Metrics",
           "category_confidence": "high",
           "examples": [
             "00226617 NSt6__ndk110__function6__funcIZNK11onnxruntime7contrib16AttentionCPUBase23ComputeVxAttentionScoreIfEEvPT_S7_PKS6_S9_iiiiiiS9_S7_PNS2_11concurrency10ThreadPoolEEUlllE_NS_9allocatorISD_EEFvllEEE",
@@ -175,7 +134,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00094304 OpenXR eye tracking system properties:",
@@ -184,8 +143,8 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000276f5 ovrp_GetLayerTextureFoveation",
             "00027938 ovrp_UpdateFoveation",
@@ -215,21 +174,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000299f4 ovrp_GetEyeGazesState",
-            "00097849 ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
-            "0009885c xrGetEyeGazesFB",
-            "000a3e51 xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
-            "000ab516 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
-            "000ab71a ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00028632 ovrp_GetFoveationEyeTrackedSupported",
@@ -245,7 +191,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000299d7 ovrp_GetEyeTrackingSupported",
@@ -254,7 +200,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "000299f4 ovrp_GetEyeGazesState"
@@ -262,7 +208,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "000299bc ovrp_GetEyeTrackingEnabled"
@@ -275,8 +221,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000e46d8 FoveatedRenderingTexture - Can not find YFlip kernel '%s' in ComputeShader, %s",
             "000e9dc6 UnityEngine.SystemInfo::GetFoveatedRenderingCaps",
@@ -303,32 +249,6 @@
             "001a20de Internal-CreateFoveatedShadingRateTextureNoArray.compute",
             "001a247a FoveatedRenderingInfo struct version mismatch.",
             "001afa02 Setting Foveation Offset compatible texture of already created render texture is not supported!"
-          ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "001e0496 gazEF"
-          ]
-        }
-      ]
-    },
-    {
-      "txt_file": "normalized\\ascii\\lib__arm64-v8a__libxul.so.txt",
-      "hits": [
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0476483a gazEF",
-            "0495cbfd pico-gaze",
-            "04adbccb rimgaze",
-            "04aee99a migazet",
-            "04b71305 #gazett",
-            "04ca6aa4 anyAnyASCIIageASCII_Hex_DigitAlphabeticalphabeticasciihexdigitbcBidi_ClassbidicBidi_ControlbidiclassbidicontrolbidimBidi_MirroredbidimirroredbidimirroringglyphBidi_Mirroring_GlyphbidipairedbracketBidi_Paired_BracketbidipairedbrackettypeBidi_Paired_Bracket_TypeblkBlockblockbmgbpbbptcanonicalcombiningclassCanonical_Combining_ClasscasedCasedcasefoldingCase_FoldingcaseignorableCase_IgnorablecccceComposition_ExclusioncfchangeswhencasefoldedChanges_When_CasefoldedchangeswhencasemappedChanges_When_CasemappedchangeswhenlowercasedChanges_When_LowercasedchangeswhennfkccasefoldedChanges_When_NFKC_CasefoldedchangeswhentitlecasedChanges_When_TitlecasedchangeswhenuppercasedChanges_When_UppercasedcicjkaccountingnumerickAccountingNumericcjkcompatibilityvariantkCompatibilityVariantcjkiicorekIICorecjkirggsourcekIRG_GSourcecjkirghsourcekIRG_HSourcecjkirgjsourcekIRG_JSourcecjkirgkpsourcekIRG_KPSourcecjkirgksourcekIRG_KSourcecjkirgmsourcekIRG_MSourcecjkirgtsourcekIRG_TSourcecjkirgusourcekIRG_USourcecjkirgvsourcekIRG_VSourcecjkothernumerickOtherNumericcjkprimarynumerickPrimaryNumericcjkrsunicodekRSUnicodecompexFull_Composition_ExclusioncompositionexclusioncwkcfcwlcwtcwudecompositionmappingDecomposition_MappingdecompositiontypeDecomposition_TypedefaultignorablecodepointDefault_Ignorable_Code_PointdepDeprecateddeprecateddidiaDiacriticdiacriticdmdteaeastasianwidthemojiEmojiemojicomponentEmoji_ComponentemojimodifierEmoji_ModifieremojimodifierbaseEmoji_Modifier_BaseemojipresentationEmoji_PresentationequideoEquivalent_Unified_IdeographequivalentunifiedideographexpandsonnfcExpands_On_NFCexpandsonnfdExpands_On_NFDexpandsonnfkcExpands_On_NFKCexpandsonnfkdExpands_On_NFKDextextendedpictographicExtended_PictographicfcnfkcFC_NFKC_ClosurefcnfkcclosurefullcompositionexclusiongcgcbgeneralcategorygraphemebaseGrapheme_BasegraphemeclusterbreakgraphemeextendGrapheme_ExtendgraphemelinkGrapheme_LinkgrbasegrextgrlinkhangulsyllabletypeHangul_Syllable_TypehexHex_DigithsthyphenHyphenidcID_ContinueidcontinueIdeographicideographicidsIDS_Binary_OperatoridsbinaryoperatorIDS_Trinary_OperatoridstartidstrinaryoperatorindicpositionalcategoryIndic_Positional_CategoryindicsyllabiccategoryIndic_Syllabic_CategoryiscISO_CommentjamoshortnameJamo_Short_NamejgJoining_GroupjoincJoin_ControljoincontroljoininggroupjoiningtypeJoining_TypejsnjtkaccountingnumerickcompatibilityvariantkiicorekirggsourcekirghsourcekirgjsourcekirgkpsourcekirgksourcekirgmsourcekirgtsourcekirgusourcekirgvsourcekothernumerickprimarynumerickrsunicodelbLine_BreaklcLowercase_MappinglinebreakloeLogical_Order_ExceptionlogicalorderexceptionLowercaselowercasenana1Unicode_1_NamenamealiasName_AliasncharNoncharacter_Code_PointnfcqcNFC_Quick_ChecknfcquickchecknfdqcNFD_Quick_ChecknfdquickchecknfkccasefoldNFKC_CasefoldnfkccfnfkcqcnfkcquickchecknfkdqcnfkdquickchecknoncharactercodepointntNumeric_TypenumerictypenumericvalueNumeric_ValuenvoalphaodiOther_Default_Ignorable_Code_PointogrextOther_Grapheme_ExtendOther_ID_ContinueOther_ID_StartolowerOther_LowercaseomathOther_MathotheralphabeticotherdefaultignorablecodepointothergraphemeextendotheridcontinueotheridstartotherlowercaseothermathotheruppercaseOther_UppercaseoupperpatsynPattern_SyntaxpatternsyntaxpatternwhitespacePattern_White_SpacepatwspcmPrepended_Concatenation_MarkprependedconcatenationmarkqmarkQuotation_MarkquotationmarkradicalRadicalregionalindicatorRegional_IndicatorrisbscscfSimple_Case_FoldingscriptscxsdSoft_DottedsentencebreakSentence_TerminalsfcsimplecasefoldingsimplelowercasemappingSimple_Lowercase_MappingsimpletitlecasemappingSimple_Titlecase_MappingsimpleuppercasemappingSimple_Uppercase_MappingslcsoftdottedWhite_SpacestcstermsuctcTitlecase_MappingTerminal_PunctuationterminalpunctuationucUppercase_MappinguideoUnified_Ideographunicode1nameunicoderadicalstrokeUppercaseuppercaseursvariationselectorVariation_SelectorverticalorientationVertical_OrientationvovswbwhitespacewordbreakwspaceXID_ContinuexidcontinueXID_Startxonfcxonfdxonfkcxonfkd1.1V10_0V11_0V12_0V12_12.02.13.03.13.24.04.15.05.15.26.06.16.26.37.08.09.0Unassignedunassignedv11v20v21v30v31v32v40v41v50v51v52v60v61v62v63v70v80v90cOthercasedletterCased_LetterccControlFormatClose_PunctuationcncoPrivate_UsecombiningmarkconnectorpunctuationConnector_PunctuationcontrolcsSurrogatecurrencysymbolCurrency_SymboldashpunctuationdecimalnumberDecimal_NumberenclosingmarkEnclosing_MarkFinal_PunctuationformatinitialpunctuationInitial_PunctuationlLetterletterletternumberLetter_NumberlineseparatorLine_SeparatorlllmModifier_LetterloOther_LetterlowercaseletterltlumathsymbolMath_SymbolmcSpacing_MarkmemnNonspacing_MarkmodifierlettermodifiersymbolModifier_SymbolnNumberndnlnoOther_NumbernonspacingmarknumberopenpunctuationotherotherletterothernumberOther_PunctuationothersymbolOther_SymbolpPunctuationparagraphseparatorParagraph_SeparatorpcpdpepfpipoprivateusepspunctuationSymbolseparatorSeparatorsksmsospaceseparatorSpace_SeparatorspacingmarksurrogatesymboltitlecaseletteruppercaseletterzzlzpzscrCRebE_BaseebaseE_Base_GAZebgemE_ModifieremodifierexExtendextendgazGlue_After_ZwjglueafterzwjLlfLFlvLVlvtLVTppPrependprependSpacingMarktTvVxxzwjZWJadlamAdlamCaucasian_AlbaniananatolianhieroglyphsAnatolian_HieroglyphsArabicarabicavestanAvestanBamumbamumBassa_VahbatakBatakBengalibengalibhaiksukiBhaiksukiBrahmibrahmiBraillebrailleBuhidbuhidChakmacanadianaboriginalCanadian_AboriginalCariancariancaucasianalbanianchakmacommonCommonCopticcopticCypriotcuneiformCuneiformcypriotdeseretDeseretDevanagaridevanagariDogradograEgyptian_HieroglyphsegyptianhieroglyphsElbasanelbasanElymaicelymaicGlagoliticglagoliticGunjala_GondiMasaram_GondiGothicgothicGranthagranthagreekGreekgunjalagondihanHanHangulhangulhanifirohingyaHanifi_RohingyaHanunoohanunooHatranhatranHebrewhebrewPahawh_HmongNyiakeng_Puachue_HmongKatakana_Or_HiraganaOld_HungarianimperialaramaicinheritedInheritedinscriptionalpahlaviInscriptional_PahlaviinscriptionalparthianInscriptional_ParthianOld_ItalickaithiKaithikannadaKannadakatakanaorhiraganakayahliKharoshthikharoshthikhmerKhmerKhojkikhojkikhudawadiKhudawadilaoLaolatinLatinLepchalepchaLimbulimbulinearalinearbLycianlycianLydianlydianMakasarmakasarmalayalamMalayalamMandaicmandaicManichaeanmanichaeanMarchenmarchenmasaramgondimedefaidrinMedefaidrinmeeteimayekMeetei_MayekMende_KikakuimendekikakuiMeroitic_HieroglyphsmeroiticcursivemeroitichieroglyphsMongolianmongolianmroMroMultanimultanimyanmarMyanmarnabataeanNabataeanNandinagarinandinagariOld_North_ArabiannewtailueNew_Tai_LuenkoNkoNushunushunyiakengpuachuehmongOghamoghamolchikioldhungarianolditalicoldnortharabianoldpermicOld_PermicoldpersianOld_PersianoldsogdianOld_SogdianoldsoutharabianOld_South_ArabianoldturkicOld_TurkicoriyaOriyaosageOsageOsmanyaosmanyapahawhhmongPalmyrenepalmyrenePau_Cin_HaupaucinhauphagspaPsalter_PahlaviPhoenicianphoenicianpsalterpahlavirejangRejangrunicRunicsamaritanSamaritanSaurashtrasaurashtraSignWritingsharadaSharadashavianShavianSiddhamsiddhamsignwritingSinhalasinhalaSogdiansogdianSora_SompengsorasompengSoyombosoyomboSundanesesundaneseSyloti_NagrisylotinagriSyriacsyriactagalogTagalogtaileTai_LetaithamtaivietTakritakritamilTamilTanguttangutTeluguteluguThaanathaanatibetanTibetanTirhutatirhutaunknownUnknownvaiVaiwanchoWanchoWarang_CitiwarangcitiyiYizanabazarsquareatATermatermclCloseclosefoleOLetterLowernuNumericnumericoletterSContinuescontinueseSepsepspSpstSTermupUpperaletterALetterdoublequoteDouble_QuotedqExtendNumLetextendnumlethebrewletterHebrew_LetterhlkambMidNumLetmidletterMidLettermidnumMidNummidnumletmlnewlineNewlinesinglequoteSingle_QuotesqwsegspaceWSegSpace"
           ]
         }
       ]

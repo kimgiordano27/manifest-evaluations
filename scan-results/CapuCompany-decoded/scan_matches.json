@@ -1,11 +1,11 @@
 {
   "apk": "CapuCompany-decoded",
-  "timestamp_utc": "2026-02-02T16:49:46.940827+00:00",
+  "timestamp_utc": "2026-02-04T15:39:28.463426+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\CapuCompany-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 47,
     "files_with_hits": 6,
-    "total_term_hits": 21
+    "total_term_hits": 17
   },
   "matches": [
     {
@@ -13,8 +13,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00bf3ec0 OculusFoveation_GetUsedApi",
             "00bfa5fa ovrp_SetFoveationEyeTracked",
@@ -36,16 +36,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00c192f7 ovrp_GetEyeGazesState"
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00bfa5fa ovrp_SetFoveationEyeTracked",
@@ -58,7 +50,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00c192da ovrp_GetEyeTrackingSupported"
@@ -66,7 +58,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "00c192f7 ovrp_GetEyeGazesState"
@@ -74,7 +66,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "00bf1d89 ovrp_GetEyeTrackingEnabled"
@@ -87,8 +79,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "0005b0b4 GLAD_GL_QCOM_framebuffer_foveated",
             "0005b1d1 GLAD_GL_QCOM_texture_foveated",
@@ -113,8 +105,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000133f2 xrApplyFoveationHTC",
             "00013623 xrCreateFoveationProfileFB",
@@ -144,32 +136,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00014168 xrGetEyeGazesFB",
-            "000ef53a XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT",
-            "000ef56d XR_TYPE_EYE_GAZE_SAMPLE_TIME_EXT",
-            "000f1380 XR_TYPE_EYE_GAZES_INFO_FB",
-            "000f139a XR_TYPE_EYE_GAZES_FB",
-            "000f9731 XrEyeGazeFB",
-            "000f973d gazePose",
-            "000f9746 gazeConfidence",
-            "000fa55d XrSystemEyeGazeInteractionPropertiesEXT",
-            "000fa585 supportsEyeGazeInteraction",
-            "000fa5a0 XrEyeGazeSampleTimeEXT",
-            "000fc64b XrEyeGazesInfoFB",
-            "000fc690 XrEyeGazesFB",
-            "000fc69d gaze",
-            "000ff714 xrGetEyeGazesFB",
-            "000ff724 gazeInfo",
-            "000ff72d eyeGazes"
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000141cd xrGetFoveationEyeTrackedStateMETA",
@@ -187,7 +155,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0011afac OpenXR eye tracking system properties:",
@@ -196,8 +164,8 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00055be1 ovrp_GetLayerTextureFoveation",
             "00055e24 ovrp_UpdateFoveation",
@@ -227,21 +195,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000577fb ovrp_GetEyeGazesState",
-            "0011eb69 ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
-            "0011fbf7 xrGetEyeGazesFB",
-            "0012b8f5 xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
-            "001345e5 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
-            "001346f5 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00056b2f ovrp_GetFoveationEyeTrackedSupported",
@@ -257,7 +212,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000577de ovrp_GetEyeTrackingSupported",
@@ -266,7 +221,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "000577fb ovrp_GetEyeGazesState"
@@ -274,7 +229,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "000577c3 ovrp_GetEyeTrackingEnabled"
@@ -287,8 +242,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000ef8c9 Foveation Image YFlip",
             "0010175a UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode_Injected",
@@ -316,14 +271,6 @@
             "0017fa8e Internal-CreateFoveatedShadingRateTextureNoArray.compute",
             "0017fac7 Internal-YFlipFoveatedShadingTexture.compute"
           ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "001f144e gazEF"
-          ]
         }
       ]
     },
@@ -332,8 +279,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00013a76 FBGetFoveationDynamic",
             "00013a8c FBGetFoveationLevel",
@@ -364,7 +311,7 @@
         },
         {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00013ab4 MetaGetEyeTrackedFoveationSupported",

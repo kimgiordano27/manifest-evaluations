@@ -1,11 +1,11 @@
 {
   "apk": "worlds-decoded",
-  "timestamp_utc": "2026-02-02T16:50:06.837863+00:00",
+  "timestamp_utc": "2026-02-04T15:39:34.437233+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\worlds-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 529,
     "files_with_hits": 4,
-    "total_term_hits": 9
+    "total_term_hits": 6
   },
   "matches": [
     {
@@ -13,7 +13,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "003cb0eb Failed to retrieve eye tracking properties",
@@ -25,8 +25,8 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "001990f1 _ZTVNSt6__ndk120__shared_ptr_emplaceIN7horizon6worlds5rooms8debug_ui18SHFoveationFeatureENS_9allocatorIS5_EEEE",
             "001991c7 _ZTVNSt6__ndk120__shared_ptr_emplaceIN7horizon6worlds5rooms8debug_ui20CLODFoveationFeatureENS_9allocatorIS5_EEEE",
@@ -56,40 +56,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "001088f8 ovrAvatar2Behavior_DestroyEntityGazeTargets",
-            "00108924 ovrAvatar2Behavior_CreateEntityGazeTargets",
-            "0010894f ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
-            "00108982 ovrAvatar2Behavior_GetGazePos",
-            "00379520 highLodGazeFrusumBudgeterQualityBoost",
-            "0039b63a Maximum LOD for head gaze target",
-            "003adb45 Maximum LOD for hands gaze targets",
-            "003adb68 EmbodimentGazeTargetSystem could not get local Avatar, cannot remove gaze targets",
-            "003bddf8 eye_gaze_motion_to_decode_time_ms",
-            "003cdae9 Visiable gaze frustum degrees",
-            "003cdb07 High LOD gaze frustum degrees",
-            "003cdd23 visibleGazeFrustumDegrees",
-            "003cdd3d highLodGazeFrustumDegrees",
-            "00414b16 arvr/projects/hsr/modules/embodiment/code/source/subsystems/GazeTargetSystem.cpp",
-            "0043a89c XR_EXT_eye_gaze_interaction",
-            "0043a8b8 /interaction_profiles/ext/eye_gaze_interaction",
-            "0044cd67 AvatarId {} already registered in EmbodimentGazeTargetSystem",
-            "0044cda4 AvatarId {} not registered in EmbodimentGazeTargetSystem",
-            "00473f2e Gaze targets debug",
-            "00473fcd Gaze position debug",
-            "00474046 enableGazeTargetsDebug",
-            "004740a7 enableGazePositionDebug",
-            "00494ffc Shoegaze",
-            "00495005 Force lower LOD outside of gaze",
-            "00495025 Failed to get eye gaze"
-          ]
-        },
-        {
           "term": "XR_EXT_eye_gaze_interaction",
-          "category": "openxr_eye_gaze_extension",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0043a89c XR_EXT_eye_gaze_interaction"
@@ -101,41 +69,9 @@
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovravatar2.so.txt",
       "hits": [
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000e9bd5 _ZNK6avatar3sdk9animation15gaze_controller9Component10blinkValueEv",
-            "000e9c18 _ZNK6avatar3sdk9animation15gaze_controller9Component10gazeAnglesEv",
-            "000eb4e3 ovrAvatar2Behavior_CreateEntityGazeTargets",
-            "000eb50e ovrAvatar2Behavior_DestroyEntityGazeTargets",
-            "000eb53a ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
-            "000eb56d ovrAvatar2Behavior_CreateGazeTargets",
-            "000eb5bf ovrAvatar2Behavior_DestroyGazeTargets",
-            "000eb5e5 ovrAvatar2Behavior_UpdateGazeTargetPositions",
-            "000eb612 ovrAvatar2Behavior_GetGazePos",
-            "000eb6f2 _ZN6avatar3sdk9animation15gaze_controller9Component14setGazeTargetsENSt6__ndk14spanIK20ovrAvatar2GazeTargetLm18446744073709551615EEE",
-            "000eb777 _ZN6avatar3sdk9animation15gaze_controller9Component17removeGazeTargetsENSt6__ndk14spanIK20ovrAvatar2GazeTargetLm18446744073709551615EEE",
-            "000eb7ff _ZN6avatar3sdk9animation15gaze_controller9Component17updateGazeTargetsENSt6__ndk14spanIK20ovrAvatar2GazeTargetLm18446744073709551615EEE",
-            "000eb887 _ZNK6avatar3sdk9animation15gaze_controller9Component7gazePosEv",
-            "000f2bc1 _ZN6avatar3sdk9animation15gaze_controller9ComponentC1ENSt6__ndk110shared_ptrINS0_6EntityEEE",
-            "000f46e3 _ZTVN6avatar3sdk9animation15gaze_controller14GazeControllerE",
-            "000f52a3 _ZN6avatar3sdk9animation15gaze_controller14GazeController6updateENSt6__ndk16chrono8durationIfNS4_5ratioILl1ELl1EEEEE",
-            "0010dc42 _ZN6avatar3sdk9animation15gaze_controller9Component12setCenterEyeERK19ovrAvatar2Transform",
-            "0010f6f2 _ZN6avatar3sdk9animation15gaze_controller10BlinkModelC2Ev",
-            "0010f72c _ZN6avatar3sdk9animation15gaze_controller10BlinkModel12setGazeModelENSt6__ndk110shared_ptrINS2_9GazeModelEEE",
-            "0010f799 _ZN6avatar3sdk9animation15gaze_controller10BlinkModel13getBlinkCurveEf",
-            "0010f7e0 _ZN6avatar3sdk9animation15gaze_controller10BlinkModel22getBlinkFrequencyCurveEf",
-            "0010f830 _ZN6avatar3sdk9animation15gaze_controller10BlinkModel21getBlinkSlowdownCurveEf",
-            "0010f87f _ZN6avatar3sdk9animation15gaze_controller10BlinkModel6updateEf",
-            "0010f8be _ZN6avatar3sdk9animation15gaze_controller10BlinkModel10checkBlinkEv",
-            "0010f902 _ZN6avatar3sdk9animation15gaze_controller10BlinkModel8endBlinkEv"
-          ]
-        },
-        {
           "term": "saccade",
-          "category": "unknown",
-          "category_confidence": "low",
+          "category": "Biometric Signals & Metrics",
+          "category_confidence": "medium",
           "examples": [
             "00111924 _ZN6avatar3sdk9animation15gaze_controller9GazeModel18getSaccadeDurationEf",
             "0011196e _ZN6avatar3sdk9animation15gaze_controller9GazeModel22getSaccadeLatencyCurveEf",
@@ -158,8 +94,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000017e1 vrapi_GetTextureSwapChainBufferFoveationVulkan",
             "00001c92 vrapi_UpdateFoveation",
@@ -174,21 +110,13 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "0007d51e MinFoveationLevel",
             "0007d530 MaxDynamicFoveationLevel",
             "0007d549 CurrentDynamicFoveationLevel",
             "0008cc67 DynamicFoveationEnabled"
-          ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "000831f3 EyeTracker::SocialGazeDNN_estimateGaze"
           ]
         }
       ]

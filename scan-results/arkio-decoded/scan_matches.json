@@ -1,11 +1,11 @@
 {
   "apk": "arkio-decoded",
-  "timestamp_utc": "2026-02-02T16:49:43.576304+00:00",
+  "timestamp_utc": "2026-02-04T15:39:27.487169+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\arkio-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 50,
     "files_with_hits": 7,
-    "total_term_hits": 24
+    "total_term_hits": 18
   },
   "matches": [
     {
@@ -13,8 +13,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "01206c0a ovrp_GetFoveationEyeTracked",
             "0120825a UnityEngine.Rendering.CommandBuffer::SetFoveatedRenderingMode_Injected(System.IntPtr,UnityEngine.Rendering.FoveatedRenderingMode)",
@@ -28,20 +28,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "01217b94 ovrAvatar2Behavior_UpdateGazeTargetPositions",
-            "0121a503 ovrAvatar2Behavior_DestroyGazeTargets",
-            "0121f1f7 ovrAvatar2Behavior_CreateGazeTargets",
-            "0123fbea ovrp_GetEyeGazesState",
-            "0124197c ovrAvatar2Behavior_GetGazePos"
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "01206c0a ovrp_GetFoveationEyeTracked",
@@ -54,7 +42,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0121f738 ovrp_GetEyeTrackingSupported"
@@ -62,7 +50,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "0123fbea ovrp_GetEyeGazesState"
@@ -70,7 +58,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "0122d93a ovrp_GetEyeTrackingEnabled"
@@ -83,8 +71,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "00003a1f GetEyeTrackedFoveatedRenderingEnabled",
             "00003a45 GetEyeTrackedFoveatedRenderingSupported",
@@ -111,7 +99,7 @@
         },
         {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "00003a1f GetEyeTrackedFoveatedRenderingEnabled",
@@ -131,41 +119,9 @@
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovravatar2.so.txt",
       "hits": [
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0000631e ovrAvatar2Behavior_CreateEntityGazeTargets",
-            "00006349 ovrAvatar2Behavior_DestroyEntityGazeTargets",
-            "00006375 ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
-            "000063a8 ovrAvatar2Behavior_CreateGazeTargets",
-            "000063cd ovrAvatar2Behavior_DestroyGazeTargets",
-            "000063f3 ovrAvatar2Behavior_UpdateGazeTargetPositions",
-            "00006420 ovrAvatar2Behavior_GetGazePos",
-            "0003050d Gaze target with id %d doesn't exist",
-            "00032a0b gazeFixup_R_lookRight",
-            "00032a21 gazeFixup_L_lookRight",
-            "00032cd5 gazeFixup_R_lookLeft",
-            "00032cea gazeFixup_L_lookLeft",
-            "00033a41 Gaze target with id %d already exists",
-            "00033f7d getGazeWeights",
-            "00033f8c Get Gaze Weights",
-            "0003400c ovrAvatar2Behavior_DestroyEntityGazeTargets",
-            "00034038 ovrAvatar2Behavior_CreateEntityGazeTargets",
-            "00034063 ovrAvatar2Behavior_DestroyGazeTargets",
-            "00034089 ovrAvatar2Behavior_CreateGazeTargets",
-            "00034843 ovrAvatar2Behavior_GetGazePos",
-            "000349d9 ovrAvatar2Behavior_UpdateEntityGazeTargetPositions",
-            "00034a0c ovrAvatar2Behavior_UpdateGazeTargetPositions",
-            "0003aef4 mixer_gazeFixerLayer",
-            "0003af2b mixer_gazeRetargetingLayer",
-            "0003af91 Mixer|Mix Gaze Fixer Layer"
-          ]
-        },
-        {
           "term": "saccade",
-          "category": "unknown",
-          "category_confidence": "low",
+          "category": "Biometric Signals & Metrics",
+          "category_confidence": "medium",
           "examples": [
             "0004b773 OnSaccade",
             "000804f0 N6avatar15gaze_controller6events11SaccadeInfoE"
@@ -178,7 +134,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0008f5f4 OpenXR eye tracking system properties:",
@@ -187,8 +143,8 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "0002677d ovrp_GetLayerTextureFoveation",
             "000269c0 ovrp_UpdateFoveation",
@@ -218,21 +174,8 @@
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00028a1a ovrp_GetEyeGazesState",
-            "00092d8e ovrInputDebug:   ---    OpenXR Eye Gaze STATE",
-            "00093da1 xrGetEyeGazesFB",
-            "0009f407 xrGetEyeGazesFB(m_xrEyeTracker, &eyeGazesInfo, &eyeGazes)",
-            "000a6b10 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].Confidence %g ",
-            "000a6d14 ovrInputDebug: m_eyeGazes.m_state.EyeGazes[%d].IsValid %d "
-          ]
-        },
-        {
           "term": "EyeTracked",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000276ba ovrp_GetFoveationEyeTrackedSupported",
@@ -248,7 +191,7 @@
         },
         {
           "term": "eyeTrackingSupported",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000289fd ovrp_GetEyeTrackingSupported",
@@ -257,7 +200,7 @@
         },
         {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "00028a1a ovrp_GetEyeGazesState"
@@ -265,7 +208,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "000289e2 ovrp_GetEyeTrackingEnabled"
@@ -277,17 +220,8 @@
       "txt_file": "normalized\\ascii\\lib__arm64-v8a__libovrplugintracking.so.txt",
       "hits": [
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0000147d ovrp_GetEyeGazesState",
-            "0000177a ovrpGetEyeGazesState failed: %d"
-          ]
-        },
-        {
           "term": "ovrp_GetEyeGazesState",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "high",
           "examples": [
             "0000147d ovrp_GetEyeGazesState"
@@ -295,7 +229,7 @@
         },
         {
           "term": "ovrp_GetEyeTrackingEnabled",
-          "category": "raw_state_data_collection",
+          "category": "Raw Data Collection",
           "category_confidence": "medium",
           "examples": [
             "000016d4 ovrp_GetEyeTrackingEnabled"
@@ -308,8 +242,8 @@
       "hits": [
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "000d788d FoveatedRenderingTexture - Can not find YFlip kernel '%s' in ComputeShader, %s",
             "000dca1b UnityEngine.SystemInfo::GetFoveatedRenderingCaps",
@@ -337,14 +271,6 @@
             "001837c1 FoveatedRenderingInfo struct version mismatch.",
             "0018f8f1 Setting Foveation Offset compatible texture of already created render texture is not supported!"
           ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "001bedf6 gazEF"
-          ]
         }
       ]
     },
@@ -353,19 +279,10 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "0000bc14 Failed to retrieve eye tracking properties"
-          ]
-        },
-        {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "0000c7a6 Failed to get eye gaze",
-            "0000e4ae xrGetEyeGazesFB"
           ]
         }
       ]

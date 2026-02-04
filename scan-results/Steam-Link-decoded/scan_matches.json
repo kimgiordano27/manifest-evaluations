@@ -1,11 +1,11 @@
 {
   "apk": "Steam-Link-decoded",
-  "timestamp_utc": "2026-02-02T16:50:04.126760+00:00",
+  "timestamp_utc": "2026-02-04T15:39:33.692342+00:00",
   "normalized_ascii_path": "C:\\realDesktop\\manifest-evaluations\\scan-results\\Steam-Link-decoded\\normalized\\ascii",
   "summary": {
     "txt_files_scanned": 23,
     "files_with_hits": 1,
-    "total_term_hits": 4
+    "total_term_hits": 3
   },
   "matches": [
     {
@@ -13,7 +13,7 @@
       "hits": [
         {
           "term": "eye tracking",
-          "category": "capability_enablement",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000a0fcc [XRQ] FB Eye tracking Social supported: %s",
@@ -25,32 +25,16 @@
         },
         {
           "term": "foveat",
-          "category": "foveated_rendering",
-          "category_confidence": "high",
+          "category": "Foveated Rendering",
+          "category_confidence": "medium",
           "examples": [
             "0009d50d xrDestroySwapchain( m_foveatedLayerSwapchains[ i ].swapchain )",
             "000a2493 [XRRenderer] Failed to create foveated layer swapchain for eye: %d"
           ]
         },
         {
-          "term": "gaze",
-          "category": "unknown",
-          "category_confidence": "low",
-          "examples": [
-            "00037409 _ZN13QSVLDeviceHmd18GetInteractionGazeER10XRQContextP10XrVector3f",
-            "00045703 _Z27XRQGetExtensionFromProcAddrIPF8XrResultP16XrEyeTrackerFB_TPK16XrEyeGazesInfoFBP12XrEyeGazesFBEEbRK10XRQContextRKNSt6__ndk112basic_stringIcNSD_11char_traitsIcEENSD_9allocatorIcEEEERT_",
-            "00098050 [XRQ] Eye gaze interaction supported: %s",
-            "0009cc43 xrGetEyeGazesFB",
-            "000a7224 bool QSVLDeviceHmd::GetInteractionGaze(XRQContext &, XrVector3f *)",
-            "000a8739 XR_EXT_eye_gaze_interaction",
-            "000a8a86 xrGetEyeGazesFB( context.eyeTrackerFB, &gazesInfoFb, &eyeGazesFb )",
-            "000aa5a6 xrLocateSpace( m_eyeTrackingAction.vecActionSpaces.front(), baseSpace, timeNow, &baseToEyeGazeLocation )",
-            "000ab439 bool XRQGetExtensionFromProcAddr(const XRQContext &, const std::string &, T &) [T = XrResult (*)(XrEyeTrackerFB_T *, const XrEyeGazesInfoFB *, XrEyeGazesFB *)]"
-          ]
-        },
-        {
           "term": "XR_EXT_eye_gaze_interaction",
-          "category": "openxr_eye_gaze_extension",
+          "category": "Eye-Tracking Enablement",
           "category_confidence": "high",
           "examples": [
             "000a8739 XR_EXT_eye_gaze_interaction"

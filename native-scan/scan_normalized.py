@@ -4,60 +4,56 @@ import csv
 from datetime import datetime, timezone
 from typing import Optional, Tuple, List, Dict
 
-# -------- CONFIG --------
+
 MAX_TERMS = 500
-MAX_EXAMPLES_PER_TERM_PER_FILE = 25   # matched lines per term per file written to master
-REBUILD_MASTER_RESULTS = True         # True = overwrite master each run
-WRITE_CSV_SUMMARY = True             # write scan-results/scan_summary.csv
-# ------------------------
+MAX_EXAMPLES_PER_TERM_PER_FILE = 25   
+REBUILD_MASTER_RESULTS = True         
+WRITE_CSV_SUMMARY = True             
 
 
-# ------------------------
-# CATEGORY TAXONOMY (tuned for your term list)
-# ------------------------
+
+
 
 CATEGORY_RULES = [
-    # 3) Foveated rendering
-    ("foveated_rendering",
-     {"foveat"},
-     {"foveation", "foveated"}),
+    # 1) Foveated rendering
+    ("Foveated Rendering",
+     {"foveation", "foveated rendering", "foveated graphics", "foveated display", "foveated rendering mode", "foveated"},
+     {"foveat"}),
 
-    # 7) OpenXR standardized extension usage
-    ("openxr_eye_gaze_extension",
-     {"XR_EXT_eye_gaze_interaction", "xrLocateEyeGazesEXT", "XrEyeGazesEXT", "XrEyeGazeEXT", "XrEyeGazesInfoEXT"},
-     {"xrLocateEyeGazes", "XR_EXT_eye_gaze_interaction", "XrEyeGaze", "XrEyeGazes"}),
-
-    # 1) Raw data collection / state APIs (strong evidence)
-    ("raw_state_data_collection",
-     {"EyeTrackingProvider", "EyeTrackingState",
+    # 2) Raw data collection / state APIs
+    ("Raw Data Collection",
+     {"EyeTrackingProvider", "EyeTrackingState", "GazeProvider",
       "ovrp_GetEyeGazesState", "ovrp_GetEyeTrackingState", "ovrp_GetEyeTrackingState2",
       "ovrpEyeGazesState", "ovrpEyeGaze", "ovrpEyeTrackingState",
       "GetEyeGazeData"},
      {"ovrp_GetEye", "ovrpEye", "EyeTrackingState", "EyeTrackingProvider", "GetEyeGazeData"}),
 
-    # 2) Capability / enablement / supported checks
-    ("capability_enablement",
+    # 3) Capability / enablement / supported checks
+    ("Eye-Tracking Enablement",
      {"EyeTracked", "eyeTrackingSupported", "eyeGazeSupported",
       "ovrp_SetEyeTrackingEnabled", "ovrp_GetEyeTrackingEnabled",
-      "FOculusEyeTracking", "IOculusEyeTrackerModule",
-      "eye tracking"},
+      "FOculusEyeTracking", "IOculusEyeTrackerModule", "eye tracking",
+      "XR_EXT_eye_gaze_interaction", "xrLocateEyeGazesEXT", "XrEyeGazesEXT", "XrEyeGazeEXT", "XrEyeGazesInfoEXT",
+      "xrLocateEyeGazes", "XR_EXT_eye_gaze_interaction", "XrEyeGaze"},
      {"Supported", "SetEyeTrackingEnabled", "GetEyeTrackingEnabled", "OculusEye"}),
 
     # 4) Interaction / selection input (dwell-to-click etc.)
-    ("gaze_interaction_input",
-     {"EyeGazeInteractor", "GazeInteractor", "EyeGazeProvider", "GazeProvider",
+    ("Gaze Interactions",
+     {"EyeGazeInteractor", "GazeInteractor",
       "interaction selection", "dwell time"},
-     {"Interactor", "Provider", "dwell", "selection"}),
+     {"Interactor", "dwell", "selection", "gaze input"}),
 
-    # 5) Gaze geometry & physiological signals
-    ("gaze_geometry_signals",
+    # 5) Gaze geometry
+    ("Gaze Geometry",
      {"EyeGazeDirection", "EyeGazePosition", "EyeGazeRotation", "EyeOpenAmount", "eyeOpenness"},
      {"GazeDirection", "GazePosition", "GazeRotation", "EyeOpen"}),
 
-    # 6) Attention / fixation analytics
-    ("attention_fixation_analytics",
-     {"fixation", "fixation duration", "attention measurement", "attentionScore", "focused object"},
-     {"fixation", "attention", "focused object"}),
+    # 6) Biometric signals & metrics
+    ("Biometric Signals & Metrics",
+        {"PupilDilation", "BlinkRate", "BlinkDuration", "SaccadeVelocity", "SaccadeAmplitude", "fixation", 
+         "fixation duration", "attention measurement", "attentionScore", "focused object"},
+        {"Pupil", "Blink", "Saccade", "fixation", "attention", "focused object"}), 
+
 ]
 
 
@@ -67,7 +63,6 @@ def categorize_term(term: str):
     Confidence:
       - high: exact term match
       - medium: substring/pattern match
-      - low: heuristic fallback
     """
     t = term.strip()
     tl = t.lower()
@@ -82,25 +77,8 @@ def categorize_term(term: str):
         for p in substr_patterns:
             if p.lower() in tl:
                 return category, "medium"
-
-    # Heuristic fallback (only for very generic terms)
-    if "foveat" in tl:
-        return "foveated_rendering", "low"
-    if "xr_" in tl or "xreye" in tl or "xrgaze" in tl or "openxr" in tl:
-        return "openxr_eye_gaze_extension", "low"
-    if "ovrp_" in tl or tl.startswith("ovrp"):
-        return "raw_state_data_collection", "low"
-    if "fixation" in tl or "attention" in tl:
-        return "attention_fixation_analytics", "low"
-    if "dwell" in tl or "selection" in tl or "interactor" in tl or "provider" in tl:
-        return "gaze_interaction_input", "low"
-    if "direction" in tl or "position" in tl or "rotation" in tl or "open" in tl:
-        return "gaze_geometry_signals", "low"
-    if "eye tracking" in tl or "eyetracking" in tl:
-        return "capability_enablement", "low"
-
+            
     return "unknown", "low"
-
 
 
 # ------------------------
@@ -121,6 +99,7 @@ def load_search_terms(terms_path: pathlib.Path):
 
 def collect_matching_lines(text: str, term: str, limit: int):
     """Return up to `limit` lines containing `term` (case-insensitive)."""
+    
     t = term.lower()
     out = []
     for line in text.splitlines():
@@ -176,7 +155,7 @@ def main():
     # Build master report in memory grouped by game
     master_lines: List[str] = []
     master_lines.append("# master-results.txt")
-    master_lines.append("# One report containing ONLY matches from scanning normalized ASCII outputs")
+    master_lines.append("# One report containing only matches from scanning normalized ASCII outputs")
     master_lines.append("# Grouped by GAME -> FILE -> CATEGORY -> TERM")
     master_lines.append(f"# generated_utc: {datetime.now(timezone.utc).isoformat()}")
     master_lines.append("")
