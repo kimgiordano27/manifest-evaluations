@@ -63,22 +63,23 @@ def categorize_term(term: str):
     Confidence:
       - high: exact term match
       - medium: substring/pattern match
+      - low: fallback assignment
     """
     t = term.strip()
     tl = t.lower()
 
-    # Rule-based classification (preferred)
     for category, exact_terms, substr_patterns in CATEGORY_RULES:
-        # exact (case-insensitive)
         for e in exact_terms:
             if tl == e.lower():
                 return category, "high"
-        # substring (case-insensitive)
         for p in substr_patterns:
             if p.lower() in tl:
                 return category, "medium"
-            
-    return "unknown", "low"
+
+    # If nothing matched any rule, force it into a real category
+    # (You can change this default if you prefer a different “catch-all”.)
+    return "Eye-Tracking Enablement", "low"
+
 
 
 # ------------------------
@@ -164,6 +165,12 @@ def main():
     # Collect CSV rows
     csv_rows: List[Dict[str, str]] = []
 
+    # seperates out any APKS that have eye tracking enabled but no other use cases
+    enablement_only_apks: List[str] = []
+    FALLBACK_CATEGORY = "Eye-Tracking Enablement"
+
+
+
     # Iterate APK folders under scan-results
     apk_dirs = sorted([p for p in scan_results_dir.iterdir() if p.is_dir()], key=lambda p: p.name.lower())
 
@@ -230,7 +237,7 @@ def main():
 
             game_block.append(f"File: {txt.relative_to(apk_out).as_posix()}")
             # categories in stable order: alphabetical, with unknown last
-            cats = sorted(by_cat.keys(), key=lambda c: ("zzz" if c == "unknown" else c))
+            cats = sorted(by_cat.keys())
             for cat in cats:
                 game_block.append(f"  [CATEGORY] {cat}")
                 for h in by_cat[cat]:
@@ -242,6 +249,19 @@ def main():
 
         results["summary"]["files_with_hits"] = files_with_hits
         results["summary"]["total_term_hits"] = total_term_hits
+        # --- enablement-only detection for this APK ---
+        all_hits = [
+            h
+            for m in results["matches"]
+            for h in m.get("hits", [])
+        ]
+
+        has_enablement = any(h.get("category") == FALLBACK_CATEGORY for h in all_hits)
+        has_non_enablement = any(h.get("category") != FALLBACK_CATEGORY for h in all_hits)
+
+        if has_enablement and not has_non_enablement:
+            enablement_only_apks.append(apk_out.name)
+
 
         # Write per-APK JSON
         out_file = apk_out / "scan_matches.json"
@@ -274,6 +294,19 @@ def main():
             for row in csv_rows:
                 writer.writerow(row)
         print(f"[+] Wrote CSV summary: {csv_path.resolve()}")
+
+    print("\n=== APKs with ONLY Eye-Tracking Enablement hits ===")
+    if enablement_only_apks:
+        for name in enablement_only_apks:
+            print(" -", name)
+    else:
+        print(" (none)")
+
+    (enablement_only_path := scan_results_dir / "enablement_only_apks.txt").write_text(
+        "\n".join(enablement_only_apks) + ("\n" if enablement_only_apks else ""),
+        encoding="utf-8"
+    )
+    print(f"[+] Wrote enablement-only list: {enablement_only_path.resolve()}")
 
 
 if __name__ == "__main__":
